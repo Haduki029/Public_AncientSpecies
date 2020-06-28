@@ -7,13 +7,13 @@
     <label>ケープ</label>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/stocking/NeeSo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>20</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -36,7 +36,57 @@
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/F_WHE_apApparelsparel/stocking/NeeSo</wornGraphicPath>
+      <wornGraphicPath>WHE/Apparels/stocking/NeeSo</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>AS_WHE_Colonist</li>
+		    <li>AS_WHE_Vllager</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Stripe Nee Socks -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Stripe_Neeso</defName>
+    <description>皮や布で作られた、縞模様入りの高品質ニーソックス。</description>
+    <label>ケープ</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/stocking/StripeNeeSo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <!-- <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker> -->
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/stocking/StripeNeeSo</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>

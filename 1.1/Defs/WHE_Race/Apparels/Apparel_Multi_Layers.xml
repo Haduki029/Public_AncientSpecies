@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Maid Ware -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_MaidWare</defName>
+    <description>皮と布、少量の金属も使用されている、軽くで丈夫なメイド服。少しだけ移動速度と作業速度が上がる。</description>
+    <label>メイド服</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/multi_layers/MaidWare</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>10</Steel>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+      <Flammability>0.8</Flammability>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+    </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+		    <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/multi_layers/MaidWare</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>

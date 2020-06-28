@@ -20,7 +20,7 @@
     <useHitPoints>True</useHitPoints>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-      <drawSize>1.5</drawSize>
+      <drawSize>2.5</drawSize>
     </graphicData>
     <thingCategories>
       <li>Apparel</li>
