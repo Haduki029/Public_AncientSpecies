@@ -18,6 +18,6 @@ namespace AS_WHE
 
         public static PawnKindDef AS_WHE_Colonist;
 
-        public static PawnKindDef AS_WHE_Citizen;
+        public static PawnKindDef AS_WHE_Vllager;
     }
 }

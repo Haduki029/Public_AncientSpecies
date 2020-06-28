@@ -42,6 +42,10 @@
       <layers>
         <li>OnSkin</li>
       </layers>
+      <tags>
+        <li>AS_WHE_Colonist</li>
+		    <li>AS_WHE_Vllager</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>

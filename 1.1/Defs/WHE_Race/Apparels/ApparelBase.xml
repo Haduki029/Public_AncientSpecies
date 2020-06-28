@@ -11,16 +11,16 @@
     <drawOrder>350</drawOrder>
   </ApparelLayerDef>
 
-  <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ApparelNoColorBase" Abstract="True">
+  <!-- Common Required Settings-->
+  <ThingDef Name="AS_WHE_ApparelCommonBase" Abstract="True">
     <thingClass>Apparel</thingClass>
     <category>Item</category>
     <selectable>True</selectable>
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
-	<techLevel>Industrial</techLevel>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-      <drawSize>1</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <thingCategories>
       <li>Apparel</li>
@@ -30,8 +30,8 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-	  <Beauty>4</Beauty>
-	</statBases>
+	    <Beauty>4</Beauty>
+	  </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
@@ -44,6 +44,11 @@
         <compClass>CompColorable</compClass>
       </li> 
     </comps>
+  </ThingDef>
+
+  <!-- Apparel Base Not according -->
+  <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ApparelNoColorBase" ParentName="AS_WHE_ApparelCommonBase" Abstract="True">
+	  <techLevel>Industrial</techLevel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -57,39 +62,9 @@
     </recipeMaker>
   </ThingDef>
   
-  <ThingDef Name="AS_WHE_ApparelColorBase" Abstract="True">
-    <thingClass>Apparel</thingClass>
-    <category>Item</category>
-    <selectable>True</selectable>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
+  <!-- Apparel Base Color according to the material -->
+  <ThingDef Name="AS_WHE_ApparelColorBase" ParentName="AS_WHE_ApparelCommonBase" Abstract="True">
 	  <techLevel>Industrial</techLevel>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-	  <Beauty>4</Beauty>
-	</statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li>
-        <compClass>CompColorable</compClass>
-      </li> 
-    </comps>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>

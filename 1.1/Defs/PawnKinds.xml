@@ -11,7 +11,7 @@
     <label>Weeb Harf Elf Colonist</label>
     <defaultFactionType>AS_WHE_Player</defaultFactionType>
     <backstoryCategories>
-      <li>AS_WHE_Citizen</li>
+      <li>AS_WHE_Vllager</li>
     </backstoryCategories>
     <apparelTags>
       <li>AS_WHE_Colonist</li>
@@ -29,19 +29,19 @@
 <!--==============================================NPC기본==============================================-->
   <PawnKindDef Name="AS_WHE_NPCBase" Abstract="True">
     <race>AS_WHE_Race</race>
-    <defaultFactionType>AT_Kurin_KurinFaction</defaultFactionType>
+    <defaultFactionType>AS_WHE_KurinFaction</defaultFactionType>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
     <invNutrition>3</invNutrition>
     <apparelRequired>
-      <li>AT_Kurin_Underwear</li>
+      <li>AS_WHE_Underwear</li>
     </apparelRequired>
   </PawnKindDef>
-<!--==============================================NPC세부==============================================-->
-<!--시민-->
-  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
-    <defName>AT_Kurin_Citizen</defName>
-    <label>ancient kurin citizen</label>
+<!--==============================================NPC Settings==============================================-->
+<!-- Citizen -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase">
+    <defName>AS_WHE_Vllager</defName>
+    <label>Half Elf villager</label>
     <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
@@ -50,11 +50,11 @@
       <max>800</max>
     </apparelMoney>
     <apparelTags>
-      <li>AT_Kurin_Citizen</li>
+      <li>AS_WHE_Vllager</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryCategories>
-      <li>AT_Kurin_Citizen</li>
+      <li>AS_WHE_Vllager</li>
     </backstoryCategories>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
@@ -69,7 +69,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-  </PawnKindDef> -->
+  </PawnKindDef>
 <!--자경단-->
   <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
     <defName>AT_Kurin_Vigilante</defName>

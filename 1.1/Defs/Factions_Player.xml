@@ -71,7 +71,7 @@
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 	<techLevel>Industrial</techLevel>
 	<backstoryCategories>
-		<li>AS_WHE_Citizen</li>
+		<li>AS_WHE_Vllager</li>
 	</backstoryCategories>
 	<geneticVariance>1</geneticVariance>
 	<hairTags>
@@ -104,22 +104,37 @@
     </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
       <li>
-          <kindDef>Combat</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
-          <AS_WHE_Colonist>20</AS_WHE_Colonist>
+          <AS_WHE_Vllager>8</AS_WHE_Vllager>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
           <options>
-            <AS_WHE_Colonist>10</AS_WHE_Colonist>
+            <AS_WHE_Vllager>10</AS_WHE_Vllager>
           </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <AS_WHE_Colonist>8</AS_WHE_Colonist>
+          <AS_WHE_Vllager>14</AS_WHE_Vllager>
         </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+			  <AS_WHE_Vllager>1</AS_WHE_Vllager>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <AS_WHE_Vllager>8</AS_WHE_Vllager>
+        </guards>
       </li>
     </pawnGroupMakers>
   </FactionDef>
