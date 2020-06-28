@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--==============================================PC Kind Settings==============================================-->
+  <PawnKindDef>
+    <race>AS_WHE_Race</race>
+    <combatPower>40</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defName>AS_WHE_Colonist</defName>
+    <label>Weeb Harf Elf Colonist</label>
+    <defaultFactionType>AS_WHE_Player</defaultFactionType>
+    <backstoryCategories>
+      <li>AS_WHE_Citizen</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>AS_WHE_Colonist</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>400</min>
+      <max>600</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>AS_WHE_Underwear</li>
+    </apparelRequired>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+<!--==============================================NPC기본==============================================-->
+  <PawnKindDef Name="AS_WHE_NPCBase" Abstract="True">
+    <race>AS_WHE_Race</race>
+    <defaultFactionType>AT_Kurin_KurinFaction</defaultFactionType>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+    <invNutrition>3</invNutrition>
+    <apparelRequired>
+      <li>AT_Kurin_Underwear</li>
+    </apparelRequired>
+  </PawnKindDef>
+<!--==============================================NPC세부==============================================-->
+<!--시민-->
+  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
+    <defName>AT_Kurin_Citizen</defName>
+    <label>ancient kurin citizen</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>AT_Kurin_Citizen</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>AT_Kurin_Citizen</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef> -->
+<!--자경단-->
+  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
+    <defName>AT_Kurin_Vigilante</defName>
+    <label>ancient kurin vigilante</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>AT_Kurin_Citizen</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>300</min>
+      <max>500</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>AT_Kurin_Citizen</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef> -->
+<!--상인-->
+  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
+    <defName>AT_Kurin_Trader</defName>
+    <label>ancient kurin trader</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+	<trader>true</trader>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>AT_Kurin_Trader</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>AT_Kurin_Trader</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>500</min>
+            <max>600</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef> -->
+<!--엘리트-->
+  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
+    <defName>AT_Kurin_Elite</defName>
+    <label>ancient kurin elite</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+	<factionLeader>true</factionLeader>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>AT_Kurin_Citizen</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>AT_Kurin_Elite</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef> -->
+<!--군인(분대원)-->
+  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
+    <defName>AT_Kurin_Soldier</defName>
+    <label>ancient kurin army soldier</label>
+    <combatPower>100</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+	<minGenerationAge>22</minGenerationAge>
+	<maxGenerationAge>34</maxGenerationAge>
+    <apparelMoney>
+      <min>1400</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>AT_Kurin_MilitaryA</li>
+    </apparelTags>
+	<apparelRequired>
+      <li>AT_Kurin_MilitaryUniform</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>AT_Kurin_AssaultRifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>AT_Kurin_Army</li>
+      <li>AT_Kurin_Soldier</li>
+    </backstoryCategories>
+  </PawnKindDef> -->
+<!--군인(분대장)-->
+  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
+    <defName>AT_Kurin_EliteSoldier</defName>
+    <label>ancient kurin army sergeant</label>
+    <combatPower>120</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+	<minGenerationAge>22</minGenerationAge>
+	<maxGenerationAge>34</maxGenerationAge>
+    <apparelMoney>
+      <min>1400</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>AT_Kurin_MilitaryB</li>
+    </apparelTags>
+	<apparelRequired>
+      <li>AT_Kurin_MilitaryUniform</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>AT_Kurin_AssaultRifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>AT_Kurin_Army</li>
+      <li>AT_Kurin_EliteSoldier</li>
+    </backstoryCategories>
+  </PawnKindDef> -->
+<!--군인(저격수)-->
+  <!-- <PawnKindDef ParentName="AT_Kurin_NPCBase">
+    <defName>AT_Kurin_Sniper</defName>
+    <label>ancient kurin army sniper</label>
+    <combatPower>140</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+	<minGenerationAge>22</minGenerationAge>
+	<maxGenerationAge>34</maxGenerationAge>
+    <apparelMoney>
+      <min>1400</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>AT_Kurin_MilitaryA</li>
+    </apparelTags>
+	<apparelRequired>
+      <li>AT_Kurin_MilitaryUniform</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>AT_Kurin_Army</li>
+      <li>AT_Kurin_Sniper</li>
+    </backstoryCategories>
+  </PawnKindDef> -->
+</Defs>

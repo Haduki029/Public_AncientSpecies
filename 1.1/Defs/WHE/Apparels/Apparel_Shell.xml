@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Cape -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_BulletProofVest</defName>
+    <description>スチールと布で作られたシンプルな防弾ベスト。</description>
+    <label>ケープ</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/shell/BulletProofVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Cloth>10</Cloth>
+      <Steel>20</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8500</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/shell/BulletProofVest</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>

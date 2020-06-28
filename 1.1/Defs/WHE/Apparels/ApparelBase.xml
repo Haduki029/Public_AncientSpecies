@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ApparelLayerDef>
+    <defName>AS_NeckLayer</defName>
+    <label>neck</label>
+    <drawOrder>350</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>AS_Stocking</defName>
+    <label>neck</label>
+    <drawOrder>350</drawOrder>
+  </ApparelLayerDef>
+
+  <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ApparelNoColorBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+	<techLevel>Industrial</techLevel>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+	  <Beauty>4</Beauty>
+	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li> 
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="AS_WHE_ApparelColorBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+	  <techLevel>Industrial</techLevel>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+	  <Beauty>4</Beauty>
+	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li> 
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

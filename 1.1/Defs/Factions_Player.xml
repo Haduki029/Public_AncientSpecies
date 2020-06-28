@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef>
+    <defName>AS_WHE_Player</defName>
+    <label>ハーフエルフのコロニー</label>
+    <description>ハーフエルフたちが暮らす集落。</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>AS_WHE_Colonist</basicMemberKind>
+    <pawnSingular>ハーフエルフ</pawnSingular>
+    <pawnsPlural>ハーフエルフ達</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+	<startingResearchTags>
+		<li>ClassicStart</li>
+	</startingResearchTags>
+	<hairTags>
+		<li>WHE</li>
+		<li>Urban</li>
+	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>DevilstrandCloth</li>
+			<li>Synthread</li>
+			<li>WoolAlpaca</li>
+			<li>WoolMuffalo</li>
+		</thingDefs>
+	</apparelStuffFilter>
+  </FactionDef>
+<!--=============================================================================================================================-->
+  <FactionDef>
+    <defName>AS_WHE_KurinFaction</defName>
+    <label>ハーフエルフの集落</label>
+    <description>ハーフエルフ達の集落。</description>
+    <colorSpectrum>
+      <li>(0.45, 0.72, 0.27)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>0</min>
+      <max>5</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-60</min>
+      <max>100</max>
+    </naturalColonyGoodwill>
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.00</goodwillDailyFall>
+<!--=============================================================================================================================-->
+    <pawnSingular>ハーフエルフ</pawnSingular>
+    <pawnsPlural>ハーフエルフ達</pawnsPlural>
+    <listOrderPriority>30</listOrderPriority>
+    <settlementGenerationWeight>0.8</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Leader</leaderTitle>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryCategories>
+		<li>AS_WHE_Citizen</li>
+	</backstoryCategories>
+	<geneticVariance>1</geneticVariance>
+	<hairTags>
+		<li>WHE</li>
+	</hairTags>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-30</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+          <kindDef>Combat</kindDef>
+        <options>
+          <AS_WHE_Colonist>20</AS_WHE_Colonist>
+        </options>
+      </li>
+      <li>
+          <kindDef>Peaceful</kindDef>
+          <options>
+            <AS_WHE_Colonist>10</AS_WHE_Colonist>
+          </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WHE_Colonist>8</AS_WHE_Colonist>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>

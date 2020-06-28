@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Nee Socks -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Neeso</defName>
+    <description>皮や布で作られたニーソックス。</description>
+    <label>ケープ</label>
+    <techLevel>Neolithic</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/stocking/NeeSo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.03</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <!-- <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker> -->
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/F_WHE_apApparelsparel/stocking/NeeSo</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>

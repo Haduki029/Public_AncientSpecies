@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+	<BodyPartDef>
+   	 <!-- <defName>AS_WHE_Ear</defName>
+   	 <label>ear</label>
+   	 <hitPoints>12</hitPoints>
+   	 <frostbiteVulnerability>5</frostbiteVulnerability>
+   	 <skinCovered>true</skinCovered>
+   	 <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags> -->
+	</BodyPartDef>
+</Defs>

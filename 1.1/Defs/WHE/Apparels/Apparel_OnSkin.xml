@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- UnderWare -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Underwear</defName>
+    <description>皮や布で作られた標準的な下着。</description>
+    <label>下着A（ハーフエルフ）</label>
+    <techLevel>Neolithic</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/onskin/UnderWare</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <!-- <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker> -->
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/onskin/UnderWare</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>
