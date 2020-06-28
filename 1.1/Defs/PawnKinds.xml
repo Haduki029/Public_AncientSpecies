@@ -22,7 +22,7 @@
       <max>600</max>
     </apparelMoney>
     <apparelRequired>
-      <li>AS_WHE_Underwear</li>
+      <li>AS_WHE_UnderwearA</li>
     </apparelRequired>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>
@@ -34,7 +34,7 @@
 	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
     <invNutrition>3</invNutrition>
     <apparelRequired>
-      <li>AS_WHE_Underwear</li>
+      <li>AS_WHE_UnderwearA</li>
     </apparelRequired>
   </PawnKindDef>
 <!--==============================================NPC Settings==============================================-->

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Nee Socks -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_Neeso</defName>
     <description>皮や布で作られたニーソックス。</description>
-    <label>ケープ</label>
+    <label>ニーソックス</label>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
@@ -13,11 +13,9 @@
       <texPath>WHE/Apparels/stocking/NeeSo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>20</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>1000</WorkToMake>
@@ -38,7 +36,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/stocking/NeeSo</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>AS_Stocking</li>
       </layers>
       <tags>
         <li>AS_WHE_Colonist</li>
@@ -52,9 +50,9 @@
 
   <!-- Stripe Nee Socks -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WHE_Stripe_Neeso</defName>
+    <defName>AS_WHE_StripeNeeso</defName>
     <description>皮や布で作られた、縞模様入りの高品質ニーソックス。</description>
-    <label>ケープ</label>
+    <label>ストライプニーソックス</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
@@ -88,7 +86,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/stocking/StripeNeeSo</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>AS_Stocking</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

@@ -3,7 +3,7 @@
   <!-- Cape -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Cape</defName>
-    <description>皮や布で作られた肩掛け。</description>
+    <description>皮や布で作られた肩掛け。寒さと攻撃から身を守ります。</description>
     <label>ケープ</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -13,19 +13,19 @@
       <texPath>WHE/Apparels/middle/Cape</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>110</MaxHitPoints>
-      <WorkToMake>2200</WorkToMake>
-      <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1</EquipDelay>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <Mass>4</Mass>
+      <EquipDelay>2</EquipDelay>
     </statBases>
     <apparel>
       <bodyPartGroups>
@@ -33,6 +33,48 @@
         <li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/Cape</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Parka -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Parka</defName>
+    <description>皮や布で作られたパーカー。寒さと攻撃から身を守ります。</description>
+    <label>パーカー</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/middle/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <Mass>4</Mass>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/middle/Parka</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
