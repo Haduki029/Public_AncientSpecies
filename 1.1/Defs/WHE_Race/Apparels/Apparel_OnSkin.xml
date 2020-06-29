@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- UnderWare -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_UnderwearA</defName>
     <description>皮や布で作られたノーマルな下着。</description>
     <label>下着</label>
@@ -32,6 +32,9 @@
         <li>CraftingSpot</li>
       </recipeUsers>
     </recipeMaker> -->
+    <!-- <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements> -->
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -199,7 +202,7 @@
   <!-- UnderWare E -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearE</defName>
-    <description>皮や布で作られた下着？そのデザインは最早言葉で語ることすら憚られる、業の深い代物である。その魅力はパートナーの心を満たし、より強い絆で結ばれることだろう。</description>
+    <description>皮や布で作られた下着？そのデザインは最早言葉で語ることすら憚られる、業の深い代物である。その魅力にパートナーは心が満たされ、より強い絆で結ばれることだろう。</description>
     <label>スマートインナー</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>

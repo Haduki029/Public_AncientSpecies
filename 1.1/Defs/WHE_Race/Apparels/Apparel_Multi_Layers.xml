@@ -3,7 +3,7 @@
   <!-- Maid Ware -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_MaidWare</defName>
-    <description>皮と布、少量の金属も使用されている、軽くで丈夫なメイド服。少しだけ移動速度と作業速度が上がる。</description>
+    <description>軽く、丈夫なメイド服。ロングスカートのゆったりとした、シックなデザインなっている。少しだけ移動速度と作業速度が上がる。</description>
     <label>メイド服</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -14,7 +14,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Cloth>120</Cloth>
+      <Cloth>150</Cloth>
       <Steel>10</Steel>
       <Plasteel>10</Plasteel>
     </costList>
@@ -52,7 +52,7 @@
   <!-- Plate Armor -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_PlateArmor</defName>
-    <description>金属で作られたハーフエルフ式のプレートアーマー。丈夫で首、胴体、肩、腕を守ってくれるが、重い。</description>
+    <description>金属で作られたハーフエルフ式のプレートアーマー。首、胴体、肩、腕を守ってくれ、非常に丈夫だが、若干重い。</description>
     <label>ハーフエルフ式プレートアーマー</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>

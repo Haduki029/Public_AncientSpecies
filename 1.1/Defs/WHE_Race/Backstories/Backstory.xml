@@ -2,7 +2,7 @@
 <Defs>
 	<!-- 村民　子供 -->
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
-		<defName>AS_WHE_BackstoryChild_01</defName>
+		<defName>AS_WHE_BackstoryChild_a</defName>
 		<title>ハーフエルフ村の子供</title>
 		<titleShort>ハーフエルフ村の子供</titleShort>
 		<baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、ハーフエルフの小さな集落で幼少期を過ごしました。</baseDescription>
@@ -22,16 +22,74 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>AS_WHE_Colonist</li>
+			<li>AS_WHE_Vllager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	<!-- 奴隷　子供 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryChild_b</defName>
+		<title>ハーフエルフの子供奴隷</title>
+		<titleShort>ハーフエルフの子供奴隷</titleShort>
+		<baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</baseDescription>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
 			<li>AS_WHE_Vllager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
 	<!-- ハーフエルフの民 -->
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Adult">
-		<defName>AS_WHE_BackstoryAdult_01</defName>
+		<defName>AS_WHE_BackstoryAdult_a</defName>
 		<title>ハーフエルフの民</title>
 		<titleShort>ハーフエルフの民</titleShort>
 		<baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>AS_WHE_Colonist</li>
+			<li>AS_WHE_Vllager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの狩人 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Adult">
+		<defName>AS_WHE_BackstoryAdult_b</defName>
+		<title>ハーフエルフの狩人</title>
+		<titleShort>ハーフエルフの狩人</titleShort>
+		<baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>AS_WHE_Vllager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの奴隷 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Adult">
+		<defName>AS_WHE_BackstoryAdult_c</defName>
+		<title>ハーフエルフの奴隷</title>
+		<titleShort>ハーフエルフの奴隷</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
 		<slot>Adulthood</slot>
 		<forcedTraits>
 			<li>
@@ -40,6 +98,15 @@
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
 		<spawnCategories>
 			<li>AS_WHE_Vllager</li>
 		</spawnCategories>

@@ -76,7 +76,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/Parka</wornGraphicPath>
       <layers>
-        <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

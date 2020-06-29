@@ -39,7 +39,7 @@
   </FactionDef>
 <!--=============================================================================================================================-->
   <FactionDef>
-    <defName>AS_WHE_KurinFaction</defName>
+    <defName>AS_WHE_Faction</defName>
     <label>ハーフエルフの集落</label>
     <description>ハーフエルフ達の集落。</description>
     <colorSpectrum>

@@ -4,85 +4,84 @@
     <defName>AS_WHE_Race</defName>
     <label>ハーフエルフ</label>
     <description>ハーフエルフです。</description>
-<!--=============================================================================================================================-->
+
     <alienRace>
 		<generalSettings>
 			<maleGenderProbability>0.02</maleGenderProbability>
 			<immuneToAge>true</immuneToAge>
-            <canLayDown>true</canLayDown>
-            <maxDamageForSocialfight>6</maxDamageForSocialfight>
-            <humanRecipeImport>true</humanRecipeImport>
-            <disallowedTraits>
-				<li>DislikesWomen</li>
-				<li>DrugDesire</li>
-				<li>Abrasive</li>
-				<li>AnnoyingVoice</li>
-				<li>CreepyBreathing</li>
-            </disallowedTraits>
-            <factionRelations>
-                <li>
-                    <factions>
-                       <li>AS_WHE_Faction</li>
-                    </factions>
-                    <goodwill>
-                       <min>100</min>
-                       <max>100</max>
-                    </goodwill>
-                </li>
-            </factionRelations>
-		        <alienPartGenerator>
-              <alienbodytypes>
-                <li>Female</li>
-              </alienbodytypes>
-              <aliencrowntypes>
-                <li>F_WHE_1</li>
-                <li>F_WHE_2</li>
-                <li>F_WHE_3</li>
-                <li>F_WHE_4</li>
-                <li>F_WHE_5</li>
-                <li>F_WHE_6</li>
-              </aliencrowntypes>
-              <useGenderedHeads>false</useGenderedHeads>
-              <useGenderedBodies>false</useGenderedBodies>
-              <customDrawSize>(1.1, 1.1)</customDrawSize>
-              <customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
-              <alienskincolorgen Class="ColorGenerator_Options">
-                <options>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(0.949, 0.929, 0.878, 1.000)</only>
-                    </li>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(0.974, 0.933, 0.857, 1.000)</only>
-                    </li>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(1.000, 0.937, 0.835, 1.000)</only>
-                    </li>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(1.000, 0.937, 0.790, 1.000)</only>
-                    </li>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(1.000, 0.937, 0.741, 1.000)</only>
-                    </li>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(0.949, 0.784, 0.553, 1.000)</only>
-                    </li>
-                    <li>
-                        <weight>5</weight>
-                        <only>RGBA(0.894, 0.620, 0.353, 1.000)</only>
-                    </li>
-					
-                    <li>
-                        <weight>5</weight>
-                        <only>RGBA(0.708, 0.492, 0.273, 1.000)</only>
-                    </li>
-                </options>
-            </alienskincolorgen>
+        <canLayDown>true</canLayDown>
+        <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <humanRecipeImport>true</humanRecipeImport>
+        <disallowedTraits>
+          <li>DislikesWomen</li>
+          <li>DrugDesire</li>
+          <li>Abrasive</li>
+          <li>AnnoyingVoice</li>
+          <li>CreepyBreathing</li>
+        </disallowedTraits>
+        <factionRelations>
+          <li>
+            <factions>
+              <li>AS_WHE_Faction</li>
+            </factions>
+            <goodwill>
+              <min>100</min>
+              <max>100</max>
+            </goodwill>
+          </li>
+        </factionRelations>
+		    <alienPartGenerator>
+          <alienbodytypes>
+            <li>Female</li>
+          </alienbodytypes>
+          <aliencrowntypes>
+            <li>F_WHE_1</li>
+            <li>F_WHE_2</li>
+            <li>F_WHE_3</li>
+            <li>F_WHE_4</li>
+            <li>F_WHE_5</li>
+            <li>F_WHE_6</li>
+          </aliencrowntypes>
+          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+          <customDrawSize>(1.1, 1.1)</customDrawSize>
+          <customPortraitDrawSize>(0.95, 0.95)</customPortraitDrawSize>
+          <alienskincolorgen Class="ColorGenerator_Options">
+            <options>
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.949, 0.929, 0.878, 1.000)</only>
+              </li>
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.974, 0.933, 0.857, 1.000)</only>
+              </li>
+              <li>
+                <weight>10</weight>
+                <only>RGBA(1.000, 0.937, 0.835, 1.000)</only>
+              </li>
+              <li>
+                <weight>10</weight>
+                <only>RGBA(1.000, 0.937, 0.790, 1.000)</only>
+              </li>
+              <li>
+                <weight>10</weight>
+                <only>RGBA(1.000, 0.937, 0.741, 1.000)</only>
+              </li>
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.949, 0.784, 0.553, 1.000)</only>
+              </li>
+              <li>
+                <weight>5</weight>
+                <only>RGBA(0.894, 0.620, 0.353, 1.000)</only>
+              </li>
+					    <li>
+                <weight>5</weight>
+                <only>RGBA(0.708, 0.492, 0.273, 1.000)</only>
+              </li>
+            </options>
+        </alienskincolorgen>
 		</alienPartGenerator>
     </generalSettings>
 <!--=============================================================================================================================-->
@@ -127,7 +126,7 @@
 	</alienRace>
 <!--=============================================================================================================================-->
     <statBases>
-      <MarketValue>4000</MarketValue>
+      <MarketValue>3000</MarketValue>
       <Flammability>1</Flammability>
       <MoveSpeed>5.0</MoveSpeed>
 	    <MentalBreakThreshold>0.03</MentalBreakThreshold>

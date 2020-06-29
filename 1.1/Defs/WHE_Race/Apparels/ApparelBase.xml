@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ApparelLayerDef>
-    <defName>AS_NeckLayer</defName>
-    <label>neck</label>
-    <drawOrder>350</drawOrder>
-  </ApparelLayerDef>
-  <ApparelLayerDef>
-    <defName>AS_Stocking</defName>
-    <label>leg</label>
-    <drawOrder>50</drawOrder>
-  </ApparelLayerDef>
-
   <!-- Common Required Settings-->
   <ThingDef Name="AS_WHE_ApparelCommonBase" Abstract="True">
     <thingClass>Apparel</thingClass>
@@ -20,7 +9,7 @@
     <useHitPoints>True</useHitPoints>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-      <drawSize>10</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <thingCategories>
       <li>Apparel</li>
