@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Cape -->
+  <!-- 防弾ベスト -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WHE_Cape</defName>
-    <description>皮や布で作られた肩掛け。寒さと攻撃から身を守ります。</description>
-    <label>ケープ</label>
+    <defName>AS_WHE_BulletProofVest</defName>
+    <description>スチールと布で作られたシンプルな防弾ベスト。</description>
+    <label>防弾ベスト</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>WHE/Apparels/middle/Cape</texPath>
+      <texPath>WHE/Apparels/middle/BulletProofVest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>80</costStuffCount>
+    <costStuffCount>40</costStuffCount>
     <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
+      <li>Metallic</li>
     </stuffCategories>
+    <costList>
+      <Cloth>10</Cloth>
+      <Steel>20</Steel>
+    </costList>
     <statBases>
-      <MaxHitPoints>160</MaxHitPoints>
-      <WorkToMake>7000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-      <Mass>4</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>8500</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-        <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/middle/Cape</wornGraphicPath>
+      <wornGraphicPath>WHE/Apparels/middle/BulletProofVest</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>Middle</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -42,41 +47,104 @@
     </apparel>
   </ThingDef>
 
-  <!-- Parka -->
+  <!-- Plate Armor -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WHE_Parka</defName>
-    <description>皮や布で作られたパーカー。寒さと攻撃から身を守ります。</description>
-    <label>パーカー</label>
+    <defName>AS_WHE_PlateArmor</defName>
+    <description>金属で作られたハーフエルフ式のプレートアーマー。首、胴体、肩、腕を守ってくれ、非常に丈夫だが、若干重い。</description>
+    <label>ハーフエルフ式プレートアーマー</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>WHE/Apparels/middle/Parka</texPath>
+      <texPath>WHE/Apparels/middle/PlateArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>80</costStuffCount>
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+    <costStuffCount>190</costStuffCount>
     <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
+      <li>Metallic</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>160</MaxHitPoints>
-      <WorkToMake>7000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
-      <Mass>4</Mass>
-      <EquipDelay>2</EquipDelay>
+      <MaxHitPoints>320</MaxHitPoints>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>13</Mass>
+      <StuffEffectMultiplierArmor>0.84</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+      <Flammability>0.2</Flammability>
     </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
+        <li>Neck</li>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Arms</li>
+		    <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/middle/Parka</wornGraphicPath>
+      <wornGraphicPath>WHE/Apparels/middle/PlateArmor</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Plate Armor -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_MarineArmor</defName>
+    <description>ハーフエルフ式の高い強度を持つ高性能アーマーです。</description>
+    <label>ハーフエルフ式マリーンアーマー</label>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_High</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/middle/MarineArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <Uranium>12</Uranium>
+    </costList>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>360</MaxHitPoints>
+      <WorkToMake>65000</WorkToMake>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>34</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>18</EquipDelay>
+      <Flammability>0.01</Flammability>
+    </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+		</equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+		    <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/middle/MarineArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

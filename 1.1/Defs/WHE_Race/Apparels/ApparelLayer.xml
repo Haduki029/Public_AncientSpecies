@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ApparelLayerDef>
-    <defName>AS_NeckLayer</defName>
-    <label>neck</label>
-    <drawOrder>350</drawOrder>
+    <defName>AS_UnderMiddle</defName>
+    <label>under middle</label>
+    <drawOrder>50</drawOrder>
   </ApparelLayerDef>
   <ApparelLayerDef>
-    <defName>AS_Stocking</defName>
+    <defName>AS_Neck</defName>
+    <label>neck layer</label>
+    <drawOrder>380</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>AS_legs</defName>
     <label>leg</label>
-    <drawOrder>50</drawOrder>
+    <drawOrder>10</drawOrder>
   </ApparelLayerDef>
 </Defs>

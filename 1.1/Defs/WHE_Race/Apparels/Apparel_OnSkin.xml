@@ -39,7 +39,6 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/UnderWareA</wornGraphicPath>
       <layers>
@@ -91,7 +90,6 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/UnderWareB</wornGraphicPath>
       <layers>
@@ -139,7 +137,6 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/UnderWareC</wornGraphicPath>
       <layers>
@@ -154,7 +151,7 @@
   <!-- UnderWare D -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_UnderwearD</defName>
-    <description>皮や布で作られたセクシーな下着。そのデザインは相手の心をはやらせ、最後には幸福感で満たすだろう。</description>
+    <description>皮や布で作られたセクシーな下着。そのデザインは相手の心をはやらせ、初心な相手であるほど平静さを忘れさせます。きっと互いに幸福感で満たされることでしょう。</description>
     <label>セクシーな下着</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -187,7 +184,6 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/UnderWareD</wornGraphicPath>
       <layers>
@@ -235,7 +231,6 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/UnderWareE</wornGraphicPath>
       <layers>
@@ -283,9 +278,102 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/onskin/UnderWareF</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Nee Socks -->
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+    <defName>AS_WHE_Neeso</defName>
+    <description>皮や布で作られたニーソックス。</description>
+    <label>ニーソックス</label>
+    <techLevel>Neolithic</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/onskin/NeeSo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.03</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <!-- <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker> -->
+    <apparel>
+      <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/onskin/UnderWareE</wornGraphicPath>
+      <wornGraphicPath>WHE/Apparels/onskin/NeeSo</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>AS_WHE_Colonist</li>
+		    <li>AS_WHE_Vllager</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Stripe Nee Socks -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_StripeNeeso</defName>
+    <description>皮や布で作られた、縞模様入りの高品質ニーソックス。</description>
+    <label>ストライプニーソックス</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/onskin/StripeNeeSo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <!-- <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker> -->
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/onskin/StripeNeeSo</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>

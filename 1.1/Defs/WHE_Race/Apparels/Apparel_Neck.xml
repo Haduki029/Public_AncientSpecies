@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Maid Ware -->
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+    <defName>AS_WHE_Scarf</defName>
+    <description>軽く、丈夫なメイド服。ロングスカートのゆったりとした、シックなデザインなっている。少しだけ移動速度と作業速度が上がる。</description>
+    <label>メイド服</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>14000</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <layers>
+        <li>AS_Neck</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>

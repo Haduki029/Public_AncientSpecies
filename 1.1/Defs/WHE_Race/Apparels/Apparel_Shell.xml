@@ -2,42 +2,123 @@
 <Defs>
   <!-- Cape -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WHE_BulletProofVest</defName>
-    <description>スチールと布で作られたシンプルな防弾ベスト。</description>
+    <defName>AS_WHE_Cape</defName>
+    <description>皮や布で作られた肩掛け。寒さと攻撃から身を守ります。</description>
     <label>ケープ</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
     </recipeMaker>
     <graphicData>
-      <texPath>WHE/Apparels/shell/BulletProofVest</texPath>
+      <texPath>WHE/Apparels/shell/Cape</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>80</costStuffCount>
     <stuffCategories>
-      <li>Metallic</li>
+      <li>Fabric</li>
+      <li>Leathery</li>
     </stuffCategories>
-    <costList>
-      <Cloth>10</Cloth>
-      <Steel>20</Steel>
-    </costList>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>8500</WorkToMake>
-      <Mass>2</Mass>
-      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.2</ArmorRating_Heat>
-      <Insulation_Cold>2</Insulation_Cold>
-      <Insulation_Heat>1</Insulation_Heat>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <Mass>4</Mass>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
+        <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/shell/BulletProofVest</wornGraphicPath>
+      <wornGraphicPath>WHE/Apparels/shell/Cape</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Parka -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Parka</defName>
+    <description>皮や布で作られたパーカー。寒さと攻撃から身を守ります。</description>
+    <label>パーカー</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/shell/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>7000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+      <Mass>4</Mass>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/shell/Parka</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- AncientPoncho -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_AncientPoncho</defName>
+    <description>とてもシックななかに、金による模様があてられたポンチョ。非常に丈夫な素材で作られており、防御性能に優れている。また、寒さや暑さからも身を守ります。</description>
+    <label>ポンチョ</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/shell/Poncho</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Hyperweave>40</Hyperweave>
+      <Gold>10</Gold>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToMake>35000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>3</StuffEffectMultiplierInsulation_Heat>
+      <Mass>8</Mass>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/shell/Poncho</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
