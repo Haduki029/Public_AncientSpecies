@@ -117,6 +117,9 @@
         <li>AS_WHE_Parka</li>
         <li>AS_WHE_AncientPoncho</li>
         <li>AS_WHE_Scarf</li>
+        <li>AS_WHE_ShirtButton</li>
+        <li>AS_WHE_MarineHelmet</li>
+        <li>AS_WHE_Helmet</li>
       </apparelList>
 			<whiteApparelList>
 			  <li>Apparel_ShieldBelt</li>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Helmet -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Helmet</defName>
+    <description>ヘルメット</description>
+    <label>ヘルメット</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/overhead/AS_WHE_ヘルメット</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>5500</WorkToMake>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.58</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <!-- <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker> -->
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/overhead/AS_WHE_ヘルメット</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Marine Helmet -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_MarineHelmet</defName>
+    <description>マリーンヘルメット</description>
+    <label>ハーフエルフ式マリーンヘルメット</label>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/overhead/AS_WHE_マリーンヘルメット</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>18500</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.55</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2.4</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <!-- <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker> -->
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/overhead/AS_WHE_マリーンヘルメット</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>

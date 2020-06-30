@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Maid Ware -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <!-- Scarf -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Scarf</defName>
     <description>軽く、丈夫なメイド服。ロングスカートのゆったりとした、シックなデザインなっている。少しだけ移動速度と作業速度が上がる。</description>
     <label>メイド服</label>
@@ -33,7 +33,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
       <layers>
-        <li>AS_Neck</li>
+        <li>Belt</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

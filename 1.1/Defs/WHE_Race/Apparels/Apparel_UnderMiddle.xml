@@ -48,4 +48,46 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
+
+  <!-- ボタンシャツ -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_ShirtButton</defName>
+    <description>ボタンシャツ</description>
+    <label>ボタンシャツ</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/underwear/AS_WHE_shirtbutton</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>110</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.25</Mass>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/underwear/AS_WHE_shirtbutton</wornGraphicPath>
+      <layers>
+        <li>AS_UnderMiddle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
 </Defs>

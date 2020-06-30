@@ -7,8 +7,8 @@
   </ApparelLayerDef>
   <ApparelLayerDef>
     <defName>AS_Neck</defName>
-    <label>neck layer</label>
-    <drawOrder>380</drawOrder>
+    <label>neck</label>
+    <drawOrder>350</drawOrder>
   </ApparelLayerDef>
   <ApparelLayerDef>
     <defName>AS_legs</defName>

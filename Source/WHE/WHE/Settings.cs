@@ -28,6 +28,13 @@ namespace AS_WHE
         [HarmonyPostfix]
         private static void Postfix(ref Pawn pawn)
         {
+            // ApparelLayerDefOf
+            /*var props = typeof(ApparelLayerDefOf).GetProperties();
+            foreach (var prop in props)
+            {
+                Log.Message("[WHE Log] Test Log Settings PawnGenColorClass: " + prop);
+            }*/
+
             if (pawn.apparel != null)
             {
                 List<Apparel> wornApparel = pawn.apparel.WornApparel;
@@ -52,6 +59,7 @@ namespace AS_WHE
         [HarmonyPostfix]
         static void Postfix(ref Thing __result)
         {
+            //Log.Message("WHE ThingMakeColorClass Check ApparelLayer: " + ApparelProperties.LastLayer);
             ThingWithComps twc = __result as ThingWithComps;
             if (twc != null)
             {
