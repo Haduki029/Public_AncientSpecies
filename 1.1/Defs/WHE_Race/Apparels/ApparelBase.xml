@@ -7,8 +7,8 @@
   </ApparelLayerDef>
   <ApparelLayerDef>
     <defName>AS_Stocking</defName>
-    <label>neck</label>
-    <drawOrder>350</drawOrder>
+    <label>leg</label>
+    <drawOrder>50</drawOrder>
   </ApparelLayerDef>
 
   <!-- Common Required Settings-->
@@ -20,7 +20,7 @@
     <useHitPoints>True</useHitPoints>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-      <drawSize>2.5</drawSize>
+      <drawSize>10</drawSize>
     </graphicData>
     <thingCategories>
       <li>Apparel</li>

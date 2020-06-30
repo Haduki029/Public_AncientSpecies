@@ -35,7 +35,7 @@
     <label>複雑な衣類</label>
     <description>ハーフエルフ達の複雑な衣類を作成するための技術。</description>
     <baseCost>1200</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>AS_WHE_Apparel_Elementary</li>
     </prerequisites>

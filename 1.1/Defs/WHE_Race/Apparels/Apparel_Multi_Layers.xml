@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Maid Ware -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_MaidWare</defName>
     <description>皮と布、少量の金属も使用されている、軽くで丈夫なメイド服。少しだけ移動速度と作業速度が上がる。</description>
     <label>メイド服</label>
@@ -14,26 +14,19 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
+      <Cloth>120</Cloth>
       <Steel>10</Steel>
       <Plasteel>10</Plasteel>
     </costList>
-    <costStuffCount>80</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
-      <WorkToMake>8000</WorkToMake>
+      <WorkToMake>12000</WorkToMake>
       <Mass>3</Mass>
-      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
       <Flammability>0.8</Flammability>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.3</ArmorRating_Heat>
     </statBases>
     <equippedStatOffsets>
 			<MoveSpeed>0.1</MoveSpeed>
@@ -55,4 +48,111 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
+
+  <!-- Plate Armor -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_PlateArmor</defName>
+    <description>金属で作られたハーフエルフ式のプレートアーマー。丈夫で首、胴体、肩、腕を守ってくれるが、重い。</description>
+    <label>ハーフエルフ式プレートアーマー</label>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/multi_layers/PlateArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>30</Cloth>
+    </costList>
+    <costStuffCount>190</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>320</MaxHitPoints>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>13</Mass>
+      <StuffEffectMultiplierArmor>0.84</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+		    <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/multi_layers/PlateArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Plate Armor -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_MarineArmor</defName>
+    <description>ハーフエルフ式の高い強度を持つ高性能アーマーです。</description>
+    <label>ハーフエルフ式マリーンアーマー</label>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_High</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>WHE/Apparels/multi_layers/MarineArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <Uranium>12</Uranium>
+    </costList>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>360</MaxHitPoints>
+      <WorkToMake>65000</WorkToMake>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>34</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>18</EquipDelay>
+      <Flammability>0.01</Flammability>
+    </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+		</equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+		    <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/multi_layers/MarineArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+
 </Defs>
