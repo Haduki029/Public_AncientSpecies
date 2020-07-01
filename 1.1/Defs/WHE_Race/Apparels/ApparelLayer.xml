@@ -6,6 +6,11 @@
     <drawOrder>50</drawOrder>
   </ApparelLayerDef>
   <ApparelLayerDef>
+    <defName>AS_UnderShell</defName>
+    <label>under shell</label>
+    <drawOrder>150</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
     <defName>AS_Neck</defName>
     <label>neck</label>
     <drawOrder>350</drawOrder>

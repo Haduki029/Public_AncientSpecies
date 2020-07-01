@@ -3,7 +3,7 @@
   <!-- Scarf -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Scarf</defName>
-    <description>軽く、丈夫なメイド服。ロングスカートのゆったりとした、シックなデザインなっている。少しだけ移動速度と作業速度が上がる。</description>
+    <description>布で編まれたスカーフ。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
     <label>メイド服</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -18,8 +18,8 @@
       <li>Fabric</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>180</MaxHitPoints>
-      <WorkToMake>14000</WorkToMake>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>6500</WorkToMake>
       <Mass>3</Mass>
       <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
@@ -33,7 +33,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
       <layers>
-        <li>Belt</li>
+        <li>AS_Neck</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

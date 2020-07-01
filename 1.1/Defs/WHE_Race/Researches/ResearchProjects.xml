@@ -45,11 +45,11 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
-    <defName>AS_WHE_Apparel_High</defName>
-    <label>ハイレベルな衣類</label>
-    <description>ハーフエルフたちの高レベルな衣類を作成するための技術。</description>
+    <defName>AS_WHE_Apparel_Spacer</defName>
+    <label>高度な衣類</label>
+    <description>ハーフエルフたちの技術を応用した、高度な衣類を作成するための技術。</description>
     <baseCost>2000</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>AS_WHE_Apparel_Intermediate</li>
 	    <li>Machining</li>

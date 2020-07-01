@@ -8,6 +8,7 @@
     <alienRace>
 		<generalSettings>
 			<maleGenderProbability>0.02</maleGenderProbability>
+      <!-- 高齢による病気への耐性 -->
 			<immuneToAge>true</immuneToAge>
         <canLayDown>true</canLayDown>
         <maxDamageForSocialfight>6</maxDamageForSocialfight>
@@ -223,7 +224,7 @@
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
-      <lifeExpectancy>120</lifeExpectancy>
+      <lifeExpectancy>200</lifeExpectancy>
       <leatherDef>Leather_Human</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
 	    <body>AS_WHE_Body</body>
@@ -257,11 +258,11 @@
         </li>
         <li>
           <def>HumanlikeTeenager</def>
-          <minAge>13</minAge>
+          <minAge>10</minAge>
         </li>
         <li>
           <def>HumanlikeAdult</def>
-          <minAge>18</minAge>
+          <minAge>15</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -271,15 +272,17 @@
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>
       </specialShadowData>
+      <!--生成されるポーンの年齢分布-->
       <ageGenerationCurve>
         <points>
           <li>(14,0)</li>
           <li>(20,100)</li>
           <li>(30,100)</li>
-          <li>(40,10)</li>
-		  <li>(60,5)</li>
-		  <li>(80,1)</li>
-          <li>(120,0)</li>
+          <li>(40,100)</li>
+          <li>(60,20)</li>
+          <li>(80,10)</li>
+          <li>(120,5)</li>
+          <li>(140,0)</li>
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>

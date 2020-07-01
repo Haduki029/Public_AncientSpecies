@@ -91,60 +91,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/PlateArmor</wornGraphicPath>
       <layers>
-        <li>Middle</li>
-      </layers>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
-    </apparel>
-  </ThingDef>
-
-  <!-- Plate Armor -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WHE_MarineArmor</defName>
-    <description>ハーフエルフ式の高い強度を持つ高性能アーマーです。</description>
-    <label>ハーフエルフ式マリーンアーマー</label>
-    <techLevel>Spacer</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_High</researchPrerequisite>
-    </recipeMaker>
-    <graphicData>
-      <texPath>WHE/Apparels/middle/MarineArmor</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costList>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Plasteel>50</Plasteel>
-      <Uranium>12</Uranium>
-    </costList>
-    <costStuffCount>80</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <statBases>
-      <MaxHitPoints>360</MaxHitPoints>
-      <WorkToMake>65000</WorkToMake>
-      <Mass>15</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>34</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>10</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>18</EquipDelay>
-      <Flammability>0.01</Flammability>
-    </statBases>
-    <equippedStatOffsets>
-			<MoveSpeed>0.05</MoveSpeed>
-		</equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Neck</li>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-		    <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/middle/MarineArmor</wornGraphicPath>
-      <layers>
-        <li>Middle</li>
+        <li>AS_UnderShell</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
