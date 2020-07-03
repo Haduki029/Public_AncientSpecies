@@ -26,7 +26,7 @@
    Coding Haduki
    Illust Heli
    
-   ※MODの再配布等は原則禁止となります。
+   ※当MODの再配布等は原則禁止となります。
    (C) 2020 Haduki
    </description> 
    <modDependencies>
@@ -42,14 +42,16 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
       <li>
-			<packageId>showhair.kv.rw</packageId>
-			<displayName>[KV] Show Hair With Hats or Hide All Hats - 1.1</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/1180826364</steamWorkshopUrl>
+			<packageId>velc.HatsDisplaySelection</packageId>
+			<displayName>Hats Display Selection</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1542291825</steamWorkshopUrl>
 		</li>
 	</modDependencies>
    <loadAfter>
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 		<li>erdelf.HumanoidAlienRaces</li>
+      <li>showhair.kv.rw</li>
+      <li>Haduki.AncientSpecies</li>
 	</loadAfter>
 </ModMetaData>
