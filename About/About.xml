@@ -17,13 +17,16 @@
    [研究]
    ・ハーフエルフに関する衣類の研究
 
+   [推奨Mod]
+   ・Camera+
+
    [注意]
    このModは現在開発中のものです。
 
    Coding Haduki
    Illust Heli
    
-   ※MODの再配布等は原則ご遠慮下さい。
+   ※MODの再配布等は原則禁止となります。
    (C) 2020 Haduki
    </description> 
    <modDependencies>
@@ -37,6 +40,11 @@
 			<displayName>Harmony</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+      <li>
+			<packageId>showhair.kv.rw</packageId>
+			<displayName>[KV] Show Hair With Hats or Hide All Hats - 1.1</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1180826364</steamWorkshopUrl>
 		</li>
 	</modDependencies>
    <loadAfter>
