@@ -438,11 +438,6 @@
 				<degree>1</degree>
 				<chance>20</chance>
 			</li>
-			<li>
-				<defName>eagle-eyed</defName>
-				<degree>1</degree>
-				<chance>40</chance>
-			</li>
 		</forcedTraits>
 		<spawnCategories>
 			<li>AS_WHE_Villager</li>
@@ -479,14 +474,14 @@
 
 	<!-- ハーフエルフの民 -->
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
-		<defName>AS_WHE_BackstoryAdult_c</defName>
+		<defName>AS_WHE_BackstoryAdult_d</defName>
 		<title>ハーフエルフの民</title>
 		<titleShort>ハーフエルフの民</titleShort>
 		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
-				<defName>Social</defName>
+				<defName>Plants</defName>
 				<amount>2</amount>
 			</li>
 		</skillGains>
@@ -500,15 +495,330 @@
 
 	<!-- ハーフエルフの民 -->
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
-		<defName>AS_WHE_BackstoryAdult_c</defName>
+		<defName>AS_WHE_BackstoryAdult_e</defName>
 		<title>ハーフエルフの民</title>
 		<titleShort>ハーフエルフの民</titleShort>
 		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
-				<defName>Plants</defName>
+				<defName>Construction</defName>
 				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_f</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_g</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_h</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_i</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_j</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_k</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_l</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_m</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_n</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_o</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_p</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_q</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>-3</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_r</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_s</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>-1</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WHE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<!-- ハーフエルフの民 -->
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
+		<defName>AS_WHE_BackstoryAdult_t</defName>
+		<title>ハーフエルフの民</title>
+		<titleShort>ハーフエルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>8</amount>
 			</li>
 		</skillGains>
 		<workDisables>
