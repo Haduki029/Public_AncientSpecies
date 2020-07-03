@@ -61,10 +61,10 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  <!-- villager -->
+  <!-- townspeople -->
   <PawnKindDef ParentName="AS_WHE_NPCBase">
-    <defName>AS_WHE_Villager</defName>
-    <label>Half Elf villager</label>
+    <defName>AS_WHE_TownsPeople</defName>
+    <label>Half Elf townspeople</label>
     <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
