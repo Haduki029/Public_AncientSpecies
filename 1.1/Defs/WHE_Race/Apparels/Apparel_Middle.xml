@@ -91,7 +91,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/PlateArmor</wornGraphicPath>
       <layers>
-        <li>AS_UnderShell</li>
+        <li>Middle</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

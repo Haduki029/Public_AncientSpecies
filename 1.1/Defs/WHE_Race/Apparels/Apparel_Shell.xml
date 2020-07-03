@@ -87,8 +87,8 @@
   <!-- SinmplePoncho -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_SimplePoncho</defName>
-    <description>皮や布で作られたポンチョ。パーカーほど丈夫ではないが、寒さ対策には非常に有効。</description>
-    <label>パーカー</label>
+    <description>皮や布で作られたシンプルなデザインのポンチョ。パーカーほど丈夫ではないが、寒さ対策には非常に有効。</description>
+    <label>シンプルなポンチョ</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -216,7 +216,6 @@
       <wornGraphicPath>WHE/Apparels/middle/MarineArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
-        <li>AS_UnderShell</li>
         <li>Shell</li>
       </layers>
       <defaultOutfitTags>

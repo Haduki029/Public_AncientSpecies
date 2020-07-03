@@ -69,11 +69,11 @@
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
     <apparelMoney>
-      <min>600</min>
-      <max>800</max>
+      <min>900</min>
+      <max>1400</max>
     </apparelMoney>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryCategories>

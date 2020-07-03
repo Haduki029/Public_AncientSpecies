@@ -48,7 +48,7 @@
 	</AlienRace.BackstoryDef>
 
 	<!-- ハーフエルフの民 -->
-	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Adult">
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_a</defName>
 		<title>ハーフエルフの民</title>
 		<titleShort>ハーフエルフの民</titleShort>
@@ -67,7 +67,7 @@
 	</AlienRace.BackstoryDef>
 
 	<!-- ハーフエルフの狩人 -->
-	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Adult">
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_b</defName>
 		<title>ハーフエルフの狩人</title>
 		<titleShort>ハーフエルフの狩人</titleShort>
@@ -78,14 +78,31 @@
 				<defName>Social</defName>
 				<amount>-2</amount>
 			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
 		</skillGains>
+		<!-- 適用する特性 -->
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>20</chance>
+			</li>
+			<!-- <li>
+				<defName>eagle-eyed</defName>
+				<degree>1</degree>
+				<chance>40</chance>
+			</li> -->
+		</forcedTraits>
 		<spawnCategories>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
 	<!-- ハーフエルフの奴隷 -->
-	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Adult">
+	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_c</defName>
 		<title>ハーフエルフの奴隷</title>
 		<titleShort>ハーフエルフの奴隷</titleShort>

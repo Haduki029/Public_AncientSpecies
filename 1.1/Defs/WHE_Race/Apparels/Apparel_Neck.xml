@@ -4,7 +4,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Scarf</defName>
     <description>布で編まれたスカーフ。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
-    <label>メイド服</label>
+    <label>スカーフ</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>

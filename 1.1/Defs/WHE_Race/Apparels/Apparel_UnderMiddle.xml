@@ -131,6 +131,9 @@
       <layers>
         <li>Middle</li>
       </layers>
+      <tags>
+        <li>WHE_Medieval</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
