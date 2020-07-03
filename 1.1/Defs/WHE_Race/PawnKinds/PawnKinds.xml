@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--==============================================PC Kind Settings==============================================-->
+<!--==============================================PC Settings==============================================-->
   <PawnKindDef>
     <race>AS_WHE_Race</race>
-    <combatPower>40</combatPower>
+    <combatPower>45</combatPower>
     <isFighter>false</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <defName>AS_WHE_Colonist</defName>
-    <label>Weeb Harf Elf Colonist</label>
-    <defaultFactionType>AS_WHE_Player</defaultFactionType>
+    <label>Harf Elf Colonist</label>
+    <defaultFactionType>AS_WHE_PlayerFaction_Medieval</defaultFactionType>
     <backstoryCategories>
-      <li>AS_WHE_Vllager</li>
+      <li>AS_WHE_Villager</li>
     </backstoryCategories>
     <apparelTags>
       <li>AS_WHE_Colonist</li>
@@ -26,21 +26,11 @@
     </apparelRequired>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>
-<!--==============================================NPC기본==============================================-->
-  <PawnKindDef Name="AS_WHE_NPCBase" Abstract="True">
-    <race>AS_WHE_Race</race>
-    <defaultFactionType>AS_WHE_Faction</defaultFactionType>
-    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
-    <invNutrition>3</invNutrition>
-    <apparelRequired>
-      <li>AS_WHE_UnderwearA</li>
-    </apparelRequired>
-  </PawnKindDef>
+
 <!--==============================================NPC Settings==============================================-->
-<!-- Citizen -->
+  <!-- villager -->
   <PawnKindDef ParentName="AS_WHE_NPCBase">
-    <defName>AS_WHE_Vllager</defName>
+    <defName>AS_WHE_Villager</defName>
     <label>Half Elf villager</label>
     <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
@@ -50,11 +40,44 @@
       <max>800</max>
     </apparelMoney>
     <apparelTags>
-      <li>AS_WHE_Vllager</li>
+      <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryCategories>
-      <li>AS_WHE_Vllager</li>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- villager -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase">
+    <defName>AS_WHE_Villager</defName>
+    <label>Half Elf villager</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
     </backstoryCategories>
     <inventoryOptions>
       <skipChance>0.4</skipChance>

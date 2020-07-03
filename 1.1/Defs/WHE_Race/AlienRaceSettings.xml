@@ -8,6 +8,7 @@
 		<li>
 			<kindDefs>
 				<li>AS_WHE_Colonist</li>
+                <li>AS_WHE_Villager</li>
 			</kindDefs>
 			<chance>0.0</chance>
 		</li>
@@ -17,6 +18,7 @@
 		<li>
 			<kindDefs>
 				<li>AS_WHE_Colonist</li>
+                <li>AS_WHE_Villager</li>
 			</kindDefs>
 			<chance>0.0</chance>
 		</li>
@@ -28,12 +30,13 @@
                 <li>
                     <kindDefs>
                         <li>AS_WHE_Colonist</li>
+                        <li>AS_WHE_Villager</li>
                     </kindDefs>
                     <chance>0.0</chance>
                 </li>
             </pawnKindEntries>
             <factionDefs>
-                <li>AS_WHE_Player</li> 
+                <li>AS_WHE_PlayerFaction_Medieval</li> 
             </factionDefs>
         </li>
     </startingColonists>
@@ -44,13 +47,11 @@
                 <li>
                     <kindDefs>
                         <li>AS_WHE_Colonist</li>
+                        <li>AS_WHE_Villager</li>
                     </kindDefs>
                     <chance>0.0</chance>
                 </li>
             </pawnKindEntries>
-            <factionDefs>
-                <li>AS_WHE_Player</li> 
-            </factionDefs>
         </li>
     </alienwandererkinds>			
 </pawnKindSettings>

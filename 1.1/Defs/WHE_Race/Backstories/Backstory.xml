@@ -23,7 +23,7 @@
 		</skillGains>
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
-			<li>AS_WHE_Vllager</li>
+			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 	<!-- 奴隷　子供 -->
@@ -43,7 +43,7 @@
 			<li>Artistic</li>
 		</workDisables>
 		<spawnCategories>
-			<li>AS_WHE_Vllager</li>
+			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -62,7 +62,7 @@
 		</skillGains>
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
-			<li>AS_WHE_Vllager</li>
+			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -80,7 +80,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
-			<li>AS_WHE_Vllager</li>
+			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -108,7 +108,7 @@
 			<li>Artistic</li>
 		</workDisables>
 		<spawnCategories>
-			<li>AS_WHE_Vllager</li>
+			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 </Defs>

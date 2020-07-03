@@ -3,15 +3,15 @@
 <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>AS_WHE_Race</defName>
     <label>ハーフエルフ</label>
-    <description>ハーフエルフです。</description>
-
+    <description>ハーフエルフはグリッターワールドの技術を駆使し、人間とエルフの特徴を組み合わせ造られた種族です。\n本来存在し得ない辺境の惑星に住んでいるこの種族は、宙族の間で違法に売買されていた個体が、宇宙船のトラブルにより辺境の惑星に不時着し、定住したものだと思われています。\n射撃・狩猟・栽培・調理など、全般的に優れた能力を持ち、サバイバル能力は高いですが、閉鎖的で、かなりの機械音痴です。</description>
     <alienRace>
 		<generalSettings>
 			<maleGenderProbability>0.02</maleGenderProbability>
-      <!-- 高齢による病気への耐性 -->
-			<immuneToAge>true</immuneToAge>
+        <!-- 高齢による病気への耐性 -->
+			  <immuneToAge>true</immuneToAge>
         <canLayDown>true</canLayDown>
         <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <!-- 人間種族と同パーツ有無のチェック？人間と同じパーツならtrueにすることでDE Surgery対応できるらしい -->
         <humanRecipeImport>true</humanRecipeImport>
         <disallowedTraits>
           <li>DislikesWomen</li>
@@ -23,7 +23,7 @@
         <factionRelations>
           <li>
             <factions>
-              <li>AS_WHE_Faction</li>
+              <li>AS_WHE_Village</li>
             </factions>
             <goodwill>
               <min>100</min>
@@ -85,22 +85,20 @@
         </alienskincolorgen>
 		</alienPartGenerator>
     </generalSettings>
-<!--=============================================================================================================================-->
-        <graphicPaths>
-            <li>
-                <head>WHE/Heads/</head>
-                <body>WHE/Bodies/</body>
-            </li>
-        </graphicPaths>
-<!--=============================================================================================================================-->
-        <hairSettings>
-            <hasHair>true</hasHair>
-            <hairTags>
-                <li>WHE</li>
-            </hairTags>
-        </hairSettings>
-<!--=============================================================================================================================-->
+    <graphicPaths>
+      <li>
+        <head>WHE/Heads/</head>
+        <body>WHE/Bodies/</body>
+      </li>
+    </graphicPaths>
+    <hairSettings>
+      <hasHair>true</hasHair>
+      <hairTags>
+        <li>WHE</li>
+      </hairTags>
+    </hairSettings>
 		<raceRestriction>
+    <!-- 許可する装備 -->
       <apparelList>
         <li>AS_WHE_UnderwearA</li>
         <li>AS_WHE_UnderwearB</li>
@@ -118,9 +116,19 @@
         <li>AS_WHE_Parka</li>
         <li>AS_WHE_AncientPoncho</li>
         <li>AS_WHE_Scarf</li>
-        <li>AS_WHE_ShirtButton</li>
         <li>AS_WHE_MarineHelmet</li>
         <li>AS_WHE_Helmet</li>
+        <li>AS_WHE_MaidHairBand</li>
+        <li>AS_WHE_AdvancedHelmet</li>
+        <li>AS_WHE_Horn</li>
+        <li>AS_WHE_Tribal</li>
+        <li>AS_WHE_TShirts</li>
+        <li>AS_WHE_ShortPants</li>
+        <li>AS_WHE_ShirtButton</li>
+        <li>AS_WHE_TankTop</li>
+        <li>AS_WHE_Tribal</li>
+        <li>AS_WHE_TShirts</li>
+        <li>AS_WHE_ShortPants</li>
       </apparelList>
 			<whiteApparelList>
 			  <li>Apparel_ShieldBelt</li>
@@ -130,36 +138,52 @@
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
       </raceRestriction>
 	</alienRace>
-<!--=============================================================================================================================-->
-    <statBases>
-      <MarketValue>3000</MarketValue>
-      <Flammability>1</Flammability>
-      <MoveSpeed>5.0</MoveSpeed>
-	    <MentalBreakThreshold>0.03</MentalBreakThreshold>
-      <ComfyTemperatureMax>32</ComfyTemperatureMax>
-      <ComfyTemperatureMin>10</ComfyTemperatureMin>
-      <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
-      <CarryingCapacity>80</CarryingCapacity>
-      <MeatAmount>60</MeatAmount>
-      <LeatherAmount>60</LeatherAmount>
-      <Mass>60</Mass>
-      <PainShockThreshold>0.80</PainShockThreshold>
-      <!--社交関連-->
-      <NegotiationAbility>1.2</NegotiationAbility><!--外交への影響度-->
-      <SellPriceFactor>1.2</SellPriceFactor> <!--取引価格への影響度-->
-      <SocialImpact>1.3</SocialImpact> <!--社会的な影響度-->
-      <!--制作関連-->
-      <ButcheryMechanoidEfficiency>0.9</ButcheryMechanoidEfficiency> <!--メカノイド分解への影響度-->
-      <ButcheryMechanoidSpeed>0.9</ButcheryMechanoidSpeed> <!--メカノイド分解速度-->
-      <GeneralLaborSpeed>1.1</GeneralLaborSpeed> <!--金属製錬速度-->
-      <!--調理関連-->
-      <ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency> <!--屠殺効率-->
-      <ButcheryFleshSpeed>1.2</ButcheryFleshSpeed> <!--屠殺速度-->
-      <FoodPoisonChance>0.8</FoodPoisonChance> <!--食中毒確率-->
-      <CookSpeed>1.1</CookSpeed> <!--調理速度-->
-	    <!--栽培関連-->
-	    <PlantWorkSpeed>1.1</PlantWorkSpeed><!--栽培速度-->
-    </statBases>
+  <!-- 能力値 -->
+  <statBases>
+    <MarketValue>3000</MarketValue>
+    <Flammability>1</Flammability>
+    <MoveSpeed>4.9</MoveSpeed>
+	  <MentalBreakThreshold>0.02</MentalBreakThreshold>
+    <ComfyTemperatureMax>34</ComfyTemperatureMax>
+    <ComfyTemperatureMin>8</ComfyTemperatureMin>
+    <ImmunityGainSpeed>1.1</ImmunityGainSpeed> <!-- 免疫獲得速度 -->
+    <CarryingCapacity>80</CarryingCapacity>
+    <MeatAmount>60</MeatAmount>
+    <LeatherAmount>60</LeatherAmount>
+    <Mass>60</Mass>
+    <PainShockThreshold>1.0</PainShockThreshold>
+    <!-- 戦闘関連 -->
+    <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn><!-- 射撃命中率 -->
+    <AimingDelayFactor>0.9</AimingDelayFactor> <!-- 照準時間 -->
+    <!-- 作業 -->
+    <WorkSpeedGlobal>1.05</WorkSpeedGlobal> <!-- 全般的な作業速度 -->
+    <!-- 社交関連 -->
+    <NegotiationAbility>0.9</NegotiationAbility><!-- 外交への影響度 -->
+    <SellPriceFactor>0.9</SellPriceFactor> <!-- 取引価格への影響度 -->
+    <SocialImpact>1.0</SocialImpact> <!-- 社会的な影響度 -->
+    <!-- 手なづけ関連 -->
+    <TameAnimalChance>1.1</TameAnimalChance> <!-- 手なづけチャンス -->
+    <TrainAnimalChance>1.1</TrainAnimalChance> <!-- 調教チャンス -->
+    <!-- 家畜関連 -->
+    <AnimalGatherSpeed>1.05</AnimalGatherSpeed> <!-- 家畜収穫速度 -->
+    <AnimalGatherYield>1.05</AnimalGatherYield> <!-- 家畜収穫率 -->
+    <!-- 掘削関連 -->
+    <MiningSpeed>0.95</MiningSpeed>
+    <DeepDrillingSpeed>0.75</DeepDrillingSpeed>
+    <!-- 狩猟関連 -->
+    <HuntingStealth>1.1</HuntingStealth> <!-- 動物の逆襲確率 -->
+    <!-- 制作関連 -->
+    <ButcheryMechanoidEfficiency>0.6</ButcheryMechanoidEfficiency> <!-- メカノイド分解への影響度 -->
+    <ButcheryMechanoidSpeed>0.6</ButcheryMechanoidSpeed> <!-- メカノイド分解速度 -->
+    <!-- 調理関連 -->
+    <ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency> <!-- 屠殺効率 -->
+    <ButcheryFleshSpeed>1.2</ButcheryFleshSpeed> <!-- 屠殺速度 -->
+    <FoodPoisonChance>0.9</FoodPoisonChance> <!-- 食中毒確率 -->
+    <CookSpeed>1.1</CookSpeed> <!-- 調理速度 -->
+	  <!-- 栽培関連 -->
+	  <PlantWorkSpeed>1.15</PlantWorkSpeed> <!-- 栽培速度 -->
+    <PlantHarvestYield>1.15</PlantHarvestYield> <!-- 収穫量 -->
+  </statBases>
 <!--=============================================================================================================================-->
     <tools>
       <li>
@@ -167,7 +191,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
+        <power>7</power>
         <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -184,7 +208,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
+        <power>7</power>
         <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -201,8 +225,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>10</power>
+        <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.4</chanceFactor>
       </li>
@@ -211,7 +235,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
+        <power>7</power>
         <cooldownTime>1.4</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -258,11 +282,11 @@
         </li>
         <li>
           <def>HumanlikeTeenager</def>
-          <minAge>10</minAge>
+          <minAge>14</minAge>
         </li>
         <li>
           <def>HumanlikeAdult</def>
-          <minAge>15</minAge>
+          <minAge>18</minAge>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>

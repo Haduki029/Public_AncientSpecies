@@ -50,7 +50,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_AdvancedHelmet</defName>
     <description>より高度なハーフエルフの技術で作られた、金属製の頭部上面を守るヘルメット。前面部に付いているスクリーンにより、目も保護してくれる。</description>
-    <label>ハーフエルフ式ヘルメット</label>
+    <label>ハーフエルフ式先進型ヘルメット</label>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>

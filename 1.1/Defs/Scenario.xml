@@ -2,62 +2,64 @@
 <Defs>
   <ScenarioDef>
     <defName>AS_WHE_Scenario</defName>
-    <label>ハーフエルフシナリオ</label>
-		<description>なんかハーフエルフのシナリオ書く。</description>
+    <label>[ハーフエルフ]逃亡の果てに</label>
+	<description>彼らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。開始時点は4人で、逃亡途中に散り散りになった者たちが10人います。</description>
     <scenario>
-      <summary>종족 재건의 희망을 품고 개척자들이 출발합니다.</summary>
+      <summary></summary>
       <playerFaction>
         <def>PlayerFaction</def>
-        <factionDef>AS_WHE_Player</factionDef>
+        <factionDef>AS_WHE_PlayerFaction_Medieval</factionDef>
       </playerFaction>
 		<parts>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 				<def>ConfigPage_ConfigureStartingPawns</def>
-				<pawnCount>3</pawnCount>
+				<pawnCount>4</pawnCount>
 				<pawnChoiceCount>10</pawnChoiceCount>
 			</li>
 			<li Class="ScenPart_PlayerPawnsArriveMethod">
 				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
 			</li>
 			<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>"何のテキスト？？？"</text>
+				<text>"あなた達は、宙族の人狩りにより、逃亡生活を強いられました。長い逃亡の果てに、たどり着いたこの地で、新たな集落を作ることに決めました。"</text>
 				<textKey>GameStartDialog</textKey>
 				<closeSound>GameStartSting</closeSound>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>MealSurvivalPack</thingDef>
-				<count>60</count>
+				<thingDef>Silver</thingDef>
+				<count>200</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>MedicineIndustrial</thingDef>
-				<count>30</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>ComponentIndustrial</thingDef>
-				<count>30</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>WoodLog</thingDef>
-				<count>600</count>
-			</li>
-			<li Class="ScenPart_StartingThing_Defined">
-				<def>StartingThing_Defined</def>
-				<thingDef>Steel</thingDef>
+				<thingDef>Pemmican</thingDef>
 				<count>400</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Gun_AssaultRifle</thingDef>
+				<thingDef>MedicineHerbal</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Club</thingDef>
+				<stuff>WoodLog</stuff>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Knife</thingDef>
+				<stuff>Steel</stuff>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Bow_Short</thingDef>
+				<count>4</count>
 			</li>
 			<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
-				<animalKind>Fox_Red</animalKind>
-				<count>1</count>
+				<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+				<count>2</count>
 			</li>
 		</parts>
     </scenario>

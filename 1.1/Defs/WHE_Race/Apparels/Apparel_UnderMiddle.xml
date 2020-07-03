@@ -85,6 +85,9 @@
       <layers>
         <li>Middle</li>
       </layers>
+      <tags>
+        <li>WHE_Neolithic</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -93,7 +96,7 @@
 
   <!-- Tシャツ -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WHE_ShirtButton</defName>
+    <defName>AS_WHE_TShirts</defName>
     <description>シンプルなTシャツです。生地は薄く、あまり防御力はありません。雨に濡れても透ける機能はありません。</description>
     <label>Tシャツ</label>
     <techLevel>Medieval</techLevel>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <PawnKindDef Name="AS_WHE_CommonBase" Abstract="True">
+    <race>AS_WHE_Race</race>
+    <combatPower>45</combatPower>
+    <baseRecruitDifficulty>0.6</baseRecruitDifficulty>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <apparelAllowHeadgearChance>0.08</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>400</min>
+      <max>600</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>AS_WHE_UnderwearA</li>
+    </apparelRequired>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+<!--==============================================NPC==============================================-->
+  <PawnKindDef Name="AS_WHE_NPCBase" Abstract="True">
+    <race>AS_WHE_Race</race>
+    <defaultFactionType>AS_WHE_Village</defaultFactionType>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	  <baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+    <invNutrition>3</invNutrition>
+    <apparelRequired>
+      <li>AS_WHE_UnderwearA</li>
+    </apparelRequired>
+  </PawnKindDef>
+</Defs>

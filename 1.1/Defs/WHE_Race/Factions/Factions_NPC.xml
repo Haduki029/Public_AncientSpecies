@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <FactionDef>
-    <defName>AS_WHE_Player</defName>
-    <label>ハーフエルフのコロニー</label>
-    <description>ハーフエルフたちが暮らす集落。</description>
-    <isPlayer>true</isPlayer>
-    <basicMemberKind>AS_WHE_Colonist</basicMemberKind>
-    <pawnSingular>ハーフエルフ</pawnSingular>
-    <pawnsPlural>ハーフエルフ達</pawnsPlural>
-    <techLevel>Industrial</techLevel>
-    <backstoryCategories>
-      <li>Civil</li>
-    </backstoryCategories>
-    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
-    <factionIconPath>WHE/WHE_Faction</factionIconPath>
-    <colorSpectrum>
-      <li>(1, 1, 1)</li>
-    </colorSpectrum>
-    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-    <geneticVariance>1</geneticVariance>
-	<startingResearchTags>
-		<li>ClassicStart</li>
-	</startingResearchTags>
-	<hairTags>
-		<li>WHE</li>
-		<li>Urban</li>
-	</hairTags>
-	<apparelStuffFilter>
-		<thingDefs>
-			<li>DevilstrandCloth</li>
-			<li>Synthread</li>
-			<li>WoolAlpaca</li>
-			<li>WoolMuffalo</li>
-		</thingDefs>
-	</apparelStuffFilter>
-  </FactionDef>
-<!--=============================================================================================================================-->
-  <FactionDef>
-    <defName>AS_WHE_Faction</defName>
+    <defName>AS_WHE_Village</defName>
     <label>ハーフエルフの集落</label>
     <description>ハーフエルフ達の集落。</description>
     <colorSpectrum>
@@ -50,8 +12,8 @@
       <max>5</max>
     </startingGoodwill>
     <naturalColonyGoodwill>
-      <min>-60</min>
-      <max>100</max>
+      <min>0</min>
+      <max>10</max>
     </naturalColonyGoodwill>
     <goodwillDailyGain>0.20</goodwillDailyGain>
     <goodwillDailyFall>0.00</goodwillDailyFall>
@@ -59,7 +21,7 @@
     <pawnSingular>ハーフエルフ</pawnSingular>
     <pawnsPlural>ハーフエルフ達</pawnsPlural>
     <listOrderPriority>30</listOrderPriority>
-    <settlementGenerationWeight>0.8</settlementGenerationWeight>
+    <settlementGenerationWeight>0.3</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>false</canSiege>
@@ -71,7 +33,7 @@
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 	<techLevel>Industrial</techLevel>
 	<backstoryCategories>
-		<li>AS_WHE_Vllager</li>
+		<li>AS_WHE_Villager</li>
 	</backstoryCategories>
 	<geneticVariance>1</geneticVariance>
 	<hairTags>
@@ -106,25 +68,25 @@
       <li>
         <kindDef>Combat</kindDef>
         <options>
-          <AS_WHE_Vllager>8</AS_WHE_Vllager>
+          <AS_WHE_Villager>8</AS_WHE_Villager>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
           <options>
-            <AS_WHE_Vllager>10</AS_WHE_Vllager>
+            <AS_WHE_Villager>10</AS_WHE_Villager>
           </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <AS_WHE_Vllager>14</AS_WHE_Vllager>
+          <AS_WHE_Villager>14</AS_WHE_Villager>
         </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-			  <AS_WHE_Vllager>1</AS_WHE_Vllager>
+			  <AS_WHE_Villager>1</AS_WHE_Villager>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
@@ -133,7 +95,7 @@
           <Elephant>1</Elephant>
         </carriers>
         <guards>
-          <AS_WHE_Vllager>8</AS_WHE_Vllager>
+          <AS_WHE_Villager>8</AS_WHE_Villager>
         </guards>
       </li>
     </pawnGroupMakers>
