@@ -24,6 +24,20 @@ namespace AS_WHE
 
         public static PawnKindDef AS_WHE_Citizen;
 
+        public static PawnKindDef AS_WHE_Trader;
+
         public static PawnKindDef AS_WHE_Warrior;
+
+        public static PawnKindDef AS_WHE_Hunter;
+
+        public static PawnKindDef AS_WHE_Fighter;
+
+        public static PawnKindDef AS_WHE_Shooter;
+
+        public static PawnKindDef AS_WHE_Knight;
+
+        public static PawnKindDef AS_WHE_Archer;
+
+        public static PawnKindDef AS_WHE_Gunner;
     }
 }

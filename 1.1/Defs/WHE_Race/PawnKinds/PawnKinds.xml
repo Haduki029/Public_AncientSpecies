@@ -12,6 +12,9 @@
     <apparelTags>
       <li>AS_WHE_Colonist</li>
     </apparelTags>
+    <apparelRequired>
+      <li>AS_WHE_Tribal</li>
+    </apparelRequired>
   </PawnKindDef>
 
 <!--==============================================NPC Settings==============================================-->

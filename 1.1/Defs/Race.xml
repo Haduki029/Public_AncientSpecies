@@ -135,7 +135,7 @@
         <li>AS_WHE_SimplePoncho</li>
       </apparelList>
 			<whiteApparelList>
-			  <li>Apparel_ShieldBelt</li>
+			  <!-- <li>Apparel_ShieldBelt</li> -->
 				<li>SmokepopBelt</li>
 			</whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>

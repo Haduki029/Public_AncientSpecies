@@ -341,7 +341,7 @@
       </recipeUsers>
       <!-- <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite> -->
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>2</Crafting>
       </skillRequirements>
     </recipeMaker>
     <apparel>
