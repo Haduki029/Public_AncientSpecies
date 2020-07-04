@@ -117,7 +117,7 @@
         <li>AS_WHE_Neeso</li>
         <li>AS_WHE_StripeNeeso</li>
         <li>AS_WHE_Parka</li>
-        <li>AS_WHE_AncientPoncho</li>
+        <li>AS_WHE_ElvenPoncho</li>
         <li>AS_WHE_Scarf</li>
         <li>AS_WHE_MarineHelmet</li>
         <li>AS_WHE_Helmet</li>
@@ -129,9 +129,6 @@
         <li>AS_WHE_ShortPants</li>
         <li>AS_WHE_ShirtButton</li>
         <li>AS_WHE_TankTop</li>
-        <li>AS_WHE_Tribal</li>
-        <li>AS_WHE_TShirts</li>
-        <li>AS_WHE_ShortPants</li>
         <li>AS_WHE_SimplePoncho</li>
       </apparelList>
 			<whiteApparelList>
