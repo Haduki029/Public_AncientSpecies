@@ -6,9 +6,6 @@
     <description>金属製の頭部上面を守るヘルメット。シンプルながらも丈夫に作られている。</description>
     <label>ハーフエルフ式ヘルメット</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/overhead/Helmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -26,12 +23,13 @@
       <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <recipeUsers Inherit="False">
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
-    </recipeMaker> -->
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -52,9 +50,6 @@
     <description>より高度なハーフエルフの技術で作られた、金属製の頭部上面を守るヘルメット。前面部に付いているスクリーンにより、目も保護してくれる。</description>
     <label>ハーフエルフ式先進型ヘルメット</label>
     <techLevel>Industrial</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/overhead/AdvancedHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -73,12 +68,13 @@
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -100,9 +96,6 @@
     <description>ハーフエルフの技術を応用して作られたマリーンヘルメット。強度、軽さ共に高次元にまとめられており、耳の長いハーフエルフでも着脱しやすいようになっている。</description>
     <label>ハーフエルフ式マリーンヘルメット</label>
     <techLevel>Spacer</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/overhead/MarineHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -128,12 +121,12 @@
       <Insulation_Heat>2.4</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -154,9 +147,6 @@
     <description>メイドさんが頭部に着けるカチューシャ。メイド服とセットで身に着けると、貴女も完璧で瀟洒なメイドになれるでしょう。</description>
     <label>メイドカチューシャ</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/overhead/MaidHairBand</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -173,12 +163,13 @@
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -199,9 +190,6 @@
     <description>頭に取り付けられる付け角です。何も特殊な効果はありませんが、見た目がちょっぴりかっこよくなります。Cool and cute！なお着脱は簡単です。</description>
     <label>付け角</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/overhead/Horn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -218,12 +206,14 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.2</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>CraftingSpot</li>
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>

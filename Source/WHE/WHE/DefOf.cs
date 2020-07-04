@@ -19,5 +19,11 @@ namespace AS_WHE
         public static PawnKindDef AS_WHE_Colonist;
 
         public static PawnKindDef AS_WHE_Villager;
+
+        public static PawnKindDef AS_WHE_TownsPeople;
+
+        public static PawnKindDef AS_WHE_Citizen;
+
+        public static PawnKindDef AS_WHE_Warrior;
     }
 }

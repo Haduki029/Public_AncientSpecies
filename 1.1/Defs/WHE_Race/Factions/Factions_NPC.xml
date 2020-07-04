@@ -1,60 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <FactionDef>
-    <defName>AS_WHE_Village</defName>
+  <!-- WHE Neolithic Faction -->
+  <FactionDef ParentName="WHE_NPC_FactionsBase">
+    <defName>AS_WHE_Settlement</defName>
     <label>ハーフエルフの集落</label>
     <description>ハーフエルフ達の集落。</description>
     <colorSpectrum>
       <li>(0.45, 0.72, 0.27)</li>
     </colorSpectrum>
-    <startingGoodwill>
-      <min>0</min>
-      <max>5</max>
-    </startingGoodwill>
-    <naturalColonyGoodwill>
-      <min>0</min>
-      <max>10</max>
-    </naturalColonyGoodwill>
-    <goodwillDailyGain>0.20</goodwillDailyGain>
-    <goodwillDailyFall>0.00</goodwillDailyFall>
-<!--=============================================================================================================================-->
-    <pawnSingular>ハーフエルフ</pawnSingular>
-    <pawnsPlural>ハーフエルフ達</pawnsPlural>
-    <listOrderPriority>30</listOrderPriority>
-    <settlementGenerationWeight>0.3</settlementGenerationWeight>
-    <requiredCountAtGameStart>1</requiredCountAtGameStart>
-    <canMakeRandomly>true</canMakeRandomly>
-    <canSiege>false</canSiege>
-    <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>Leader</leaderTitle>
     <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
     <factionIconPath>WHE/WHE_Faction</factionIconPath>
-	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-	<techLevel>Industrial</techLevel>
-	<backstoryCategories>
-		<li>AS_WHE_Villager</li>
-	</backstoryCategories>
-	<geneticVariance>1</geneticVariance>
-	<hairTags>
-		<li>WHE</li>
-	</hairTags>
-    <caravanTraderKinds>
-      <li>Caravan_Outlander_BulkGoods</li>
-      <li>Caravan_Outlander_CombatSupplier</li>
-      <li>Caravan_Outlander_Exotic</li>
-      <li>Caravan_Outlander_PirateMerchant</li>
-    </caravanTraderKinds>
-    <visitorTraderKinds>
-      <li>Visitor_Outlander_Standard</li>
-    </visitorTraderKinds>
-    <baseTraderKinds>
-      <li>Base_Outlander_Standard</li>
-    </baseTraderKinds>
-    <allowedArrivalTemperatureRange>
-      <min>-30</min>
-      <max>45</max>
-    </allowedArrivalTemperatureRange>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
     <maxPawnCostPerTotalPointsCurve>
       <points>
         <li>(0,35)</li>
@@ -68,7 +27,8 @@
       <li>
         <kindDef>Combat</kindDef>
         <options>
-          <AS_WHE_Villager>8</AS_WHE_Villager>
+          <AS_WHE_Warrior>10</AS_WHE_Warrior>
+          <AS_WHE_Villager>5</AS_WHE_Villager>
         </options>
       </li>
       <li>
@@ -89,13 +49,132 @@
 			  <AS_WHE_Villager>1</AS_WHE_Villager>
         </traders>
         <carriers>
-          <Muffalo>6</Muffalo>
+          <Muffalo>7</Muffalo>
           <Dromedary>5</Dromedary>
-          <Alpaca>2</Alpaca>
-          <Elephant>1</Elephant>
+          <Alpaca>3</Alpaca>
         </carriers>
         <guards>
-          <AS_WHE_Villager>8</AS_WHE_Villager>
+          <AS_WHE_Warrior>8</AS_WHE_Warrior>
+        </guards>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <!-- WHE Medieval Faction -->
+  <FactionDef ParentName="WHE_NPC_FactionsBase">
+    <defName>AS_WHE_Village</defName>
+    <label>ハーフエルフの村</label>
+    <description>ハーフエルフ達の村。</description>
+    <colorSpectrum>
+      <li>(0.55, 0.72, 0.37)</li>
+    </colorSpectrum>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,25)</li>
+        <li>(80, 40)</li>
+        <li>(800, 100)</li>
+        <li>(1500, 180)</li>
+        <li>(120000, 12000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <AS_WHE_Warrior>10</AS_WHE_Warrior>
+          <AS_WHE_Villager>5</AS_WHE_Villager>
+        </options>
+      </li>
+      <li>
+          <kindDef>Peaceful</kindDef>
+          <options>
+            <AS_WHE_Villager>10</AS_WHE_Villager>
+          </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WHE_Villager>14</AS_WHE_Villager>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+			  <AS_WHE_Villager>1</AS_WHE_Villager>
+        </traders>
+        <carriers>
+          <Muffalo>7</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>3</Alpaca>
+        </carriers>
+        <guards>
+          <AS_WHE_Warrior>8</AS_WHE_Warrior>
+        </guards>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <!-- WHE Industrial Faction -->
+  <FactionDef ParentName="WHE_NPC_FactionsBase">
+    <defName>AS_WHE_Town</defName>
+    <label>ハーフエルフの街</label>
+    <description>ハーフエルフ達の街。</description>
+    <colorSpectrum>
+      <li>(0.55, 0.72, 0.37)</li>
+    </colorSpectrum>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,25)</li>
+        <li>(100, 40)</li>
+        <li>(1000, 100)</li>
+        <li>(1900, 180)</li>
+        <li>(150000, 15000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <AS_WHE_Warrior>10</AS_WHE_Warrior>
+          <AS_WHE_Villager>5</AS_WHE_Villager>
+        </options>
+      </li>
+      <li>
+          <kindDef>Peaceful</kindDef>
+          <options>
+            <AS_WHE_Villager>10</AS_WHE_Villager>
+          </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WHE_Villager>14</AS_WHE_Villager>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+			  <AS_WHE_Villager>1</AS_WHE_Villager>
+        </traders>
+        <carriers>
+          <Muffalo>7</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>3</Alpaca>
+        </carriers>
+        <guards>
+          <AS_WHE_Warrior>8</AS_WHE_Warrior>
         </guards>
       </li>
     </pawnGroupMakers>

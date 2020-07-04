@@ -1,44 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <!--==============================================PC Settings==============================================-->
-  <PawnKindDef>
-    <race>AS_WHE_Race</race>
-    <combatPower>45</combatPower>
-    <isFighter>false</isFighter>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <forceNormalGearQuality>true</forceNormalGearQuality>
+  <PawnKindDef ParentName="AS_WHE_CommonBase">
     <defName>AS_WHE_Colonist</defName>
     <label>Harf Elf Colonist</label>
-    <defaultFactionType>AS_WHE_PlayerFaction_Medieval</defaultFactionType>
+    <defaultFactionType>AS_WHE_PlayerFaction_Neolithic</defaultFactionType>
+    <isFighter>false</isFighter>
     <backstoryCategories>
       <li>AS_WHE_Villager</li>
     </backstoryCategories>
     <apparelTags>
       <li>AS_WHE_Colonist</li>
     </apparelTags>
-    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-    <apparelMoney>
-      <min>400</min>
-      <max>600</max>
-    </apparelMoney>
-    <apparelRequired>
-      <li>AS_WHE_UnderwearA</li>
-    </apparelRequired>
-    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>
 
 <!--==============================================NPC Settings==============================================-->
   <!-- villager -->
-  <PawnKindDef ParentName="AS_WHE_NPCBase">
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Villager</defName>
     <label>Half Elf villager</label>
     <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
-    <apparelMoney>
-      <min>600</min>
-      <max>800</max>
-    </apparelMoney>
     <apparelTags>
       <li>WHE_Neolithic</li>
     </apparelTags>
@@ -61,19 +44,77 @@
     </inventoryOptions>
   </PawnKindDef>
 
+  <!-- warrior -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Warrior</defName>
+    <label>Half Elf warrior</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <apparelTags>
+      <li>WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
+    <weaponMoney>200~400</weaponMoney>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
   <!-- townspeople -->
-  <PawnKindDef ParentName="AS_WHE_NPCBase">
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_TownsPeople</defName>
     <label>Half Elf townspeople</label>
     <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
-    <apparelMoney>
-      <min>900</min>
-      <max>1400</max>
-    </apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- citizen -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
+    <defName>AS_WHE_Citizen</defName>
+    <label>Half Elf citizen</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <apparelTags>
+      <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryCategories>

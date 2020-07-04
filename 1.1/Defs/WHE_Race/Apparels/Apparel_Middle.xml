@@ -6,9 +6,6 @@
     <description>スチールと布で作られたシンプルな防弾ベスト。</description>
     <label>防弾ベスト</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/middle/BulletProofVest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -33,6 +30,9 @@
       <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>

@@ -6,9 +6,6 @@
     <description>皮や布で作られた肩掛け。寒さと攻撃から身を守ります。</description>
     <label>ケープ</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/shell/Cape</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -27,15 +24,27 @@
       <Mass>4</Mass>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/shell/Cape</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
+      <tags>
+        <li>WHE_Medieval</li>
+        <li>WHE_Industrial</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -47,10 +56,7 @@
     <defName>AS_WHE_Parka</defName>
     <description>皮や布で作られたパーカー。寒さと攻撃から身を守ります。</description>
     <label>パーカー</label>
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
+    <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/shell/Parka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -63,21 +69,32 @@
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
       <Mass>4</Mass>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/shell/Parka</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
+      <tags>
+        <li>WHE_Industrial</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -90,9 +107,6 @@
     <description>皮や布で作られたシンプルなデザインのポンチョ。パーカーほど丈夫ではないが、寒さ対策には非常に有効。</description>
     <label>シンプルなポンチョ</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/shell/SimplePoncho</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -111,6 +125,13 @@
       <Mass>3</Mass>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -120,21 +141,22 @@
       <layers>
         <li>Shell</li>
       </layers>
+      <tags>
+        <li>WHE_Medieval</li>
+        <li>WHE_Industrial</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
 
-  <!-- AncientPoncho -->
+  <!-- ElvenPoncho -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
-    <defName>AS_WHE_AncientPoncho</defName>
-    <description>とてもシックななかに、金による模様があてられたポンチョ。非常に丈夫な素材で作られており、防御性能に優れている。また、寒さや暑さからも身を守ります。</description>
-    <label>ポンチョ</label>
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
+    <defName>AS_WHE_ElvenPoncho</defName>
+    <description>古代エルフの技術で作られたポンチョ。金による紋様が編みこまれている。非常に丈夫な素材で作られており、防御性能に優れている。また、寒さや暑さからも身を守ります。</description>
+    <label>エルブンポンチョ</label>
+    <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/shell/Poncho</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -146,13 +168,20 @@
     </costList>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
-      <WorkToMake>35000</WorkToMake>
+      <WorkToMake>37000</WorkToMake>
       <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>3</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>3</StuffEffectMultiplierInsulation_Heat>
       <Mass>4</Mass>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -164,6 +193,9 @@
       <layers>
         <li>Shell</li>
       </layers>
+      <!-- <tags>
+        <li>WHE_Army</li>
+      </tags> -->
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -176,9 +208,6 @@
     <description>ハーフエルフ式の高い強度を持つ高性能アーマーです。</description>
     <label>ハーフエルフ式マリーンアーマー</label>
     <techLevel>Spacer</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/middle/MarineArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -205,6 +234,12 @@
     <equippedStatOffsets>
 			<MoveSpeed>0.05</MoveSpeed>
 		</equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Neck</li>
@@ -218,6 +253,9 @@
         <li>Middle</li>
         <li>Shell</li>
       </layers>
+      <tags>
+        <li>WHE_Army</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>

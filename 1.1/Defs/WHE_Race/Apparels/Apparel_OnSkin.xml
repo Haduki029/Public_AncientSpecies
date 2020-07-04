@@ -6,9 +6,6 @@
     <description>皮や布で作られたノーマルな下着。</description>
     <label>下着</label>
     <techLevel>Neolithic</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -27,11 +24,14 @@
       <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
+    </recipeMaker>
     <!-- <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements> -->

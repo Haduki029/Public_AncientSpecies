@@ -3,28 +3,87 @@
   <PawnKindDef Name="AS_WHE_CommonBase" Abstract="True">
     <race>AS_WHE_Race</race>
     <combatPower>45</combatPower>
+    <itemQuality>Normal</itemQuality>
     <baseRecruitDifficulty>0.6</baseRecruitDifficulty>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelAllowHeadgearChance>0.08</apparelAllowHeadgearChance>
-    <apparelMoney>
-      <min>400</min>
-      <max>600</max>
-    </apparelMoney>
+    <apparelMoney>250~500</apparelMoney>
     <apparelRequired>
       <li>AS_WHE_UnderwearA</li>
     </apparelRequired>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>
+
 <!--==============================================NPC==============================================-->
-  <PawnKindDef Name="AS_WHE_NPCBase" Abstract="True">
-    <race>AS_WHE_Race</race>
+  <!-- Neolithic -->
+  <PawnKindDef Name="AS_WHE_NPCBase_Neolithic" ParentName="AS_WHE_CommonBase" Abstract="True">
+    <defaultFactionType>AS_WHE_Settlement</defaultFactionType>
+	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
+    <invNutrition>2.5</invNutrition>
+    <apparelTags>
+      <li>WHE_Neolithic</li>
+    </apparelTags>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Medieval -->
+  <PawnKindDef Name="AS_WHE_NPCBase_Medieval" ParentName="AS_WHE_CommonBase" Abstract="True">
     <defaultFactionType>AS_WHE_Village</defaultFactionType>
-    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-	  <baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
+    <invNutrition>2.8</invNutrition>
+    <apparelMoney>500~800</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+    </apparelTags>
+    <inventoryOptions>
+      <skipChance>0.5</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>350</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Industrial -->
+  <PawnKindDef Name="AS_WHE_NPCBase_Industrial" ParentName="AS_WHE_CommonBase" Abstract="True">
+    <defaultFactionType>AS_WHE_Town</defaultFactionType>
+	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <invNutrition>3</invNutrition>
-    <apparelRequired>
-      <li>AS_WHE_UnderwearA</li>
-    </apparelRequired>
+    <apparelMoney>700~1000</apparelMoney>
+    <apparelTags>
+      <li>WHE_Industrial</li>
+    </apparelTags>
+    <inventoryOptions>
+      <skipChance>0.7</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>350</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 </Defs>

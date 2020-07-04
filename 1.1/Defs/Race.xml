@@ -23,7 +23,9 @@
         <factionRelations>
           <li>
             <factions>
+              <li>AS_WHE_Settlement</li>
               <li>AS_WHE_Village</li>
+              <li>AS_WHE_Town</li>
             </factions>
             <goodwill>
               <min>100</min>
