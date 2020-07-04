@@ -49,7 +49,7 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <inventoryOptions>
-      <skipChance>0.5</skipChance>
+      <skipChance>0.3</skipChance>
       <subOptionsChooseOne>
         <li>
           <choiceChance>100</choiceChance>
@@ -73,7 +73,7 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <inventoryOptions>
-      <skipChance>0.7</skipChance>
+      <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
         <li>
           <choiceChance>100</choiceChance>

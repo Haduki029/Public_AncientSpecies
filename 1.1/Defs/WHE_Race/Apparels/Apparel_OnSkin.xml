@@ -47,6 +47,7 @@
       <tags>
         <li>AS_WHE_Colonist</li>
 		    <li>AS_WHE_Villager</li>
+        <li>WHE_Neolithic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -95,6 +96,9 @@
       <layers>
         <li>OnSkin</li>
       </layers>
+      <tags>
+        <li>WHE_Medieval</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
@@ -142,6 +146,9 @@
       <layers>
         <li>OnSkin</li>
       </layers>
+      <tags>
+        <li>WHE_Medieval</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
