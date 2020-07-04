@@ -31,10 +31,10 @@
         <li>HandTailoringBench</li>
       </recipeUsers>
       <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
     </recipeMaker>
-    <!-- <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements> -->
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -61,9 +61,6 @@
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
     <label>ピンクのフリル下着（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,11 +79,17 @@
       <Insulation_Heat>4</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -111,9 +114,6 @@
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
     <label>青いフリル下着（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -132,11 +132,17 @@
       <Insulation_Heat>4</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -161,9 +167,6 @@
     <description>皮や布で作られたセクシーな下着。そのデザインは相手の心をはやらせ、初心な相手であるほど平静さを忘れさせます。きっと互いに幸福感で満たされることでしょう。</description>
     <label>セクシーな下着（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareD</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -182,11 +185,17 @@
       <Insulation_Heat>4</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -208,9 +217,6 @@
     <description>皮や布で作られた下着？そのデザインは最早言葉で語ることすら憚られる、業の深い代物である。その魅力にパートナーは心が満たされ、より強い絆で結ばれることだろう。</description>
     <label>スマートインナー（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareE</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -229,11 +235,17 @@
       <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -255,9 +267,6 @@
     <description>皮や布で作られた下着。動きやすいデザインを意識している中で、胸の間のワンポイントがセクシーさを醸し出す逸品。</description>
     <label>スポーツインナー（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareF</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -276,11 +285,17 @@
       <StuffEffectMultiplierInsulation_Heat>0.02</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -302,9 +317,6 @@
     <description>皮や布で作られたニーソックス。</description>
     <label>ニーソックス（ハーフエルフ）</label>
     <techLevel>Neolithic</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/NeeSo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -321,11 +333,17 @@
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <!-- <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite> -->
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
@@ -350,9 +368,6 @@
     <description>皮や布で作られた、縞模様入りの高品質ニーソックス。</description>
     <label>ストライプニーソックス（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/onskin/StripeNeeSo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -371,11 +386,17 @@
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <!-- <recipeMaker>
-      <recipeUsers>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
         <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
       </recipeUsers>
-    </recipeMaker> -->
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>

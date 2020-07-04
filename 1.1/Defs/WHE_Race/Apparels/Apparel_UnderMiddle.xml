@@ -85,7 +85,7 @@
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
+      <!-- <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite> -->
     </recipeMaker>
     <apparel>
       <bodyPartGroups>

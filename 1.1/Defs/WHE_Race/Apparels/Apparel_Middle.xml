@@ -31,7 +31,15 @@
       <EquipDelay>2</EquipDelay>
     </statBases>
     <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
       <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
@@ -53,9 +61,6 @@
     <description>金属で作られたハーフエルフ式のプレートアーマー。首、胴体、肩、腕を守ってくれ、非常に丈夫だが、若干重い。</description>
     <label>ハーフエルフ式プレートアーマー</label>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/middle/PlateArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -81,13 +86,22 @@
 			<MoveSpeed>-0.05</MoveSpeed>
 			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
 		</equippedStatOffsets>
+     <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <apparel>
       <bodyPartGroups>
         <li>Neck</li>
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
-		    <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/PlateArmor</wornGraphicPath>
       <layers>

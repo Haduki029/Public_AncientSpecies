@@ -29,6 +29,9 @@
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
@@ -74,6 +77,9 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
@@ -121,11 +127,17 @@
       <Insulation_Heat>2.4</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
+    <tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>14</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
@@ -169,6 +181,9 @@
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>

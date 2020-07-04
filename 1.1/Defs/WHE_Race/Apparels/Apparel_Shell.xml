@@ -231,6 +231,9 @@
       <EquipDelay>18</EquipDelay>
       <Flammability>0.01</Flammability>
     </statBases>
+    <tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
     <equippedStatOffsets>
 			<MoveSpeed>0.05</MoveSpeed>
 		</equippedStatOffsets>
@@ -239,6 +242,9 @@
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
+      <skillRequirements>
+        <Crafting>14</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>

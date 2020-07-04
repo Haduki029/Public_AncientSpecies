@@ -41,7 +41,7 @@
         <costList>
             <WoodLog>120</WoodLog>
             <Plasteel>5</Plasteel>
-            <Hyperweave>2</Hyperweave>
+            <Hyperweave>1</Hyperweave>
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
@@ -51,7 +51,7 @@
         <AccuracyShort>0.90</AccuracyShort>
         <AccuracyMedium>0.85</AccuracyMedium>
         <AccuracyLong>0.70</AccuracyLong>
-        <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
             <li>WHE_NeolithicRangedAdvanced</li>
@@ -60,8 +60,8 @@
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>Arrow_Great</defaultProjectile>
-            <warmupTime>1.75</warmupTime>
+            <defaultProjectile>AS_WHE_ElvenArrow</defaultProjectile>
+            <warmupTime>1.65</warmupTime>
             <range>35.5</range>
             <soundCast>Bow_Large</soundCast>
         </li>
@@ -77,19 +77,22 @@
             <cooldownTime>2</cooldownTime>
         </li>
         </tools>
+        <generateCommonality>0.2</generateCommonality>
         <recipeMaker>
             <recipeUsers>
                 <li>CraftingSpot</li>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
             </recipeUsers>
             <researchPrerequisite>Greatbow</researchPrerequisite>
             <skillRequirements>
-                <Crafting>11</Crafting>
+                <Crafting>12</Crafting>
             </skillRequirements>
         </recipeMaker>
     </ThingDef>
 
-    <!-- <ThingDef ParentName="BaseProjectileNeolithic">
-        <defName>Arrow_Great</defName>
+    <ThingDef ParentName="BaseProjectileNeolithic">
+        <defName>AS_WHE_ElvenArrow</defName>
         <label>greatbow arrow</label>
         <graphicData>
         <texPath>Things/Projectile/Arrow_Small</texPath>
@@ -97,10 +100,10 @@
         </graphicData>
         <projectile>
         <damageDef>Arrow</damageDef>
-        <damageAmountBase>17</damageAmountBase>
-        <stoppingPower>1.5</stoppingPower>
-        <armorPenetrationBase>0.15</armorPenetrationBase>
-        <speed>49</speed>
+        <damageAmountBase>19</damageAmountBase>
+        <stoppingPower>1.8</stoppingPower>
+        <armorPenetrationBase>0.25</armorPenetrationBase>
+        <speed>69</speed>
         </projectile>
-    </ThingDef> -->
+    </ThingDef>
 </Defs>
