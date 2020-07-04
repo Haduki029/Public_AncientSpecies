@@ -4,7 +4,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_MaidWare</defName>
     <description>軽く、丈夫なメイド服。ロングスカートのゆったりとした、シックなデザインなっている。装着するとメイドとしての矜持により、少しだけ移動速度と作業速度が上がります。</description>
-    <label>メイド服</label>
+    <label>メイド服（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/MaidWare</texPath>
@@ -59,7 +59,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Tribal</defName>
     <description>原始的なツールを使って作られた衣服です。僅かですが断熱効果があります。</description>
-    <label>一枚布</label>
+    <label>一枚布（ハーフエルフ）</label>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/Tribal</texPath>
@@ -110,7 +110,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_TShirts</defName>
     <description>シンプルなTシャツです。生地は薄く、あまり防御力はありません。雨に濡れても透ける機能はありません。</description>
-    <label>Tシャツ</label>
+    <label>Tシャツ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/TShirts</texPath>
@@ -160,7 +160,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShortPants</defName>
     <description>シンプルなショートパンツです。生地が少なく、見るものに訴えかける素敵なデザインですが、防御力は低いです。</description>
-    <label>ショートパンツ</label>
+    <label>ショートパンツ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/ShortPants</texPath>
@@ -211,7 +211,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShirtButton</defName>
     <description>ボタンの付いたおしゃれなシャツとスカート。シックなデザインで着用者の可愛さを引き立てています。</description>
-    <label>ボタンシャツ</label>
+    <label>ボタンシャツ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/ShirtButton</texPath>
@@ -263,7 +263,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_TankTop</defName>
     <description>動きやすいタンクトップとボトムズです。丈夫なため、フィールドワークに向いています。付属の胸飾りがワンポイントです。</description>
-    <label>タンクトップ</label>
+    <label>タンクトップ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/TankTop</texPath>

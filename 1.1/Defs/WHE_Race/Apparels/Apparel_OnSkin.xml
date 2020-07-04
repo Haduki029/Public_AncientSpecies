@@ -4,7 +4,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_UnderwearA</defName>
     <description>皮や布で作られたノーマルな下着。</description>
-    <label>下着</label>
+    <label>下着（ハーフエルフ）</label>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareA</texPath>
@@ -59,7 +59,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_UnderwearB</defName>
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
-    <label>フリル下着（ピンク）</label>
+    <label>ピンクのフリル下着（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -109,7 +109,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_UnderwearC</defName>
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
-    <label>フリル下着（ブルー）</label>
+    <label>青いフリル下着（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -159,7 +159,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_UnderwearD</defName>
     <description>皮や布で作られたセクシーな下着。そのデザインは相手の心をはやらせ、初心な相手であるほど平静さを忘れさせます。きっと互いに幸福感で満たされることでしょう。</description>
-    <label>セクシーな下着</label>
+    <label>セクシーな下着（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -206,7 +206,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearE</defName>
     <description>皮や布で作られた下着？そのデザインは最早言葉で語ることすら憚られる、業の深い代物である。その魅力にパートナーは心が満たされ、より強い絆で結ばれることだろう。</description>
-    <label>スマートインナー</label>
+    <label>スマートインナー（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -253,7 +253,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearF</defName>
     <description>皮や布で作られた下着。動きやすいデザインを意識している中で、胸の間のワンポイントがセクシーさを醸し出す逸品。</description>
-    <label>スポーツインナー</label>
+    <label>スポーツインナー（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -300,7 +300,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_Neeso</defName>
     <description>皮や布で作られたニーソックス。</description>
-    <label>ニーソックス</label>
+    <label>ニーソックス（ハーフエルフ）</label>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
@@ -348,7 +348,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_StripeNeeso</defName>
     <description>皮や布で作られた、縞模様入りの高品質ニーソックス。</description>
-    <label>ストライプニーソックス</label>
+    <label>ストライプニーソックス（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>

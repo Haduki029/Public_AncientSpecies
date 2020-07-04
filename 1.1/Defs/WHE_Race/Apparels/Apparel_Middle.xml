@@ -4,7 +4,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_BulletProofVest</defName>
     <description>スチールと布で作られたシンプルな防弾ベスト。</description>
-    <label>防弾ベスト</label>
+    <label>防弾ベスト（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/middle/BulletProofVest</texPath>

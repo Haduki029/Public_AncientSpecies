@@ -8,7 +8,7 @@
       <summary></summary>
       <playerFaction>
         <def>PlayerFaction</def>
-        <factionDef>AS_WHE_PlayerFaction_Medieval</factionDef>
+        <factionDef>AS_WHE_PlayerFaction_Neolithic</factionDef>
       </playerFaction>
 		<parts>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">

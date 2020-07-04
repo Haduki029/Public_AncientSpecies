@@ -30,13 +30,12 @@
                 <li>
                     <kindDefs>
                         <li>AS_WHE_Colonist</li>
-                        <li>AS_WHE_Villager</li>
                     </kindDefs>
                     <chance>0.0</chance>
                 </li>
             </pawnKindEntries>
             <factionDefs>
-                <li>AS_WHE_PlayerFaction_Medieval</li> 
+                <li>AS_WHE_PlayerFaction_Neolithic</li> 
             </factionDefs>
         </li>
     </startingColonists>
@@ -47,11 +46,13 @@
                 <li>
                     <kindDefs>
                         <li>AS_WHE_Colonist</li>
-                        <li>AS_WHE_Villager</li>
                     </kindDefs>
                     <chance>0.0</chance>
                 </li>
             </pawnKindEntries>
+            <factionDefs>
+                <li>AS_WHE_PlayerFaction_Neolithic</li> 
+            </factionDefs>
         </li>
     </alienwandererkinds>			
 </pawnKindSettings>

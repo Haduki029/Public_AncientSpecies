@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <FactionDef Name="WHE_NPC_FactionsBase">
+  <FactionDef Name="WHE_NPC_FactionsBase" Abstract="True">
     <defName>AS_WHE_BaseFaction</defName>
     <label>WHE_FactionBase</label>
     <techLevel>Neolithic</techLevel>

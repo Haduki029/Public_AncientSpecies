@@ -28,25 +28,31 @@
         <kindDef>Combat</kindDef>
         <options>
           <AS_WHE_Warrior>10</AS_WHE_Warrior>
-          <AS_WHE_Villager>5</AS_WHE_Villager>
+          <AS_WHE_Hunter>15</AS_WHE_Hunter>
+          <AS_WHE_Villager>3</AS_WHE_Villager>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
           <options>
+            <AS_WHE_Warrior>3</AS_WHE_Warrior>
+            <AS_WHE_Hunter>5</AS_WHE_Hunter>
             <AS_WHE_Villager>10</AS_WHE_Villager>
+            <AS_WHE_Trader>4</AS_WHE_Trader>
           </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <AS_WHE_Villager>14</AS_WHE_Villager>
+          <AS_WHE_Warrior>10</AS_WHE_Warrior>
+          <AS_WHE_Hunter>15</AS_WHE_Hunter>
+          <AS_WHE_Villager>8</AS_WHE_Villager>
         </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-			  <AS_WHE_Villager>1</AS_WHE_Villager>
+			  <AS_WHE_Trader>1</AS_WHE_Trader>
         </traders>
         <carriers>
           <Muffalo>7</Muffalo>
@@ -54,7 +60,9 @@
           <Alpaca>3</Alpaca>
         </carriers>
         <guards>
-          <AS_WHE_Warrior>8</AS_WHE_Warrior>
+          <AS_WHE_Villager>4</AS_WHE_Villager>
+          <AS_WHE_Warrior>7</AS_WHE_Warrior>
+          <AS_WHE_Hunter>7</AS_WHE_Hunter>
         </guards>
       </li>
     </pawnGroupMakers>
@@ -87,26 +95,32 @@
       <li>
         <kindDef>Combat</kindDef>
         <options>
-          <AS_WHE_Warrior>10</AS_WHE_Warrior>
-          <AS_WHE_Villager>5</AS_WHE_Villager>
+          <AS_WHE_Fighter>10</AS_WHE_Fighter>
+          <AS_WHE_Shooter>15</AS_WHE_Shooter>
+          <AS_WHE_TownsPeople>3</AS_WHE_TownsPeople>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
           <options>
-            <AS_WHE_Villager>10</AS_WHE_Villager>
+            <AS_WHE_Fighter>3</AS_WHE_Fighter>
+            <AS_WHE_Shooter>5</AS_WHE_Shooter>
+            <AS_WHE_TownsPeople>10</AS_WHE_TownsPeople>
+            <AS_WHE_Trader>4</AS_WHE_Trader>
           </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <AS_WHE_Villager>14</AS_WHE_Villager>
+          <AS_WHE_Fighter>10</AS_WHE_Fighter>
+          <AS_WHE_Shooter>15</AS_WHE_Shooter>
+          <AS_WHE_TownsPeople>8</AS_WHE_TownsPeople>
         </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-			  <AS_WHE_Villager>1</AS_WHE_Villager>
+			  <AS_WHE_Trader>1</AS_WHE_Trader>
         </traders>
         <carriers>
           <Muffalo>7</Muffalo>
@@ -114,7 +128,9 @@
           <Alpaca>3</Alpaca>
         </carriers>
         <guards>
-          <AS_WHE_Warrior>8</AS_WHE_Warrior>
+          <AS_WHE_TownsPeople>4</AS_WHE_TownsPeople>
+          <AS_WHE_Fighter>7</AS_WHE_Fighter>
+          <AS_WHE_Shooter>7</AS_WHE_Shooter>
         </guards>
       </li>
     </pawnGroupMakers>
@@ -147,26 +163,35 @@
       <li>
         <kindDef>Combat</kindDef>
         <options>
-          <AS_WHE_Warrior>10</AS_WHE_Warrior>
-          <AS_WHE_Villager>5</AS_WHE_Villager>
+          <AS_WHE_Knight>10</AS_WHE_Knight>
+          <AS_WHE_Archer>15</AS_WHE_Archer>
+          <AS_WHE_Gunner>10</AS_WHE_Gunner>
+          <AS_WHE_Citizen>3</AS_WHE_Citizen>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
           <options>
-            <AS_WHE_Villager>10</AS_WHE_Villager>
+            <AS_WHE_Knight>3</AS_WHE_Knight>
+            <AS_WHE_Archer>5</AS_WHE_Archer>
+            <AS_WHE_Gunner>3</AS_WHE_Gunner>
+            <AS_WHE_Citizen>10</AS_WHE_Citizen>
+            <AS_WHE_Trader>4</AS_WHE_Trader>
           </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <AS_WHE_Villager>14</AS_WHE_Villager>
+          <AS_WHE_Knight>10</AS_WHE_Knight>
+          <AS_WHE_Archer>12</AS_WHE_Archer>
+          <AS_WHE_Gunner>8</AS_WHE_Gunner>
+          <AS_WHE_Citizen>8</AS_WHE_Citizen>
         </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-			  <AS_WHE_Villager>1</AS_WHE_Villager>
+			  <AS_WHE_Trader>1</AS_WHE_Trader>
         </traders>
         <carriers>
           <Muffalo>7</Muffalo>
@@ -174,7 +199,10 @@
           <Alpaca>3</Alpaca>
         </carriers>
         <guards>
-          <AS_WHE_Warrior>8</AS_WHE_Warrior>
+          <AS_WHE_Citizen>4</AS_WHE_Citizen>
+          <AS_WHE_Knight>7</AS_WHE_Knight>
+          <AS_WHE_Archer>7</AS_WHE_Archer>
+          <AS_WHE_Gunner>6</AS_WHE_Gunner>
         </guards>
       </li>
     </pawnGroupMakers>

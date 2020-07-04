@@ -4,7 +4,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Cape</defName>
     <description>皮や布で作られた肩掛け。寒さと攻撃から身を守ります。</description>
-    <label>ケープ</label>
+    <label>ケープ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/shell/Cape</texPath>
@@ -55,7 +55,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Parka</defName>
     <description>皮や布で作られたパーカー。寒さと攻撃から身を守ります。</description>
-    <label>パーカー</label>
+    <label>パーカー（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/shell/Parka</texPath>
@@ -105,7 +105,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_SimplePoncho</defName>
     <description>皮や布で作られたシンプルなデザインのポンチョ。パーカーほど丈夫ではないが、寒さ対策には非常に有効。</description>
-    <label>シンプルなポンチョ</label>
+    <label>シンプルなポンチョ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/shell/SimplePoncho</texPath>
@@ -155,7 +155,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_ElvenPoncho</defName>
     <description>古代エルフの技術で作られたポンチョ。金による紋様が編みこまれている。非常に丈夫な素材で作られており、防御性能に優れている。また、寒さや暑さからも身を守ります。</description>
-    <label>エルブンポンチョ</label>
+    <label>エルブンポンチョ（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/shell/Poncho</texPath>

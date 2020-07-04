@@ -4,7 +4,7 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Helmet</defName>
     <description>金属製の頭部上面を守るヘルメット。シンプルながらも丈夫に作られている。</description>
-    <label>ハーフエルフ式ヘルメット</label>
+    <label>ヘルメット（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/Helmet</texPath>
@@ -145,7 +145,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_MaidHairBand</defName>
     <description>メイドさんが頭部に着けるカチューシャ。メイド服とセットで身に着けると、貴女も完璧で瀟洒なメイドになれるでしょう。</description>
-    <label>メイドカチューシャ</label>
+    <label>メイドカチューシャ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/MaidHairBand</texPath>
@@ -188,7 +188,7 @@
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_Horn</defName>
     <description>頭に取り付けられる付け角です。何も特殊な効果はありませんが、見た目がちょっぴりかっこよくなります。Cool and cute！なお着脱は簡単です。</description>
-    <label>付け角</label>
+    <label>付け角（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/Horn</texPath>

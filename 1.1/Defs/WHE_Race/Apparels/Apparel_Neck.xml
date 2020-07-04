@@ -4,11 +4,9 @@
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Scarf</defName>
     <description>布で編まれたスカーフ。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
-    <label>スカーフ</label>
+    <label>シールドスカーフ（ハーフエルフ）</label>
+    <thingClass>ShieldBelt</thingClass>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>WHE/Apparels/neck/Scarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -17,27 +15,43 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Plasteel>20</Plasteel>
+    </costList>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
-      <WorkToMake>6500</WorkToMake>
+      <WorkToMake>16500</WorkToMake>
       <Mass>3</Mass>
       <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
-      <Flammability>0.8</Flammability>
+      <Flammability>0.4</Flammability>
     </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
     <apparel>
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
       <layers>
-        <li>AS_Neck</li>
+        <li>Belt</li>
       </layers>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
+      <tags>
+        <li>BeltDefense</li>
+      </tags>
     </apparel>
   </ThingDef>
 </Defs>
