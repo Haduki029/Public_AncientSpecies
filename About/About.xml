@@ -51,7 +51,7 @@
    ※Modの互換性については、必ず対応するわけではなく、製作者の判断で行います旨ご了承の上、当Modをご利用ください。
    Please note that the compatibility of the mods is not always supported and is done at the discretion of the creator.
 
-   ※Steam外のModについては、原則互換性の対応はしていません。
+   ※Steam外のModについては、原則互換性の対応はしていません。お問い合わせもご遠慮ください。
    We don't support the compatibility of mods outside of Steam and please do not inquire.
 
    ※当MODの再配布、商用利用等は原則禁止となります。
@@ -85,6 +85,5 @@
 		<li>Ludeon.RimWorld</li>
 		<li>erdelf.HumanoidAlienRaces</li>
       <li>showhair.kv.rw</li>
-      <li>Haduki.AncientSpecies</li>
 	</loadAfter>
 </ModMetaData>
