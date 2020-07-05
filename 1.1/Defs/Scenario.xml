@@ -3,7 +3,7 @@
   <ScenarioDef>
     <defName>AS_WHE_Scenario</defName>
     <label>[ハーフエルフ]逃亡の果てに</label>
-	<description>彼らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。開始時点は4人で、逃亡途中に散り散りになった者たちが10人います。</description>
+	<description>彼らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。開始時点は3人で、逃亡途中に散り散りになった者たちが7人います。</description>
     <scenario>
       <summary></summary>
       <playerFaction>
@@ -13,7 +13,7 @@
 		<parts>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 				<def>ConfigPage_ConfigureStartingPawns</def>
-				<pawnCount>4</pawnCount>
+				<pawnCount>3</pawnCount>
 				<pawnChoiceCount>10</pawnChoiceCount>
 			</li>
 			<li Class="ScenPart_PlayerPawnsArriveMethod">

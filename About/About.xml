@@ -8,11 +8,20 @@
    <packageId>Haduki.AncientSpecies</packageId>
    <description>
    こちらのModは、いくつかの種族とその派閥を追加するMODです。
-   [追加される種族]
+
+   [現在追加される種族]
    ・ハーフエルフ（Weeb Half Elf Race）
 
    [装備]
-   ・ハーフエルフに関する衣類
+   ・ハーフエルフに関する衣類（全27種）
+      ・下着6種
+      ・靴下2種
+      ・衣服11種
+      ・アーマー類3種
+      ・被り物4種
+      ・シールドベルト代替のシールドスカーフ1種
+   ・武器
+      ・弓1種
 
    [研究]
    ・ハーフエルフに関する衣類の研究
@@ -20,13 +29,27 @@
    [推奨Mod]
    ・Camera+
 
-   [注意]
-   このModは現在開発中のものです。
+   [Supported language/サポートしている言語]
+   Japanese
 
-   Coding Haduki
-   Illust Heli
-   
-   ※当MODの再配布等は原則禁止となります。
+   [注意]
+   ・このModは現在開発中のものです。予告なく内容に変更が加わる場合がございます旨、ご了承下さい。
+   ・バニラ体型の服装とは互換性がありません。
+
+   [開発者]
+   Code: Haduki
+   Art : Heli
+
+   Special Thanks
+      Many peoples at RimMod相談所.
+
+   [Mod Information]
+   Ver.0.1(latest)
+   Supported Rimworld version is 1.1.
+
+   ※当MODの再配布、商用利用等は原則禁止となります。
+   Redistribution and commercial use of this mod is prohibited in principle.
+
    (C) 2020 Haduki
    </description> 
    <modDependencies>
