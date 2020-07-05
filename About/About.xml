@@ -5,7 +5,7 @@
    <supportedVersions>
       <li>1.1</li>
    </supportedVersions>
-   <packageId>Haduki.AncientSpecies</packageId>
+   <packageId>Haduki.AncientSpecies.development</packageId>
    <description>
    こちらのModは、いくつかの種族とその派閥を追加するMODです。
 
@@ -47,8 +47,18 @@
    Ver.0.1(latest)
    Supported Rimworld version is 1.1.
 
+   [Attention]
+   ※Modの互換性については、必ず対応するわけではなく、製作者の判断で行います旨ご了承の上、当Modをご利用ください。
+   Please note that the compatibility of the mods is not always supported and is done at the discretion of the creator.
+
+   ※Steam外のModについては、原則互換性の対応はしていません。
+   We don't support the compatibility of mods outside of Steam and please do not inquire.
+
    ※当MODの再配布、商用利用等は原則禁止となります。
    Redistribution and commercial use of this mod is prohibited in principle.
+
+   ※上記注意点について、ご理解、ご了承頂けない方のMod利用は、固くお断り致します。
+   If you can't agree the above attentions, should not download this mod. 
 
    (C) 2020 Haduki
    </description> 
