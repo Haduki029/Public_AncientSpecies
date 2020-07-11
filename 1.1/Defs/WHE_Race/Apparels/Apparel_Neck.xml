@@ -51,6 +51,10 @@
       </layers>
       <tags>
         <li>BeltDefense</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
       </tags>
     </apparel>
   </ThingDef>

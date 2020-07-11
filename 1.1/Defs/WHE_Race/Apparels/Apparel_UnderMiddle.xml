@@ -46,12 +46,16 @@
       <layers>
         <li>Middle</li>
       </layers>
-      <tags>
-        <li>WHE_Medieval</li>
-      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      <tags>
+        <li>WHE_Medieval</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
     </apparel>
   </ThingDef>
 
@@ -152,6 +156,11 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      <tags>
+        <li>WHE_Medieval</li>
+        <li>WHE_Industrial</li>
+        <li>RoyalTier2</li>
+      </tags>
     </apparel>
   </ThingDef>
 
@@ -200,10 +209,12 @@
         <li>AS_WHE_TownsPeople</li>
         <li>WHE_Medieval</li>
         <li>WHE_Industrial</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-      </defaultOutfitTags>
+      </defaultOutfitTags>      
     </apparel>
   </ThingDef>
 
@@ -252,6 +263,10 @@
       <tags>
         <li>WHE_Medieval</li>
         <li>WHE_Industrial</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -303,6 +318,10 @@
       <tags>
         <li>WHE_Medieval</li>
         <li>WHE_Industrial</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

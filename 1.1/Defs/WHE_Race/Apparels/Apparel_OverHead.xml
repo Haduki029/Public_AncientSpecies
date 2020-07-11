@@ -196,6 +196,9 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      <tags>
+        <li>RoyalTier2</li>
+      </tags>
     </apparel>
   </ThingDef>
 
@@ -240,6 +243,12 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      <tags>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
     </apparel>
   </ThingDef>
 </Defs>
