@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_AS_WHE_BulletProofVest.label>make Bulletproof vest (half-elf)</Make_AS_WHE_BulletProofVest.label>
+  <Make_AS_WHE_BulletProofVest.description>Make Bulletproof Vest (Half-Elf).</Make_AS_WHE_BulletProofVest.description>
+  <Make_AS_WHE_BulletProofVest.jobString>Making Bulletproof Vest (Half-Elf).</Make_AS_WHE_BulletProofVest.jobString>
+  <Make_AS_WHE_Scarf.label>make Shield Scarf (Half Elf)</Make_AS_WHE_Scarf.label>
+  <Make_AS_WHE_Scarf.description>Make Shield Scarf (Half-Elf).</Make_AS_WHE_Scarf.description>
+  <Make_AS_WHE_Scarf.jobString>Make Shield Scarf (Half-Elf).</Make_AS_WHE_Scarf.jobString>
+  <Make_AS_WHE_UnderwearA.label>make Underwear (half-elf)</Make_AS_WHE_UnderwearA.label>
+  <Make_AS_WHE_UnderwearA.description>make Underwear (half-elf)</Make_AS_WHE_UnderwearA.description>
+  <Make_AS_WHE_UnderwearA.jobString>Making Underwear (Half-Elf).</Make_AS_WHE_UnderwearA.jobString>
+  <Make_AS_WHE_UnderwearB.label>make pink frilled underwear (half elf)</Make_AS_WHE_UnderwearB.label>
+  <Make_AS_WHE_UnderwearB.description>make pink frilled underwear (half elf)</Make_AS_WHE_UnderwearB.description>
+  <Make_AS_WHE_UnderwearB.jobString>making pink frilled underwear (half elf)</Make_AS_WHE_UnderwearB.jobString>
+  <Make_AS_WHE_UnderwearC.label>make blue frilled underwear (half elf)</Make_AS_WHE_UnderwearC.label>
+  <Make_AS_WHE_UnderwearC.description>make blue frilled underwear (half elf)</Make_AS_WHE_UnderwearC.description>
+  <Make_AS_WHE_UnderwearC.jobString>making blue frilled underwear (half elf)</Make_AS_WHE_UnderwearC.jobString>
+  <Make_AS_WHE_UnderwearD.label>Make Sexy Underwear (Half Elf)</Make_AS_WHE_UnderwearD.label>
+  <Make_AS_WHE_UnderwearD.description>Make Sexy Underwear (Half Elf)</Make_AS_WHE_UnderwearD.description>
+  <Make_AS_WHE_UnderwearD.jobString>Making Sexy Underwear (Half Elf).</Make_AS_WHE_UnderwearD.jobString>
+  <Make_AS_WHE_UnderwearE.label>make smart innerwear (half-elf)</Make_AS_WHE_UnderwearE.label>
+  <Make_AS_WHE_UnderwearE.description>make smart innerwear (half-elf)</Make_AS_WHE_UnderwearE.description>
+  <Make_AS_WHE_UnderwearE.jobString>Making Smart Innerwear (Half-Elf) .</Make_AS_WHE_UnderwearE.jobString>
+  <Make_AS_WHE_UnderwearF.label>make Sports Innerwear (Half Elf)</Make_AS_WHE_UnderwearF.label>
+  <Make_AS_WHE_UnderwearF.description>make Sports Innerwear (Half Elf)</Make_AS_WHE_UnderwearF.description>
+  <Make_AS_WHE_UnderwearF.jobString>making Sports Innerwear (Half Elf)</Make_AS_WHE_UnderwearF.jobString>
+  <Make_AS_WHE_Neeso.label>make knee socks (half elf)</Make_AS_WHE_Neeso.label>
+  <Make_AS_WHE_Neeso.description>Make Knee Socks (Half-Elf).</Make_AS_WHE_Neeso.description>
+  <Make_AS_WHE_Neeso.jobString>Making Knee Socks (Half Elf) .</Make_AS_WHE_Neeso.jobString>
+  <Make_AS_WHE_StripeNeeso.label>make striped knee socks (half elf)</Make_AS_WHE_StripeNeeso.label>
+  <Make_AS_WHE_StripeNeeso.description>Make Stripe Knee Socks (Half Elf) .</Make_AS_WHE_StripeNeeso.description>
+  <Make_AS_WHE_StripeNeeso.jobString>Making Stripe Knee Socks (Half Elf) .</Make_AS_WHE_StripeNeeso.jobString>
+  <Make_AS_WHE_Helmet.label>make helmet (half-elf)</Make_AS_WHE_Helmet.label>
+  <Make_AS_WHE_Helmet.description>Make Helmet (Half-Elf).</Make_AS_WHE_Helmet.description>
+  <Make_AS_WHE_Helmet.jobString>Making Helmet (Half-Elf).</Make_AS_WHE_Helmet.jobString>
+  <Make_AS_WHE_AdvancedHelmet.label>make Half-Elf Advanced Helmet</Make_AS_WHE_AdvancedHelmet.label>
+  <Make_AS_WHE_AdvancedHelmet.description>Make an advanced half-elf helmet.</Make_AS_WHE_AdvancedHelmet.description>
+  <Make_AS_WHE_AdvancedHelmet.jobString>Making Half-Elf Advanced Helmet.</Make_AS_WHE_AdvancedHelmet.jobString>
+  <Make_AS_WHE_MarineHelmet.label>make Half-Elf Marine Helmet</Make_AS_WHE_MarineHelmet.label>
+  <Make_AS_WHE_MarineHelmet.description>Make Half-Elf Marine Helmet.</Make_AS_WHE_MarineHelmet.description>
+  <Make_AS_WHE_MarineHelmet.jobString>Making Half-Elf Marine Helmet.</Make_AS_WHE_MarineHelmet.jobString>
+  <Make_AS_WHE_MaidHairBand.label>Make Maid Katyusha (Half Elf)</Make_AS_WHE_MaidHairBand.label>
+  <Make_AS_WHE_MaidHairBand.description>Make Maid Katusha (Half Elf).</Make_AS_WHE_MaidHairBand.description>
+  <Make_AS_WHE_MaidHairBand.jobString>Making Maid Katusha (Half Elf).</Make_AS_WHE_MaidHairBand.jobString>
+  <Make_AS_WHE_Horn.label>make install horn(Half Elf)</Make_AS_WHE_Horn.label>
+  <Make_AS_WHE_Horn.description>make install horn(Half Elf).</Make_AS_WHE_Horn.description>
+  <Make_AS_WHE_Horn.jobString>making install horn(Half Elf)..</Make_AS_WHE_Horn.jobString>
+  <Make_AS_WHE_Cape.label>make cape (half-elf)</Make_AS_WHE_Cape.label>
+  <Make_AS_WHE_Cape.description>Make cape (half-elf).</Make_AS_WHE_Cape.description>
+  <Make_AS_WHE_Cape.jobString>Making Capes (Half-Elf).</Make_AS_WHE_Cape.jobString>
+  <Make_AS_WHE_Parka.label>make parka (half-elf)</Make_AS_WHE_Parka.label>
+  <Make_AS_WHE_Parka.description>Make Parker (Half-Elf).</Make_AS_WHE_Parka.description>
+  <Make_AS_WHE_Parka.jobString>Making Parker (Half-Elf).</Make_AS_WHE_Parka.jobString>
+  <Make_AS_WHE_SimplePoncho.label>make A simple poncho (half-elf)</Make_AS_WHE_SimplePoncho.label>
+  <Make_AS_WHE_SimplePoncho.description>Make a simple poncho (half-elf) .</Make_AS_WHE_SimplePoncho.description>
+  <Make_AS_WHE_SimplePoncho.jobString>Making a simple poncho (half elf).</Make_AS_WHE_SimplePoncho.jobString>
+  <Make_AS_WHE_ElvenPoncho.label>make Elven Poncho (Half Elf)</Make_AS_WHE_ElvenPoncho.label>
+  <Make_AS_WHE_ElvenPoncho.description>Make Elven Poncho (Half Elf) .</Make_AS_WHE_ElvenPoncho.description>
+  <Make_AS_WHE_ElvenPoncho.jobString>Making Elven Poncho (Half Elf).</Make_AS_WHE_ElvenPoncho.jobString>
+  <Make_AS_WHE_MarineArmor.label>make half-elf-style marine armor</Make_AS_WHE_MarineArmor.label>
+  <Make_AS_WHE_MarineArmor.description>Make Half-Elf Style Marine Armor.</Make_AS_WHE_MarineArmor.description>
+  <Make_AS_WHE_MarineArmor.jobString>Making Half-Elf Style Marine Armor.</Make_AS_WHE_MarineArmor.jobString>
+  <Make_AS_WHE_MaidWare.label>Make Maid Suit (Half Elf)</Make_AS_WHE_MaidWare.label>
+  <Make_AS_WHE_MaidWare.description>Make Maid Suit (Half-Elf).</Make_AS_WHE_MaidWare.description>
+  <Make_AS_WHE_MaidWare.jobString>Making Maid Suit (Half Elf).</Make_AS_WHE_MaidWare.jobString>
+  <Make_AS_WHE_Tribal.label>make One Piece of Cloth (Half Elf)</Make_AS_WHE_Tribal.label>
+  <Make_AS_WHE_Tribal.description>Make One Piece of Cloth (Half-Elf).</Make_AS_WHE_Tribal.description>
+  <Make_AS_WHE_Tribal.jobString>Making One Piece of Cloth (Half Elf).</Make_AS_WHE_Tribal.jobString>
+  <Make_AS_WHE_TShirts.label>make T-shirt (half-elf)</Make_AS_WHE_TShirts.label>
+  <Make_AS_WHE_TShirts.description>Make T-Shirt (Half-Elf).</Make_AS_WHE_TShirts.description>
+  <Make_AS_WHE_TShirts.jobString>Making T-Shirts (Half-Elf).</Make_AS_WHE_TShirts.jobString>
+  <Make_AS_WHE_ShortPants.label>make short pants (half-elf)</Make_AS_WHE_ShortPants.label>
+  <Make_AS_WHE_ShortPants.description>make short pants (half-elf)</Make_AS_WHE_ShortPants.description>
+  <Make_AS_WHE_ShortPants.jobString>making short pants (half-elf)</Make_AS_WHE_ShortPants.jobString>
+  <Make_AS_WHE_ShirtButton.label>make buttoned shirt (half-elf)</Make_AS_WHE_ShirtButton.label>
+  <Make_AS_WHE_ShirtButton.description>Make Button Shirt (Half-Elf).</Make_AS_WHE_ShirtButton.description>
+  <Make_AS_WHE_ShirtButton.jobString>Making Button Shirt (Half-Elf).</Make_AS_WHE_ShirtButton.jobString>
+  <Make_AS_WHE_TankTop.label>make tank top (half-elf)</Make_AS_WHE_TankTop.label>
+  <Make_AS_WHE_TankTop.description>Make Tank Top (Half-Elf).</Make_AS_WHE_TankTop.description>
+  <Make_AS_WHE_TankTop.jobString>Making Tank Top (Half Elf).</Make_AS_WHE_TankTop.jobString>
+</LanguageData>

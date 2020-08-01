@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AS_WHE_Apparel_Basic.label>Simple clothing</AS_WHE_Apparel_Basic.label>
+  <AS_WHE_Apparel_Basic.description>Technology to create simple clothing for the half-elves.</AS_WHE_Apparel_Basic.description>
+  <AS_WHE_Apparel_Elementary.label>Basic clothing</AS_WHE_Apparel_Elementary.label>
+  <AS_WHE_Apparel_Elementary.description>The art of creating basic clothing for the half-elves.</AS_WHE_Apparel_Elementary.description>
+  <AS_WHE_Apparel_Intermediate.label>Intricate Clothing</AS_WHE_Apparel_Intermediate.label>
+  <AS_WHE_Apparel_Intermediate.description>Technology for creating intricate clothing for the half-elves.</AS_WHE_Apparel_Intermediate.description>
+  <AS_WHE_Apparel_Spacer.label>Advanced Clothing</AS_WHE_Apparel_Spacer.label>
+  <AS_WHE_Apparel_Spacer.description>The technology of the half-elves is applied to create advanced clothing.</AS_WHE_Apparel_Spacer.description>
+</LanguageData>

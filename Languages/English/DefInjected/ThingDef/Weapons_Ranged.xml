@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WHE_ElvenBow.label>Elven bow</WHE_ElvenBow.label>
+  <WHE_ElvenBow.description>It is a cheaper version of the common bow used by the ancient elves.</WHE_ElvenBow.description>
+  <WHE_ElvenBow.tools.0.label>limb</WHE_ElvenBow.tools.0.label>
+  <AS_WHE_ElvenArrow.label>greatbow arrow</AS_WHE_ElvenArrow.label>
+</LanguageData>
