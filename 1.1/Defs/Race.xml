@@ -49,7 +49,7 @@
           <useGenderedHeads>false</useGenderedHeads>
           <useGenderedBodies>false</useGenderedBodies>
           <customDrawSize>(1.1, 1.1)</customDrawSize>
-          <customPortraitDrawSize>(0.95, 0.95)</customPortraitDrawSize>
+          <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <li>
