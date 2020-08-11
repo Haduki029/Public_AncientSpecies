@@ -14,11 +14,11 @@
         <!-- 人間種族と同パーツ有無のチェック？人間と同じパーツならtrueにすることでDE Surgery対応できるらしい -->
         <humanRecipeImport>true</humanRecipeImport>
         <disallowedTraits>
-          <li>DislikesWomen</li>
-          <li>DrugDesire</li>
-          <li>Abrasive</li>
-          <li>AnnoyingVoice</li>
-          <li>CreepyBreathing</li>
+          <!-- <li>DislikesWomen</li> -->
+          <!-- <li>DrugDesire</li> -->
+          <!-- <li>Abrasive</li> -->
+          <!-- <li>AnnoyingVoice</li> -->
+          <!-- <li>CreepyBreathing</li> -->
         </disallowedTraits>
         <factionRelations>
           <li>
