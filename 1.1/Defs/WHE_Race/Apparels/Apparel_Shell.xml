@@ -289,7 +289,7 @@
   <ThingDef ParentName="AS_WHE_ArmorMachineableBase">
     <defName>AS_WHE_PressureResistantSuits</defName>
     <label>耐圧スーツ</label>
-    <description>試験導入</description>
+    <description>宇宙での活動を可能を補助するスーツ。スーツへオプションアーマーを取付けており、装着者の防御力を上げている。</description>
     <graphicData>
       <texPath>WHE/Apparels/middle/PressureResistantSuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -256,7 +256,7 @@
   <!-- Pressure Resistant Helmet -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_PressureResistantHelmet</defName>
-    <description>テスト実装</description>
+    <description>宇宙での活動を可能を補助するヘルメット。</description>
     <label>ハーフエルフ式耐圧ヘルメット</label>
     <techLevel>Spacer</techLevel>
     <graphicData>

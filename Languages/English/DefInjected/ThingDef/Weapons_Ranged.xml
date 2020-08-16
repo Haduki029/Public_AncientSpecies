@@ -4,4 +4,8 @@
   <WHE_ElvenBow.description>It is a cheaper version of the common bow used by the ancient elves.</WHE_ElvenBow.description>
   <WHE_ElvenBow.tools.0.label>limb</WHE_ElvenBow.tools.0.label>
   <AS_WHE_ElvenArrow.label>greatbow arrow</AS_WHE_ElvenArrow.label>
+  <AS_AssaultRifle.label>AS Assault Rifle</AS_AssaultRifle.label>
+  <AS_AssaultRifle.description>An assault rifle created by an ancient technology.</AS_AssaultRifle.description>
+  <AS_AssaultRifle.label>AS Assault Rifle Custom</AS_AssaultRifle.label>
+  <AS_AssaultRifle.description>Custom version of the AS assault rifle. By strengthening the frame and installing a grip, the accuracy and stability of shooting is improved.</AS_AssaultRifle.description>
 </LanguageData>

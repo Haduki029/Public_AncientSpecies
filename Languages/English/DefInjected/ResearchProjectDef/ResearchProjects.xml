@@ -8,4 +8,6 @@
   <AS_WHE_Apparel_Intermediate.description>Technology for creating intricate clothing for the half-elves.</AS_WHE_Apparel_Intermediate.description>
   <AS_WHE_Apparel_Spacer.label>Advanced Clothing</AS_WHE_Apparel_Spacer.label>
   <AS_WHE_Apparel_Spacer.description>The technology of the half-elves is applied to create advanced clothing.</AS_WHE_Apparel_Spacer.description>
+  <AS_Weapons.label>Ancient Species Basic Technology</AS_Weapons.label>
+  <AS_Weapons.description>Basic regarding the technology used by certain ancient species. Several armaments can be created.</AS_Weapons.description>
 </LanguageData>
