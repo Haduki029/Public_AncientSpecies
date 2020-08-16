@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Scarf -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Scarf</defName>
+    <description>布で編まれたスカーフ。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
+    <label>シールドスカーフ（ハーフエルフ）</label>
+    <thingClass>ShieldBelt</thingClass>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Plasteel>20</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>16500</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>

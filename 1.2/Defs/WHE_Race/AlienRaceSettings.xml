@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.RaceSettings>
+<defName>AS_WHE_RaceSettings</defName>
+<pawnKindSettings>
+    <!-- 奴隷 -->
+	<alienslavekinds>
+		<li>
+			<kindDefs>
+				<li>AS_WHE_Colonist</li>
+                <li>AS_WHE_Villager</li>
+			</kindDefs>
+			<chance>0.0</chance>
+		</li>
+	</alienslavekinds>
+	<!-- 難民 -->
+	<alienrefugeekinds>
+		<li>
+			<kindDefs>
+				<li>AS_WHE_Colonist</li>
+                <li>AS_WHE_Villager</li>
+			</kindDefs>
+			<chance>0.0</chance>
+		</li>
+	</alienrefugeekinds>
+			
+    <startingColonists>
+        <li>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>AS_WHE_Colonist</li>
+                    </kindDefs>
+                    <chance>0.0</chance>
+                </li>
+            </pawnKindEntries>
+            <factionDefs>
+                <li>AS_WHE_PlayerFaction_Neolithic</li> 
+            </factionDefs>
+        </li>
+    </startingColonists>
+	<!-- 放浪者 -->
+    <alienwandererkinds>
+        <li>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>AS_WHE_Colonist</li>
+                    </kindDefs>
+                    <chance>0.0</chance>
+                </li>
+            </pawnKindEntries>
+            <factionDefs>
+                <li>AS_WHE_PlayerFaction_Neolithic</li> 
+            </factionDefs>
+        </li>
+    </alienwandererkinds>			
+</pawnKindSettings>
+</AlienRace.RaceSettings>
+</Defs>

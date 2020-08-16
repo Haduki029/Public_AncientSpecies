@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Base -->
+    <ThingDef Name="WHE_BaseWeaponNeolithic" Abstract="True" ParentName="BaseWeapon">
+        <techLevel>Neolithic</techLevel>
+        <weaponTags>
+            <li>WHE_Neolithic</li>
+            <li>WHE_WeaponsRanged</li>
+        </weaponTags>
+        <thingCategories>
+            <li>WeaponsRanged</li>
+        </thingCategories>
+        <burnableByRecipe>true</burnableByRecipe>
+        <comps>
+        <li>
+            <compClass>CompQuality</compClass>
+        </li>
+        </comps>
+        <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <recipeUsers>
+            <li>ElectricSmithy</li>
+            <li>FueledSmithy</li>
+        </recipeUsers>
+        <effectWorking>Smelt</effectWorking>
+        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- ElvenBow -->
+    <ThingDef ParentName="WHE_BaseWeaponNeolithic">
+        <defName>WHE_ElvenBow</defName>
+        <label>Elven bow</label>
+        <description>古代エルフが使っていた一般的な弓の廉価版です。</description>
+        <graphicData>
+        <texPath>WHE/Weapons/bow/ElvenBow</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Bow_Large</soundInteract>
+        <costList>
+            <WoodLog>120</WoodLog>
+            <Plasteel>5</Plasteel>
+            <Hyperweave>1</Hyperweave>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+        <statBases>
+            <WorkToMake>19000</WorkToMake>
+            <Mass>3.0</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.90</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.70</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+        <thingCategories>
+            <li>AS_WHE_Weapons</li>
+        </thingCategories>
+        <weaponTags>
+            <li>WHE_NeolithicRangedAdvanced</li>
+        </weaponTags>
+        <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>AS_WHE_ElvenArrow</defaultProjectile>
+            <warmupTime>1.65</warmupTime>
+            <range>35.5</range>
+            <soundCast>Bow_Large</soundCast>
+        </li>
+        </verbs>
+        <tools>
+        <li>
+            <label>limb</label>
+            <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        </tools>
+        <generateCommonality>0.2</generateCommonality>
+        <recipeMaker>
+            <recipeUsers>
+                <li>CraftingSpot</li>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <researchPrerequisite>Greatbow</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseProjectileNeolithic">
+        <defName>AS_WHE_ElvenArrow</defName>
+        <label>greatbow arrow</label>
+        <graphicData>
+        <texPath>Things/Projectile/Arrow_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+        <damageDef>Arrow</damageDef>
+        <damageAmountBase>19</damageAmountBase>
+        <stoppingPower>1.8</stoppingPower>
+        <armorPenetrationBase>0.25</armorPenetrationBase>
+        <speed>69</speed>
+        </projectile>
+    </ThingDef>
+</Defs>
