@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- Base -->
+    <!-- Base -->
     <ThingDef Name="WHE_BaseWeaponNeolithic" Abstract="True" ParentName="BaseWeapon">
         <techLevel>Neolithic</techLevel>
         <weaponTags>
@@ -45,14 +45,17 @@
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
-        <WorkToMake>19000</WorkToMake>
-        <Mass>3.0</Mass>
-        <AccuracyTouch>0.75</AccuracyTouch>
-        <AccuracyShort>0.90</AccuracyShort>
-        <AccuracyMedium>0.85</AccuracyMedium>
-        <AccuracyLong>0.70</AccuracyLong>
-        <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <WorkToMake>19000</WorkToMake>
+            <Mass>3.0</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.90</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.70</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
+        <thingCategories>
+            <li>AS_WHE_Weapons</li>
+        </thingCategories>
         <weaponTags>
             <li>WHE_NeolithicRangedAdvanced</li>
         </weaponTags>

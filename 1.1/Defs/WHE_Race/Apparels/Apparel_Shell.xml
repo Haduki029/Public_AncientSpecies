@@ -109,7 +109,7 @@
     </apparel>
   </ThingDef>
 
-  <!-- SinmplePoncho -->
+  <!-- SimplePoncho -->
   <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_SimplePoncho</defName>
     <description>皮や布で作られたシンプルなデザインのポンチョ。パーカーほど丈夫ではないが、寒さ対策には非常に有効。</description>
@@ -247,7 +247,7 @@
       <Flammability>0.01</Flammability>
     </statBases>
     <tradeTags>
-      <li>HiTechArmor</li>
+      <li>AS_WHE_HiTechArmor</li>
     </tradeTags>
     <equippedStatOffsets>
 			<MoveSpeed>0.05</MoveSpeed>
@@ -263,11 +263,13 @@
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>Neck</li>
         <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-		    <li>Legs</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/MarineArmor</wornGraphicPath>
       <layers>
@@ -275,10 +277,74 @@
         <li>Shell</li>
       </layers>
       <tags>
-        <li>WHE_Army</li>
+        <li>AS_WHE_Army</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Pressure Resistant suits -->
+  <ThingDef ParentName="AS_WHE_ArmorMachineableBase">
+    <defName>AS_WHE_PressureResistantSuits</defName>
+    <label>耐圧スーツ</label>
+    <description>試験導入</description>
+    <graphicData>
+      <texPath>WHE/Apparels/middle/PressureResistantSuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Hyperweave>30</Hyperweave>
+      <Plasteel>80</Plasteel>
+      <Uranium>25</Uranium>
+    </costList>
+		<generateCommonality>0</generateCommonality>
+    <statBases>
+      <WorkToMake>74000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <Mass>18</Mass>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.18</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.95</ArmorRating_Heat>
+      <Insulation_Cold>100</Insulation_Cold>
+      <Insulation_Heat>45</Insulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+      <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <tradeTags>
+      <li>AS_WHE_HiTechArmor</li>
+    </tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>16</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>WHE/Apparels/middle/PressureResistantSuit</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+        <li>AS_WHE_Spacer</li>
+        <li>AS_WHE_EVA</li>
+      </tags>
+      <defaultOutfitTags>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>

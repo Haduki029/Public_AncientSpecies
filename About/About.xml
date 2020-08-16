@@ -17,8 +17,8 @@
       ・下着6種
       ・靴下2種
       ・衣服11種
-      ・アーマー類3種
-      ・被り物4種
+      ・アーマー類4種
+      ・被り物5種
       ・シールドベルト代替のシールドスカーフ1種
    ・武器
       ・弓1種
@@ -38,13 +38,15 @@
 
    [開発者]
    Code: Haduki
-   Art : Heli
+   Art : 
+      Main: Heli
+      Sub : Haduki
 
    Special Thanks
       Many peoples at RimMod相談所.
 
    [Mod Information]
-   Ver.0.1(latest)
+   Ver.0.2(latest)
    Supported Rimworld version is 1.1.
 
    [Attention]

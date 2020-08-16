@@ -56,6 +56,7 @@
     <graphicData>
       <texPath>WHE/Apparels/overhead/AdvancedHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
@@ -249,6 +250,66 @@
         <li>RoyalTier6</li>
         <li>RoyalTier7</li>
       </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Pressure Resistant Helmet -->
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+    <defName>AS_WHE_PressureResistantHelmet</defName>
+    <description>テスト実装</description>
+    <label>ハーフエルフ式耐圧ヘルメット</label>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/overhead/PressureResistantHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconPath>WHE/Apparels/overhead/PressureResistantHelmet</uiIconPath>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Plasteel>30</Plasteel>
+      <Gold>1</Gold>
+      <Uranium>6</Uranium>
+    </costList>
+    <uiIconScale>1.5</uiIconScale>
+    <statBases>
+      <WorkToMake>24500</WorkToMake>
+      <MaxHitPoints>190</MaxHitPoints>
+      <Mass>1.8</Mass>
+      <Flammability>0.1</Flammability>
+      <StuffEffectMultiplierArmor>1.08</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>3.52</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <tradeTags></tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>16</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <generateCommonality>0</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/overhead/PressureResistantHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>AS_WHE_Spacer</li>
+        <li>AS_WHE_EVA</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
     </apparel>
   </ThingDef>
 </Defs>

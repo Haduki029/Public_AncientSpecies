@@ -12,7 +12,7 @@
       <drawSize>1.5</drawSize>
     </graphicData>
     <thingCategories>
-      <li>Apparel</li>
+      <li>AS_WHE_Apparel</li>
     </thingCategories>
     <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
@@ -64,6 +64,17 @@
         <li>HandTailoringBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Apparel No color ArmorMachineableBase -->
+  <ThingDef Name="AS_WHE_ArmorMachineableBase" ParentName="AS_WHE_ApparelNoColorBase" Abstract="True">
+	  <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
     </recipeMaker>
   </ThingDef>
 </Defs>

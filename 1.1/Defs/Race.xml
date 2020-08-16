@@ -48,7 +48,7 @@
           </aliencrowntypes>
           <useGenderedHeads>false</useGenderedHeads>
           <useGenderedBodies>false</useGenderedBodies>
-          <customDrawSize>(1.1, 1.1)</customDrawSize>
+          <customDrawSize>(1.15, 1.15)</customDrawSize>
           <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
@@ -109,6 +109,8 @@
         <li>AS_WHE_UnderwearD</li>
         <li>AS_WHE_UnderwearE</li>
         <li>AS_WHE_UnderwearF</li>
+        <li>AS_WHE_UnderwearG</li>
+        <!-- <li>AS_WHE_UnderwearH</li> -->
         <li>AS_WHE_MaidWare</li>
         <li>AS_WHE_PlateArmor</li>
         <li>AS_WHE_MarineArmor</li>
@@ -116,6 +118,9 @@
         <li>AS_WHE_BulletProofVest</li>
         <li>AS_WHE_Neeso</li>
         <li>AS_WHE_StripeNeeso</li>
+        <!-- <li>AS_WHE_GarterBelt</li> -->
+        <!-- <li>AS_WHE_RealGarterBelt</li> -->
+        <!-- <li>AS_WHE_BlackGarterBelt</li> -->
         <li>AS_WHE_Parka</li>
         <li>AS_WHE_ElvenPoncho</li>
         <li>AS_WHE_Scarf</li>
@@ -130,6 +135,8 @@
         <li>AS_WHE_ShirtButton</li>
         <li>AS_WHE_TankTop</li>
         <li>AS_WHE_SimplePoncho</li>
+        <li>AS_WHE_PressureResistantHelmet</li>
+        <li>AS_WHE_PressureResistantSuits</li>
       </apparelList>
 			<whiteApparelList>
 			  <!-- <li>Apparel_ShieldBelt</li> -->

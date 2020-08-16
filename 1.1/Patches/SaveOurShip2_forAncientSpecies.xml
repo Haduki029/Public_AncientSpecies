@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Check if Ancient Species mod exists -->
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+	        <li>Save Our Ship 2</li>
+			<li>1909914131</li>
+			<li>kentington.saveourship2</li>
+		</mods>
+	<!-- Add modded race Ancient Species ThingDef race Defname to this Mod -->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="AS_WHE_PressureResistantSuits" or defName="AS_WHE_PressureResistantHelmet"]/apparel/tags</xpath>
+			<value>
+				<li>EVA</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>
