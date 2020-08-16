@@ -14,11 +14,11 @@
         <!-- 人間種族と同パーツ有無のチェック？人間と同じパーツならtrueにすることでDE Surgery対応できるらしい -->
         <humanRecipeImport>true</humanRecipeImport>
         <disallowedTraits>
-          <!-- <li>DislikesWomen</li> -->
-          <!-- <li>DrugDesire</li> -->
-          <!-- <li>Abrasive</li> -->
-          <!-- <li>AnnoyingVoice</li> -->
-          <!-- <li>CreepyBreathing</li> -->
+          <li>DislikesWomen</li>
+          <li>DrugDesire</li>
+          <li>Abrasive</li>
+          <li>AnnoyingVoice</li>
+          <li>CreepyBreathing</li>
         </disallowedTraits>
         <factionRelations>
           <li>
@@ -49,7 +49,9 @@
           <useGenderedHeads>false</useGenderedHeads>
           <useGenderedBodies>false</useGenderedBodies>
           <customDrawSize>(1.15, 1.15)</customDrawSize>
+          <customHeadDrawSize>1.00, 1.00)</customHeadDrawSize>
           <customPortraitDrawSize>(1.2, 1.2)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1.00, 1.00)</customPortraitHeadDrawSize>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <li>
@@ -85,8 +87,8 @@
                 <only>RGBA(0.708, 0.492, 0.273, 1.000)</only>
               </li>
             </options>
-        </alienskincolorgen>
-		</alienPartGenerator>
+          </alienskincolorgen>
+		    </alienPartGenerator>
     </generalSettings>
     <graphicPaths>
       <li>

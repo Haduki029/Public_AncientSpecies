@@ -4,7 +4,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>AS_AssaultRifle</defName>
 	<label>ASアサルトライフル</label>
-	<description>ある古代技術により作られた突撃銃。</description>
+	<description>ある古代技術により作られた突撃銃。グリップが取り付けられており、射撃の命中精度と安定性を向上させている。</description>
 	<graphicData>
 		<texPath>AT/Weapons/AssaultRifle</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -12,12 +12,12 @@
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
 	<statBases>
 		<WorkToMake>42000</WorkToMake>
-		<Mass>4.8</Mass>
+		<Mass>4.9</Mass>
 		<AccuracyTouch>0.90</AccuracyTouch>
-		<AccuracyShort>0.80</AccuracyShort>
-		<AccuracyMedium>0.75</AccuracyMedium>
-		<AccuracyLong>0.70</AccuracyLong>
-		<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		<AccuracyShort>0.85</AccuracyShort>
+		<AccuracyMedium>0.80</AccuracyMedium>
+		<AccuracyLong>0.75</AccuracyLong>
+		<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
 		<li>AS_Assault_Rifle</li>
@@ -41,7 +41,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>AS_Bullet_Assault_Rifle</defaultProjectile>
 			<warmupTime>1.2</warmupTime>
-			<range>30.9</range>
+			<range>31.5</range>
 			<burstShotCount>3</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 			<soundCast>AS_Sound_Assault_Rifle</soundCast>
@@ -70,31 +70,31 @@
 	</tools>
 </ThingDef>
 
-<!-- Assault Rifle Custom -->
-<ThingDef ParentName="BaseHumanMakeableGun">
-	<defName>AS_AssaultRifleCustom</defName>
-	<label>ASアサルトライフルカスタム</label>
-	<description>ASアサルトライフルのカスタム版。フレームの強化とグリップを取付けることで、射撃の命中精度と安定性を向上させている。</description>
+<!-- Sniper Rifle -->
+<!-- <ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>AS_SniperRifle</defName>
+	<label>ASスナイパーライフル</label>
+	<description>ASアサルトライフルのカスタム版。スコープが取り付けられており、より遠距離を射撃することに特化させている。</description>
 	<graphicData>
 		<texPath>AT/Weapons/AssaultRifleCustom</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
 	<statBases>
-		<WorkToMake>15000</WorkToMake>
-		<Mass>4.9</Mass>
-		<AccuracyTouch>0.95</AccuracyTouch>
+		<WorkToMake>18000</WorkToMake>
+		<Mass>5.1</Mass>
+		<AccuracyTouch>0.85</AccuracyTouch>
 		<AccuracyShort>0.90</AccuracyShort>
-		<AccuracyMedium>0.85</AccuracyMedium>
-		<AccuracyLong>0.75</AccuracyLong>
-		<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		<AccuracyMedium>0.95</AccuracyMedium>
+		<AccuracyLong>0.85</AccuracyLong>
+		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
 		<li>AS_Assault_Rifle</li>
 	</weaponTags>
 	<costList>
         <AS_AssaultRifle>1</AS_AssaultRifle>
-		<Steel>20</Steel>
+		<Steel>50</Steel>
 		<ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<recipeMaker>
@@ -111,10 +111,10 @@
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>AS_Bullet_Assault_Rifle</defaultProjectile>
-			<warmupTime>1.1</warmupTime>
-			<range>32.5</range>
-			<burstShotCount>3</burstShotCount>
-			<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+			<warmupTime>1.2</warmupTime>
+			<range>39.5</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<soundCast>AS_Sound_Assault_Rifle</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -139,7 +139,7 @@
 			<cooldownTime>2</cooldownTime>
 		</li>
 	</tools>
-</ThingDef>
+</ThingDef> -->
 
 <ThingDef ParentName="BaseBullet">
 	<defName>AS_Bullet_Assault_Rifle</defName>
