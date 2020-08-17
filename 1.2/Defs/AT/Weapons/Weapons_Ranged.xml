@@ -17,14 +17,14 @@
 		<AccuracyShort>0.85</AccuracyShort>
 		<AccuracyMedium>0.80</AccuracyMedium>
 		<AccuracyLong>0.75</AccuracyLong>
-		<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
 		<li>AS_Assault_Rifle</li>
 	</weaponTags>
 	<costList>
-		<Steel>100</Steel>
-		<ComponentIndustrial>4</ComponentIndustrial>
+		<Steel>80</Steel>
+		<ComponentIndustrial>6</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
 		<researchPrerequisite>AS_Weapons</researchPrerequisite>
@@ -71,7 +71,7 @@
 </ThingDef>
 
 <!-- Sniper Rifle -->
-<!-- <ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>AS_SniperRifle</defName>
 	<label>ASスナイパーライフル</label>
 	<description>ASアサルトライフルのカスタム版。スコープが取り付けられており、より遠距離を射撃することに特化させている。</description>
@@ -83,19 +83,19 @@
 	<statBases>
 		<WorkToMake>18000</WorkToMake>
 		<Mass>5.1</Mass>
-		<AccuracyTouch>0.85</AccuracyTouch>
-		<AccuracyShort>0.90</AccuracyShort>
-		<AccuracyMedium>0.95</AccuracyMedium>
-		<AccuracyLong>0.85</AccuracyLong>
-		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		<AccuracyTouch>0.75</AccuracyTouch>
+		<AccuracyShort>0.80</AccuracyShort>
+		<AccuracyMedium>0.85</AccuracyMedium>
+		<AccuracyLong>0.90</AccuracyLong>
+		<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
 		<li>AS_Assault_Rifle</li>
 	</weaponTags>
 	<costList>
         <AS_AssaultRifle>1</AS_AssaultRifle>
-		<Steel>50</Steel>
-		<ComponentSpacer>1</ComponentSpacer>
+		<Steel>20</Steel>
+		<ComponentIndustrial>6</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
 		<researchPrerequisite>AS_Weapons</researchPrerequisite>
@@ -139,7 +139,77 @@
 			<cooldownTime>2</cooldownTime>
 		</li>
 	</tools>
-</ThingDef> -->
+</ThingDef>
+
+<!-- Shotgun -->
+<ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>AS_Shotgun</defName>
+	<label>AS_Shotgun</label>
+	<description>ある古代技術により作られたショットガン。</description>
+	<graphicData>
+		<texPath>AT/Weapons/Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>AS_Sound_Shotgun_Interact</soundInteract>
+	<statBases>
+		<WorkToMake>42000</WorkToMake>
+		<Mass>4.2</Mass>
+		<AccuracyTouch>0.90</AccuracyTouch>
+		<AccuracyShort>0.80</AccuracyShort>
+		<AccuracyMedium>0.70</AccuracyMedium>
+		<AccuracyLong>0.50</AccuracyLong>
+		<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>AS_Shotgun</li>
+	</weaponTags>
+	<costList>
+		<Steel>70</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisite>AS_Weapons</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<thingCategories>
+		<li>AS_Weapons</li>
+	</thingCategories>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AS_Bullet_Shotgun</defaultProjectile>
+			<warmupTime>1.2</warmupTime>
+			<range>18.9</range>
+			<burstShotCount>2</burstShotCount>
+			<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+			<soundCast>AS_Sound_Shotgun</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
 
 <ThingDef ParentName="BaseBullet">
 	<defName>AS_Bullet_Assault_Rifle</defName>
@@ -152,6 +222,21 @@
 	</projectile>
 	<graphicData>
 		<texPath>Things/Projectile/Bullet_small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>AS_Bullet_Shotgun</defName>
+	<label>elven shotgun blast</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>24</damageAmountBase>
+		<stoppingPower>3</stoppingPower>
+		<speed>100</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 </ThingDef>
@@ -172,6 +257,21 @@
 </SoundDef>
 
 <SoundDef>
+	<defName>AS_Sound_Shotgun</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Shotgun</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
 	<defName>AS_Sound_Assault_Rifle_Interact</defName>
 	<context>MapOnly</context>
 	<maxSimultaneous>1</maxSimultaneous>
@@ -180,6 +280,21 @@
 			<grains>
 				<li Class="AudioGrain_Clip">
 					<clipPath>Assault_Rifle_Interact</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Shotgun_Interact</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Shotgun_Interact</clipPath>
 				</li>
 			</grains>
 		</li>
