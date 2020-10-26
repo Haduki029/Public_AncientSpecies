@@ -241,7 +241,7 @@
       <WorkToMake>65000</WorkToMake>
       <Mass>15</Mass>
       <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>34</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>14</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>10</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>18</EquipDelay>
       <Flammability>0.01</Flammability>

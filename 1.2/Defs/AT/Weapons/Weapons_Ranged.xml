@@ -144,7 +144,7 @@
 <!-- Shotgun -->
 <ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>AS_Shotgun</defName>
-	<label>AS_Shotgun</label>
+	<label>ASショットガン</label>
 	<description>ある古代技術により作られたショットガン。</description>
 	<graphicData>
 		<texPath>AT/Weapons/Shotgun</texPath>

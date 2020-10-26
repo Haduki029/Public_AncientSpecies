@@ -5,7 +5,7 @@
     <label>[ハーフエルフ]逃亡の果てに</label>
 	<description>彼らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。開始時点は3人で、逃亡途中に散り散りになった者たちが7人います。</description>
     <scenario>
-      <summary></summary>
+      <summary>これはハーフエルフのテスト導入版シナリオです。（テスト版ですが、そのまま遊ぶことは可能です。）</summary>
       <playerFaction>
         <def>PlayerFaction</def>
         <factionDef>AS_WHE_PlayerFaction_Neolithic</factionDef>
@@ -60,6 +60,11 @@
 				<def>StartingAnimal</def>
 				<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
 				<count>2</count>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>400</count>
 			</li>
 		</parts>
     </scenario>

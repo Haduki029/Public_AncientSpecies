@@ -280,10 +280,10 @@
   </ThingDef>
 
   <!-- UnderWare F -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <!-- <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearF</defName>
-    <description>皮や布で作られた下着。動きやすいデザインを意識している中で、胸の間のワンポイントがセクシーさを醸し出す逸品。</description>
-    <label>スポーツインナー（ハーフエルフ）</label>
+    <description>test</description>
+    <label>ベイビードール（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/onskin/babydoll_sample</texPath>
@@ -332,10 +332,10 @@
         <li>RoyalTier7</li>
       </tags>
     </apparel>
-  </ThingDef>
+  </ThingDef> -->
 
 <!-- UnderWare G -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <!-- <ThingDef ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearG</defName>
     <description>テスト実装。</description>
     <label>ベイビードール（ハーフエルフ）</label>
@@ -388,10 +388,10 @@
         <li>RoyalTier7</li>
       </tags>
     </apparel>
-  </ThingDef>
+  </ThingDef> -->
 
   <!-- UnderWare H -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <!-- <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_UnderwearH</defName>
     <description>テスト実装。</description>
     <label>黒のベイビードール（ハーフエルフ）</label>
@@ -443,7 +443,7 @@
         <li>RoyalTier7</li>
       </tags>
     </apparel>
-  </ThingDef>
+  </ThingDef> -->
 
   <!-- Nee Socks -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">

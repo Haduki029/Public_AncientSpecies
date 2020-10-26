@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef Name="AS_WHE_BasePawn" Abstract="True">
+<ThingDef ParentName="BasePawn" Name="AS_WHE_BasePawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
@@ -132,8 +132,8 @@
         <li>AS_WHE_UnderwearC</li>
         <li>AS_WHE_UnderwearD</li>
         <li>AS_WHE_UnderwearE</li>
-        <li>AS_WHE_UnderwearF</li>
-        <li>AS_WHE_UnderwearG</li>
+        <!-- <li>AS_WHE_UnderwearF</li> -->
+        <!-- <li>AS_WHE_UnderwearG</li> -->
         <!-- <li>AS_WHE_UnderwearH</li> -->
         <li>AS_WHE_MaidWare</li>
         <li>AS_WHE_PlateArmor</li>
