@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AS_WHE_BackstoryChild_a.title>ハーフエルフ村の子供</AS_WHE_BackstoryChild_a.title>
-  <AS_WHE_BackstoryChild_a.titleShort>ハーフエルフ村の子供</AS_WHE_BackstoryChild_a.titleShort>
-  <AS_WHE_BackstoryChild_a.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、ハーフエルフの小さな集落で幼少期を過ごしました。</AS_WHE_BackstoryChild_a.baseDescription>
-  <AS_WHE_BackstoryChild_b.title>ハーフエルフの子供奴隷</AS_WHE_BackstoryChild_b.title>
-  <AS_WHE_BackstoryChild_b.titleShort>子供奴隷</AS_WHE_BackstoryChild_b.titleShort>
-  <AS_WHE_BackstoryChild_b.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</AS_WHE_BackstoryChild_b.baseDescription>
-  <AS_WHE_BackstoryChild_c.title>ハーフエルフの子供調教師</AS_WHE_BackstoryChild_c.title>
-  <AS_WHE_BackstoryChild_c.titleShort>子供調教師</AS_WHE_BackstoryChild_c.titleShort>
-  <AS_WHE_BackstoryChild_c.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから動物に触れることが多く、調教技術を身に着けています。</AS_WHE_BackstoryChild_c.baseDescription>
-  <AS_WHE_BackstoryChild_d.title>ハーフエルフの子供農夫</AS_WHE_BackstoryChild_d.title>
-  <AS_WHE_BackstoryChild_d.titleShort>子供農夫</AS_WHE_BackstoryChild_d.titleShort>
-  <AS_WHE_BackstoryChild_d.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから畑仕事に従事していたため、栽培技術が身についています。</AS_WHE_BackstoryChild_d.baseDescription>
-  <AS_WHE_BackstoryChild_e.title>ハーフエルフの子供狩人</AS_WHE_BackstoryChild_e.title>
-  <AS_WHE_BackstoryChild_e.titleShort>子供狩人</AS_WHE_BackstoryChild_e.titleShort>
-  <AS_WHE_BackstoryChild_e.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから狩猟の仕事に従事していたため、射撃技術が身についています。</AS_WHE_BackstoryChild_e.baseDescription>
-  <AS_WHE_BackstoryChild_f.title>ハーフエルフの子供建築士</AS_WHE_BackstoryChild_f.title>
-  <AS_WHE_BackstoryChild_f.titleShort>子供狩人</AS_WHE_BackstoryChild_f.titleShort>
-  <AS_WHE_BackstoryChild_f.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから建築の仕事に従事していたため、建築技術が身についています。</AS_WHE_BackstoryChild_f.baseDescription>
-  <AS_WHE_BackstoryChild_g.title>ハーフエルフの子供調理師</AS_WHE_BackstoryChild_g.title>
-  <AS_WHE_BackstoryChild_g.titleShort>子供調理師</AS_WHE_BackstoryChild_g.titleShort>
-  <AS_WHE_BackstoryChild_g.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから調理の仕事に従事していたため、調理技術が身についています。</AS_WHE_BackstoryChild_g.baseDescription>
-  <AS_WHE_BackstoryChild_h.title>ハーフエルフの子供薬師</AS_WHE_BackstoryChild_h.title>
-  <AS_WHE_BackstoryChild_h.titleShort>子供薬師</AS_WHE_BackstoryChild_h.titleShort>
-  <AS_WHE_BackstoryChild_h.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから薬師の仕事に従事していたため、医療技術が身についています。</AS_WHE_BackstoryChild_h.baseDescription>
-  <AS_WHE_BackstoryChild_i.title>ハーフエルフの子供戦士</AS_WHE_BackstoryChild_i.title>
-  <AS_WHE_BackstoryChild_i.titleShort>子供戦士</AS_WHE_BackstoryChild_i.titleShort>
-  <AS_WHE_BackstoryChild_i.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから村を守るために鍛錬しており、戦闘技術が身についています。</AS_WHE_BackstoryChild_i.baseDescription>
-  <AS_WHE_BackstoryChild_j.title>ハーフエルフの子供鍛冶師</AS_WHE_BackstoryChild_j.title>
-  <AS_WHE_BackstoryChild_j.titleShort>子供鍛冶師</AS_WHE_BackstoryChild_j.titleShort>
-  <AS_WHE_BackstoryChild_j.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから鍛冶に携わっており、鍛冶技術が身についています。</AS_WHE_BackstoryChild_j.baseDescription>
-  <AS_WHE_BackstoryChild_k.title>ハーフエルフの子供鍛冶師</AS_WHE_BackstoryChild_k.title>
-  <AS_WHE_BackstoryChild_k.titleShort>子供鍛冶師</AS_WHE_BackstoryChild_k.titleShort>
-  <AS_WHE_BackstoryChild_k.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから鍛冶に携わっており、鍛冶技術が身についています。</AS_WHE_BackstoryChild_k.baseDescription>
-  <AS_WHE_BackstoryChild_l.title>ハーフエルフの天才児</AS_WHE_BackstoryChild_l.title>
-  <AS_WHE_BackstoryChild_l.titleShort>天才児</AS_WHE_BackstoryChild_l.titleShort>
-  <AS_WHE_BackstoryChild_l.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから賢く、子供たちの中心人物でした。</AS_WHE_BackstoryChild_l.baseDescription>
-  <AS_WHE_BackstoryChild_m.title>ハーフエルフの無口な子供</AS_WHE_BackstoryChild_m.title>
-  <AS_WHE_BackstoryChild_m.titleShort>無口な子供</AS_WHE_BackstoryChild_m.titleShort>
-  <AS_WHE_BackstoryChild_m.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。幼いころから無口でコミュニケーションをとるのが苦手でした。</AS_WHE_BackstoryChild_m.baseDescription>
-  <AS_WHE_BackstoryChild_n.title>ハーフエルフの子供</AS_WHE_BackstoryChild_n.title>
-  <AS_WHE_BackstoryChild_n.titleShort>子供</AS_WHE_BackstoryChild_n.titleShort>
-  <AS_WHE_BackstoryChild_n.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。</AS_WHE_BackstoryChild_n.baseDescription>
-  <AS_WHE_BackstoryChild_o.title>ハーフエルフの子供</AS_WHE_BackstoryChild_o.title>
-  <AS_WHE_BackstoryChild_o.titleShort>子供</AS_WHE_BackstoryChild_o.titleShort>
-  <AS_WHE_BackstoryChild_o.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。</AS_WHE_BackstoryChild_o.baseDescription>
-  <AS_WHE_BackstoryChild_p.title>ハーフエルフの子供</AS_WHE_BackstoryChild_p.title>
-  <AS_WHE_BackstoryChild_p.titleShort>子供</AS_WHE_BackstoryChild_p.titleShort>
-  <AS_WHE_BackstoryChild_p.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。</AS_WHE_BackstoryChild_p.baseDescription>
-  <AS_WHE_BackstoryChild_q.title>ハーフエルフの子供</AS_WHE_BackstoryChild_q.title>
-  <AS_WHE_BackstoryChild_q.titleShort>子供</AS_WHE_BackstoryChild_q.titleShort>
-  <AS_WHE_BackstoryChild_q.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。</AS_WHE_BackstoryChild_q.baseDescription>
-  <AS_WHE_BackstoryChild_r.title>ハーフエルフの子供</AS_WHE_BackstoryChild_r.title>
-  <AS_WHE_BackstoryChild_r.titleShort>子供</AS_WHE_BackstoryChild_r.titleShort>
-  <AS_WHE_BackstoryChild_r.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。</AS_WHE_BackstoryChild_r.baseDescription>
-  <AS_WHE_BackstoryChild_s.title>ハーフエルフの子供</AS_WHE_BackstoryChild_s.title>
-  <AS_WHE_BackstoryChild_s.titleShort>子供</AS_WHE_BackstoryChild_s.titleShort>
-  <AS_WHE_BackstoryChild_s.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。</AS_WHE_BackstoryChild_s.baseDescription>
-  <AS_WHE_BackstoryChild_t.title>ハーフエルフの子供</AS_WHE_BackstoryChild_t.title>
-  <AS_WHE_BackstoryChild_t.titleShort>子供</AS_WHE_BackstoryChild_t.titleShort>
-  <AS_WHE_BackstoryChild_t.baseDescription>[PAWN_nameDef]はハーフエルフの集落の子供として育ちました。</AS_WHE_BackstoryChild_t.baseDescription>
-  <AS_WHE_BackstoryAdult_a.title>ハーフエルフの民</AS_WHE_BackstoryAdult_a.title>
-  <AS_WHE_BackstoryAdult_a.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_a.titleShort>
-  <AS_WHE_BackstoryAdult_a.baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_a.baseDescription>
-  <AS_WHE_BackstoryAdult_b.title>ハーフエルフの狩人</AS_WHE_BackstoryAdult_b.title>
-  <AS_WHE_BackstoryAdult_b.titleShort>ハーフエルフの狩人</AS_WHE_BackstoryAdult_b.titleShort>
-  <AS_WHE_BackstoryAdult_b.baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_b.baseDescription>
-  <AS_WHE_BackstoryAdult_c.title>ハーフエルフの奴隷</AS_WHE_BackstoryAdult_c.title>
-  <AS_WHE_BackstoryAdult_c.titleShort>ハーフエルフの奴隷</AS_WHE_BackstoryAdult_c.titleShort>
-  <AS_WHE_BackstoryAdult_c.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_c.baseDescription>
-  <AS_WHE_BackstoryAdult_d.title>ハーフエルフの民</AS_WHE_BackstoryAdult_d.title>
-  <AS_WHE_BackstoryAdult_d.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_d.titleShort>
-  <AS_WHE_BackstoryAdult_d.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_d.baseDescription>
-  <AS_WHE_BackstoryAdult_e.title>ハーフエルフの民</AS_WHE_BackstoryAdult_e.title>
-  <AS_WHE_BackstoryAdult_e.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_e.titleShort>
-  <AS_WHE_BackstoryAdult_e.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_e.baseDescription>
-  <AS_WHE_BackstoryAdult_f.title>ハーフエルフの民</AS_WHE_BackstoryAdult_f.title>
-  <AS_WHE_BackstoryAdult_f.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_f.titleShort>
-  <AS_WHE_BackstoryAdult_f.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_f.baseDescription>
-  <AS_WHE_BackstoryAdult_g.title>ハーフエルフの民</AS_WHE_BackstoryAdult_g.title>
-  <AS_WHE_BackstoryAdult_g.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_g.titleShort>
-  <AS_WHE_BackstoryAdult_g.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_g.baseDescription>
-  <AS_WHE_BackstoryAdult_h.title>ハーフエルフの民</AS_WHE_BackstoryAdult_h.title>
-  <AS_WHE_BackstoryAdult_h.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_h.titleShort>
-  <AS_WHE_BackstoryAdult_h.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_h.baseDescription>
-  <AS_WHE_BackstoryAdult_i.title>ハーフエルフの民</AS_WHE_BackstoryAdult_i.title>
-  <AS_WHE_BackstoryAdult_i.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_i.titleShort>
-  <AS_WHE_BackstoryAdult_i.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_i.baseDescription>
-  <AS_WHE_BackstoryAdult_j.title>ハーフエルフの民</AS_WHE_BackstoryAdult_j.title>
-  <AS_WHE_BackstoryAdult_j.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_j.titleShort>
-  <AS_WHE_BackstoryAdult_j.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_j.baseDescription>
-  <AS_WHE_BackstoryAdult_k.title>ハーフエルフの民</AS_WHE_BackstoryAdult_k.title>
-  <AS_WHE_BackstoryAdult_k.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_k.titleShort>
-  <AS_WHE_BackstoryAdult_k.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_k.baseDescription>
-  <AS_WHE_BackstoryAdult_l.title>ハーフエルフの民</AS_WHE_BackstoryAdult_l.title>
-  <AS_WHE_BackstoryAdult_l.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_l.titleShort>
-  <AS_WHE_BackstoryAdult_l.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_l.baseDescription>
-  <AS_WHE_BackstoryAdult_m.title>ハーフエルフの民</AS_WHE_BackstoryAdult_m.title>
-  <AS_WHE_BackstoryAdult_m.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_m.titleShort>
-  <AS_WHE_BackstoryAdult_m.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_m.baseDescription>
-  <AS_WHE_BackstoryAdult_n.title>ハーフエルフの民</AS_WHE_BackstoryAdult_n.title>
-  <AS_WHE_BackstoryAdult_n.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_n.titleShort>
-  <AS_WHE_BackstoryAdult_n.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_n.baseDescription>
-  <AS_WHE_BackstoryAdult_o.title>ハーフエルフの民</AS_WHE_BackstoryAdult_o.title>
-  <AS_WHE_BackstoryAdult_o.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_o.titleShort>
-  <AS_WHE_BackstoryAdult_o.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_o.baseDescription>
-  <AS_WHE_BackstoryAdult_p.title>ハーフエルフの民</AS_WHE_BackstoryAdult_p.title>
-  <AS_WHE_BackstoryAdult_p.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_p.titleShort>
-  <AS_WHE_BackstoryAdult_p.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_p.baseDescription>
-  <AS_WHE_BackstoryAdult_q.title>ハーフエルフの民</AS_WHE_BackstoryAdult_q.title>
-  <AS_WHE_BackstoryAdult_q.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_q.titleShort>
-  <AS_WHE_BackstoryAdult_q.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_q.baseDescription>
-  <AS_WHE_BackstoryAdult_r.title>ハーフエルフの民</AS_WHE_BackstoryAdult_r.title>
-  <AS_WHE_BackstoryAdult_r.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_r.titleShort>
-  <AS_WHE_BackstoryAdult_r.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_r.baseDescription>
-  <AS_WHE_BackstoryAdult_s.title>ハーフエルフの民</AS_WHE_BackstoryAdult_s.title>
-  <AS_WHE_BackstoryAdult_s.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_s.titleShort>
-  <AS_WHE_BackstoryAdult_s.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_s.baseDescription>
-  <AS_WHE_BackstoryAdult_t.title>ハーフエルフの民</AS_WHE_BackstoryAdult_t.title>
-  <AS_WHE_BackstoryAdult_t.titleShort>ハーフエルフの民</AS_WHE_BackstoryAdult_t.titleShort>
-  <AS_WHE_BackstoryAdult_t.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WHE_BackstoryAdult_t.baseDescription>
+  <AS_WHE_BackstoryChild_a.title>Half Elf Village Child</AS_WHE_BackstoryChild_a.title>
+  <AS_WHE_BackstoryChild_a.titleShort>Village Kid</AS_WHE_BackstoryChild_a.titleShort>
+  <AS_WHE_BackstoryChild_a.baseDescription>[PAWN_nameDef] spent their childhood in a small Half Elf settlement.</AS_WHE_BackstoryChild_a.baseDescription>
+  <AS_WHE_BackstoryChild_b.title>Half Elf Child Slave</AS_WHE_BackstoryChild_b.title>
+  <AS_WHE_BackstoryChild_b.titleShort>Child Slave</AS_WHE_BackstoryChild_b.titleShort>
+  <AS_WHE_BackstoryChild_b.baseDescription>[PAWN_nameDef] grew up as a slave.</AS_WHE_BackstoryChild_b.baseDescription>
+  <AS_WHE_BackstoryChild_c.title>Half Elf Animal Trainer</AS_WHE_BackstoryChild_c.title>
+  <AS_WHE_BackstoryChild_c.titleShort>Animal Trainer</AS_WHE_BackstoryChild_c.titleShort>
+  <AS_WHE_BackstoryChild_c.baseDescription>[PAWN_nameDef] grew up with animals and discovered that they have a knack for training them.</AS_WHE_BackstoryChild_c.baseDescription>
+  <AS_WHE_BackstoryChild_d.title>Half Elf Farmer</AS_WHE_BackstoryChild_d.title>
+  <AS_WHE_BackstoryChild_d.titleShort>Farmer</AS_WHE_BackstoryChild_d.titleShort>
+  <AS_WHE_BackstoryChild_d.baseDescription>[PAWN_nameDef] was raised on a Half Elf farm. Since they spent their childhood working on a farm, they have a familiarity with cultivation.</AS_WHE_BackstoryChild_d.baseDescription>
+  <AS_WHE_BackstoryChild_e.title>Half Elf Hunter</AS_WHE_BackstoryChild_e.title>
+  <AS_WHE_BackstoryChild_e.titleShort>Hunter</AS_WHE_BackstoryChild_e.titleShort>
+  <AS_WHE_BackstoryChild_e.baseDescription>[PAWN_nameDef] grew up in a Half Elf settlement and worked as a hunter. Because of this hunting experience, they know how to wield a bow.</AS_WHE_BackstoryChild_e.baseDescription>
+  <AS_WHE_BackstoryChild_f.title>Half Elf Architect</AS_WHE_BackstoryChild_f.title>
+  <AS_WHE_BackstoryChild_f.titleShort>Architect</AS_WHE_BackstoryChild_f.titleShort>
+  <AS_WHE_BackstoryChild_f.baseDescription>[PAWN_nameDef] grew up in a Half Elf settlement and worked as an architect. Assisting in their village's development has given them a background in construction.</AS_WHE_BackstoryChild_f.baseDescription>
+  <AS_WHE_BackstoryChild_g.title>Half Elf Cook</AS_WHE_BackstoryChild_g.title>
+  <AS_WHE_BackstoryChild_g.titleShort>Cook</AS_WHE_BackstoryChild_g.titleShort>
+  <AS_WHE_BackstoryChild_g.baseDescription>[PAWN_nameDef] grew up in a Half Elf settlement and was raised as a cook, and this experience is the foundation of their culinary abilities.</AS_WHE_BackstoryChild_g.baseDescription>
+  <AS_WHE_BackstoryChild_h.title>Half Elf Medical Assistant</AS_WHE_BackstoryChild_h.title>
+  <AS_WHE_BackstoryChild_h.titleShort>Doctor's Assistant</AS_WHE_BackstoryChild_h.titleShort>
+  <AS_WHE_BackstoryChild_h.baseDescription>[PAWN_nameDef] was raised by doctors on a half elf settlement and has acquired some medical skills during their childhood.</AS_WHE_BackstoryChild_h.baseDescription>
+  <AS_WHE_BackstoryChild_i.title>Half Elf Warrior</AS_WHE_BackstoryChild_i.title>
+  <AS_WHE_BackstoryChild_i.titleShort>Warrior</AS_WHE_BackstoryChild_i.titleShort>
+  <AS_WHE_BackstoryChild_i.baseDescription>[PAWN_nameDef] was raised on a Half Elf settlement and was given a warrior's education.</AS_WHE_BackstoryChild_i.baseDescription>
+  <AS_WHE_BackstoryChild_j.title>Half Elf Smith</AS_WHE_BackstoryChild_j.title>
+  <AS_WHE_BackstoryChild_j.titleShort>Smith</AS_WHE_BackstoryChild_j.titleShort>
+  <AS_WHE_BackstoryChild_j.baseDescription>[PAWN_nameDef] spent [PAWN_possessive] childhood in a half elf settlement and was raised by the local smith.</AS_WHE_BackstoryChild_j.baseDescription>
+  <AS_WHE_BackstoryChild_k.title>Half Elf Smith</AS_WHE_BackstoryChild_k.title>
+  <AS_WHE_BackstoryChild_k.titleShort>Smith</AS_WHE_BackstoryChild_k.titleShort>
+  <AS_WHE_BackstoryChild_k.baseDescription>[PAWN_nameDef] spent [PAWN_possessive] childhood in a half elf settlement and was raised by the local smith.</AS_WHE_BackstoryChild_k.baseDescription>
+  <AS_WHE_BackstoryChild_l.title>Half Elf Genius</AS_WHE_BackstoryChild_l.title>
+  <AS_WHE_BackstoryChild_l.titleShort>Genius</AS_WHE_BackstoryChild_l.titleShort>
+  <AS_WHE_BackstoryChild_l.baseDescription>[PAWN_nameDef] was at the top of [PAWN_possessive] class in the half elf settlement they grew up in, and [PAWN_pronoun] is considered one of the settlement's brightest minds.</AS_WHE_BackstoryChild_l.baseDescription>
+  <AS_WHE_BackstoryChild_m.title>Half Elf Silent Child</AS_WHE_BackstoryChild_m.title>
+  <AS_WHE_BackstoryChild_m.titleShort>Silent Child</AS_WHE_BackstoryChild_m.titleShort>
+  <AS_WHE_BackstoryChild_m.baseDescription>[PAWN_nameDef] was raised in a half elf settlement and was known for [PAWN_possessive] inability to communicate.</AS_WHE_BackstoryChild_m.baseDescription>
+  <AS_WHE_BackstoryChild_n.title>Half Elf Child</AS_WHE_BackstoryChild_n.title>
+  <AS_WHE_BackstoryChild_n.titleShort>Child</AS_WHE_BackstoryChild_n.titleShort>
+  <AS_WHE_BackstoryChild_n.baseDescription>[PAWN_nameDef] was raised in a half elf settlement.</AS_WHE_BackstoryChild_n.baseDescription>
+  <AS_WHE_BackstoryChild_o.title>Half Elf Child</AS_WHE_BackstoryChild_o.title>
+  <AS_WHE_BackstoryChild_o.titleShort>Child</AS_WHE_BackstoryChild_o.titleShort>
+  <AS_WHE_BackstoryChild_o.baseDescription>[PAWN_nameDef] was raised in a half elf settlement.</AS_WHE_BackstoryChild_o.baseDescription>
+  <AS_WHE_BackstoryChild_p.title>Half Elf Child</AS_WHE_BackstoryChild_p.title>
+  <AS_WHE_BackstoryChild_p.titleShort>Child</AS_WHE_BackstoryChild_p.titleShort>
+  <AS_WHE_BackstoryChild_p.baseDescription>[PAWN_nameDef] was raised in a half elf settlement.</AS_WHE_BackstoryChild_p.baseDescription>
+  <AS_WHE_BackstoryChild_q.title>Half Elf Child</AS_WHE_BackstoryChild_q.title>
+  <AS_WHE_BackstoryChild_q.titleShort>Child</AS_WHE_BackstoryChild_q.titleShort>
+  <AS_WHE_BackstoryChild_q.baseDescription>[PAWN_nameDef] was raised in a half elf settlement.</AS_WHE_BackstoryChild_q.baseDescription>
+  <AS_WHE_BackstoryChild_r.title>Half Elf Child</AS_WHE_BackstoryChild_r.title>
+  <AS_WHE_BackstoryChild_r.titleShort>Child</AS_WHE_BackstoryChild_r.titleShort>
+  <AS_WHE_BackstoryChild_r.baseDescription>[PAWN_nameDef] was raised in a half elf settlement.</AS_WHE_BackstoryChild_r.baseDescription>
+  <AS_WHE_BackstoryChild_s.title>Half Elf Child</AS_WHE_BackstoryChild_s.title>
+  <AS_WHE_BackstoryChild_s.titleShort>Child</AS_WHE_BackstoryChild_s.titleShort>
+  <AS_WHE_BackstoryChild_s.baseDescription>[PAWN_nameDef] was raised in a half elf settlement.</AS_WHE_BackstoryChild_s.baseDescription>
+  <AS_WHE_BackstoryChild_t.title>Half Elf Child</AS_WHE_BackstoryChild_t.title>
+  <AS_WHE_BackstoryChild_t.titleShort>Child</AS_WHE_BackstoryChild_t.titleShort>
+  <AS_WHE_BackstoryChild_t.baseDescription>[PAWN_nameDef] was raised in a half elf settlement.</AS_WHE_BackstoryChild_t.baseDescription>
+  <AS_WHE_BackstoryAdult_a.title>Half Elf Villager</AS_WHE_BackstoryAdult_a.title>
+  <AS_WHE_BackstoryAdult_a.titleShort>Villager</AS_WHE_BackstoryAdult_a.titleShort>
+  <AS_WHE_BackstoryAdult_a.baseDescription>[PAWN_nameDef] lived in a  half elf village. </AS_WHE_BackstoryAdult_a.baseDescription>
+  <AS_WHE_BackstoryAdult_b.title>Half Elf Hunter</AS_WHE_BackstoryAdult_b.title>
+  <AS_WHE_BackstoryAdult_b.titleShort>Hunter</AS_WHE_BackstoryAdult_b.titleShort>
+  <AS_WHE_BackstoryAdult_b.baseDescription>[PAWN_nameDef] was a hunter in a half elf village.</AS_WHE_BackstoryAdult_b.baseDescription>
+  <AS_WHE_BackstoryAdult_c.title>Half Elf Slave</AS_WHE_BackstoryAdult_c.title>
+  <AS_WHE_BackstoryAdult_c.titleShort>Slave</AS_WHE_BackstoryAdult_c.titleShort>
+  <AS_WHE_BackstoryAdult_c.baseDescription>[PAWN_nameDef] spent [PAWN_possessive] adulthood as a slave in a half elf village.</AS_WHE_BackstoryAdult_c.baseDescription>
+  <AS_WHE_BackstoryAdult_d.title>Half Elf</AS_WHE_BackstoryAdult_d.title>
+  <AS_WHE_BackstoryAdult_d.titleShort>Half Elf</AS_WHE_BackstoryAdult_d.titleShort>
+  <AS_WHE_BackstoryAdult_d.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_d.baseDescription>
+  <AS_WHE_BackstoryAdult_e.title>Half Elf</AS_WHE_BackstoryAdult_e.title>
+  <AS_WHE_BackstoryAdult_e.titleShort>Half Elf</AS_WHE_BackstoryAdult_e.titleShort>
+  <AS_WHE_BackstoryAdult_e.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_e.baseDescription>
+  <AS_WHE_BackstoryAdult_f.title>Half Elf</AS_WHE_BackstoryAdult_f.title>
+  <AS_WHE_BackstoryAdult_f.titleShort>Half Elf</AS_WHE_BackstoryAdult_f.titleShort>
+  <AS_WHE_BackstoryAdult_f.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_f.baseDescription>
+  <AS_WHE_BackstoryAdult_g.title>Half Elf</AS_WHE_BackstoryAdult_g.title>
+  <AS_WHE_BackstoryAdult_g.titleShort>Half Elf</AS_WHE_BackstoryAdult_g.titleShort>
+  <AS_WHE_BackstoryAdult_g.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_g.baseDescription>
+  <AS_WHE_BackstoryAdult_h.title>Half Elf</AS_WHE_BackstoryAdult_h.title>
+  <AS_WHE_BackstoryAdult_h.titleShort>Half Elf</AS_WHE_BackstoryAdult_h.titleShort>
+  <AS_WHE_BackstoryAdult_h.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_h.baseDescription>
+  <AS_WHE_BackstoryAdult_i.title>Half Elf</AS_WHE_BackstoryAdult_i.title>
+  <AS_WHE_BackstoryAdult_i.titleShort>Half Elf</AS_WHE_BackstoryAdult_i.titleShort>
+  <AS_WHE_BackstoryAdult_i.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_i.baseDescription>
+  <AS_WHE_BackstoryAdult_j.title>Half Elf</AS_WHE_BackstoryAdult_j.title>
+  <AS_WHE_BackstoryAdult_j.titleShort>Half Elf</AS_WHE_BackstoryAdult_j.titleShort>
+  <AS_WHE_BackstoryAdult_j.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_j.baseDescription>
+  <AS_WHE_BackstoryAdult_k.title>Half Elf</AS_WHE_BackstoryAdult_k.title>
+  <AS_WHE_BackstoryAdult_k.titleShort>Half Elf</AS_WHE_BackstoryAdult_k.titleShort>
+  <AS_WHE_BackstoryAdult_k.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_k.baseDescription>
+  <AS_WHE_BackstoryAdult_l.title>Half Elf</AS_WHE_BackstoryAdult_l.title>
+  <AS_WHE_BackstoryAdult_l.titleShort>Half Elf</AS_WHE_BackstoryAdult_l.titleShort>
+  <AS_WHE_BackstoryAdult_l.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_l.baseDescription>
+  <AS_WHE_BackstoryAdult_m.title>Half Elf</AS_WHE_BackstoryAdult_m.title>
+  <AS_WHE_BackstoryAdult_m.titleShort>Half Elf</AS_WHE_BackstoryAdult_m.titleShort>
+  <AS_WHE_BackstoryAdult_m.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_m.baseDescription>
+  <AS_WHE_BackstoryAdult_n.title>Half Elf</AS_WHE_BackstoryAdult_n.title>
+  <AS_WHE_BackstoryAdult_n.titleShort>Half Elf</AS_WHE_BackstoryAdult_n.titleShort>
+  <AS_WHE_BackstoryAdult_n.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_n.baseDescription>
+  <AS_WHE_BackstoryAdult_o.title>Half Elf</AS_WHE_BackstoryAdult_o.title>
+  <AS_WHE_BackstoryAdult_o.titleShort>Half Elf</AS_WHE_BackstoryAdult_o.titleShort>
+  <AS_WHE_BackstoryAdult_o.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_o.baseDescription>
+  <AS_WHE_BackstoryAdult_p.title>Half Elf</AS_WHE_BackstoryAdult_p.title>
+  <AS_WHE_BackstoryAdult_p.titleShort>Half Elf</AS_WHE_BackstoryAdult_p.titleShort>
+  <AS_WHE_BackstoryAdult_p.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_p.baseDescription>
+  <AS_WHE_BackstoryAdult_q.title>Half Elf</AS_WHE_BackstoryAdult_q.title>
+  <AS_WHE_BackstoryAdult_q.titleShort>Half Elf</AS_WHE_BackstoryAdult_q.titleShort>
+  <AS_WHE_BackstoryAdult_q.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_q.baseDescription>
+  <AS_WHE_BackstoryAdult_r.title>Half Elf</AS_WHE_BackstoryAdult_r.title>
+  <AS_WHE_BackstoryAdult_r.titleShort>Half Elf</AS_WHE_BackstoryAdult_r.titleShort>
+  <AS_WHE_BackstoryAdult_r.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_r.baseDescription>
+  <AS_WHE_BackstoryAdult_s.title>Half Elf</AS_WHE_BackstoryAdult_s.title>
+  <AS_WHE_BackstoryAdult_s.titleShort>Half Elf</AS_WHE_BackstoryAdult_s.titleShort>
+  <AS_WHE_BackstoryAdult_s.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_s.baseDescription>
+  <AS_WHE_BackstoryAdult_t.title>Half Elf</AS_WHE_BackstoryAdult_t.title>
+  <AS_WHE_BackstoryAdult_t.titleShort>Half Elf</AS_WHE_BackstoryAdult_t.titleShort>
+  <AS_WHE_BackstoryAdult_t.baseDescription>[PAWN_nameDef] is a half elf.</AS_WHE_BackstoryAdult_t.baseDescription>
 </LanguageData>
