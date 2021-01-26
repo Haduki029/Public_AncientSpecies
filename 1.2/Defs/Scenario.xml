@@ -54,12 +54,18 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Bow_Short</thingDef>
-				<count>4</count>
+				<stuff>WoodLog</stuff>
+				<count>2</count>
 			</li>
 			<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
 				<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
 				<count>2</count>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>400</count>
 			</li>
 		</parts>
     </scenario>
