@@ -63,5 +63,6 @@
 #*.RTF   diff=astextplain
 
 /.gitignore merge=ours
+/.gitattributes merge=ours
 /About/About.xml merge=ours
 /About/PublishedFileId.txt merge=ours
