@@ -65,3 +65,4 @@
 /.gitignore merge=ours
 /About/About.xml merge=ours
 /About/PublishedFileId.txt merge=ours
+/Source merge=ours
