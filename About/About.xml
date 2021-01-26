@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-   <name>Ancient Species development</name>
+   <name>Ancient Species</name>
    <author>Haduki, Heli</author>
    <supportedVersions>
       <li>1.1</li>
       <li>1.2</li>
    </supportedVersions>
-   <packageId>Haduki.AncientSpecies.development</packageId>
+   <packageId>Haduki.AncientSpecies</packageId>
    <description>
    こちらのModは、いくつかの種族とその派閥を追加するMODです。
 
@@ -23,6 +23,7 @@
       ・シールドベルト代替のシールドスカーフ1種
    ・武器
       ・弓1種
+      ・銃4種
 
    [研究]
    ・ハーフエルフに関する衣類の研究
