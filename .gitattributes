@@ -62,7 +62,7 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 
-/.gitignore merge=ours
-/About/About.xml merge=ours
-/About/PublishedFileId.txt merge=ours
-/Source merge=ours
+# /.gitignore merge=ours
+# /About/About.xml merge=ours
+# /About/PublishedFileId.txt merge=ours
+# /Source merge=ours
