@@ -56,9 +56,10 @@
     <label>Half Elf trader</label>
     <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
-    <isFighter>false</isFighter>
+    <isFighter>true</isFighter>
     <trader>true</trader>
-    <weaponMoney>80~180</weaponMoney>
+    <weaponMoney>800~1800</weaponMoney>
+    <apparelMoney>500~1500</apparelMoney>
     <weaponTags>
       <li>NeolithicRangedBasic</li>
     </weaponTags>
