@@ -80,7 +80,7 @@
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-			  <AS_WHE_Villager>1</AS_WHE_Villager>
+			    <AS_WHE_Trader>1</AS_WHE_Trader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
