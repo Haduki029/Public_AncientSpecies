@@ -23,7 +23,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
 </ThingDef>
 
-<AlienRace.ThingDef_AlienRace ParentName="AS_WHE_BasePawn">
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>AS_WHE_Race</defName>
     <label>ハーフエルフ</label>
     <description>ハーフエルフはグリッターワールドの技術を駆使し、人間とエルフの特徴を組み合わせ造られた種族です。\n本来存在し得ない辺境の惑星に住んでいるこの種族は、宙族の間で違法に売買されていた個体が、宇宙船のトラブルにより辺境の惑星に不時着し、定住したものだと思われています。\n射撃・狩猟・栽培・調理など、全般的に優れた能力を持ち、サバイバル能力は高いですが、閉鎖的で、かなりの機械音痴です。</description>
