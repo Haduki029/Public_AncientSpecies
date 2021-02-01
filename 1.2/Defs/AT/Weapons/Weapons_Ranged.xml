@@ -219,7 +219,6 @@
 	<graphicData>
 		<texPath>AT/Weapons/Grawehr</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>6</drawSize>
 	</graphicData>
 	<soundInteract>AS_Sound_Rebel_Rifle_Interact</soundInteract>
 	<statBases>

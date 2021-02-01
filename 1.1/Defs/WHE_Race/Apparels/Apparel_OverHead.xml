@@ -9,6 +9,7 @@
     <graphicData>
       <texPath>WHE/Apparels/overhead/Helmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
@@ -57,6 +58,7 @@
       <texPath>WHE/Apparels/overhead/AdvancedHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
@@ -106,16 +108,17 @@
     <graphicData>
       <texPath>WHE/Apparels/overhead/MarineHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
       <Plasteel>20</Plasteel>
       <Uranium>4</Uranium>
     </costList>
-    <costStuffCount>40</costStuffCount>
+    <!-- <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
-    </stuffCategories>
+    </stuffCategories> -->
     <statBases>
       <WorkToMake>18500</WorkToMake>
       <MaxHitPoints>180</MaxHitPoints>
@@ -256,13 +259,14 @@
   <!-- Pressure Resistant Helmet -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_PressureResistantHelmet</defName>
-    <description>テスト実装</description>
+    <description>宇宙空間でも行動できるように、高度な技術で作成されたヘルメット。マリーン装備より若干弱いが、耐熱、耐寒性能が高い。</description>
     <label>ハーフエルフ式耐圧ヘルメット</label>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/PressureResistantHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.1</drawSize>
     </graphicData>
     <uiIconPath>WHE/Apparels/overhead/PressureResistantHelmet</uiIconPath>
     <costList>
@@ -276,12 +280,18 @@
       <WorkToMake>24500</WorkToMake>
       <MaxHitPoints>190</MaxHitPoints>
       <Mass>1.8</Mass>
-      <Flammability>0.1</Flammability>
+      <!-- <Flammability>0.1</Flammability>
       <StuffEffectMultiplierArmor>1.08</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
       <Insulation_Cold>70</Insulation_Cold>
-      <Insulation_Heat>45.2</Insulation_Heat>
+      <Insulation_Heat>45.2</Insulation_Heat> -->
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.89</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.68</ArmorRating_Heat>
+      <Insulation_Cold>70</Insulation_Cold>
+      <Insulation_Heat>45.8</Insulation_Heat>
       <EquipDelay>4</EquipDelay>
     </statBases>
     <tradeTags></tradeTags>
