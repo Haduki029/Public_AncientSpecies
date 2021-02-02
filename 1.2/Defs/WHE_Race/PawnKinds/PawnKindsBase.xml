@@ -3,14 +3,16 @@
   <PawnKindDef Name="AS_WHE_CommonBase" Abstract="True">
     <race>AS_WHE_Race</race>
     <combatPower>45</combatPower>
-    <itemQuality>Normal</itemQuality>
+    <canBeSapper>true</canBeSapper>
     <baseRecruitDifficulty>0.6</baseRecruitDifficulty>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelAllowHeadgearChance>0.08</apparelAllowHeadgearChance>
+    <invNutrition>2</invNutrition>
     <apparelMoney>250~500</apparelMoney>
     <apparelRequired>
       <li>AS_WHE_UnderwearA</li>
+      <li>AS_WHE_Neeso</li>
     </apparelRequired>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>
@@ -21,6 +23,7 @@
     <defaultFactionType>AS_WHE_Settlement</defaultFactionType>
 	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <invNutrition>2.5</invNutrition>
+    <itemQuality>Normal</itemQuality>
     <apparelTags>
       <li>WHE_Neolithic</li>
     </apparelTags>
@@ -44,6 +47,7 @@
     <defaultFactionType>AS_WHE_Village</defaultFactionType>
 	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <invNutrition>2.8</invNutrition>
+    <itemQuality>Good</itemQuality>
     <apparelMoney>500~800</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
@@ -68,6 +72,7 @@
     <defaultFactionType>AS_WHE_Town</defaultFactionType>
 	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <invNutrition>3</invNutrition>
+    <itemQuality>Excellent</itemQuality>
     <apparelMoney>700~1000</apparelMoney>
     <apparelTags>
       <li>WHE_Industrial</li>

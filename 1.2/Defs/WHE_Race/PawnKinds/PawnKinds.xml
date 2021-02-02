@@ -6,15 +6,24 @@
     <label>Harf Elf Colonist</label>
     <defaultFactionType>AS_WHE_PlayerFaction_Neolithic</defaultFactionType>
     <isFighter>false</isFighter>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <apparelTags>
       <li>AS_WHE_Colonist</li>
     </apparelTags>
     <apparelRequired>
       <li>AS_WHE_Tribal</li>
     </apparelRequired>
+    <apparelMoney>
+			<min>120</min>
+			<max>120</max>
+		</apparelMoney>
+    <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
   </PawnKindDef>
 
 <!--==============================================NPC Settings==============================================-->
@@ -32,14 +41,18 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
         <li>
-          <choiceChance>100</choiceChance>
+          <choiceChance>85</choiceChance>
           <thingDef>Silver</thingDef>
           <countRange>
             <min>100</min>
@@ -83,6 +96,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <trader>true</trader>
   </PawnKindDef>
 
   <!-- elite villager -->
@@ -249,6 +263,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <trader>true</trader>
   </PawnKindDef>
 
   <!-- fighter -->
@@ -352,6 +367,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <trader>true</trader>
   </PawnKindDef>
 
   <!-- elite citizen -->
@@ -382,6 +398,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <trader>true</trader>
   </PawnKindDef>
 
   <!-- knight -->
