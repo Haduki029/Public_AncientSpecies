@@ -211,6 +211,81 @@
 	</tools>
 </ThingDef>
 
+<!-- Grawehr -->
+<ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>AS_Grawehr</defName>
+	<label>グラヴェーア</label>
+	<description>榴弾を撃ち出すライフル。</description>
+	<graphicData>
+		<texPath>AT/Weapons/Grawehr</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>AS_Sound_Rebel_Rifle_Interact</soundInteract>
+	<statBases>
+		<WorkToMake>58000</WorkToMake>
+		<Mass>6.2</Mass>
+		<AccuracyTouch>0.90</AccuracyTouch>
+		<AccuracyShort>0.95</AccuracyShort>
+		<AccuracyMedium>0.95</AccuracyMedium>
+		<AccuracyLong>0.90</AccuracyLong>
+		<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>AS_Rebel_Rifle</li>
+	</weaponTags>
+	<costList>
+		<Steel>30</Steel>
+		<Plasteel>25</Plasteel>
+		<ComponentSpacer>2</ComponentSpacer>
+		<WoodLog>10</WoodLog>
+	</costList>
+	<recipeMaker>
+		<recipeUsers>
+			<li>FabricationBench</li>
+			<!-- FabricationBench, but if there is no Inherit="False", so it can be created and at fabrication bench, and at table machining, because gun has industrial tech level and all industrial tech level's guns by general can be made at table machining -->
+		</recipeUsers>
+		<researchPrerequisite>AS_Weapons</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<thingCategories>
+		<li>AS_Weapons</li>
+	</thingCategories>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AS_Bullet_Rebel_Rifle</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>40.9</range>
+			<forcedMissRadius>0.1</forcedMissRadius>
+			<soundCast>AS_Sound_Rebel_Rifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
 <ThingDef ParentName="BaseBullet">
 	<defName>AS_Bullet_Assault_Rifle</defName>
 	<label>elven assault rifle bullet</label>
@@ -239,6 +314,24 @@
 		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>AS_Bullet_Rebel_Rifle</defName>
+	<label>...</label>
+	<projectile>
+		<damageDef>Bomb</damageDef>
+		<damageAmountBase>24</damageAmountBase>
+		<explosionRadius>0.1</explosionRadius>
+		<stoppingPower>1</stoppingPower>
+		<speed>120</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Big</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.2</drawSize>
+	</graphicData>
+	<thingClass>Projectile_Explosive</thingClass>
 </ThingDef>
 
 <SoundDef>
@@ -295,6 +388,36 @@
 			<grains>
 				<li Class="AudioGrain_Clip">
 					<clipPath>Shotgun_Interact</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Rebel_Rifle</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Rebel_Rifle</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Rebel_Rifle_Interact</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Rebel_Rifle_Interact</clipPath>
 				</li>
 			</grains>
 		</li>
