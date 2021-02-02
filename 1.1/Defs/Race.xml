@@ -142,7 +142,7 @@
       </apparelList>
 			<whiteApparelList>
 			  <!-- <li>Apparel_ShieldBelt</li> -->
-				<!-- <li>SmokepopBelt</li> -->
+				<li>Apparel_SmokepopBelt</li>
 			</whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
