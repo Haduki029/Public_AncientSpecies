@@ -9,7 +9,6 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelAllowHeadgearChance>0.08</apparelAllowHeadgearChance>
     <invNutrition>2</invNutrition>
-    <apparelMoney>250~500</apparelMoney>
     <apparelRequired>
       <li>AS_WHE_UnderwearA</li>
       <li>AS_WHE_Neeso</li>

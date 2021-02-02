@@ -106,6 +106,7 @@
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
+			<!-- <li>AS_WHE_ForestHunter</li> -->
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 

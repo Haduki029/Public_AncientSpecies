@@ -80,9 +80,13 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.15</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0</skipChance>
       <subOptionsChooseOne>
@@ -96,7 +100,6 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-    <trader>true</trader>
   </PawnKindDef>
 
   <!-- elite villager -->
@@ -114,9 +117,13 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -146,9 +153,13 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -180,9 +191,13 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -212,9 +227,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -246,9 +265,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -282,9 +305,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -319,9 +346,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -350,9 +381,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -381,9 +416,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -418,9 +457,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -455,9 +498,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -490,9 +537,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
