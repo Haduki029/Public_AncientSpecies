@@ -15,7 +15,11 @@ namespace AS_WHE
         public static ThingDef_AlienRace AS_WHE_Race;
 
         public static ScenarioDef AS_WHE_Scenario;
+    }
 
+    [DefOf]
+    public static class AS_WHE_PawnKindDefOf
+    {
         public static PawnKindDef AS_WHE_Colonist;
 
         public static PawnKindDef AS_WHE_Villager;
@@ -39,5 +43,7 @@ namespace AS_WHE
         public static PawnKindDef AS_WHE_Archer;
 
         public static PawnKindDef AS_WHE_Gunner;
+
+        public static PawnKindDef AS_WHE_Slave;
     }
 }

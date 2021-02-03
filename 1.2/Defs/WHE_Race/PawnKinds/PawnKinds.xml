@@ -78,6 +78,8 @@
     </weaponTags>
     <apparelTags>
       <li>WHE_Neolithic</li>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.15</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>
@@ -555,6 +557,43 @@
         <li>
           <thingDef>MedicineIndustrial</thingDef>
           <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Slave -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Slave</defName>
+    <label>Half Elf Slave</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>20~120</weaponMoney>
+    <apparelMoney>100~150</apparelMoney>
+    <weaponTags>
+      <!-- <li>NeolithicRangedBasic</li> -->
+    </weaponTags>
+    <apparelTags>
+      <li>WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>15</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>20</max>
+          </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>

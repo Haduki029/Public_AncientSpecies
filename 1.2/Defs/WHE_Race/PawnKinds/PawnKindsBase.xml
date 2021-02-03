@@ -23,6 +23,7 @@
 	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <invNutrition>2.5</invNutrition>
     <itemQuality>Normal</itemQuality>
+    <apparelMoney>200~500</apparelMoney>
     <apparelTags>
       <li>WHE_Neolithic</li>
     </apparelTags>
@@ -47,8 +48,9 @@
 	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <invNutrition>2.8</invNutrition>
     <itemQuality>Good</itemQuality>
-    <apparelMoney>500~800</apparelMoney>
+    <apparelMoney>500~1200</apparelMoney>
     <apparelTags>
+      <li>WHE_Neolithic</li>
       <li>WHE_Medieval</li>
     </apparelTags>
     <inventoryOptions>
@@ -72,8 +74,9 @@
 	  <baseRecruitDifficulty>0.55</baseRecruitDifficulty>
     <invNutrition>3</invNutrition>
     <itemQuality>Excellent</itemQuality>
-    <apparelMoney>700~1000</apparelMoney>
+    <apparelMoney>1200~2500</apparelMoney>
     <apparelTags>
+      <li>WHE_Medieval</li>
       <li>WHE_Industrial</li>
     </apparelTags>
     <inventoryOptions>
