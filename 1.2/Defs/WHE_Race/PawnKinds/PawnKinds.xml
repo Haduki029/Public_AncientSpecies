@@ -6,15 +6,24 @@
     <label>Harf Elf Colonist</label>
     <defaultFactionType>AS_WHE_PlayerFaction_Neolithic</defaultFactionType>
     <isFighter>false</isFighter>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <apparelTags>
       <li>AS_WHE_Colonist</li>
     </apparelTags>
     <apparelRequired>
       <li>AS_WHE_Tribal</li>
     </apparelRequired>
+    <apparelMoney>
+			<min>120</min>
+			<max>120</max>
+		</apparelMoney>
+    <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
   </PawnKindDef>
 
 <!--==============================================NPC Settings==============================================-->
@@ -32,14 +41,18 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
         <li>
-          <choiceChance>100</choiceChance>
+          <choiceChance>85</choiceChance>
           <thingDef>Silver</thingDef>
           <countRange>
             <min>100</min>
@@ -59,17 +72,23 @@
     <isFighter>true</isFighter>
     <trader>true</trader>
     <weaponMoney>800~1800</weaponMoney>
-    <apparelMoney>500~1500</apparelMoney>
+    <apparelMoney>500~2500</apparelMoney>
     <weaponTags>
       <li>NeolithicRangedBasic</li>
     </weaponTags>
     <apparelTags>
       <li>WHE_Neolithic</li>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.15</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0</skipChance>
       <subOptionsChooseOne>
@@ -100,9 +119,13 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -132,9 +155,13 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -166,9 +193,13 @@
       <li>WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -198,9 +229,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -232,9 +267,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -249,6 +288,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <trader>true</trader>
   </PawnKindDef>
 
   <!-- fighter -->
@@ -267,9 +307,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -304,9 +348,13 @@
       <li>WHE_Medieval</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -335,9 +383,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -352,6 +404,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <trader>true</trader>
   </PawnKindDef>
 
   <!-- elite citizen -->
@@ -365,9 +418,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -382,6 +439,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <trader>true</trader>
   </PawnKindDef>
 
   <!-- knight -->
@@ -401,9 +459,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -438,9 +500,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -473,9 +539,13 @@
       <li>WHE_Industrial</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
-    <backstoryCategories>
-      <li>AS_WHE_Villager</li>
-    </backstoryCategories>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
@@ -487,6 +557,43 @@
         <li>
           <thingDef>MedicineIndustrial</thingDef>
           <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Slave -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Slave</defName>
+    <label>Half Elf Slave</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>20~120</weaponMoney>
+    <apparelMoney>100~150</apparelMoney>
+    <weaponTags>
+      <!-- <li>NeolithicRangedBasic</li> -->
+    </weaponTags>
+    <apparelTags>
+      <li>WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>15</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>20</max>
+          </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
