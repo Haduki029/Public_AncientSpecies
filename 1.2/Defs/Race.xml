@@ -350,5 +350,9 @@
     <recipes>
       <li>AS_WHE_InstallBionicEar</li>
     </recipes>
+    <!-- TODO: 暫定 -->
+    <tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
 </AlienRace.ThingDef_AlienRace>
 </Defs>

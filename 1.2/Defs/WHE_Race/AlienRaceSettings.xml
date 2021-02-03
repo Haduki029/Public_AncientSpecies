@@ -10,7 +10,7 @@
 				<li>AS_WHE_Colonist</li>
                 <li>AS_WHE_Villager</li>
 			</kindDefs>
-			<chance>0.0</chance>
+			<chance>25.5</chance>
 		</li>
 	</alienslavekinds>
 	<!-- 難民 -->
@@ -20,7 +20,7 @@
 				<li>AS_WHE_Colonist</li>
                 <li>AS_WHE_Villager</li>
 			</kindDefs>
-			<chance>0.0</chance>
+			<chance>35.0</chance>
 		</li>
 	</alienrefugeekinds>
 			
@@ -31,7 +31,7 @@
                     <kindDefs>
                         <li>AS_WHE_Colonist</li>
                     </kindDefs>
-                    <chance>0.0</chance>
+                    <chance>30.0</chance>
                 </li>
             </pawnKindEntries>
             <factionDefs>
@@ -45,9 +45,9 @@
             <pawnKindEntries>
                 <li>
                     <kindDefs>
-                        <li>AS_WHE_Colonist</li>
+                        <li>AS_WHE_Villager</li>
                     </kindDefs>
-                    <chance>0.0</chance>
+                    <chance>35.0</chance>
                 </li>
             </pawnKindEntries>
             <factionDefs>

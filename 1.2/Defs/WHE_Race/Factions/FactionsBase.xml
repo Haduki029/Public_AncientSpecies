@@ -31,7 +31,7 @@
       <li>WHE</li>
     </hairTags>
     <backstoryCategories>
-      <li>AS_WHE_Villager</li>
+      <li>AS_WHE_Village_Story</li>
     </backstoryCategories>
     <maxPawnCostPerTotalPointsCurve>
       <points>
@@ -42,12 +42,12 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-    <caravanTraderKinds>
+    <!-- <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>Caravan_Outlander_CombatSupplier</li>
       <li>Caravan_Outlander_Exotic</li>
       <li>Caravan_Outlander_PirateMerchant</li>
-    </caravanTraderKinds>
+    </caravanTraderKinds> -->
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
