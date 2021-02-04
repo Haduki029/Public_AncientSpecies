@@ -3,6 +3,8 @@
 
 # User settings
 Source/
+*.csproj
+*/Source/
 # *.txt
 
 # User-specific files
