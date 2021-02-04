@@ -137,9 +137,9 @@
         <soundInteract>Bow_Large</soundInteract>
         <costList>
             <WoodLog>80</WoodLog>
-            <Plasteel>15</Plasteel>
+            <!-- <Plasteel>15</Plasteel>
             <Hyperweave>3</Hyperweave>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentIndustrial>2</ComponentIndustrial> -->
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
@@ -207,9 +207,9 @@
         <soundInteract>Bow_Large</soundInteract>
         <costList>
             <WoodLog>80</WoodLog>
-            <Plasteel>20</Plasteel>
+            <!-- <Plasteel>20</Plasteel>
             <Hyperweave>5</Hyperweave>
-            <ComponentSpacer>2</ComponentSpacer>
+            <ComponentSpacer>2</ComponentSpacer> -->
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
