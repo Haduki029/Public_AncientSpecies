@@ -73,6 +73,7 @@
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
             <WorkToMake>19000</WorkToMake>
+            <MarketValue>850</MarketValue>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.90</AccuracyShort>
@@ -114,7 +115,7 @@
                 <li>ElectricSmithy</li>
                 <li>FueledSmithy</li>
             </recipeUsers>
-            <researchPrerequisite>Greatbow</researchPrerequisite>
+            <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>
@@ -143,6 +144,7 @@
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
             <WorkToMake>24500</WorkToMake>
+            <MarketValue>2500</MarketValue>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -183,7 +185,7 @@
                 <li>ElectricSmithy</li>
                 <li>FueledSmithy</li>
             </recipeUsers>
-            <researchPrerequisite>Greatbow</researchPrerequisite>
+            <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>13</Crafting>
             </skillRequirements>
@@ -205,13 +207,14 @@
         <soundInteract>Bow_Large</soundInteract>
         <costList>
             <WoodLog>80</WoodLog>
-            <Plasteel>15</Plasteel>
-            <Hyperweave>3</Hyperweave>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <Plasteel>20</Plasteel>
+            <Hyperweave>5</Hyperweave>
+            <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
             <WorkToMake>24500</WorkToMake>
+            <MarketValue>4000</MarketValue>
             <Mass>3.8</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
@@ -252,7 +255,7 @@
                 <li>ElectricSmithy</li>
                 <li>FueledSmithy</li>
             </recipeUsers>
-            <researchPrerequisite>Greatbow</researchPrerequisite>
+            <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>18</Crafting>
             </skillRequirements>
