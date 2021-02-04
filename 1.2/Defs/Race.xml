@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef ParentName="BasePawn" Name="AS_WHE_BasePawn" Abstract="True">
+<!-- <ThingDef ParentName="BasePawn" Name="AS_WHE_BasePawn" Abstract="True">
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <hasTooltip>true</hasTooltip>
+    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+    <inspectorTabs>
+		<li>ITab_Pawn_Health</li>
+		<li>ITab_Pawn_Needs</li>
+		<li>ITab_Pawn_Character</li>
+		<li>ITab_Pawn_Training</li>
+		<li>ITab_Pawn_Gear</li>
+		<li>ITab_Pawn_Guest</li>
+		<li>ITab_Pawn_Prisoner</li>
+		<li>ITab_Pawn_Social</li>
+		<li>ITab_Pawn_Log</li>
+    </inspectorTabs>
+    <drawGUIOverlay>true</drawGUIOverlay>
+</ThingDef> -->
+
+<ThingDef Name="AS_WHE_BasePawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
