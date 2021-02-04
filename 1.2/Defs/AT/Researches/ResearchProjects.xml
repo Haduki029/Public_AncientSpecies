@@ -2,8 +2,7 @@
 <Defs>
 	<ResearchTabDef>
 		<defName>AS_ResearchTab</defName>
-		<label>Ancient Species
-    </label>
+		<label>Ancient Species</label>
 	</ResearchTabDef>
 	
   <ResearchProjectDef>
