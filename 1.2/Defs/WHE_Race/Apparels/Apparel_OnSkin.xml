@@ -53,6 +53,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- UnderWare B -->
@@ -110,6 +111,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- UnderWare C -->
@@ -167,6 +169,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- UnderWare D -->
@@ -494,6 +497,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- Stripe Nee Socks -->
@@ -549,6 +553,7 @@
         <li>RoyalTier7</li>
       </tags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- Garter Belt -->

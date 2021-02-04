@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  
   <!-- Common Required Settings-->
   <ThingDef Name="AS_WHE_ApparelCommonBase" Abstract="True">
     <thingClass>Apparel</thingClass>

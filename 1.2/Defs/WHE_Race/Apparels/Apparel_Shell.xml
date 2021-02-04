@@ -53,6 +53,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- Parka -->
@@ -107,6 +108,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- SimplePoncho -->
@@ -159,6 +161,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- ElvenPoncho -->
@@ -253,9 +256,7 @@
       <EquipDelay>18</EquipDelay>
       <Flammability>0.01</Flammability>
     </statBases>
-    <tradeTags>
-      <li>AS_WHE_HiTechArmor</li>
-    </tradeTags>
+    <tradeTags><li>AS_WHE_HiTechArmor</li></tradeTags>
     <equippedStatOffsets>
 			<MoveSpeed>0.05</MoveSpeed>
 		</equippedStatOffsets>
@@ -324,9 +325,7 @@
       <MoveSpeed>-0.2</MoveSpeed>
       <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
     </equippedStatOffsets>
-    <tradeTags>
-      <li>AS_WHE_HiTechArmor</li>
-    </tradeTags>
+    <tradeTags><li>AS_WHE_HiTechArmor</li></tradeTags>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
       <skillRequirements>

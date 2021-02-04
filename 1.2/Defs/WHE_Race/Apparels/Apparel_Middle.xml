@@ -53,6 +53,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- Plate Armor -->

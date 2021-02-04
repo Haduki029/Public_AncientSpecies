@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<ThingCategoryDef>
+		<defName>AS_WHE_Apparel_Tradable</defName>
+		<label>売買可能なハーフエルフの衣服</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
   <!-- Maid Ware -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_MaidWare</defName>
@@ -164,6 +170,7 @@
         <li>RoyalTier2</li>
       </tags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- ショートパンツ -->
@@ -219,6 +226,7 @@
         <li>Worker</li>
       </defaultOutfitTags>      
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- ボタンシャツ -->
@@ -276,6 +284,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- タンクトップ -->
@@ -332,5 +341,6 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 </Defs>

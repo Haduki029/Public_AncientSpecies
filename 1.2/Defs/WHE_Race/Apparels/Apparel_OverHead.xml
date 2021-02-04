@@ -46,6 +46,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- Advanced Helmet -->
@@ -131,9 +132,7 @@
       <Insulation_Heat>10.4</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
-    <tradeTags>
-      <li>HiTechArmor</li>
-    </tradeTags>
+    <tradeTags><li>HiTechArmor</li></tradeTags>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
       <recipeUsers Inherit="False">
@@ -204,6 +203,7 @@
         <li>RoyalTier2</li>
       </tags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- Horn -->
@@ -254,6 +254,7 @@
         <li>RoyalTier7</li>
       </tags>
     </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
   <!-- Pressure Resistant Helmet -->
