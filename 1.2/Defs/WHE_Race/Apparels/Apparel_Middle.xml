@@ -22,12 +22,11 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>8500</WorkToMake>
       <Mass>2</Mass>
-      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.2</ArmorRating_Heat>
-      <Insulation_Cold>2</Insulation_Cold>
-      <Insulation_Heat>1</Insulation_Heat>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>15.4</Insulation_Cold>
+      <Insulation_Heat>4.5</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -76,10 +75,10 @@
     <statBases>
       <MaxHitPoints>320</MaxHitPoints>
       <WorkToMake>40000</WorkToMake>
-      <Mass>13</Mass>
-      <StuffEffectMultiplierArmor>0.84</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.1</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <Mass>8.5</Mass>
+      <StuffEffectMultiplierArmor>0.82</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>15</EquipDelay>
       <Flammability>0.2</Flammability>
     </statBases>
@@ -108,9 +107,103 @@
       <layers>
         <li>Shell</li>
       </layers>
+      <tags>
+        <li>Royal</li>
+        <li>RoyalTier4</li>
+		    <li>RoyalTier5</li>
+      </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+  </ThingDef>
+
+  
+  <!-- Ancient Elven Armor Reproduction -->
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+    <defName>AS_WHE_WAEArmor_Re</defName>
+    <description>ハーフエルフの技術で再現された、古代エルフのプレートアーマーのレプリカ。ウラニウムが用いられており、全体的に黒い仕上がりになっている。高い防御力を誇るだけでなく、着用者の近接戦闘能力を高めてくれる効果がある。</description>
+    <label>古代エルフのプレートアーマー</label>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/middle/AncientElfArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <generateCommonality>0</generateCommonality>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Hyperweave>30</Hyperweave>
+      <Gold>20</Gold>
+      <Plasteel>100</Plasteel>
+      <Uranium>25</Uranium>
+    </costList>
+    <statBases>
+	    <MaxHitPoints>420</MaxHitPoints>
+      <WorkToMake>58000</WorkToMake>
+      <MarketValue>18000</MarketValue>
+      <Mass>10</Mass>
+      <ArmorRating_Blunt>0.88</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.31</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.68</ArmorRating_Heat>
+      <Insulation_Cold>45</Insulation_Cold>
+	    <Insulation_Heat>45</Insulation_Heat>
+      <Beauty>0.2</Beauty>
+      <EquipDelay>18</EquipDelay>
+      <Flammability>-1</Flammability>
+    </statBases>
+    <equippedStatOffsets>
+	    <MoveSpeed>0.2</MoveSpeed>
+	    <MeleeHitChance>0.8</MeleeHitChance>
+      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+      <Flammability>-1</Flammability>
+      <ForagedNutritionPerDay>0.25</ForagedNutritionPerDay>
+      <MentalBreakThreshold>0.05</MentalBreakThreshold>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+     <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+			  <li>Torso</li>
+			  <li>Shoulders</li>
+		    <li>Arms</li>
+			  <li>Legs</li>
+			  <li>Hands</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/middle/AncientElfArmor</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Royal</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+		    <li>RoyalTier7</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <modExtensions>
+      <li Class="AS_WHE.LimitApparel">
+        <matchBodyType>
+            <!-- 複数指定可。以下のいずれかに該当する体型であれば着用できる。 -->
+            <li>Male</li>
+            <!-- <li>Female</li> -->
+            <li>Thin</li>
+            <li>Hulk</li>
+        </matchBodyType>
+      </li>
+	  </modExtensions>
   </ThingDef>
 </Defs>

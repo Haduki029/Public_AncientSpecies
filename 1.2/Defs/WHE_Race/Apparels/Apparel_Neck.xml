@@ -16,18 +16,20 @@
       <li>Fabric</li>
     </stuffCategories>
     <costList>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Plasteel>25</Plasteel>
     </costList>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
       <WorkToMake>16500</WorkToMake>
       <Mass>3</Mass>
-      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.26</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>3</EquipDelay>
-      <Flammability>0.4</Flammability>
+      <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.15</EnergyShieldEnergyMax>
+      <EquipDelay>1.5</EquipDelay>
+      <Flammability>0.35</Flammability>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">

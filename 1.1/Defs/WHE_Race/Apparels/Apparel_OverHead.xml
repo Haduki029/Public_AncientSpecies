@@ -266,7 +266,7 @@
       <texPath>WHE/Apparels/overhead/PressureResistantHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.1</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <uiIconPath>WHE/Apparels/overhead/PressureResistantHelmet</uiIconPath>
     <costList>

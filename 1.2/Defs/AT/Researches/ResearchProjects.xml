@@ -68,7 +68,7 @@
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
+    <researchViewX>0</researchViewX>
     <researchViewY>1</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
@@ -96,8 +96,8 @@
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 </Defs>

@@ -29,26 +29,26 @@ namespace AS_WHE
         [TweakValue("Interface", 0f, 32f)]
         private static float PasteSize = 24f;
 
-        public ITab_ManaPolicy()
+        public ITab_WHE_Tech()
         {
-            this.size = ITab_ManaPolicy.WinSize;
-            this.labelKey = "NItxt_TabManaPolicy".Translate();
-            this.tutorTag = "吸魔方針";
+            this.size = ITab_WHE_Tech.WinSize;
+            this.labelKey = "WHE_Tech_TabCategory".Translate();
+            this.tutorTag = "技術カテゴリー";
         }
 
-        public CompSuccubusRace CompRace
+        public CompWHERace CompRace
         {
             get
             {
-                return SelPawn.GetComp<CompSuccubusRace>();
+                return SelPawn.GetComp<CompWHERace>();
             }
 
         }
 
         protected override void FillTab()
         {
-            Rect rect = new Rect(ITab_ManaPolicy.WinSize.x - ITab_ManaPolicy.PasteX, ITab_ManaPolicy.PasteY, ITab_ManaPolicy.PasteSize, ITab_ManaPolicy.PasteSize);
-            Rect rect2 = new Rect(0f, 0f, ITab_ManaPolicy.WinSize.x, ITab_ManaPolicy.WinSize.y).ContractedBy(10f);
+            Rect rect = new Rect(ITab_WHE_Tech.WinSize.x - ITab_WHE_Tech.PasteX, ITab_WHE_Tech.PasteY, ITab_WHE_Tech.PasteSize, ITab_WHE_Tech.PasteSize);
+            Rect rect2 = new Rect(0f, 0f, ITab_WHE_Tech.WinSize.x, ITab_WHE_Tech.WinSize.y).ContractedBy(10f);
             Func<List<FloatMenuOption>> recipeOptionsMaker = delegate
             {
                 List<FloatMenuOption> list = new List<FloatMenuOption>();

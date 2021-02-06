@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingCategoryDef>
+  <ThingCategoryDef>
 		<defName>AS_WHE_Apparel_Tradable</defName>
 		<label>売買可能なハーフエルフの衣服</label>
 		<parent>Apparel</parent>
@@ -15,6 +15,7 @@
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/MaidWare</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costList>
       <Cloth>150</Cloth>
@@ -24,12 +25,21 @@
       <MaxHitPoints>180</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
       <Mass>3.5</Mass>
-      <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.9</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>15.4</Insulation_Cold>
+      <Insulation_Heat>4.5</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
-      <Flammability>0.6</Flammability>
+      <Flammability>0.4</Flammability>
     </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <ForagedNutritionPerDay>0.05</ForagedNutritionPerDay>
+      <SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
     <recipeMaker>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
@@ -37,10 +47,6 @@
       </recipeUsers>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
     </recipeMaker>
-    <equippedStatOffsets>
-			<MoveSpeed>0.05</MoveSpeed>
-			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
-		</equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -74,7 +80,7 @@
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/Tribal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>
@@ -85,7 +91,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>1800</WorkToMake>
       <Mass>1.5</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
@@ -128,7 +134,7 @@
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/TShirts</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
@@ -139,7 +145,7 @@
       <MaxHitPoints>110</MaxHitPoints>
       <WorkToMake>2200</WorkToMake>
       <Mass>1.5</Mass>
-      <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.24</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.62</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
@@ -182,7 +188,7 @@
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/ShortPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
@@ -193,7 +199,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>1800</WorkToMake>
       <Mass>1.5</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.2</EquipDelay>
@@ -238,7 +244,7 @@
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/ShirtButton</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
@@ -296,7 +302,7 @@
     <graphicData>
       <texPath>WHE/Apparels/undermiddle/TankTop</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
@@ -307,7 +313,7 @@
       <MaxHitPoints>160</MaxHitPoints>
       <WorkToMake>4800</WorkToMake>
       <Mass>2</Mass>
-      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.38</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.68</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.68</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>

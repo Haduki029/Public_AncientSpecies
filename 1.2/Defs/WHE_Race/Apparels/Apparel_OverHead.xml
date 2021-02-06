@@ -9,7 +9,7 @@
     <graphicData>
       <texPath>WHE/Apparels/overhead/Helmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
@@ -20,8 +20,8 @@
       <WorkToMake>5500</WorkToMake>
       <Mass>1</Mass>
       <StuffEffectMultiplierArmor>0.58</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -59,7 +59,7 @@
       <texPath>WHE/Apparels/overhead/AdvancedHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
@@ -71,8 +71,8 @@
       <WorkToMake>9500</WorkToMake>
       <Mass>1.2</Mass>
       <StuffEffectMultiplierArmor>0.74</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.18</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -109,17 +109,13 @@
     <graphicData>
       <texPath>WHE/Apparels/overhead/MarineHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
       <Plasteel>20</Plasteel>
       <Uranium>4</Uranium>
     </costList>
-    <!-- <costStuffCount>40</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories> -->
     <statBases>
       <WorkToMake>18500</WorkToMake>
       <MaxHitPoints>180</MaxHitPoints>
@@ -172,12 +168,22 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>5500</WorkToMake>
-      <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.5</EquipDelay>
+      <Mass>1</Mass>      
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.28</ArmorRating_Heat>
+      <Insulation_Cold>8.8</Insulation_Cold>
+      <Insulation_Heat>8.5</Insulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
     </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+      <ConstructSuccessChance>0.08</ConstructSuccessChance>
+      <ForagedNutritionPerDay>0.05</ForagedNutritionPerDay>
+      <SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
       <recipeUsers Inherit="False">
@@ -217,14 +223,14 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
-      <Steel>30</Steel>
+      <Steel>25</Steel>
     </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>8500</WorkToMake>
+      <WorkToMake>5500</WorkToMake>
       <Mass>0.5</Mass>
-      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierArmor>0.12</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.2</EquipDelay>
     </statBases>
@@ -257,6 +263,68 @@
     <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
+  <!-- Cute Ribon -->
+  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+    <defName>AS_WHE_CuteRibon</defName>
+    <description>テスト実装</description>
+    <label>可愛いリボン（ハーフエルフ）</label>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/overhead/CuteRibon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>40</Cloth>
+      <Gold>5</Gold>
+    </costList>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>7500</WorkToMake>
+      <MarketValue>800</MarketValue>
+      <Mass>1</Mass>      
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.21</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.28</ArmorRating_Heat>
+      <Insulation_Cold>8.8</Insulation_Cold>
+      <Insulation_Heat>8.5</Insulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>0.08</MoveSpeed>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+      <ConstructSuccessChance>0.12</ConstructSuccessChance>
+      <ForagedNutritionPerDay>0.06</ForagedNutritionPerDay>
+      <SocialImpact>0.12</SocialImpact>
+		</equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/overhead/CuteRibon</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>RoyalTier2</li>
+      </tags>
+    </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
+  </ThingDef>
+
   <!-- Pressure Resistant Helmet -->
   <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
     <defName>AS_WHE_PressureResistantHelmet</defName>
@@ -267,7 +335,7 @@
       <texPath>WHE/Apparels/overhead/PressureResistantHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>1.1</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <uiIconPath>WHE/Apparels/overhead/PressureResistantHelmet</uiIconPath>
     <costList>
@@ -281,15 +349,9 @@
       <WorkToMake>24500</WorkToMake>
       <MaxHitPoints>190</MaxHitPoints>
       <Mass>1.8</Mass>
-      <!-- <Flammability>0.1</Flammability>
-      <StuffEffectMultiplierArmor>1.08</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
-      <Insulation_Cold>70</Insulation_Cold>
-      <Insulation_Heat>45.2</Insulation_Heat> -->
-      <Flammability>0.1</Flammability>
+      <Flammability>0.01</Flammability>
       <ArmorRating_Sharp>0.89</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
       <ArmorRating_Heat>0.68</ArmorRating_Heat>
       <Insulation_Cold>70</Insulation_Cold>
       <Insulation_Heat>45.8</Insulation_Heat>

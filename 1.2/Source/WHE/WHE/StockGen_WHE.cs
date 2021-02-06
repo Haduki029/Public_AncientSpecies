@@ -32,6 +32,8 @@ namespace AS_WHE
                 {
                     yield break;
                 }
+                Log.Message("Ancient Species: WHE Pawn generate request process for slave.");
+                // Debug.LogWarning("WHE Pawn generate request process for slave.");
                 PawnGenerationRequest request = AS_WHE_PawnDefault(AS_WHE_PawnKindDefOf.AS_WHE_Slave);
                 request.ForcedTraits = TraitsGenerate();
                 request.Faction = wHE_SlaveFaction;

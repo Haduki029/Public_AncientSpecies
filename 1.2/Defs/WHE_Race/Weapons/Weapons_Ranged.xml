@@ -131,7 +131,7 @@
             <texPath>WHE/Weapons/bow/CompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-            <drawSize>0.9</drawSize>
+            <drawSize>1.5</drawSize>
 			<drawOffset>0.3,0,0</drawOffset>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
@@ -201,7 +201,7 @@
             <texPath>WHE/Weapons/bow/ElvenCompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-            <drawSize>0.9</drawSize>
+            <drawSize>1.5</drawSize>
 			<drawOffset>0.3,0,0</drawOffset>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
@@ -232,7 +232,7 @@
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>AS_WHE_CarbonArrow</defaultProjectile>
+            <defaultProjectile>AS_WHE_ElvenPowerArrow</defaultProjectile>
             <warmupTime>0.92</warmupTime>
             <range>47.5</range>
             <soundCast>Bow_Large</soundCast>
@@ -287,10 +287,26 @@
         </graphicData>
         <projectile>
             <damageDef>Arrow</damageDef>
-            <damageAmountBase>20.7</damageAmountBase>
+            <damageAmountBase>21</damageAmountBase>
             <stoppingPower>1.6</stoppingPower>
             <armorPenetrationBase>0.27</armorPenetrationBase>
             <speed>73</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseProjectileNeolithic">
+        <defName>AS_WHE_ElvenPowerArrow</defName>
+        <label>エルフの矢</label>
+        <graphicData>
+            <texPath>Things/Projectile/Arrow_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Arrow</damageDef>
+            <damageAmountBase>24</damageAmountBase>
+            <stoppingPower>2.1</stoppingPower>
+            <armorPenetrationBase>0.31</armorPenetrationBase>
+            <speed>81</speed>
         </projectile>
     </ThingDef>
 
