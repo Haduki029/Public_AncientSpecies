@@ -1,0 +1,3 @@
+[submodule "Source"]
+	path = Source
+	url = git@github.com:Haduki029/AncientSpecies-dll.git
