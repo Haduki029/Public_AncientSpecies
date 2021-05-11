@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <ThingDef Name="AS_WHE_BasePawn" ParentName="AS_Elf_CommonBasePawn" Abstract="True">
       <statBases>
         <Mass>60</Mass>
