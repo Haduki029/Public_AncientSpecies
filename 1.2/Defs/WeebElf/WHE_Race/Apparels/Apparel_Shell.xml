@@ -268,16 +268,5 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <modExtensions>
-      <li Class="AS_WHE.LimitApparel">
-        <matchBodyType>
-            <!-- 複数指定可。以下のいずれかに該当する体型であれば着用できる。 -->
-            <li>Male</li>
-            <!-- <li>Female</li> -->
-            <li>Thin</li>
-            <li>Hulk</li>
-        </matchBodyType>
-      </li>
-	  </modExtensions>
   </ThingDef>
 </Defs>

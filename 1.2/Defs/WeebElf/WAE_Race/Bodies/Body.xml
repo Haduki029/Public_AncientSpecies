@@ -104,14 +104,15 @@
             <li>Torso</li>
           </groups>
         </li>
-        <li> <!-- 魔力変換炉 -->
+        <!-- 魔力変換炉 -->
+        <!-- <li> 
           <def>AS_Magical_Converter_Reactor</def>
           <coverage>0.010</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
           </groups>
-        </li>
+        </li> -->
         <li>
           <def>Neck</def>
           <coverage>0.075</coverage>

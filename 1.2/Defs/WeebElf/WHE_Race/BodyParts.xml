@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<BodyPartDef>
+	<!-- <BodyPartDef>
 		<defName>AS_Magical_Converter_Reactor</defName>
 		<label>魔力変換炉</label>
 		<hitPoints>15</hitPoints>
@@ -8,5 +8,5 @@
 		<frostbiteVulnerability>3</frostbiteVulnerability>
 		<skinCovered>ture</skinCovered>
 		<beautyRelated>true</beautyRelated>
-	</BodyPartDef>
+	</BodyPartDef> -->
 </Defs>
