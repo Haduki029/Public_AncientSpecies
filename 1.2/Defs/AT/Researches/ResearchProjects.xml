@@ -68,8 +68,22 @@
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
+    <researchViewX>0</researchViewX>
     <researchViewY>1</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_AncientTechnology</defName>
+    <label>ハーフエルフの古代武具技術</label>
+    <description>ハーフエルフにより解析、改良された、古代種族の技術を用いた武具やアイテムが作成可能になる。</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -96,8 +110,8 @@
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 </Defs>
