@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--==============================================PC Settings==============================================-->
+  <PawnKindDef ParentName="AS_WAE_CommonBase">
+    <defName>AS_WAE_Colonist</defName>
+    <label>エンシェントエルフの入植者</label>
+    <defaultFactionType>AS_WHE_PlayerFaction_Neolithic</defaultFactionType>
+    <isFighter>false</isFighter>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WAE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <apparelTags>
+      <li>AS_WHE_Colonist</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>AS_WHE_Tribal</li>
+    </apparelRequired>
+    <apparelMoney>
+			<min>120</min>
+			<max>120</max>
+		</apparelMoney>
+    <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+  </PawnKindDef>
+
+<!--==============================================NPC Settings==============================================-->
+  <!-- villager -->
+  <PawnKindDef ParentName="AS_WAE_NPCBase_Neolithic">
+    <defName>AS_WAE_Villager</defName>
+    <label>エンシェントエルフの村人</label>
+    <itemQuality>Good</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>800~1250</weaponMoney>
+    <weaponTags>
+      <li>AS_WAE_Weapon</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WAE_Apparel_Villager</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WAE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>85</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- hunter -->
+  <PawnKindDef ParentName="AS_WAE_NPCBase_Neolithic">
+    <defName>AS_WAE_Hunter</defName>
+    <label>エルフの狩人</label>
+    <itemQuality>Good</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>800~1250</weaponMoney>
+    <weaponTags>
+      <li>AS_WAE_Weapon</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WAE_Apparel_Villager</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WAE_Hunter</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+</Defs>

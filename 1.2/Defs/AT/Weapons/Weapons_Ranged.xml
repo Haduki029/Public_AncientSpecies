@@ -17,13 +17,13 @@
 		<AccuracyShort>0.85</AccuracyShort>
 		<AccuracyMedium>0.80</AccuracyMedium>
 		<AccuracyLong>0.75</AccuracyLong>
-		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
 		<li>AS_Assault_Rifle</li>
 	</weaponTags>
 	<costList>
-		<Steel>80</Steel>
+		<Steel>100</Steel>
 		<ComponentIndustrial>6</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
@@ -40,7 +40,7 @@
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>AS_Bullet_Assault_Rifle</defaultProjectile>
-			<warmupTime>1.2</warmupTime>
+			<warmupTime>1.1</warmupTime>
 			<range>31.5</range>
 			<burstShotCount>3</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -87,14 +87,14 @@
 		<AccuracyShort>0.80</AccuracyShort>
 		<AccuracyMedium>0.85</AccuracyMedium>
 		<AccuracyLong>0.90</AccuracyLong>
-		<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+		<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
 		<li>AS_Assault_Rifle</li>
 	</weaponTags>
 	<costList>
         <AS_AssaultRifle>1</AS_AssaultRifle>
-		<Steel>20</Steel>
+		<Steel>30</Steel>
 		<ComponentIndustrial>6</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
@@ -110,9 +110,9 @@
 		<li>
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>AS_Bullet_Assault_Rifle</defaultProjectile>
+			<defaultProjectile>AS_Bullet_Sniper_Rifle</defaultProjectile>
 			<warmupTime>1.2</warmupTime>
-			<range>39.5</range>
+			<range>39.8</range>
 			<burstShotCount>1</burstShotCount>
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<soundCast>AS_Sound_Assault_Rifle</soundCast>
@@ -164,8 +164,8 @@
 		<li>AS_Shotgun</li>
 	</weaponTags>
 	<costList>
-		<Steel>70</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+		<Steel>90</Steel>
+		<ComponentIndustrial>6</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
 		<researchPrerequisite>AS_Weapons</researchPrerequisite>
@@ -184,8 +184,80 @@
 			<warmupTime>1.2</warmupTime>
 			<range>18.9</range>
 			<burstShotCount>2</burstShotCount>
-			<ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+			<ticksBetweenBurstShots>36</ticksBetweenBurstShots>
 			<soundCast>AS_Sound_Shotgun</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<!-- Hundgun -->
+<ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>AS_Handgun</defName>
+	<label>ASハンドガン</label>
+	<description>ある古代技術により作られた拳銃。バレルが長く、安定感があり、取り回しも良いデザイン、重量になっている。</description>
+	<graphicData>
+		<texPath>AT/Weapons/HandGun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>0.8</drawSize>
+	</graphicData>
+	<soundInteract>AS_Sound_Handgun_Interact</soundInteract>
+	<statBases>
+		<WorkToMake>26000</WorkToMake>
+		<Mass>1.02</Mass>
+		<AccuracyTouch>0.86</AccuracyTouch>
+		<AccuracyShort>0.79</AccuracyShort>
+		<AccuracyMedium>0.65</AccuracyMedium>
+		<AccuracyLong>0.35</AccuracyLong>
+		<RangedWeapon_Cooldown>0.715</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>AS_Handgun</li>
+	</weaponTags>
+	<costList>
+		<Steel>50</Steel>
+		<Plasteel>5</Plasteel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisite>AS_Weapons</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<thingCategories>
+		<li>AS_Weapons</li>
+	</thingCategories>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AS_Bullet_Hundgun</defaultProjectile>
+			<warmupTime>0.28</warmupTime>
+			<range>26.2</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+			<soundCast>AS_Sound_Handgun</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 		</li>
@@ -286,12 +358,15 @@
 	</tools>
 </ThingDef>
 
+<!-- ThingDef Bullet -->
+
 <ThingDef ParentName="BaseBullet">
 	<defName>AS_Bullet_Assault_Rifle</defName>
 	<label>elven assault rifle bullet</label>
 	<projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>16</damageAmountBase>
+		<damageAmountBase>17</damageAmountBase>
+		<armorPenetrationBase>0.26</armorPenetrationBase>
 		<stoppingPower>1.4</stoppingPower>
 		<speed>120</speed>
 	</projectile>
@@ -302,12 +377,29 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
+	<defName>AS_Bullet_Sniper_Rifle</defName>
+	<label>elven sniper rifle bullet</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>21</damageAmountBase>
+		<armorPenetrationBase>0.30</armorPenetrationBase>
+		<stoppingPower>1.8</stoppingPower>
+		<speed>140</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Big</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
 	<defName>AS_Bullet_Shotgun</defName>
 	<label>elven shotgun blast</label>
 	<projectile>
 		<damageDef>Bullet</damageDef>
 		<damageAmountBase>24</damageAmountBase>
-		<stoppingPower>3</stoppingPower>
+		<armorPenetrationBase>0.20</armorPenetrationBase>
+		<stoppingPower>3.4</stoppingPower>
 		<speed>100</speed>
 	</projectile>
 	<graphicData>
@@ -321,9 +413,9 @@
 	<label>...</label>
 	<projectile>
 		<damageDef>Bomb</damageDef>
-		<damageAmountBase>24</damageAmountBase>
+		<damageAmountBase>26</damageAmountBase>
 		<explosionRadius>0.1</explosionRadius>
-		<stoppingPower>1</stoppingPower>
+		<stoppingPower>1.5</stoppingPower>
 		<speed>120</speed>
 	</projectile>
 	<graphicData>
@@ -333,6 +425,24 @@
 	</graphicData>
 	<thingClass>Projectile_Explosive</thingClass>
 </ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+    <defName>AS_Bullet_Hundgun</defName>
+    <label>elven handgun</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+	  <armorPenetrationBase>0.21</armorPenetrationBase>
+      <stoppingPower>0.65</stoppingPower>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+<!-- Sound Def -->
 
 <SoundDef>
 	<defName>AS_Sound_Assault_Rifle</defName>
@@ -418,6 +528,36 @@
 			<grains>
 				<li Class="AudioGrain_Clip">
 					<clipPath>Rebel_Rifle_Interact</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Handgun</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Handgun</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Handgun_Interact</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Handgun_Interact</clipPath>
 				</li>
 			</grains>
 		</li>

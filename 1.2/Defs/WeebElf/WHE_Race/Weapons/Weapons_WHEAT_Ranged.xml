@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- Assault Rifle -->
+
+<!-- Sniper Rifle -->
+<ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>AS_WHEAT_SniperRifle</defName>
+	<label>WHEスナイパーライフル</label>
+	<description>解析された古代技術を応用し、ASスナイパーライフルを元に改良、製造されたスナイパーライフル。</description>
+	<graphicData>
+		<texPath>AT/Weapons/SniperRifle_WHETech</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
+	<statBases>
+		<WorkToMake>240000  </WorkToMake>
+		<Mass>8.5</Mass>
+		<AccuracyTouch>0.65</AccuracyTouch>
+		<AccuracyShort>0.80</AccuracyShort>
+		<AccuracyMedium>0.92</AccuracyMedium>
+		<AccuracyLong>0.95</AccuracyLong>
+		<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>AS_WHEAT_SniperRifle</li>
+        <li>AS_WHEAT_Weapon</li>
+	</weaponTags>
+	<costList>
+        <AS_AssaultRifle>1</AS_AssaultRifle>
+		<Plasteel>60</Plasteel>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisite>AS_WHE_AncientTechnology</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>11</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<thingCategories>
+		<li>AS_Weapons</li>
+	</thingCategories>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AS_WHEAT_Bullet_Sniper_Rifle</defaultProjectile>
+			<warmupTime>1.6</warmupTime>
+			<range>46.5</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+			<soundCast>AS_Sound_Assault_Rifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<!-- Shotgun -->
+<ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>AS_WHEAT_Shotgun</defName>
+	<label>WHEショットガン</label>
+	<description>解析された古代技術を応用し、グラヴェールを元に改良、製造されたショットガン。</description>
+	<graphicData>
+		<texPath>AT/Weapons/WHEShotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>AS_Sound_Shotgun_Interact</soundInteract>
+	<statBases>
+		<WorkToMake>46000</WorkToMake>
+		<Mass>6.2</Mass>
+		<AccuracyTouch>0.95</AccuracyTouch>
+		<AccuracyShort>0.84</AccuracyShort>
+		<AccuracyMedium>0.72</AccuracyMedium>
+		<AccuracyLong>0.48</AccuracyLong>
+		<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>AS_WHEAT_Shotgun</li>
+        <li>AS_WHEAT_Weapon</li>
+	</weaponTags>
+	<costList>
+        <AS_Grawehr>1</AS_Grawehr>
+		<Plasteel>60</Plasteel>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisite>AS_WHE_AncientTechnology</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<thingCategories>
+		<li>AS_Weapons</li>
+	</thingCategories>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AS_WHEAT_Bullet_Shotgun_Backshot</defaultProjectile>
+			<warmupTime>1.2</warmupTime>
+			<range>19.9</range>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>0.01</ticksBetweenBurstShots>
+			<soundCast>AS_Sound_Shotgun</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>2.2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<!-- Hundgun -->
+
+<!-- ThingDef Bullet -->
+<ThingDef ParentName="BaseBullet">
+	<defName>AS_WHEAT_Bullet_Sniper_Rifle</defName>
+	<label>ハーフエルフ式大型高速徹甲榴弾</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>28</damageAmountBase>
+		<armorPenetrationBase>0.42</armorPenetrationBase>
+		<stoppingPower>2.4</stoppingPower>
+		<speed>180</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Big</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.2</drawSize>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>AS_WHEAT_Bullet_Shotgun_Backshot</defName>
+	<label>ハーフエルフ式高威力バックショット弾</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>32</damageAmountBase>
+		<armorPenetrationBase>0.30</armorPenetrationBase>
+		<stoppingPower>4.0</stoppingPower>
+		<speed>120</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+</Defs>
