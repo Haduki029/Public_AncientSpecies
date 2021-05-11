@@ -13,12 +13,36 @@ namespace AS_WHE
     public class ITab_WHE_Tech : ITab
     {
         private float viewHeight = 1000f;
-
         private Vector2 scrollPosition = default(Vector2);
-
         private WorkPlan mouseoverPlan;
-
         private static readonly Vector2 WinSize = new Vector2(420f, 480f);
+
+        public override bool IsVisible 
+        {
+            get
+            {
+                return 
+            }
+        }
+
+        private Pawn SelPawnData
+        {
+            get
+            {
+                if (base.SelPawn != null)
+                {
+                    return base.SelPawn;
+                }
+                Corpse corpse = base.SelThing as Corpse;
+                if (corpse != null)
+                {
+                    return corpse.InnerPawn;
+                }
+                string str = "Gear tab on non-pawn non-corpse ";
+                Thing selThing = base.SelThing;
+                throw new InvalidOperationException(str + ((selThing != null) ? selThing.ToString() : null));
+            }
+        }
 
         [TweakValue("Interface", 0f, 128f)]
         private static float PasteX = 48f;

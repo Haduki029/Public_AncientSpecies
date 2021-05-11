@@ -16,7 +16,6 @@ namespace AS_WHE
     {
         static PatchSetClass()
         {
-            //Harmony harmonyInstance = new Harmony("com.ColorPatch.rimworld.mod");
             Harmony harmonyInstance = new Harmony("rimworld.Haduki.ColorPatch.rimworld.mod");
             harmonyInstance.PatchAll(Assembly.GetExecutingAssembly());
         }

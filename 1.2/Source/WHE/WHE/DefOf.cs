@@ -48,9 +48,9 @@ namespace AS_WHE
     }
 
     [DefOf]
-    public static class NITraitDefOf
+    public static class WHETraitDefOf
     {
-        public static TraitDef NI_ManaAttribute;
+        public static TraitDef AS_WeebElf_OdTrait;
         public static TraitDef Masochist;
         public static TraitDef Jealous;
 

@@ -64,7 +64,7 @@ namespace AS_WHE
         {
             base.PostSpawnSetup(respawningAfterLoad);
 
-            int manaAttribute = Pawn.story.traits.DegreeOfTrait(NITraitDefOf.NI_ManaAttribute);
+            int manaAttribute = Pawn.story.traits.DegreeOfTrait(WHETraitDefOf.AS_WeebElf_OdTrait);
             switch (manaAttribute)
             {
                 case 1:
@@ -105,7 +105,7 @@ namespace AS_WHE
             {
                 //policy = new WorkPlanStack(this);
                 policy.plans.Clear();
-                int manaAttribute = Pawn.story.traits.DegreeOfTrait(NITraitDefOf.NI_ManaAttribute);
+                int manaAttribute = Pawn.story.traits.DegreeOfTrait(WHETraitDefOf.AS_WeebElf_OdTrait);
                 WorkPlan forMeal = new WorkPlan()
                 {
                     workPlanStack = this.policy,

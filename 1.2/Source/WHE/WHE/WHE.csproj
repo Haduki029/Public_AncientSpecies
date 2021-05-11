@@ -49,6 +49,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="TorannMagic">
+      <HintPath>..\..\..\..\..\TMagic\Assemblies\TorannMagic.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
@@ -70,6 +73,9 @@
     <Compile Include="AS_WorkPlan.cs" />
     <Compile Include="Comp_GenderCheck.cs" />
     <Compile Include="DefOf.cs" />
+    <Compile Include="HarmonyPatch\ARoM\memo.cs" />
+    <Compile Include="HarmonyPatch\ARoM\TMDamageDefOf.cs" />
+    <Compile Include="HarmonyPatch\ARoM\Verb_TigerStrike_Custom.cs" />
     <Compile Include="LimitApparel.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Patch_EquipmentUtility.cs" />

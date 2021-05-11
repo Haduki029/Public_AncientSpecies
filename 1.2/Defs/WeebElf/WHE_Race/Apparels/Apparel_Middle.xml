@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 防弾ベスト -->
+  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_BulletProofVest</defName>
+    <description>スチール、プラスチールと布で作られたシンプルな防弾ベスト。プラスチールを混ぜることで、軽く丈夫に仕上がっている。</description>
+    <label>防弾ベスト（ハーフエルフ）</label>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/middle/BulletProofVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>30</Cloth>
+      <Steel>40</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>9500</WorkToMake>
+      <Mass>2.5</Mass>
+      <ArmorRating_Sharp>1.08</ArmorRating_Sharp><!-- TODO -->
+      <ArmorRating_Blunt>0.39</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.21</ArmorRating_Heat>
+      <Insulation_Cold>15.4</Insulation_Cold>
+      <Insulation_Heat>4.5</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/middle/BulletProofVest</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
+  </ThingDef>
+</Defs>
