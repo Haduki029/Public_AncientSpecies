@@ -71,3 +71,4 @@
 *.cs merge=ours
 *.sln merge=ours
 *.resx merge=ours
+.gitmodules merge=ours

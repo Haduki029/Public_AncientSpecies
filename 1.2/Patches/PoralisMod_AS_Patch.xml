@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>Polarisbloc - Security Force</li>
+			<!--li>
+				<packageId>Vanya.Polarisbloc.SecurityForce</packageId>
+			</li-->
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "AS_WHE_Race"]/alienRace/raceRestriction/whiteApparelList</xpath>
+			<value>
+				<li>Apparel_PolarisShieldBelt_II</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

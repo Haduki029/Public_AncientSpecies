@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef Name="AS_WAE_BasePawn" ParentName="AS_Elf_CommonBasePawn" Abstract="True">
+      <statBases>
+        <Mass>70</Mass>
+        <Flammability>0.7</Flammability>
+      </statBases>
+  </ThingDef>
+
+<AlienRace.ThingDef_AlienRace ParentName="AS_WAE_BasePawn">
+    <defName>AS_WAE_Race</defName>
+    <label>エンシェントエルフ</label>
+    <description>テスト実装</description>
+    <alienRace>
+		<generalSettings>
+			<maleGenderProbability>0.00</maleGenderProbability>
+        <!-- 高齢による病気への耐性 -->
+			  <immuneToAge>true</immuneToAge>
+        <canLayDown>true</canLayDown>
+        <forcedRaceTraitEntries><!-- 付与する特性 -->
+          <li>
+            <defName>AS_WeebElf_ManaTrait</defName>
+            <degree>1</degree>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <disallowedTraits>
+					<li><defName>AnnoyingVoice</defName></li>
+					<li><defName>CreepyBreathing</defName></li>
+				</disallowedTraits>
+        <maxDamageForSocialfight>6</maxDamageForSocialfight>
+        <!-- 人間種族と同パーツ有無のチェック？人間と同じパーツならtrueにすることでDE Surgery対応できるらしい -->
+        <humanRecipeImport>true</humanRecipeImport>
+        <immuneToXenophobia>false</immuneToXenophobia><!--異種族好き/嫌いの影響 -->
+        <factionRelations>
+          <li>
+            <factions>
+              <li>AS_WAE_Settlement</li>
+            </factions>
+            <goodwill>
+              <min>100</min>
+              <max>100</max>
+            </goodwill>
+          </li>
+        </factionRelations>
+		    <alienPartGenerator>
+          <headOffset>(0.00, 0.00)</headOffset>
+          <customDrawSize>(1.15, 1.15)</customDrawSize>
+          <customHeadDrawSize>(1.15, 1.15)</customHeadDrawSize>
+          <customPortraitDrawSize>(1.25, 1.25)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1.25, 1.25)</customPortraitHeadDrawSize>
+          <!-- skinとhairの色指定 -->
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(1,0.95,0.8,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>1</weight> <!-- TODO: 重み1だがたまに金髪でない子が生まれる -->
+                    <only>RGBA(1,1,0.42,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <aliencrowntypes>
+            <li>F_WHE_1</li>
+            <li>F_WHE_2</li>
+            <li>F_WHE_3</li>
+            <li>F_WHE_4</li>
+            <li>F_WHE_5</li>
+            <li>F_WHE_6</li>
+            <li>F_WHE_7</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+            <li>Female</li>
+          </alienbodytypes>
+          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+		  </alienPartGenerator>
+    </generalSettings>
+    <graphicPaths>
+      <li>
+        <head>WHE/Heads/</head>
+        <body>WHE/Bodies/</body>
+      </li>
+    </graphicPaths>
+    <hairSettings>
+      <hasHair>true</hasHair>
+      <hairTags>
+        <li>WHE</li>
+      </hairTags>
+    </hairSettings>
+		<raceRestriction>
+    <!-- 許可する装備 -->
+      <apparelList>
+        <li>AS_WHE_UnderwearA</li>
+        <li>AS_WHE_UnderwearB</li>
+        <li>AS_WHE_UnderwearC</li>
+        <li>AS_WHE_UnderwearD</li>
+        <li>AS_WHE_UnderwearE</li>
+        <li>AS_WHE_UnderwearF</li>
+        <li>AS_WHE_UnderwearG</li>
+        <li>AS_WHE_UnderwearH</li>
+        <li>AS_WHE_UnderwearI</li>
+        <li>AS_WHE_MaidWare</li>
+        <li>AS_WHE_PlateArmor</li>
+        <li>AS_WHE_MarineArmor</li>
+        <li>AS_WHE_Cape</li>
+        <li>AS_WHE_BulletProofVest</li>
+        <li>AS_WHE_Neeso</li>
+        <li>AS_WHE_StripeNeeso</li>
+        <li>AS_WHE_GarterBelt</li>
+        <!-- <li>AS_WHE_RealGarterBelt</li> -->
+        <!-- <li>AS_WHE_BlackGarterBelt</li> -->
+        <li>AS_WHE_Parka</li>
+        <li>AS_WHE_ElvenPoncho</li>
+        <li>AS_WHE_Scarf</li>
+        <li>AS_WHE_ShieldScarf</li>
+        <li>AS_WHE_MarineHelmet</li>
+        <li>AS_WHE_Helmet</li>
+        <li>AS_WHE_MaidHairBand</li>
+        <li>AS_WHE_AdvancedHelmet</li>
+        <li>AS_WHE_Horn</li>
+        <li>AS_WHE_Tribal</li>
+        <li>AS_WHE_TShirts</li>
+        <li>AS_WHE_ShortPants</li>
+        <li>AS_WHE_ShirtButton</li>
+        <li>AS_WHE_TankTop</li>
+        <li>AS_WHE_SimplePoncho</li>
+        <li>AS_WHE_PressureResistantHelmet</li>
+        <li>AS_WHE_PressureResistantSuits</li>
+        <li>AS_WHE_WAEArmor_Re</li>
+        <li>AS_WHE_CuteRibon</li>
+        <li>AS_WHE_ElvenMantle</li>
+        <li>AS_WAE_NobleCoat</li>
+        <li>AS_WAE_KnightDress</li>
+        <li>AS_WAE_FeatherHelm</li>
+      </apparelList>
+			<whiteApparelList>
+			  <!-- <li>Apparel_ShieldBelt</li> -->
+				<li>Apparel_SmokepopBelt</li>
+        <li>Apparel_PackJump</li>
+			</whiteApparelList>
+      <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+      <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+    </raceRestriction>
+	</alienRace>
+  <!-- 能力値 -->
+  <statBases>
+    <MarketValue>4000</MarketValue>
+    <MoveSpeed>4.9</MoveSpeed>
+	  <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+    <ComfyTemperatureMax>34</ComfyTemperatureMax>
+    <ComfyTemperatureMin>4</ComfyTemperatureMin>
+    <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+    <ToxicSensitivity>1.1</ToxicSensitivity>
+    <CarryingCapacity>80</CarryingCapacity>
+    <MeatAmount>60</MeatAmount>
+    <LeatherAmount>60</LeatherAmount>
+    <PainShockThreshold>1.0</PainShockThreshold>
+    <!-- 戦闘関連 -->
+    <ShootingAccuracyPawn>1.3</ShootingAccuracyPawn><!-- 射撃命中率 -->
+    <AimingDelayFactor>0.8</AimingDelayFactor> <!-- 照準時間 -->
+    <ArmorRating_Blunt>0.05</ArmorRating_Blunt><!-- 打撃耐性 -->
+    <MeleeDodgeChance>0.05</MeleeDodgeChance><!-- 回避補正 -->
+    <!-- 作業 -->
+    <WorkSpeedGlobal>1.1</WorkSpeedGlobal> <!-- 全般的な作業速度 -->
+    <!-- 社交関連 -->
+    <NegotiationAbility>0.8</NegotiationAbility><!-- 外交への影響度 -->
+    <SellPriceFactor>0.8</SellPriceFactor> <!-- 取引価格への影響度 -->
+    <SocialImpact>1.0</SocialImpact> <!-- 社会的な影響度 -->
+    <!-- 手なづけ関連 -->
+    <TameAnimalChance>1.2</TameAnimalChance> <!-- 手なづけチャンス -->
+    <TrainAnimalChance>1.2</TrainAnimalChance> <!-- 調教チャンス -->
+    <!-- 家畜関連 -->
+    <AnimalGatherSpeed>1.2</AnimalGatherSpeed> <!-- 家畜収穫速度 -->
+    <AnimalGatherYield>1.2</AnimalGatherYield> <!-- 家畜収穫率 -->
+    <!-- 掘削関連 -->
+    <MiningSpeed>1.0</MiningSpeed>
+    <DeepDrillingSpeed>0.45</DeepDrillingSpeed>
+    <!-- 狩猟関連 -->
+    <HuntingStealth>1.2</HuntingStealth> <!-- 動物の逆襲確率 -->
+    <!-- 制作関連 -->
+    <ButcheryMechanoidEfficiency>0.2</ButcheryMechanoidEfficiency> <!-- メカノイド分解への影響度 -->
+    <ButcheryMechanoidSpeed>0.3</ButcheryMechanoidSpeed> <!-- メカノイド分解速度 -->
+    <!-- 調理関連 -->
+    <ButcheryFleshEfficiency>1.4</ButcheryFleshEfficiency> <!-- 屠殺効率 -->
+    <ButcheryFleshSpeed>1.4</ButcheryFleshSpeed> <!-- 屠殺速度 -->
+    <FoodPoisonChance>0.8</FoodPoisonChance> <!-- 食中毒確率 -->
+    <CookSpeed>1.0</CookSpeed> <!-- 調理速度 -->
+	  <!-- 栽培関連 -->
+	  <PlantWorkSpeed>1.3</PlantWorkSpeed> <!-- 栽培速度 -->
+    <PlantHarvestYield>1.3</PlantHarvestYield> <!-- 収穫量 -->
+    <!-- 研究関連 -->
+    <ResearchSpeed>0.5</ResearchSpeed>
+  </statBases>
+<!--=============================================================================================================================-->
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.3</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>19</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.3</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>19</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.7</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.4</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+<!--=============================================================================================================================-->
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>400</lifeExpectancy><!-- 寿命 -->
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <!-- <nameGenerator>NameGen_AS_WHE</nameGenerator> --><!-- 命名規則 -->
+	    <body>AS_WHE_Body</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale><!-- 基本耐久力 -->
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <meatMarketValue>1.2</meatMarketValue>
+      <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>14</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <!--生成されるポーンの年齢分布-->
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(20,100)</li>
+          <li>(30,100)</li>
+          <li>(40,100)</li>
+          <li>(60,20)</li>
+          <li>(80,10)</li>
+          <li>(120,5)</li>
+          <li>(140,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+      </hediffGiverSets>
+    </race>
+<!--=============================================================================================================================-->
+    <recipes>
+      <li>AS_WHE_InstallBionicEar</li>
+    </recipes>
+</AlienRace.ThingDef_AlienRace>
+</Defs>
