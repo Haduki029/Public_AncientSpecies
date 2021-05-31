@@ -69,18 +69,18 @@
         <soundInteract>Bow_Large</soundInteract>
         <costList>
             <WoodLog>140</WoodLog>
-            <Plasteel>10</Plasteel>
-            <Hyperweave>1</Hyperweave>
+            <Plasteel>5</Plasteel>
+            <Silver>1</Silver>
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
-            <WorkToMake>19000</WorkToMake>
+            <WorkToMake>16000</WorkToMake>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.90</AccuracyShort>
             <AccuracyMedium>0.85</AccuracyMedium>
             <AccuracyLong>0.70</AccuracyLong>
-            <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
         </statBases>
         <thingCategories>
             <li>AS_WHE_Weapons</li>
@@ -94,7 +94,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>AS_WAE_ElvenArrow</defaultProjectile>
                 <warmupTime>0.95</warmupTime>
-                <range>35.5</range>
+                <range>29.5</range>
                 <soundCast>Bow_Large</soundCast>
             </li>
         </verbs>
@@ -150,7 +150,7 @@
             <AccuracyShort>0.82</AccuracyShort>
             <AccuracyMedium>0.95</AccuracyMedium>
             <AccuracyLong>0.90</AccuracyLong>
-            <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
         </statBases>
         <thingCategories>
             <li>AS_WHE_Weapons</li>
@@ -207,13 +207,12 @@
         <soundInteract>Bow_Large</soundInteract>
         <costList>
             <WHE_CompoundBow>1</WHE_CompoundBow>
-            <Plasteel>30</Plasteel>
-            <Hyperweave>5</Hyperweave>
+            <WAE_ElvenBow_Origin>1</WAE_ElvenBow_Origin>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
-            <WorkToMake>24500</WorkToMake>
+            <WorkToMake>26500</WorkToMake>
             <Mass>3.8</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
