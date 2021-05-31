@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="AS_BaseMeleeWeapon_Sharp_Quality">
     <defName>AS_WHE_WAESword_Re</defName>
     <label>古代エルフの剣（レプリカ）</label>
+    <techLevel>Industrial</techLevel>
     <description>ハーフエルフの技術で再現された、古代エルフの剣のレプリカ。刀身にはウラニウムが用いられており、黒い仕上がりになっている。</description>
+    <generateCommonality>0</generateCommonality>
+    <weaponTags>
+      <li>AS_WHE_MeleeWeapon</li>
+      <li>AS_WHE_Knight</li>
+    </weaponTags>
     <graphicData>
       <texPath>WHE/Weapons/Melee/AncientElfSword_Reproduction_Drop</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.3</drawSize>
+      <drawSize>1.1</drawSize>
       <drawOffset>1.0,0,0</drawOffset>
     </graphicData>
-    <generateCommonality>0</generateCommonality>
-    <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>AS_WHE_MeleeWeapon</li>
-    </weaponTags>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Hyperweave>3</Hyperweave>
+      <Gold>6</Gold>
+      <Plasteel>35</Plasteel>
+      <Uranium>30</Uranium>
+	  </costList>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
       <WorkToMake>26800</WorkToMake>
-      <MarketValue>3000</MarketValue>
       <Mass>3.5</Mass>
       <Flammability>0.01</Flammability>
     </statBases>
@@ -27,19 +38,11 @@
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>	
     <equippedAngleOffset>-65</equippedAngleOffset>
-    <costList>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <Hyperweave>3</Hyperweave>
-      <Gold>6</Gold>
-      <Plasteel>35</Plasteel>
-      <Uranium>30</Uranium>
-	  </costList>
     <tools>
       <li>
         <label>handle</label>
         <capacities>
           <li>Blunt</li>
-          <li>Stab</li>
         </capacities>
         <power>13</power>
         <cooldownTime>1.9</cooldownTime>

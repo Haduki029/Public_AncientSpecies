@@ -35,9 +35,7 @@
         <factionRelations>
           <li>
             <factions>
-              <li>AS_WHE_Settlement</li>
-              <li>AS_WHE_Village</li>
-              <li>AS_WHE_Town</li>
+              <li>AS_WAE_Settlement</li>
             </factions>
             <goodwill>
               <min>100</min>
@@ -146,6 +144,9 @@
         <li>AS_WHE_WAEArmor_Re</li>
         <li>AS_WHE_CuteRibon</li>
         <li>AS_WHE_ElvenMantle</li>
+        <li>AS_WAE_NobleCoat</li>
+        <li>AS_WAE_KnightDress</li>
+        <li>AS_WAE_FeatherHelm</li>
       </apparelList>
 			<whiteApparelList>
 			  <!-- <li>Apparel_ShieldBelt</li> -->

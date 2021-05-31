@@ -7,7 +7,7 @@
 	</ThingCategoryDef>
 
   <!-- Maid Ware -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_MaidWare</defName>
     <description>軽く、丈夫なメイド服。ロングスカートのゆったりとした、シックなデザインなっている。装着するとメイドとしての矜持により、少しだけ移動速度と作業速度が上がります。</description>
     <label>メイド服（ハーフエルフ）</label>
@@ -17,6 +17,11 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
     <costList>
       <Cloth>150</Cloth>
       <Plasteel>5</Plasteel>
@@ -25,11 +30,14 @@
       <MaxHitPoints>180</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
       <Mass>3.5</Mass>
-      <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>15.4</Insulation_Cold>
-      <Insulation_Heat>4.5</Insulation_Heat>
+      <ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.31</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.18</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>13.4</Insulation_Cold>
+      <Insulation_Heat>3.5</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
       <Flammability>0.4</Flammability>
     </statBases>
@@ -72,7 +80,7 @@
   </ThingDef>
 
   <!-- 一枚布 -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Tribal</defName>
     <description>原始的なツールを使って作られた衣服です。僅かですが断熱効果があります。</description>
     <label>一枚布（ハーフエルフ）</label>
@@ -82,6 +90,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -117,7 +126,7 @@
       <tags>
         <li>AS_WHE_Colonist</li>
 		    <li>AS_WHE_Villager</li>
-        <li>WHE_Neolithic</li>
+        <li>AS_WHE_Neolithic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -126,7 +135,7 @@
   </ThingDef>
 
   <!-- Tシャツ -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_TShirts</defName>
     <description>シンプルなTシャツです。生地は薄く、あまり防御力はありません。雨に濡れても透ける機能はありません。</description>
     <label>Tシャツ（ハーフエルフ）</label>
@@ -136,6 +145,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -180,7 +190,7 @@
   </ThingDef>
 
   <!-- ショートパンツ -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShortPants</defName>
     <description>シンプルなショートパンツです。生地が少なく、見るものに訴えかける素敵なデザインですが、防御力は低いです。</description>
     <label>ショートパンツ（ハーフエルフ）</label>
@@ -190,6 +200,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -236,7 +247,7 @@
   </ThingDef>
 
   <!-- ボタンシャツ -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShirtButton</defName>
     <description>ボタンの付いたおしゃれなシャツとスカート。シックなデザインで着用者の可愛さを引き立てています。</description>
     <label>ボタンシャツ（ハーフエルフ）</label>
@@ -246,6 +257,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -294,7 +306,7 @@
   </ThingDef>
 
   <!-- タンクトップ -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_TankTop</defName>
     <description>動きやすいタンクトップとボトムズです。丈夫なため、フィールドワークに向いています。付属の胸飾りがワンポイントです。</description>
     <label>タンクトップ（ハーフエルフ）</label>
@@ -304,6 +316,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>

@@ -31,7 +31,7 @@
           <li>
             <defName>AS_WeebElf_OdTrait</defName>
             <degree>1</degree>
-            <chance>50</chance>
+            <chance>60</chance>
           </li>
           <li>
             <defName>AS_WeebElf_OdTrait</defName>
@@ -41,12 +41,12 @@
           <li>
             <defName>AS_WeebElf_OdTrait</defName>
             <degree>3</degree>
-            <chance>15</chance>
+            <chance>6</chance>
           </li>
           <li>
             <defName>AS_WeebElf_OdTrait</defName>
             <degree>4</degree>
-            <chance>4</chance>
+            <chance>3</chance>
           </li>
           <li>
             <defName>AS_WeebElf_ManaTrait</defName>
@@ -151,6 +151,9 @@
         <li>AS_WHE_WAEArmor_Re</li>
         <li>AS_WHE_CuteRibon</li>
         <li>AS_WHE_ElvenMantle</li>
+        <li>AS_WAE_NobleCoat</li>
+        <li>AS_WAE_KnightDress</li>
+        <li>AS_WAE_FeatherHelm</li>
       </apparelList>
 			<whiteApparelList>
 			  <!-- <li>Apparel_ShieldBelt</li> -->

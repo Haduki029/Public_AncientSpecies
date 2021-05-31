@@ -25,7 +25,7 @@
     <itemQuality>Good</itemQuality>
     <apparelMoney>1200~2500</apparelMoney>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.4</skipChance>

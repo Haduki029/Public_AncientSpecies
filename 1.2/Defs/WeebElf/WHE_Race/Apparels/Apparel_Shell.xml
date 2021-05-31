@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Marine Armor -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_MarineArmor</defName>
     <description>ハーフエルフ式の高い強度を持つ高性能アーマーです。</description>
     <label>ハーフエルフ式マリーンアーマー</label>
@@ -10,6 +10,11 @@
       <texPath>WHE/Apparels/middle/MarineArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
     <costList>
       <ComponentSpacer>4</ComponentSpacer>
       <Plasteel>90</Plasteel>
@@ -19,9 +24,12 @@
       <MaxHitPoints>360</MaxHitPoints>
       <WorkToMake>65000</WorkToMake>
       <Mass>15</Mass>
-      <ArmorRating_Blunt>0.83</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.18</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.84</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.81</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.14</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.81</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.06</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.03</StuffEffectMultiplierInsulation_Heat>
       <Insulation_Cold>32</Insulation_Cold>
       <Insulation_Heat>32</Insulation_Heat>
       <EquipDelay>11</EquipDelay>
@@ -58,6 +66,7 @@
       </layers>
       <tags>
         <li>AS_WHE_Army</li>
+        <li>AS_WHE_Spacer</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -66,7 +75,7 @@
   </ThingDef>
 
   <!-- Pressure Resistant suits -->
-  <ThingDef ParentName="AS_WHE_ArmorMachineableBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ArmorMachineableBase">
     <defName>AS_WHE_PressureResistantSuits</defName>
     <label>耐圧スーツ</label>
     <description>宇宙空間でも行動できるように、高度な技術で作成されたスーツ。マリーン装備より若干弱いが、耐熱、耐寒性能が高い。</description>
@@ -74,6 +83,11 @@
       <texPath>WHE/Apparels/middle/PressureResistantSuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
     <costList>
       <ComponentSpacer>6</ComponentSpacer>
       <Hyperweave>30</Hyperweave>
@@ -85,9 +99,12 @@
       <WorkToMake>74000</WorkToMake>
       <MaxHitPoints>340</MaxHitPoints>
       <Mass>18</Mass>
-      <ArmorRating_Blunt>0.93</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.98</ArmorRating_Heat>
+      <ArmorRating_Blunt>0.91</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.03</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.95</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.06</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.03</StuffEffectMultiplierInsulation_Heat>
       <Insulation_Cold>100</Insulation_Cold>
       <Insulation_Heat>54</Insulation_Heat>
       <Flammability>0.01</Flammability>
@@ -129,7 +146,7 @@
   </ThingDef>
 
   <!-- Plate Armor -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_PlateArmor</defName>
     <description>金属で作られたハーフエルフ式のプレートアーマー。首、胴体、肩、腕を守ってくれ、非常に丈夫だが、若干重い。</description>
     <label>ハーフエルフ式プレートアーマー</label>
@@ -138,6 +155,7 @@
       <texPath>WHE/Apparels/middle/PlateArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costList>
       <Cloth>30</Cloth>
     </costList>
@@ -185,43 +203,50 @@
         <li>Royal</li>
         <li>RoyalTier4</li>
 		    <li>RoyalTier5</li>
+        <li>AS_WHE_Knight</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-
   
   <!-- Ancient Elven Armor Reproduction -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_WAEArmor_Re</defName>
     <description>ハーフエルフの技術で再現された、古代エルフのプレートアーマーのレプリカ。ウラニウムが用いられており、全体的に黒い仕上がりになっている。高い防御力を誇るだけでなく、着用者の近接戦闘能力を高めてくれる効果がある。</description>
     <label>古代エルフのプレートアーマー</label>
     <techLevel>Medieval</techLevel>
+    <generateCommonality>0</generateCommonality>
     <graphicData>
       <texPath>WHE/Apparels/middle/AncientElfArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
-    <generateCommonality>0</generateCommonality>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
     <costList>
       <ComponentSpacer>3</ComponentSpacer>
       <Hyperweave>30</Hyperweave>
-      <Gold>20</Gold>
+      <Gold>10</Gold>
       <Plasteel>100</Plasteel>
       <Uranium>25</Uranium>
     </costList>
     <statBases>
 	    <MaxHitPoints>420</MaxHitPoints>
       <WorkToMake>58000</WorkToMake>
-      <MarketValue>18000</MarketValue>
       <Mass>10</Mass>
-      <ArmorRating_Blunt>0.88</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.31</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.68</ArmorRating_Heat>
-      <Insulation_Cold>45</Insulation_Cold>
-	    <Insulation_Heat>45</Insulation_Heat>
+      <ArmorRating_Blunt>0.82</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.18</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>35</Insulation_Cold>
+	    <Insulation_Heat>35</Insulation_Heat>
       <Beauty>0.2</Beauty>
       <EquipDelay>18</EquipDelay>
       <Flammability>-1</Flammability>
@@ -230,6 +255,8 @@
 	    <MoveSpeed>0.2</MoveSpeed>
 	    <MeleeHitChance>0.8</MeleeHitChance>
       <MeleeDodgeChance>0.5</MeleeDodgeChance>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
       <Flammability>-1</Flammability>
       <ForagedNutritionPerDay>0.25</ForagedNutritionPerDay>
       <MentalBreakThreshold>0.05</MentalBreakThreshold>

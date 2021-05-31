@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- 防弾ベスト -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_BulletProofVest</defName>
     <description>スチール、プラスチールと布で作られたシンプルな防弾ベスト。プラスチールを混ぜることで、軽く丈夫に仕上がっている。</description>
     <label>防弾ベスト（ハーフエルフ）</label>
@@ -10,21 +10,27 @@
       <texPath>WHE/Apparels/middle/BulletProofVest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
     <costList>
-      <Cloth>30</Cloth>
-      <Steel>40</Steel>
-      <Plasteel>15</Plasteel>
+      <Cloth>40</Cloth>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
       <WorkToMake>9500</WorkToMake>
+      <StuffEffectMultiplierArmor>0.36</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.42</ArmorRating_Sharp><!-- TODO -->
+      <ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.12</ArmorRating_Heat>
+      <Insulation_Cold>13.4</Insulation_Cold>
+      <Insulation_Heat>-0.5</Insulation_Heat>
       <Mass>2.5</Mass>
-      <ArmorRating_Sharp>1.08</ArmorRating_Sharp><!-- TODO -->
-      <ArmorRating_Blunt>0.39</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.21</ArmorRating_Heat>
-      <Insulation_Cold>15.4</Insulation_Cold>
-      <Insulation_Heat>4.5</Insulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <recipeMaker>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Helmet -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Helmet</defName>
     <description>金属製の頭部上面を守るヘルメット。シンプルながらも丈夫に作られている。</description>
     <label>ヘルメット（ハーフエルフ）</label>
@@ -11,6 +11,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
@@ -50,7 +51,7 @@
   </ThingDef>
 
   <!-- Advanced Helmet -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_AdvancedHelmet</defName>
     <description>より高度なハーフエルフの技術で作られた、金属製の頭部上面を守るヘルメット。前面部に付いているスクリーンにより、目も保護してくれる。</description>
     <label>ハーフエルフ式先進型ヘルメット</label>
@@ -61,6 +62,7 @@
       <shaderType>Transparent</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
@@ -101,7 +103,7 @@
   </ThingDef>
 
   <!-- Marine Helmet -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_MarineHelmet</defName>
     <description>ハーフエルフの技術を応用して作られたマリーンヘルメット。強度、軽さ共に高次元にまとめられており、耳の長いハーフエルフでも着脱しやすいようになっている。</description>
     <label>ハーフエルフ式マリーンヘルメット</label>
@@ -111,6 +113,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
       <Plasteel>20</Plasteel>
@@ -153,7 +156,7 @@
   </ThingDef>
 
   <!-- Maid Hair Band -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_MaidHairBand</defName>
     <description>メイドさんが頭部に着けるカチューシャ。メイド服とセットで身に着けると、貴女も完璧で瀟洒なメイドになれるでしょう。</description>
     <label>メイドカチューシャ（ハーフエルフ）</label>
@@ -162,6 +165,7 @@
       <texPath>WHE/Apparels/overhead/MaidHairBand</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <costList>
       <Cloth>60</Cloth>
     </costList>
@@ -213,7 +217,7 @@
   </ThingDef>
 
   <!-- Horn -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Horn</defName>
     <description>頭に取り付けられる付け角です。何も特殊な効果はありませんが、見た目がちょっぴりかっこよくなります。Cool and cute！なお着脱は簡単です。</description>
     <label>付け角（ハーフエルフ）</label>
@@ -222,6 +226,7 @@
       <texPath>WHE/Apparels/overhead/Horn</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costList>
       <Steel>25</Steel>
     </costList>
@@ -264,7 +269,7 @@
   </ThingDef>
 
   <!-- Cute Ribon -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_CuteRibon</defName>
     <description>テスト実装</description>
     <label>可愛いリボン（ハーフエルフ）</label>
@@ -273,6 +278,7 @@
       <texPath>WHE/Apparels/overhead/CuteRibon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <costList>
       <Cloth>40</Cloth>
       <Gold>5</Gold>
@@ -280,7 +286,6 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>7500</WorkToMake>
-      <MarketValue>800</MarketValue>
       <Mass>1</Mass>      
       <Flammability>0.1</Flammability>
       <ArmorRating_Sharp>0.21</ArmorRating_Sharp>
@@ -326,7 +331,7 @@
   </ThingDef>
 
   <!-- Pressure Resistant Helmet -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_PressureResistantHelmet</defName>
     <description>宇宙空間でも行動できるように、高度な技術で作成されたヘルメット。マリーン装備より若干弱いが、耐熱、耐寒性能が高い。</description>
     <label>ハーフエルフ式耐圧ヘルメット</label>
@@ -337,6 +342,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1.5</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <uiIconPath>WHE/Apparels/overhead/PressureResistantHelmet</uiIconPath>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>

@@ -63,18 +63,59 @@
     </inventoryOptions>
   </PawnKindDef>
 
+  <!-- warrior -->
+  <!-- <PawnKindDef ParentName="AS_WAE_NPCBase_Neolithic">
+    <defName>AS_WAE_Warrior</defName>
+    <label>Half Elf warrior</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>80~250</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WAE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef> -->
+
   <!-- hunter -->
   <PawnKindDef ParentName="AS_WAE_NPCBase_Neolithic">
     <defName>AS_WAE_Hunter</defName>
     <label>エルフの狩人</label>
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
-    <weaponMoney>800~1250</weaponMoney>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>2800~12500</weaponMoney>
     <weaponTags>
-      <li>AS_WAE_Weapon</li>
+      <li>AS_WHE_NeolithicRangedAdvanced</li>
     </weaponTags>
+    <apparelMoney>5000~15500</apparelMoney>
     <apparelTags>
-      <li>AS_WAE_Apparel_Villager</li>
+      <li>AS_WHE_Apparel_Villager</li>
+      <li>AS_WAE_Hunter</li>
+      <li>AS_WHE_Hunter</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>
@@ -98,5 +139,50 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
+  <!-- Knight -->
+  <PawnKindDef ParentName="AS_WAE_CommonBase">
+    <defName>AS_WAE_Knight</defName>
+    <label>エルフの騎士</label>
+    <itemQuality>Excellent</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>5000~15500</weaponMoney>
+    <weaponTags>
+      <li>AS_WAE_Knight</li>
+    </weaponTags>
+    <apparelMoney>5000~15500</apparelMoney>
+    <apparelTags>
+      <li>AS_WAE_Knight</li>
+      <li>AS_WHE_Knight</li>
+      <li>AS_WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WAE_Hunter</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>1150</min>
+            <max>1550</max>
+          </countRange>
+        </li><li>
+          <choiceChance>80</choiceChance>
+          <thingDef>Gold</thingDef>
+          <countRange>
+            <min>650</min>
+            <max>850</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
 </Defs>

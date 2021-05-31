@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!-- Assault Rifle -->
-
 <!-- Sniper Rifle -->
 <ThingDef ParentName="BaseHumanMakeableGun">
-	<defName>AS_WHEAT_SniperRifle</defName>
-	<label>WHEスナイパーライフル</label>
+	<defName>AS_WHEAT_Penetrator</defName>
+	<label>ペネトレーター</label>
 	<description>解析された古代技術を応用し、ASスナイパーライフルを元に改良、製造されたスナイパーライフル。</description>
 	<graphicData>
 		<texPath>AT/Weapons/SniperRifle_WHETech</texPath>
@@ -13,7 +11,7 @@
 	</graphicData>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
 	<statBases>
-		<WorkToMake>240000  </WorkToMake>
+		<WorkToMake>240000</WorkToMake>
 		<Mass>8.5</Mass>
 		<AccuracyTouch>0.65</AccuracyTouch>
 		<AccuracyShort>0.80</AccuracyShort>
@@ -22,18 +20,19 @@
 		<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>AS_Weapons</li>
 		<li>AS_WHEAT_SniperRifle</li>
         <li>AS_WHEAT_Weapon</li>
 	</weaponTags>
 	<costList>
-        <AS_AssaultRifle>1</AS_AssaultRifle>
+        <AS_SniperRifle>1</AS_SniperRifle>
 		<Plasteel>60</Plasteel>
 		<ComponentSpacer>3</ComponentSpacer>
 	</costList>
 	<recipeMaker>
 		<researchPrerequisite>AS_WHE_AncientTechnology</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>11</Crafting>
+			<Crafting>14</Crafting>
 		</skillRequirements>
 	</recipeMaker>
 	<thingCategories>
@@ -44,7 +43,7 @@
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>AS_WHEAT_Bullet_Sniper_Rifle</defaultProjectile>
-			<warmupTime>1.6</warmupTime>
+			<warmupTime>2.1</warmupTime>
 			<range>46.5</range>
 			<burstShotCount>1</burstShotCount>
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -76,8 +75,8 @@
 
 <!-- Shotgun -->
 <ThingDef ParentName="BaseHumanMakeableGun">
-	<defName>AS_WHEAT_Shotgun</defName>
-	<label>WHEショットガン</label>
+	<defName>AS_WHEAT_Grawes</defName>
+	<label>グラヴェス</label>
 	<description>解析された古代技術を応用し、グラヴェールを元に改良、製造されたショットガン。</description>
 	<graphicData>
 		<texPath>AT/Weapons/WHEShotgun</texPath>
@@ -94,6 +93,7 @@
 		<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>AS_Weapons</li>
 		<li>AS_WHEAT_Shotgun</li>
         <li>AS_WHEAT_Weapon</li>
 	</weaponTags>

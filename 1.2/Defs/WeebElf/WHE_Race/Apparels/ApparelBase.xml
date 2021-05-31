@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Common Required Settings-->
-  <ThingDef Name="AS_WHE_ApparelCommonBase" Abstract="True">
+  <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ApparelCommonBase" Abstract="True">
+    <followStuffColor>true</followStuffColor>
     <thingClass>Apparel</thingClass>
     <category>Item</category>
     <selectable>True</selectable>
@@ -35,24 +36,7 @@
     </comps>
   </ThingDef>
 
-  <!-- Apparel Base Not according -->
-  <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ApparelNoColorBase" ParentName="AS_WHE_ApparelCommonBase" Abstract="True">
-	  <techLevel>Industrial</techLevel>
-    <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Tailor</effectWorking>
-      <soundWorking>Recipe_Tailor</soundWorking>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-    </recipeMaker>
-  </ThingDef>
-  
-  <!-- Apparel Base Color according to the material -->
-  <ThingDef Name="AS_WHE_ApparelColorBase" ParentName="AS_WHE_ApparelCommonBase" Abstract="True">
+  <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ApparelColorBase" ParentName="AS_WHE_ApparelCommonBase" Abstract="True">
 	  <techLevel>Industrial</techLevel>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -68,7 +52,7 @@
   </ThingDef>
 
   <!-- Apparel No color ArmorMachineableBase -->
-  <ThingDef Name="AS_WHE_ArmorMachineableBase" ParentName="AS_WHE_ApparelNoColorBase" Abstract="True">
+  <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ArmorMachineableBase" ParentName="AS_WHE_ApparelColorBase" Abstract="True">
 	  <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>

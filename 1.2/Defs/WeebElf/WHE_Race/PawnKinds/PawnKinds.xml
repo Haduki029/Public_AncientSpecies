@@ -38,7 +38,7 @@
       <li>NeolithicRangedBasic</li>
     </weaponTags>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>
@@ -77,7 +77,7 @@
       <li>NeolithicRangedBasic</li>
     </weaponTags>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
       <li>WHE_Medieval</li>
       <li>WHE_Industrial</li>
     </apparelTags>
@@ -116,7 +116,7 @@
       <li>NeolithicRangedBasic</li>
     </weaponTags>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>
@@ -147,12 +147,13 @@
     <label>Half Elf warrior</label>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
     <weaponMoney>80~250</weaponMoney>
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
     </weaponTags>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>
@@ -183,6 +184,7 @@
     <label>Half Elf hunter</label>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
     <weaponMoney>80~250</weaponMoney>
     <weaponTags>
       <li>NeolithicRangedBasic</li>
@@ -190,7 +192,7 @@
       <li>NeolithicRangedChief</li>
     </weaponTags>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>
@@ -225,6 +227,7 @@
     <weaponTags>
       <li>Revolver</li>
     </weaponTags>
+    <apparelMoney>150~600</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
     </apparelTags>
@@ -259,10 +262,11 @@
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
-    <weaponMoney>150~250</weaponMoney>
+    <weaponMoney>150~750</weaponMoney>
     <weaponTags>
       <li>Revolver</li>
     </weaponTags>
+    <apparelMoney>450~900</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
     </apparelTags>
@@ -297,7 +301,7 @@
     <label>Half Elf fighter</label>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
-    <weaponMoney>150~350</weaponMoney>
+    <weaponMoney>150~1350</weaponMoney>
     <weaponTags>
       <li>MedievalMeleeBasic</li>
       <li>MedievalMeleeDecent</li>
@@ -336,7 +340,7 @@
     <label>Half Elf shooter</label>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
-    <weaponMoney>150~350</weaponMoney>
+    <weaponMoney>150~1350</weaponMoney>
     <weaponTags>
       <li>NeolithicRangedChief</li>
       <li>NeolithicRangedDecent</li>
@@ -377,7 +381,14 @@
     <label>Half Elf citizen</label>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
-    <factionLeader>true</factionLeader>
+    <weaponMoney>300~1250</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>NeolithicRangedChief</li>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <apparelMoney>450~1900</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
       <li>WHE_Industrial</li>
@@ -411,8 +422,20 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_EliteCitizen</defName>
     <label>Half Elf elite citizen</label>
-    <itemQuality>Normal</itemQuality>
+    <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>300~1950</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>NeolithicRangedChief</li>
+      <li>NeolithicRangedDecent</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>AS_WHE_NeolithicRangedAdvanced</li>
+      <li>AS_Weapon_Gun</li>
+    </weaponTags>
+    <apparelMoney>450~2900</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
       <li>WHE_Industrial</li>
@@ -446,19 +469,22 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Knight</defName>
     <label>Half Elf knight</label>
-    <itemQuality>Normal</itemQuality>
+    <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
-    <weaponMoney>300~550</weaponMoney>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>300~1950</weaponMoney>
     <weaponTags>
       <li>MedievalMeleeDecent</li>
       <li>MedievalMeleeAdvanced</li>
+      <li>AS_WHE_Knight</li>
     </weaponTags>
-    <apparelMoney>450~900</apparelMoney>
+    <apparelMoney>450~2900</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
       <li>WHE_Industrial</li>
+      <li>AS_WHE_Knight</li>
     </apparelTags>
-    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>
 			<li>
 				<categories>
@@ -486,15 +512,16 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Archer</defName>
     <label>Half Elf archer</label>
-    <itemQuality>Normal</itemQuality>
+    <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
-    <weaponMoney>300~550</weaponMoney>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>300~2550</weaponMoney>
     <weaponTags>
       <li>NeolithicRangedChief</li>
       <li>NeolithicRangedDecent</li>
-      <li>WHE_NeolithicRangedAdvanced</li>
+      <li>AS_WHE_NeolithicRangedAdvanced</li>
     </weaponTags>
-    <apparelMoney>450~900</apparelMoney>
+    <apparelMoney>450~2900</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
       <li>WHE_Industrial</li>
@@ -527,13 +554,15 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Gunner</defName>
     <label>Half Elf gunner</label>
-    <itemQuality>Normal</itemQuality>
+    <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
-    <weaponMoney>360~650</weaponMoney>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>360~2650</weaponMoney>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+      <li>AS_Weapon_Gun</li>
     </weaponTags>
-    <apparelMoney>450~900</apparelMoney>
+    <apparelMoney>450~2900</apparelMoney>
     <apparelTags>
       <li>WHE_Medieval</li>
       <li>WHE_Industrial</li>
@@ -574,7 +603,7 @@
       <!-- <li>NeolithicRangedBasic</li> -->
     </weaponTags>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <backstoryFiltersOverride>

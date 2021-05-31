@@ -20,6 +20,7 @@
 		<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>AS_Weapon_Gun</li>
 		<li>AS_Assault_Rifle</li>
 	</weaponTags>
 	<costList>
@@ -83,13 +84,14 @@
 	<statBases>
 		<WorkToMake>18000</WorkToMake>
 		<Mass>5.1</Mass>
-		<AccuracyTouch>0.75</AccuracyTouch>
-		<AccuracyShort>0.80</AccuracyShort>
-		<AccuracyMedium>0.85</AccuracyMedium>
+		<AccuracyTouch>0.68</AccuracyTouch>
+		<AccuracyShort>0.76</AccuracyShort>
+		<AccuracyMedium>0.82</AccuracyMedium>
 		<AccuracyLong>0.90</AccuracyLong>
 		<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>AS_Weapon_Gun</li>
 		<li>AS_Assault_Rifle</li>
 	</weaponTags>
 	<costList>
@@ -111,7 +113,7 @@
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>AS_Bullet_Sniper_Rifle</defaultProjectile>
-			<warmupTime>1.2</warmupTime>
+			<warmupTime>1.6</warmupTime>
 			<range>39.8</range>
 			<burstShotCount>1</burstShotCount>
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -161,6 +163,7 @@
 		<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>AS_Weapon_Gun</li>
 		<li>AS_Shotgun</li>
 	</weaponTags>
 	<costList>
@@ -233,6 +236,7 @@
 	</statBases>
 	<weaponTags>
 		<li>AS_Handgun</li>
+		<li>AS_Weapon_Gun</li>
 	</weaponTags>
 	<costList>
 		<Steel>50</Steel>
@@ -303,6 +307,7 @@
 		<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>AS_Weapon_Gun</li>
 		<li>AS_Rebel_Rifle</li>
 	</weaponTags>
 	<costList>
@@ -314,7 +319,6 @@
 	<recipeMaker>
 		<recipeUsers>
 			<li>FabricationBench</li>
-			<!-- FabricationBench, but if there is no Inherit="False", so it can be created and at fabrication bench, and at table machining, because gun has industrial tech level and all industrial tech level's guns by general can be made at table machining -->
 		</recipeUsers>
 		<researchPrerequisite>AS_Weapons</researchPrerequisite>
 		<skillRequirements>

@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_BaseMeleeWeapon_Blunt_Quality">
 		<defName>AS_AT_Impact_Knuckles</defName>
 		<label>インパクトナックル</label>
     <techLevel>Spacer</techLevel>
 		<description>テスト実装</description>
+    <generateCommonality>0</generateCommonality>
+    <weaponTags>
+      <li>AS_AT_MeleeWeapon</li>
+    </weaponTags>
 		<graphicData>
 			<texPath>AT/Weapons/ImpactKnuckles</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-    <weaponTags>
-      <li>AS_AT_MeleeWeapon</li>
-    </weaponTags>
+    <!-- <followStuffColor>false</followStuffColor> -->
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
       <Plasteel>35</Plasteel>
       <Uranium>30</Uranium>
 	  </costList>
 		<statBases>
-			<WorkToMake>19000</WorkToMake>
+			<WorkToMake>21000</WorkToMake>
 			<Mass>0.3</Mass>
 		</statBases>
 		<equippedAngleOffset>11</equippedAngleOffset>
@@ -49,7 +55,7 @@
       </li>
     </tools>
 	  <recipeMaker>
-      <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
+      <researchPrerequisite>AS_Weapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>

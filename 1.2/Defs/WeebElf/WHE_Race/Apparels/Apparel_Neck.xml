@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- Scarf -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Scarf</defName>
     <description>布で編まれたスカーフで、首の防護を上げつつ、寒さへの耐性を得ることが出来る。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
     <label>スカーフ（ハーフエルフ）</label>
@@ -10,6 +10,7 @@
       <texPath>WHE/Apparels/neck/Scarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -46,7 +47,7 @@
         <li>AS_Neck</li>
       </layers>
       <tags>
-        <li>BeltDefense</li>
+        <li>AS_WHE_LowleLevel_Apparel</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
@@ -56,7 +57,7 @@
   </ThingDef>
 
   <!-- ShieldScarf -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShieldScarf</defName>
     <description>布、ハイパーウィーブを使い編まれたスカーフに、ハーフエルフの技術を用いてシールド機能を付けたもの。首周りの防護能力が非常に高い。</description>
     <label>シールドスカーフ（ハーフエルフ）</label>
@@ -66,6 +67,7 @@
       <texPath>WHE/Apparels/neck/Scarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <tickerType>Normal</tickerType>
     <costStuffCount>100</costStuffCount>
     <stuffCategories>
@@ -110,6 +112,8 @@
       </layers>
       <tags>
         <li>BeltDefense</li>
+        <li>AS_WHE_Knight</li>
+        <li>AS_WHE_MiddleLevel_Apparel</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>

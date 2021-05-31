@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!-- UnderWare -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearA</defName>
     <description>皮や布で作られたノーマルな下着。</description>
     <label>下着（ハーフエルフ）</label>
@@ -9,17 +9,19 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>90</MaxHitPoints>
       <WorkToMake>1200</WorkToMake>
       <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
@@ -47,7 +49,7 @@
       <tags>
         <li>AS_WHE_Colonist</li>
 		    <li>AS_WHE_Villager</li>
-        <li>WHE_Neolithic</li>
+        <li>AS_WHE_Neolithic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -57,7 +59,7 @@
   </ThingDef>
 
   <!-- UnderWare B -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearB</defName>
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
     <label>ピンクのフリル下着（ハーフエルフ）</label>
@@ -65,19 +67,29 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList>
-      <Cloth>120</Cloth>
+      <Cloth>50</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>150</MaxHitPoints>
+      <MaxHitPoints>140</MaxHitPoints>
       <WorkToMake>5000</WorkToMake>
       <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.6</ArmorRating_Heat>
-      <Insulation_Cold>15.5</Insulation_Cold>
-      <Insulation_Heat>5</Insulation_Heat>
+      <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.18</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.51</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.26</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>7.4</Insulation_Cold>
+      <Insulation_Heat>2.8</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -115,7 +127,7 @@
   </ThingDef>
 
   <!-- UnderWare C -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearC</defName>
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
     <label>青いフリル下着（ハーフエルフ）</label>
@@ -123,19 +135,29 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList>
-      <Cloth>120</Cloth>
+      <Cloth>50</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>150</MaxHitPoints>
+      <MaxHitPoints>140</MaxHitPoints>
       <WorkToMake>5000</WorkToMake>
       <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.6</ArmorRating_Heat>
-      <Insulation_Cold>15.5</Insulation_Cold>
-      <Insulation_Heat>5</Insulation_Heat>
+      <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.18</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.51</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.26</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>7.4</Insulation_Cold>
+      <Insulation_Heat>2.8</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -173,7 +195,7 @@
   </ThingDef>
 
   <!-- UnderWare D -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearD</defName>
     <description>皮や布で作られたセクシーな下着。そのデザインは相手の心をはやらせ、初心な相手であるほど平静さを忘れさせます。きっと互いに幸福感で満たされることでしょう。</description>
     <label>セクシーな下着（ハーフエルフ）</label>
@@ -181,19 +203,29 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareD</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
     <costList>
-      <Cloth>140</Cloth>
+      <Cloth>60</Cloth>
     </costList>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToMake>8000</WorkToMake>
       <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.11</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.68</ArmorRating_Heat>
-      <Insulation_Cold>13.2</Insulation_Cold>
-      <Insulation_Heat>6</Insulation_Heat>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.18</ArmorRating_Heat>
+      <Insulation_Cold>8.2</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.11</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.31</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -228,7 +260,7 @@
   </ThingDef>
 
   <!-- UnderWare E -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearE</defName>
     <description>皮や布で作られた下着？そのデザインは最早言葉で語ることすら憚られる、業の深い代物である。その魅力にパートナーは心が満たされ、より強い絆で結ばれることだろう。</description>
     <label>スマートインナー（ハーフエルフ）</label>
@@ -237,6 +269,7 @@
       <texPath>WHE/Apparels/onskin/UnderWareE</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>60</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -283,7 +316,7 @@
   </ThingDef>
 
 <!-- UnderWare F -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearF</defName>
     <description>テスト実装。</description>
     <label>ベイビードール（ハーフエルフ）</label>
@@ -291,21 +324,20 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/Babydoll</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
-    <costStuffCount>120</costStuffCount>
+    <followStuffColor>true</followStuffColor>
+    <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <WorkToMake>10000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <WorkToMake>9000</WorkToMake>
       <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.65</ArmorRating_Heat>
-      <Insulation_Cold>13.4</Insulation_Cold>
-      <Insulation_Heat>6</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -340,7 +372,7 @@
   </ThingDef>
 
   <!-- UnderWare G -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearG</defName>
     <description>テスト実装。</description>
     <label>白のベイビードール（ハーフエルフ）</label>
@@ -348,20 +380,28 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/BabydollWhite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
     <costList>
-      <Cloth>120</Cloth>
+      <Cloth>50</Cloth>
     </costList>
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
       <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.11</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.68</ArmorRating_Heat>
-      <Insulation_Cold>13.2</Insulation_Cold>
-      <Insulation_Heat>6</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.13</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.48</ArmorRating_Heat>
+      <Insulation_Cold>11.2</Insulation_Cold>
+      <Insulation_Heat>4.8</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -396,7 +436,7 @@
   </ThingDef>
 
   <!-- UnderWare H -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearH</defName>
     <description>テスト実装。</description>
     <label>黒のベイビードール（ハーフエルフ）</label>
@@ -404,20 +444,28 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/Blackbabydoll</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
     <costList>
-      <Cloth>120</Cloth>
+      <Cloth>50</Cloth>
     </costList>
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
       <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.11</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.68</ArmorRating_Heat>
-      <Insulation_Cold>13.2</Insulation_Cold>
-      <Insulation_Heat>6</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.13</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.48</ArmorRating_Heat>
+      <Insulation_Cold>11.2</Insulation_Cold>
+      <Insulation_Heat>4.8</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -452,7 +500,7 @@
   </ThingDef>
 
   <!-- UnderWare I -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearI</defName>
     <description>テスト実装。</description>
     <label>高級ベイビードール（ハーフエルフ）</label>
@@ -460,20 +508,28 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/BabydollHighGrade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
     <costList>
-      <Cloth>120</Cloth>
+      <Cloth>50</Cloth>
     </costList>
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
       <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.13</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.11</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.68</ArmorRating_Heat>
-      <Insulation_Cold>13.2</Insulation_Cold>
-      <Insulation_Heat>6</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.48</ArmorRating_Heat>
+      <Insulation_Cold>11.2</Insulation_Cold>
+      <Insulation_Heat>4.8</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -507,7 +563,7 @@
   </ThingDef>
 
   <!-- Nee Socks -->
-  <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Neeso</defName>
     <description>皮や布で作られたニーソックス。</description>
     <label>ニーソックス（ハーフエルフ）</label>
@@ -516,6 +572,7 @@
       <texPath>WHE/Apparels/onskin/NeeSo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -547,6 +604,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/NeeSo</wornGraphicPath>
       <layers>
@@ -564,7 +622,7 @@
   </ThingDef>
 
   <!-- Stripe Nee Socks -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_StripeNeeso</defName>
     <description>皮や布で作られた、縞模様入りの高品質ニーソックス。</description>
     <label>ストライプニーソックス（ハーフエルフ）</label>
@@ -573,6 +631,7 @@
       <texPath>WHE/Apparels/onskin/StripeNeeSo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -604,6 +663,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/StripeNeeSo</wornGraphicPath>
       <layers>
@@ -623,7 +683,7 @@
   </ThingDef>
 
   <!-- Garter Belt -->
-  <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_GarterBelt</defName>
     <description>試験導入。</description>
     <label>ガーターベルト（ハーフエルフ）</label>
@@ -631,20 +691,29 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/GarterBelt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
-    <costStuffCount>60</costStuffCount>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>30</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>2500</WorkToMake>
-      <Mass>0.1</Mass>
       <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.41</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.38</ArmorRating_Heat>
+      <Insulation_Cold>8.2</Insulation_Cold>
+      <Insulation_Heat>3.8</Insulation_Heat>
+      <Mass>0.1</Mass>
       <EquipDelay>1.2</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -661,6 +730,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/GarterBelt</wornGraphicPath>
       <layers>
@@ -679,7 +749,7 @@
   </ThingDef>
 
     <!-- Real Garter Belt -->
-  <!-- <ThingDef ParentName="AS_WHE_ApparelColorBase">
+  <!-- <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_RealGarterBelt</defName>
     <description>試験導入。</description>
     <label>ガーターベルト（ハーフエルフ）</label>
@@ -688,6 +758,7 @@
       <texPath>WHE/Apparels/onskin/RealGarterBelt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <costStuffCount>60</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -716,6 +787,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/RealGarterBelt</wornGraphicPath>
       <layers>
@@ -734,7 +806,7 @@
   </ThingDef> -->
 
   <!-- Black Garter Belt -->
-  <!-- <ThingDef ParentName="AS_WHE_ApparelNoColorBase">
+  <!-- <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_BlackGarterBelt</defName>
     <description>試験導入。</description>
     <label>ガーターベルト（ハーフエルフ）</label>
@@ -743,6 +815,7 @@
       <texPath>WHE/Apparels/onskin/BlackGarterBelt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <followStuffColor>false</followStuffColor>
     <costList>
       <Cloth>60</Cloth>
     </costList>
@@ -769,6 +842,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/BlackGarterBelt</wornGraphicPath>
       <layers>

@@ -481,6 +481,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/NeeSo</wornGraphicPath>
       <layers>
@@ -534,6 +535,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/StripeNeeSo</wornGraphicPath>
       <layers>
@@ -589,6 +591,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/GarterBelt</wornGraphicPath>
       <layers>
@@ -644,6 +647,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/RealGarterBelt</wornGraphicPath>
       <layers>
@@ -697,6 +701,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/BlackGarterBelt</wornGraphicPath>
       <layers>

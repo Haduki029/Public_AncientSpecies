@@ -25,7 +25,7 @@
     <itemQuality>Normal</itemQuality>
     <apparelMoney>200~500</apparelMoney>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
     </apparelTags>
     <inventoryOptions>
       <skipChance>0.4</skipChance>
@@ -50,7 +50,7 @@
     <itemQuality>Good</itemQuality>
     <apparelMoney>500~1200</apparelMoney>
     <apparelTags>
-      <li>WHE_Neolithic</li>
+      <li>AS_WHE_Neolithic</li>
       <li>WHE_Medieval</li>
     </apparelTags>
     <inventoryOptions>

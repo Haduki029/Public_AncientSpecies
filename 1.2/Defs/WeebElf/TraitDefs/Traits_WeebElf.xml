@@ -4,7 +4,6 @@
     <defName>AS_WHE_EngineerTrait</defName>
     <commonality>0.01</commonality>
     <conflictingTraits>
-      <li>AS_WeebElf_OdTrait</li>
       <li>AS_WeebElf_ManaTrait</li>
     </conflictingTraits>
     <degreeDatas>
@@ -70,9 +69,8 @@
 
   <TraitDef>
     <defName>AS_WeebElf_OdTrait</defName>
-    <commonality>0.01</commonality>
+    <commonality>0.001</commonality>
     <conflictingTraits>
-      <li>AS_WHE_EngineerTrait</li>
       <li>AS_WeebElf_ManaTrait</li>
     </conflictingTraits>
     <degreeDatas>
@@ -84,10 +82,11 @@
         <statOffsets>
           <MoveSpeed>0.1</MoveSpeed>
           <ComfyTemperatureMin>-2</ComfyTemperatureMin>
-				  <ComfyTemperatureMax>+3</ComfyTemperatureMax>
-          <ToxicSensitivity>1.1</ToxicSensitivity>
+				  <ComfyTemperatureMax>+2</ComfyTemperatureMax>
+          <ToxicSensitivity>-0.5</ToxicSensitivity>
+          <ImmunityGainSpeed>0.25</ImmunityGainSpeed>
           <CarryingCapacity>82</CarryingCapacity>
-          <PainShockThreshold>0.95</PainShockThreshold>
+          <PainShockThreshold>0.1</PainShockThreshold>
           <MeleeDodgeChance>0.2</MeleeDodgeChance>
           <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
           <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
@@ -100,18 +99,18 @@
         <degree>2</degree>
 				<marketValueFactorOffset>0.50</marketValueFactorOffset>
         <statOffsets>
-          <MoveSpeed>0.25</MoveSpeed>
-          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
-				  <ComfyTemperatureMax>+5</ComfyTemperatureMax>
-          <ToxicSensitivity>1.25</ToxicSensitivity>
-          <ImmunityGainSpeed>1.15</ImmunityGainSpeed>
+          <MoveSpeed>0.125</MoveSpeed>
+          <ComfyTemperatureMin>-4</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+4</ComfyTemperatureMax>
+          <ToxicSensitivity>-0.75</ToxicSensitivity>
+          <ImmunityGainSpeed>0.50</ImmunityGainSpeed>
           <CarryingCapacity>85</CarryingCapacity>
-          <PainShockThreshold>0.9</PainShockThreshold>
+          <PainShockThreshold>0.2</PainShockThreshold>
           <MentalBreakThreshold>-0.05</MentalBreakThreshold>
           <MeleeDodgeChance>0.5</MeleeDodgeChance>
-          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-          <ArmorRating_Heat>0.05</ArmorRating_Heat>
+          <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.08</ArmorRating_Heat>
         </statOffsets>
 			</li>
       <li>
@@ -123,10 +122,10 @@
           <MoveSpeed>0.5</MoveSpeed>
           <ComfyTemperatureMin>-10</ComfyTemperatureMin>
 				  <ComfyTemperatureMax>+10</ComfyTemperatureMax>
-          <ToxicSensitivity>2</ToxicSensitivity>
-          <ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+          <ToxicSensitivity>-1.0</ToxicSensitivity>
+          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
           <CarryingCapacity>90</CarryingCapacity>
-          <PainShockThreshold>0.84</PainShockThreshold>
+          <PainShockThreshold>0.4</PainShockThreshold>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
           <MeleeDodgeChance>1.5</MeleeDodgeChance>
           <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
@@ -143,10 +142,10 @@
           <MoveSpeed>0.75</MoveSpeed>
           <ComfyTemperatureMin>-15</ComfyTemperatureMin>
 				  <ComfyTemperatureMax>+15</ComfyTemperatureMax>
-          <ToxicSensitivity>1.5</ToxicSensitivity>
+          <ToxicSensitivity>-1.5</ToxicSensitivity>
           <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
-          <CarryingCapacity>92</CarryingCapacity>
-          <PainShockThreshold>0.8</PainShockThreshold>
+          <CarryingCapacity>100</CarryingCapacity>
+          <PainShockThreshold>0.6</PainShockThreshold>
           <MentalBreakThreshold>-0.1</MentalBreakThreshold>
           <MeleeDodgeChance>2</MeleeDodgeChance>
           <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
@@ -159,7 +158,7 @@
 
   <TraitDef>
     <defName>AS_WeebElf_ManaTrait</defName>
-    <commonality>0.01</commonality>
+    <commonality>0.001</commonality>
     <conflictingTraits>
       <li>AS_WHE_EngineerTrait</li>
       <li>AS_WeebElf_OdTrait</li>
@@ -174,9 +173,9 @@
           <MoveSpeed>1</MoveSpeed>
           <ComfyTemperatureMin>-20</ComfyTemperatureMin>
 				  <ComfyTemperatureMax>+20</ComfyTemperatureMax>
-          <ToxicSensitivity>2</ToxicSensitivity>
+          <ToxicSensitivity>-2</ToxicSensitivity>
           <ImmunityGainSpeed>2</ImmunityGainSpeed>
-          <CarryingCapacity>95</CarryingCapacity>
+          <CarryingCapacity>120</CarryingCapacity>
           <PainShockThreshold>0.75</PainShockThreshold>
           <MentalBreakThreshold>-0.2</MentalBreakThreshold>
           <MeleeDodgeChance>2</MeleeDodgeChance>

@@ -4,114 +4,32 @@
 		<defName>AS_ResearchTab</defName>
 		<label>Ancient Species</label>
 	</ResearchTabDef>
-	
-  <ResearchProjectDef>
-    <defName>AS_WHE_Apparel_Basic</defName>
-    <label>ハーフエルフの簡単な衣類</label>
-    <description>ハーフエルフ達の簡単な衣類を作成するための技術。</description>
-    <baseCost>150</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>0</researchViewX>
-    <researchViewY>0</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef>
-    <defName>AS_WHE_Apparel_Elementary</defName>
-    <label>ハーフエルフの初歩的な衣類</label>
-    <description>ハーフエルフ達の初歩的な衣類を作成するための技術。</description>
-    <baseCost>600</baseCost>
-    <techLevel>Medieval</techLevel>
-    <prerequisites>
-      <li>AS_WHE_Apparel_Basic</li>
-    </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>0</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef>
-    <defName>AS_WHE_Apparel_Intermediate</defName>
-    <label>ハーフエルフの複雑な衣類</label>
-    <description>ハーフエルフ達の複雑な衣類を作成するための技術。</description>
-    <baseCost>1200</baseCost>
-    <techLevel>Medieval</techLevel>
-    <prerequisites>
-      <li>AS_WHE_Apparel_Elementary</li>
-    </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>0</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef>
-    <defName>AS_WHE_Apparel_Spacer</defName>
-    <label>ハーフエルフの高度な衣類</label>
-    <description>ハーフエルフたちの技術を応用した、高度な衣類を作成するための技術。</description>
-    <baseCost>2000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>AS_WHE_Apparel_Intermediate</li>
-	    <li>Machining</li>
-    </prerequisites>
-    <researchViewX>3</researchViewX>
-    <researchViewY>0</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>AS_WHE_Weapons</defName>
-    <label>ハーフエルフの武具技術</label>
-    <description>ハーフエルフの知識、技術による武器が作成可能になる。</description>
-    <baseCost>3500</baseCost>
+    <defName>AS_AncientTechnology</defName>
+    <label>失われた古代の技術</label>
+    <description>失われた古代の技術に関する知識を得る。</description>
+    <baseCost>5500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewY>0</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>AS_WHE_AncientTechnology</defName>
-    <label>ハーフエルフの古代武具技術</label>
-    <description>ハーフエルフにより解析、改良された、古代種族の技術を用いた武具やアイテムが作成可能になる。</description>
-    <baseCost>5000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>MicroelectronicsBasics</li>
-    </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>2</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef>
-
-  <!-- <ResearchProjectDef>
-    <defName>AS_WAE_Weapons</defName>
-    <label>古代エルフの武具技術</label>
-    <description>古代エルフが用いていた技術に関するもの。いくつかの武具が作成可能になる。</description>
-    <baseCost>2000</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>MicroelectronicsBasics</li>
-    </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>1</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef> -->
 
   <ResearchProjectDef>
     <defName>AS_Weapons</defName>
     <label>古代種族の基礎的な武具技術</label>
     <description>ある古代種族が用いていた技術に関する基礎的なもの。いくつかの武具が作成可能になる。</description>
-    <baseCost>2000</baseCost>
+    <baseCost>5500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>AS_AncientTechnology</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
-    <researchViewY>2</researchViewY>
+    <researchViewY>1</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 </Defs>
