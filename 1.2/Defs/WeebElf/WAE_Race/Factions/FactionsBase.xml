@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef Name="WAE_NPC_FactionsBase" Abstract="True">
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0.82, 0.23, 0.23)</li>
+    </colorSpectrum>
+    <!-- 恒久的な的勢力 -->
+    <permanentEnemy>true</permanentEnemy>
+    <hairTags>
+      <li>WHE</li>
+    </hairTags>
+    <allowedArrivalTemperatureRange>
+      <min>-10</min>
+      <max>55</max>
+    </allowedArrivalTemperatureRange>
+  </FactionDef>
+</Defs>

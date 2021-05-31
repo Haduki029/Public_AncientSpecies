@@ -67,3 +67,8 @@
 /About/About.xml merge=ours
 /About/PublishedFileId.txt merge=ours
 /Source merge=ours
+*/Source merge=ours
+*.cs merge=ours
+*.sln merge=ours
+*.resx merge=ours
+.gitmodules merge=ours

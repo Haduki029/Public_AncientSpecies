@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TraitDef>
+    <defName>AS_WHE_EngineerTrait</defName>
+    <commonality>0.01</commonality>
+    <conflictingTraits>
+      <li>AS_WeebElf_ManaTrait</li>
+    </conflictingTraits>
+    <degreeDatas>
+      <li>
+        <label>ハーフエルフの技術士見習い</label>
+        <description>古代種族の技術について興味を持っており、それを使ってハーフエルフの技術を向上させるために学んでいる。</description>
+        <degree>1</degree>
+				<marketValueFactorOffset>0.05</marketValueFactorOffset>
+        <statOffsets>
+          <ResearchSpeed>1.05</ResearchSpeed>
+          <NegotiationAbility>0.8</NegotiationAbility><!-- 外交への影響度 -->
+          <SellPriceFactor>0.8</SellPriceFactor> <!-- 取引価格への影響度 -->
+          <SocialImpact>0.9</SocialImpact> <!-- 社会的な影響度 -->
+          <TameAnimalChance>0.85</TameAnimalChance> <!-- 手なづけチャンス -->
+          <TrainAnimalChance>0.85</TrainAnimalChance> <!-- 調教チャンス -->
+          <ButcheryMechanoidEfficiency>1.1</ButcheryMechanoidEfficiency> <!-- メカノイド分解への影響度 -->
+          <ButcheryMechanoidSpeed>1.1</ButcheryMechanoidSpeed> <!-- メカノイド分解速度 -->
+          <ConstructionSpeed>1.05</ConstructionSpeed><!-- 建築速度 -->
+          <ConstructSuccessChance>1.05</ConstructSuccessChance><!-- 建築成功チャンス -->
+          <WorkSpeedGlobal>1.15</WorkSpeedGlobal>
+        </statOffsets>
+			</li>
+      <li>
+        <label>ハーフエルフの技術士</label>
+        <description>古代種族の技術について知識を持ち、ハーフエルフの技術と組み合わせて技術を向上させることに取り組んでいる。</description>
+        <degree>2</degree>
+				<marketValueFactorOffset>0.10</marketValueFactorOffset>
+        <statOffsets>
+          <ResearchSpeed>1.10</ResearchSpeed>
+          <NegotiationAbility>0.75</NegotiationAbility><!-- 外交への影響度 -->
+          <SellPriceFactor>0.75</SellPriceFactor> <!-- 取引価格への影響度 -->
+          <SocialImpact>0.9</SocialImpact> <!-- 社会的な影響度 -->
+          <TameAnimalChance>0.80</TameAnimalChance> <!-- 手なづけチャンス -->
+          <TrainAnimalChance>0.80</TrainAnimalChance> <!-- 調教チャンス -->
+          <ButcheryMechanoidEfficiency>1.15</ButcheryMechanoidEfficiency> <!-- メカノイド分解への影響度 -->
+          <ButcheryMechanoidSpeed>1.15</ButcheryMechanoidSpeed> <!-- メカノイド分解速度 -->
+          <ConstructionSpeed>1.05</ConstructionSpeed><!-- 建築速度 -->
+          <ConstructSuccessChance>1.05</ConstructSuccessChance><!-- 建築成功チャンス -->
+          <WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+        </statOffsets>
+			</li>
+      <li>
+        <label>ハーフエルフの機工士</label>
+        <description>古代種族の技術について知識を持ち、それを活かしたハーフエルの技術についての技術、経験を持っている。</description>
+        <degree>3</degree>
+				<marketValueFactorOffset>0.15</marketValueFactorOffset>
+        <statOffsets>
+          <ResearchSpeed>1.2</ResearchSpeed>
+          <NegotiationAbility>0.7</NegotiationAbility><!-- 外交への影響度 -->
+          <SellPriceFactor>0.7</SellPriceFactor> <!-- 取引価格への影響度 -->
+          <SocialImpact>0.9</SocialImpact> <!-- 社会的な影響度 -->
+          <TameAnimalChance>0.80</TameAnimalChance> <!-- 手なづけチャンス -->
+          <TrainAnimalChance>0.80</TrainAnimalChance> <!-- 調教チャンス -->
+          <ButcheryMechanoidEfficiency>1.15</ButcheryMechanoidEfficiency> <!-- メカノイド分解への影響度 -->
+          <ButcheryMechanoidSpeed>1.15</ButcheryMechanoidSpeed> <!-- メカノイド分解速度 -->
+          <ConstructionSpeed>1.05</ConstructionSpeed><!-- 建築速度 -->
+          <ConstructSuccessChance>1.05</ConstructSuccessChance><!-- 建築成功チャンス -->
+          <WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+        </statOffsets>
+			</li> 
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>AS_WeebElf_OdTrait</defName>
+    <commonality>0.001</commonality>
+    <conflictingTraits>
+      <li>AS_WeebElf_ManaTrait</li>
+    </conflictingTraits>
+    <degreeDatas>
+      <li>
+        <label>オドエネルギー蓄積（小）</label>
+        <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官がわずかに発達しており、体内にため込む性質を持っている。</description>
+        <degree>1</degree>
+				<marketValueFactorOffset>0.10</marketValueFactorOffset>
+        <statOffsets>
+          <MoveSpeed>0.1</MoveSpeed>
+          <ComfyTemperatureMin>-2</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+2</ComfyTemperatureMax>
+          <ToxicSensitivity>-0.5</ToxicSensitivity>
+          <ImmunityGainSpeed>0.25</ImmunityGainSpeed>
+          <CarryingCapacity>82</CarryingCapacity>
+          <PainShockThreshold>0.1</PainShockThreshold>
+          <MeleeDodgeChance>0.2</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.03</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+      <li>
+        <label>オドエネルギー蓄積（中）</label>
+        <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官が発達しており、体内にため込む性質を持っている。</description>
+        <degree>2</degree>
+				<marketValueFactorOffset>0.15</marketValueFactorOffset>
+        <statOffsets>
+          <MoveSpeed>0.125</MoveSpeed>
+          <ComfyTemperatureMin>-4</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+4</ComfyTemperatureMax>
+          <ToxicSensitivity>-0.75</ToxicSensitivity>
+          <ImmunityGainSpeed>0.50</ImmunityGainSpeed>
+          <CarryingCapacity>85</CarryingCapacity>
+          <PainShockThreshold>0.2</PainShockThreshold>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <MeleeDodgeChance>0.5</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.08</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+      <li>
+        <label>オドエネルギー蓄積（大）</label>
+        <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官がかなり発達しており、体内にため込む性質を持っている。</description>
+        <degree>3</degree>
+				<marketValueFactorOffset>0.25</marketValueFactorOffset>
+        <statOffsets>
+          <MoveSpeed>0.5</MoveSpeed>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+10</ComfyTemperatureMax>
+          <ToxicSensitivity>-1.0</ToxicSensitivity>
+          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+          <CarryingCapacity>90</CarryingCapacity>
+          <PainShockThreshold>0.4</PainShockThreshold>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <MeleeDodgeChance>1.5</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+      <li>
+        <label>オドエネルギー蓄積（極大）</label>
+        <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官が非常に発達しており、体内にため込む性質を持っている。</description>
+        <degree>4</degree>
+				<marketValueFactorOffset>0.35</marketValueFactorOffset>
+        <statOffsets>
+          <MoveSpeed>0.75</MoveSpeed>
+          <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+15</ComfyTemperatureMax>
+          <ToxicSensitivity>-1.5</ToxicSensitivity>
+          <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+          <CarryingCapacity>100</CarryingCapacity>
+          <PainShockThreshold>0.6</PainShockThreshold>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>AS_WeebElf_ManaTrait</defName>
+    <commonality>0.001</commonality>
+    <conflictingTraits>
+      <li>AS_WHE_EngineerTrait</li>
+      <li>AS_WeebElf_OdTrait</li>
+    </conflictingTraits>
+    <degreeDatas>
+      <li>
+        <label>マナエネルギー変換</label>
+        <description>空気中に存在するマナのエネルギーを生み出し、保持する器官を体内に持っており、オドエネルギーへ高効率な変換が可能となっている。</description>
+        <degree>1</degree>
+				<marketValueFactorOffset>0.50</marketValueFactorOffset>
+        <statOffsets>
+          <MoveSpeed>1</MoveSpeed>
+          <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+20</ComfyTemperatureMax>
+          <ToxicSensitivity>-2</ToxicSensitivity>
+          <ImmunityGainSpeed>2</ImmunityGainSpeed>
+          <CarryingCapacity>120</CarryingCapacity>
+          <PainShockThreshold>0.75</PainShockThreshold>
+          <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.25</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

@@ -7,8 +7,8 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
-	  <Cloth>20</Cloth>
-	  <ComponentSpacer>3</ComponentSpacer>
+      <Cloth>20</Cloth>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
