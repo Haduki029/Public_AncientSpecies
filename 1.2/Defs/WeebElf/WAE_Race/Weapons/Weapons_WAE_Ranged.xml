@@ -58,17 +58,17 @@
     </ThingDef>
 
     <!-- ElvenBow -->
-    <!-- <ThingDef ParentName="WAE_BaseWeaponNeolithic">
-        <defName>WAE_ElvenBow</defName>
-        <label>エルブンボウ（ハーフエルフ）</label>
-        <description>古代エルフが使っていた一般的な弓の再現版です。オリジナルに性能は劣りますが、一般的な弓より強力で、連射性能があります。</description>
+    <ThingDef ParentName="WAE_BaseWeaponNeolithic">
+        <defName>WAE_ElvenBow_Origin</defName>
+        <label>エルブンボウ</label>
+        <description>古代エルフが使っていた一般的な弓です。一般的な弓より強力で、連射性能が高く、飛距離もあります。</description>
         <graphicData>
         <texPath>WHE/Weapons/bow/ElvenBow</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
         <costList>
-            <WoodLog>140</WoodLog>
+            <WoodLog>190</WoodLog>
             <Plasteel>10</Plasteel>
             <Hyperweave>1</Hyperweave>
         </costList>
@@ -83,7 +83,7 @@
             <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
         </statBases>
         <thingCategories>
-            <li>AS_WAE_Weapons</li>
+            <li>AS_WHE_Weapons</li>
         </thingCategories>
         <weaponTags>
             <li>WAE_NeolithicRangedAdvanced</li>
@@ -121,7 +121,7 @@
                 <Crafting>12</Crafting>
             </skillRequirements>
         </recipeMaker>
-    </ThingDef> -->
+    </ThingDef>
 
     <ThingDef ParentName="BaseProjectileNeolithic">
         <defName>AS_WAE_ElvenArrow</defName>
