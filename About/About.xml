@@ -9,33 +9,37 @@
    <packageId>Haduki.AncientSpecies.development</packageId>
    <description>
    こちらのModは、いくつかの種族とその派閥を追加するMODです。
+   1.1バージョンのリムワールドでも動作しますが、最新の更新内容は1.2バージョン以降のみに対応しております。
 
    [現在追加される種族]
    ・ハーフエルフ（Weeb Half Elf Race）
    ・エンシェントエルフ（Weeb Ancient Elf Race）
 
    [装備]
-   ・ハーフエルフに関する衣類（全27種）
-      ・下着6種
-      ・靴下2種
-      ・衣服11種
+   ・エンシェントスペシーズに関する装備（全8種）
+      ・銃7種
+      ・格闘1種
+   
+   ・ハーフエルフに関する装備（全43種）
+      ・下着11種
+      ・靴下3種
+      ・衣服13種
       ・アーマー類4種
-      ・被り物5種
+      ・被り物7種
       ・シールドベルト代替のシールドスカーフ1種
-   ・武器
-      ・弓1種
-   ・ハーフエルフに関する衣類（全27種）
-      ・下着6種
-      ・靴下2種
-      ・衣服11種
-      ・アーマー類4種
-      ・被り物5種
-      ・シールドベルト代替のシールドスカーフ1種
-   ・武器
-      ・弓1種
+      ・弓3種
+      ・剣1種
+      
+   ・エンシェントエルフに関する装備（全4種）
+      ・衣服1種
+      ・アーマー類1種
+      ・被り物1種
+      ・剣1種
 
    [研究]
+   ・古代技術に関する衣類の研究
    ・ハーフエルフに関する衣類の研究
+   ・エンシェントエルフに関する衣類の研究
 
    [推奨Mod]
    ・Camera+
@@ -57,8 +61,8 @@
       Many peoples at RimMod相談所.
 
    [Mod Information]
-   Ver.0.2(latest)
-   Supported Rimworld version is 1.1.
+   Ver.1.0(latest)
+   Supported Rimworld version is 1.2(.3005)
 
    [Attention]
    ※Modの互換性については、必ず対応するわけではなく、製作者の判断で行います旨ご了承の上、当Modをご利用ください。
@@ -73,7 +77,7 @@
    ※上記注意点について、ご理解、ご了承頂けない方のMod利用は、固くお断り致します。
    If you can't agree the above attentions, should not download this mod. 
 
-   (C) 2020 Haduki
+   (C) 2020, 2021 Haduki
    </description> 
    <modDependencies>
 		<li>
