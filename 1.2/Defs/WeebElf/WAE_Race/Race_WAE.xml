@@ -159,7 +159,7 @@
 	</alienRace>
   <!-- 能力値 -->
   <statBases>
-    <MarketValue>4000</MarketValue>
+    <MarketValue>2000</MarketValue>
     <MoveSpeed>4.9</MoveSpeed>
 	  <MentalBreakThreshold>-0.02</MentalBreakThreshold>
     <ComfyTemperatureMax>34</ComfyTemperatureMax>

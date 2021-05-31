@@ -11,7 +11,7 @@
         <label>ハーフエルフの技術士見習い</label>
         <description>古代種族の技術について興味を持っており、それを使ってハーフエルフの技術を向上させるために学んでいる。</description>
         <degree>1</degree>
-				<marketValueFactorOffset>0.20</marketValueFactorOffset>
+				<marketValueFactorOffset>0.05</marketValueFactorOffset>
         <statOffsets>
           <ResearchSpeed>1.05</ResearchSpeed>
           <NegotiationAbility>0.8</NegotiationAbility><!-- 外交への影響度 -->
@@ -30,7 +30,7 @@
         <label>ハーフエルフの技術士</label>
         <description>古代種族の技術について知識を持ち、ハーフエルフの技術と組み合わせて技術を向上させることに取り組んでいる。</description>
         <degree>2</degree>
-				<marketValueFactorOffset>0.40</marketValueFactorOffset>
+				<marketValueFactorOffset>0.10</marketValueFactorOffset>
         <statOffsets>
           <ResearchSpeed>1.10</ResearchSpeed>
           <NegotiationAbility>0.75</NegotiationAbility><!-- 外交への影響度 -->
@@ -49,7 +49,7 @@
         <label>ハーフエルフの機工士</label>
         <description>古代種族の技術について知識を持ち、それを活かしたハーフエルの技術についての技術、経験を持っている。</description>
         <degree>3</degree>
-				<marketValueFactorOffset>0.60</marketValueFactorOffset>
+				<marketValueFactorOffset>0.15</marketValueFactorOffset>
         <statOffsets>
           <ResearchSpeed>1.2</ResearchSpeed>
           <NegotiationAbility>0.7</NegotiationAbility><!-- 外交への影響度 -->
@@ -78,7 +78,7 @@
         <label>オドエネルギー蓄積（小）</label>
         <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官がわずかに発達しており、体内にため込む性質を持っている。</description>
         <degree>1</degree>
-				<marketValueFactorOffset>0.30</marketValueFactorOffset>
+				<marketValueFactorOffset>0.10</marketValueFactorOffset>
         <statOffsets>
           <MoveSpeed>0.1</MoveSpeed>
           <ComfyTemperatureMin>-2</ComfyTemperatureMin>
@@ -97,7 +97,7 @@
         <label>オドエネルギー蓄積（中）</label>
         <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官が発達しており、体内にため込む性質を持っている。</description>
         <degree>2</degree>
-				<marketValueFactorOffset>0.50</marketValueFactorOffset>
+				<marketValueFactorOffset>0.15</marketValueFactorOffset>
         <statOffsets>
           <MoveSpeed>0.125</MoveSpeed>
           <ComfyTemperatureMin>-4</ComfyTemperatureMin>
@@ -117,7 +117,7 @@
         <label>オドエネルギー蓄積（大）</label>
         <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官がかなり発達しており、体内にため込む性質を持っている。</description>
         <degree>3</degree>
-				<marketValueFactorOffset>0.70</marketValueFactorOffset>
+				<marketValueFactorOffset>0.25</marketValueFactorOffset>
         <statOffsets>
           <MoveSpeed>0.5</MoveSpeed>
           <ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -137,7 +137,7 @@
         <label>オドエネルギー蓄積（極大）</label>
         <description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官が非常に発達しており、体内にため込む性質を持っている。</description>
         <degree>4</degree>
-				<marketValueFactorOffset>1.00</marketValueFactorOffset>
+				<marketValueFactorOffset>0.35</marketValueFactorOffset>
         <statOffsets>
           <MoveSpeed>0.75</MoveSpeed>
           <ComfyTemperatureMin>-15</ComfyTemperatureMin>
@@ -168,7 +168,7 @@
         <label>マナエネルギー変換</label>
         <description>空気中に存在するマナのエネルギーを生み出し、保持する器官を体内に持っており、オドエネルギーへ高効率な変換が可能となっている。</description>
         <degree>1</degree>
-				<marketValueFactorOffset>2.00</marketValueFactorOffset>
+				<marketValueFactorOffset>0.50</marketValueFactorOffset>
         <statOffsets>
           <MoveSpeed>1</MoveSpeed>
           <ComfyTemperatureMin>-20</ComfyTemperatureMin>
