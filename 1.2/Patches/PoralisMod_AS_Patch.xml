@@ -8,11 +8,17 @@
 				<packageId>Vanya.Polarisbloc.SecurityForce</packageId>
 			</li-->
 		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "AS_WHE_Race"]/alienRace/raceRestriction/whiteApparelList</xpath>
-			<value>
-				<li>Apparel_PolarisShieldBelt_II</li>
-			</value>
-		</match>
+		<match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[
+					defName = "AS_WHE_Race" or defName = "AS_WAE_Race"
+					]/alienRace/raceRestriction/whiteApparelList</xpath>
+                    <value>
+						<li>Apparel_PolarisShieldBelt_II</li>
+					</value>
+                </li>
+            </operations>
+        </match>
 	</Operation>
 </Patch>

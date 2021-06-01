@@ -4,7 +4,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>AS_WHEAT_Penetrator</defName>
 	<label>ペネトレーター</label>
-	<description>解析された古代技術を応用し、ASスナイパーライフルを元に改良、製造されたスナイパーライフル。</description>
+	<description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改良、製造されたスナイパーライフル。</description>
 	<graphicData>
 		<texPath>AT/Weapons/SniperRifle_WHETech</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -77,7 +77,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>AS_WHEAT_Grawes</defName>
 	<label>グラヴェス</label>
-	<description>解析された古代技術を応用し、グラヴェールを元に改良、製造されたショットガン。</description>
+	<description>ハーフエルフによって解析された古代技術を応用し、グラヴェールを改造したショットガン。</description>
 	<graphicData>
 		<texPath>AT/Weapons/WHEShotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

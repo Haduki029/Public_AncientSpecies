@@ -1,0 +1,26 @@
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "AS_WHE_Race"]/alienRace/raceRestriction/whiteApparelList</xpath>
+                    <value>
+                        <li>Apparel_PackJump</li>
+                        <li>Apparel_PackBroadshield</li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationadd">
+                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "AS_WAE_Race"]/alienRace/raceRestriction/whiteApparelList</xpath>
+                    <value>
+                        <li>Apparel_PackJump</li>
+                        <li>Apparel_PackBroadshield</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

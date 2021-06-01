@@ -64,7 +64,7 @@
   <!-- Parka -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Parka</defName>
-    <description>皮や布で作られたパーカー。寒さと攻撃から身を守ります。</description>
+    <description>皮や布で作られたパーカー。寒さと攻撃から身を守り、多少ですが耐暑性能もあります。</description>
     <label>パーカー（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -177,7 +177,7 @@
   <!-- ElvenPoncho -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ElvenPoncho</defName>
-    <description>古代エルフの技術で作られたポンチョ。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐熱、防御性能に優れ、使用者の射撃能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</description>
+    <description>古代エルフの技術で作られたポンチョ。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐暑、耐熱、防御性能に優れ、使用者の射撃能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</description>
     <label>エルブンポンチョ（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -258,7 +258,7 @@
   <!-- ElvenMantle -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ElvenMantle</defName>
-    <description>古代エルフの技術で作られたマント。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐熱、防御性能に優れ、使用者の格闘能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</description>
+    <description>古代エルフの技術で作られたマント。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐暑、耐熱、防御性能に優れ、使用者の格闘能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</description>
     <label>エルブンマント（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>

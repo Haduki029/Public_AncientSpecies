@@ -3,7 +3,7 @@
   <!-- Knight Dress -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_KnightDress</defName>
-    <description>姫騎士鎧</description>
+    <description>エンシェントエルフの騎士達が好んで使用する鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</description>
     <label>姫騎士鎧（エンシェントエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>

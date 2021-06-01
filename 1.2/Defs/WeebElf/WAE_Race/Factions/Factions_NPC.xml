@@ -60,6 +60,13 @@
           <AS_WAE_Hunter>5</AS_WAE_Hunter>
         </options>
       </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WAE_Knight>5</AS_WAE_Knight>
+          <AS_WAE_Hunter>10</AS_WAE_Hunter>
+        </options>
+      </li>
     </pawnGroupMakers>
   </FactionDef>
 </Defs>
