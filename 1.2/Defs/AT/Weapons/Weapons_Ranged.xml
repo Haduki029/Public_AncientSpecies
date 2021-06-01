@@ -291,7 +291,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>AS_Grawehr</defName>
 	<label>グラヴェーア</label>
-	<description>榴弾を撃ち出すライフル。</description>
+	<description>榴弾を撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</description>
 	<graphicData>
 		<texPath>AT/Weapons/Grawehr</texPath>
 		<graphicClass>Graphic_Single</graphicClass>

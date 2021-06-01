@@ -4,7 +4,7 @@
     <defName>AS_WHE_WAESword</defName>
     <label>古代エルフの剣</label>
     <techLevel>Industrial</techLevel>
-    <description>ハーフエルフの技術で再現された、古代エルフの剣のレプリカ。刀身にはウラニウムが用いられており、黒い仕上がりになっている。</description>
+    <description>エンシェントエルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。</description>
     <generateCommonality>0</generateCommonality>
     <weaponTags>
       <li>AS_WAE_MeleeWeapon</li>
@@ -25,7 +25,7 @@
       <Hyperweave>5</Hyperweave>
       <Gold>6</Gold>
       <Plasteel>40</Plasteel>
-      <Uranium>35</Uranium>
+      <Uranium>40</Uranium>
 	  </costList>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>

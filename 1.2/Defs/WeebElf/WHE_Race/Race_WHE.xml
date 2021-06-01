@@ -158,7 +158,6 @@
 			<whiteApparelList>
 			  <!-- <li>Apparel_ShieldBelt</li> -->
 				<li>Apparel_SmokepopBelt</li>
-        <li>Apparel_PackJump</li>
 			</whiteApparelList>
       <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
       <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>

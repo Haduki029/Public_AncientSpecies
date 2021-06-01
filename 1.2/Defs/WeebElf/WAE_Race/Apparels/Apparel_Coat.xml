@@ -3,7 +3,7 @@
   <!-- Noble Coat -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_NobleCoat</defName>
-    <description>貴族用コート。</description>
+    <description>エンシェントエルフの貴族階級者が愛用している、戦闘用のコート。非常に丈夫なだけでなく、装備者の戦闘能力に補正がかかる。</description>
     <label>貴族のコート（エンシェントエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>

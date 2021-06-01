@@ -271,7 +271,7 @@
   <!-- Cute Ribon -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_CuteRibon</defName>
-    <description>テスト実装</description>
+    <description>丈夫さと可愛さを兼ね備えた可愛いリボン。</description>
     <label>可愛いリボン（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>

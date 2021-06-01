@@ -318,7 +318,7 @@
 <!-- UnderWare F -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearF</defName>
-    <description>テスト実装。</description>
+    <description>セクシーなベイビードールです。大切な部分をしっかり保護しつつも、諸所が透けて見えるそのデザインは夜戦に最適でしょう。</description>
     <label>ベイビードール（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -374,7 +374,7 @@
   <!-- UnderWare G -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearG</defName>
-    <description>テスト実装。</description>
+    <description>白を基調にした、高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</description>
     <label>白のベイビードール（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -438,7 +438,7 @@
   <!-- UnderWare H -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearH</defName>
-    <description>テスト実装。</description>
+    <description>黒を基調にした、高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</description>
     <label>黒のベイビードール（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -502,7 +502,7 @@
   <!-- UnderWare I -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearI</defName>
-    <description>テスト実装。</description>
+    <description>高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</description>
     <label>高級ベイビードール（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
@@ -685,7 +685,7 @@
   <!-- Garter Belt -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_GarterBelt</defName>
-    <description>試験導入。</description>
+    <description>ガーターベルトです。美しい体の上を走る一本のベルトは、着用者の魅力を最大限に引き出すでしょう。</description>
     <label>ガーターベルト（ハーフエルフ）</label>
     <techLevel>Neolithic</techLevel>
     <graphicData>

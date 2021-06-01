@@ -3,7 +3,7 @@
   <!-- Cute Ribon -->
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_FeatherHelm</defName>
-    <description>テスト実装</description>
+    <description>金属の額当てに、羽飾りで装飾されたヘルム。見た目の割にかなり高性能なものになっている。</description>
     <label>フェザーヘルム（エンシェントエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
