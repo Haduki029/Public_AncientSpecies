@@ -57,6 +57,32 @@
         </recipeMaker>
     </ThingDef>
 
+    <ThingDef Name="WHE_BaseWeaponAT" Abstract="True" ParentName="BaseWeapon">
+        <techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>WHE_Spacer</li>
+        </weaponTags>
+        <thingCategories>
+            <li>AS_Weapons</li>
+        </thingCategories>
+        <burnableByRecipe>true</burnableByRecipe>
+        <comps>
+        <li>
+            <compClass>CompQuality</compClass>
+        </li>
+        </comps>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
     <!-- ElvenBow -->
     <ThingDef ParentName="WHE_BaseWeaponNeolithic">
         <defName>WHE_ElvenBow</defName>
@@ -124,7 +150,7 @@
     </ThingDef>
 
     <!-- Compound Bow -->
-    <ThingDef ParentName="WHE_BaseWeaponIntermediate">
+    <ThingDef ParentName="WHE_BaseWeaponAT">
         <defName>WHE_CompoundBow</defName>
         <label>コンパウンドボウ（ハーフエルフ）</label>
         <description>ハーフエルフの技術と、滑車やてこの原理などを用いて作られた大型の半機械弓。連射性能、飛距離、命中精度、威力が高いが、接近戦での取り回しが悪い。</description>
@@ -144,7 +170,7 @@
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
-            <WorkToMake>24500</WorkToMake>
+            <WorkToMake>32500</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -181,10 +207,6 @@
         </tools>
         <generateCommonality>0</generateCommonality>
         <recipeMaker>
-            <recipeUsers>
-                <li>ElectricSmithy</li>
-                <li>FueledSmithy</li>
-            </recipeUsers>
             <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>13</Crafting>
@@ -193,7 +215,7 @@
     </ThingDef>
 
     <!-- Elven Compound Bow -->
-    <ThingDef ParentName="WHE_BaseWeaponIntermediate">
+    <ThingDef ParentName="WHE_BaseWeaponAT">
         <defName>WHE_ElvenCompoundBow</defName>
         <label>エルブンコンパウンドボウ（ハーフエルフ）</label>
         <description>ハーフエルフの技術と、エルフの古代技術、現代の技術を合わせて作られた大型の半機械弓。コンパウンドボウと比較し、連射性能、飛距離がさらに強化され、命中精度も向上している。</description>
@@ -249,10 +271,6 @@
         </tools>
         <generateCommonality>0</generateCommonality>
         <recipeMaker>
-            <recipeUsers>
-                <li>ElectricSmithy</li>
-                <li>FueledSmithy</li>
-            </recipeUsers>
             <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>18</Crafting>
