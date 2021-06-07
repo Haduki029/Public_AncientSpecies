@@ -61,7 +61,6 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/MarineArmor</wornGraphicPath>
       <layers>
-        <li>Shell</li>
         <li>Middle</li>
       </layers>
       <tags>
@@ -134,7 +133,6 @@
 			<wornGraphicPath>WHE/Apparels/middle/PressureResistantSuit</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
-        <li>Middle</li>
 			</layers>
 			<tags>
         <li>AS_WHE_Spacer</li>
@@ -197,7 +195,6 @@
       <wornGraphicPath>WHE/Apparels/middle/PlateArmor</wornGraphicPath>
       <layers>
         <li>Shell</li>
-        <li>Middle</li>
       </layers>
       <tags>
         <li>Royal</li>
@@ -283,7 +280,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/AncientElfArmor</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>Royal</li>

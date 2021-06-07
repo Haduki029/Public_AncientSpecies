@@ -273,7 +273,7 @@
       <leatherDef>Leather_Human</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <!-- <nameGenerator>NameGen_AS_WHE</nameGenerator> --><!-- 命名規則 -->
-	    <body>AS_WHE_Body</body>
+	    <body>AS_WAE_Body</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale><!-- 基本耐久力 -->
       <foodType>OmnivoreHuman</foodType>

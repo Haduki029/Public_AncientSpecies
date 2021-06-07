@@ -119,4 +119,24 @@
 			<li>WHE</li>
 		</hairTags>
 	</HairDef>
+
+	<!-- <HairDef>
+		<defName>AS_WHE_Hair_13</defName>
+		<label>WHE_Hair_13</label>
+		<hairGender>Female</hairGender>
+		<texPath>WHE/Hairs/WHE13</texPath>
+		<hairTags>
+			<li>WHE</li>
+		</hairTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_WHE_Hair_14</defName>
+		<label>WHE_Hair_14</label>
+		<hairGender>Female</hairGender>
+		<texPath>WHE/Hairs/WHE14</texPath>
+		<hairTags>
+			<li>WHE</li>
+		</hairTags>
+	</HairDef> -->
 </Defs>
