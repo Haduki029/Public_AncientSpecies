@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <BodyDef>
-    <defName>AS_WAE_Race</defName>
+    <defName>AS_WAE_Body</defName>
     <label>エンシェントエルフ</label>
     <corePart>
       <def>Torso</def>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- <ThingDef ParentName="BasePawn" Name="AS_WHE_BasePawn" Abstract="True">
+  <ThingDef ParentName="BasePawn" Name="AS_Elf_CommonBasePawn" Abstract="True">
       <thingClass>Pawn</thingClass>
       <category>Pawn</category>
       <selectable>true</selectable>
@@ -9,21 +9,13 @@
       <useHitPoints>false</useHitPoints>
       <hasTooltip>true</hasTooltip>
       <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-      <inspectorTabs>
-      <li>ITab_Pawn_Health</li>
-      <li>ITab_Pawn_Needs</li>
-      <li>ITab_Pawn_Character</li>
-      <li>ITab_Pawn_Training</li>
-      <li>ITab_Pawn_Gear</li>
-      <li>ITab_Pawn_Guest</li>
-      <li>ITab_Pawn_Prisoner</li>
-      <li>ITab_Pawn_Social</li>
-      <li>ITab_Pawn_Log</li>
-      </inspectorTabs>
+      <!-- <inspectorTabs>
+        <li>AS_WHE.ITab_WHE_Tech</li>
+      </inspectorTabs> -->
       <drawGUIOverlay>true</drawGUIOverlay>
-  </ThingDef> -->
+  </ThingDef>
 
-  <ThingDef Name="AS_Elf_CommonBasePawn" Abstract="True">
+  <!-- <ThingDef Name="AS_Elf_CommonBasePawn" Abstract="True">
       <thingClass>Pawn</thingClass>
       <category>Pawn</category>
       <selectable>true</selectable>
@@ -37,7 +29,7 @@
         <Flammability>0.7</Flammability>
       </statBases>
       <inspectorTabs>
-        <!-- <li>AS_WHE.ITab_WHE_Tech</li> -->
+        <li>AS_WHE.ITab_WHE_Tech</li>
         <li>ITab_Pawn_Health</li>
         <li>ITab_Pawn_Needs</li>
         <li>ITab_Pawn_Character</li>
@@ -55,6 +47,6 @@
         </li>
       </comps>
       <drawGUIOverlay>true</drawGUIOverlay>
-  </ThingDef>
+  </ThingDef> -->
 
 </Defs>
