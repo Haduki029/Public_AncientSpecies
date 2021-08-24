@@ -2,9 +2,9 @@
 <Defs>
   <PawnKindDef Name="AS_WAE_CommonBase" Abstract="True">
     <race>AS_WAE_Race</race>
-    <combatPower>45</combatPower>
+    <combatPower>50</combatPower>
     <canBeSapper>true</canBeSapper>
-    <baseRecruitDifficulty>0.6</baseRecruitDifficulty>
+    <baseRecruitDifficulty>0.8</baseRecruitDifficulty>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <apparelAllowHeadgearChance>0.08</apparelAllowHeadgearChance>

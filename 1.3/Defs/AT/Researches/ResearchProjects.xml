@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchTabDef>
+		<defName>AS_ResearchTab</defName>
+		<label>Ancient Species</label>
+	</ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>AS_AncientTechnology</defName>
+    <label>失われた古代の技術</label>
+    <description>失われた古代の技術に関する知識を得る。</description>
+    <baseCost>5500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_Weapons</defName>
+    <label>古代種族の基礎的な武具技術</label>
+    <description>ある古代種族が用いていた技術に関する基礎的なもの。いくつかの武具が作成可能になる。</description>
+    <baseCost>5500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_AncientTechnology</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+</Defs>

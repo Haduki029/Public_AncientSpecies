@@ -4,7 +4,7 @@
   <FactionDef ParentName="WAE_NPC_FactionsBase">
     <defName>AS_WAE_Settlement</defName>
     <label>エンシェントエルフの集落</label>
-    <techLevel>Spacer</techLevel>
+    <techLevel>Industrial</techLevel>
     <description>エンシェントエルフ達の集落。</description>
     <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
     <factionIconPath>WHE/WHE_Faction</factionIconPath>
@@ -41,30 +41,19 @@
       <li>
         <kindDef>Combat</kindDef>
         <options>
-          <AS_WAE_Knight>5</AS_WAE_Knight>
-          <AS_WAE_Hunter>12</AS_WAE_Hunter>
+          <AS_WAE_PKKnight>5</AS_WAE_PKKnight>
+          <AS_WAE_PKHunter>12</AS_WAE_PKHunter>
           <AS_WAE_Villager>5</AS_WAE_Villager>
-        </options>
-      </li>
-      <li>
-          <kindDef>Combat</kindDef>
-          <options>
-            <AS_WAE_Knight>3</AS_WAE_Knight>
-            <AS_WAE_Hunter>5</AS_WAE_Hunter>
-          </options>
-      </li>
-      <li>
-        <kindDef>Combat</kindDef>
-        <options>
-          <AS_WAE_Knight>5</AS_WAE_Knight>
-          <AS_WAE_Hunter>5</AS_WAE_Hunter>
         </options>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
+          <AS_WAE_Villager>5</AS_WAE_Villager>
           <AS_WAE_Knight>5</AS_WAE_Knight>
-          <AS_WAE_Hunter>10</AS_WAE_Hunter>
+          <AS_WAE_Hunter>5</AS_WAE_Hunter>
+          <AS_WAE_PKKnight>5</AS_WAE_PKKnight>
+          <AS_WAE_PKHunter>5</AS_WAE_PKHunter>
         </options>
       </li>
     </pawnGroupMakers>

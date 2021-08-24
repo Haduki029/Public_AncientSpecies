@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ショルダーバック -->
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_ShoulderBack</defName>
+    <description>布で作られたショルダーパック。軽くて丈夫。</description>
+    <label>ショルダーバック（ハーフエルフ）</label>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/backpack/ShoulderBack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costList>
+      <Cloth>50</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>6500</WorkToMake>
+      <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.12</ArmorRating_Heat>
+      <Mass>0.5</Mass>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>80</CarryingCapacity>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/backpack/ShoulderBack</wornGraphicPath>
+      <layers>
+        <li>AS_Backpack</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
+  </ThingDef>
+</Defs>

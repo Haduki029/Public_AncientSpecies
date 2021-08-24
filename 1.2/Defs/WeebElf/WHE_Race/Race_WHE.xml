@@ -154,6 +154,7 @@
         <li>AS_WAE_NobleCoat</li>
         <li>AS_WAE_KnightDress</li>
         <li>AS_WAE_FeatherHelm</li>
+        <li>AS_WHE_ShoulderBack</li>
       </apparelList>
 			<whiteApparelList>
 			  <!-- <li>Apparel_ShieldBelt</li> -->
