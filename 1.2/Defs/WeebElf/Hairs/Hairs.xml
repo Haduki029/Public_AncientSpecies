@@ -119,7 +119,7 @@
 			<li>WHE</li>
 		</hairTags>
 	</HairDef>
-
+<!-- 
 	<HairDef>
 		<defName>AS_WHE_Hair_13</defName>
 		<label>WHE_Hair_13</label>
@@ -138,5 +138,5 @@
 		<hairTags>
 			<li>WHE</li>
 		</hairTags>
-	</HairDef>
+	</HairDef> -->
 </Defs>

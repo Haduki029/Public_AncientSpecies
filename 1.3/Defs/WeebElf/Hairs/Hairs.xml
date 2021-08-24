@@ -136,7 +136,7 @@
 		</styleTags>
 	</HairDef>
 
-	<HairDef>
+	<!-- <HairDef>
 		<defName>AS_WHE_Hair_13</defName>
 		<label>AS ロングヘアー４</label>
 		<styleGender>Female</styleGender>
@@ -156,5 +156,5 @@
 		<styleTags>
 			<li>WHE</li>
 		</styleTags>
-	</HairDef>
+	</HairDef> -->
 </Defs>
