@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- WHE Neolithic Faction -->
+  <FactionDef ParentName="WHE_NPC_FactionsBase">
+    <defName>AS_WHE_Settlement</defName>
+    <label>ハーフエルフの集落</label>
+    <description>ハーフエルフ達の集落。</description>
+    <colorSpectrum>
+      <li>(0.45, 0.72, 0.27)</li>
+    </colorSpectrum>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <techLevel>Neolithic</techLevel>
+    <settlementGenerationWeight>0.2</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+			<li>AS_WHE_Caravan_Free_Marchant</li>
+		</caravanTraderKinds>
+    <maxPawnCostPerTotalPointsCurve><!-- 1.3 ##　-->
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <allowedCultures>
+			<li>AS_WHE_Cultures</li>
+		</allowedCultures><!-- 1.3 ##　-->
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <AS_WHE_Warrior>5</AS_WHE_Warrior>
+          <AS_WHE_Hunter>12</AS_WHE_Hunter>
+          <AS_WHE_Villager>5</AS_WHE_Villager>
+          <AS_WHE_EliteVillager>2</AS_WHE_EliteVillager>
+        </options>
+      </li>
+      <li>
+          <kindDef>Peaceful</kindDef>
+          <options>
+            <AS_WHE_Warrior>3</AS_WHE_Warrior>
+            <AS_WHE_Hunter>5</AS_WHE_Hunter>
+            <AS_WHE_EliteVillager>1</AS_WHE_EliteVillager>
+            <AS_WHE_Villager>3</AS_WHE_Villager>
+            <AS_WHE_Trader>1</AS_WHE_Trader>
+          </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WHE_Warrior>2</AS_WHE_Warrior>
+          <AS_WHE_Hunter>3</AS_WHE_Hunter>
+          <AS_WHE_EliteVillager>1</AS_WHE_EliteVillager>
+          <AS_WHE_Villager>3</AS_WHE_Villager>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+			  <AS_WHE_Trader>1</AS_WHE_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>4</Muffalo>
+          <Dromedary>2</Dromedary>
+          <Alpaca>3</Alpaca>
+        </carriers>
+        <guards>
+          <AS_WHE_Villager>2</AS_WHE_Villager>
+          <AS_WHE_Warrior>3</AS_WHE_Warrior>
+          <AS_WHE_Hunter>5</AS_WHE_Hunter>
+        </guards>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <!-- WHE Medieval Faction -->
+  <FactionDef ParentName="WHE_NPC_FactionsBase">
+    <defName>AS_WHE_Village</defName>
+    <label>ハーフエルフの村</label>
+    <description>ハーフエルフ達の村。</description>
+    <colorSpectrum>
+      <li>(0.55, 0.72, 0.37)</li>
+    </colorSpectrum>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <techLevel>Medieval</techLevel>
+    <settlementGenerationWeight>0.1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <backstoryCategories>
+      <li>AS_WHE_Village_Story</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+			<li>AS_WHE_Caravan_Free_Marchant</li>
+		</caravanTraderKinds>
+    <maxPawnCostPerTotalPointsCurve><!-- 1.3 ##　-->
+      <points>
+        <li>(0,25)</li>
+        <li>(80, 40)</li>
+        <li>(800, 100)</li>
+        <li>(1500, 180)</li>
+        <li>(120000, 12000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <allowedCultures>
+			<li>AS_WHE_Cultures</li>
+		</allowedCultures><!-- 1.3 ##　-->
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <AS_WHE_Fighter>5</AS_WHE_Fighter>
+          <AS_WHE_Shooter>12</AS_WHE_Shooter>
+          <AS_WHE_TownsPeople>1</AS_WHE_TownsPeople>
+          <AS_WHE_EliteTownsPeople>1</AS_WHE_EliteTownsPeople>
+        </options>
+      </li>
+      <li>
+          <kindDef>Peaceful</kindDef>
+          <options>
+            <AS_WHE_Fighter>3</AS_WHE_Fighter>
+            <AS_WHE_Shooter>5</AS_WHE_Shooter>
+            <AS_WHE_EliteTownsPeople>2</AS_WHE_EliteTownsPeople>
+            <AS_WHE_Trader>1</AS_WHE_Trader>
+            <AS_WHE_TownsPeople>2</AS_WHE_TownsPeople>
+          </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WHE_Fighter>2</AS_WHE_Fighter>
+          <AS_WHE_Shooter>4</AS_WHE_Shooter>
+          <AS_WHE_EliteTownsPeople>1</AS_WHE_EliteTownsPeople>
+          <AS_WHE_TownsPeople>2</AS_WHE_TownsPeople>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+			  <AS_WHE_Trader>1</AS_WHE_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>4</Muffalo>
+          <Dromedary>3</Dromedary>
+          <Alpaca>3</Alpaca>
+        </carriers>
+        <guards>
+          <AS_WHE_TownsPeople>2</AS_WHE_TownsPeople>
+          <AS_WHE_EliteTownsPeople>2</AS_WHE_EliteTownsPeople>
+          <AS_WHE_Fighter>3</AS_WHE_Fighter>
+          <AS_WHE_Shooter>4</AS_WHE_Shooter>
+        </guards>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <!-- WHE Industrial Faction -->
+  <FactionDef ParentName="WHE_NPC_FactionsBase">
+    <defName>AS_WHE_Town</defName>
+    <label>ハーフエルフの街</label>
+    <description>ハーフエルフ達の街。</description>
+    <colorSpectrum>
+      <li>(0.55, 0.72, 0.37)</li>
+    </colorSpectrum>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <techLevel>Industrial</techLevel>
+    <settlementGenerationWeight>0.05</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <backstoryCategories>
+      <li>AS_WHE_Villager</li>
+    </backstoryCategories>
+    <caravanTraderKinds>
+			<li>AS_WHE_Caravan_Free_Marchant</li>
+		</caravanTraderKinds>
+    <maxPawnCostPerTotalPointsCurve><!-- 1.3 ##　-->
+      <points>
+        <li>(0,25)</li>
+        <li>(100, 40)</li>
+        <li>(1000, 100)</li>
+        <li>(1900, 180)</li>
+        <li>(150000, 15000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <allowedCultures>
+			<li>AS_WHE_Cultures</li>
+		</allowedCultures><!-- 1.3 ##　-->
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>80</commonality>
+        <options>
+          <AS_WHE_Knight>5</AS_WHE_Knight>
+          <AS_WHE_Archer>5</AS_WHE_Archer>
+          <AS_WHE_Gunner>2</AS_WHE_Gunner>
+          <AS_WHE_EliteCitizen>1</AS_WHE_EliteCitizen>
+          <AS_WHE_Citizen>3</AS_WHE_Citizen>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>80</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+        <options>
+          <AS_WHE_Knight>5</AS_WHE_Knight>
+          <AS_WHE_Archer>5</AS_WHE_Archer>
+          <AS_WHE_Gunner>2</AS_WHE_Gunner>
+          <AS_WHE_EliteCitizen>1</AS_WHE_EliteCitizen>
+          <AS_WHE_Citizen>3</AS_WHE_Citizen>
+        </options>
+      </li>
+      <li>
+          <kindDef>Peaceful</kindDef>
+          <options>
+            <AS_WHE_Knight>2</AS_WHE_Knight>
+            <AS_WHE_Archer>3</AS_WHE_Archer>
+            <AS_WHE_Gunner>1</AS_WHE_Gunner>
+            <AS_WHE_EliteCitizen>2</AS_WHE_EliteCitizen>
+            <AS_WHE_Trader>1</AS_WHE_Trader>
+            <AS_WHE_Citizen>2</AS_WHE_Citizen>
+          </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WHE_Knight>2</AS_WHE_Knight>
+          <AS_WHE_Archer>2</AS_WHE_Archer>
+          <AS_WHE_Gunner>1</AS_WHE_Gunner>
+          <AS_WHE_EliteCitizen>1</AS_WHE_EliteCitizen>
+          <AS_WHE_Citizen>3</AS_WHE_Citizen>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+			  <AS_WHE_Trader>1</AS_WHE_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>7</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>3</Alpaca>
+        </carriers>
+        <guards>
+          <AS_WHE_EliteCitizen>1</AS_WHE_EliteCitizen>
+          <AS_WHE_Citizen>1</AS_WHE_Citizen>
+          <AS_WHE_Knight>3</AS_WHE_Knight>
+          <AS_WHE_Archer>3</AS_WHE_Archer>
+          <AS_WHE_Gunner>1</AS_WHE_Gunner>
+        </guards>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>

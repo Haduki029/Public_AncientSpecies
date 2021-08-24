@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--==============================================PC Settings==============================================-->
+  <PawnKindDef ParentName="AS_WHE_CommonBase">
+    <defName>AS_WHE_Colonist</defName>
+    <label>Harf Elf Colonist</label>
+    <defaultFactionType>AS_WHE_PlayerFaction_Neolithic</defaultFactionType>
+    <isFighter>false</isFighter>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <apparelTags>
+      <li>AS_WHE_Colonist</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>AS_WHE_Tribal</li>
+    </apparelRequired>
+    <apparelMoney>
+			<min>120</min>
+			<max>120</max>
+		</apparelMoney>
+    <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+  </PawnKindDef>
+
+<!--==============================================NPC Settings==============================================-->
+  <!-- villager -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Villager</defName>
+    <label>Half Elf villager</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>80~180</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>85</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Trader -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Trader</defName>
+    <label>Half Elf trader</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <trader>true</trader>
+    <weaponMoney>800~1800</weaponMoney>
+    <apparelMoney>500~2500</apparelMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WHE_Neolithic</li>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.15</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>500</min>
+            <max>650</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- elite villager -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_EliteVillager</defName>
+    <label>Half Elf eliet villager</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>80~180</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- warrior -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Warrior</defName>
+    <label>Half Elf warrior</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>80~250</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- hunter -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Hunter</defName>
+    <label>Half Elf hunter</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>80~250</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+      <li>NeolithicRangedHeavy</li>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- townspeople -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
+    <defName>AS_WHE_TownsPeople</defName>
+    <label>Half Elf townspeople</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>150~250</weaponMoney>
+    <weaponTags>
+      <li>Revolver</li>
+    </weaponTags>
+    <apparelMoney>150~600</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>100~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- eliete townspeople -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
+    <defName>AS_WHE_EliteTownsPeople</defName>
+    <label>Half Elf eliete townspeople</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>150~750</weaponMoney>
+    <weaponTags>
+      <li>Revolver</li>
+    </weaponTags>
+    <apparelMoney>450~900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>100~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <trader>true</trader>
+  </PawnKindDef>
+
+  <!-- fighter -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
+    <defName>AS_WHE_Fighter</defName>
+    <label>Half Elf fighter</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>150~1350</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <apparelMoney>450~900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>150~250</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Shooter -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
+    <defName>AS_WHE_Shooter</defName>
+    <label>Half Elf shooter</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>150~1350</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedChief</li>
+      <li>NeolithicRangedDecent</li>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+    </weaponTags>
+    <apparelMoney>450~900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>150~250</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- citizen -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
+    <defName>AS_WHE_Citizen</defName>
+    <label>Half Elf citizen</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>300~1250</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>NeolithicRangedChief</li>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <apparelMoney>450~1900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>100~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <trader>true</trader>
+  </PawnKindDef>
+
+  <!-- elite citizen -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
+    <defName>AS_WHE_EliteCitizen</defName>
+    <label>Half Elf elite citizen</label>
+    <itemQuality>Good</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>300~1950</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>NeolithicRangedChief</li>
+      <li>NeolithicRangedDecent</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>AS_WHE_NeolithicRangedAdvanced</li>
+      <li>AS_Weapon_Gun</li>
+    </weaponTags>
+    <apparelMoney>450~2900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>100~200</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <trader>true</trader>
+  </PawnKindDef>
+
+  <!-- knight -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
+    <defName>AS_WHE_Knight</defName>
+    <label>Half Elf knight</label>
+    <itemQuality>Good</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>300~1950</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>AS_WHE_Knight</li>
+    </weaponTags>
+    <apparelMoney>450~2900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
+      <li>AS_WHE_Knight</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>150~250</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- archer -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
+    <defName>AS_WHE_Archer</defName>
+    <label>Half Elf archer</label>
+    <itemQuality>Good</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>300~2550</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedChief</li>
+      <li>NeolithicRangedDecent</li>
+      <li>AS_WHE_NeolithicRangedAdvanced</li>
+    </weaponTags>
+    <apparelMoney>450~2900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>150~250</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- gunner -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
+    <defName>AS_WHE_Gunner</defName>
+    <label>Half Elf gunner</label>
+    <itemQuality>Good</itemQuality>
+    <isFighter>true</isFighter>
+    <factionLeader>true</factionLeader>
+    <weaponMoney>360~2650</weaponMoney>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>AS_Weapon_Gun</li>
+    </weaponTags>
+    <apparelMoney>450~2900</apparelMoney>
+    <apparelTags>
+      <li>WHE_Medieval</li>
+      <li>WHE_Industrial</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>150~250</countRange>
+        </li>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1~2</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <!-- Slave -->
+  <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
+    <defName>AS_WHE_Slave</defName>
+    <label>Half Elf Slave</label>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <weaponMoney>20~120</weaponMoney>
+    <apparelMoney>100~150</apparelMoney>
+    <weaponTags>
+      <!-- <li>NeolithicRangedBasic</li> -->
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WHE_Neolithic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WHE_Villager</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>15</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>10</min>
+            <max>20</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+</Defs>
