@@ -98,25 +98,28 @@
     </graphicPaths>
     <styleSettings><!-- 1.3 ##　-->
 		    <li>
-		        <key>HairDef</key>
-		        <value>
-		            <hasStyle>true</hasStyle>
-		            <styleTagsOverride>
-		                <li>AS_Hair</li>
-		            </styleTagsOverride>
-		        </value>
+		      <key>HairDef</key>
+		      <value>
+		        <hasStyle>true</hasStyle>
+		        <styleTagsOverride>
+		          <li>AS_Hair</li>
+		        </styleTagsOverride>
+		      </value>
 		    </li>
         <li>
-				    <key>TattooDef</key>
-				    <value>
-						    <hasStyle>false</hasStyle>
-				    </value>
+				  <key>TattooDef</key>
+				  <value>
+				    <hasStyle>true</hasStyle>
+            <styleTags>
+		          <li>NoTattoo</li>
+		        </styleTags>
+				  </value>
 				</li>
 				<li>
-					  <key>BeardDef</key>
-					  <value>
-					  	  <hasStyle>false</hasStyle>
-				  	</value>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+				  </value>
 				</li>
 		</styleSettings><!-- 1.3 ##　-->
 		<raceRestriction>

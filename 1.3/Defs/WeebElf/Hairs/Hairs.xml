@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<StyleItemCategoryDef>
-		<defName>AS_Hair</defName>
-		<label>エルフの髪型（WE）</label>
-	</StyleItemCategoryDef>
 	<HairDef>
 		<defName>AS_WHE_Hair_01</defName>
 		<label>AS ツインテール１</label>
@@ -92,7 +88,7 @@
 		</styleTags>
 	</HairDef>
 
-	<HairDef>
+	<!-- <HairDef>
 		<defName>AS_WHE_Hair_09</defName>
 		<label>AS ハーフアップ１</label>
 		<styleGender>Female</styleGender>
@@ -123,9 +119,9 @@
 		<styleTags>
 			<li>AS_Hair</li>
 		</styleTags>
-	</HairDef>
+	</HairDef> -->
 
-	<HairDef>
+	<!-- <HairDef>
 		<defName>AS_WHE_Hair_12</defName>
 		<label>AS ロングヘアー４</label>
 		<styleGender>Female</styleGender>
@@ -156,5 +152,5 @@
 		<styleTags>
 			<li>AS_Hair</li>
 		</styleTags>
-	</HairDef>
+	</HairDef> -->
 </Defs>

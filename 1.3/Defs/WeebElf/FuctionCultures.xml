@@ -28,7 +28,7 @@
       </li>
       <li>
         <tag>NoTattoo</tag>
-        <baseWeight>1</baseWeight>
+        <baseWeight>10</baseWeight>
         <weightFactor>1</weightFactor>
       </li>
     </styleItemTags>
@@ -61,7 +61,7 @@
       </li>
       <li>
         <tag>NoTattoo</tag>
-        <baseWeight>1</baseWeight>
+        <baseWeight>10</baseWeight>
         <weightFactor>1</weightFactor>
       </li>
     </styleItemTags>
