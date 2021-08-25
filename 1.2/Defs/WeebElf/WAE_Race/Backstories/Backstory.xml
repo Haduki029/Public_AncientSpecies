@@ -26,8 +26,10 @@
 			<li>AS_WAE_Colonist</li>
 			<li>AS_WAE_Villager</li>
 			<li>AS_WAE_PKHunter</li>
+			<li>AS_WAE_BSPKHunter</li>
 			<li>AS_WAE_PKKnight</li>
-			<li>AS_WAE_Hunter</li>
+			<li>AS_WAE_BSKnight</li>
+			<li>AS_WAE_BSPKKnight</li>
 			<li>AS_WAE_Hunter</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
