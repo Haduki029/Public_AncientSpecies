@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WAE_NobleCoat</defName>
+    <description>エンシェントエルフの貴族階級者が愛用している、戦闘用のコート。非常に丈夫なだけでなく、装備者の戦闘能力に補正がかかる。</description>
+    <label>貴族のコート（エンシェントエルフ）</label>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>WAE/Apparels/coat/NobleCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <Hyperweave>50</Hyperweave>
+      <Gold>20</Gold>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>380</MaxHitPoints>
+      <WorkToMake>45500</WorkToMake>
+      <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.44</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.46</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.79</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.56</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.41</ArmorRating_Heat>
+      <Insulation_Cold>22</Insulation_Cold>
+      <Insulation_Heat>11</Insulation_Heat>
+      <Mass>4</Mass>
+      <Flammability>0.01</Flammability>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.2</MoveSpeed>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AimingDelayFactor>-0.2</AimingDelayFactor>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <MeleeHitChance>0.2</MeleeHitChance>
+      <MeleeDodgeChance>0.2</MeleeDodgeChance>
+      <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
+      <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
+      <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+      <SocialImpact>0.15</SocialImpact>
+      <CarryingCapacity>10</CarryingCapacity>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WAE_Apparels</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WAE/Apparels/coat/NobleCoat</wornGraphicPath>
+      <layers>
+        <li>AS_Coat</li>
+      </layers>
+      <tags>
+        <li>AS_WAE_Hunter</li>
+        <li>AS_WAE_Knight</li>
+        <li>WHE_Industrial</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    
+  </ThingDef>
+</Defs>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_BaseMeleeWeapon_Blunt_Quality">
 		<defName>AS_AT_Impact_Knuckles</defName>
@@ -13,7 +13,7 @@
 			<texPath>AT/Weapons/ImpactKnuckles</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-    <!-- <followStuffColor>false</followStuffColor> -->
+    
     <costStuffCount>60</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>AS_WHE_InstallBionicEar</defName>
@@ -37,7 +37,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <!-- <li>AS_WHE_Ear</li> -->
+      
       <li>Ear</li>
     </appliedOnFixedBodyParts>
     <addsHediff>AS_WHE_BionicEar</addsHediff>

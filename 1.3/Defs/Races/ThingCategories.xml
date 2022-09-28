@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel</defName>
+	<label>ancient sages apparel</label>
+	<parent>Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel_Legs</defName>
+	<label>ancient sages legs apparel</label>
+	<parent>AS_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel_Middle</defName>
+	<label>ancient sages middle apparel</label>
+	<parent>AS_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel_Neck</defName>
+	<label>ancient sages neck apparel</label>
+	<parent>AS_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel_OnSkin</defName>
+	<label>ancient sages onskin apparel</label>
+	<parent>AS_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel_OverHead</defName>
+	<label>ancient sages overhead apparel</label>
+	<parent>AS_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel_Shell</defName>
+	<label>ancient sages shell apparel</label>
+	<parent>AS_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Apparel_UnderMiddle</defName>
+	<label>ancient sages under middle apparel</label>
+	<parent>AS_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_Weapons</defName>
+	<label>ancient sages weapons</label>
+	<parent>Weapons</parent>
+</ThingCategoryDef>
+
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel</defName>
+	<label>half elven apparel</label>
+	<parent>Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel_Legs</defName>
+	<label>half elven legs apparel</label>
+	<parent>AS_WHE_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel_Middle</defName>
+	<label>half elven middle apparel</label>
+	<parent>AS_WHE_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel_Neck</defName>
+	<label>half elven neck apparel</label>
+	<parent>AS_WHE_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel_OnSkin</defName>
+	<label>half elven onskin apparel</label>
+	<parent>AS_WHE_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel_OverHead</defName>
+	<label>half elven overhead apparel</label>
+	<parent>AS_WHE_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel_Shell</defName>
+	<label>half elven shell apparel</label>
+	<parent>AS_WHE_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Apparel_UnderMiddle</defName>
+	<label>half elven under middle apparel</label>
+	<parent>AS_WHE_Apparel</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>AS_WHE_Weapons</defName>
+	<label>half elven weapons</label>
+	<parent>Weapons</parent>
+</ThingCategoryDef>
+
+</Defs>

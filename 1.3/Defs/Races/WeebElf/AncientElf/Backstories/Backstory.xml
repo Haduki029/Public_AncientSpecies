@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_NormalChild</defName>
+		<title>エルフ村の子供</title>
+		<titleShort>エルフ村の子供</titleShort>
+		<baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</baseDescription>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>AS_WAE_Village_Story</li>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_Villager</li>
+			<li>AS_WAE_PKHunter</li>
+			<li>AS_WAE_BSPKHunter</li>
+			<li>AS_WAE_PKKnight</li>
+			<li>AS_WAE_BSKnight</li>
+			<li>AS_WAE_BSPKKnight</li>
+			<li>AS_WAE_Hunter</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_SlaveChild</defName>
+		<title>エルフの子供奴隷</title>
+		<titleShort>エルフの子供奴隷</titleShort>
+		<baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</baseDescription>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_Slave</li>
+			<li>AS_WAE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_HunterAdult</defName>
+		<title>エルフの狩人</title>
+		<titleShort>エルフの狩人</titleShort>
+		<baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>20</chance>
+			</li>
+		</forcedTraits>
+		<spawnCategories>
+			<li>AS_WAE_Village_Story</li>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_BSHunter</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_SlaveAdult</defName>
+		<title>エルフの奴隷</title>
+		<titleShort>エルフの奴隷</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<forcedTraits>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WAE_Village_Story</li>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_Slave</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_NormalAdult</defName>
+		<title>エルフの民</title>
+		<titleShort>エルフの民</titleShort>
+		<baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_PKHunterAdult</defName>
+		<title>エルフの凄腕狩人</title>
+		<titleShort>エルフの凄腕狩人</titleShort>
+		<baseDescription>[PAWN_nameDef]は集落の中でもとびきり腕の立つ狩人だ。 [PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>80</chance>
+			</li>
+		</forcedTraits>
+		<spawnCategories>
+			<li>AS_WAE_BackStory</li>
+			<li>AS_WAE_BSPKHunter</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_KnightAdult</defName>
+		<title>エルフの騎士</title>
+		<titleShort>エルフの騎士</titleShort>
+		<baseDescription>[PAWN_nameDef]は集落を敵から守る騎士だ。 [PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		
+		<forcedTraits>
+			<li>
+				<defName>Brawler</defName>
+				<chance>0.2</chance>
+			</li>
+			<li>
+				<defName>Tough</defName>
+				<chance>0.3</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>0.2</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>0.2</chance>
+			</li>
+		</forcedTraits>
+		<spawnCategories>
+			<li>AS_WAE_BackStory</li>
+			<li>AS_WAE_BSKnight</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_PKKnightAdult</defName>
+		<title>エルフの守護騎士</title>
+		<titleShort>エルフの守護騎士</titleShort>
+		<baseDescription>[PAWN_nameDef]は集落を敵から守る騎士の中でも、特に強い。 [PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		
+		<forcedTraits>
+			<li>
+				<defName>Brawler</defName>
+				<chance>0.4</chance>
+			</li>
+			<li>
+				<defName>Tough</defName>
+				<chance>0.7</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>0.2</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>0.4</chance>
+			</li>
+		</forcedTraits>
+		<spawnCategories>
+			<li>AS_WAE_BackStory</li>
+			<li>AS_WAE_BSPKKnight</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+</Defs>
