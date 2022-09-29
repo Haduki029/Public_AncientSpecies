@@ -13,7 +13,7 @@
     <description>エンシェントエルフは、一部の辺境の惑星に住んでいる種族です。\n人間の4倍ほどの寿命があり、ある特殊な器官の働きにより、身体能力もかなり優れています。\n非常に数が少なく、高額で取引されていますが、基本敵対的な場合が多い種族です。\nハーフエルフはこのエンシェントエルフを基にして造られた種族と言われていますが、一部ではこのエンシェントエルフ自体も、古代の技術で造られたのではないかという説があります。</description>
     <alienRace>
 		<generalSettings>
-			<maleGenderProbability>0.00</maleGenderProbability>
+			<maleGenderProbability>0.00000001</maleGenderProbability>
         
 			  <immuneToAge>true</immuneToAge>
         <canLayDown>true</canLayDown>
