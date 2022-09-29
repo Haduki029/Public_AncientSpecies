@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--■命名規則-->
+  <RulePackDef>
+    <defName>NamerPerson_HAR_Template</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[HAR_Template_Firstname] [HAR_Template_Lastname]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>HAR_Template_Firstname</keyword>
+          <path>NameGen/HAR_Template_First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>HAR_Template_Lastname</keyword>
+          <path>NameGen/HAR_Template_Last</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

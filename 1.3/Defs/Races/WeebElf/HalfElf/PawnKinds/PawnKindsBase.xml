@@ -18,7 +18,7 @@
 		<initialResistanceRange>17~26</initialResistanceRange>
 		<styleItemTags>
 			<li>
-				<tag>AS_Hair</tag>
+				<tag>AS_WEl_Hairs</tag>
 				<baseWeight>1</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>

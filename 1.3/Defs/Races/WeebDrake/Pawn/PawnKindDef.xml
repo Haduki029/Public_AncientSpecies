@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="HAR_Template_KindBase" Abstract="True">
+		<race>HAR_Template</race>
+		<combatPower>80</combatPower><!--											■強さ、襲撃時の規模の計算に使われる、また低いと肉食動物の得物として狙われることがある-->
+		<baseRecruitDifficulty>0.30</baseRecruitDifficulty><!--						■勧誘確率-->
+		<chemicalAddictionChance>0.005</chemicalAddictionChance><!--				■中毒を患っている確率-->
+		<maxGenerationAge>80</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality><!--	■冷凍睡眠をしていた確率-->
+		<apparelMoney><!--															■↓生成時の服の価値の設定、この設定より高い服は装備してこない。またなにも装備できるものがないとエラーを吐く場合がある-->
+			<min>1000</min>
+			<max>1500</max>
+		</apparelMoney>
+		<weaponMoney><!--															■↓生成時の武器の価値の設定、この設定より高い武器は装備してこない-->
+			<min>300</min>
+			<max>500</max>
+		</weaponMoney>
+		<techHediffsMoney><!--														■↓生成時の義手義足など改造部位の価値の設定、この設定より高い武器は装備してこない-->
+			<min>1000</min>
+			<max>1500</max>
+		</techHediffsMoney>
+		<techHediffsChance>0.05</techHediffsChance><!--								■生成時の義手義足など改造部位の機会、高いほど身体を改造している-->
+		<invNutrition>2.55</invNutrition><!--										■このPawnの栄養？、そのまま食ったりしたときに使われる-->
+		<inventoryOptions><!--														■↓所持しているアイテム、初期設定ではシルバーを10～50まで持ってくることがある-->
+			<skipChance>0.75</skipChance><!--										■持ってくることを無視する確率-->
+				<subOptionsChooseOne>
+				<li>
+					<choiceChance>10</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>10</min>
+						<max>50</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<weaponTags><!--														■↓生成時に持っている武器-->
+			<li>Gun</li>
+		</weaponTags>
+		<initialWillRange>3~5</initialWillRange><!--							■1.3以降　初期意志範囲-->
+		<initialResistanceRange>17~26</initialResistanceRange><!--				■1.3以降　初期抵抗範囲-->
+		<styleItemTags><!--														■1.3以降　髪・髭・タトゥー設定-->
+			<li>
+				<tag>HAR_Template_C_Hair</tag>
+				<baseWeight>99999</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</PawnKindDef>
+
+
+
+	<PawnKindDef ParentName="HAR_Template_KindBase"><!--						■プレイヤー_Pawn-->
+		<defName>HAR_Template_Player</defName>
+		<label>テンプレ</label>
+		<defaultFactionType>HAR_Template_P_Faction</defaultFactionType>
+		<isFighter>true</isFighter>
+		<backstoryCategories><!--												■↓生い立ち-->
+			<li>HAR_Template_Player</li>
+		</backstoryCategories>
+	</PawnKindDef>
+
+
+
+
+
+
+
+
+	<PawnKindDef Name="HAR_Template_KindBase_NPC" ParentName="HAR_Template_KindBase" Abstract="True"><!--	■NPC_Pawn-->
+		<label>NPCテンプレ</label>
+		<defaultFactionType>HAR_Template_Faction_NPC</defaultFactionType><!--		■所属-->
+		<isFighter>true</isFighter><!--											■戦闘員であるかどうか-->
+		<canBeSapper>true</canBeSapper>
+		<backstoryCategories><!--												■↓生い立ちー-->
+			<li>HAR_Template_NPC_Resident</li>
+		</backstoryCategories>
+		<weaponMoney>2000</weaponMoney><!--										■生成時の武器の価値の設定、この設定より高い武器は装備してこない-->
+		<apparelMoney>2000</apparelMoney><!--									■生成時の服の価値の設定、この設定より高い服は装備してこない-->
+		<apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance><!--		■頭装備をしている確率-->
+		<gearHealthRange><!--													■装備の消耗度-->
+			<min>0.2</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<weaponTags><!--														■持ってくる装備-->
+			<li>Gun</li>
+		</weaponTags>
+		<itemQuality>Good</itemQuality><!--										■装備してくるもののクオリティ-->
+		<biocodeWeaponChance>0.1</biocodeWeaponChance><!--						■持っている装備がバイオコードされている確率-->
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="HAR_Template_KindBase_NPC">
+		<defName>HAR_Template_NPC_Trader</defName><!--							■NPC住人-->
+		<label>NPCテンプレのトレーダー</label>
+		<factionLeader>true</factionLeader><!--									■リーダーであるかどうか-->
+		<trader>true</trader><!--												■トレーダーであるかどうか-->
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="HAR_Template_KindBase_NPC">
+		<defName>HAR_Template_NPC_Leader</defName><!--							■NPC住人-->
+		<label>NPCテンプレのリーダー</label>
+		<factionLeader>true</factionLeader><!--									■リーダーであるかどうか-->
+		<trader>true</trader><!--												■トレーダーであるかどうか-->
+	</PawnKindDef>
+	
+	
+	<PawnKindDef ParentName="HAR_Template_KindBase_NPC">
+		<defName>HAR_Template_NPC_Resident</defName><!--						■NPC住人-->
+		<label>NPCテンプレの兵士</label>
+	</PawnKindDef>
+
+
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  <StyleItemCategoryDef>
+    <defName>AS_WDk_Hairs</defName>
+    <label>ASドレイク髪型</label>
+  </StyleItemCategoryDef>
+
+	<HairDef>
+		<defName>AS_WDk_Hair_01</defName>
+		<label>ASドレイクロングヘア１</label>
+		<styleGender>Female</styleGender>
+		<texPath>WDk/Hairs/WDk_031</texPath>
+		<category>AS_WDk_Hairs</category>
+		<styleTags>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_WDk_Hair_02</defName>
+		<label>ASドレイクウェーブロング１</label>
+		<styleGender>Female</styleGender>
+		<texPath>WDk/Hairs/WDk_032</texPath>
+		<category>AS_WDk_Hairs</category>
+		<styleTags>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+</Defs>
