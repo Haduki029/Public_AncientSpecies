@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef>
+		<defName>AS_Drake_Player_Faction</defName>
+		<label>ドレイクプレイヤー派閥</label>
+		<description>テンプレ達の説明</description>
+		<pawnSingular>ドレイク</pawnSingular><!-- 派閥に所属するPawnの呼称 -->
+		<pawnsPlural>ドレイク</pawnsPlural><!-- 派閥に所属するPawn達の総称 -->
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>AS_WDk_Player</basicMemberKind>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategories><!-- 生い立ち -->
+			<li>AS_WDk_Player</li>
+		</backstoryCategories>
+		<settlementTexturePath>WDk/WDk_Faction</settlementTexturePath><!-- 派閥アイコン -->
+		<factionIconPath>WDk/WDk_Faction</factionIconPath><!-- 派閥アイコン -->
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags><!-- 初期研究 -->
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<raidLootValueFromPointsCurve>
+			<points>
+				<li>(35,     15)</li>
+				<li>(100,   120)</li>
+				<li>(1000,  500)</li>
+				<li>(2000,  800)</li>
+				<li>(4000, 1000)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
+		<allowedCultures MayRequire="Ludeon.RimWorld.Ideology"><!-- 初期思想 -->
+			<li>AS_WDk_BasicCuluture</li>
+		</allowedCultures>
+	</FactionDef>
+</Defs>

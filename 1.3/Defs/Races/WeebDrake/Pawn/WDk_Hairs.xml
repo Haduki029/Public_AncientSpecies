@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>  
-  <StyleItemCategoryDef>
-    <defName>AS_WDk_Hairs</defName>
-    <label>ASドレイク髪型</label>
-  </StyleItemCategoryDef>
-
+<Defs>
 	<HairDef>
 		<defName>AS_WDk_Hair_01</defName>
 		<label>ASドレイクロングヘア１</label>
@@ -12,6 +7,7 @@
 		<texPath>WDk/Hairs/WDk_031</texPath>
 		<category>AS_WDk_Hairs</category>
 		<styleTags>
+			<li>AS_Style</li>
 			<li>AS_WDk_Hairs</li>
 		</styleTags>
 	</HairDef>
@@ -23,6 +19,7 @@
 		<texPath>WDk/Hairs/WDk_032</texPath>
 		<category>AS_WDk_Hairs</category>
 		<styleTags>
+			<li>AS_Style</li>
 			<li>AS_WDk_Hairs</li>
 		</styleTags>
 	</HairDef>

@@ -1,28 +1,58 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-<ThingDef Name="AS_WAE_BasePawn" ParentName="AS_Elf_CommonBasePawn" Abstract="True">
+  <ThingDef Name="AS_WHE_BasePawn" ParentName="AS_Elf_CommonBasePawn" Abstract="True">
       <statBases>
-        <Mass>70</Mass>
+        <Mass>60</Mass>
         <Flammability>0.7</Flammability>
       </statBases>
   </ThingDef>
 
-<AlienRace.ThingDef_AlienRace ParentName="AS_WAE_BasePawn">
-    <defName>AS_WAE_Race</defName>
-    <label>エンシェントエルフ</label>
-    <description>エンシェントエルフは、一部の辺境の惑星に住んでいる種族です。\n人間の4倍ほどの寿命があり、ある特殊な器官の働きにより、身体能力もかなり優れています。\n非常に数が少なく、高額で取引されていますが、基本敵対的な場合が多い種族です。\nハーフエルフはこのエンシェントエルフを基にして造られた種族と言われていますが、一部ではこのエンシェントエルフ自体も、古代の技術で造られたのではないかという説があります。</description>
+  <AlienRace.ThingDef_AlienRace ParentName="AS_WHE_BasePawn">
+    <defName>AS_WHE_Race</defName>
+    <label>ハーフエルフ</label>
+    <description>ハーフエルフはグリッターワールドの技術を駆使し、人間とエルフの特徴を組み合わせ造られた種族です。\n本来存在し得ない辺境の惑星に住んでいるこの種族は、宙族の間で違法に売買されていた個体が、宇宙船のトラブルにより辺境の惑星に不時着し、定住したものだと思われています。\n射撃・狩猟・栽培・調理など、全般的に優れた能力を持ち、サバイバル能力は高いですが、閉鎖的で、かなりの機械音痴です。</description>
     <alienRace>
 		<generalSettings>
 			<maleGenderProbability>0.00000001</maleGenderProbability>
       <immuneToXenophobia>true</immuneToXenophobia><!-- この種族が異星人嫌いの対象になるかどうかの設定 -->
-        <maxDamageForSocialfight>8</maxDamageForSocialfight><!--喧嘩時の最大ダメージ-->
+        <maxDamageForSocialfight>6</maxDamageForSocialfight><!--喧嘩時の最大ダメージ-->
 			  <immuneToAge>true</immuneToAge>
         <canLayDown>true</canLayDown>
         <forcedRaceTraitEntries>
           <li>
+            <defName>Beauty</defName>
+            <degree>1</degree>
+            <chance>20</chance>
+          </li>
+          <li>
+            <defName>Beauty</defName>
+            <degree>2</degree>
+            <chance>20</chance>
+          </li>
+          <li>
+            <defName>AS_WeebElf_OdTrait</defName>
+            <degree>1</degree>
+            <chance>60</chance>
+          </li>
+          <li>
+            <defName>AS_WeebElf_OdTrait</defName>
+            <degree>2</degree>
+            <chance>30</chance>
+          </li>
+          <li>
+            <defName>AS_WeebElf_OdTrait</defName>
+            <degree>3</degree>
+            <chance>6</chance>
+          </li>
+          <li>
+            <defName>AS_WeebElf_OdTrait</defName>
+            <degree>4</degree>
+            <chance>3</chance>
+          </li>
+          <li>
             <defName>AS_WeebElf_ManaTrait</defName>
             <degree>1</degree>
-            <chance>100</chance>
+            <chance>1</chance>
           </li>
         </forcedRaceTraitEntries>
         <disallowedTraits>
@@ -34,7 +64,9 @@
         <factionRelations>
           <li>
             <factions>
-              <li>AS_WAE_Settlement</li>
+              <li>AS_WHE_Settlement</li>
+              <li>AS_WHE_Village</li>
+              <li>AS_WHE_Town</li>
             </factions>
             <goodwill>
               <min>100</min>
@@ -52,31 +84,6 @@
           <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
           <customPortraitDrawSize>(1.05, 1.05)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1.05, 1.05)</customPortraitHeadDrawSize>
-          
-          <colorChannels>
-            <li>
-              <name>skin</name>
-              <first Class="ColorGenerator_Options">
-                <options>
-                  <li>
-                    <weight>1</weight>
-                    <only>RGBA(1,0.95,0.8,1)</only>
-                  </li>
-                </options>
-              </first>
-            </li>
-            <li>
-              <name>hair</name>
-              <first Class="ColorGenerator_Options">
-                <options>
-                  <li>
-                    <weight>1</weight> 
-                    <only>RGBA(1,1,0.42,1)</only>
-                  </li>
-                </options>
-              </first>
-            </li>
-          </colorChannels>
           <aliencrowntypes>
             <li>F_WHE_1</li>
             <li>F_WHE_2</li>
@@ -183,9 +190,9 @@
 	</alienRace>
   
   <statBases>
-    <MarketValue>2000</MarketValue>
+    <MarketValue>1500</MarketValue>
     <MoveSpeed>4.9</MoveSpeed>
-	  <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+	  <MentalBreakThreshold>0.02</MentalBreakThreshold>
     <ComfyTemperatureMax>34</ComfyTemperatureMax>
     <ComfyTemperatureMin>4</ComfyTemperatureMin>
     <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
@@ -195,40 +202,40 @@
     <LeatherAmount>60</LeatherAmount>
     <PainShockThreshold>1.0</PainShockThreshold>
     
-    <ShootingAccuracyPawn>1.3</ShootingAccuracyPawn>
-    <AimingDelayFactor>0.8</AimingDelayFactor> 
+    <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+    <AimingDelayFactor>0.9</AimingDelayFactor> 
     <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
     <MeleeDodgeChance>0.05</MeleeDodgeChance>
     
-    <WorkSpeedGlobal>1.1</WorkSpeedGlobal> 
+    <WorkSpeedGlobal>1.05</WorkSpeedGlobal> 
     
-    <NegotiationAbility>0.8</NegotiationAbility>
-    <SellPriceFactor>0.8</SellPriceFactor> 
+    <NegotiationAbility>0.9</NegotiationAbility>
+    <SellPriceFactor>0.9</SellPriceFactor> 
     <SocialImpact>1.0</SocialImpact> 
     
-    <TameAnimalChance>1.2</TameAnimalChance> 
-    <TrainAnimalChance>1.2</TrainAnimalChance> 
+    <TameAnimalChance>1.1</TameAnimalChance> 
+    <TrainAnimalChance>1.1</TrainAnimalChance> 
     
-    <AnimalGatherSpeed>1.2</AnimalGatherSpeed> 
-    <AnimalGatherYield>1.2</AnimalGatherYield> 
+    <AnimalGatherSpeed>1.05</AnimalGatherSpeed> 
+    <AnimalGatherYield>1.05</AnimalGatherYield> 
     
-    <MiningSpeed>1.0</MiningSpeed>
-    <DeepDrillingSpeed>0.45</DeepDrillingSpeed>
+    <MiningSpeed>0.90</MiningSpeed>
+    <DeepDrillingSpeed>0.70</DeepDrillingSpeed>
     
-    <HuntingStealth>1.2</HuntingStealth> 
+    <HuntingStealth>1.1</HuntingStealth> 
     
-    <ButcheryMechanoidEfficiency>0.2</ButcheryMechanoidEfficiency> 
-    <ButcheryMechanoidSpeed>0.3</ButcheryMechanoidSpeed> 
+    <ButcheryMechanoidEfficiency>0.6</ButcheryMechanoidEfficiency> 
+    <ButcheryMechanoidSpeed>0.6</ButcheryMechanoidSpeed> 
     
-    <ButcheryFleshEfficiency>1.4</ButcheryFleshEfficiency> 
-    <ButcheryFleshSpeed>1.4</ButcheryFleshSpeed> 
-    <FoodPoisonChance>0.8</FoodPoisonChance> 
-    <CookSpeed>1.0</CookSpeed> 
+    <ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency> 
+    <ButcheryFleshSpeed>1.2</ButcheryFleshSpeed> 
+    <FoodPoisonChance>0.9</FoodPoisonChance> 
+    <CookSpeed>1.1</CookSpeed> 
 	  
-	  <PlantWorkSpeed>1.3</PlantWorkSpeed> 
-    <PlantHarvestYield>1.3</PlantHarvestYield> 
+	  <PlantWorkSpeed>1.15</PlantWorkSpeed> 
+    <PlantHarvestYield>1.15</PlantHarvestYield> 
     
-    <ResearchSpeed>0.5</ResearchSpeed>
+    <ResearchSpeed>1.0</ResearchSpeed>
   </statBases>
 
     <tools>
@@ -237,14 +244,14 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.3</cooldownTime>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>19</amount>
+              <amount>16</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -254,14 +261,14 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.3</cooldownTime>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>19</amount>
+              <amount>16</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -271,7 +278,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12</power>
+        <power>10</power>
         <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.4</chanceFactor>
@@ -281,8 +288,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.2</cooldownTime>
+        <power>7</power>
+        <cooldownTime>1.4</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.1</chanceFactor>
@@ -294,16 +301,16 @@
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
-      <lifeExpectancy>400</lifeExpectancy>
+      <lifeExpectancy>200</lifeExpectancy>
       <leatherDef>Leather_Human</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       
-	    <body>AS_WAE_Body</body>
+	    <body>AS_WHE_Body</body>
       <baseBodySize>1</baseBodySize>
-      <baseHealthScale>1.2</baseHealthScale>
+      <baseHealthScale>1.05</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>
-      <meatMarketValue>1.2</meatMarketValue>
+      <meatMarketValue>0.8</meatMarketValue>
       <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
       <litterSizeCurve>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.RaceSettings>
+	<defName>AS_WDk_RaceSettings</defName>
+	<pawnKindSettings>
+		<alienslavekinds><!-- 奴隷 -->
+			<li>
+				<kindDefs>
+					<li>AS_WDk_Player</li>
+				</kindDefs>
+				<chance>0.01</chance><!-- 確率 -->
+			</li>
+		</alienslavekinds>
+		<alienwandererkinds><!-- 亡命 -->
+			<li>
+				<pawnKindEntries>
+					<li>
+						<kindDefs>
+							<li>AS_WDk_Player</li>
+						</kindDefs>
+						<chance>0.01</chance><!--■確率-->
+					</li>
+				</pawnKindEntries>
+				<factionDefs>
+					<li>AS_Drake_Player_Faction</li> 
+				</factionDefs>
+			</li>
+		</alienwandererkinds>
+		<alienrefugeekinds><!-- 救命ポッド・冷凍睡眠マシン -->
+			<li>
+				<kindDefs>
+					<li>AS_WDk_Player</li>
+				</kindDefs>
+				<chance>0.3</chance><!-- 確率 -->
+			</li>
+		</alienrefugeekinds>
+		<startingColonists><!-- ランダム生成 -->
+			<li>
+				<pawnKindEntries>
+					<li>
+						<kindDefs>
+							<li>AS_WDk_Player</li>
+						</kindDefs>
+						<chance>20.0</chance><!-- 確率 -->
+					</li>
+				</pawnKindEntries>
+				<factionDefs>
+					<li>AS_Drake_Player_Faction</li>
+				</factionDefs>
+			</li>
+		</startingColonists>
+	</pawnKindSettings>
+</AlienRace.RaceSettings>
+
+</Defs>

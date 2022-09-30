@@ -13,8 +13,8 @@
     <graphicData>
       <texPath>WHE/Weapons/Melee/AncientElfSword_Reproduction_Drop</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.1</drawSize>
-      <drawOffset>1.0,0,0</drawOffset>
+      <drawSize>1.0</drawSize>
+      <drawOffset>0.0,0,0</drawOffset>
     </graphicData>
     <costStuffCount>120</costStuffCount>
     <stuffCategories>

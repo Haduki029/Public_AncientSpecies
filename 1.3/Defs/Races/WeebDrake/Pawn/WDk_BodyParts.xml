@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<BodyPartDef>
+		<defName>AS_WDk_Tail</defName>
+		<label>drake's tail</label>
+		<hitPoints>40</hitPoints>
+		<frostbiteVulnerability>2</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    <BodyPartDef>
+		<defName>AS_WDk_RightHorn</defName>
+		<label>drake's right horn</label>
+		<hitPoints>25</hitPoints>
+		<frostbiteVulnerability>3</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+	</BodyPartDef>
+    <BodyPartDef>
+		<defName>AS_WDk_LeftHorn</defName>
+		<label>drake's left horn</label>
+		<hitPoints>25</hitPoints>
+		<frostbiteVulnerability>3</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+	</BodyPartDef>
+    <BodyPartDef>
+		<defName>AS_WDk_RightWing</defName>
+		<label>drake's right wing</label>
+		<hitPoints>45</hitPoints>
+		<frostbiteVulnerability>3</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+    <BodyPartDef>
+		<defName>AS_WDk_LeftWing</defName>
+		<label>drake's left wing</label>
+		<hitPoints>45</hitPoints>
+		<frostbiteVulnerability>3</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<beautyRelated>true</beautyRelated>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+</Defs>
