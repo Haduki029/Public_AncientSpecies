@@ -44,7 +44,7 @@
         <li>(100000, 10000)</li>
       </points>
     </raidLootValueFromPointsCurve>
-    <allowedCultures>
+    <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
 			<li>AS_WHE_Cultures</li>
 		</allowedCultures>
   </FactionDef>

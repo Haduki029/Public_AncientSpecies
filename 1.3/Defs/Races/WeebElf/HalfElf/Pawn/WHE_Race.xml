@@ -59,7 +59,6 @@
 					<li><defName>AnnoyingVoice</defName></li>
 					<li><defName>CreepyBreathing</defName></li>
 				</disallowedTraits>
-        
         <humanRecipeImport>true</humanRecipeImport>
         <factionRelations>
           <li>
@@ -76,10 +75,6 @@
         </factionRelations>
 		    <alienPartGenerator>
           <headOffset>(0.00, 0.00)</headOffset>
-          <!-- <customDrawSize>(1.15, 1.15)</customDrawSize>
-          <customHeadDrawSize>(1.15, 1.15)</customHeadDrawSize>
-          <customPortraitDrawSize>(1.25, 1.25)</customPortraitDrawSize>
-          <customPortraitHeadDrawSize>(1.25, 1.25)</customPortraitHeadDrawSize> -->
           <customDrawSize>(0.95, 0.95)</customDrawSize>
           <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
           <customPortraitDrawSize>(1.05, 1.05)</customPortraitDrawSize>
@@ -117,7 +112,7 @@
 		        </styleTagsOverride>
 		      </value>
 		    </li>
-        <li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">
 				  <key>TattooDef</key>
 				  <value>
 				    <hasStyle>true</hasStyle>
@@ -134,7 +129,6 @@
 				</li>
 		</styleSettings>
 		<raceRestriction>
-    
       <apparelList>
         <li>AS_WHE_UnderwearA</li>
         <li>AS_WHE_UnderwearB</li>

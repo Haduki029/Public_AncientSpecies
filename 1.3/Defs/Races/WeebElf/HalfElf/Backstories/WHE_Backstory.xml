@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_a</defName>
 		<title>ハーフエルフ村の子供</title>
@@ -27,7 +26,6 @@
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_b</defName>
 		<title>ハーフエルフの子供奴隷</title>
@@ -49,7 +47,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_c</defName>
 		<title>ハーフエルフの子供調教師</title>
@@ -69,7 +66,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_d</defName>
 		<title>ハーフエルフの子供農夫</title>
@@ -89,7 +85,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_e</defName>
 		<title>ハーフエルフの子供狩人</title>
@@ -110,11 +105,9 @@
 			<li>AS_WHE_Village_Story</li>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
-			
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_f</defName>
 		<title>ハーフエルフの子供建築士</title>
@@ -133,7 +126,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_g</defName>
 		<title>ハーフエルフの子供調理師</title>
@@ -152,7 +144,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_h</defName>
 		<title>ハーフエルフの子供薬師</title>
@@ -175,7 +166,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_i</defName>
 		<title>ハーフエルフの子供戦士</title>
@@ -198,7 +188,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_j</defName>
 		<title>ハーフエルフの子供鍛冶師</title>
@@ -218,7 +207,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_k</defName>
 		<title>ハーフエルフの子供鍛冶師</title>
@@ -237,7 +225,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_l</defName>
 		<title>ハーフエルフの天才児</title>
@@ -265,7 +252,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_m</defName>
 		<title>ハーフエルフの無口な子供</title>
@@ -292,7 +278,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_n</defName>
 		<title>ハーフエルフの子供</title>
@@ -311,7 +296,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_o</defName>
 		<title>ハーフエルフの子供</title>
@@ -331,7 +315,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_p</defName>
 		<title>ハーフエルフの子供</title>
@@ -351,7 +334,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_q</defName>
 		<title>ハーフエルフの子供</title>
@@ -370,7 +352,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_r</defName>
 		<title>ハーフエルフの子供</title>
@@ -389,7 +370,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_s</defName>
 		<title>ハーフエルフの子供</title>
@@ -408,7 +388,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryChild_t</defName>
 		<title>ハーフエルフの子供</title>
@@ -427,7 +406,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_a</defName>
 		<title>ハーフエルフの民</title>
@@ -447,7 +425,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_b</defName>
 		<title>ハーフエルフの狩人</title>
@@ -460,7 +437,6 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		
 		<forcedTraits>
 			<li>
 				<defName>ShootingAccuracy</defName>
@@ -476,7 +452,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_c</defName>
 		<title>ハーフエルフの奴隷</title>
@@ -506,7 +481,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_d</defName>
 		<title>ハーフエルフの民</title>
@@ -519,14 +493,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_e</defName>
 		<title>ハーフエルフの民</title>
@@ -539,14 +511,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_f</defName>
 		<title>ハーフエルフの民</title>
@@ -559,7 +529,6 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Story</li>
 			<li>AS_WHE_Colonist</li>
@@ -567,7 +536,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_g</defName>
 		<title>ハーフエルフの民</title>
@@ -580,14 +548,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_h</defName>
 		<title>ハーフエルフの民</title>
@@ -600,7 +566,6 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Story</li>
 			<li>AS_WHE_Colonist</li>
@@ -608,7 +573,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_i</defName>
 		<title>ハーフエルフの民</title>
@@ -621,14 +585,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_j</defName>
 		<title>ハーフエルフの民</title>
@@ -641,14 +603,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_k</defName>
 		<title>ハーフエルフの民</title>
@@ -661,14 +621,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_l</defName>
 		<title>ハーフエルフの民</title>
@@ -681,14 +639,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_m</defName>
 		<title>ハーフエルフの民</title>
@@ -701,14 +657,12 @@
 				<amount>2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_n</defName>
 		<title>ハーフエルフの民</title>
@@ -721,14 +675,12 @@
 				<amount>3</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_o</defName>
 		<title>ハーフエルフの民</title>
@@ -741,14 +693,12 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_p</defName>
 		<title>ハーフエルフの民</title>
@@ -761,14 +711,12 @@
 				<amount>-2</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_q</defName>
 		<title>ハーフエルフの民</title>
@@ -781,14 +729,12 @@
 				<amount>-3</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_r</defName>
 		<title>ハーフエルフの民</title>
@@ -801,14 +747,12 @@
 				<amount>6</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_s</defName>
 		<title>ハーフエルフの民</title>
@@ -821,14 +765,12 @@
 				<amount>-1</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WHE_BaseBackstory_Base">
 		<defName>AS_WHE_BackstoryAdult_t</defName>
 		<title>ハーフエルフの民</title>
@@ -841,7 +783,6 @@
 				<amount>8</amount>
 			</li>
 		</skillGains>
-		
 		<spawnCategories>
 			<li>AS_WHE_Colonist</li>
 			<li>AS_WHE_Villager</li>

@@ -3,14 +3,13 @@
   <FactionDef Name="WHE_NPC_FactionsBase" Abstract="True">
     <defName>AS_WHE_BaseFaction</defName>
     <label>WHE_FactionBase</label>
-    
     <startingResearchTags Inherit="False">
 			<li>ClassicStart</li>
 		</startingResearchTags>
     <description>ハーフエルフFactionBase</description>
     <pawnSingular>ハーフエルフ</pawnSingular>
     <pawnsPlural>ハーフエルフ達</pawnsPlural>
-    <listOrderPriority>30</listOrderPriority>    
+    <listOrderPriority>30</listOrderPriority>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
@@ -33,7 +32,6 @@
     <allowedCultures>
 			<li>AS_WHE_Cultures</li>
 		</allowedCultures>
-    
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>

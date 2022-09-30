@@ -3,7 +3,7 @@
 
 <!-- キャラクター命名規則 -->
   <RulePackDef>
-    <defName>AS_WHE_Name_Rule</defName>
+    <defName>AS_WAE_Name_Rule</defName>
     <rulePack>
       <rulesStrings>
         <li>name->[AS_Firstname] [AS_Lastname]</li>

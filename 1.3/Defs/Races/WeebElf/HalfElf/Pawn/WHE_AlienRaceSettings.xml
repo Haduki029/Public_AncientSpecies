@@ -3,7 +3,6 @@
 <AlienRace.RaceSettings>
 <defName>AS_WHE_RaceSettings</defName>
 <pawnKindSettings>
-    
 	<alienslavekinds>
 		<li>
 			<kindDefs>
@@ -12,7 +11,6 @@
 			<chance>5.5</chance>
 		</li>
 	</alienslavekinds>
-	
 	<alienrefugeekinds>
         <li MayRequire="Ludeon.RimWorld.Royalty">
             <kindDefs>
@@ -40,11 +38,11 @@
                 </li>
             </pawnKindEntries>
             <factionDefs>
-                <li>AS_WHE_PlayerFaction_Neolithic</li> 
+                <li>AS_WHE_PlayerFaction_Neolithic</li>
             </factionDefs>
         </li>
     </startingColonists>
-	
+
     <alienwandererkinds>
         <li>
             <pawnKindEntries>
@@ -56,10 +54,10 @@
                 </li>
             </pawnKindEntries>
             <factionDefs>
-                <li>AS_WHE_PlayerFaction_Neolithic</li> 
+                <li>AS_WHE_PlayerFaction_Neolithic</li>
             </factionDefs>
         </li>
-    </alienwandererkinds>			
+    </alienwandererkinds>
 </pawnKindSettings>
 </AlienRace.RaceSettings>
 </Defs>

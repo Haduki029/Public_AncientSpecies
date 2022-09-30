@@ -8,7 +8,6 @@
     <colorSpectrum>
       <li>(0.82, 0.23, 0.23)</li>
     </colorSpectrum>
-    
     <permanentEnemy>true</permanentEnemy>
     <allowedArrivalTemperatureRange>
       <min>-10</min>

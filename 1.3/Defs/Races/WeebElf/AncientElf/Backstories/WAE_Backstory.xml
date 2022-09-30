@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_NormalChild</defName>
 		<title>エルフ村の子供</title>
@@ -33,7 +32,7 @@
 			<li>AS_WAE_Hunter</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
-	
+
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_SlaveChild</defName>
 		<title>エルフの子供奴隷</title>
@@ -57,7 +56,6 @@
 	</AlienRace.BackstoryDef>
 
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_HunterAdult</defName>
 		<title>エルフの狩人</title>
@@ -70,7 +68,6 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		
 		<forcedTraits>
 			<li>
 				<defName>ShootingAccuracy</defName>
@@ -85,7 +82,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_SlaveAdult</defName>
 		<title>エルフの奴隷</title>
@@ -115,7 +111,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_NormalAdult</defName>
 		<title>エルフの民</title>
@@ -134,7 +129,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_PKHunterAdult</defName>
 		<title>エルフの凄腕狩人</title>
@@ -147,7 +141,6 @@
 				<amount>6</amount>
 			</li>
 		</skillGains>
-		
 		<forcedTraits>
 			<li>
 				<defName>ShootingAccuracy</defName>
@@ -161,7 +154,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_KnightAdult</defName>
 		<title>エルフの騎士</title>
@@ -174,7 +166,6 @@
 				<amount>4</amount>
 			</li>
 		</skillGains>
-		
 		<forcedTraits>
 			<li>
 				<defName>Brawler</defName>
@@ -201,7 +192,6 @@
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
-	
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_PKKnightAdult</defName>
 		<title>エルフの守護騎士</title>
@@ -214,7 +204,6 @@
 				<amount>6</amount>
 			</li>
 		</skillGains>
-		
 		<forcedTraits>
 			<li>
 				<defName>Brawler</defName>

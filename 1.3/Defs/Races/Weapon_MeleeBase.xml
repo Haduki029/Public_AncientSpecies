@@ -20,7 +20,7 @@
       <SellPriceFactor>0.20</SellPriceFactor>
     </statBases>
     <comps>
-      <li Class="CompProperties_Forbiddable" />      
+      <li Class="CompProperties_Forbiddable" />
       <li>
         <compClass>CompEquippable</compClass>
       </li>

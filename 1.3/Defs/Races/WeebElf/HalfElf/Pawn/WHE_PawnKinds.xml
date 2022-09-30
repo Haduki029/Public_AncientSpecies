@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-
   <PawnKindDef ParentName="AS_WHE_CommonBase">
     <defName>AS_WHE_Colonist</defName>
     <label>Harf Elf Colonist</label>
@@ -26,8 +25,6 @@
     <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
   </PawnKindDef>
 
-
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Villager</defName>
     <label>Half Elf villager</label>
@@ -63,7 +60,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Trader</defName>
     <label>Half Elf trader</label>
@@ -104,7 +100,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_EliteVillager</defName>
     <label>Half Elf eliet villager</label>
@@ -141,7 +136,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Warrior</defName>
     <label>Half Elf warrior</label>
@@ -178,7 +172,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Hunter</defName>
     <label>Half Elf hunter</label>
@@ -217,7 +210,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_TownsPeople</defName>
     <label>Half Elf townspeople</label>
@@ -255,7 +247,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_EliteTownsPeople</defName>
     <label>Half Elf eliete townspeople</label>
@@ -295,7 +286,6 @@
     <trader>true</trader>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_Fighter</defName>
     <label>Half Elf fighter</label>
@@ -334,7 +324,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_Shooter</defName>
     <label>Half Elf shooter</label>
@@ -375,7 +364,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Citizen</defName>
     <label>Half Elf citizen</label>
@@ -418,7 +406,6 @@
     <trader>true</trader>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_EliteCitizen</defName>
     <label>Half Elf elite citizen</label>
@@ -465,7 +452,6 @@
     <trader>true</trader>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Knight</defName>
     <label>Half Elf knight</label>
@@ -508,7 +494,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Archer</defName>
     <label>Half Elf archer</label>
@@ -550,7 +535,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Gunner</defName>
     <label>Half Elf gunner</label>
@@ -591,7 +575,6 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Slave</defName>
     <label>Half Elf Slave</label>
@@ -599,9 +582,7 @@
     <isFighter>true</isFighter>
     <weaponMoney>20~120</weaponMoney>
     <apparelMoney>100~150</apparelMoney>
-    <weaponTags>
-      
-    </weaponTags>
+    <weaponTags></weaponTags>
     <apparelTags>
       <li>AS_WHE_Neolithic</li>
     </apparelTags>

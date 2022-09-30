@@ -13,7 +13,7 @@
 			<li>AS_WHE_Style</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>AS_WHE_Hair_02</defName>
 		<label>ASロングヘアー１</label>
@@ -26,7 +26,7 @@
 			<li>AS_WHE_Style</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>AS_WHE_Hair_03</defName>
 		<label>ASロングヘアー２</label>
@@ -39,7 +39,7 @@
 			<li>AS_WHE_Style</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>AS_WHE_Hair_04</defName>
 		<label>ASポニーテール１</label>
@@ -52,7 +52,7 @@
 			<li>AS_WHE_Style</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>AS_WHE_Hair_05</defName>
 		<label>ASショートヘアー１</label>
@@ -65,7 +65,7 @@
 			<li>AS_WHE_Style</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>AS_WHE_Hair_06</defName>
 		<label>ASボブカット１</label>
@@ -78,7 +78,7 @@
 			<li>AS_WHE_Style</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>AS_WHE_Hair_07</defName>
 		<label>ASミドルショート１</label>
@@ -91,7 +91,7 @@
 			<li>AS_WHE_Style</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>AS_WHE_Hair_08</defName>
 		<label>ASショートヘアー２</label>
@@ -183,5 +183,4 @@
 		</styleTags>
 	</HairDef>
 
-	
 </Defs>

@@ -1,39 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-
-  <CultureDef>
-    <defName>AS_WAE_Cultures</defName>
-    <label>エンシェントエルフの文化</label>
-    <description>辺境の惑星で育まれてきたエンシェントエルフ達の一般的な文化。</description>
-    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
-		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
-		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Corunan</leaderTitleMaker>
-    <allowedPlaceTags>
-      <li>OriginTribal</li>
-    </allowedPlaceTags>
-    <iconPath>UI/Cultures/Astropolitan</iconPath>
-    <iconColor>(0.8, 0.8, 0.8)</iconColor>
-    <styleItemTags>
-      <li>
-        <tag>AS_Hair</tag>
-        <baseWeight>1</baseWeight>
-        <weightFactor>1</weightFactor>
-      </li>
-      <li>
-        <tag>NoBeard</tag>
-        <baseWeight>1</baseWeight>
-        <weightFactor>1</weightFactor>
-      </li>
-      <li>
-        <tag>NoTattoo</tag>
-        <baseWeight>10</baseWeight>
-        <weightFactor>1</weightFactor>
-      </li>
-    </styleItemTags>
-  </CultureDef>
-
   <CultureDef>
     <defName>AS_WHE_Cultures</defName>
     <label>ハーフエルフの文化</label>
@@ -66,5 +32,4 @@
       </li>
     </styleItemTags>
   </CultureDef>
-
 </Defs>

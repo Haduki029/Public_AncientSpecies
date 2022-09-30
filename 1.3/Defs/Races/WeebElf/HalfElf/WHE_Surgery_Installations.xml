@@ -37,7 +37,6 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      
       <li>Ear</li>
     </appliedOnFixedBodyParts>
     <addsHediff>AS_WHE_BionicEar</addsHediff>

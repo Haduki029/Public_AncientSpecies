@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	
-	<AlienRace.BackstoryDef Name="AS_WHE_BaseBackstory_Base" Abstract="True">
-		
+	<AlienRace.BackstoryDef Name="AS_WAE_Backstory_Base" Abstract="True">
 		<forcedTraits>
 			<li>
 				<defName>Beauty</defName>
@@ -15,7 +13,6 @@
 				<chance>20</chance>
 			</li>
 		</forcedTraits>
-		
 		<disallowedTraits>
 			<li>
 				<defName>Nudist</defName>
