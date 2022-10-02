@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Defs>  
+<Defs>
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>AS_WHE_BionicEar</defName>
     <label>バイオニックハーフエルフ耳</label>
