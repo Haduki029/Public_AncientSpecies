@@ -115,4 +115,10 @@
 	<parent>Weapons</parent>
 </ThingCategoryDef>
 
+<ThingCategoryDef>
+	<defName>AS_WAE_Weapons</defName>
+	<label>ancient elven weapons</label>
+	<parent>Weapons</parent>
+</ThingCategoryDef>
+
 </Defs>

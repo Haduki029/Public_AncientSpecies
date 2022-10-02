@@ -108,9 +108,6 @@
             <AccuracyLong>0.70</AccuracyLong>
             <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
         </statBases>
-        <thingCategories>
-            <li>AS_WHE_Weapons</li>
-        </thingCategories>
         <weaponTags>
             <li>AS_WHE_NeolithicRangedAdvanced</li>
         </weaponTags>
@@ -178,9 +175,6 @@
             <AccuracyLong>0.90</AccuracyLong>
             <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
         </statBases>
-        <thingCategories>
-            <li>AS_WHE_Weapons</li>
-        </thingCategories>
         <weaponTags>
             <li>AS_WHE_NeolithicRangedAdvanced</li>
         </weaponTags>
@@ -242,9 +236,6 @@
             <AccuracyLong>1.15</AccuracyLong>
             <RangedWeapon_Cooldown>0.72</RangedWeapon_Cooldown>
         </statBases>
-        <thingCategories>
-            <li>AS_WHE_Weapons</li>
-        </thingCategories>
         <weaponTags>
             <li>AS_WHE_NeolithicRangedAdvanced</li>
         </weaponTags>

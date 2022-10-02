@@ -1,21 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  <ThingDef ParentName="AS_BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef Abstract="True" Name="WAE_BaseMeleeWeapon_Sharp_Quality" ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<thingCategories>
+      <li>AS_Weapons</li>
+      <li>AS_WAE_Weapons</li>
+    </thingCategories>
+	</ThingDef>
+
+  <ThingDef ParentName="WAE_BaseMeleeWeapon_Sharp_Quality">
     <defName>AS_WHE_WAESword</defName>
     <label>古代エルフの剣</label>
     <techLevel>Industrial</techLevel>
     <description>エンシェントエルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。</description>
     <generateCommonality>0</generateCommonality>
-    <weaponTags>
-      <li>AS_WAE_MeleeWeapon</li>
-      <li>AS_WAE_Knight</li>
-    </weaponTags>
     <graphicData>
       <texPath>WHE/Weapons/Melee/AncientElfSword_Reproduction_Drop</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
       <drawOffset>0.0,0,0</drawOffset>
     </graphicData>
+    <weaponTags>
+      <li>AS_WAE_Melee</li>
+      <li>AS_WAE_NeolithicMelee</li>
+      <li>AS_WAE_MidMelee</li>
+    </weaponTags>
     <costStuffCount>220</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
@@ -34,9 +42,9 @@
       <Flammability>0.01</Flammability>
     </statBases>
     <equippedStatOffsets>
-      <MeleeHitChance>0.2</MeleeHitChance>
-      <MeleeDodgeChance>0.3</MeleeDodgeChance>
-    </equippedStatOffsets>	
+      <MeleeHitChance>0.15</MeleeHitChance>
+      <MeleeDodgeChance>0.1</MeleeDodgeChance>
+    </equippedStatOffsets>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <tools>
       <li>
@@ -52,7 +60,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>28</power>
+        <power>24</power>
         <cooldownTime>1.95</cooldownTime>
       </li>
       <li>
@@ -60,14 +68,14 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>32</power>
+        <power>26</power>
         <cooldownTime>2.1</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
       <researchPrerequisite>AS_WAE_Weapons</researchPrerequisite>
       <skillRequirements>
-        <Crafting>16</Crafting>
+        <Crafting>14</Crafting>
       </skillRequirements>
     </recipeMaker>
   </ThingDef>
