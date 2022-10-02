@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearA</defName>
     <description>皮や布で作られたノーマルな下着。</description>
     <label>下着（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareA</texPath>
@@ -55,14 +55,13 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearB</defName>
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
     <label>ピンクのフリル下着（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareB</texPath>
@@ -123,10 +122,8 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearC</defName>
     <description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</description>
@@ -191,10 +188,9 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearD</defName>
     <description>皮や布で作られたセクシーな下着。そのデザインは相手の心をはやらせ、初心な相手であるほど平静さを忘れさせます。きっと互いに幸福感で満たされることでしょう。</description>
@@ -259,7 +255,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearE</defName>
     <description>皮や布で作られた下着？そのデザインは最早言葉で語ることすら憚られる、業の深い代物である。その魅力にパートナーは心が満たされ、より強い絆で結ばれることだろう。</description>
@@ -371,7 +366,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearG</defName>
     <description>白を基調にした、高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</description>
@@ -435,7 +429,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearH</defName>
     <description>黒を基調にした、高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</description>
@@ -499,7 +492,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_UnderwearI</defName>
     <description>高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</description>
@@ -562,11 +554,11 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Neeso</defName>
     <description>皮や布で作られたニーソックス。</description>
     <label>ニーソックス（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Neolithic</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/onskin/NeeSo</texPath>
@@ -596,7 +588,6 @@
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      
       <skillRequirements>
         <Crafting>2</Crafting>
       </skillRequirements>
@@ -618,14 +609,13 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_StripeNeeso</defName>
     <description>皮や布で作られた、縞模様入りの高品質ニーソックス。</description>
     <label>ストライプニーソックス（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/onskin/StripeNeeSo</texPath>
@@ -679,10 +669,8 @@
         <li>RoyalTier7</li>
       </tags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_GarterBelt</defName>
     <description>ガーターベルトです。美しい体の上を走る一本のベルトは、着用者の魅力を最大限に引き出すでしょう。</description>
@@ -747,10 +735,4 @@
       </tags>
     </apparel>
   </ThingDef>
-
-    
-  
-
-  
-  
 </Defs>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShoulderBack</defName>
     <description>布で作られたショルダーパック。軽くて丈夫。</description>
     <label>ショルダーバック（ハーフエルフ）</label>
     <techLevel>Industrial</techLevel>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <graphicData>
       <texPath>WHE/Apparels/backpack/ShoulderBack</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -51,6 +51,5 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 </Defs>

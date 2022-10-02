@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Helmet</defName>
     <description>金属製の頭部上面を守るヘルメット。シンプルながらも丈夫に作られている。</description>
     <label>ヘルメット（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/Helmet</texPath>
@@ -47,10 +47,8 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_AdvancedHelmet</defName>
     <description>より高度なハーフエルフの技術で作られた、金属製の頭部上面を守るヘルメット。前面部に付いているスクリーンにより、目も保護してくれる。</description>
@@ -102,7 +100,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_MarineHelmet</defName>
     <description>ハーフエルフの技術を応用して作られたマリーンヘルメット。強度、軽さ共に高次元にまとめられており、耳の長いハーフエルフでも着脱しやすいようになっている。</description>
@@ -162,11 +159,11 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_MaidHairBand</defName>
     <description>メイドさんが頭部に着けるカチューシャ。メイド服とセットで身に着けると、貴女も完璧で瀟洒なメイドになれるでしょう。</description>
     <label>メイドカチューシャ（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/MaidHairBand</texPath>
@@ -179,7 +176,7 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>5500</WorkToMake>
-      <Mass>1</Mass>      
+      <Mass>1</Mass>
       <Flammability>0.1</Flammability>
       <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
@@ -220,14 +217,13 @@
         <li>RoyalTier2</li>
       </tags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Horn</defName>
     <description>頭に取り付けられる付け角です。何も特殊な効果はありませんが、見た目がちょっぴりかっこよくなります。Cool and cute！なお着脱は簡単です。</description>
     <label>付け角（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/Horn</texPath>
@@ -272,14 +268,13 @@
         <li>RoyalTier7</li>
       </tags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_CuteRibon</defName>
     <description>丈夫さと可愛さを兼ね備えた可愛いリボン。</description>
     <label>可愛いリボン（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>WHE/Apparels/overhead/CuteRibon</texPath>
@@ -293,7 +288,7 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>7500</WorkToMake>
-      <Mass>1</Mass>      
+      <Mass>1</Mass>
       <Flammability>0.1</Flammability>
       <ArmorRating_Sharp>0.21</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
@@ -334,10 +329,8 @@
         <li>RoyalTier2</li>
       </tags>
     </apparel>
-    <tradeTags><li>AS_WHE_Apparel_Tradable</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_PressureResistantHelmet</defName>
     <description>宇宙空間でも行動できるように、高度な技術で作成されたヘルメット。マリーン装備より若干弱いが、耐熱、耐寒性能が高い。</description>
