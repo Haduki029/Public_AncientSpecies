@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<AlienRace.BackstoryDef Name="AS_WAE_Backstory_Base" Abstract="True">
+		<forcedTraits>
+			<li>
+				<defName>Beauty</defName>
+				<degree>1</degree>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Beauty</defName>
+				<degree>2</degree>
+				<chance>20</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Nudist</defName>
+				<degree>0</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Beauty</defName>
+				<degree>-1</degree>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>Beauty</defName>
+				<degree>-2</degree>
+				<chance>100</chance>
+			</li>
+		</disallowedTraits>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+	</AlienRace.BackstoryDef>
+</Defs>

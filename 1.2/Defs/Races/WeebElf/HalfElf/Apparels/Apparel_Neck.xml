@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Scarf</defName>
+    <description>布で編まれたスカーフで、首の防護を上げつつ、寒さへの耐性を得ることが出来る。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
+    <label>スカーフ（ハーフエルフ）</label>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <followStuffColor>true</followStuffColor>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>8500</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <layers>
+        <li>AS_Neck</li>
+      </layers>
+      <tags>
+        <li>AS_WHE_LowleLevel_Apparel</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_ShieldScarf</defName>
+    <description>布、ハイパーウィーブを使い編まれたスカーフに、ハーフエルフの技術を用いてシールド機能を付けたもの。首周りの防護能力が非常に高い。</description>
+    <label>シールドスカーフ（ハーフエルフ）</label>
+    <thingClass>ShieldBelt</thingClass>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <followStuffColor>true</followStuffColor>
+    <tickerType>Normal</tickerType>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Plasteel>25</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>16500</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.15</EnergyShieldEnergyMax>
+      <EquipDelay>1.5</EquipDelay>
+      <Flammability>0.25</Flammability>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <layers>
+        
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+        <li>AS_WHE_Knight</li>
+        <li>AS_WHE_MiddleLevel_Apparel</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>

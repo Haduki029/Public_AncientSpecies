@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <FactionDef ParentName="WAE_NPC_FactionsBase">
+    <defName>AS_WAE_Settlement</defName>
+    <label>エンシェントエルフの集落</label>
+    <techLevel>Industrial</techLevel>
+    <description>エンシェントエルフ達の集落。</description>
+    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
+    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <pawnSingular>エンシェントエルフ</pawnSingular>
+    <pawnsPlural>エンシェントエルフ達</pawnsPlural>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>0.05</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <earliestRaidDays>250</earliestRaidDays>
+		<canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+    <autoFlee>true</autoFlee>
+    <leaderTitle>Leader</leaderTitle>
+    <fixedName>エンシェントエルフ</fixedName>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>0.5</geneticVariance>
+    <backstoryCategories>
+      <li>AS_WAE_Village_Story</li>
+    </backstoryCategories>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,20)</li>
+        <li>(70, 30)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(10000, 200)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <hairTags>
+			<li>AS_WEl_Hairs</li>
+		</hairTags>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>80</commonality>
+        <options>
+          <AS_WAE_PKKnight>5</AS_WAE_PKKnight>
+          <AS_WAE_PKHunter>12</AS_WAE_PKHunter>
+          <AS_WAE_Villager>5</AS_WAE_Villager>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <AS_WAE_Villager>5</AS_WAE_Villager>
+          <AS_WAE_Knight>5</AS_WAE_Knight>
+          <AS_WAE_Hunter>5</AS_WAE_Hunter>
+          <AS_WAE_PKKnight>5</AS_WAE_PKKnight>
+          <AS_WAE_PKHunter>5</AS_WAE_PKHunter>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>
