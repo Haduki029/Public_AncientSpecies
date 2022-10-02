@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_001</defName>
+		<label>ASウェーブロング１</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/Hairs/AS_CM001</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_002</defName>
+		<label>ASウェーブロング２</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/Hairs/AS_CM002</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_003</defName>
+		<label>ASロングヘア１</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/Hairs/AS_CM003</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_004</defName>
+		<label>ASロングヘア２</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/Hairs/AS_CM004</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_005</defName>
+		<label>ASウェーブロング３</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/Hairs/AS_CM005</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+		</styleTags>
+	</HairDef>
+
+</Defs>

@@ -22,6 +22,11 @@
 
   <!-- 髪型 -->
   <StyleItemCategoryDef>
+    <defName>AS_Hair_Style</defName>
+    <label>AS髪型</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
 		<defName>AS_WEl_Hairs</defName>
 		<label>ASエルフ髪型</label>
 	</StyleItemCategoryDef>

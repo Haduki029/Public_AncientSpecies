@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_NobleCoat</defName>
     <description>エンシェントエルフの貴族階級者が愛用している、戦闘用のコート。非常に丈夫なだけでなく、装備者の戦闘能力に補正がかかる。</description>
@@ -24,16 +23,16 @@
     <statBases>
       <MaxHitPoints>380</MaxHitPoints>
       <WorkToMake>45500</WorkToMake>
-      <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.37</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.44</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.46</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.79</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.59</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.56</ArmorRating_Blunt>
       <ArmorRating_Heat>0.41</ArmorRating_Heat>
-      <Insulation_Cold>22</Insulation_Cold>
+      <Insulation_Cold>26</Insulation_Cold>
       <Insulation_Heat>11</Insulation_Heat>
       <Mass>4</Mass>
-      <Flammability>0.01</Flammability>
+      <Flammability>0.05</Flammability>
       <EquipDelay>2.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -42,12 +41,12 @@
       <AimingDelayFactor>-0.2</AimingDelayFactor>
       <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
-      <MeleeHitChance>0.2</MeleeHitChance>
+      <MeleeHitChance>0.1</MeleeHitChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
       <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
       <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
       <MentalBreakThreshold>-0.15</MentalBreakThreshold>
-      <SocialImpact>0.15</SocialImpact>
+      <SocialImpact>0.25</SocialImpact>
       <CarryingCapacity>10</CarryingCapacity>
     </equippedStatOffsets>
     <recipeMaker>
@@ -69,9 +68,10 @@
         <li>AS_Coat</li>
       </layers>
       <tags>
-        <li>AS_WAE_Hunter</li>
-        <li>AS_WAE_Knight</li>
-        <li>WHE_Industrial</li>
+        <li>AS_Apparel</li>
+        <li>AS_WAE_Apparel</li>
+        <li>AS_WAE_NobleEq</li>
+        <li>AS_WEl_HighApparel</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
@@ -81,6 +81,5 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
-    
   </ThingDef>
 </Defs>

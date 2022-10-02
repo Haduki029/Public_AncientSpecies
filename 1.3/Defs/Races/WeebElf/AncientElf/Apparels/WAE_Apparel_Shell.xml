@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_KnightDress</defName>
-    <description>エンシェントエルフの騎士達が好んで使用する鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</description>
+    <description>エンシェントエルフの守護騎士のみに装着が許された鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</description>
     <label>姫騎士鎧（エンシェントエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
@@ -28,21 +27,21 @@
       <WorkToMake>58000</WorkToMake>
       <Mass>10</Mass>
       <ArmorRating_Blunt>0.82</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.82</ArmorRating_Sharp> 
+      <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
-      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-      <Insulation_Cold>35</Insulation_Cold>
-	    <Insulation_Heat>35</Insulation_Heat>
-      <Beauty>0.2</Beauty>
+      <StuffEffectMultiplierArmor>0.14</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>30</Insulation_Cold>
+	    <Insulation_Heat>30</Insulation_Heat>
+      <Beauty>0.3</Beauty>
       <EquipDelay>18</EquipDelay>
       <Flammability>-1</Flammability>
     </statBases>
     <equippedStatOffsets>
 			<MoveSpeed>0.35</MoveSpeed>
-	    <MeleeHitChance>0.8</MeleeHitChance>
-      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+	    <MeleeHitChance>0.6</MeleeHitChance>
+      <MeleeDodgeChance>0.4</MeleeDodgeChance>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
       <Flammability>-1</Flammability>
@@ -72,8 +71,9 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <tags>
-        <li>AS_WAE_Medieval</li>
-        <li>AS_WAE_Knight</li>
+        <li>AS_Apparel</li>
+        <li>AS_WAE_Apparel</li>
+        <li>AS_WAE_GuardianKnight</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>

@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_FeatherHelm</defName>
     <description>金属の額当てに、羽飾りで装飾されたヘルム。見た目の割にかなり高性能なものになっている。</description>
@@ -23,7 +22,7 @@
     <statBases>
       <MaxHitPoints>280</MaxHitPoints>
       <WorkToMake>27500</WorkToMake>
-      <Mass>2</Mass>      
+      <Mass>2</Mass>
       <Flammability>0.01</Flammability>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
@@ -64,8 +63,10 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <tags>
-        <li>AS_WAE_Medieval</li>
-        <li>AS_WAE_Knight</li>
+        <li>AS_Apparel</li>
+        <li>AS_WAE_Apparel</li>
+        <li>AS_WAE_NobleEq</li>
+        <li>AS_WEl_HighApparel</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
