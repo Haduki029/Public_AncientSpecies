@@ -3,58 +3,63 @@
 
 <ThingCategoryDef>
 	<defName>AS_Apparel</defName>
-	<label>ancient sages apparel</label>
+	<label>ancient spacies apparel</label>
 	<parent>Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Apparel_Legs</defName>
-	<label>ancient sages legs apparel</label>
+	<label>ancient spacies legs apparel</label>
 	<parent>AS_Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Apparel_Middle</defName>
-	<label>ancient sages middle apparel</label>
+	<label>ancient spacies middle apparel</label>
 	<parent>AS_Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Apparel_Neck</defName>
-	<label>ancient sages neck apparel</label>
+	<label>ancient spacies neck apparel</label>
 	<parent>AS_Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Apparel_OnSkin</defName>
-	<label>ancient sages onskin apparel</label>
+	<label>ancient spacies onskin apparel</label>
 	<parent>AS_Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Apparel_OverHead</defName>
-	<label>ancient sages overhead apparel</label>
+	<label>ancient spacies overhead apparel</label>
 	<parent>AS_Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Apparel_Shell</defName>
-	<label>ancient sages shell apparel</label>
+	<label>ancient spacies shell apparel</label>
 	<parent>AS_Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Apparel_UnderMiddle</defName>
-	<label>ancient sages under middle apparel</label>
+	<label>ancient spacies under middle apparel</label>
 	<parent>AS_Apparel</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_Weapons</defName>
-	<label>ancient sages weapons</label>
+	<label>ancient spacies weapons</label>
 	<parent>Weapons</parent>
 </ThingCategoryDef>
 
+<ThingCategoryDef>
+	<defName>AS_AT_Weapons_MakeableGun</defName>
+	<label>ancient spacies makeable gun weapons</label>
+	<parent>Weapons</parent>
+</ThingCategoryDef>
 
 <ThingCategoryDef>
 	<defName>AS_WHE_Apparel</defName>

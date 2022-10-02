@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+<SoundDef>
+	<defName>AS_Sound_Assault_Rifle_L</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Assault_Rifle_Light</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Assault_Rifle_H</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Assault_Rifle_Heavy</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_WHESniperRifle</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>WHESniperRifle</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Shotgun</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Shotgun</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_WHEShotgun</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>WHEShotgun</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Assault_Rifle_Interact</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Assault_Rifle_Interact</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Shotgun_Interact</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Shotgun_Interact</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Rebel_Rifle</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Rebel_Rifle</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Rebel_Rifle_Interact</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Rebel_Rifle_Interact</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Handgun</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Handgun</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>AS_Sound_Handgun_Interact</defName>
+	<context>MapOnly</context>
+	<maxSimultaneous>1</maxSimultaneous>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Handgun_Interact</clipPath>
+				</li>
+			</grains>
+		</li>
+	</subSounds>
+</SoundDef>
+</Defs>

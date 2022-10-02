@@ -13,7 +13,6 @@
 			<texPath>AT/Weapons/ImpactKnuckles</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-    
     <costStuffCount>60</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
