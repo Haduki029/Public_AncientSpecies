@@ -1,0 +1,12 @@
+Melee
+Shooting
+Construction
+Mining
+Cooking
+Plants
+Animals
+Crafting
+Artistic
+Medicine
+Social
+Intellectual
