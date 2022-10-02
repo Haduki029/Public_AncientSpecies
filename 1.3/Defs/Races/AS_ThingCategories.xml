@@ -113,6 +113,12 @@
 	<defName>AS_WHE_Weapons</defName>
 	<label>half elven weapons</label>
 	<parent>Weapons</parent>
+</ThingCategoryDef>AS_WHE_AT_Weapons
+
+<ThingCategoryDef>
+	<defName>AS_WHE_AT_Weapons</defName>
+	<label>half elven's ancient technology weapons</label>
+	<parent>Weapons</parent>
 </ThingCategoryDef>
 
 <ThingCategoryDef>
