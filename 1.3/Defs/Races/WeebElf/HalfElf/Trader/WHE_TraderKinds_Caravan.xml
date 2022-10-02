@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	
 	<TraderKindDef>
 		<defName>AS_WHE_Caravan_Free_Marchant</defName>
 		<label>雑貨屋</label>
@@ -19,7 +18,6 @@
 					<max>2</max>
 				</countRange>
 			</li>
-			
 			<li Class="StockGenerator_WeaponsRanged">
 				<countRange>2~4</countRange>
 			</li>
@@ -34,16 +32,16 @@
 				<totalPriceRange>150~1500</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_Tag">
-				<tradeTag>AS_WHE_Apparel_Tradable</tradeTag>
+				<tradeTag>AS_WHE_Apparel</tradeTag>
 				<thingDefCountRange>
-					<min>1</min>
-					<max>3</max>
+					<min>3</min>
+					<max>6</max>
 				</thingDefCountRange>
 				<countRange>
 					<min>1</min>
 					<max>2</max>
 				</countRange>
-				<totalPriceRange>150~1500</totalPriceRange>
+				<totalPriceRange>150~1800</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>ComponentIndustrial</thingDef>
@@ -155,7 +153,6 @@
 		</stockGenerators>
 	</TraderKindDef>
 
-	
 	<TraderKindDef>
 		<defName>AS_WHE_Caravan_Brigade</defName>
 		<label>旅団</label>
@@ -192,7 +189,7 @@
 				<totalPriceRange>500~2500</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_Tag">
-				<tradeTag>AS_WHE_Apparel_Tradable</tradeTag>
+				<tradeTag>AS_WHE_Apparel</tradeTag>
 				<thingDefCountRange>
 					<min>1</min>
 					<max>2</max>
