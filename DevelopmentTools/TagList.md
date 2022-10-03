@@ -43,8 +43,6 @@ WHE_Industrial
 2. PawnKinds
     - AS_WHE_Knight
     - AS_WHE_Hunter
-    - AS_WHE_Hunter
-    - AS_WHE_Hunter
 3. Weapons
     - AS_WHE_Weapons
     - AS_WHE_AT_Weapons
