@@ -15,14 +15,14 @@
 	<defName>AS_WHEAT_Penetrator</defName>
 	<label>ペネトレーター</label>
 	<description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改造された、より長距離に特化したスナイパーライフル。全長、重量ともに大きくなり、取り回しが悪くなっているが、ハーフエルフの腕力なら問題ないだろう。</description>
+	<weaponTags Inherit="false">
+		<li>AS_WHE_AT_Ranged_LV1</li>
+		<li>AS_WHE_AT_LowSnipe</li>
+	</weaponTags>
 	<graphicData>
 		<texPath>AT/Weapons/SniperRifle_WHETech</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
-	<weaponTags>
-		<li>AS_WHE_AT_Ranged_LV1</li>
-		<li>AS_WHE_AT_LowSnipe</li>
-	</weaponTags>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
 	<statBases>
 		<WorkToMake>200000</WorkToMake>
@@ -84,6 +84,11 @@
 	<defName>AS_WHEAT_Grawes</defName>
 	<label>グラヴェス</label>
 	<description>ハーフエルフによって解析された古代技術を応用し、グラヴェールを改造したショットガン。</description>
+	<weaponTags Inherit="false">
+		<li>AS_Weapons</li>
+		<li>AS_WHEAT_Shotgun</li>
+        <li>AS_WHEAT_Weapon</li>
+	</weaponTags>
 	<graphicData>
 		<texPath>AT/Weapons/WHEShotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -98,11 +103,6 @@
 		<AccuracyLong>0.48</AccuracyLong>
 		<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 	</statBases>
-	<weaponTags>
-		<li>AS_Weapons</li>
-		<li>AS_WHEAT_Shotgun</li>
-        <li>AS_WHEAT_Weapon</li>
-	</weaponTags>
 	<costList>
         <AS_Grawehr>1</AS_Grawehr>
 		<Plasteel>60</Plasteel>
@@ -148,9 +148,6 @@
 		</li>
 	</tools>
 </ThingDef>
-
-
-
 
 <ThingDef ParentName="BaseBullet">
 	<defName>AS_WHEAT_Bullet_Sniper_Rifle</defName>

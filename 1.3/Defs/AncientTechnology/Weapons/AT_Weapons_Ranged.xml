@@ -5,9 +5,6 @@
             <li>AS_Weapons</li>
             <li>AS_AT_Weapons_MakeableGun</li>
         </thingCategories>
-        <weaponTags>
-            <li>AS_Weapons</li>
-        </weaponTags>
 	</ThingDef>
 
 	<ThingDef ParentName="AS_AT_WeaponsMakeableGun">
@@ -18,7 +15,7 @@
 			<texPath>AT/Weapons/AssaultRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags>
+		<weaponTags Inherit="false">
 			<li>AS_AT_LowRanged</li>
 			<li>AS_AT_Ranged_LV1</li>
 			<li>AS_AT_LowAssault</li>
@@ -87,7 +84,7 @@
 			<texPath>AT/Weapons/AssaultRifleCustom</texPath><!-- TODO -->
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags>
+		<weaponTags Inherit="false">
 			<li>AS_AT_MidRanged</li>
 			<li>AS_AT_Ranged_LV2</li>
 			<li>AS_AT_LowSnipe</li>
@@ -156,7 +153,7 @@
 			<texPath>AT/Weapons/Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags>
+		<weaponTags Inherit="false">
 			<li>AS_AT_LowRanged</li>
 			<li>AS_AT_Ranged_LV1</li>
 		</weaponTags>
@@ -224,7 +221,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.8</drawSize>
 		</graphicData>
-		<weaponTags>
+		<weaponTags Inherit="false">
 			<li>AS_AT_LowRanged</li>
 			<li>AS_AT_Ranged_LV1</li>
 		</weaponTags>
@@ -292,7 +289,7 @@
 			<texPath>AT/Weapons/Grawehr</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<weaponTags>
+		<weaponTags Inherit="false">
 			<li>AS_AT_MidRanged</li>
 			<li>AS_AT_Ranged_LV2</li>
 		</weaponTags>

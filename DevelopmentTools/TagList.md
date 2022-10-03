@@ -3,6 +3,9 @@
 1. Apparel
     - AS_Apparel
 
+3. Weapons
+    - AS_Weapons
+
 ## Ancient Technology
 3. Weapons
     - AS_AT_Weapons
@@ -46,6 +49,7 @@ WHE_Industrial
     - AS_WHE_Weapons
     - AS_WHE_AT_Weapons
     - AS_WHE_Melee
+    - AS_WHE_AT_Melee
     - AS_WHE_Ranged
     - AS_WHE_AT_Ranged
     - AS_WHE_Sword
@@ -131,12 +135,18 @@ AS_WAE_Knight
     - AS_WAE_Apparel
 
 6. Others
+    - AS_WAE_SpacerEq
+    - AS_WAE_IndustrialEq
     - AS_WAE_NobleEq
     - AS_WAE_CitizenEq
     - AS_WAE_NeolithicEq
+    - AS_WAE_SpacerMelee
+    - AS_WAE_IndustrialMelee
     - AS_WAE_NobleMelee
     - AS_WAE_CitizenMelee
     - AS_WAE_NeolithicMelee
+    - AS_WAE_SpacerRanged
+    - AS_WAE_CitizenRanged
     - AS_WAE_NobleRanged
     - AS_WAE_CitizenRanged
     - AS_WAE_NeolithicRanged

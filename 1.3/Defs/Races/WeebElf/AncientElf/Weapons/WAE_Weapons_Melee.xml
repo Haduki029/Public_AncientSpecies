@@ -19,7 +19,7 @@
       <drawSize>1.0</drawSize>
       <drawOffset>0.0,0,0</drawOffset>
     </graphicData>
-    <weaponTags>
+    <weaponTags Inherit="false">
       <li>AS_WAE_Melee</li>
       <li>AS_WAE_NeolithicMelee</li>
       <li>AS_WAE_MidMelee</li>

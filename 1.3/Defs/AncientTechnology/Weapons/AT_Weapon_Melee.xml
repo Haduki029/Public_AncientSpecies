@@ -6,8 +6,8 @@
     <techLevel>Spacer</techLevel>
 		<description>テスト実装</description>
     <generateCommonality>0</generateCommonality>
-    <weaponTags>
-      <li>AS_AT_MeleeWeapon</li>
+    <weaponTags Inherit="false">
+      <li>AS_WHE_AT_Melee</li>
     </weaponTags>
 		<graphicData>
 			<texPath>AT/Weapons/ImpactKnuckles</texPath>

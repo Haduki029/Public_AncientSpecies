@@ -6,7 +6,7 @@
             <li>AS_WAE_Weapons</li>
         </thingCategories>
         <techLevel>Neolithic</techLevel>
-        <weaponTags>
+        <weaponTags Inherit="false">
             <li>AS_Weapons</li>
             <li>AS_WAE_Ranged</li>
             <li>AS_WAE_NeolithicRanged</li>

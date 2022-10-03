@@ -13,7 +13,7 @@
     <techLevel>Industrial</techLevel>
     <description>ハーフエルフの技術で再現された、古代エルフの剣のレプリカ。刀身にはウラニウムが用いられており、黒い仕上がりになっている。</description>
     <generateCommonality>0</generateCommonality>
-    <weaponTags>
+    <weaponTags Inherit="false">
       <li>AS_WHE_Melee</li>
       <li>AS_WHE_NeolithicMelee</li>
       <li>AS_WHE_MidMelee</li>

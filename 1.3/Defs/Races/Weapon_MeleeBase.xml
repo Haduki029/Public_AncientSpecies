@@ -35,7 +35,7 @@
     <smeltable>true</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
     <thingCategories>
-      <li>WeaponsMelee</li>
+      <li>AS_Weapons</li>
     </thingCategories>
 
     <recipeMaker>
