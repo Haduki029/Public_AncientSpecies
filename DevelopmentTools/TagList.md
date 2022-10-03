@@ -62,27 +62,27 @@ WHE_Industrial
         - AS_WHE_AT_MidSnipe
         - AS_WHE_AT_HighSnipe
 6. Others
-    - AS_WHE_SpacerEq
-    - AS_WHE_IndustrialEq
     - AS_WHE_NeolithicEq
-    - AS_WHE_SpacerMelee
-    - AS_WHE_IndustrialMelee
     - AS_WHE_NeolithicMelee
-    - AS_WHE_SpacerRanged
-    - AS_WHE_IndustrialRanged
     - AS_WHE_NeolithicRanged
+    - AS_WHE_IndustrialEq
+    - AS_WHE_IndustrialMelee
+    - AS_WHE_IndustrialRanged
+    - AS_WHE_SpacerEq
+    - AS_WHE_SpacerMelee
+    - AS_WHE_SpacerRanged
+    - AS_WHE_LowEq
+    - AS_WHE_LowMelee
+    - AS_WHE_LowRanged
+    - AS_WHE_MidEq
+    - AS_WHE_MidMelee
+    - AS_WHE_MidRanged
+    - AS_WHE_HighEq
+    - AS_WHE_HighMelee
+    - AS_WHE_HighRanged
     - AS_WHE_AT_SpacerRanged
     - AS_WHE_AT_IndustrialRanged
     - AS_WHE_AT_NeolithicRanged
-    - AS_WHE_LowEq
-    - AS_WHE_MidEq
-    - AS_WHE_HighEq
-    - AS_WHE_LowMelee
-    - AS_WHE_MidMelee
-    - AS_WHE_HighMelee
-    - AS_WHE_LowRanged
-    - AS_WHE_MidRanged
-    - AS_WHE_HighRanged
     - AS_WHE_AT_LowRanged
     - AS_WHE_AT_MidRanged
     - AS_WHE_AT_HighRanged
@@ -135,29 +135,28 @@ AS_WAE_Knight
     - AS_WAE_Apparel
 
 6. Others
-    - AS_WAE_SpacerEq
-    - AS_WAE_IndustrialEq
-    - AS_WAE_NobleEq
-    - AS_WAE_CitizenEq
     - AS_WAE_NeolithicEq
-    - AS_WAE_SpacerMelee
-    - AS_WAE_IndustrialMelee
-    - AS_WAE_NobleMelee
-    - AS_WAE_CitizenMelee
     - AS_WAE_NeolithicMelee
-    - AS_WAE_SpacerRanged
-    - AS_WAE_CitizenRanged
-    - AS_WAE_NobleRanged
-    - AS_WAE_CitizenRanged
     - AS_WAE_NeolithicRanged
+    - AS_WAE_CitizenEq
+    - AS_WAE_CitizenMelee
+    - AS_WAE_CitizenRanged
+    - AS_WAE_NobleEq
+    - AS_WAE_NobleMelee
+    - AS_WAE_NobleRanged
+    - AS_WAE_SpacerEq
+    - AS_WAE_SpacerMelee
+    - AS_WAE_SpacerRanged
+    - AS_WAE_IndustrialEq
+    - AS_WAE_IndustrialMelee
     - AS_WAE_LowEq
-    - AS_WAE_MidEq
-    - AS_WAE_HighEq
     - AS_WAE_LowMelee
-    - AS_WAE_MidMelee
-    - AS_WAE_HighMelee
     - AS_WAE_LowRanged
+    - AS_WAE_MidEq
+    - AS_WAE_MidMelee
     - AS_WAE_MidRanged
+    - AS_WAE_HighEq
+    - AS_WAE_HighMelee
     - AS_WAE_HighRanged
 ***
 
