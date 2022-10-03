@@ -1,92 +1,53 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-    <ThingDef Name="WHE_BaseWeaponNeolithic" Abstract="True" ParentName="BaseWeapon">
-        <techLevel>Neolithic</techLevel>
+    <ThingDef Name="WHE_BaseWeapon" Abstract="True" ParentName="BaseWeapon">
         <thingCategories>
             <li>AS_Weapons</li>
             <li>AS_WHE_Weapons</li>
         </thingCategories>
-        <weaponTags>
-            <li>AS_Weapons</li>
-            <li>AS_WHE_Ranged</li>
-            <li>AS_WHE_NeolithicRanged</li>
-        </weaponTags>
         <burnableByRecipe>true</burnableByRecipe>
         <comps>
-        <li>
-            <compClass>CompQuality</compClass>
-        </li>
-        </comps>
-        <recipeMaker>
-        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-        <workSkill>Crafting</workSkill>
-        <recipeUsers>
-            <li>ElectricSmithy</li>
-            <li>FueledSmithy</li>
-        </recipeUsers>
-        <effectWorking>Smelt</effectWorking>
-        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-        </recipeMaker>
-    </ThingDef>
-
-    <ThingDef Name="WHE_BaseWeaponIntermediate" Abstract="True" ParentName="BaseWeapon">
-        <techLevel>Industrial</techLevel>
-        <burnableByRecipe>true</burnableByRecipe>
-        <comps>
-        <li>
-            <compClass>CompQuality</compClass>
-        </li>
-        </comps>
-        <recipeMaker>
-        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-        <workSkill>Crafting</workSkill>
-        <recipeUsers>
-            <li>ElectricSmithy</li>
-            <li>FueledSmithy</li>
-        </recipeUsers>
-        <effectWorking>Smelt</effectWorking>
-        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-        </recipeMaker>
-    </ThingDef>
-
-    <ThingDef Name="WHE_BaseWeaponAT" Abstract="True" ParentName="BaseWeapon">
-        <techLevel>Spacer</techLevel>
-        <weaponTags>
-            <li>WHE_Spacer</li>
-        </weaponTags>
-        <thingCategories>
-            <li>AS_Weapons</li>
-        </thingCategories>
-        <burnableByRecipe>true</burnableByRecipe>
-        <comps>
-        <li>
-            <compClass>CompQuality</compClass>
-        </li>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
         </comps>
         <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Smith</soundWorking>
             <recipeUsers>
-                <li>TableMachining</li>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
             </recipeUsers>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <effectWorking>Smelt</effectWorking>
+            <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
         </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="WHE_BaseWeaponNeolithic" Abstract="True" ParentName="WHE_BaseWeapon">
+        <techLevel>Neolithic</techLevel>
+    </ThingDef>
+
+    <ThingDef Name="WHE_BaseWeaponIndustrial" Abstract="True" ParentName="WHE_BaseWeapon">
+        <techLevel>Industrial</techLevel>
+    </ThingDef>
+
+    <ThingDef Name="WHE_BaseWeaponSpacer" Abstract="True" ParentName="WHE_BaseWeapon">
+        <techLevel>Spacer</techLevel>
     </ThingDef>
 
     <ThingDef ParentName="WHE_BaseWeaponNeolithic">
         <defName>WHE_ElvenBow</defName>
         <label>エルブンボウ（ハーフエルフ）</label>
         <description>古代エルフが使っていた一般的な弓の再現版です。オリジナルに性能は劣りますが、一般的な弓より強力で、連射性能があります。</description>
-        <graphicData>
-            <texPath>WHE/Weapons/bow/ElvenBow</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <weaponTags>
-            <li>AS_WHE_Bow</li>
+        <weaponTags Inherit="false">
+            <li>AS_WHE_Ranged</li>
             <li>AS_WHE_NeolithicRanged</li>
+            <li>AS_WHE_LowRanged</li>
         </weaponTags>
+        <graphicData>
+        <texPath>WHE/Weapons/bow/ElvenBow</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
         <soundInteract>Bow_Large</soundInteract>
         <costList>
             <WoodLog>140</WoodLog>
@@ -107,9 +68,9 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>AS_WHE_ElvenArrow</defaultProjectile>
-                <warmupTime>1.05</warmupTime>
-                <range>27.5</range>
+                <defaultProjectile>AS_WAE_ElvenArrow</defaultProjectile>
+                <warmupTime>0.95</warmupTime>
+                <range>29.5</range>
                 <soundCast>Bow_Large</soundCast>
             </li>
         </verbs>
@@ -133,15 +94,20 @@
             </recipeUsers>
             <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
-                <Crafting>8</Crafting>
+                <Crafting>12</Crafting>
             </skillRequirements>
         </recipeMaker>
     </ThingDef>
 
-    <ThingDef ParentName="WHE_BaseWeaponAT">
+    <ThingDef ParentName="WHE_BaseWeaponIndustrial">
         <defName>WHE_CompoundBow</defName>
         <label>コンパウンドボウ（ハーフエルフ）</label>
-        <description>ハーフエルフの技術と、滑車やてこの原理などを用いて作られた大型の半機械弓。連射性能、飛距離、命中精度、威力が高いが、接近戦での取り回しが悪い。</description>
+        <description>ハーフエルフの技術と、滑車やてこの原理などを用いて作られた大型の半機械弓。連射性能、飛距離、命中精度、威力が高いが、接近戦での取り回しが悪い。カーボン製の矢を使用しており、高い貫通力を誇る。</description>
+        <weaponTags Inherit="false">
+            <li>AS_WHE_Ranged</li>
+            <li>AS_WHE_IndustrialRanged</li>
+            <li>AS_WHE_MidRanged</li>
+        </weaponTags>
         <graphicData>
             <texPath>WHE/Weapons/bow/CompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -151,34 +117,28 @@
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
         <costList>
-            <WoodLog>200</WoodLog>
-            <Plasteel>20</Plasteel>
+            <WoodLog>30</WoodLog>
+            <Plasteel>80</Plasteel>
             <Hyperweave>5</Hyperweave>
             <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
-            <WorkToMake>32500</WorkToMake>
+            <WorkToMake>28500</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
             <AccuracyMedium>0.95</AccuracyMedium>
-            <AccuracyLong>0.90</AccuracyLong>
+            <AccuracyLong>0.80</AccuracyLong>
             <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
         </statBases>
-        <thingCategories>
-            <li>AS_WHE_Weapons</li>
-        </thingCategories>
-        <weaponTags>
-            <li>AS_WHE_NeolithicRangedAdvanced</li>
-        </weaponTags>
         <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>AS_WHE_CarbonArrow</defaultProjectile>
             <warmupTime>1.02</warmupTime>
-            <range>42.5</range>
+            <range>38.5</range>
             <soundCast>Bow_Large</soundCast>
         </li>
         </verbs>
@@ -197,15 +157,20 @@
         <recipeMaker>
             <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
-                <Crafting>13</Crafting>
+                <Crafting>12</Crafting>
             </skillRequirements>
         </recipeMaker>
     </ThingDef>
 
-    <ThingDef ParentName="WHE_BaseWeaponAT">
+    <ThingDef ParentName="WHE_BaseWeaponSpacer">
         <defName>WHE_ElvenCompoundBow</defName>
         <label>エルブンコンパウンドボウ（ハーフエルフ）</label>
         <description>ハーフエルフの技術と、エルフの古代技術、現代の技術を合わせて作られた大型の半機械弓。コンパウンドボウと比較し、連射性能、飛距離がさらに強化され、命中精度も向上している。</description>
+        <weaponTags Inherit="false">
+            <li>AS_WHE_Ranged</li>
+            <li>AS_WHE_SpacerRanged</li>
+            <li>AS_WHE_HighRanged</li>
+        </weaponTags>
         <graphicData>
             <texPath>WHE/Weapons/bow/ElvenCompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -216,32 +181,26 @@
         <soundInteract>Bow_Large</soundInteract>
         <costList>
             <WHE_CompoundBow>1</WHE_CompoundBow>
-            <WHE_ElvenBow_Origin>1</WHE_ElvenBow_Origin>
+            <WAE_ElvenBow_Origin>1</WAE_ElvenBow_Origin>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
             <WorkToMake>26500</WorkToMake>
-            <Mass>3.8</Mass>
-            <AccuracyTouch>0.65</AccuracyTouch>
-            <AccuracyShort>0.85</AccuracyShort>
+            <Mass>4.2</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.88</AccuracyShort>
             <AccuracyMedium>1.15</AccuracyMedium>
-            <AccuracyLong>1.15</AccuracyLong>
+            <AccuracyLong>1.05</AccuracyLong>
             <RangedWeapon_Cooldown>0.72</RangedWeapon_Cooldown>
         </statBases>
-        <thingCategories>
-            <li>AS_WHE_Weapons</li>
-        </thingCategories>
-        <weaponTags>
-            <li>AS_WHE_NeolithicRangedAdvanced</li>
-        </weaponTags>
         <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>AS_WHE_ElvenPowerArrow</defaultProjectile>
             <warmupTime>0.92</warmupTime>
-            <range>47.5</range>
+            <range>45.5</range>
             <soundCast>Bow_Large</soundCast>
         </li>
         </verbs>
@@ -249,10 +208,10 @@
             <li>
                 <label>limb</label>
                 <capacities>
-                <li>Blunt</li>
-                <li>Poke</li>
+                    <li>Blunt</li>
+                    <li>Poke</li>
                 </capacities>
-                <power>10.8</power>
+                <power>11.8</power>
                 <cooldownTime>2.1</cooldownTime>
             </li>
         </tools>
@@ -260,7 +219,7 @@
         <recipeMaker>
             <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
-                <Crafting>18</Crafting>
+                <Crafting>16</Crafting>
             </skillRequirements>
         </recipeMaker>
     </ThingDef>
@@ -276,8 +235,8 @@
             <damageDef>Arrow</damageDef>
             <damageAmountBase>21</damageAmountBase>
             <stoppingPower>1.6</stoppingPower>
-            <armorPenetrationBase>0.27</armorPenetrationBase>
-            <speed>73</speed>
+            <armorPenetrationBase>0.28</armorPenetrationBase>
+            <speed>76</speed>
         </projectile>
     </ThingDef>
 
@@ -290,10 +249,10 @@
         </graphicData>
         <projectile>
             <damageDef>Arrow</damageDef>
-            <damageAmountBase>24</damageAmountBase>
-            <stoppingPower>2.1</stoppingPower>
+            <damageAmountBase>25</damageAmountBase>
+            <stoppingPower>2.2</stoppingPower>
             <armorPenetrationBase>0.31</armorPenetrationBase>
-            <speed>81</speed>
+            <speed>88</speed>
         </projectile>
     </ThingDef>
 

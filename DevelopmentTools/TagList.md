@@ -58,17 +58,17 @@ WHE_Industrial
         - AS_WHE_AT_MidSnipe
         - AS_WHE_AT_HighSnipe
 6. Others
-    - AS_WHE_NobleEq
-    - AS_WHE_CitizenEq
+    - AS_WHE_SpacerEq
+    - AS_WHE_IndustrialEq
     - AS_WHE_NeolithicEq
-    - AS_WHE_NobleMelee
-    - AS_WHE_CitizenMelee
+    - AS_WHE_SpacerMelee
+    - AS_WHE_IndustrialMelee
     - AS_WHE_NeolithicMelee
-    - AS_WHE_NobleRanged
-    - AS_WHE_CitizenRanged
+    - AS_WHE_SpacerRanged
+    - AS_WHE_IndustrialRanged
     - AS_WHE_NeolithicRanged
-    - AS_WHE_AT_NobleRanged
-    - AS_WHE_AT_CitizenRanged
+    - AS_WHE_AT_SpacerRanged
+    - AS_WHE_AT_IndustrialRanged
     - AS_WHE_AT_NeolithicRanged
     - AS_WHE_LowEq
     - AS_WHE_MidEq
