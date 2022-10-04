@@ -2,13 +2,13 @@
 <Defs>
   <FactionDef ParentName="WAE_NPC_FactionsBase">
     <defName>AS_WAE_Settlement</defName>
-    <label>エンシェントエルフの集落</label>
+    <label>古代エルフの集落</label>
     <techLevel>Industrial</techLevel>
-    <description>エンシェントエルフ達の集落。</description>
+    <description>古代エルフ達の集落。</description>
     <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
     <factionIconPath>WHE/WHE_Faction</factionIconPath>
-    <pawnSingular>エンシェントエルフ</pawnSingular>
-    <pawnsPlural>エンシェントエルフ達</pawnsPlural>
+    <pawnSingular>古代エルフ</pawnSingular>
+    <pawnsPlural>古代エルフ達</pawnsPlural>
     <listOrderPriority>20</listOrderPriority>
     <settlementGenerationWeight>0.05</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -19,7 +19,7 @@
 		<canStageAttacks>true</canStageAttacks>
     <autoFlee>true</autoFlee>
     <leaderTitle>Leader</leaderTitle>
-    <fixedName>エンシェントエルフ</fixedName>
+    <fixedName>古代エルフ</fixedName>
     <factionNameMaker>NamerFactionOutlander</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <geneticVariance>0.5</geneticVariance>

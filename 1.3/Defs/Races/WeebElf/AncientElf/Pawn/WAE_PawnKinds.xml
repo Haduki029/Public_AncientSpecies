@@ -2,7 +2,7 @@
 <Defs>
   <PawnKindDef ParentName="AS_WAE_NPCBase_Neolithic">
     <defName>AS_WAE_Villager</defName>
-    <label>エンシェントエルフの村人</label>
+    <label>古代エルフの村人</label>
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <weaponMoney>800~1250</weaponMoney>

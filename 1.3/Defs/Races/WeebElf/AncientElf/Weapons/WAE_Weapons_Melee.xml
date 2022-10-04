@@ -11,13 +11,13 @@
     <defName>AS_WHE_WAESword</defName>
     <label>古代エルフの剣</label>
     <techLevel>Industrial</techLevel>
-    <description>エンシェントエルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。</description>
+    <description>古代エルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。</description>
     <generateCommonality>0</generateCommonality>
     <graphicData>
       <texPath>WHE/Weapons/Melee/AncientElfSword_Reproduction_Drop</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
-      <drawOffset>0.0,0,0</drawOffset>
+      <drawOffset>(0,0,0)</drawOffset>
     </graphicData>
     <weaponTags Inherit="false">
       <li>AS_WAE_Melee</li>

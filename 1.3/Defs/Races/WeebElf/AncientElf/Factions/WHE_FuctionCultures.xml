@@ -2,8 +2,8 @@
 <Defs>
   <CultureDef>
     <defName>AS_WAE_Cultures</defName>
-    <label>エンシェントエルフの文化</label>
-    <description>辺境の惑星で育まれてきたエンシェントエルフ達の一般的な文化。</description>
+    <label>古代エルフの文化</label>
+    <description>辺境の惑星で育まれてきた古代エルフ達の一般的な文化。</description>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>

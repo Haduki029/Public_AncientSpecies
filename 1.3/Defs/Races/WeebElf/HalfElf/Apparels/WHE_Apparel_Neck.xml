@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Scarf</defName>
     <description>布で編まれたスカーフで、首の防護を上げつつ、寒さへの耐性を得ることが出来る。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
@@ -56,7 +55,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShieldScarf</defName>
     <description>布、ハイパーウィーブを使い編まれたスカーフに、ハーフエルフの技術を用いてシールド機能を付けたもの。首周りの防護能力が非常に高い。</description>

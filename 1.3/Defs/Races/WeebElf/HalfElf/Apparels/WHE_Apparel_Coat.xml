@@ -260,7 +260,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ElvenMantle</defName>
     <description>古代エルフの技術で作られたマント。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐暑、耐熱、防御性能に優れ、使用者の格闘能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</description>
@@ -327,7 +326,6 @@
       <layers>
         <li>AS_Coat</li>
       </layers>
-      
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
