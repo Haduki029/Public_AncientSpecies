@@ -2,7 +2,7 @@
 <Defs>
   <BodyDef>
     <defName>AS_WAE_Body</defName>
-    <label>エンシェントエルフ</label>
+    <label>古代エルフ</label>
     <corePart>
       <def>Torso</def>
       <height>Middle</height>

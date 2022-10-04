@@ -9,8 +9,8 @@
 
 <AlienRace.ThingDef_AlienRace ParentName="AS_WAE_BasePawn">
     <defName>AS_WAE_Race</defName>
-    <label>エンシェントエルフ</label>
-    <description>エンシェントエルフは、一部の辺境の惑星に住んでいる種族です。\n人間の4倍ほどの寿命があり、ある特殊な器官の働きにより、身体能力もかなり優れています。\n非常に数が少なく、高額で取引されていますが、基本敵対的な場合が多い種族です。\nハーフエルフはこのエンシェントエルフを基にして造られた種族と言われていますが、一部ではこのエンシェントエルフ自体も、古代の技術で造られたのではないかという説があります。</description>
+    <label>古代エルフ</label>
+    <description>古代エルフは、一部の辺境の惑星に住んでいる種族です。\n人間の4倍ほどの寿命があり、ある特殊な器官の働きにより、身体能力もかなり優れています。\n非常に数が少なく、高額で取引されていますが、基本敵対的な場合が多い種族です。\nハーフエルフはこの古代エルフを基にして造られた種族と言われていますが、一部ではこの古代エルフ自体も、古代の技術で造られたのではないかという説があります。</description>
     <alienRace>
 		<generalSettings>
 			<maleGenderProbability>0.00000001</maleGenderProbability>
@@ -166,6 +166,7 @@
         <li>AS_WAE_KnightDress</li>
         <li>AS_WAE_FeatherHelm</li>
         <li>AS_WHE_ShoulderBack</li>
+        <li>AS_WAE_LightArcherBoots</li>
       </apparelList>
 			<whiteApparelList>
 

@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
   <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ApparelCommonBase" Abstract="True">
     <followStuffColor>true</followStuffColor>
     <thingClass>Apparel</thingClass>
@@ -32,7 +31,7 @@
       </li>
       <li>
         <compClass>CompColorable</compClass>
-      </li> 
+      </li>
     </comps>
   </ThingDef>
 
@@ -51,7 +50,6 @@
     </recipeMaker>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" Name="AS_WHE_ArmorMachineableBase" ParentName="AS_WHE_ApparelColorBase" Abstract="True">
 	  <techLevel>Spacer</techLevel>
     <recipeMaker>

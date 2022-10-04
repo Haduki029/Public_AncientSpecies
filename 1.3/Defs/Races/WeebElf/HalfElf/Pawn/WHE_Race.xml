@@ -147,8 +147,6 @@
         <li>AS_WHE_Neeso</li>
         <li>AS_WHE_StripeNeeso</li>
         <li>AS_WHE_GarterBelt</li>
-        
-        
         <li>AS_WHE_Parka</li>
         <li>AS_WHE_ElvenPoncho</li>
         <li>AS_WHE_Scarf</li>
@@ -173,16 +171,16 @@
         <li>AS_WAE_KnightDress</li>
         <li>AS_WAE_FeatherHelm</li>
         <li>AS_WHE_ShoulderBack</li>
+        <li>AS_WAE_LightArcherBoots</li>
       </apparelList>
 			<whiteApparelList>
-			  
 				<li>Apparel_SmokepopBelt</li>
 			</whiteApparelList>
       <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
       <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
     </raceRestriction>
 	</alienRace>
-  
+
   <statBases>
     <MarketValue>1500</MarketValue>
     <MoveSpeed>4.9</MoveSpeed>
@@ -195,14 +193,11 @@
     <MeatAmount>60</MeatAmount>
     <LeatherAmount>60</LeatherAmount>
     <PainShockThreshold>1.0</PainShockThreshold>
-    
     <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
     <AimingDelayFactor>0.9</AimingDelayFactor> 
     <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
     <MeleeDodgeChance>0.05</MeleeDodgeChance>
-    
     <WorkSpeedGlobal>1.05</WorkSpeedGlobal> 
-    
     <NegotiationAbility>0.9</NegotiationAbility>
     <SellPriceFactor>0.9</SellPriceFactor> 
     <SocialImpact>1.0</SocialImpact> 
