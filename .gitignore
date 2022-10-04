@@ -4,6 +4,7 @@
 # User settings
 # Source/
 # *.txt
+EditRaceDefs/CreateDefsFile/src/targetFiles/*
 
 # User-specific files
 *.suo
