@@ -2,8 +2,8 @@
 <Defs>
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_KnightDress</defName>
-    <description>エンシェントエルフの守護騎士のみに装着が許された鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</description>
-    <label>姫騎士鎧（エンシェントエルフ）</label>
+    <description>古代エルフの守護騎士のみに装着が許された鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</description>
+    <label>姫騎士鎧（古代エルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WAE/Apparels/undermiddle/KnightDress</texPath>
@@ -65,7 +65,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/undermiddle/KnightDress</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>Middle</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

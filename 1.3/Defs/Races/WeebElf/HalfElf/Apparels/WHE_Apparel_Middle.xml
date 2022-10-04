@@ -52,7 +52,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/BulletProofVest</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>AS_OverMiddle</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

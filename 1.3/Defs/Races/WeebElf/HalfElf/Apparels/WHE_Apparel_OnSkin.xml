@@ -9,7 +9,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <followStuffColor>true</followStuffColor>
     <costStuffCount>40</costStuffCount>
@@ -66,7 +66,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
     <costStuffCount>50</costStuffCount>
@@ -132,7 +132,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
     <costStuffCount>50</costStuffCount>
@@ -199,7 +199,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/UnderWareD</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.9</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
     <costStuffCount>60</costStuffCount>
@@ -319,7 +319,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/Babydoll</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.8</drawSize>
     </graphicData>
     <followStuffColor>true</followStuffColor>
     <costStuffCount>100</costStuffCount>
@@ -374,7 +374,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/BabydollWhite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.8</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
     <costStuffCount>40</costStuffCount>
@@ -437,7 +437,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/Blackbabydoll</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.8</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
     <costStuffCount>40</costStuffCount>
@@ -500,7 +500,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/BabydollHighGrade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.8</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
     <costStuffCount>40</costStuffCount>

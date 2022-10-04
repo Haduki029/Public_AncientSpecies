@@ -1,451 +1,254 @@
 [
   {
-    "itemName": "AS_WAE_NobleCoat",
-    "bodyParts": [
-      "Neck",
-      "Torso",
-      "Shoulders",
-      "Arms"
-    ],
-    "layers": [
+    "itemName": "AS_WAE_NobleCoat",   "bodyParts": [
+      "Neck",     "Torso",     "Shoulders",     "Arms"
+    ],   "layers": [
       "AS_Coat"
     ]
-  },
-  {
-    "itemName": "AS_WAE_LightArcherBoots",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WAE_LightArcherBoots",   "bodyParts": [
       "Legs"
-    ],
-    "layers": [
+    ],   "layers": [
       "AS_legs"
     ]
-  },
-  {
-    "itemName": "AS_WAE_FeatherHelm",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WAE_FeatherHelm",   "bodyParts": [
       "FullHead"
-    ],
-    "layers": [
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WAE_KnightDress",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Arms",
-      "Legs"
-    ],
-    "layers": [
-      "Shell",
-      "AS_legs"
+  }, {
+    "itemName": "AS_WAE_KnightDress",   "bodyParts": [
+      "Torso",     "Shoulders",     "Arms",     "Legs"
+    ],   "layers": [
+      "Shell",     "AS_legs"
     ]
-  },
-  {
-    "itemName": "AS_WHE_ShoulderBack",
-    "bodyParts": [
-      "Torso",
-      "Neck",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_ShoulderBack",   "bodyParts": [
+      "Torso",     "Neck",     "Shoulders"
+    ],   "layers": [
       "AS_Backpack"
     ]
-  },
-  {
-    "itemName": "AS_WHE_Cape",
-    "bodyParts": [
-      "Neck",
-      "Torso",
-      "Shoulders",
-      "Arms"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_Cape",   "bodyParts": [
+      "Neck",     "Torso",     "Shoulders",     "Arms"
+    ],   "layers": [
       "AS_Coat"
     ]
-  },
-  {
-    "itemName": "AS_WHE_Parka",
-    "bodyParts": [
-      "Neck",
-      "Torso",
-      "Shoulders",
-      "Arms"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_Parka",   "bodyParts": [
+      "Neck",     "Torso",     "Shoulders",     "Arms"
+    ],   "layers": [
       "AS_Coat"
     ]
-  },
-  {
-    "itemName": "AS_WHE_SimplePoncho",
-    "bodyParts": [
-      "Neck",
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_SimplePoncho",   "bodyParts": [
+      "Neck",     "Torso",     "Shoulders"
+    ],   "layers": [
       "AS_Coat"
     ]
-  },
-  {
-    "itemName": "AS_WHE_ElvenPoncho",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Neck",
-      "Arms"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_ElvenPoncho",   "bodyParts": [
+      "Torso",     "Shoulders",     "Neck",     "Arms"
+    ],   "layers": [
       "AS_Coat"
     ]
-  },
-  {
-    "itemName": "AS_WHE_ElvenMantle",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Neck",
-      "Arms"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_ElvenMantle",   "bodyParts": [
+      "Torso",     "Shoulders",     "Neck",     "Arms"
+    ],   "layers": [
       "AS_Coat"
     ]
-  },
-  {
-    "itemName": "AS_WHE_BulletProofVest",
-    "bodyParts": [
-      "Torso",
-      "Neck",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_BulletProofVest",   "bodyParts": [
+      "Torso",     "Neck",     "Shoulders"
+    ],   "layers": [
       "Shell"
     ]
-  },
-  {
-    "itemName": "AS_WHE_Scarf",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_Scarf",   "bodyParts": [
       "Neck"
-    ],
-    "layers": [
+    ],   "layers": [
       "AS_Neck"
     ]
-  },
-  {
-    "itemName": "AS_WHE_ShieldScarf",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_ShieldScarf",   "bodyParts": [
       "Neck"
-    ],
-    "layers": [
+    ],   "layers": [
       "Belt"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearA",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearA",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearB",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearB",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearC",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearC",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearD",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearD",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearE",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearE",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearF",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearF",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearG",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearG",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearH",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearH",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_UnderwearI",
-    "bodyParts": [
-      "Torso",
-      "Shoulders"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_UnderwearI",   "bodyParts": [
+      "Torso",     "Shoulders"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_Neeso",
-    "bodyParts": [
-      "Legs",
-      "Feet"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_Neeso",   "bodyParts": [
+      "Legs",     "Feet"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_StripeNeeso",
-    "bodyParts": [
-      "Legs",
-      "Feet"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_StripeNeeso",   "bodyParts": [
+      "Legs",     "Feet"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_GarterBelt",
-    "bodyParts": [
-      "Legs",
-      "Feet"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_GarterBelt",   "bodyParts": [
+      "Legs",     "Feet"
+    ],   "layers": [
       "OnSkin"
     ]
-  },
-  {
-    "itemName": "AS_WHE_Helmet",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_Helmet",   "bodyParts": [
       "UpperHead"
-    ],
-    "layers": [
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WHE_AdvancedHelmet",
-    "bodyParts": [
-      "UpperHead",
-      "Eyes"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_AdvancedHelmet",   "bodyParts": [
+      "UpperHead",     "Eyes"
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WHE_MarineHelmet",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_MarineHelmet",   "bodyParts": [
       "FullHead"
-    ],
-    "layers": [
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WHE_MaidHairBand",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_MaidHairBand",   "bodyParts": [
       "UpperHead"
-    ],
-    "layers": [
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WHE_Horn",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_Horn",   "bodyParts": [
       "UpperHead"
-    ],
-    "layers": [
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WHE_CuteRibon",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_CuteRibon",   "bodyParts": [
       "UpperHead"
-    ],
-    "layers": [
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WHE_PressureResistantHelmet",
-    "bodyParts": [
+  }, {
+    "itemName": "AS_WHE_PressureResistantHelmet",   "bodyParts": [
       "FullHead"
-    ],
-    "layers": [
+    ],   "layers": [
       "Overhead"
     ]
-  },
-  {
-    "itemName": "AS_WHE_MarineArmor",
-    "bodyParts": [
-      "Torso",
-      "Neck",
-      "Shoulders",
-      "Arms",
-      "Legs",
-      "Hands",
-      "Feet"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_MarineArmor",   "bodyParts": [
+      "Torso",     "Neck",     "Shoulders",     "Arms",     "Legs",     "Hands",     "Feet"
+    ],   "layers": [
       "Middle"
     ]
-  },
-  {
-    "itemName": "AS_WHE_PressureResistantSuits",
-    "bodyParts": [
-      "Torso",
-      "Neck",
-      "Shoulders",
-      "Arms",
-      "Legs",
-      "Hands",
-      "Feet"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_PressureResistantSuits",   "bodyParts": [
+      "Torso",     "Neck",     "Shoulders",     "Arms",     "Legs",     "Hands",     "Feet"
+    ],   "layers": [
       "Shell"
     ]
-  },
-  {
-    "itemName": "AS_WHE_PlateArmor",
-    "bodyParts": [
-      "Neck",
-      "Torso",
-      "Shoulders",
-      "Arms"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_PlateArmor",   "bodyParts": [
+      "Neck",     "Torso",     "Shoulders",     "Arms"
+    ],   "layers": [
       "Shell"
     ]
-  },
-  {
-    "itemName": "AS_WHE_WAEArmor_Re",
-    "bodyParts": [
-      "Neck",
-      "Torso",
-      "Shoulders",
-      "Arms",
-      "Legs",
-      "Hands"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_WAEArmor_Re",   "bodyParts": [
+      "Neck",     "Torso",     "Shoulders",     "Arms",     "Legs",     "Hands"
+    ],   "layers": [
       "Middle"
     ]
-  },
-  {
-    "itemName": "AS_WHE_MaidWare",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Arms",
-      "Legs"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_MaidWare",   "bodyParts": [
+      "Torso",     "Shoulders",     "Arms",     "Legs"
+    ],   "layers": [
       "AS_UnderMiddle"
     ]
-  },
-  {
-    "itemName": "AS_WHE_Tribal",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Arms"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_Tribal",   "bodyParts": [
+      "Torso",     "Shoulders",     "Arms"
+    ],   "layers": [
       "AS_UnderMiddle"
     ]
-  },
-  {
-    "itemName": "AS_WHE_TShirts",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Arms"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_TShirts",   "bodyParts": [
+      "Torso",     "Shoulders",     "Arms"
+    ],   "layers": [
       "AS_UnderMiddle"
     ]
-  },
-  {
-    "itemName": "AS_WHE_ShortPants",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Legs"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_ShortPants",   "bodyParts": [
+      "Torso",     "Shoulders",     "Legs"
+    ],   "layers": [
       "AS_UnderMiddle"
     ]
-  },
-  {
-    "itemName": "AS_WHE_ShirtButton",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Arms",
-      "Legs"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_ShirtButton",   "bodyParts": [
+      "Torso",     "Shoulders",     "Arms",     "Legs"
+    ],   "layers": [
       "AS_UnderMiddle"
     ]
-  },
-  {
-    "itemName": "AS_WHE_TankTop",
-    "bodyParts": [
-      "Torso",
-      "Shoulders",
-      "Legs"
-    ],
-    "layers": [
+  }, {
+    "itemName": "AS_WHE_TankTop",   "bodyParts": [
+      "Torso",     "Shoulders",     "Legs"
+    ],   "layers": [
       "AS_UnderMiddle"
     ]
   }

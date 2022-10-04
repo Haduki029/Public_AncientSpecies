@@ -33,16 +33,6 @@
     "itemCount": 8
   },
   {
-    "categoryName": [
-      "Shell",
-      "AS_legs"
-    ],
-    "items": [
-      "AS_WAE_KnightDress"
-    ],
-    "itemCount": 1
-  },
-  {
     "categoryName": "AS_Backpack",
     "items": [
       "AS_WHE_ShoulderBack"
@@ -52,9 +42,7 @@
   {
     "categoryName": "Shell",
     "items": [
-      "AS_WHE_BulletProofVest",
-      "AS_WHE_PressureResistantSuits",
-      "AS_WHE_PlateArmor"
+      
     ],
     "itemCount": 3
   },
@@ -94,7 +82,17 @@
     "categoryName": "Middle",
     "items": [
       "AS_WHE_MarineArmor",
-      "AS_WHE_WAEArmor_Re"
+      "AS_WHE_WAEArmor_Re",
+      "AS_WAE_KnightDress",
+      "AS_WHE_PlateArmor",
+      "AS_WHE_PressureResistantSuits"
+    ],
+    "itemCount": 2
+  },
+  {
+    "categoryName": "AS_OverMiddle",
+    "items": [
+      "AS_WHE_BulletProofVest"
     ],
     "itemCount": 2
   },

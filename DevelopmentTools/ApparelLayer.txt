@@ -1,0 +1,14 @@
+skin 0
+AS_legs 10
+AS_UnderMiddle 50
+Middle 100
+AS_OverMiddle 150
+Shell 200
+AS_Webbing 210
+
+Belt 300
+AS_Coat 340
+AS_Backpack 350
+AS_Neck 360
+Overhead 400
+EyeCover 500

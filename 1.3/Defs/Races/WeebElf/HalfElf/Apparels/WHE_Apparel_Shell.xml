@@ -130,7 +130,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>WHE/Apparels/middle/PressureResistantSuit</wornGraphicPath>
 			<layers>
-				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
         <li>AS_WHE_Spacer</li>
@@ -191,7 +191,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/PlateArmor</wornGraphicPath>
       <layers>
-        <li>Shell</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>Royal</li>
