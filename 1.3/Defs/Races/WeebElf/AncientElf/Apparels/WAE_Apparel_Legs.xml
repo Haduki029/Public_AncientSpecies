@@ -8,7 +8,8 @@
     <graphicData>
         <texPath>WAE/Apparels/legs/LArcherBoots</texPath>
         <graphicClass>Graphic_Single</graphicClass>
-        <drawSize>1.3</drawSize>
+        <drawSize>1.5</drawSize>
+        <drawOffset>(-0.8,0.5,0.5)</drawOffset>
     </graphicData>
     <followStuffColor>false</followStuffColor>
     <costStuffCount>80</costStuffCount>
@@ -33,9 +34,9 @@
         <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
         <Insulation_Cold>30</Insulation_Cold>
-	<Insulation_Heat>30</Insulation_Heat>
+	    <Insulation_Heat>30</Insulation_Heat>
         <Beauty>0.3</Beauty>
-        <EquipDelay>10</EquipDelay>
+        <EquipDelay>8</EquipDelay>
         <Flammability>0.01</Flammability>
     </statBases>
     <equippedStatOffsets>
