@@ -26,7 +26,7 @@ export namespace ApparelItem {
     export interface Apparel {
         bodyPartGroups:    StuffCategories;
         wornGraphicPath:   string;
-        layers:            DefaultOutfitTags[];
+        layers:            DefaultOutfitTags;
         tags:              StuffCategories;
         defaultOutfitTags: DefaultOutfitTags;
     }
@@ -36,7 +36,7 @@ export namespace ApparelItem {
     }
     
     export interface DefaultOutfitTags {
-        li: string;
+        li: string[];
     }
     
     export interface CostList {

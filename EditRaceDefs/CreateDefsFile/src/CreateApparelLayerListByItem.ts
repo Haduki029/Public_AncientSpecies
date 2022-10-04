@@ -36,12 +36,17 @@ async function main() {
       //// let targetData: string[] = new Array<string>();
       // 配列になっていないデータを配列化
       data.Defs.ThingDef = convertArrayItem(data.Defs.ThingDef);
-      console.log(isArray(data.Defs.ThingDef));
+      // console.log(isArray(data.Defs.ThingDef.apparel.bodyPartGroups));
       // console.log(isArray(data.Defs.ThingDef.apparel.layers.li));
       for (let thingDefData of data.Defs.ThingDef) {
+        // console.log(thingDefData.apparel.bodyPartGroups.li);
+        // console.log(thingDefData.apparel.layers.li);
         // 配列になっていないデータを配列化
-        thingDefData.apparel.layers = convertArrayItem(thingDefData.apparel.layers);
-        let dataListItem: LayerLsitByItem = new LayerLsitByItem(thingDefData.defName, thingDefData.apparel.layers);
+        thingDefData.apparel.bodyPartGroups.li = convertArrayItem(thingDefData.apparel.bodyPartGroups.li);
+        thingDefData.apparel.layers.li = convertArrayItem(thingDefData.apparel.layers.li);
+
+        let dataListItem: LayerLsitByItem =
+          new LayerLsitByItem(thingDefData.defName, thingDefData.apparel.bodyPartGroups.li, thingDefData.apparel.layers.li);
 
         dataList.push(dataListItem);
       }

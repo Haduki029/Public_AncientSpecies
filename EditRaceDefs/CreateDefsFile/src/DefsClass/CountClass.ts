@@ -23,9 +23,11 @@ export interface ItemsClass {
 
 export class LayerLsitByItem {
     itemName: string;
-    layers: ApparelItem.DefaultOutfitTags[];
-    constructor(name: string, layers: ApparelItem.DefaultOutfitTags[]) {
+    bodyParts: string[];
+    layers: string[];
+    constructor(name: string, bodyParts: string[], layers: string[]) {
         this.itemName = name;
+        this.bodyParts = bodyParts;
         this.layers = layers;
     }
 }
