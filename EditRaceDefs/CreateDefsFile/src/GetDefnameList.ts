@@ -6,7 +6,7 @@ import {ApparelLayerList, ItemListClass, ItemsClass} from "./DefsClass/CountClas
 
 /**
  * Apparel用。
- * categoryName別に前アイテムと個数を出力。
+ * 装備Layer別に全アイテムと個数を出力。
  */
 
 async function main() {
@@ -102,7 +102,7 @@ function selectCategoryName(layer: string): string {
 
 function writeData(targetData: ItemListClass[]): void {
   const outPutData = JSON.stringify(targetData, null, 2);
-  fs.writeFileSync(__dirname + '/output.json', outPutData);
+  fs.writeFileSync(__dirname + '/ItemListByApparelLayer.json', outPutData);
 }
 
 (async () => {

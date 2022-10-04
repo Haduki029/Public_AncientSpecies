@@ -1,0 +1,113 @@
+[
+  {
+    "categoryName": "AS_Coat",
+    "items": [
+      "AS_WAE_NobleCoat",
+      "AS_WHE_Cape",
+      "AS_WHE_Parka",
+      "AS_WHE_SimplePoncho",
+      "AS_WHE_ElvenPoncho",
+      "AS_WHE_ElvenMantle"
+    ],
+    "itemCount": 6
+  },
+  {
+    "categoryName": "AS_legs",
+    "items": [
+      "AS_WAE_LightArcherBoots"
+    ],
+    "itemCount": 1
+  },
+  {
+    "categoryName": "Overhead",
+    "items": [
+      "AS_WAE_FeatherHelm",
+      "AS_WHE_Helmet",
+      "AS_WHE_AdvancedHelmet",
+      "AS_WHE_MarineHelmet",
+      "AS_WHE_MaidHairBand",
+      "AS_WHE_Horn",
+      "AS_WHE_CuteRibon",
+      "AS_WHE_PressureResistantHelmet"
+    ],
+    "itemCount": 8
+  },
+  {
+    "categoryName": [
+      "Shell",
+      "AS_legs"
+    ],
+    "items": [
+      "AS_WAE_KnightDress"
+    ],
+    "itemCount": 1
+  },
+  {
+    "categoryName": "AS_Backpack",
+    "items": [
+      "AS_WHE_ShoulderBack"
+    ],
+    "itemCount": 1
+  },
+  {
+    "categoryName": "Shell",
+    "items": [
+      "AS_WHE_BulletProofVest",
+      "AS_WHE_PressureResistantSuits",
+      "AS_WHE_PlateArmor"
+    ],
+    "itemCount": 3
+  },
+  {
+    "categoryName": "AS_Neck",
+    "items": [
+      "AS_WHE_Scarf"
+    ],
+    "itemCount": 1
+  },
+  {
+    "categoryName": "Belt",
+    "items": [
+      "AS_WHE_ShieldScarf"
+    ],
+    "itemCount": 1
+  },
+  {
+    "categoryName": "OnSkin",
+    "items": [
+      "AS_WHE_UnderwearA",
+      "AS_WHE_UnderwearB",
+      "AS_WHE_UnderwearC",
+      "AS_WHE_UnderwearD",
+      "AS_WHE_UnderwearE",
+      "AS_WHE_UnderwearF",
+      "AS_WHE_UnderwearG",
+      "AS_WHE_UnderwearH",
+      "AS_WHE_UnderwearI",
+      "AS_WHE_Neeso",
+      "AS_WHE_StripeNeeso",
+      "AS_WHE_GarterBelt"
+    ],
+    "itemCount": 12
+  },
+  {
+    "categoryName": "Middle",
+    "items": [
+      "AS_WHE_MarineArmor",
+      "AS_WHE_WAEArmor_Re"
+    ],
+    "itemCount": 2
+  },
+  {
+    "categoryName": "AS_UnderMiddle",
+    "items": [
+      "AS_WHE_MaidWare",
+      "AS_WHE_Tribal",
+      "AS_WHE_TShirts",
+      "AS_WHE_ShortPants",
+      "AS_WHE_ShirtButton",
+      "AS_WHE_TankTop"
+    ],
+    "itemCount": 6
+  }
+]

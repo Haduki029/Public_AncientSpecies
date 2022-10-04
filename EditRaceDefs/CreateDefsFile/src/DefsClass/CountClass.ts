@@ -1,3 +1,5 @@
+import { ApparelItem } from "./Apparel"
+
 export const ApparelLayerList = {
     AS_legs: "具足類",
     AS_UnderMiddle: "肌着類",
@@ -17,4 +19,13 @@ export class ItemListClass {
 
 export interface ItemsClass {
     itemName: string;
+}
+
+export class LayerLsitByItem {
+    itemName: string;
+    layers: ApparelItem.DefaultOutfitTags[];
+    constructor(name: string, layers: ApparelItem.DefaultOutfitTags[]) {
+        this.itemName = name;
+        this.layers = layers;
+    }
 }

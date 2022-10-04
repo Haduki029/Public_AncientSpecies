@@ -1,0 +1,341 @@
+[
+  {
+    "itemName": "AS_WAE_NobleCoat",
+    "layers": [
+      {
+        "li": "AS_Coat"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WAE_LightArcherBoots",
+    "layers": [
+      {
+        "li": "AS_legs"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WAE_FeatherHelm",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WAE_KnightDress",
+    "layers": [
+      {
+        "li": [
+          "Shell",
+          "AS_legs"
+        ]
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_ShoulderBack",
+    "layers": [
+      {
+        "li": "AS_Backpack"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_Cape",
+    "layers": [
+      {
+        "li": "AS_Coat"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_Parka",
+    "layers": [
+      {
+        "li": "AS_Coat"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_SimplePoncho",
+    "layers": [
+      {
+        "li": "AS_Coat"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_ElvenPoncho",
+    "layers": [
+      {
+        "li": "AS_Coat"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_ElvenMantle",
+    "layers": [
+      {
+        "li": "AS_Coat"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_BulletProofVest",
+    "layers": [
+      {
+        "li": "Shell"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_Scarf",
+    "layers": [
+      {
+        "li": "AS_Neck"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_ShieldScarf",
+    "layers": [
+      {
+        "li": "Belt"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearA",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearB",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearC",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearD",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearE",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearF",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearG",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearH",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_UnderwearI",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_Neeso",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_StripeNeeso",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_GarterBelt",
+    "layers": [
+      {
+        "li": "OnSkin"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_Helmet",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_AdvancedHelmet",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_MarineHelmet",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_MaidHairBand",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_Horn",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_CuteRibon",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_PressureResistantHelmet",
+    "layers": [
+      {
+        "li": "Overhead"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_MarineArmor",
+    "layers": [
+      {
+        "li": "Middle"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_PressureResistantSuits",
+    "layers": [
+      {
+        "li": "Shell"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_PlateArmor",
+    "layers": [
+      {
+        "li": "Shell"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_WAEArmor_Re",
+    "layers": [
+      {
+        "li": "Middle"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_MaidWare",
+    "layers": [
+      {
+        "li": "AS_UnderMiddle"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_Tribal",
+    "layers": [
+      {
+        "li": "AS_UnderMiddle"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_TShirts",
+    "layers": [
+      {
+        "li": "AS_UnderMiddle"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_ShortPants",
+    "layers": [
+      {
+        "li": "AS_UnderMiddle"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_ShirtButton",
+    "layers": [
+      {
+        "li": "AS_UnderMiddle"
+      }
+    ]
+  },
+  {
+    "itemName": "AS_WHE_TankTop",
+    "layers": [
+      {
+        "li": "AS_UnderMiddle"
+      }
+    ]
+  }
+]
