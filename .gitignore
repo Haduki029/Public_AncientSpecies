@@ -5,6 +5,7 @@
 # Source/
 # *.txt
 EditRaceDefs/CreateDefsFile/src/targetFiles/*
+DevelopmentTools/ApparelViewOrder.txt
 
 # User-specific files
 *.suo
