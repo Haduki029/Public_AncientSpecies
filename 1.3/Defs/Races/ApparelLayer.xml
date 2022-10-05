@@ -1,11 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
     <ApparelLayerDef>
-        <defName>AS_legs</defName>
-        <label>leg</label>
-        <drawOrder>10</drawOrder>
-    </ApparelLayerDef>
-    <ApparelLayerDef>
         <defName>AS_UnderMiddle</defName>
         <label>under middle</label>
         <drawOrder>50</drawOrder>

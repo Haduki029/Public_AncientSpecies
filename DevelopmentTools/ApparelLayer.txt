@@ -1,5 +1,4 @@
-skin 0
-AS_legs 10
+OnSkin 0
 AS_UnderMiddle 50
 Middle 100
 AS_OverMiddle 150
