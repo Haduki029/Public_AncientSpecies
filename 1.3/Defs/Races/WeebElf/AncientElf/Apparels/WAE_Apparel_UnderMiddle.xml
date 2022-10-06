@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WAE_ColonistDressWare</defName>
+    <description>エルフ神聖王国で一般的に出回っている、軽く動きやすい服。</description>
+    <label>メイド服（ハーフエルフ）</label>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>WAE/Apparels/undermiddle/ColonistDressWare</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+		    <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WAE/Apparels/undermiddle/ColonistDressWare</wornGraphicPath>
+      <layers>
+        <li>AS_UnderMiddle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>AS_WAE_HK_Colonist</li>
+        <li>AS_WAE_ServiceSlave</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>
