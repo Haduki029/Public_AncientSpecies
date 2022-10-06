@@ -18,12 +18,14 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>90</MaxHitPoints>
+      <MaxHitPoints>70</MaxHitPoints>
       <WorkToMake>1200</WorkToMake>
-      <Mass>0.1</Mass>
+      <Mass>0.2</Mass>
       <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <recipeMaker>
@@ -78,18 +80,16 @@
       <Cloth>50</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
-      <WorkToMake>5000</WorkToMake>
-      <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.18</ArmorRating_Heat>
-      <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.51</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.26</StuffEffectMultiplierInsulation_Heat>
-      <Insulation_Cold>7.4</Insulation_Cold>
-      <Insulation_Heat>2.8</Insulation_Heat>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.2</Mass>
+      <StuffEffectMultiplierArmor>0.07</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
+      <Beauty>1</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -144,18 +144,16 @@
       <Cloth>50</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
-      <WorkToMake>5000</WorkToMake>
-      <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.18</ArmorRating_Heat>
-      <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.51</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.26</StuffEffectMultiplierInsulation_Heat>
-      <Insulation_Cold>7.4</Insulation_Cold>
-      <Insulation_Heat>2.8</Insulation_Heat>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.2</Mass>
+      <StuffEffectMultiplierArmor>0.07</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
+      <Beauty>1</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -211,18 +209,16 @@
       <Cloth>60</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>150</MaxHitPoints>
-      <WorkToMake>8000</WorkToMake>
-      <Mass>0.1</Mass>
-      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.18</ArmorRating_Heat>
-      <Insulation_Cold>8.2</Insulation_Cold>
-      <Insulation_Heat>3</Insulation_Heat>
-      <StuffEffectMultiplierArmor>0.11</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.31</StuffEffectMultiplierInsulation_Heat>
+      <MaxHitPoints>60</MaxHitPoints>
+      <WorkToMake>3600</WorkToMake>
+      <Mass>0.2</Mass>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
+      <Beauty>1</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -271,13 +267,16 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>180</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>4500</WorkToMake>
       <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.38</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1</EquipDelay>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>5</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>0.5</EquipDelay>
+      <Beauty>1</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -293,7 +292,6 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-        <li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/UnderWareE</wornGraphicPath>
       <layers>
@@ -327,13 +325,16 @@
       <li>Fabric</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>110</MaxHitPoints>
-      <WorkToMake>9000</WorkToMake>
-      <Mass>0.1</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.2</Mass>
       <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
+      <Beauty>1</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -385,18 +386,16 @@
       <Cloth>50</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
-      <WorkToMake>10000</WorkToMake>
-      <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.13</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.48</ArmorRating_Heat>
-      <Insulation_Cold>11.2</Insulation_Cold>
-      <Insulation_Heat>4.8</Insulation_Heat>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>0.2</Mass>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
+      <Beauty>1.5</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -448,18 +447,16 @@
       <Cloth>50</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
-      <WorkToMake>10000</WorkToMake>
-      <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.13</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.48</ArmorRating_Heat>
-      <Insulation_Cold>11.2</Insulation_Cold>
-      <Insulation_Heat>4.8</Insulation_Heat>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>0.2</Mass>
+      <StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
+      <Beauty>1.5</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -511,18 +508,16 @@
       <Cloth>50</Cloth>
     </costList>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
-      <WorkToMake>10000</WorkToMake>
-      <Mass>0.1</Mass>
-      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.48</ArmorRating_Heat>
-      <Insulation_Cold>11.2</Insulation_Cold>
-      <Insulation_Heat>4.8</Insulation_Heat>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>0.2</Mass>
+      <StuffEffectMultiplierArmor>0.19</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
+      <Beauty>2.0</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
@@ -571,12 +566,12 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>70</MaxHitPoints>
       <WorkToMake>1000</WorkToMake>
       <Mass>0.1</Mass>
       <StuffEffectMultiplierArmor>0.13</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.38</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -627,12 +622,12 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>70</MaxHitPoints>
       <WorkToMake>1500</WorkToMake>
       <Mass>0.1</Mass>
       <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.41</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -691,16 +686,14 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>2500</WorkToMake>
-      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.38</ArmorRating_Heat>
-      <Insulation_Cold>8.2</Insulation_Cold>
-      <Insulation_Heat>3.8</Insulation_Heat>
       <Mass>0.1</Mass>
-      <EquipDelay>1.2</EquipDelay>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>3</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Beauty>1.0</Beauty>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
