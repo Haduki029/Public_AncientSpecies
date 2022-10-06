@@ -52,6 +52,8 @@
         <li>AS_WHE_Colonist</li>
 		    <li>AS_WHE_Villager</li>
         <li>AS_WHE_Neolithic</li>
+
+        <li>AS_WAE_HK_Colonist</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -112,6 +114,8 @@
         <li>OnSkin</li>
       </layers>
       <tags>
+        <li>AS_WAE_HK_Colonist</li>
+
         <li>WHE_Medieval</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
@@ -176,6 +180,7 @@
         <li>OnSkin</li>
       </layers>
       <tags>
+        <li>AS_WAE_HK_Colonist</li>
         <li>WHE_Medieval</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
@@ -301,6 +306,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <tags>
+        <li>AS_WAE_HK_Colonist</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
         <li>RoyalTier7</li>
@@ -596,6 +602,7 @@
         <li>OnSkin</li>
       </layers>
       <tags>
+        <li>AS_WAE_HK_Colonist</li>
         <li>AS_WHE_Colonist</li>
 		    <li>AS_WHE_Villager</li>
       </tags>
@@ -656,6 +663,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <tags>
+        <li>AS_WAE_HK_Colonist</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>

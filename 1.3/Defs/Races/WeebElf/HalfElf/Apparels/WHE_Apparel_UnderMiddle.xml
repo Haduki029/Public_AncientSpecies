@@ -20,17 +20,14 @@
       <Plasteel>5</Plasteel>
     </costList>
     <statBases>
-      <MaxHitPoints>180</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
-      <Mass>3.5</Mass>
-      <ArmorRating_Sharp>0.32</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.31</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.18</ArmorRating_Heat>
-      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
-      <Insulation_Cold>13.4</Insulation_Cold>
-      <Insulation_Heat>3.5</Insulation_Heat>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
       <Flammability>0.4</Flammability>
     </statBases>
@@ -63,6 +60,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <tags>
+        <li>AS_WAE_HK_Colonist</li>
         <li>WHE_Medieval</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
@@ -72,7 +70,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_Tribal</defName>
     <description>原始的なツールを使って作られた衣服です。僅かですが断熱効果があります。</description>
@@ -104,7 +101,6 @@
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
@@ -127,7 +123,6 @@
     </apparel>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_TShirts</defName>
     <description>シンプルなTシャツです。生地は薄く、あまり防御力はありません。雨に濡れても透ける機能はありません。</description>
@@ -182,7 +177,6 @@
     <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShortPants</defName>
     <description>シンプルなショートパンツです。生地が少なく、見るものに訴えかける素敵なデザインですが、防御力は低いです。</description>
@@ -234,12 +228,11 @@
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-      </defaultOutfitTags>      
+      </defaultOutfitTags>
     </apparel>
     <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ShirtButton</defName>
     <description>ボタンの付いたおしゃれなシャツとスカート。シックなデザインで着用者の可愛さを引き立てています。</description>
@@ -284,6 +277,7 @@
         <li>AS_UnderMiddle</li>
       </layers>
       <tags>
+        <li>AS_WAE_HK_Colonist</li>
         <li>WHE_Medieval</li>
         <li>WHE_Industrial</li>
         <li>RoyalTier2</li>
@@ -298,7 +292,6 @@
     <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
   </ThingDef>
 
-  
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_TankTop</defName>
     <description>動きやすいタンクトップとボトムズです。丈夫なため、フィールドワークに向いています。付属の胸飾りがワンポイントです。</description>
@@ -316,7 +309,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>160</MaxHitPoints>
+      <MaxHitPoints>140</MaxHitPoints>
       <WorkToMake>4800</WorkToMake>
       <Mass>2</Mass>
       <StuffEffectMultiplierArmor>0.38</StuffEffectMultiplierArmor>
@@ -348,6 +341,7 @@
       <tags>
         <li>WHE_Medieval</li>
         <li>WHE_Industrial</li>
+        <li>AS_WAE_HK_LowArmor</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>

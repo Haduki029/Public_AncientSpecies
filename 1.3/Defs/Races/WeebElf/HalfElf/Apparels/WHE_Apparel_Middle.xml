@@ -258,6 +258,7 @@
         <li>RoyalTier4</li>
 		    <li>RoyalTier5</li>
         <li>AS_WHE_Knight</li>
+        <li>AS_WAE_LowArmor</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -342,6 +343,7 @@
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
 		    <li>RoyalTier7</li>
+        <li>AS_WAE_MidArmor</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>

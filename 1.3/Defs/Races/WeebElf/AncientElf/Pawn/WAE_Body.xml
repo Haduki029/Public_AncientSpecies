@@ -104,8 +104,6 @@
             <li>Torso</li>
           </groups>
         </li>
-        
-        
         <li>
           <def>Neck</def>
           <coverage>0.075</coverage>

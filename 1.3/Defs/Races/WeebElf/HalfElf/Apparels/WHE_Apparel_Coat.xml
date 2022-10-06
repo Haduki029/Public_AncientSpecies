@@ -54,6 +54,7 @@
         <li>WHE_Industrial</li>
         <li>AS_WHE_Knight</li>
         <li>AS_WHE_MiddleLevel_Apparel</li>
+        <li>AS_WAE_HK_LowArmor</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
@@ -253,6 +254,7 @@
       <tags>
         <li>AS_WHE_Hunter</li>
         <li>AS_WHE_HighLevel_Apparel</li>
+        <li>AS_WAE_HK_HighArmor</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
         <li>RoyalTier7</li>
@@ -332,6 +334,7 @@
       <tags>
         <li>AS_WHE_Knight</li>
         <li>AS_WHE_HighLevel_Apparel</li>
+        <li>AS_WAE_HK_HighArmor</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>
         <li>RoyalTier7</li>

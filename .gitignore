@@ -6,6 +6,7 @@
 # *.txt
 EditRaceDefs/CreateDefsFile/src/targetFiles/*
 DevelopmentTools/ApparelViewOrder.txt
+1.3/Defs/WeebDrake/*
 
 # User-specific files
 *.suo

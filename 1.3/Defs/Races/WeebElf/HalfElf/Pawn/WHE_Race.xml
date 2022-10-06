@@ -171,7 +171,10 @@
         <li>AS_WAE_KnightDress</li>
         <li>AS_WAE_FeatherHelm</li>
         <li>AS_WHE_ShoulderBack</li>
-        <li>AS_WAE_LightArcherBoots</li>
+        <li>AS_WAE_RengerArmor</li>
+        <li>AS_WAE_ColonistDressWare</li>
+        <li>AS_WAE_TighetsSuit</li>
+        <li>AS_WAE_HKArcherArmor</li>
       </apparelList>
 			<whiteApparelList>
 				<li>Apparel_SmokepopBelt</li>

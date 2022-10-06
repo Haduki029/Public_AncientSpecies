@@ -15,31 +15,30 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <Hyperweave>20</Hyperweave>
+      <Hyperweave>10</Hyperweave>
       <Gold>5</Gold>
       <Plasteel>50</Plasteel>
     </costList>
     <statBases>
-      <MaxHitPoints>280</MaxHitPoints>
-      <WorkToMake>27500</WorkToMake>
-      <Mass>2</Mass>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>1.5</Mass>
       <Flammability>0.01</Flammability>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <ArmorRating_Heat>0.14</ArmorRating_Heat>
       <Insulation_Cold>2.8</Insulation_Cold>
       <Insulation_Heat>2.5</Insulation_Heat>
-      <StuffEffectMultiplierArmor>0.74</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierArmor>0.64</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2.0</EquipDelay>
+      <EquipDelay>1.0</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-			<MoveSpeed>0.1</MoveSpeed>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-      <SocialImpact>0.12</SocialImpact>
-      <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+			<MoveSpeed>0.05</MoveSpeed>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+      <SocialImpact>0.1</SocialImpact>
 		</equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisite>AS_WAE_Apparels</researchPrerequisite>
@@ -48,7 +47,7 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <skillRequirements>
-        <Crafting>14</Crafting>
+        <Crafting>12</Crafting>
       </skillRequirements>
     </recipeMaker>
     <apparel>
@@ -64,9 +63,9 @@
       </defaultOutfitTags>
       <tags>
         <li>AS_Apparel</li>
-        <li>AS_WAE_Apparel</li>
-        <li>AS_WAE_NobleEq</li>
-        <li>AS_WEl_HighApparel</li>
+        <li>AS_WAE_Armor</li>
+        <li>AS_WAE_MidArmor</li>
+        <li>AS_WAE_HK_MidArmor</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
         <li>RoyalTier6</li>

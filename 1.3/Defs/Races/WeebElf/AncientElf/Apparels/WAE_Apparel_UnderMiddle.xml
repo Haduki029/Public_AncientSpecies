@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WAE_ColonistDressWare</defName>
+    <defName>AS_WAE_HKNationalCostume</defName>
     <description>エルフ神聖王国で一般的に出回っている、軽く動きやすい服。</description>
-    <label>メイド服（ハーフエルフ）</label>
+    <label>エルフの民族衣装</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>WAE/Apparels/undermiddle/ColonistDressWare</texPath>

@@ -20,8 +20,8 @@
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>5500</WorkToMake>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>0.58</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierArmor>0.52</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
@@ -97,6 +97,10 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      <tags>
+        <li>AS_Apparel</li>
+        <li>AS_WAE_HK_LowArmor</li>
+      </tags>
     </apparel>
   </ThingDef>
 
@@ -156,6 +160,10 @@
       <defaultOutfitTags>
         <li>Worker</li>
       </defaultOutfitTags>
+      <tags>
+        <li>AS_Apparel</li>
+        <li>AS_WHE_HK_MidArmor</li>
+      </tags>
     </apparel>
   </ThingDef>
 
