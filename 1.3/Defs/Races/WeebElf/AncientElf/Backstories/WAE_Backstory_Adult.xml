@@ -1,32 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
-		<defName>AS_WAE_Backstory_HunterAdult</defName>
-		<title>エルフの狩人</title>
-		<titleShort>エルフの狩人</titleShort>
-		<baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</baseDescription>
-		<slot>Adulthood</slot>
-		<skillGains>
-			<li>
-				<defName>Shooting</defName>
-				<amount>4</amount>
-			</li>
-		</skillGains>
-		<forcedTraits>
-			<li>
-				<defName>ShootingAccuracy</defName>
-				<degree>1</degree>
-				<chance>20</chance>
-			</li>
-		</forcedTraits>
-		<spawnCategories>
-			<li>AS_WAE_Village_Story</li>
-			<li>AS_WAE_Colonist</li>
-			<li>AS_WAE_BSHunter</li>
-		</spawnCategories>
-	</AlienRace.BackstoryDef>
-
-	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
 		<defName>AS_WAE_Backstory_SlaveAdult</defName>
 		<title>エルフの奴隷</title>
 		<titleShort>エルフの奴隷</titleShort>
@@ -52,6 +26,32 @@
 			<li>AS_WAE_Village_Story</li>
 			<li>AS_WAE_Colonist</li>
 			<li>AS_WAE_Slave</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_HunterAdult</defName>
+		<title>エルフの狩人</title>
+		<titleShort>エルフの狩人</titleShort>
+		<baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>20</chance>
+			</li>
+		</forcedTraits>
+		<spawnCategories>
+			<li>AS_WAE_Village_Story</li>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_BSHunter</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
