@@ -44,7 +44,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/undermiddle/ColonistDressWare</wornGraphicPath>
       <layers>
-        <li>AS_UnderMiddle</li>
+        <li>Middle</li>
+        <!-- <li>AS_UnderMiddle</li> -->
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

@@ -328,7 +328,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/overhead/CuteRibon</wornGraphicPath>
       <layers>
-        <li>Overhead</li>
+        <!-- <li>Overhead</li> -->
+        <li>AS_BackHead</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>

@@ -55,7 +55,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/MaidWare</wornGraphicPath>
       <layers>
-        <li>AS_UnderMiddle</li>
+        <li>Middle</li>
+        <!-- <li>AS_UnderMiddle</li> -->
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -111,7 +112,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/Tribal</wornGraphicPath>
       <layers>
-        <li>AS_UnderMiddle</li>
+        <li>Middle</li>
+        <!-- <li>AS_UnderMiddle</li> -->
       </layers>
       <tags>
         <li>AS_WHE_Colonist</li>
@@ -165,7 +167,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/TShirts</wornGraphicPath>
       <layers>
-        <li>AS_UnderMiddle</li>
+        <li>Middle</li>
+        <!-- <li>AS_UnderMiddle</li> -->
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -219,7 +222,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/ShortPants</wornGraphicPath>
       <layers>
-        <li>AS_UnderMiddle</li>
+        <li>Middle</li>
+        <!-- <li>AS_UnderMiddle</li> -->
       </layers>
       <tags>
         <li>AS_WHE_TownsPeople</li>
@@ -277,7 +281,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/ShirtButton</wornGraphicPath>
       <layers>
-        <li>AS_UnderMiddle</li>
+        <li>Middle</li>
+        <!-- <li>AS_UnderMiddle</li> -->
       </layers>
       <tags>
         <li>AS_WAE_HK_Colonist</li>
@@ -340,7 +345,8 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/TankTop</wornGraphicPath>
       <layers>
-        <li>AS_UnderMiddle</li>
+        <li>Middle</li>
+        <!-- <li>AS_UnderMiddle</li> -->
       </layers>
       <tags>
         <li>WHE_Medieval</li>

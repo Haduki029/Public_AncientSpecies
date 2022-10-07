@@ -1,19 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-    <ApparelLayerDef>
+    <!-- <ApparelLayerDef>
         <defName>AS_UnderMiddle</defName>
         <label>under middle</label>
         <drawOrder>50</drawOrder>
-    </ApparelLayerDef>
+    </ApparelLayerDef> -->
     <ApparelLayerDef>
         <defName>AS_OverMiddle</defName>
         <label>over middle</label>
         <drawOrder>150</drawOrder>
-    </ApparelLayerDef>
-    <ApparelLayerDef>
-        <defName>AS_Webbing</defName>
-        <label>webbing</label>
-        <drawOrder>210</drawOrder>
     </ApparelLayerDef>
     <ApparelLayerDef>
         <defName>AS_Coat</defName>
@@ -30,13 +25,16 @@
         <label>neck</label>
         <drawOrder>360</drawOrder>
     </ApparelLayerDef>
+    <ApparelLayerDef>
+        <defName>AS_BackHead</defName>
+        <label>back head</label>
+        <drawOrder>380</drawOrder>
+    </ApparelLayerDef>
     <!--
         OnSkin 0
-        AS_UnderMiddle 50
         Middle 100
         AS_OverMiddle 150
         Shell 200
-        AS_Webbing 210
         Belt 300
         AS_Coat 340
         AS_Backpack 350
