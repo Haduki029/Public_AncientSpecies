@@ -41,27 +41,33 @@
         <li>(500000, 20000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-    <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
+    <!-- <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
       <li>AS_WAE_HK_Cultures</li>
-    </allowedCultures>
-    <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
-    </requiredMemes>
+    </allowedCultures> -->
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+    </requiredMemes>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
-    </disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Acceptable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
+    </disallowedPrecepts>
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
