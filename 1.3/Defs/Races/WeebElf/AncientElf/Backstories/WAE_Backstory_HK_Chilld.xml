@@ -201,6 +201,9 @@
 				<chance>15</chance>
 			</li>
 		</forcedTraits>
+		<spawnCategories>
+			<li>AS_WAE_HK_GuardianKnight</li>
+		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="AS_WAE_HK_Backstory_Child_Base">
