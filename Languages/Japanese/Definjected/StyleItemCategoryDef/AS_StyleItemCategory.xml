@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_Style.label>Ancient Species Style</AS_Style.label>
+  <AS_WAE_Style.label>古代エルフスタイル</AS_WAE_Style.label>
+  <AS_WHE_Style.label>ハーフエルフスタイル</AS_WHE_Style.label>
+  <AS_WDk_Style.label>ドレイクスタイル</AS_WDk_Style.label>
+
+
+  <!-- 髪型 -->
+
+  <AS_Hair_Style.label>AS髪型</AS_Hair_Style.label>
+  <AS_WEl_Hairs.label>ASエルフ髪型</AS_WEl_Hairs.label>
+  <AS_WDk_Hairs.label>ASドレイク髪型</AS_WDk_Hairs.label>
+
+
+  <!-- タトゥー -->
+
+  <AS_Face_Tattoo.label>ASフェイスタトゥー</AS_Face_Tattoo.label>
+  <AS_Body_Tattoo.label>ASボディタトゥー</AS_Body_Tattoo.label>
+  <AS_WDk_Body_Tattoo.label>ASドレイクボディタトゥー</AS_WDk_Body_Tattoo.label>
+
+
+</LanguageData>

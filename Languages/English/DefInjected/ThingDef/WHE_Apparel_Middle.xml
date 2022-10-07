@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_BulletProofVest.label>防弾ベスト（ハーフエルフ）</AS_WHE_BulletProofVest.label>
+  <AS_WHE_BulletProofVest.description>スチール、プラスチールと布で作られたシンプルな防弾ベスト。プラスチールを混ぜることで、軽く丈夫に仕上がっている。</AS_WHE_BulletProofVest.description>
+
+  <AS_WHE_MarineArmor.label>ハーフエルフ式マリーンアーマー</AS_WHE_MarineArmor.label>
+  <AS_WHE_MarineArmor.description>ハーフエルフ式の高い強度を持つ高性能アーマーです。</AS_WHE_MarineArmor.description>
+
+  <AS_WHE_PressureResistantSuits.label>耐圧スーツ</AS_WHE_PressureResistantSuits.label>
+  <AS_WHE_PressureResistantSuits.description>宇宙空間でも行動できるように、高度な技術で作成されたスーツ。マリーン装備より若干弱いが、耐熱、耐寒性能が高い。</AS_WHE_PressureResistantSuits.description>
+
+  <AS_WHE_PlateArmor.label>ハーフエルフ式プレートアーマー</AS_WHE_PlateArmor.label>
+  <AS_WHE_PlateArmor.description>金属で作られたハーフエルフ式のプレートアーマー。首、胴体、肩、腕を守ってくれ、非常に丈夫だが、若干重い。</AS_WHE_PlateArmor.description>
+
+  <AS_WHE_WAEArmor_Re.label>古代エルフのプレートアーマー</AS_WHE_WAEArmor_Re.label>
+  <AS_WHE_WAEArmor_Re.description>ハーフエルフの技術で再現された、古代エルフのプレートアーマーのレプリカ。ウラニウムが用いられており、全体的に黒い仕上がりになっている。高い防御力を誇るだけでなく、着用者の近接戦闘能力を高めてくれる効果がある。</AS_WHE_WAEArmor_Re.description>
+
+
+</LanguageData>

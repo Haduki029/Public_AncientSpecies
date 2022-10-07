@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Child_BackStory.title>古代エルフの子供</AS_WAE_Child_BackStory.title>
+  <AS_WAE_Child_BackStory.titleShort>子供</AS_WAE_Child_BackStory.titleShort>
+  <AS_WAE_Child_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_Child_BackStory.baseDescription>
+
+  <AS_WAE_ChildSlave_BackStory.title>古代エルフの子供奴隷</AS_WAE_ChildSlave_BackStory.title>
+  <AS_WAE_ChildSlave_BackStory.titleShort>子供奴隷</AS_WAE_ChildSlave_BackStory.titleShort>
+  <AS_WAE_ChildSlave_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</AS_WAE_ChildSlave_BackStory.baseDescription>
+
+  <AS_WAE_ChildServiceSlave_BackStory.title>古代エルフの子供の奉仕奴隷</AS_WAE_ChildServiceSlave_BackStory.title>
+  <AS_WAE_ChildServiceSlave_BackStory.titleShort>子供の奉仕奴隷</AS_WAE_ChildServiceSlave_BackStory.titleShort>
+  <AS_WAE_ChildServiceSlave_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</AS_WAE_ChildServiceSlave_BackStory.baseDescription>
+
+  <AS_WAE_WarriorApprentice_BackStory.title>古代エルフの戦士見習い</AS_WAE_WarriorApprentice_BackStory.title>
+  <AS_WAE_WarriorApprentice_BackStory.titleShort>戦士見習い</AS_WAE_WarriorApprentice_BackStory.titleShort>
+  <AS_WAE_WarriorApprentice_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_WarriorApprentice_BackStory.baseDescription>
+
+  <AS_WAE_HunterApprentice_BackStory.title>古代エルフの狩人見習い</AS_WAE_HunterApprentice_BackStory.title>
+  <AS_WAE_HunterApprentice_BackStory.titleShort>狩人見習い</AS_WAE_HunterApprentice_BackStory.titleShort>
+  <AS_WAE_HunterApprentice_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_HunterApprentice_BackStory.baseDescription>
+
+  <AS_WAE_KnightApprentice_BackStory.title>古代エルフの騎士見習い</AS_WAE_KnightApprentice_BackStory.title>
+  <AS_WAE_KnightApprentice_BackStory.titleShort>騎士見習い</AS_WAE_KnightApprentice_BackStory.titleShort>
+  <AS_WAE_KnightApprentice_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_KnightApprentice_BackStory.baseDescription>
+
+  <AS_WAE_HealerApprentice_BackStory.title>古代エルフの薬師見習い</AS_WAE_HealerApprentice_BackStory.title>
+  <AS_WAE_HealerApprentice_BackStory.titleShort>薬師見習い</AS_WAE_HealerApprentice_BackStory.titleShort>
+  <AS_WAE_HealerApprentice_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_HealerApprentice_BackStory.baseDescription>
+
+  <AS_WAE_ChildHouskeeper_BackStory.title>古代エルフの家事手伝い</AS_WAE_ChildHouskeeper_BackStory.title>
+  <AS_WAE_ChildHouskeeper_BackStory.titleShort>家事手伝い</AS_WAE_ChildHouskeeper_BackStory.titleShort>
+  <AS_WAE_ChildHouskeeper_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_ChildHouskeeper_BackStory.baseDescription>
+
+  <AS_WAE_ChildCook_BackStory.title>古代エルフの調理師見習い</AS_WAE_ChildCook_BackStory.title>
+  <AS_WAE_ChildCook_BackStory.titleShort>調理師見習い</AS_WAE_ChildCook_BackStory.titleShort>
+  <AS_WAE_ChildCook_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_ChildCook_BackStory.baseDescription>
+
+  <AS_WAE_SmithApprentice_BackStory.title>古代エルフの職人見習い</AS_WAE_SmithApprentice_BackStory.title>
+  <AS_WAE_SmithApprentice_BackStory.titleShort>職人見習い</AS_WAE_SmithApprentice_BackStory.titleShort>
+  <AS_WAE_SmithApprentice_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_SmithApprentice_BackStory.baseDescription>
+
+
+</LanguageData>

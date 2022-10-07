@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WAE_Slave_BackStory.title>Ancient Elf Slave</AS_WAE_Slave_BackStory.title>
+  <AS_WAE_Slave_BackStory.titleShort>Slave</AS_WAE_Slave_BackStory.titleShort>
+  <AS_WAE_Slave_BackStory.baseDescription>[PAWN_nameDef] is [PAWN_pronoun]. </AS_WAE_Slave_BackStory.baseDescription>
+
+  <AS_WAE_ServiceSlave_BackStory.title>Ancient Elven Service Slave</AS_WAE_ServiceSlave_BackStory.title>
+  <AS_WAE_ServiceSlave_BackStory.titleShort>Service Slave</AS_WAE_ServiceSlave_BackStory.titleShort>
+  <AS_WAE_ServiceSlave_BackStory.baseDescription>[PAWN_nameDef] is [PAWN_pronoun]. </AS_WAE_ServiceSlave_BackStory.baseDescription>
+
+  <AS_WAE_WarriorSlave_BackStory.title>Ancient Elven Warrior Slave</AS_WAE_WarriorSlave_BackStory.title>
+  <AS_WAE_WarriorSlave_BackStory.titleShort>Warrior Slave</AS_WAE_WarriorSlave_BackStory.titleShort>
+  <AS_WAE_WarriorSlave_BackStory.baseDescription>[PAWN_nameDef] is [PAWN_pronoun]. </AS_WAE_WarriorSlave_BackStory.baseDescription>
+
+  <AS_WAE_ArcherSlave_BackStory.title>Ancient Elven Archer Slave</AS_WAE_ArcherSlave_BackStory.title>
+  <AS_WAE_ArcherSlave_BackStory.titleShort>Archer Slave</AS_WAE_ArcherSlave_BackStory.titleShort>
+  <AS_WAE_ArcherSlave_BackStory.baseDescription>[PAWN_nameDef] is [PAWN_pronoun]. </AS_WAE_ArcherSlave_BackStory.baseDescription>
+
+  <AS_WAE_Warrior_BackStory.title>Ancient Elven Warrior</AS_WAE_Warrior_BackStory.title>
+  <AS_WAE_Warrior_BackStory.titleShort>Warrior</AS_WAE_Warrior_BackStory.titleShort>
+  <AS_WAE_Warrior_BackStory.baseDescription>[CAPWN_nameDef] is a warrior who protects the settlement from enemies. It's [CAPWN_pronoun]. </AS_WAE_Warrior_BackStory.baseDescription>
+
+  <AS_WAE_Hunter_BackStory.title>Ancient Elf Hunter</AS_WAE_Hunter_BackStory.title>
+  <AS_WAE_Hunter_BackStory.titleShort>Hunter</AS_WAE_Hunter_BackStory.titleShort>
+  <AS_WAE_Hunter_BackStory.baseDescription>[CAPWN_nameDef] is a hunter who protects the settlement from enemies. It's [CAPWN_pronoun]. </AS_WAE_Hunter_BackStory.baseDescription>
+
+  <AS_WAE_Knight_BackStory.title>Ancient Elven Knight</AS_WAE_Knight_BackStory.title>
+  <AS_WAE_Knight_BackStory.titleShort>Knight</AS_WAE_Knight_BackStory.titleShort>
+  <AS_WAE_Knight_BackStory.baseDescription>[CAPWN_nameDef] is a knight who protects the settlement from enemies. It's [CAPWN_pronoun]. </AS_WAE_Knight_BackStory.baseDescription>
+
+  <AS_WAE_GuardianKnight_BackStory.title>Ancient Elven Guardian Knight</AS_WAE_GuardianKnight_BackStory.title>
+  <AS_WAE_GuardianKnight_BackStory.titleShort>Guardian Knight</AS_WAE_GuardianKnight_BackStory.titleShort>
+  <AS_WAE_GuardianKnight_BackStory.baseDescription>[CAPWN_nameDef] is a guardian knight who protects the settlement from enemies. It's [CAPWN_pronoun]. </AS_WAE_GuardianKnight_BackStory.baseDescription>
+
+  <AS_WAE_Archer_BackStory.title>Ancient Elven Archers</AS_WAE_Archer_BackStory.title>
+  <AS_WAE_Archer_BackStory.titleShort>Archers</AS_WAE_Archer_BackStory.titleShort>
+  <AS_WAE_Archer_BackStory.baseDescription>[CAPWN_nameDef] is an archer who protects the settlement from enemies. It's [CAPWN_pronoun]. </AS_WAE_Archer_BackStory.baseDescription>
+
+  <AS_WAE_Healer_BackStory.title>Ancient Elvish Apothecary</AS_WAE_Healer_BackStory.title>
+  <AS_WAE_Healer_BackStory.titleShort>Apothecary</AS_WAE_Healer_BackStory.titleShort>
+  <AS_WAE_Healer_BackStory.baseDescription>[CAPWN_nameDef] is a healer who lives in the settlement. It's [CAPWN_pronoun]. </AS_WAE_Healer_BackStory.baseDescription>
+
+  <AS_WAE_Houskeeper_BackStory.title>Ancient Elven Housekeeper</AS_WAE_Houskeeper_BackStory.title>
+  <AS_WAE_Houskeeper_BackStory.titleShort>Housekeeper</AS_WAE_Houskeeper_BackStory.titleShort>
+  <AS_WAE_Houskeeper_BackStory.baseDescription>[CAPWN_nameDef] is a housekeeper who lives in the settlement. It's [CAPWN_pronoun]. </AS_WAE_Houskeeper_BackStory.baseDescription>
+
+  <AS_WAE_Cook_BackStory.title>Ancient Elven Cook</AS_WAE_Cook_BackStory.title>
+  <AS_WAE_Cook_BackStory.titleShort>Cook</AS_WAE_Cook_BackStory.titleShort>
+  <AS_WAE_Cook_BackStory.baseDescription>[CAPWN_nameDef] is a cook who lives in the settlement. It's [CAPWN_pronoun]. </AS_WAE_Cook_BackStory.baseDescription>
+
+  <AS_WAE_Smith_BackStory.title>Ancient Elven Artisan</AS_WAE_Smith_BackStory.title>
+  <AS_WAE_Smith_BackStory.titleShort>Artisan</AS_WAE_Smith_BackStory.titleShort>
+  <AS_WAE_Smith_BackStory.baseDescription>CAPWN_nameDef is a NAME who lives in a settlement. </AS_WAE_Smith_BackStory.baseDescription>
+
+
+</LanguageData>

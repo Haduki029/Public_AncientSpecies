@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_MaidWare.label>メイド服（ハーフエルフ）</AS_WHE_MaidWare.label>
+  <AS_WHE_MaidWare.description>軽く、丈夫なメイド服。ロングスカートのゆったりとした、シックなデザインなっている。装着するとメイドとしての矜持により、少しだけ移動速度と作業速度が上がります。</AS_WHE_MaidWare.description>
+
+  <AS_WHE_Tribal.label>一枚布（ハーフエルフ）</AS_WHE_Tribal.label>
+  <AS_WHE_Tribal.description>原始的なツールを使って作られた衣服です。僅かですが断熱効果があります。</AS_WHE_Tribal.description>
+
+  <AS_WHE_TShirts.label>Tシャツ（ハーフエルフ）</AS_WHE_TShirts.label>
+  <AS_WHE_TShirts.description>シンプルなTシャツです。生地は薄く、あまり防御力はありません。雨に濡れても透ける機能はありません。</AS_WHE_TShirts.description>
+
+  <AS_WHE_ShortPants.label>ショートパンツ（ハーフエルフ）</AS_WHE_ShortPants.label>
+  <AS_WHE_ShortPants.description>シンプルなショートパンツです。生地が少なく、見るものに訴えかける素敵なデザインですが、防御力は低いです。</AS_WHE_ShortPants.description>
+
+  <AS_WHE_ShirtButton.label>ボタンシャツ（ハーフエルフ）</AS_WHE_ShirtButton.label>
+  <AS_WHE_ShirtButton.description>ボタンの付いたおしゃれなシャツとスカート。シックなデザインで着用者の可愛さを引き立てています。</AS_WHE_ShirtButton.description>
+
+  <AS_WHE_TankTop.label>タンクトップ（ハーフエルフ）</AS_WHE_TankTop.label>
+  <AS_WHE_TankTop.description>動きやすいタンクトップとボトムズです。丈夫なため、フィールドワークに向いています。付属の胸飾りがワンポイントです。</AS_WHE_TankTop.description>
+
+
+</LanguageData>

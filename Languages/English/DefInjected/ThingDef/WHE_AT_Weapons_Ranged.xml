@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHEAT_Penetrator.label>ペネトレーター</AS_WHEAT_Penetrator.label>
+  <AS_WHEAT_Penetrator.description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改造された、より長距離に特化したスナイパーライフル。全長、重量ともに大きくなり、取り回しが悪くなっているが、ハーフエルフの腕力なら問題ないだろう。</AS_WHEAT_Penetrator.description>
+  <AS_WHEAT_Penetrator.tools.0.label>stock</AS_WHEAT_Penetrator.tools.0.label>
+  <AS_WHEAT_Penetrator.tools.1.label>barrel</AS_WHEAT_Penetrator.tools.1.label>
+
+  <AS_WHEAT_Grawes.label>グラヴェス</AS_WHEAT_Grawes.label>
+  <AS_WHEAT_Grawes.description>ハーフエルフによって解析された古代技術を応用し、グラヴェールを改造したショットガン。</AS_WHEAT_Grawes.description>
+  <AS_WHEAT_Grawes.tools.0.label>stock</AS_WHEAT_Grawes.tools.0.label>
+  <AS_WHEAT_Grawes.tools.1.label>barrel</AS_WHEAT_Grawes.tools.1.label>
+
+  <AS_WHEAT_Bullet_Sniper_Rifle.label>ハーフエルフ式大型高速徹甲榴弾</AS_WHEAT_Bullet_Sniper_Rifle.label>
+  <AS_WHEAT_Bullet_Shotgun_Backshot.label>ハーフエルフ式高威力バックショット弾</AS_WHEAT_Bullet_Shotgun_Backshot.label>
+
+
+</LanguageData>

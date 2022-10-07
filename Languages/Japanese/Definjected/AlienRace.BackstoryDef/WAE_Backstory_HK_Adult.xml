@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Slave_BackStory.title>古代エルフの奴隷</AS_WAE_Slave_BackStory.title>
+  <AS_WAE_Slave_BackStory.titleShort>奴隷</AS_WAE_Slave_BackStory.titleShort>
+  <AS_WAE_Slave_BackStory.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WAE_Slave_BackStory.baseDescription>
+
+  <AS_WAE_ServiceSlave_BackStory.title>古代エルフの奉仕奴隷</AS_WAE_ServiceSlave_BackStory.title>
+  <AS_WAE_ServiceSlave_BackStory.titleShort>奉仕奴隷</AS_WAE_ServiceSlave_BackStory.titleShort>
+  <AS_WAE_ServiceSlave_BackStory.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WAE_ServiceSlave_BackStory.baseDescription>
+
+  <AS_WAE_WarriorSlave_BackStory.title>古代エルフの戦士奴隷</AS_WAE_WarriorSlave_BackStory.title>
+  <AS_WAE_WarriorSlave_BackStory.titleShort>戦士奴隷</AS_WAE_WarriorSlave_BackStory.titleShort>
+  <AS_WAE_WarriorSlave_BackStory.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WAE_WarriorSlave_BackStory.baseDescription>
+
+  <AS_WAE_ArcherSlave_BackStory.title>古代エルフの弓兵奴隷</AS_WAE_ArcherSlave_BackStory.title>
+  <AS_WAE_ArcherSlave_BackStory.titleShort>弓兵奴隷</AS_WAE_ArcherSlave_BackStory.titleShort>
+  <AS_WAE_ArcherSlave_BackStory.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WAE_ArcherSlave_BackStory.baseDescription>
+
+  <AS_WAE_Warrior_BackStory.title>古代エルフの戦士</AS_WAE_Warrior_BackStory.title>
+  <AS_WAE_Warrior_BackStory.titleShort>戦士</AS_WAE_Warrior_BackStory.titleShort>
+  <AS_WAE_Warrior_BackStory.baseDescription>[PAWN_nameDef]は集落を敵から守る戦士だ。 [PAWN_pronoun]だ。</AS_WAE_Warrior_BackStory.baseDescription>
+
+  <AS_WAE_Hunter_BackStory.title>古代エルフの狩人</AS_WAE_Hunter_BackStory.title>
+  <AS_WAE_Hunter_BackStory.titleShort>狩人</AS_WAE_Hunter_BackStory.titleShort>
+  <AS_WAE_Hunter_BackStory.baseDescription>[PAWN_nameDef]は集落を敵から守る狩人だ。 [PAWN_pronoun]だ。</AS_WAE_Hunter_BackStory.baseDescription>
+
+  <AS_WAE_Knight_BackStory.title>古代エルフの騎士</AS_WAE_Knight_BackStory.title>
+  <AS_WAE_Knight_BackStory.titleShort>騎士</AS_WAE_Knight_BackStory.titleShort>
+  <AS_WAE_Knight_BackStory.baseDescription>[PAWN_nameDef]は集落を敵から守る騎士だ。 [PAWN_pronoun]だ。</AS_WAE_Knight_BackStory.baseDescription>
+
+  <AS_WAE_GuardianKnight_BackStory.title>古代エルフの守護騎士</AS_WAE_GuardianKnight_BackStory.title>
+  <AS_WAE_GuardianKnight_BackStory.titleShort>守護騎士</AS_WAE_GuardianKnight_BackStory.titleShort>
+  <AS_WAE_GuardianKnight_BackStory.baseDescription>[PAWN_nameDef]は集落を敵から守る守護騎士だ。 [PAWN_pronoun]だ。</AS_WAE_GuardianKnight_BackStory.baseDescription>
+
+  <AS_WAE_Archer_BackStory.title>古代エルフの弓兵</AS_WAE_Archer_BackStory.title>
+  <AS_WAE_Archer_BackStory.titleShort>弓兵</AS_WAE_Archer_BackStory.titleShort>
+  <AS_WAE_Archer_BackStory.baseDescription>[PAWN_nameDef]は集落を敵から守る弓兵だ。 [PAWN_pronoun]だ。</AS_WAE_Archer_BackStory.baseDescription>
+
+  <AS_WAE_Healer_BackStory.title>古代エルフの薬師</AS_WAE_Healer_BackStory.title>
+  <AS_WAE_Healer_BackStory.titleShort>薬師</AS_WAE_Healer_BackStory.titleShort>
+  <AS_WAE_Healer_BackStory.baseDescription>[PAWN_nameDef]は集落に住む薬師だ。 [PAWN_pronoun]だ。</AS_WAE_Healer_BackStory.baseDescription>
+
+  <AS_WAE_Houskeeper_BackStory.title>古代エルフの家政婦</AS_WAE_Houskeeper_BackStory.title>
+  <AS_WAE_Houskeeper_BackStory.titleShort>家政婦</AS_WAE_Houskeeper_BackStory.titleShort>
+  <AS_WAE_Houskeeper_BackStory.baseDescription>[PAWN_nameDef]は集落に住む家政婦だ。 [PAWN_pronoun]だ。</AS_WAE_Houskeeper_BackStory.baseDescription>
+
+  <AS_WAE_Cook_BackStory.title>古代エルフの調理師</AS_WAE_Cook_BackStory.title>
+  <AS_WAE_Cook_BackStory.titleShort>調理師</AS_WAE_Cook_BackStory.titleShort>
+  <AS_WAE_Cook_BackStory.baseDescription>[PAWN_nameDef]は集落に住む調理師だ。 [PAWN_pronoun]だ。</AS_WAE_Cook_BackStory.baseDescription>
+
+  <AS_WAE_Smith_BackStory.title>古代エルフの職人</AS_WAE_Smith_BackStory.title>
+  <AS_WAE_Smith_BackStory.titleShort>職人</AS_WAE_Smith_BackStory.titleShort>
+  <AS_WAE_Smith_BackStory.baseDescription>[PAWN_nameDef]は集落に住む [PAWN_pronoun]だ。</AS_WAE_Smith_BackStory.baseDescription>
+
+
+</LanguageData>

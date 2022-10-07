@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Backstory_NormalChild.title>The Elven Village Child</AS_WAE_Backstory_NormalChild.title>
+  <AS_WAE_Backstory_NormalChild.titleShort>The Elven Village Child</AS_WAE_Backstory_NormalChild.titleShort>
+  <AS_WAE_Backstory_NormalChild.baseDescription>[PAWN_nameDef] spent his childhood in a small Elven village as [PAWN_pronoun]. </AS_WAE_Backstory_NormalChild.baseDescription>
+
+  <AS_WAE_Backstory_SlaveChild.title>Elven Child Slave</AS_WAE_Backstory_SlaveChild.title>
+  <AS_WAE_Backstory_SlaveChild.titleShort>Elf Child Slave</AS_WAE_Backstory_SlaveChild.titleShort>
+  <AS_WAE_Backstory_SlaveChild.baseDescription>[PAWN_nameDef] has a history of being captured and traded as a [PAWN_pronoun]. </AS_WAE_Backstory_SlaveChild.baseDescription>
+
+</LanguageData>

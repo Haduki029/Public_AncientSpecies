@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_Scenario.label>[ハーフエルフ]逃亡の果てに</AS_WHE_Scenario.label>
+  <AS_WHE_Scenario.description>彼らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。開始時点は3人で、逃亡途中に散り散りになった者たちが7人います。</AS_WHE_Scenario.description>
+  <AS_WHE_Scenario.scenario.name>[ハーフエルフ]逃亡の果てに</AS_WHE_Scenario.scenario.name>
+  <AS_WHE_Scenario.scenario.summary>これはハーフエルフのテスト導入版シナリオです。（テスト版ですが、そのまま遊ぶことは可能です。）</AS_WHE_Scenario.scenario.summary>
+  <AS_WHE_Scenario.scenario.description>彼らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。開始時点は3人で、逃亡途中に散り散りになった者たちが7人います。</AS_WHE_Scenario.scenario.description>
+  <AS_WHE_Scenario.scenario.parts.2.text>"あなた達は、宙族の人狩りにより、逃亡生活を強いられました。長い逃亡の果てに、たどり着いたこの地で、新たな集落を作ることに決めました。"</AS_WHE_Scenario.scenario.parts.2.text>
+
+
+</LanguageData>

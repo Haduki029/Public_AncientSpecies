@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- キャラクター命名規則 -->
+
+  <AS_WAE_Name_Rule.rulePack.rulesStrings.0>name->[AS_Firstname] [AS_Lastname]</AS_WAE_Name_Rule.rulePack.rulesStrings.0>
+
+
+  <!-- 村・街命名規則 -->
+
+  <AS_WAE_KingdomName_Rule.rulePack.rulesStrings.0>name->[AS_WAE_Name]</AS_WAE_KingdomName_Rule.rulePack.rulesStrings.0>
+
+
+</LanguageData>

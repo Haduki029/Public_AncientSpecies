@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_Cape.label>ケープ（ハーフエルフ）</AS_WHE_Cape.label>
+  <AS_WHE_Cape.description>皮や布で作られた肩掛け。寒さと攻撃から身を守ります。</AS_WHE_Cape.description>
+
+  <AS_WHE_Parka.label>パーカー（ハーフエルフ）</AS_WHE_Parka.label>
+  <AS_WHE_Parka.description>皮や布で作られたパーカー。寒さと攻撃から身を守り、多少ですが耐暑性能もあります。</AS_WHE_Parka.description>
+
+  <AS_WHE_SimplePoncho.label>シンプルなポンチョ（ハーフエルフ）</AS_WHE_SimplePoncho.label>
+  <AS_WHE_SimplePoncho.description>皮や布で作られたシンプルなデザインのポンチョ。パーカーほど丈夫ではないが、寒さ対策には非常に有効。</AS_WHE_SimplePoncho.description>
+
+  <AS_WHE_ElvenPoncho.label>エルブンポンチョ（ハーフエルフ）</AS_WHE_ElvenPoncho.label>
+  <AS_WHE_ElvenPoncho.description>古代エルフの技術で作られたポンチョ。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐暑、耐熱、防御性能に優れ、使用者の射撃能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</AS_WHE_ElvenPoncho.description>
+
+  <AS_WHE_ElvenMantle.label>エルブンマント（ハーフエルフ）</AS_WHE_ElvenMantle.label>
+  <AS_WHE_ElvenMantle.description>古代エルフの技術で作られたマント。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐暑、耐熱、防御性能に優れ、使用者の格闘能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</AS_WHE_ElvenMantle.description>
+
+
+</LanguageData>

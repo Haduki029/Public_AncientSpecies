@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_Helmet.label>ヘルメット（ハーフエルフ）</AS_WHE_Helmet.label>
+  <AS_WHE_Helmet.description>金属製の頭部上面を守るヘルメット。シンプルながらも丈夫に作られている。</AS_WHE_Helmet.description>
+
+  <AS_WHE_AdvancedHelmet.label>ハーフエルフ式先進型ヘルメット</AS_WHE_AdvancedHelmet.label>
+  <AS_WHE_AdvancedHelmet.description>より高度なハーフエルフの技術で作られた、金属製の頭部上面を守るヘルメット。前面部に付いているスクリーンにより、目も保護してくれる。</AS_WHE_AdvancedHelmet.description>
+
+  <AS_WHE_MarineHelmet.label>ハーフエルフ式マリーンヘルメット</AS_WHE_MarineHelmet.label>
+  <AS_WHE_MarineHelmet.description>ハーフエルフの技術を応用して作られたマリーンヘルメット。強度、軽さ共に高次元にまとめられており、耳の長いハーフエルフでも着脱しやすいようになっている。</AS_WHE_MarineHelmet.description>
+
+  <AS_WHE_MaidHairBand.label>メイドカチューシャ（ハーフエルフ）</AS_WHE_MaidHairBand.label>
+  <AS_WHE_MaidHairBand.description>メイドさんが頭部に着けるカチューシャ。メイド服とセットで身に着けると、貴女も完璧で瀟洒なメイドになれるでしょう。</AS_WHE_MaidHairBand.description>
+
+  <AS_WHE_Horn.label>付け角（ハーフエルフ）</AS_WHE_Horn.label>
+  <AS_WHE_Horn.description>頭に取り付けられる付け角です。何も特殊な効果はありませんが、見た目がちょっぴりかっこよくなります。Cool and cute！なお着脱は簡単です。</AS_WHE_Horn.description>
+
+  <AS_WHE_CuteRibon.label>可愛いリボン（ハーフエルフ）</AS_WHE_CuteRibon.label>
+  <AS_WHE_CuteRibon.description>丈夫さと可愛さを兼ね備えた可愛いリボン。</AS_WHE_CuteRibon.description>
+
+  <AS_WHE_PressureResistantHelmet.label>ハーフエルフ式耐圧ヘルメット</AS_WHE_PressureResistantHelmet.label>
+  <AS_WHE_PressureResistantHelmet.description>宇宙空間でも行動できるように、高度な技術で作成されたヘルメット。マリーン装備より若干弱いが、耐熱、耐寒性能が高い。</AS_WHE_PressureResistantHelmet.description>
+
+
+</LanguageData>

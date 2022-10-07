@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Backstory_NormalChild.title>エルフ村の子供</AS_WAE_Backstory_NormalChild.title>
+  <AS_WAE_Backstory_NormalChild.titleShort>エルフ村の子供</AS_WAE_Backstory_NormalChild.titleShort>
+  <AS_WAE_Backstory_NormalChild.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_Backstory_NormalChild.baseDescription>
+
+  <AS_WAE_Backstory_SlaveChild.title>エルフの子供奴隷</AS_WAE_Backstory_SlaveChild.title>
+  <AS_WAE_Backstory_SlaveChild.titleShort>エルフの子供奴隷</AS_WAE_Backstory_SlaveChild.titleShort>
+  <AS_WAE_Backstory_SlaveChild.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</AS_WAE_Backstory_SlaveChild.baseDescription>
+
+
+</LanguageData>

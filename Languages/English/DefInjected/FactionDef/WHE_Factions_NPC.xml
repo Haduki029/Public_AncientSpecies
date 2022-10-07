@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_Settlement.label>ハーフエルフの集落</AS_WHE_Settlement.label>
+  <AS_WHE_Settlement.description>ハーフエルフ達の集落。</AS_WHE_Settlement.description>
+  <AS_WHE_Settlement.pawnsPlural>ハーフエルフ達</AS_WHE_Settlement.pawnsPlural>
+  <AS_WHE_Settlement.leaderTitle>Leader</AS_WHE_Settlement.leaderTitle>
+
+  <AS_WHE_Village.label>ハーフエルフの村</AS_WHE_Village.label>
+  <AS_WHE_Village.description>ハーフエルフ達の村。</AS_WHE_Village.description>
+  <AS_WHE_Village.pawnsPlural>ハーフエルフ達</AS_WHE_Village.pawnsPlural>
+  <AS_WHE_Village.leaderTitle>Leader</AS_WHE_Village.leaderTitle>
+
+  <AS_WHE_Town.label>ハーフエルフの街</AS_WHE_Town.label>
+  <AS_WHE_Town.description>ハーフエルフ達の街。</AS_WHE_Town.description>
+  <AS_WHE_Town.pawnsPlural>ハーフエルフ達</AS_WHE_Town.pawnsPlural>
+  <AS_WHE_Town.leaderTitle>Leader</AS_WHE_Town.leaderTitle>
+
+
+</LanguageData>
