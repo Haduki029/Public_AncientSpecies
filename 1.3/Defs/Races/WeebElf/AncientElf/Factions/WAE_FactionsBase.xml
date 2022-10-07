@@ -8,11 +8,9 @@
     <colorSpectrum>
       <li>(0.82, 0.23, 0.23)</li>
     </colorSpectrum>
-    <permanentEnemy>true</permanentEnemy>
-    <allowedArrivalTemperatureRange>
-      <min>-10</min>
-      <max>55</max>
-    </allowedArrivalTemperatureRange>
+    <permanentEnemy>true</permanentEnemy><!-- 永続的に敵対 -->
+    <earliestRaidDays>350</earliestRaidDays><!-- 襲撃までの日数 -->
+    <allowedArrivalTemperatureRange>-25~50</allowedArrivalTemperatureRange>
     <raidLootValueFromPointsCurve>
 			<points>
 				<li>(35,     15)</li>

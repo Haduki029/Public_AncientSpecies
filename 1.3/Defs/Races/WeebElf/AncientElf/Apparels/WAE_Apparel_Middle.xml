@@ -61,6 +61,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
 		    <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/middle/KnightDress</wornGraphicPath>
@@ -73,7 +74,7 @@
       <tags>
         <li>AS_Apparel</li>
         <li>AS_WAE_Apparel</li>
-        <li>AS_WAE_GuardianKnight</li>
+        <li>AS_WAE_HK_GuardianKnight</li>
         <li>AS_WAE_HighArmor</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
@@ -143,6 +144,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
 		    <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/middle/HKArcherArmor</wornGraphicPath>
       <layers>
@@ -219,7 +221,9 @@
         <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
 		    <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/middle/RengerArmor</wornGraphicPath>
       <layers>

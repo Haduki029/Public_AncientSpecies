@@ -21,4 +21,20 @@
     </rulePack>
   </RulePackDef>
 
+<!-- 村・街命名規則 -->
+  <RulePackDef>
+    <defName>AS_WAE_KingdomName_Rule</defName>
+    <rulePack>
+      <rulesStrings>
+        <!-- <li>name->エルフ神聖王国</li> -->
+        <li>name->[AS_WAE_Name]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>AS_WAE_Name</keyword>
+          <path>NameLibrary/AS_WAE_KingdomName</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
 </Defs>

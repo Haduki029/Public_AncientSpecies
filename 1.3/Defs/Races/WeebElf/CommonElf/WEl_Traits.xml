@@ -15,12 +15,12 @@
         <statOffsets>
           <ResearchSpeed>0.05</ResearchSpeed>
           <NegotiationAbility>-0.2</NegotiationAbility>
-          <SellPriceFactor>-0.2</SellPriceFactor> 
-          <SocialImpact>-0.1</SocialImpact> 
-          <TameAnimalChance>-0.15</TameAnimalChance> 
-          <TrainAnimalChance>-0.15</TrainAnimalChance> 
-          <ButcheryMechanoidEfficiency>0.2</ButcheryMechanoidEfficiency> 
-          <ButcheryMechanoidSpeed>0.2</ButcheryMechanoidSpeed> 
+          <SellPriceFactor>-0.2</SellPriceFactor>
+          <SocialImpact>-0.1</SocialImpact>
+          <TameAnimalChance>-0.15</TameAnimalChance>
+          <TrainAnimalChance>-0.15</TrainAnimalChance>
+          <ButcheryMechanoidEfficiency>0.2</ButcheryMechanoidEfficiency>
+          <ButcheryMechanoidSpeed>0.2</ButcheryMechanoidSpeed>
           <ConstructionSpeed>0.05</ConstructionSpeed>
           <ConstructSuccessChance>0.05</ConstructSuccessChance>
           <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
@@ -34,12 +34,12 @@
         <statOffsets>
           <ResearchSpeed>0.15</ResearchSpeed>
           <NegotiationAbility>-0.1</NegotiationAbility>
-          <SellPriceFactor>-0.1</SellPriceFactor> 
-          <SocialImpact>-0.05</SocialImpact> 
-          <TameAnimalChance>-0.2</TameAnimalChance> 
-          <TrainAnimalChance>-0.2</TrainAnimalChance> 
-          <ButcheryMechanoidEfficiency>0.5</ButcheryMechanoidEfficiency> 
-          <ButcheryMechanoidSpeed>0.5</ButcheryMechanoidSpeed> 
+          <SellPriceFactor>-0.1</SellPriceFactor>
+          <SocialImpact>-0.05</SocialImpact>
+          <TameAnimalChance>-0.2</TameAnimalChance>
+          <TrainAnimalChance>-0.2</TrainAnimalChance>
+          <ButcheryMechanoidEfficiency>0.5</ButcheryMechanoidEfficiency>
+          <ButcheryMechanoidSpeed>0.5</ButcheryMechanoidSpeed>
           <ConstructionSpeed>0.15</ConstructionSpeed>
           <ConstructSuccessChance>0.15</ConstructSuccessChance>
           <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
@@ -53,17 +53,17 @@
         <statOffsets>
           <ResearchSpeed>0.3</ResearchSpeed>
           <NegotiationAbility>0.05</NegotiationAbility>
-          <SellPriceFactor>0.05</SellPriceFactor> 
-          <SocialImpact>0.05</SocialImpact> 
-          <TameAnimalChance>-0.2</TameAnimalChance> 
-          <TrainAnimalChance>-0.2</TrainAnimalChance> 
-          <ButcheryMechanoidEfficiency>0.8</ButcheryMechanoidEfficiency> 
-          <ButcheryMechanoidSpeed>0.8</ButcheryMechanoidSpeed> 
+          <SellPriceFactor>0.05</SellPriceFactor>
+          <SocialImpact>0.05</SocialImpact>
+          <TameAnimalChance>-0.2</TameAnimalChance>
+          <TrainAnimalChance>-0.2</TrainAnimalChance>
+          <ButcheryMechanoidEfficiency>0.8</ButcheryMechanoidEfficiency>
+          <ButcheryMechanoidSpeed>0.8</ButcheryMechanoidSpeed>
           <ConstructionSpeed>0.2</ConstructionSpeed>
           <ConstructSuccessChance>0.2</ConstructSuccessChance>
           <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
         </statOffsets>
-			</li> 
+			</li>
     </degreeDatas>
   </TraitDef>
 
@@ -147,7 +147,7 @@
           <CarryingCapacity>100</CarryingCapacity>
           <PainShockThreshold>0.6</PainShockThreshold>
           <MentalBreakThreshold>-0.1</MentalBreakThreshold>
-          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <MeleeDodgeChance>1</MeleeDodgeChance>
           <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
           <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
           <ArmorRating_Heat>0.2</ArmorRating_Heat>
@@ -178,7 +178,7 @@
           <CarryingCapacity>120</CarryingCapacity>
           <PainShockThreshold>0.75</PainShockThreshold>
           <MentalBreakThreshold>-0.2</MentalBreakThreshold>
-          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <MeleeDodgeChance>1</MeleeDodgeChance>
           <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
           <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
           <ArmorRating_Heat>0.25</ArmorRating_Heat>

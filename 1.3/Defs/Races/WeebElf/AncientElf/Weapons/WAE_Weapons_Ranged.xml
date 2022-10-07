@@ -32,7 +32,7 @@
     <ThingDef ParentName="WAE_BaseWeaponNeolithic">
         <defName>WAE_ElvenBow_Origin</defName>
         <label>エルブンボウ</label>
-        <description>古代エルフが使っていた一般的な弓です。一般的な弓より強力で、連射性能が高く、飛距離もあります。</description>
+        <description>古代エルフが使っている一般的な弓です。一般的な弓より強力で、連射性能が高く、飛距離もあります。</description>
         <graphicData>
             <texPath>WHE/Weapons/bow/ElvenBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -41,6 +41,7 @@
         <weaponTags>
             <li>AS_WAE_Bow</li>
             <li>AS_WAE_NeolithicRanged</li>
+            <li>AS_WAE_LowNeolithicRanged</li>
         </weaponTags>
         <costList>
             <WoodLog>190</WoodLog>

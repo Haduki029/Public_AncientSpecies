@@ -147,6 +147,7 @@ AS_WAE_Knight
     - AS_WAE_Axe
     - AS_WAE_MidKnight
     - AS_WAE_MidWarrior
+    - AS_WAE_LowNeolithicRanged
     - AS_WAE_MidSword
     - AS_WAE_MidAxe
     - AS_WAE_HighMelee
@@ -165,6 +166,7 @@ AS_WAE_Knight
         - AS_WAE_HK_HighArmor
 
 6. Others
+    - AS_WAE_HolyKingdom
     - AS_WAE_NeolithicEq
     - AS_WAE_NeolithicMelee
     - AS_WAE_NeolithicRanged

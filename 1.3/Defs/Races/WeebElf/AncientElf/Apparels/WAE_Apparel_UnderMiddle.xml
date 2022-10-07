@@ -39,6 +39,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
 		    <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/undermiddle/ColonistDressWare</wornGraphicPath>

@@ -357,6 +357,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/Babydoll</wornGraphicPath>
       <layers>
@@ -418,6 +419,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/BabydollWhite</wornGraphicPath>
       <layers>
@@ -479,6 +481,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/Blackbabydoll</wornGraphicPath>
       <layers>
@@ -539,6 +542,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/BabydollHighGrade</wornGraphicPath>
       <layers>
@@ -596,6 +600,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/NeeSo</wornGraphicPath>
       <layers>
@@ -654,6 +659,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/StripeNeeSo</wornGraphicPath>
       <layers>
@@ -717,6 +723,7 @@
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/onskin/GarterBelt</wornGraphicPath>
       <layers>

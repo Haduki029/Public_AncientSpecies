@@ -2,7 +2,7 @@
 <Defs>
   <PawnKindDef Name="AS_WHE_CommonBase" Abstract="True">
     <race>AS_WHE_Race</race>
-    <combatPower>45</combatPower>
+    <combatPower>40</combatPower>
     <canBeSapper>true</canBeSapper>
     <baseRecruitDifficulty>0.6</baseRecruitDifficulty>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>

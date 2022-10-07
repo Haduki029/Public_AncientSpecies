@@ -5,12 +5,12 @@
     <label>古代エルフの集落</label>
     <techLevel>Industrial</techLevel>
     <description>古代エルフ達の集落。</description>
-    <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
-    <factionIconPath>WHE/WHE_Faction</factionIconPath>
+    <settlementTexturePath>WAE/Factions/WAE_Faction</settlementTexturePath>
+    <factionIconPath>WAE/Factions/WAE_Faction</factionIconPath>
     <pawnSingular>古代エルフ</pawnSingular>
     <pawnsPlural>古代エルフ達</pawnsPlural>
     <listOrderPriority>20</listOrderPriority>
-    <settlementGenerationWeight>0.05</settlementGenerationWeight>
+    <settlementGenerationWeight>0.01</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
     <earliestRaidDays>250</earliestRaidDays>

@@ -2,7 +2,9 @@
 <Defs>
 	<AlienRace.BackstoryDef Name="AS_WAE_HK_Backstory_Child_Base" ParentName="AS_WAE_Backstory_Base" Abstract="True">
 		<spawnCategories>
-			<li>AS_WAE_Slave</li>
+			<li>AS_WAE_HK_Colonist</li>
+			<li>AS_WAE_HolyKingdom</li>
+			<!-- <li>AS_WAE_Slave</li>
 			<li>AS_WAE_ServiceSlave</li>
 			<li>AS_WAE_WarriorSlave</li>
 			<li>AS_WAE_ArcherSlave</li>
@@ -12,9 +14,9 @@
 			<li>AS_WAE_GuardianKnight</li>
 			<li>AS_WAE_Archer</li>
 			<li>AS_WAE_Healer</li>
-			<li>AS_WAE_Houskeeper</li>
+			<li>AS_WAE_HouseKeeper</li>
 			<li>AS_WAE_Cook</li>
-			<li>AS_WAE_Smith</li>
+			<li>AS_WAE_Smith</li> -->
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
 
@@ -240,7 +242,7 @@
 	</AlienRace.BackstoryDef>
 
 	<AlienRace.BackstoryDef ParentName="AS_WAE_HK_Backstory_Child_Base">
-		<defName>AS_WAE_ChildHouskeeper_BackStory</defName>
+		<defName>AS_WAE_ChildHouseKeeper_BackStory</defName>
 		<title>古代エルフの家事手伝い</title>
 		<titleShort>家事手伝い</titleShort>
 		<baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</baseDescription>

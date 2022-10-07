@@ -2,7 +2,7 @@
 <Defs>
 	<BodyPartDef>
 		<defName>AS_WDk_Tail</defName>
-		<label>drake's tail</label>
+		<label>尾</label>
 		<hitPoints>40</hitPoints>
 		<frostbiteVulnerability>2</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
@@ -13,7 +13,7 @@
 	</BodyPartDef>
     <BodyPartDef>
 		<defName>AS_WDk_RightHorn</defName>
-		<label>drake's right horn</label>
+		<label>右角</label>
 		<hitPoints>25</hitPoints>
 		<frostbiteVulnerability>3</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
@@ -21,7 +21,7 @@
 	</BodyPartDef>
     <BodyPartDef>
 		<defName>AS_WDk_LeftHorn</defName>
-		<label>drake's left horn</label>
+		<label>左角</label>
 		<hitPoints>25</hitPoints>
 		<frostbiteVulnerability>3</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
@@ -29,7 +29,7 @@
 	</BodyPartDef>
     <BodyPartDef>
 		<defName>AS_WDk_RightWing</defName>
-		<label>drake's right wing</label>
+		<label>右翼</label>
 		<hitPoints>45</hitPoints>
 		<frostbiteVulnerability>3</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>
@@ -40,7 +40,7 @@
 	</BodyPartDef>
     <BodyPartDef>
 		<defName>AS_WDk_LeftWing</defName>
-		<label>drake's left wing</label>
+		<label>左翼</label>
 		<hitPoints>45</hitPoints>
 		<frostbiteVulnerability>3</frostbiteVulnerability>
 		<skinCovered>true</skinCovered>

@@ -50,6 +50,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
 		    <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/MaidWare</wornGraphicPath>
@@ -160,6 +161,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/TShirts</wornGraphicPath>
       <layers>
@@ -270,6 +272,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
 		    <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/ShirtButton</wornGraphicPath>
@@ -332,6 +335,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Waist</li>
 		    <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/undermiddle/TankTop</wornGraphicPath>

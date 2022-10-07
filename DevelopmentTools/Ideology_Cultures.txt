@@ -1,0 +1,87 @@
+
+Mild
+	Classic like
+        クラシックライク
+
+	Unity family
+        団結家族
+            コロニーは金言で志を同じくする人々の家族のようなものです。自分を第一に考えることはうけいられません。
+            集産主義者
+                一人一人が大きな全体の一部です。人々は自分の役割を果たし、集団を助けるために働くべきです。
+            忠義者
+                私たちは他の人よりも自分たちに所属する人物を指示します。
+
+	Human purists
+        人間の純粋主義者
+            人類は優れています。人体は神聖です。肉体改造、すかりふぃケーション、ドラッグ使用が軽蔑されています。医術と生産のスペシャリストの役割を開放します。
+            
+            人間優位(Human Primacy)
+                人間は宇宙の道徳的中心です。
+            純粋な肉体改造
+                人体は品性を失ってはいけません。
+
+	High collectivists
+        高みの集産主義者
+            全員が一生懸命働き、コミュニティに貢献しなければなりません。そうすれば彼らは一緒にスモークリーフサークルでパーティをすることができます。栽培のスペシャリストの役割を解放します。
+            集産主義者
+                一人一人が大きな全体の一部です。人々は自分の役割を果たし、集団を助けるために働くべきです。
+            高みの人生
+                エキゾチックな精神状態は、良い生活の中心です。
+Strong
+	Free ranchers
+        自由な牧場主
+	
+    Bloody dominators
+        暴力的な支配者
+	
+    Techno utopians
+        テクノユートピア
+
+	Purist flagellators
+        痛みを伴う純粋主義者
+
+	Dark humans
+        闇を愛する親人間派
+
+	Nature over man
+        人より自然
+
+	Domination gang
+        支配組織
+
+	Cannibals
+        カニバル
+
+	Nudist recruiters
+        裸の勧誘者
+
+	Criminal gang
+        犯罪組織
+
+	Feminine ravagers
+        女性主義の破壊者
+
+	Martyrs
+        殉職者
+
+	Cowboys
+        カウボーイ
+
+Intense
+	Mole people
+        モグラの人々
+
+	Tree worshippers
+        樹木崇拝者
+
+	Blindness cult
+        盲目のカルト
+
+	Geral peple
+        野生の人々
+
+	Naked maneaters
+        裸の人食い
+
+	Transcendent humanists
+        進歩的なヒューマニズム

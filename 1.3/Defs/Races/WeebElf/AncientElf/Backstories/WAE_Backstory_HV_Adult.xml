@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<AlienRace.BackstoryDef Name="AS_WAE_HV_Backstory_Adult_Base" ParentName="AS_WAE_Backstory_Base" Abstract="True">
+		<spawnCategories>
+			<li>AS_WAE_HV_Colonist</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+</Defs>

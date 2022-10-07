@@ -44,7 +44,9 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
 		    <li>Legs</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/onskin/TighetsSuit</wornGraphicPath>
       <layers>

@@ -49,6 +49,7 @@
         <li>Torso</li>
         <li>Neck</li>
 				<li>Shoulders</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/middle/BulletProofVest</wornGraphicPath>
       <layers>
@@ -114,6 +115,7 @@
         <li>Neck</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
+        <li>Waist</li>
 				<li>Legs</li>
 				<li>Hands</li>
 				<li>Feet</li>
