@@ -25,11 +25,6 @@
         <label>neck</label>
         <drawOrder>360</drawOrder>
     </ApparelLayerDef>
-    <ApparelLayerDef>
-        <defName>AS_BackHead</defName>
-        <label>back head</label>
-        <drawOrder>380</drawOrder>
-    </ApparelLayerDef>
     <!--
         OnSkin 0
         Middle 100

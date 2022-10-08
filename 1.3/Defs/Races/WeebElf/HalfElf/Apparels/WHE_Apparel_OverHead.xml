@@ -278,7 +278,7 @@
     </apparel>
   </ThingDef>
 
-  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+  <!-- <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_CuteRibon</defName>
     <description>丈夫さと可愛さを兼ね備えた可愛いリボン。</description>
     <label>可愛いリボン（ハーフエルフ）</label>
@@ -328,8 +328,7 @@
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/overhead/CuteRibon</wornGraphicPath>
       <layers>
-        <!-- <li>Overhead</li> -->
-        <li>AS_BackHead</li>
+        <li>Overhead</li>
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
@@ -338,7 +337,7 @@
         <li>RoyalTier2</li>
       </tags>
     </apparel>
-  </ThingDef>
+  </ThingDef> -->
 
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_PressureResistantHelmet</defName>
