@@ -4,6 +4,7 @@
     <defName>AS_WAE_Cultures</defName>
     <label>古代エルフの文化</label>
     <description>辺境の惑星で育まれてきた古代エルフ達の一般的な文化。</description>
+    <pawnNameMaker>AS_WAE_Name_Rule</pawnNameMaker>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
@@ -37,6 +38,7 @@
     <defName>AS_WAE_HK_Cultures</defName>
     <label>神聖王国の文化</label>
     <description>エルフ神聖王国の文化。</description>
+    <pawnNameMaker>AS_WAE_Name_Rule</pawnNameMaker>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
