@@ -13,348 +13,348 @@
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_AS_AssaultRifle.label>make ASアサルトライフル作成</Make_AS_AssaultRifle.label>
-  <Make_AS_AssaultRifle.description>Make ASアサルトライフル作成する。</Make_AS_AssaultRifle.description>
-  <Make_AS_AssaultRifle.jobString>Making ASアサルトライフル作成中</Make_AS_AssaultRifle.jobString>
+  <Make_AS_AssaultRifle.label>ASアサルトライフル作成</Make_AS_AssaultRifle.label>
+  <Make_AS_AssaultRifle.description>ASアサルトライフル作成する。</Make_AS_AssaultRifle.description>
+  <Make_AS_AssaultRifle.jobString>ASアサルトライフル作成中</Make_AS_AssaultRifle.jobString>
 
-  <Make_AS_SniperRifle.label>make ASスナイパーライフル作成</Make_AS_SniperRifle.label>
-  <Make_AS_SniperRifle.description>Make ASスナイパーライフル作成する。</Make_AS_SniperRifle.description>
-  <Make_AS_SniperRifle.jobString>Making ASスナイパーライフル作成中</Make_AS_SniperRifle.jobString>
+  <Make_AS_SniperRifle.label>ASスナイパーライフル作成</Make_AS_SniperRifle.label>
+  <Make_AS_SniperRifle.description>ASスナイパーライフル作成する。</Make_AS_SniperRifle.description>
+  <Make_AS_SniperRifle.jobString>ASスナイパーライフル作成中</Make_AS_SniperRifle.jobString>
 
-  <Make_AS_Shotgun.label>make ASショットガン作成</Make_AS_Shotgun.label>
-  <Make_AS_Shotgun.description>Make ASショットガン作成する。</Make_AS_Shotgun.description>
-  <Make_AS_Shotgun.jobString>Making ASショットガン作成中</Make_AS_Shotgun.jobString>
+  <Make_AS_Shotgun.label>ASショットガン作成</Make_AS_Shotgun.label>
+  <Make_AS_Shotgun.description>ASショットガン作成する。</Make_AS_Shotgun.description>
+  <Make_AS_Shotgun.jobString>ASショットガン作成中</Make_AS_Shotgun.jobString>
 
-  <Make_AS_Handgun.label>make ASハンドガン作成</Make_AS_Handgun.label>
-  <Make_AS_Handgun.description>Make ASハンドガン作成する。</Make_AS_Handgun.description>
-  <Make_AS_Handgun.jobString>Making ASハンドガン作成中</Make_AS_Handgun.jobString>
+  <Make_AS_Handgun.label>ASハンドガン作成</Make_AS_Handgun.label>
+  <Make_AS_Handgun.description>ASハンドガン作成する。</Make_AS_Handgun.description>
+  <Make_AS_Handgun.jobString>ASハンドガン作成中</Make_AS_Handgun.jobString>
 
 
   <!-- Recipe Users: TableMachining, FabricationBench -->
 
-  <Make_AS_Grawehr.label>make グラヴェーア作成</Make_AS_Grawehr.label>
-  <Make_AS_Grawehr.description>Make グラヴェーア作成する。</Make_AS_Grawehr.description>
-  <Make_AS_Grawehr.jobString>Making グラヴェーア作成中</Make_AS_Grawehr.jobString>
+  <Make_AS_Grawehr.label>グラヴェーア作成</Make_AS_Grawehr.label>
+  <Make_AS_Grawehr.description>グラヴェーア作成する。</Make_AS_Grawehr.description>
+  <Make_AS_Grawehr.jobString>グラヴェーア作成中</Make_AS_Grawehr.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WAE_NobleCoat.label>make 貴族のコート（古代エルフ）作成</Make_AS_WAE_NobleCoat.label>
-  <Make_AS_WAE_NobleCoat.description>Make 貴族のコート（古代エルフ）作成する。</Make_AS_WAE_NobleCoat.description>
-  <Make_AS_WAE_NobleCoat.jobString>Making 貴族のコート（古代エルフ）作成中</Make_AS_WAE_NobleCoat.jobString>
+  <Make_AS_WAE_NobleCoat.label>貴族のコート（古代エルフ）作成</Make_AS_WAE_NobleCoat.label>
+  <Make_AS_WAE_NobleCoat.description>貴族のコート（古代エルフ）作成する。</Make_AS_WAE_NobleCoat.description>
+  <Make_AS_WAE_NobleCoat.jobString>貴族のコート（古代エルフ）作成中</Make_AS_WAE_NobleCoat.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WAE_KnightDress.label>make 姫騎士鎧（古代エルフ）作成</Make_AS_WAE_KnightDress.label>
-  <Make_AS_WAE_KnightDress.description>Make 姫騎士鎧（古代エルフ）作成する。</Make_AS_WAE_KnightDress.description>
-  <Make_AS_WAE_KnightDress.jobString>Making 姫騎士鎧（古代エルフ）作成中</Make_AS_WAE_KnightDress.jobString>
+  <Make_AS_WAE_KnightDress.label>姫騎士鎧（古代エルフ）作成</Make_AS_WAE_KnightDress.label>
+  <Make_AS_WAE_KnightDress.description>姫騎士鎧（古代エルフ）作成する。</Make_AS_WAE_KnightDress.description>
+  <Make_AS_WAE_KnightDress.jobString>姫騎士鎧（古代エルフ）作成中</Make_AS_WAE_KnightDress.jobString>
 
-  <Make_AS_WAE_HKArcherArmor.label>make エルフの軽装鎧</Make_AS_WAE_HKArcherArmor.label>
-  <Make_AS_WAE_HKArcherArmor.description>Make エルフの軽装鎧作成する。</Make_AS_WAE_HKArcherArmor.description>
-  <Make_AS_WAE_HKArcherArmor.jobString>Making エルフの軽装鎧作成中</Make_AS_WAE_HKArcherArmor.jobString>
+  <Make_AS_WAE_HKArcherArmor.label>エルフの軽装鎧</Make_AS_WAE_HKArcherArmor.label>
+  <Make_AS_WAE_HKArcherArmor.description>エルフの軽装鎧作成する。</Make_AS_WAE_HKArcherArmor.description>
+  <Make_AS_WAE_HKArcherArmor.jobString>エルフの軽装鎧作成中</Make_AS_WAE_HKArcherArmor.jobString>
 
-  <Make_AS_WAE_RengerArmor.label>make レンジャーアーマー（古代エルフ）作成</Make_AS_WAE_RengerArmor.label>
-  <Make_AS_WAE_RengerArmor.description>Make レンジャーアーマー（古代エルフ）作成する。</Make_AS_WAE_RengerArmor.description>
-  <Make_AS_WAE_RengerArmor.jobString>Making レンジャーアーマー（古代エルフ）作成中</Make_AS_WAE_RengerArmor.jobString>
+  <Make_AS_WAE_RengerArmor.label>レンジャーアーマー（古代エルフ）作成</Make_AS_WAE_RengerArmor.label>
+  <Make_AS_WAE_RengerArmor.description>レンジャーアーマー（古代エルフ）作成する。</Make_AS_WAE_RengerArmor.description>
+  <Make_AS_WAE_RengerArmor.jobString>レンジャーアーマー（古代エルフ）作成中</Make_AS_WAE_RengerArmor.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WAE_TighetsSuit.label>make エルフタイツスーツ作成</Make_AS_WAE_TighetsSuit.label>
-  <Make_AS_WAE_TighetsSuit.description>Make エルフタイツスーツ作成する。</Make_AS_WAE_TighetsSuit.description>
-  <Make_AS_WAE_TighetsSuit.jobString>Making エルフタイツスーツ作成中</Make_AS_WAE_TighetsSuit.jobString>
+  <Make_AS_WAE_TighetsSuit.label>エルフタイツスーツ作成</Make_AS_WAE_TighetsSuit.label>
+  <Make_AS_WAE_TighetsSuit.description>エルフタイツスーツ作成する。</Make_AS_WAE_TighetsSuit.description>
+  <Make_AS_WAE_TighetsSuit.jobString>エルフタイツスーツ作成中</Make_AS_WAE_TighetsSuit.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WAE_FeatherHelm.label>make フェザーヘルム（古代エルフ）作成</Make_AS_WAE_FeatherHelm.label>
-  <Make_AS_WAE_FeatherHelm.description>Make フェザーヘルム（古代エルフ）作成する。</Make_AS_WAE_FeatherHelm.description>
-  <Make_AS_WAE_FeatherHelm.jobString>Making フェザーヘルム（古代エルフ）作成中</Make_AS_WAE_FeatherHelm.jobString>
+  <Make_AS_WAE_FeatherHelm.label>フェザーヘルム（古代エルフ）作成</Make_AS_WAE_FeatherHelm.label>
+  <Make_AS_WAE_FeatherHelm.description>フェザーヘルム（古代エルフ）作成する。</Make_AS_WAE_FeatherHelm.description>
+  <Make_AS_WAE_FeatherHelm.jobString>フェザーヘルム（古代エルフ）作成中</Make_AS_WAE_FeatherHelm.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WAE_HKNationalCostume.label>make エルフの民族衣装</Make_AS_WAE_HKNationalCostume.label>
-  <Make_AS_WAE_HKNationalCostume.description>Make エルフの民族衣装作成する。</Make_AS_WAE_HKNationalCostume.description>
-  <Make_AS_WAE_HKNationalCostume.jobString>Making エルフの民族衣装作成中</Make_AS_WAE_HKNationalCostume.jobString>
+  <Make_AS_WAE_HKNationalCostume.label>エルフの民族衣装</Make_AS_WAE_HKNationalCostume.label>
+  <Make_AS_WAE_HKNationalCostume.description>エルフの民族衣装作成する。</Make_AS_WAE_HKNationalCostume.description>
+  <Make_AS_WAE_HKNationalCostume.jobString>エルフの民族衣装作成中</Make_AS_WAE_HKNationalCostume.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_WAESword.label>make 古代エルフの剣</Make_AS_WHE_WAESword.label>
-  <Make_AS_WHE_WAESword.description>Make 古代エルフの剣作成する。</Make_AS_WHE_WAESword.description>
-  <Make_AS_WHE_WAESword.jobString>Making 古代エルフの剣作成中</Make_AS_WHE_WAESword.jobString>
+  <Make_AS_WHE_WAESword.label>古代エルフの剣</Make_AS_WHE_WAESword.label>
+  <Make_AS_WHE_WAESword.description>古代エルフの剣作成する。</Make_AS_WHE_WAESword.description>
+  <Make_AS_WHE_WAESword.jobString>古代エルフの剣作成中</Make_AS_WHE_WAESword.jobString>
 
-  <Make_AS_WAE_TwoHandWarAxe.label>make ツーハンドウォーアックス</Make_AS_WAE_TwoHandWarAxe.label>
-  <Make_AS_WAE_TwoHandWarAxe.description>Make ツーハンドウォーアックス作成する。</Make_AS_WAE_TwoHandWarAxe.description>
-  <Make_AS_WAE_TwoHandWarAxe.jobString>Making ツーハンドウォーアックス作成中</Make_AS_WAE_TwoHandWarAxe.jobString>
+  <Make_AS_WAE_TwoHandWarAxe.label>ツーハンドウォーアックス</Make_AS_WAE_TwoHandWarAxe.label>
+  <Make_AS_WAE_TwoHandWarAxe.description>ツーハンドウォーアックス作成する。</Make_AS_WAE_TwoHandWarAxe.description>
+  <Make_AS_WAE_TwoHandWarAxe.jobString>ツーハンドウォーアックス作成中</Make_AS_WAE_TwoHandWarAxe.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot, ElectricSmithy, FueledSmithy -->
 
-  <Make_WAE_ElvenBow_Origin.label>make エルブンボウ</Make_WAE_ElvenBow_Origin.label>
-  <Make_WAE_ElvenBow_Origin.description>Make エルブンボウ作成する。</Make_WAE_ElvenBow_Origin.description>
-  <Make_WAE_ElvenBow_Origin.jobString>Making エルブンボウ作成中</Make_WAE_ElvenBow_Origin.jobString>
+  <Make_WAE_ElvenBow_Origin.label>エルブンボウ</Make_WAE_ElvenBow_Origin.label>
+  <Make_WAE_ElvenBow_Origin.description>エルブンボウ作成する。</Make_WAE_ElvenBow_Origin.description>
+  <Make_WAE_ElvenBow_Origin.jobString>エルブンボウ作成中</Make_WAE_ElvenBow_Origin.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_FakeEar.label>make 人口ハーフエルフ耳</Make_AS_WHE_FakeEar.label>
-  <Make_AS_WHE_FakeEar.description>Make 人口ハーフエルフ耳作成する。</Make_AS_WHE_FakeEar.description>
-  <Make_AS_WHE_FakeEar.jobString>Making 人口ハーフエルフ耳作成中</Make_AS_WHE_FakeEar.jobString>
+  <Make_AS_WHE_FakeEar.label>人口ハーフエルフ耳</Make_AS_WHE_FakeEar.label>
+  <Make_AS_WHE_FakeEar.description>人口ハーフエルフ耳作成する。</Make_AS_WHE_FakeEar.description>
+  <Make_AS_WHE_FakeEar.jobString>人口ハーフエルフ耳作成中</Make_AS_WHE_FakeEar.jobString>
 
 
   <!-- Recipe Users: FabricationBench -->
 
-  <Make_AS_WHE_BionicEar.label>make バイオニックハーフエルフ耳</Make_AS_WHE_BionicEar.label>
-  <Make_AS_WHE_BionicEar.description>Make バイオニックハーフエルフ耳作成する。</Make_AS_WHE_BionicEar.description>
-  <Make_AS_WHE_BionicEar.jobString>Making バイオニックハーフエルフ耳作成中</Make_AS_WHE_BionicEar.jobString>
+  <Make_AS_WHE_BionicEar.label>バイオニックハーフエルフ耳</Make_AS_WHE_BionicEar.label>
+  <Make_AS_WHE_BionicEar.description>バイオニックハーフエルフ耳作成する。</Make_AS_WHE_BionicEar.description>
+  <Make_AS_WHE_BionicEar.jobString>バイオニックハーフエルフ耳作成中</Make_AS_WHE_BionicEar.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_ShoulderBack.label>make ショルダーバック（ハーフエルフ）</Make_AS_WHE_ShoulderBack.label>
-  <Make_AS_WHE_ShoulderBack.description>Make ショルダーバック（ハーフエルフ）作成する。</Make_AS_WHE_ShoulderBack.description>
-  <Make_AS_WHE_ShoulderBack.jobString>Making ショルダーバック（ハーフエルフ）作成中</Make_AS_WHE_ShoulderBack.jobString>
+  <Make_AS_WHE_ShoulderBack.label>ショルダーバック（ハーフエルフ）</Make_AS_WHE_ShoulderBack.label>
+  <Make_AS_WHE_ShoulderBack.description>ショルダーバック（ハーフエルフ）作成する。</Make_AS_WHE_ShoulderBack.description>
+  <Make_AS_WHE_ShoulderBack.jobString>ショルダーバック（ハーフエルフ）作成中</Make_AS_WHE_ShoulderBack.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_Cape.label>make ケープ（ハーフエルフ）</Make_AS_WHE_Cape.label>
-  <Make_AS_WHE_Cape.description>Make ケープ（ハーフエルフ）作成する。</Make_AS_WHE_Cape.description>
-  <Make_AS_WHE_Cape.jobString>Making ケープ（ハーフエルフ）作成中</Make_AS_WHE_Cape.jobString>
+  <Make_AS_WHE_Cape.label>ケープ（ハーフエルフ）</Make_AS_WHE_Cape.label>
+  <Make_AS_WHE_Cape.description>ケープ（ハーフエルフ）作成する。</Make_AS_WHE_Cape.description>
+  <Make_AS_WHE_Cape.jobString>ケープ（ハーフエルフ）作成中</Make_AS_WHE_Cape.jobString>
 
-  <Make_AS_WHE_Parka.label>make パーカー（ハーフエルフ）</Make_AS_WHE_Parka.label>
-  <Make_AS_WHE_Parka.description>Make パーカー（ハーフエルフ）作成する。</Make_AS_WHE_Parka.description>
-  <Make_AS_WHE_Parka.jobString>Making パーカー（ハーフエルフ）作成中</Make_AS_WHE_Parka.jobString>
+  <Make_AS_WHE_Parka.label>パーカー（ハーフエルフ）</Make_AS_WHE_Parka.label>
+  <Make_AS_WHE_Parka.description>パーカー（ハーフエルフ）作成する。</Make_AS_WHE_Parka.description>
+  <Make_AS_WHE_Parka.jobString>パーカー（ハーフエルフ）作成中</Make_AS_WHE_Parka.jobString>
 
-  <Make_AS_WHE_SimplePoncho.label>make シンプルなポンチョ（ハーフエルフ）</Make_AS_WHE_SimplePoncho.label>
-  <Make_AS_WHE_SimplePoncho.description>Make シンプルなポンチョ（ハーフエルフ）作成する。</Make_AS_WHE_SimplePoncho.description>
-  <Make_AS_WHE_SimplePoncho.jobString>Making シンプルなポンチョ（ハーフエルフ）作成中</Make_AS_WHE_SimplePoncho.jobString>
+  <Make_AS_WHE_SimplePoncho.label>シンプルなポンチョ（ハーフエルフ）</Make_AS_WHE_SimplePoncho.label>
+  <Make_AS_WHE_SimplePoncho.description>シンプルなポンチョ（ハーフエルフ）作成する。</Make_AS_WHE_SimplePoncho.description>
+  <Make_AS_WHE_SimplePoncho.jobString>シンプルなポンチョ（ハーフエルフ）作成中</Make_AS_WHE_SimplePoncho.jobString>
 
-  <Make_AS_WHE_ElvenPoncho.label>make エルブンポンチョ（ハーフエルフ）</Make_AS_WHE_ElvenPoncho.label>
-  <Make_AS_WHE_ElvenPoncho.description>Make エルブンポンチョ（ハーフエルフ）作成する。</Make_AS_WHE_ElvenPoncho.description>
-  <Make_AS_WHE_ElvenPoncho.jobString>Making エルブンポンチョ（ハーフエルフ）作成中</Make_AS_WHE_ElvenPoncho.jobString>
+  <Make_AS_WHE_ElvenPoncho.label>エルブンポンチョ（ハーフエルフ）</Make_AS_WHE_ElvenPoncho.label>
+  <Make_AS_WHE_ElvenPoncho.description>エルブンポンチョ（ハーフエルフ）作成する。</Make_AS_WHE_ElvenPoncho.description>
+  <Make_AS_WHE_ElvenPoncho.jobString>エルブンポンチョ（ハーフエルフ）作成中</Make_AS_WHE_ElvenPoncho.jobString>
 
-  <Make_AS_WHE_ElvenMantle.label>make エルブンマント（ハーフエルフ）</Make_AS_WHE_ElvenMantle.label>
-  <Make_AS_WHE_ElvenMantle.description>Make エルブンマント（ハーフエルフ）作成する。</Make_AS_WHE_ElvenMantle.description>
-  <Make_AS_WHE_ElvenMantle.jobString>Making エルブンマント（ハーフエルフ）作成中</Make_AS_WHE_ElvenMantle.jobString>
+  <Make_AS_WHE_ElvenMantle.label>エルブンマント（ハーフエルフ）</Make_AS_WHE_ElvenMantle.label>
+  <Make_AS_WHE_ElvenMantle.description>エルブンマント（ハーフエルフ）作成する。</Make_AS_WHE_ElvenMantle.description>
+  <Make_AS_WHE_ElvenMantle.jobString>エルブンマント（ハーフエルフ）作成中</Make_AS_WHE_ElvenMantle.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_BulletProofVest.label>make 防弾ベスト（ハーフエルフ）</Make_AS_WHE_BulletProofVest.label>
-  <Make_AS_WHE_BulletProofVest.description>Make 防弾ベスト（ハーフエルフ）作成する。</Make_AS_WHE_BulletProofVest.description>
-  <Make_AS_WHE_BulletProofVest.jobString>Making 防弾ベスト（ハーフエルフ）作成中</Make_AS_WHE_BulletProofVest.jobString>
+  <Make_AS_WHE_BulletProofVest.label>防弾ベスト（ハーフエルフ）</Make_AS_WHE_BulletProofVest.label>
+  <Make_AS_WHE_BulletProofVest.description>防弾ベスト（ハーフエルフ）作成する。</Make_AS_WHE_BulletProofVest.description>
+  <Make_AS_WHE_BulletProofVest.jobString>防弾ベスト（ハーフエルフ）作成中</Make_AS_WHE_BulletProofVest.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
 
-  <Make_AS_WHE_MarineArmor.label>make ハーフエルフ式マリーンアーマー</Make_AS_WHE_MarineArmor.label>
-  <Make_AS_WHE_MarineArmor.description>Make ハーフエルフ式マリーンアーマー作成する。</Make_AS_WHE_MarineArmor.description>
-  <Make_AS_WHE_MarineArmor.jobString>Making ハーフエルフ式マリーンアーマー作成中</Make_AS_WHE_MarineArmor.jobString>
+  <Make_AS_WHE_MarineArmor.label>ハーフエルフ式マリーンアーマー</Make_AS_WHE_MarineArmor.label>
+  <Make_AS_WHE_MarineArmor.description>ハーフエルフ式マリーンアーマー作成する。</Make_AS_WHE_MarineArmor.description>
+  <Make_AS_WHE_MarineArmor.jobString>ハーフエルフ式マリーンアーマー作成中</Make_AS_WHE_MarineArmor.jobString>
 
-  <Make_AS_WHE_PressureResistantSuits.label>make 耐圧スーツ</Make_AS_WHE_PressureResistantSuits.label>
-  <Make_AS_WHE_PressureResistantSuits.description>Make 耐圧スーツ作成する。</Make_AS_WHE_PressureResistantSuits.description>
-  <Make_AS_WHE_PressureResistantSuits.jobString>Making 耐圧スーツ作成中</Make_AS_WHE_PressureResistantSuits.jobString>
+  <Make_AS_WHE_PressureResistantSuits.label>耐圧スーツ</Make_AS_WHE_PressureResistantSuits.label>
+  <Make_AS_WHE_PressureResistantSuits.description>耐圧スーツ作成する。</Make_AS_WHE_PressureResistantSuits.description>
+  <Make_AS_WHE_PressureResistantSuits.jobString>耐圧スーツ作成中</Make_AS_WHE_PressureResistantSuits.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_PlateArmor.label>make ハーフエルフ式プレートアーマー</Make_AS_WHE_PlateArmor.label>
-  <Make_AS_WHE_PlateArmor.description>Make ハーフエルフ式プレートアーマー作成する。</Make_AS_WHE_PlateArmor.description>
-  <Make_AS_WHE_PlateArmor.jobString>Making ハーフエルフ式プレートアーマー作成中</Make_AS_WHE_PlateArmor.jobString>
+  <Make_AS_WHE_PlateArmor.label>ハーフエルフ式プレートアーマー</Make_AS_WHE_PlateArmor.label>
+  <Make_AS_WHE_PlateArmor.description>ハーフエルフ式プレートアーマー作成する。</Make_AS_WHE_PlateArmor.description>
+  <Make_AS_WHE_PlateArmor.jobString>ハーフエルフ式プレートアーマー作成中</Make_AS_WHE_PlateArmor.jobString>
 
-  <Make_AS_WHE_WAEArmor_Re.label>make 古代エルフのプレートアーマー</Make_AS_WHE_WAEArmor_Re.label>
-  <Make_AS_WHE_WAEArmor_Re.description>Make 古代エルフのプレートアーマー作成する。</Make_AS_WHE_WAEArmor_Re.description>
-  <Make_AS_WHE_WAEArmor_Re.jobString>Making 古代エルフのプレートアーマー作成中</Make_AS_WHE_WAEArmor_Re.jobString>
+  <Make_AS_WHE_WAEArmor_Re.label>古代エルフのプレートアーマー</Make_AS_WHE_WAEArmor_Re.label>
+  <Make_AS_WHE_WAEArmor_Re.description>古代エルフのプレートアーマー作成する。</Make_AS_WHE_WAEArmor_Re.description>
+  <Make_AS_WHE_WAEArmor_Re.jobString>古代エルフのプレートアーマー作成中</Make_AS_WHE_WAEArmor_Re.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_Scarf.label>make スカーフ（ハーフエルフ）</Make_AS_WHE_Scarf.label>
-  <Make_AS_WHE_Scarf.description>Make スカーフ（ハーフエルフ）作成する。</Make_AS_WHE_Scarf.description>
-  <Make_AS_WHE_Scarf.jobString>Making スカーフ（ハーフエルフ）作成中</Make_AS_WHE_Scarf.jobString>
+  <Make_AS_WHE_Scarf.label>スカーフ（ハーフエルフ）</Make_AS_WHE_Scarf.label>
+  <Make_AS_WHE_Scarf.description>スカーフ（ハーフエルフ）作成する。</Make_AS_WHE_Scarf.description>
+  <Make_AS_WHE_Scarf.jobString>スカーフ（ハーフエルフ）作成中</Make_AS_WHE_Scarf.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, TableMachining -->
 
-  <Make_AS_WHE_ShieldScarf.label>make シールドスカーフ（ハーフエルフ）</Make_AS_WHE_ShieldScarf.label>
-  <Make_AS_WHE_ShieldScarf.description>Make シールドスカーフ（ハーフエルフ）作成する。</Make_AS_WHE_ShieldScarf.description>
-  <Make_AS_WHE_ShieldScarf.jobString>Making シールドスカーフ（ハーフエルフ）作成中</Make_AS_WHE_ShieldScarf.jobString>
+  <Make_AS_WHE_ShieldScarf.label>シールドスカーフ（ハーフエルフ）</Make_AS_WHE_ShieldScarf.label>
+  <Make_AS_WHE_ShieldScarf.description>シールドスカーフ（ハーフエルフ）作成する。</Make_AS_WHE_ShieldScarf.description>
+  <Make_AS_WHE_ShieldScarf.jobString>シールドスカーフ（ハーフエルフ）作成中</Make_AS_WHE_ShieldScarf.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_UnderwearA.label>make 下着（ハーフエルフ）</Make_AS_WHE_UnderwearA.label>
-  <Make_AS_WHE_UnderwearA.description>Make 下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearA.description>
-  <Make_AS_WHE_UnderwearA.jobString>Making 下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearA.jobString>
+  <Make_AS_WHE_UnderwearA.label>下着（ハーフエルフ）</Make_AS_WHE_UnderwearA.label>
+  <Make_AS_WHE_UnderwearA.description>下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearA.description>
+  <Make_AS_WHE_UnderwearA.jobString>下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearA.jobString>
 
-  <Make_AS_WHE_UnderwearB.label>make ピンクのフリル下着（ハーフエルフ）</Make_AS_WHE_UnderwearB.label>
-  <Make_AS_WHE_UnderwearB.description>Make ピンクのフリル下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearB.description>
-  <Make_AS_WHE_UnderwearB.jobString>Making ピンクのフリル下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearB.jobString>
+  <Make_AS_WHE_UnderwearB.label>ピンクのフリル下着（ハーフエルフ）</Make_AS_WHE_UnderwearB.label>
+  <Make_AS_WHE_UnderwearB.description>ピンクのフリル下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearB.description>
+  <Make_AS_WHE_UnderwearB.jobString>ピンクのフリル下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearB.jobString>
 
-  <Make_AS_WHE_UnderwearC.label>make 青いフリル下着（ハーフエルフ）</Make_AS_WHE_UnderwearC.label>
-  <Make_AS_WHE_UnderwearC.description>Make 青いフリル下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearC.description>
-  <Make_AS_WHE_UnderwearC.jobString>Making 青いフリル下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearC.jobString>
+  <Make_AS_WHE_UnderwearC.label>青いフリル下着（ハーフエルフ）</Make_AS_WHE_UnderwearC.label>
+  <Make_AS_WHE_UnderwearC.description>青いフリル下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearC.description>
+  <Make_AS_WHE_UnderwearC.jobString>青いフリル下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearC.jobString>
 
-  <Make_AS_WHE_UnderwearD.label>make セクシーな下着（ハーフエルフ）</Make_AS_WHE_UnderwearD.label>
-  <Make_AS_WHE_UnderwearD.description>Make セクシーな下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearD.description>
-  <Make_AS_WHE_UnderwearD.jobString>Making セクシーな下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearD.jobString>
+  <Make_AS_WHE_UnderwearD.label>セクシーな下着（ハーフエルフ）</Make_AS_WHE_UnderwearD.label>
+  <Make_AS_WHE_UnderwearD.description>セクシーな下着（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearD.description>
+  <Make_AS_WHE_UnderwearD.jobString>セクシーな下着（ハーフエルフ）作成中</Make_AS_WHE_UnderwearD.jobString>
 
-  <Make_AS_WHE_UnderwearE.label>make スマートインナー（ハーフエルフ）</Make_AS_WHE_UnderwearE.label>
-  <Make_AS_WHE_UnderwearE.description>Make スマートインナー（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearE.description>
-  <Make_AS_WHE_UnderwearE.jobString>Making スマートインナー（ハーフエルフ）作成中</Make_AS_WHE_UnderwearE.jobString>
+  <Make_AS_WHE_UnderwearE.label>スマートインナー（ハーフエルフ）</Make_AS_WHE_UnderwearE.label>
+  <Make_AS_WHE_UnderwearE.description>スマートインナー（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearE.description>
+  <Make_AS_WHE_UnderwearE.jobString>スマートインナー（ハーフエルフ）作成中</Make_AS_WHE_UnderwearE.jobString>
 
-  <Make_AS_WHE_UnderwearF.label>make ベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearF.label>
-  <Make_AS_WHE_UnderwearF.description>Make ベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearF.description>
-  <Make_AS_WHE_UnderwearF.jobString>Making ベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearF.jobString>
+  <Make_AS_WHE_UnderwearF.label>ベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearF.label>
+  <Make_AS_WHE_UnderwearF.description>ベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearF.description>
+  <Make_AS_WHE_UnderwearF.jobString>ベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearF.jobString>
 
-  <Make_AS_WHE_UnderwearG.label>make 白のベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearG.label>
-  <Make_AS_WHE_UnderwearG.description>Make 白のベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearG.description>
-  <Make_AS_WHE_UnderwearG.jobString>Making 白のベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearG.jobString>
+  <Make_AS_WHE_UnderwearG.label>白のベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearG.label>
+  <Make_AS_WHE_UnderwearG.description>白のベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearG.description>
+  <Make_AS_WHE_UnderwearG.jobString>白のベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearG.jobString>
 
-  <Make_AS_WHE_UnderwearH.label>make 黒のベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearH.label>
-  <Make_AS_WHE_UnderwearH.description>Make 黒のベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearH.description>
-  <Make_AS_WHE_UnderwearH.jobString>Making 黒のベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearH.jobString>
+  <Make_AS_WHE_UnderwearH.label>黒のベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearH.label>
+  <Make_AS_WHE_UnderwearH.description>黒のベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearH.description>
+  <Make_AS_WHE_UnderwearH.jobString>黒のベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearH.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_UnderwearI.label>make 高級ベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearI.label>
-  <Make_AS_WHE_UnderwearI.description>Make 高級ベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearI.description>
-  <Make_AS_WHE_UnderwearI.jobString>Making 高級ベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearI.jobString>
+  <Make_AS_WHE_UnderwearI.label>高級ベイビードール（ハーフエルフ）</Make_AS_WHE_UnderwearI.label>
+  <Make_AS_WHE_UnderwearI.description>高級ベイビードール（ハーフエルフ）作成する。</Make_AS_WHE_UnderwearI.description>
+  <Make_AS_WHE_UnderwearI.jobString>高級ベイビードール（ハーフエルフ）作成中</Make_AS_WHE_UnderwearI.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_Neeso.label>make ニーソックス（ハーフエルフ）</Make_AS_WHE_Neeso.label>
-  <Make_AS_WHE_Neeso.description>Make ニーソックス（ハーフエルフ）作成する。</Make_AS_WHE_Neeso.description>
-  <Make_AS_WHE_Neeso.jobString>Making ニーソックス（ハーフエルフ）作成中</Make_AS_WHE_Neeso.jobString>
+  <Make_AS_WHE_Neeso.label>ニーソックス（ハーフエルフ）</Make_AS_WHE_Neeso.label>
+  <Make_AS_WHE_Neeso.description>ニーソックス（ハーフエルフ）作成する。</Make_AS_WHE_Neeso.description>
+  <Make_AS_WHE_Neeso.jobString>ニーソックス（ハーフエルフ）作成中</Make_AS_WHE_Neeso.jobString>
 
-  <Make_AS_WHE_StripeNeeso.label>make ストライプニーソックス（ハーフエルフ）</Make_AS_WHE_StripeNeeso.label>
-  <Make_AS_WHE_StripeNeeso.description>Make ストライプニーソックス（ハーフエルフ）作成する。</Make_AS_WHE_StripeNeeso.description>
-  <Make_AS_WHE_StripeNeeso.jobString>Making ストライプニーソックス（ハーフエルフ）作成中</Make_AS_WHE_StripeNeeso.jobString>
+  <Make_AS_WHE_StripeNeeso.label>ストライプニーソックス（ハーフエルフ）</Make_AS_WHE_StripeNeeso.label>
+  <Make_AS_WHE_StripeNeeso.description>ストライプニーソックス（ハーフエルフ）作成する。</Make_AS_WHE_StripeNeeso.description>
+  <Make_AS_WHE_StripeNeeso.jobString>ストライプニーソックス（ハーフエルフ）作成中</Make_AS_WHE_StripeNeeso.jobString>
 
-  <Make_AS_WHE_GarterBelt.label>make ガーターベルト（ハーフエルフ）</Make_AS_WHE_GarterBelt.label>
-  <Make_AS_WHE_GarterBelt.description>Make ガーターベルト（ハーフエルフ）作成する。</Make_AS_WHE_GarterBelt.description>
-  <Make_AS_WHE_GarterBelt.jobString>Making ガーターベルト（ハーフエルフ）作成中</Make_AS_WHE_GarterBelt.jobString>
+  <Make_AS_WHE_GarterBelt.label>ガーターベルト（ハーフエルフ）</Make_AS_WHE_GarterBelt.label>
+  <Make_AS_WHE_GarterBelt.description>ガーターベルト（ハーフエルフ）作成する。</Make_AS_WHE_GarterBelt.description>
+  <Make_AS_WHE_GarterBelt.jobString>ガーターベルト（ハーフエルフ）作成中</Make_AS_WHE_GarterBelt.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_Helmet.label>make ヘルメット（ハーフエルフ）</Make_AS_WHE_Helmet.label>
-  <Make_AS_WHE_Helmet.description>Make ヘルメット（ハーフエルフ）作成する。</Make_AS_WHE_Helmet.description>
-  <Make_AS_WHE_Helmet.jobString>Making ヘルメット（ハーフエルフ）作成中</Make_AS_WHE_Helmet.jobString>
+  <Make_AS_WHE_Helmet.label>ヘルメット（ハーフエルフ）</Make_AS_WHE_Helmet.label>
+  <Make_AS_WHE_Helmet.description>ヘルメット（ハーフエルフ）作成する。</Make_AS_WHE_Helmet.description>
+  <Make_AS_WHE_Helmet.jobString>ヘルメット（ハーフエルフ）作成中</Make_AS_WHE_Helmet.jobString>
 
-  <Make_AS_WHE_AdvancedHelmet.label>make ハーフエルフ式先進型ヘルメット</Make_AS_WHE_AdvancedHelmet.label>
-  <Make_AS_WHE_AdvancedHelmet.description>Make ハーフエルフ式先進型ヘルメット作成する。</Make_AS_WHE_AdvancedHelmet.description>
-  <Make_AS_WHE_AdvancedHelmet.jobString>Making ハーフエルフ式先進型ヘルメット作成中</Make_AS_WHE_AdvancedHelmet.jobString>
+  <Make_AS_WHE_AdvancedHelmet.label>ハーフエルフ式先進型ヘルメット</Make_AS_WHE_AdvancedHelmet.label>
+  <Make_AS_WHE_AdvancedHelmet.description>ハーフエルフ式先進型ヘルメット作成する。</Make_AS_WHE_AdvancedHelmet.description>
+  <Make_AS_WHE_AdvancedHelmet.jobString>ハーフエルフ式先進型ヘルメット作成中</Make_AS_WHE_AdvancedHelmet.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
 
-  <Make_AS_WHE_MarineHelmet.label>make ハーフエルフ式マリーンヘルメット</Make_AS_WHE_MarineHelmet.label>
-  <Make_AS_WHE_MarineHelmet.description>Make ハーフエルフ式マリーンヘルメット作成する。</Make_AS_WHE_MarineHelmet.description>
-  <Make_AS_WHE_MarineHelmet.jobString>Making ハーフエルフ式マリーンヘルメット作成中</Make_AS_WHE_MarineHelmet.jobString>
+  <Make_AS_WHE_MarineHelmet.label>ハーフエルフ式マリーンヘルメット</Make_AS_WHE_MarineHelmet.label>
+  <Make_AS_WHE_MarineHelmet.description>ハーフエルフ式マリーンヘルメット作成する。</Make_AS_WHE_MarineHelmet.description>
+  <Make_AS_WHE_MarineHelmet.jobString>ハーフエルフ式マリーンヘルメット作成中</Make_AS_WHE_MarineHelmet.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_MaidHairBand.label>make メイドカチューシャ（ハーフエルフ）</Make_AS_WHE_MaidHairBand.label>
-  <Make_AS_WHE_MaidHairBand.description>Make メイドカチューシャ（ハーフエルフ）作成する。</Make_AS_WHE_MaidHairBand.description>
-  <Make_AS_WHE_MaidHairBand.jobString>Making メイドカチューシャ（ハーフエルフ）作成中</Make_AS_WHE_MaidHairBand.jobString>
+  <Make_AS_WHE_MaidHairBand.label>メイドカチューシャ（ハーフエルフ）</Make_AS_WHE_MaidHairBand.label>
+  <Make_AS_WHE_MaidHairBand.description>メイドカチューシャ（ハーフエルフ）作成する。</Make_AS_WHE_MaidHairBand.description>
+  <Make_AS_WHE_MaidHairBand.jobString>メイドカチューシャ（ハーフエルフ）作成中</Make_AS_WHE_MaidHairBand.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_Horn.label>make 付け角（ハーフエルフ）</Make_AS_WHE_Horn.label>
-  <Make_AS_WHE_Horn.description>Make 付け角（ハーフエルフ）作成する。</Make_AS_WHE_Horn.description>
-  <Make_AS_WHE_Horn.jobString>Making 付け角（ハーフエルフ）作成中</Make_AS_WHE_Horn.jobString>
+  <Make_AS_WHE_Horn.label>付け角（ハーフエルフ）</Make_AS_WHE_Horn.label>
+  <Make_AS_WHE_Horn.description>付け角（ハーフエルフ）作成する。</Make_AS_WHE_Horn.description>
+  <Make_AS_WHE_Horn.jobString>付け角（ハーフエルフ）作成中</Make_AS_WHE_Horn.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_CuteRibon.label>make 可愛いリボン（ハーフエルフ）</Make_AS_WHE_CuteRibon.label>
-  <Make_AS_WHE_CuteRibon.description>Make 可愛いリボン（ハーフエルフ）作成する。</Make_AS_WHE_CuteRibon.description>
-  <Make_AS_WHE_CuteRibon.jobString>Making 可愛いリボン（ハーフエルフ）作成中</Make_AS_WHE_CuteRibon.jobString>
+  <Make_AS_WHE_CuteRibon.label>可愛いリボン（ハーフエルフ）</Make_AS_WHE_CuteRibon.label>
+  <Make_AS_WHE_CuteRibon.description>可愛いリボン（ハーフエルフ）作成する。</Make_AS_WHE_CuteRibon.description>
+  <Make_AS_WHE_CuteRibon.jobString>可愛いリボン（ハーフエルフ）作成中</Make_AS_WHE_CuteRibon.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, FabricationBench -->
 
-  <Make_AS_WHE_PressureResistantHelmet.label>make ハーフエルフ式耐圧ヘルメット</Make_AS_WHE_PressureResistantHelmet.label>
-  <Make_AS_WHE_PressureResistantHelmet.description>Make ハーフエルフ式耐圧ヘルメット作成する。</Make_AS_WHE_PressureResistantHelmet.description>
-  <Make_AS_WHE_PressureResistantHelmet.jobString>Making ハーフエルフ式耐圧ヘルメット作成中</Make_AS_WHE_PressureResistantHelmet.jobString>
+  <Make_AS_WHE_PressureResistantHelmet.label>ハーフエルフ式耐圧ヘルメット</Make_AS_WHE_PressureResistantHelmet.label>
+  <Make_AS_WHE_PressureResistantHelmet.description>ハーフエルフ式耐圧ヘルメット作成する。</Make_AS_WHE_PressureResistantHelmet.description>
+  <Make_AS_WHE_PressureResistantHelmet.jobString>ハーフエルフ式耐圧ヘルメット作成中</Make_AS_WHE_PressureResistantHelmet.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_MaidWare.label>make メイド服（ハーフエルフ）</Make_AS_WHE_MaidWare.label>
-  <Make_AS_WHE_MaidWare.description>Make メイド服（ハーフエルフ）作成する。</Make_AS_WHE_MaidWare.description>
-  <Make_AS_WHE_MaidWare.jobString>Making メイド服（ハーフエルフ）作成中</Make_AS_WHE_MaidWare.jobString>
+  <Make_AS_WHE_MaidWare.label>メイド服（ハーフエルフ）</Make_AS_WHE_MaidWare.label>
+  <Make_AS_WHE_MaidWare.description>メイド服（ハーフエルフ）作成する。</Make_AS_WHE_MaidWare.description>
+  <Make_AS_WHE_MaidWare.jobString>メイド服（ハーフエルフ）作成中</Make_AS_WHE_MaidWare.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_Tribal.label>make 一枚布（ハーフエルフ）</Make_AS_WHE_Tribal.label>
-  <Make_AS_WHE_Tribal.description>Make 一枚布（ハーフエルフ）作成する。</Make_AS_WHE_Tribal.description>
-  <Make_AS_WHE_Tribal.jobString>Making 一枚布（ハーフエルフ）作成中</Make_AS_WHE_Tribal.jobString>
+  <Make_AS_WHE_Tribal.label>一枚布（ハーフエルフ）</Make_AS_WHE_Tribal.label>
+  <Make_AS_WHE_Tribal.description>一枚布（ハーフエルフ）作成する。</Make_AS_WHE_Tribal.description>
+  <Make_AS_WHE_Tribal.jobString>一枚布（ハーフエルフ）作成中</Make_AS_WHE_Tribal.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_TShirts.label>make Tシャツ（ハーフエルフ）</Make_AS_WHE_TShirts.label>
-  <Make_AS_WHE_TShirts.description>Make Tシャツ（ハーフエルフ）作成する。</Make_AS_WHE_TShirts.description>
-  <Make_AS_WHE_TShirts.jobString>Making Tシャツ（ハーフエルフ）作成中</Make_AS_WHE_TShirts.jobString>
+  <Make_AS_WHE_TShirts.label>Tシャツ（ハーフエルフ）</Make_AS_WHE_TShirts.label>
+  <Make_AS_WHE_TShirts.description>Tシャツ（ハーフエルフ）作成する。</Make_AS_WHE_TShirts.description>
+  <Make_AS_WHE_TShirts.jobString>Tシャツ（ハーフエルフ）作成中</Make_AS_WHE_TShirts.jobString>
 
-  <Make_AS_WHE_ShortPants.label>make ショートパンツ（ハーフエルフ）</Make_AS_WHE_ShortPants.label>
-  <Make_AS_WHE_ShortPants.description>Make ショートパンツ（ハーフエルフ）作成する。</Make_AS_WHE_ShortPants.description>
-  <Make_AS_WHE_ShortPants.jobString>Making ショートパンツ（ハーフエルフ）作成中</Make_AS_WHE_ShortPants.jobString>
+  <Make_AS_WHE_ShortPants.label>ショートパンツ（ハーフエルフ）</Make_AS_WHE_ShortPants.label>
+  <Make_AS_WHE_ShortPants.description>ショートパンツ（ハーフエルフ）作成する。</Make_AS_WHE_ShortPants.description>
+  <Make_AS_WHE_ShortPants.jobString>ショートパンツ（ハーフエルフ）作成中</Make_AS_WHE_ShortPants.jobString>
 
-  <Make_AS_WHE_ShirtButton.label>make ボタンシャツ（ハーフエルフ）</Make_AS_WHE_ShirtButton.label>
-  <Make_AS_WHE_ShirtButton.description>Make ボタンシャツ（ハーフエルフ）作成する。</Make_AS_WHE_ShirtButton.description>
-  <Make_AS_WHE_ShirtButton.jobString>Making ボタンシャツ（ハーフエルフ）作成中</Make_AS_WHE_ShirtButton.jobString>
+  <Make_AS_WHE_ShirtButton.label>ボタンシャツ（ハーフエルフ）</Make_AS_WHE_ShirtButton.label>
+  <Make_AS_WHE_ShirtButton.description>ボタンシャツ（ハーフエルフ）作成する。</Make_AS_WHE_ShirtButton.description>
+  <Make_AS_WHE_ShirtButton.jobString>ボタンシャツ（ハーフエルフ）作成中</Make_AS_WHE_ShirtButton.jobString>
 
-  <Make_AS_WHE_TankTop.label>make タンクトップ（ハーフエルフ）</Make_AS_WHE_TankTop.label>
-  <Make_AS_WHE_TankTop.description>Make タンクトップ（ハーフエルフ）作成する。</Make_AS_WHE_TankTop.description>
-  <Make_AS_WHE_TankTop.jobString>Making タンクトップ（ハーフエルフ）作成中</Make_AS_WHE_TankTop.jobString>
+  <Make_AS_WHE_TankTop.label>タンクトップ（ハーフエルフ）</Make_AS_WHE_TankTop.label>
+  <Make_AS_WHE_TankTop.description>タンクトップ（ハーフエルフ）作成する。</Make_AS_WHE_TankTop.description>
+  <Make_AS_WHE_TankTop.jobString>タンクトップ（ハーフエルフ）作成中</Make_AS_WHE_TankTop.jobString>
 
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_AS_WHEAT_Penetrator.label>make ペネトレーター</Make_AS_WHEAT_Penetrator.label>
-  <Make_AS_WHEAT_Penetrator.description>Make ペネトレーター作成する。</Make_AS_WHEAT_Penetrator.description>
-  <Make_AS_WHEAT_Penetrator.jobString>Making ペネトレーター作成中</Make_AS_WHEAT_Penetrator.jobString>
+  <Make_AS_WHEAT_Penetrator.label>ペネトレーター</Make_AS_WHEAT_Penetrator.label>
+  <Make_AS_WHEAT_Penetrator.description>ペネトレーター作成する。</Make_AS_WHEAT_Penetrator.description>
+  <Make_AS_WHEAT_Penetrator.jobString>ペネトレーター作成中</Make_AS_WHEAT_Penetrator.jobString>
 
-  <Make_AS_WHEAT_Grawes.label>make グラヴェス</Make_AS_WHEAT_Grawes.label>
-  <Make_AS_WHEAT_Grawes.description>Make グラヴェス作成する。</Make_AS_WHEAT_Grawes.description>
-  <Make_AS_WHEAT_Grawes.jobString>Making グラヴェス作成中</Make_AS_WHEAT_Grawes.jobString>
+  <Make_AS_WHEAT_Grawes.label>グラヴェス</Make_AS_WHEAT_Grawes.label>
+  <Make_AS_WHEAT_Grawes.description>グラヴェス作成する。</Make_AS_WHEAT_Grawes.description>
+  <Make_AS_WHEAT_Grawes.jobString>グラヴェス作成中</Make_AS_WHEAT_Grawes.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_WAESword_Re.label>make 古代エルフの剣（レプリカ）</Make_AS_WHE_WAESword_Re.label>
-  <Make_AS_WHE_WAESword_Re.description>Make 古代エルフの剣（レプリカ）作成する。</Make_AS_WHE_WAESword_Re.description>
-  <Make_AS_WHE_WAESword_Re.jobString>Making 古代エルフの剣（レプリカ）作成中</Make_AS_WHE_WAESword_Re.jobString>
+  <Make_AS_WHE_WAESword_Re.label>古代エルフの剣（レプリカ）</Make_AS_WHE_WAESword_Re.label>
+  <Make_AS_WHE_WAESword_Re.description>古代エルフの剣（レプリカ）作成する。</Make_AS_WHE_WAESword_Re.description>
+  <Make_AS_WHE_WAESword_Re.jobString>古代エルフの剣（レプリカ）作成中</Make_AS_WHE_WAESword_Re.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot, ElectricSmithy, FueledSmithy -->
 
-  <Make_WHE_ElvenBow.label>make エルブンボウ（ハーフエルフ）</Make_WHE_ElvenBow.label>
-  <Make_WHE_ElvenBow.description>Make エルブンボウ（ハーフエルフ）作成する。</Make_WHE_ElvenBow.description>
-  <Make_WHE_ElvenBow.jobString>Making エルブンボウ（ハーフエルフ）作成中</Make_WHE_ElvenBow.jobString>
+  <Make_WHE_ElvenBow.label>エルブンボウ（ハーフエルフ）</Make_WHE_ElvenBow.label>
+  <Make_WHE_ElvenBow.description>エルブンボウ（ハーフエルフ）作成する。</Make_WHE_ElvenBow.description>
+  <Make_WHE_ElvenBow.jobString>エルブンボウ（ハーフエルフ）作成中</Make_WHE_ElvenBow.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
-  <Make_WHE_CompoundBow.label>make コンパウンドボウ（ハーフエルフ）</Make_WHE_CompoundBow.label>
-  <Make_WHE_CompoundBow.description>Make コンパウンドボウ（ハーフエルフ）作成する。</Make_WHE_CompoundBow.description>
-  <Make_WHE_CompoundBow.jobString>Making コンパウンドボウ（ハーフエルフ）作成中</Make_WHE_CompoundBow.jobString>
+  <Make_WHE_CompoundBow.label>コンパウンドボウ（ハーフエルフ）</Make_WHE_CompoundBow.label>
+  <Make_WHE_CompoundBow.description>コンパウンドボウ（ハーフエルフ）作成する。</Make_WHE_CompoundBow.description>
+  <Make_WHE_CompoundBow.jobString>コンパウンドボウ（ハーフエルフ）作成中</Make_WHE_CompoundBow.jobString>
 
-  <Make_WHE_ElvenCompoundBow.label>make エルブンコンパウンドボウ（ハーフエルフ）</Make_WHE_ElvenCompoundBow.label>
-  <Make_WHE_ElvenCompoundBow.description>Make エルブンコンパウンドボウ（ハーフエルフ）作成する。</Make_WHE_ElvenCompoundBow.description>
-  <Make_WHE_ElvenCompoundBow.jobString>Making エルブンコンパウンドボウ（ハーフエルフ）作成中</Make_WHE_ElvenCompoundBow.jobString>
+  <Make_WHE_ElvenCompoundBow.label>エルブンコンパウンドボウ（ハーフエルフ）</Make_WHE_ElvenCompoundBow.label>
+  <Make_WHE_ElvenCompoundBow.description>エルブンコンパウンドボウ（ハーフエルフ）作成する。</Make_WHE_ElvenCompoundBow.description>
+  <Make_WHE_ElvenCompoundBow.jobString>エルブンコンパウンドボウ（ハーフエルフ）作成中</Make_WHE_ElvenCompoundBow.jobString>
 
 
 </LanguageData>
