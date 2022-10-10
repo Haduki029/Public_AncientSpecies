@@ -19,8 +19,8 @@
     <statBases>
       <MaxHitPoints>140</MaxHitPoints>
       <WorkToMake>17000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.65</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.78</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierArmor>0.38</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.25</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>-0.12</StuffEffectMultiplierInsulation_Heat>
       <Mass>4</Mass>
       <Flammability>0.95</Flammability>
@@ -67,67 +67,6 @@
   </ThingDef>
 
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
-    <defName>AS_WHE_Parka</defName>
-    <description>皮や布で作られたパーカー。寒さと攻撃から身を守り、多少ですが耐暑性能もあります。</description>
-    <label>パーカー（ハーフエルフ）</label>
-    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
-    <techLevel>Industrial</techLevel>
-    <graphicData>
-      <texPath>WHE/Apparels/shell/Parka</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <followStuffColor>true</followStuffColor>
-    <costStuffCount>120</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <statBases>
-      <MaxHitPoints>160</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.59</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.65</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.24</StuffEffectMultiplierInsulation_Heat>
-      <Mass>3.2</Mass>
-      <Flammability>0.45</Flammability>
-      <EquipDelay>2</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-    </equippedStatOffsets>
-    <recipeMaker>
-      <recipeUsers Inherit="False">
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-      </recipeUsers>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
-    </recipeMaker>
-    <apparel>
-      <bodyPartGroups>
-        <li>Neck</li>
-        <li>Torso</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-      </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/shell/Parka</wornGraphicPath>
-      <layers>
-        <li>AS_Coat</li>
-      </layers>
-      <tags>
-        <li>WHE_Industrial</li>
-        <li>RoyalTier2</li>
-        <li>RoyalTier5</li>
-        <li>RoyalTier6</li>
-        <li>RoyalTier7</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>Worker</li>
-      </defaultOutfitTags>
-    </apparel>
-  </ThingDef>
-
-  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_SimplePoncho</defName>
     <description>皮や布で作られたシンプルなデザインのポンチョ。パーカーほど丈夫ではないが、寒さ対策には非常に有効。</description>
     <label>シンプルなポンチョ（ハーフエルフ）</label>
@@ -147,14 +86,11 @@
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>7000</WorkToMake>
       <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.68</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.98</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
       <Mass>3</Mass>
       <EquipDelay>2</EquipDelay>
     </statBases>
-    <equippedStatOffsets>
-      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
-    </equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Elementary</researchPrerequisite>
       <recipeUsers Inherit="False">
@@ -185,6 +121,90 @@
   </ThingDef>
 
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_Parka</defName>
+    <description>皮や布で作られたパーカー。寒さと攻撃から身を守り、多少ですが耐暑性能もあります。</description>
+    <label>パーカー（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/shell/Parka</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <followStuffColor>true</followStuffColor>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <Hyperweave>40</Hyperweave>
+      <Gold>2</Gold>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <!-- <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake> -->
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>37000</WorkToMake>
+      <!-- <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.24</StuffEffectMultiplierInsulation_Heat> -->
+      <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.22</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.24</ArmorRating_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
+      <Mass>3.2</Mass>
+      <Flammability>0.005</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.1</MoveSpeed>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AimingDelayFactor>-0.20</AimingDelayFactor>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <RangedWeapon_Cooldown>-0.05</RangedWeapon_Cooldown>
+      <SocialImpact>0.1</SocialImpact>
+      <CarryingCapacity>15</CarryingCapacity>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/shell/Parka</wornGraphicPath>
+      <layers>
+        <li>AS_Coat</li>
+      </layers>
+      <tags>
+        <li>WHE_Industrial</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WHE_ElvenPoncho</defName>
     <description>古代エルフの技術で作られたポンチョ。金による紋様が編みこまれた優雅なデザインになっている。非常に丈夫な素材で作られており、防寒、耐暑、耐熱、防御性能に優れ、使用者の射撃能力を高める加護が付与されている。また、寒さや暑さからも身を守ります。</description>
     <label>エルブンポンチョ（ハーフエルフ）</label>
@@ -194,41 +214,49 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <followStuffColor>false</followStuffColor>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
     <costList>
       <Hyperweave>40</Hyperweave>
-      <Gold>10</Gold>
+      <Gold>2</Gold>
       <Plasteel>10</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <statBases>
-      <MaxHitPoints>260</MaxHitPoints>
+      <MaxHitPoints>160</MaxHitPoints>
       <WorkToMake>37000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <!-- <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.82</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.76</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.65</ArmorRating_Heat>
-      <Insulation_Cold>32</Insulation_Cold>
-      <Insulation_Heat>30</Insulation_Heat>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.65</ArmorRating_Heat> -->
+      <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.22</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.24</ArmorRating_Heat>
+      <Insulation_Cold>22</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
       <Mass>1.5</Mass>
       <EquipDelay>2</EquipDelay>
       <Flammability>0.01</Flammability>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0.2</MoveSpeed>
+      <MeleeDodgeChance>0.2</MeleeDodgeChance>
       <AccuracyTouch>0.1</AccuracyTouch>
-      <AimingDelayFactor>-0.2</AimingDelayFactor>
+      <AimingDelayFactor>-0.15</AimingDelayFactor>
       <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
       <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
-      <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
-      <MentalBreakThreshold>-0.15</MentalBreakThreshold>
-      <SocialImpact>0.15</SocialImpact>
-      <CarryingCapacity>10</CarryingCapacity>
+      <RangedWeapon_Cooldown>-0.02</RangedWeapon_Cooldown>
+      <MeleeWeapon_CooldownMultiplier>-0.02</MeleeWeapon_CooldownMultiplier>
+      <SocialImpact>0.1</SocialImpact>
+      <CarryingCapacity>5</CarryingCapacity>
     </equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -272,26 +300,32 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <followStuffColor>false</followStuffColor>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
     <costList>
-      <Hyperweave>40</Hyperweave>
-      <Gold>10</Gold>
-      <Plasteel>10</Plasteel>
+      <Hyperweave>70</Hyperweave>
+      <Gold>2</Gold>
+      <Plasteel>40</Plasteel>
     </costList>
     <statBases>
-      <MaxHitPoints>260</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>37000</WorkToMake>
-      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.78</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.82</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.65</ArmorRating_Heat>
-      <Insulation_Cold>32</Insulation_Cold>
-      <Insulation_Heat>30</Insulation_Heat>
+      <!-- <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.62</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.68</ArmorRating_Heat> -->
+      <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.22</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.24</ArmorRating_Heat>
+      <Insulation_Cold>20</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
       <Mass>1.5</Mass>
       <EquipDelay>2</EquipDelay>
       <Flammability>0.01</Flammability>
@@ -305,10 +339,8 @@
       <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
       <MeleeWeapon_CooldownMultiplier>-0.05</MeleeWeapon_CooldownMultiplier>
       <SharpDamageMultiplier>0.05</SharpDamageMultiplier>
-      <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
-      <MentalBreakThreshold>-0.15</MentalBreakThreshold>
       <SocialImpact>0.15</SocialImpact>
-      <CarryingCapacity>10</CarryingCapacity>
+      <CarryingCapacity>5</CarryingCapacity>
     </equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
@@ -323,6 +355,7 @@
         <li>Shoulders</li>
         <li>Neck</li>
         <li>Arms</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WHE/Apparels/shell/ElvenMantle</wornGraphicPath>
       <layers>

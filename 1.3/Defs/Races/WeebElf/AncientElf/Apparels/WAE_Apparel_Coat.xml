@@ -21,31 +21,39 @@
       <Plasteel>30</Plasteel>
     </costList>
     <statBases>
-      <MaxHitPoints>380</MaxHitPoints>
-      <WorkToMake>45500</WorkToMake>
-      <StuffEffectMultiplierArmor>0.37</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.44</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.46</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.59</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.56</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.41</ArmorRating_Heat>
-      <Insulation_Cold>26</Insulation_Cold>
-      <Insulation_Heat>11</Insulation_Heat>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>39000</WorkToMake>
+      <!-- <StuffEffectMultiplierArmor>0.43</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.41</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.42</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.39</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.26</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>10</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat> -->
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
       <Mass>4</Mass>
-      <Flammability>0.05</Flammability>
+      <Flammability>-1</Flammability>
       <EquipDelay>2.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0.2</MoveSpeed>
       <AccuracyTouch>0.1</AccuracyTouch>
-      <AimingDelayFactor>-0.2</AimingDelayFactor>
+      <AimingDelayFactor>-0.15</AimingDelayFactor>
       <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
       <MeleeHitChance>0.1</MeleeHitChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
       <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
       <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
-      <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+      <MentalBreakThreshold>0.05</MentalBreakThreshold>
       <SocialImpact>0.25</SocialImpact>
       <CarryingCapacity>10</CarryingCapacity>
     </equippedStatOffsets>
