@@ -93,7 +93,7 @@
       <texPath>WAE/Weapons/melee/TwoHandWarAxe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
-      <drawOffset>(0,0,0)</drawOffset>
+      <drawOffset>(0,0.25,0)</drawOffset>
     </graphicData>
     <weaponTags Inherit="false">
       <li>AS_WAE_Melee</li>
@@ -136,7 +136,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>38</power>
+        <power>48</power>
         <cooldownTime>3.8</cooldownTime>
       </li>
     </tools>

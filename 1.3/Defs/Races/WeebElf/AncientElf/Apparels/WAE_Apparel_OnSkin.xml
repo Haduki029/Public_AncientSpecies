@@ -12,7 +12,7 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <followStuffColor>true</followStuffColor>
-    <costStuffCount>40</costStuffCount>
+    <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -21,9 +21,9 @@
       <MaxHitPoints>70</MaxHitPoints>
       <WorkToMake>1200</WorkToMake>
       <Mass>0.2</Mass>
-      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierArmor>0.08</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
       <Insulation_Cold>3</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>1</EquipDelay>

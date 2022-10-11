@@ -320,10 +320,6 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-				<defName>Brawler</defName>
-				<chance>30</chance>
-			</li>
-			<li>
 				<defName>Tough</defName>
 				<chance>40</chance>
 			</li>
@@ -377,12 +373,8 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-				<defName>Brawler</defName>
-				<chance>100</chance>
-			</li>
-			<li>
 				<defName>Tough</defName>
-				<chance>75</chance>
+				<chance>100</chance>
 			</li>
 			<li>
 				<defName>SpeedOffset</defName>
