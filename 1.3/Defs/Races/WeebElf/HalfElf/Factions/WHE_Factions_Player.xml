@@ -2,13 +2,14 @@
 <Defs>
   <FactionDef>
     <defName>AS_WHE_PlayerFaction_Neolithic</defName>
+    <!-- TODO: <defName>AS_WHE_PlayerFaction_Industrial</defName> -->
     <label>ハーフエルフのコロニー</label>
     <description>ハーフエルフたちが暮らす集落。</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>AS_WHE_Colonist</basicMemberKind>
     <pawnSingular>ハーフエルフ</pawnSingular>
     <pawnsPlural>ハーフエルフ達</pawnsPlural>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <startingResearchTags>
 			<li>ClassicStart</li>
 		</startingResearchTags>
