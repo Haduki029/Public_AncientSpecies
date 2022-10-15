@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Name rule reference -->
+  <RulePackDef>
+		<defName>AS_NameLibrary</defName>
+		<rulePack>
+			<rulesFiles>
+				<li>AS_Firstname->Names/AS_Name_First</li>
+				<li>AS_Lastname->Names/AS_Name_Last</li>
+				<li>AS_CountryNameNM->Faction/AS_NorseMythology_PlaceName</li>
+				<li>AS_FuctionNameNM->Faction/AS_NorseMythology_PlaceName</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+</Defs>
