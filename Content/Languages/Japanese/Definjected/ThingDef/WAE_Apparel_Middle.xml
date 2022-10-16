@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <AS_WAE_EliteKnightDress.label>エリート姫騎士鎧（古代エルフ）</AS_WAE_EliteKnightDress.label>
+  <AS_WAE_EliteKnightDress.description>古代エルフの新王を守護する騎士の中から、選抜されたエリートにのみ支給される鎧。特殊な力で体全体を保護する機能、着用者の動きを補助する機能はそのままに、鎧そのものの装甲を改善している。古代エルフ専用。</AS_WAE_EliteKnightDress.description>
+
   <AS_WAE_KnightDress.label>姫騎士鎧（古代エルフ）</AS_WAE_KnightDress.label>
   <AS_WAE_KnightDress.description>古代エルフの守護騎士のみに装着が許された鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</AS_WAE_KnightDress.description>
 

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WHE_MidBulletResearch.label>Ancient Technology Special Ammo Research</AS_WHE_MidBulletResearch.label>
+  <AS_WHE_MidBulletResearch.description>Research on technology used by certain ancient races to find more powerful ammunition available for firearms. </AS_WHE_MidBulletResearch.description>
+
+  <AS_WHE_ATWeaponCustomizationResearch.label>Weapon Modification Research</AS_WHE_ATWeaponCustomizationResearch.label>
+  <AS_WHE_ATWeaponCustomizationResearch.description>Technology research to modify and further enhance ancient technology. </AS_WHE_ATWeaponCustomizationResearch.description>
+
+  <AS_WHE_Apparel_Basic.label>Half Elf Simple Apparel</AS_WHE_Apparel_Basic.label>
+  <AS_WHE_Apparel_Basic.description>Technology for creating simple apparel for half-elves. </AS_WHE_Apparel_Basic.description>
+
+  <AS_WHE_Apparel_Elementary.label>Half-Elven Elementary Apparel</AS_WHE_Apparel_Elementary.label>
+  <AS_WHE_Apparel_Elementary.description>Technology for creating rudimentary apparel for half-elves. </AS_WHE_Apparel_Elementary.description>
+
+  <AS_WHE_Apparel_Intermediate.label>Half Elven Complex Apparel</AS_WHE_Apparel_Intermediate.label>
+  <AS_WHE_Apparel_Intermediate.description>Technology for creating intricate apparel for half-elves. </AS_WHE_Apparel_Intermediate.description>
+
+  <AS_WHE_Apparel_Spacer.label>Half Elven Advanced Apparel</AS_WHE_Apparel_Spacer.label>
+  <AS_WHE_Apparel_Spacer.description>Technology for creating advanced clothing, adapted from half-elf technology. </AS_WHE_Apparel_Spacer.description>
+
+  <AS_WHE_HyperShieldScarfResearch.label>HyperShieldScarfResearch</AS_WHE_HyperShieldScarfResearch.label>
+  <AS_WHE_HyperShieldScarfResearch.description>Researching techniques for modifying shield scarves using ancient techniques. </AS_WHE_HyperShieldScarfResearch.description>
+
+  <AS_WHE_NanoSuitsResearch.label>Nanosuit Research</AS_WHE_NanoSuitsResearch.label>
+  <AS_WHE_NanoSuitsResearch.description>Research and development of full-body nanosuits using ancient technology. </AS_WHE_NanoSuitsResearch.description>
+
+  <AS_WHE_Weapons.label>Half Elf Weapon Tech</AS_WHE_Weapons.label>
+  <AS_WHE_Weapons.description>Allows crafting weapons with half-elf knowledge and skills. </AS_WHE_Weapons.description>
+
+  <AS_WHE_RelicKnightsSwordReWeaponResearch.label>Elf Knightsword Analysis</AS_WHE_RelicKnightsSwordReWeaponResearch.label>
+  <AS_WHE_RelicKnightsSwordReWeaponResearch.description>Research on knight swords used by ancient elves. Once completed, you will be able to create a replica version. </AS_WHE_RelicKnightsSwordReWeaponResearch.description>
+
+  <AS_WHE_HalfElvenBowResearch.label>Elvish Bow Analysis</AS_WHE_HalfElvenBowResearch.label>
+  <AS_WHE_HalfElvenBowResearch.description>Research an ancient Elven bow. Once completed, you will be able to create a replica version. </AS_WHE_HalfElvenBowResearch.description>
+
+  <AS_WHE_CompoundBowResearch.label>Half Elven Compound Bow Research</AS_WHE_CompoundBowResearch.label>
+  <AS_WHE_CompoundBowResearch.description>Use your knowledge of ancient technology to research new mechanical bows. </AS_WHE_CompoundBowResearch.description>
+
+  <AS_WHE_ElvenCompoundBowResearch.label>ElvenCompoundBow Research</AS_WHE_ElvenCompoundBowResearch.label>
+  <AS_WHE_ElvenCompoundBowResearch.description>In addition to half-elf knowledge and knowledge of ancient technology, research a new mechanical bow that combines ancient elven technology. </AS_WHE_ElvenCompoundBowResearch.description>
+
+</LanguageData>

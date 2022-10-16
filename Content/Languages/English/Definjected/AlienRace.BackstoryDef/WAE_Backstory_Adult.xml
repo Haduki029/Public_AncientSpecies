@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<AS_WAE_Backstory_SlaveAdult.title>Elf Slave</AS_WAE_Backstory_SlaveAdult.title>
+  <AS_WAE_Backstory_SlaveAdult.title>Elf Slave</AS_WAE_Backstory_SlaveAdult.title>
   <AS_WAE_Backstory_SlaveAdult.titleShort>Elven Slave</AS_WAE_Backstory_SlaveAdult.titleShort>
   <AS_WAE_Backstory_SlaveAdult.baseDescription>[PAWN_nameDef] is [PAWN_pronoun]. </AS_WAE_Backstory_SlaveAdult.baseDescription>
 
@@ -24,5 +24,6 @@
   <AS_WAE_Backstory_PKKnightAdult.title>Elven Guardian Knight</AS_WAE_Backstory_PKKnightAdult.title>
   <AS_WAE_Backstory_PKKnightAdult.titleShort>Elven Guardian Knight</AS_WAE_Backstory_PKKnightAdult.titleShort>
   <AS_WAE_Backstory_PKKnightAdult.baseDescription>[CAPWN_nameDef] is one of the strongest knights who defends a settlement from enemies. It's [CAPWN_pronoun]. </AS_WAE_Backstory_PKKnightAdult.baseDescription>
+
 
 </LanguageData>

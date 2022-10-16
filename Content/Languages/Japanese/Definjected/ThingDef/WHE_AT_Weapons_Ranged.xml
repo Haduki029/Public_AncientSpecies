@@ -2,7 +2,7 @@
 <LanguageData>
 
   <AS_WHEAT_Penetrator.label>ペネトレーター</AS_WHEAT_Penetrator.label>
-  <AS_WHEAT_Penetrator.description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改造された、より長距離に特化したスナイパーライフル。全長、重量ともに大きくなり、取り回しが悪くなっているが、ハーフエルフの腕力なら問題ないだろう。</AS_WHEAT_Penetrator.description>
+  <AS_WHEAT_Penetrator.description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改造されたスナイパーライフル。より長距離に特化した半面、全長、重量ともに大きくなり、取り回しが悪くなっているが、ハーフエルフの腕力なら問題ないだろう。</AS_WHEAT_Penetrator.description>
   <AS_WHEAT_Penetrator.tools.0.label>stock</AS_WHEAT_Penetrator.tools.0.label>
   <AS_WHEAT_Penetrator.tools.1.label>barrel</AS_WHEAT_Penetrator.tools.1.label>
 

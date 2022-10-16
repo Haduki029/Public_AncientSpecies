@@ -1,16 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WHE_WAESword.label>古代エルフの剣</AS_WHE_WAESword.label>
-  <AS_WHE_WAESword.description>古代エルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。</AS_WHE_WAESword.description>
+  <AS_WHE_WAESword.label>古代エルフの騎士剣</AS_WHE_WAESword.label>
+  <AS_WHE_WAESword.description>古代エルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。古代エルフの伝承にある、かつて星を救った英雄が使っていたとされる剣を目指して作られたレプリカ。オリジナルには劣るとされるが、軽さ、頑丈さ、切れ味共に高く扱いやすい剣で、使用者の近接戦闘を補助してくれる。</AS_WHE_WAESword.description>
   <AS_WHE_WAESword.tools.0.label>handle</AS_WHE_WAESword.tools.0.label>
   <AS_WHE_WAESword.tools.1.label>point</AS_WHE_WAESword.tools.1.label>
   <AS_WHE_WAESword.tools.2.label>edge</AS_WHE_WAESword.tools.2.label>
 
-  <AS_WAE_TwoHandWarAxe.label>ツーハンドウォーアックス</AS_WAE_TwoHandWarAxe.label>
+  <AS_WAE_TwoHandWarAxe.label>ASツーハンドウォーアックス</AS_WAE_TwoHandWarAxe.label>
   <AS_WAE_TwoHandWarAxe.description>古代エルフの技術で製造された巨大な両手斧。刀身の一部にはウラニウムが用いられているため、非常に丈夫で、高い斬撃力と攻撃範囲を誇るが、とても重く動きが阻害される。</AS_WAE_TwoHandWarAxe.description>
   <AS_WAE_TwoHandWarAxe.tools.0.label>handle</AS_WAE_TwoHandWarAxe.tools.0.label>
   <AS_WAE_TwoHandWarAxe.tools.1.label>edge</AS_WAE_TwoHandWarAxe.tools.1.label>
+
+  <AS_WAE_ShorBlade.label>ASショートブレード</AS_WAE_ShorBlade.label>
+  <AS_WAE_ShorBlade.description>古代エルフの技術で製造された少し小ぶりのブレード。軽く、斬撃力が高い。</AS_WAE_ShorBlade.description>
+  <AS_WAE_ShorBlade.tools.0.label>handle</AS_WAE_ShorBlade.tools.0.label>
+  <AS_WAE_ShorBlade.tools.1.label>blade</AS_WAE_ShorBlade.tools.1.label>
+  <AS_WAE_ShorBlade.tools.2.label>point</AS_WAE_ShorBlade.tools.2.label>
 
 
 </LanguageData>

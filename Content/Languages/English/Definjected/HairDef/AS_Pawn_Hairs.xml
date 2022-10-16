@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_Pawn_Hair_001.label>ASウェーブロング１</AS_Pawn_Hair_001.label>
-  <AS_Pawn_Hair_002.label>ASウェーブロング２</AS_Pawn_Hair_002.label>
-  <AS_Pawn_Hair_003.label>ASロングヘア１</AS_Pawn_Hair_003.label>
-  <AS_Pawn_Hair_004.label>ASロングヘア２</AS_Pawn_Hair_004.label>
-  <AS_Pawn_Hair_005.label>ASウェーブロング３</AS_Pawn_Hair_005.label>
+<AS_Pawn_Hair_001.label>AS Wave Long 1</AS_Pawn_Hair_001.label>
+   <AS_Pawn_Hair_002.label>AS Wave Long 2</AS_Pawn_Hair_002.label>
+   <AS_Pawn_Hair_003.label>AS Long Hair 1</AS_Pawn_Hair_003.label>
+   <AS_Pawn_Hair_004.label>AS Long Hair 2</AS_Pawn_Hair_004.label>
+   <AS_Pawn_Hair_005.label>AS Wave Long 3</AS_Pawn_Hair_005.label>
 
 
 </LanguageData>

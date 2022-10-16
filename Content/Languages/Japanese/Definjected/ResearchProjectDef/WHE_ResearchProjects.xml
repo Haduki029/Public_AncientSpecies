@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_MidBulletResearch.label>古代の技術 特殊弾薬研究</AS_WHE_MidBulletResearch.label>
+  <AS_WHE_MidBulletResearch.description>ある古代種族が用いていた技術について、銃器で使用可能な、より強力な弾薬についての研究。</AS_WHE_MidBulletResearch.description>
+
+  <AS_WHE_ATWeaponCustomizationResearch.label>武器の改造技術研究</AS_WHE_ATWeaponCustomizationResearch.label>
+  <AS_WHE_ATWeaponCustomizationResearch.description>古代の技術を改造し、さらなる強化を行うための技術研究。</AS_WHE_ATWeaponCustomizationResearch.description>
+
+  <AS_WHE_Apparel_Basic.label>ハーフエルフの簡単な衣類</AS_WHE_Apparel_Basic.label>
+  <AS_WHE_Apparel_Basic.description>ハーフエルフ達の簡単な衣類を作成するための技術。</AS_WHE_Apparel_Basic.description>
+
+  <AS_WHE_Apparel_Elementary.label>ハーフエルフの初歩的な衣類</AS_WHE_Apparel_Elementary.label>
+  <AS_WHE_Apparel_Elementary.description>ハーフエルフ達の初歩的な衣類を作成するための技術。</AS_WHE_Apparel_Elementary.description>
+
+  <AS_WHE_Apparel_Intermediate.label>ハーフエルフの複雑な衣類</AS_WHE_Apparel_Intermediate.label>
+  <AS_WHE_Apparel_Intermediate.description>ハーフエルフ達の複雑な衣類を作成するための技術。</AS_WHE_Apparel_Intermediate.description>
+
+  <AS_WHE_Apparel_Spacer.label>ハーフエルフの高度な衣類</AS_WHE_Apparel_Spacer.label>
+  <AS_WHE_Apparel_Spacer.description>ハーフエルフたちの技術を応用した、高度な衣類を作成するための技術。</AS_WHE_Apparel_Spacer.description>
+
+  <AS_WHE_HyperShieldScarfResearch.label>ハイパーシールドスカーフの研究</AS_WHE_HyperShieldScarfResearch.label>
+  <AS_WHE_HyperShieldScarfResearch.description>古代の技術を使い、シールドスカーフを改造する技術の研究。</AS_WHE_HyperShieldScarfResearch.description>
+
+  <AS_WHE_NanoSuitsResearch.label>ナノスーツの研究</AS_WHE_NanoSuitsResearch.label>
+  <AS_WHE_NanoSuitsResearch.description>古代の技術を応用した、全身を覆うナノスーツの開発研究。</AS_WHE_NanoSuitsResearch.description>
+
+  <AS_WHE_Weapons.label>ハーフエルフの武具技術</AS_WHE_Weapons.label>
+  <AS_WHE_Weapons.description>ハーフエルフの知識、技術による武器が作成可能になる。</AS_WHE_Weapons.description>
+
+  <AS_WHE_RelicKnightsSwordReWeaponResearch.label>エルフの騎士剣解析</AS_WHE_RelicKnightsSwordReWeaponResearch.label>
+  <AS_WHE_RelicKnightsSwordReWeaponResearch.description>古代エルフが使用している騎士剣の研究。完了するとレプリカ版が作成できるようになる。</AS_WHE_RelicKnightsSwordReWeaponResearch.description>
+
+  <AS_WHE_HalfElvenBowResearch.label>エルフの弓解析</AS_WHE_HalfElvenBowResearch.label>
+  <AS_WHE_HalfElvenBowResearch.description>古代エルフの弓について研究する。完了するとレプリカ版が作成できるようになる。</AS_WHE_HalfElvenBowResearch.description>
+
+  <AS_WHE_CompoundBowResearch.label>ハーフエルフ式のコンパウンドボウ研究</AS_WHE_CompoundBowResearch.label>
+  <AS_WHE_CompoundBowResearch.description>古代の技術に関する知識を活かし、新たな機械式弓の研究を行う。</AS_WHE_CompoundBowResearch.description>
+
+  <AS_WHE_ElvenCompoundBowResearch.label>改良型のコンパウンドボウ研究</AS_WHE_ElvenCompoundBowResearch.label>
+  <AS_WHE_ElvenCompoundBowResearch.description>ハーフエルフの知識と古代技術の知識に加え、古代エルフの技術を組み合わせた新たな機械式弓の研究を行う。</AS_WHE_ElvenCompoundBowResearch.description>
+
+
+</LanguageData>

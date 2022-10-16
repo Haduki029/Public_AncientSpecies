@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_Apparel.label>ancient spacies apparel</AS_Apparel.label>
-  <AS_Apparel_Legs.label>ancient spacies legs apparel</AS_Apparel_Legs.label>
+<AS_Apparel.label>Ancient spacies apparel</AS_Apparel.label>
+  <AS_Apparel_Legs.label>Ancient spacies legs apparel</AS_Apparel_Legs.label>
   <AS_Apparel_Middle.label>ancient spacies middle apparel</AS_Apparel_Middle.label>
   <AS_Apparel_Neck.label>ancient spacies neck apparel</AS_Apparel_Neck.label>
-  <AS_Apparel_OnSkin.label>ancient spacies onskin apparel</AS_Apparel_OnSkin.label>
+  <AS_Apparel_OnSkin.label>Ancient spacies onskin apparel</AS_Apparel_OnSkin.label>
   <AS_Apparel_OverHead.label>ancient spacies overhead apparel</AS_Apparel_OverHead.label>
-  <AS_Apparel_Shell.label>ancient spacies shell apparel</AS_Apparel_Shell.label>
-  <AS_Apparel_UnderMiddle.label>ancient spacies under middle apparel</AS_Apparel_UnderMiddle.label>
-  <AS_Weapons.label>ancient spacies weapons</AS_Weapons.label>
-  <AS_AT_Weapons_MakeableGun.label>ancient spacies makeable gun weapons</AS_AT_Weapons_MakeableGun.label>
+  <AS_Apparel_Shell.label>Ancient spacies shell apparel</AS_Apparel_Shell.label>
+  <AS_Apparel_UnderMiddle.label>Ancient spacies under middle apparel</AS_Apparel_UnderMiddle.label>
+  <AS_Weapons.label>Ancient spacies weapons</AS_Weapons.label>
+  <AS_AT_Weapons_MakeableGun.label>Ancient spacies makeable gun weapons</AS_AT_Weapons_MakeableGun.label>
   <AS_WHE_Apparel.label>half elven apparel</AS_WHE_Apparel.label>
   <AS_WHE_Apparel_Legs.label>half elven legs apparel</AS_WHE_Apparel_Legs.label>
   <AS_WHE_Apparel_Middle.label>half elven middle apparel</AS_WHE_Apparel_Middle.label>
@@ -21,7 +21,7 @@
   <AS_WHE_Apparel_UnderMiddle.label>half elven under middle apparel</AS_WHE_Apparel_UnderMiddle.label>
   <AS_WHE_Weapons.label>half elven weapons</AS_WHE_Weapons.label>
   <AS_WHE_AT_Weapons.label>half elven's ancient technology weapons</AS_WHE_AT_Weapons.label>
-  <AS_WAE_Weapons.label>ancient elven weapons</AS_WAE_Weapons.label>
+  <AS_WAE_Weapons.label>Ancient elven weapons</AS_WAE_Weapons.label>
 
 
 </LanguageData>

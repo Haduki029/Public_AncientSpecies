@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_AT_Impact_Knuckles.label>インパクトナックル</AS_AT_Impact_Knuckles.label>
-  <AS_AT_Impact_Knuckles.description>テスト実装</AS_AT_Impact_Knuckles.description>
+  <AS_AT_Impact_Knuckles.label>Impact Knuckles</AS_AT_Impact_Knuckles.label>
+   <AS_AT_Impact_Knuckles.description>Test implementation</AS_AT_Impact_Knuckles.description>
   <AS_AT_Impact_Knuckles.tools.0.label>knuckles</AS_AT_Impact_Knuckles.tools.0.label>
   <AS_AT_Impact_Knuckles.tools.1.label>discharger</AS_AT_Impact_Knuckles.tools.1.label>
 

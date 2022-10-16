@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WHE_PlayerFaction_Neolithic.label>ハーフエルフのコロニー</AS_WHE_PlayerFaction_Neolithic.label>
-  <AS_WHE_PlayerFaction_Neolithic.description>ハーフエルフたちが暮らす集落。</AS_WHE_PlayerFaction_Neolithic.description>
-  <AS_WHE_PlayerFaction_Neolithic.pawnsPlural>ハーフエルフ達</AS_WHE_PlayerFaction_Neolithic.pawnsPlural>
+<AS_WHE_PlayerFaction_Neolithic.label>Half Elf Colony</AS_WHE_PlayerFaction_Neolithic.label>
+   <AS_WHE_PlayerFaction_Neolithic.description>A village where half-elves live. </AS_WHE_PlayerFaction_Neolithic.description>
+   <AS_WHE_PlayerFaction_Neolithic.pawnsPlural>Half Elves</AS_WHE_PlayerFaction_Neolithic.pawnsPlural>
 
 
 </LanguageData>

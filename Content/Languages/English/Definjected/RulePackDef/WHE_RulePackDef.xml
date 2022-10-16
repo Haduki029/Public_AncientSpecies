@@ -3,7 +3,8 @@
 
   <!-- キャラクター命名規則 -->
 
-  <AS_WHE_Name_Rule.rulePack.rulesStrings.0>name->[AS_Firstname] [AS_Lastname]</AS_WHE_Name_Rule.rulePack.rulesStrings.0>
+  <AS_WHE_Name_Rule.rulePack.rulesStrings.0>r_name(p=3)->[AS_Firstname] [AS_Lastname]</AS_WHE_Name_Rule.rulePack.rulesStrings.0>
+  <AS_WHE_Name_Rule.rulePack.rulesStrings.1>r_name(p=3)->[AS_Firstname] '[AS_Firstname]' [AS_Lastname]</AS_WHE_Name_Rule.rulePack.rulesStrings.1>
 
 
 </LanguageData>

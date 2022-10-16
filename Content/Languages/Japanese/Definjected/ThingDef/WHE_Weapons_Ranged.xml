@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <WHE_ElvenBow.label>エルブンボウ（ハーフエルフ）</WHE_ElvenBow.label>
-  <WHE_ElvenBow.description>古代エルフが使っていた一般的な弓の再現版です。オリジナルに性能は劣りますが、一般的な弓より強力で、連射性能があります。</WHE_ElvenBow.description>
+  <WHE_ElvenBow.label>ASハーフエルブンボウ</WHE_ElvenBow.label>
+  <WHE_ElvenBow.description>古代エルフが使っていた弓のレプリカ版です。古代エルフの弓には劣りますが、一般的な弓より強力で、連射性能があります。</WHE_ElvenBow.description>
   <WHE_ElvenBow.tools.0.label>limb</WHE_ElvenBow.tools.0.label>
 
-  <WHE_CompoundBow.label>コンパウンドボウ（ハーフエルフ）</WHE_CompoundBow.label>
-  <WHE_CompoundBow.description>ハーフエルフの技術と、滑車やてこの原理などを用いて作られた大型の半機械弓。連射性能、飛距離、命中精度、威力が高いが、接近戦での取り回しが悪い。カーボン製の矢を使用しており、高い貫通力を誇る。</WHE_CompoundBow.description>
+  <WHE_CompoundBow.label>ASコンパウンドボウ</WHE_CompoundBow.label>
+  <WHE_CompoundBow.description>ハーフエルフの技術と、滑車やてこの原理などを用いて作られた大型の半機械弓。連射性能、飛距離、命中精度、威力どれも高いが、接近戦での取り回しが悪い。カーボン製の矢を使用しており、高い貫通力を誇る。</WHE_CompoundBow.description>
   <WHE_CompoundBow.tools.0.label>limb</WHE_CompoundBow.tools.0.label>
 
-  <WHE_ElvenCompoundBow.label>エルブンコンパウンドボウ（ハーフエルフ）</WHE_ElvenCompoundBow.label>
-  <WHE_ElvenCompoundBow.description>ハーフエルフの技術と、エルフの古代技術、現代の技術を合わせて作られた大型の半機械弓。コンパウンドボウと比較し、連射性能、飛距離がさらに強化され、命中精度も向上している。</WHE_ElvenCompoundBow.description>
+  <WHE_ElvenCompoundBow.label>ASエルブンコンパウンドボウ</WHE_ElvenCompoundBow.label>
+  <WHE_ElvenCompoundBow.description>ハーフエルフの技術と、エルフの技術、古代の技術を合わせて作られた大型の半機械弓。コンパウンドボウと比較し、連射性能、飛距離がさらに強化され、命中精度も向上している。</WHE_ElvenCompoundBow.description>
   <WHE_ElvenCompoundBow.tools.0.label>limb</WHE_ElvenCompoundBow.tools.0.label>
 
+  <AS_WHE_HalfElvenArrow.label>ハーフエルフ製の矢</AS_WHE_HalfElvenArrow.label>
   <AS_WHE_CarbonArrow.label>カーボン矢</AS_WHE_CarbonArrow.label>
-  <AS_WHE_ElvenPowerArrow.label>エルフの強化矢</AS_WHE_ElvenPowerArrow.label>
+  <AS_WHE_ElvenPowerArrow.label>エルフ製の強化矢</AS_WHE_ElvenPowerArrow.label>
 
 
 </LanguageData>

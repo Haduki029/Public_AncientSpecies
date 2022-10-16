@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_UnderMiddle.label>under middle</AS_UnderMiddle.label>
+  <!-- <ApparelLayerDef>
+        <defName>AS_UnderMiddle</defName>
+        <label>under middle</label>
+        <drawOrder>50</drawOrder>
+    </ApparelLayerDef> -->
+
   <AS_OverMiddle.label>over middle</AS_OverMiddle.label>
-  <AS_Webbing.label>webbing</AS_Webbing.label>
   <AS_Coat.label>coat</AS_Coat.label>
   <AS_Backpack.label>back pack</AS_Backpack.label>
   <AS_Neck.label>neck</AS_Neck.label>

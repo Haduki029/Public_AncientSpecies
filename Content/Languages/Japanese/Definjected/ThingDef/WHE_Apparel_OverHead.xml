@@ -16,8 +16,67 @@
   <AS_WHE_Horn.label>付け角（ハーフエルフ）</AS_WHE_Horn.label>
   <AS_WHE_Horn.description>頭に取り付けられる付け角です。何も特殊な効果はありませんが、見た目がちょっぴりかっこよくなります。Cool and cute！なお着脱は簡単です。</AS_WHE_Horn.description>
 
-  <AS_WHE_CuteRibon.label>可愛いリボン（ハーフエルフ）</AS_WHE_CuteRibon.label>
-  <AS_WHE_CuteRibon.description>丈夫さと可愛さを兼ね備えた可愛いリボン。</AS_WHE_CuteRibon.description>
+
+  <!-- <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_CuteRibon</defName>
+    <description>丈夫さと可愛さを兼ね備えた可愛いリボン。</description>
+    <label>可愛いリボン（ハーフエルフ）</label>
+    <tradeTags><li>AS_WHE_Apparel</li></tradeTags>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>WHE/Apparels/overhead/CuteRibon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <followStuffColor>false</followStuffColor>
+    <costList>
+      <Cloth>40</Cloth>
+      <Gold>5</Gold>
+    </costList>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>1</Mass>
+      <Flammability>0.1</Flammability>
+      <ArmorRating_Sharp>0.21</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.28</ArmorRating_Heat>
+      <Insulation_Cold>8.8</Insulation_Cold>
+      <Insulation_Heat>8.5</Insulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+			<MoveSpeed>0.08</MoveSpeed>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+      <ConstructSuccessChance>0.12</ConstructSuccessChance>
+      <ForagedNutritionPerDay>0.06</ForagedNutritionPerDay>
+      <SocialImpact>0.12</SocialImpact>
+		</equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WHE/Apparels/overhead/CuteRibon</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>RoyalTier2</li>
+      </tags>
+    </apparel>
+  </ThingDef> -->
 
   <AS_WHE_PressureResistantHelmet.label>ハーフエルフ式耐圧ヘルメット</AS_WHE_PressureResistantHelmet.label>
   <AS_WHE_PressureResistantHelmet.description>宇宙空間でも行動できるように、高度な技術で作成されたヘルメット。マリーン装備より若干弱いが、耐熱、耐寒性能が高い。</AS_WHE_PressureResistantHelmet.description>

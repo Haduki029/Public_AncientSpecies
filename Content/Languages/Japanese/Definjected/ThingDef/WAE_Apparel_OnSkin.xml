@@ -4,5 +4,8 @@
   <AS_WAE_TighetsSuit.label>エルフタイツスーツ</AS_WAE_TighetsSuit.label>
   <AS_WAE_TighetsSuit.description>皮や布で作られた全身タイツスーツ。</AS_WAE_TighetsSuit.description>
 
+  <AS_WHE_NanoSuits.label>エルフナノスーツ</AS_WHE_NanoSuits.label>
+  <AS_WHE_NanoSuits.description>ハーフエルフにより、古代の技術を活かして作り出されたタイツスーツ。高い耐衝撃力を誇り、着用者の動きを補助する機能がある。</AS_WHE_NanoSuits.description>
+
 
 </LanguageData>

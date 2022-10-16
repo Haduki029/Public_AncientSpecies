@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WAE_Villager.label>古代エルフの村人</AS_WAE_Villager.label>
-  <AS_WAE_Villager.labelPlural>古代エルフの村人s</AS_WAE_Villager.labelPlural>
-  <AS_WAE_Villager.labelMale>male 古代エルフの村人</AS_WAE_Villager.labelMale>
-  <AS_WAE_Villager.labelMalePlural>male 古代エルフの村人s</AS_WAE_Villager.labelMalePlural>
-  <AS_WAE_Villager.labelFemale>female 古代エルフの村人</AS_WAE_Villager.labelFemale>
-  <AS_WAE_Villager.labelFemalePlural>female 古代エルフの村人s</AS_WAE_Villager.labelFemalePlural>
+<AS_WAE_Villager.label>Ancient Elven Villager</AS_WAE_Villager.label>
+  <AS_WAE_Villager.labelPlural>Ancient Elven Villagers</AS_WAE_Villager.labelPlural>
+  <AS_WAE_Villager.labelMale>male ancient elf villager</AS_WAE_Villager.labelMale>
+  <AS_WAE_Villager.labelMalePlural>male ancient elf villager</AS_WAE_Villager.labelMalePlural>
+  <AS_WAE_Villager.labelFemale>female ancient elf villager</AS_WAE_Villager.labelFemale>
+  <AS_WAE_Villager.labelFemalePlural>female ancient elf villager</AS_WAE_Villager.labelFemalePlural>
 
-  <AS_WAE_Hunter.label>エルフの狩人</AS_WAE_Hunter.label>
-  <AS_WAE_Hunter.labelPlural>エルフの狩人s</AS_WAE_Hunter.labelPlural>
-  <AS_WAE_Hunter.labelMale>male エルフの狩人</AS_WAE_Hunter.labelMale>
-  <AS_WAE_Hunter.labelMalePlural>male エルフの狩人s</AS_WAE_Hunter.labelMalePlural>
-  <AS_WAE_Hunter.labelFemale>female エルフの狩人</AS_WAE_Hunter.labelFemale>
-  <AS_WAE_Hunter.labelFemalePlural>female エルフの狩人s</AS_WAE_Hunter.labelFemalePlural>
+  <AS_WAE_Hunter.label>Elf Hunter</AS_WAE_Hunter.label>
+  <AS_WAE_Hunter.labelPlural>Elf Hunters</AS_WAE_Hunter.labelPlural>
+  <AS_WAE_Hunter.labelMale>male elf hunter</AS_WAE_Hunter.labelMale>
+  <AS_WAE_Hunter.labelMalePlural>male elf hunter</AS_WAE_Hunter.labelMalePlural>
+  <AS_WAE_Hunter.labelFemale>female elf hunter</AS_WAE_Hunter.labelFemale>
+  <AS_WAE_Hunter.labelFemalePlural>female elf hunter</AS_WAE_Hunter.labelFemalePlural>
 
-  <AS_WAE_PKHunter.label>エルフの凄腕狩人</AS_WAE_PKHunter.label>
-  <AS_WAE_PKHunter.labelPlural>エルフの凄腕狩人s</AS_WAE_PKHunter.labelPlural>
-  <AS_WAE_PKHunter.labelMale>male エルフの凄腕狩人</AS_WAE_PKHunter.labelMale>
-  <AS_WAE_PKHunter.labelMalePlural>male エルフの凄腕狩人s</AS_WAE_PKHunter.labelMalePlural>
-  <AS_WAE_PKHunter.labelFemale>female エルフの凄腕狩人</AS_WAE_PKHunter.labelFemale>
-  <AS_WAE_PKHunter.labelFemalePlural>female エルフの凄腕狩人s</AS_WAE_PKHunter.labelFemalePlural>
+  <AS_WAE_PKHunter.label>Elf Master Hunter</AS_WAE_PKHunter.label>
+  <AS_WAE_PKHunter.labelPlural>Elf Master Hunters</AS_WAE_PKHunter.labelPlural>
+  <AS_WAE_PKHunter.labelMale>male elf master hunter</AS_WAE_PKHunter.labelMale>
+  <AS_WAE_PKHunter.labelMalePlural>Male elf master hunter</AS_WAE_PKHunter.labelMalePlural>
+  <AS_WAE_PKHunter.labelFemale>female elf master hunter</AS_WAE_PKHunter.labelFemale>
+  <AS_WAE_PKHunter.labelFemalePlural>female elf master hunter</AS_WAE_PKHunter.labelFemalePlural>
 
-  <AS_WAE_Knight.label>エルフの騎士</AS_WAE_Knight.label>
-  <AS_WAE_Knight.labelPlural>エルフの騎士s</AS_WAE_Knight.labelPlural>
-  <AS_WAE_Knight.labelMale>male エルフの騎士</AS_WAE_Knight.labelMale>
-  <AS_WAE_Knight.labelMalePlural>male エルフの騎士s</AS_WAE_Knight.labelMalePlural>
-  <AS_WAE_Knight.labelFemale>female エルフの騎士</AS_WAE_Knight.labelFemale>
-  <AS_WAE_Knight.labelFemalePlural>female エルフの騎士s</AS_WAE_Knight.labelFemalePlural>
+  <AS_WAE_Knight.label>Elf Knight</AS_WAE_Knight.label>
+  <AS_WAE_Knight.labelPlural>Elf Knights</AS_WAE_Knight.labelPlural>
+  <AS_WAE_Knight.labelMale>male elf knight</AS_WAE_Knight.labelMale>
+  <AS_WAE_Knight.labelMalePlural>male elf knights</AS_WAE_Knight.labelMalePlural>
+  <AS_WAE_Knight.labelFemale>female elf knight</AS_WAE_Knight.labelFemale>
+  <AS_WAE_Knight.labelFemalePlural>female elf knights</AS_WAE_Knight.labelFemalePlural>
 
-  <AS_WAE_PKKnight.label>エルフの守護騎士</AS_WAE_PKKnight.label>
-  <AS_WAE_PKKnight.labelPlural>エルフの守護騎士s</AS_WAE_PKKnight.labelPlural>
-  <AS_WAE_PKKnight.labelMale>male エルフの守護騎士</AS_WAE_PKKnight.labelMale>
-  <AS_WAE_PKKnight.labelMalePlural>male エルフの守護騎士s</AS_WAE_PKKnight.labelMalePlural>
-  <AS_WAE_PKKnight.labelFemale>female エルフの守護騎士</AS_WAE_PKKnight.labelFemale>
-  <AS_WAE_PKKnight.labelFemalePlural>female エルフの守護騎士s</AS_WAE_PKKnight.labelFemalePlural>
+ <AS_WAE_PKKnight.label>Elven Guardian Knight</AS_WAE_PKKnight.label>
+   <AS_WAE_PKKnight.labelPlural>Elf Guardian Knights</AS_WAE_PKKnight.labelPlural>
+   <AS_WAE_PKKnight.labelMale>male elf guardian knight</AS_WAE_PKKnight.labelMale>
+   <AS_WAE_PKKnight.labelMalePlural>male elf guardian knights</AS_WAE_PKKnight.labelMalePlural>
+   <AS_WAE_PKKnight.labelFemale>female elf guardian knight</AS_WAE_PKKnight.labelFemale>
+   <AS_WAE_PKKnight.labelFemalePlural>female elf guardian knights</AS_WAE_PKKnight.labelFemalePlural>
 
 
 </LanguageData>

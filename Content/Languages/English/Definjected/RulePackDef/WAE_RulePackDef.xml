@@ -3,12 +3,12 @@
 
   <!-- キャラクター命名規則 -->
 
-  <AS_WAE_Name_Rule.rulePack.rulesStrings.0>name->[AS_Firstname] [AS_Lastname]</AS_WAE_Name_Rule.rulePack.rulesStrings.0>
+  <AS_WAE_Name_Rule.rulePack.rulesStrings.0>r_name->[AS_Firstname] [AS_Lastname]</AS_WAE_Name_Rule.rulePack.rulesStrings.0>
 
 
   <!-- 村・街命名規則 -->
 
-  <AS_WAE_KingdomName_Rule.rulePack.rulesStrings.0>name->[AS_CountryNameNM]</AS_WAE_KingdomName_Rule.rulePack.rulesStrings.0>
+  <AS_WAE_KingdomName_Rule.rulePack.rulesStrings.0>r_name->[AS_CountryNameNM]</AS_WAE_KingdomName_Rule.rulePack.rulesStrings.0>
 
 
 </LanguageData>

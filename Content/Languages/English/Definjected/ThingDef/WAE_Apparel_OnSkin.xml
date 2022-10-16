@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WAE_TighetsSuit.label>エルフタイツスーツ</AS_WAE_TighetsSuit.label>
-  <AS_WAE_TighetsSuit.description>皮や布で作られた全身タイツスーツ。</AS_WAE_TighetsSuit.description>
+<AS_WAE_TighetsSuit.label>Elf Tights Suit</AS_WAE_TighetsSuit.label>
+   <AS_WAE_TighetsSuit.description>Full body tights suit made of leather or cloth. </AS_WAE_TightsSuit.description>
 
+   <AS_WHE_NanoSuits.label>Elf Nanosuits</AS_WHE_NanoSuits.label>
+   <AS_WHE_NanoSuits.description>Tight suits made by half-elves using ancient techniques. It boasts high impact resistance and has the function of assisting the movement of the wearer. </AS_WHE_NanoSuits.description>
 
 </LanguageData>

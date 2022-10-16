@@ -1,30 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_AssaultRifle.label>ASアサルトライフル</AS_AssaultRifle.label>
-  <AS_AssaultRifle.description>ある古代技術により作られた突撃銃。グリップが取り付けられており、近～中距離での射撃の命中精度と安定性を向上させている。</AS_AssaultRifle.description>
-  <AS_AssaultRifle.tools.0.label>stock</AS_AssaultRifle.tools.0.label>
-  <AS_AssaultRifle.tools.1.label>barrel</AS_AssaultRifle.tools.1.label>
-
-  <AS_SniperRifle.label>ASスナイパーライフル</AS_SniperRifle.label>
-  <AS_SniperRifle.description>ASアサルトライフルのカスタム版。ノズルが延長され、スコープが取り付けられており、より遠距離を射撃することに特化させている。</AS_SniperRifle.description>
-  <AS_SniperRifle.tools.0.label>stock</AS_SniperRifle.tools.0.label>
-  <AS_SniperRifle.tools.1.label>barrel</AS_SniperRifle.tools.1.label>
-
-  <AS_Shotgun.label>ASショットガン</AS_Shotgun.label>
-  <AS_Shotgun.description>ある古代技術により作られたショットガン。銃身が長いが、その割に重量は軽く近接での取り回しにも優れる。命中精度も全体的に高くまとまっており、接近戦～近距離では非常に頼りになる。</AS_Shotgun.description>
-  <AS_Shotgun.tools.0.label>stock</AS_Shotgun.tools.0.label>
-  <AS_Shotgun.tools.1.label>barrel</AS_Shotgun.tools.1.label>
-
-  <AS_Handgun.label>ASハンドガン</AS_Handgun.label>
-  <AS_Handgun.description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</AS_Handgun.description>
+  <AS_Handgun.label>AS Handgun</AS_Handgun.label>
+  <AS_Handgun.description>A handgun crafted from an ancient technique. It has a long barrel, a sense of stability when shooting, and a design that is easy to handle. </AS_Handgun.description>
   <AS_Handgun.tools.0.label>stock</AS_Handgun.tools.0.label>
   <AS_Handgun.tools.1.label>barrel</AS_Handgun.tools.1.label>
 
-  <AS_Grawehr.label>グラヴェーア</AS_Grawehr.label>
-  <AS_Grawehr.description>榴弾を撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</AS_Grawehr.description>
+  <AS_AssaultRifle.label>AS Assault Rifle</AS_AssaultRifle.label>
+  <AS_AssaultRifle.description>An assault rifle crafted from an ancient technology. A grip is attached to improve the accuracy and stability of shooting at close to medium range. </AS_AssaultRifle.description>
+  <AS_AssaultRifle.tools.0.label>stock</AS_AssaultRifle.tools.0.label>
+  <AS_AssaultRifle.tools.1.label>barrel</AS_AssaultRifle.tools.1.label>
+
+  <AS_SniperRifle.label>AS Sniper Rifle</AS_SniperRifle.label>
+  <AS_SniperRifle.description>Custom version of the AS assault rifle. The nozzle is extended and a scope is attached, making it specialized for shooting at longer distances. </AS_SniperRifle.description>
+  <AS_SniperRifle.tools.0.label>stock</AS_SniperRifle.tools.0.label>
+  <AS_SniperRifle.tools.1.label>barrel</AS_SniperRifle.tools.1.label>
+
+  <AS_Shotgun.label>AS Shotgun</AS_Shotgun.label>
+  <AS_Shotgun.description>A shotgun crafted from an ancient technology. The barrel is long, but the weight is light and it is easy to handle in close quarters. Accuracy is also high overall, and it is very reliable in close combat to close range. </AS_Shotgun.description>
+  <AS_Shotgun.tools.0.label>stock</AS_Shotgun.tools.0.label>
+  <AS_Shotgun.tools.1.label>barrel</AS_Shotgun.tools.1.label>
+
+  <AS_Grawehr.label>Grawehr</AS_Grawehr.label>
+  <AS_Grawehr.description>A rifle that shoots high-explosive projectiles at high speed. Creates a small explosion at the point of impact, dealing damage to the opponent. </AS_Grawehr.description>
   <AS_Grawehr.tools.0.label>stock</AS_Grawehr.tools.0.label>
   <AS_Grawehr.tools.1.label>barrel</AS_Grawehr.tools.1.label>
+  <AS_Grawehr.stuffProps.stuffAdjective>Grawehr</AS_Grawehr.stuffProps.stuffAdjective>
 
 
 </LanguageData>

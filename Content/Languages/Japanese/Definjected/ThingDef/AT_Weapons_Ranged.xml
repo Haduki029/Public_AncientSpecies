@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <AS_Handgun.label>ASハンドガン</AS_Handgun.label>
+  <AS_Handgun.description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</AS_Handgun.description>
+  <AS_Handgun.tools.0.label>stock</AS_Handgun.tools.0.label>
+  <AS_Handgun.tools.1.label>barrel</AS_Handgun.tools.1.label>
+
   <AS_AssaultRifle.label>ASアサルトライフル</AS_AssaultRifle.label>
   <AS_AssaultRifle.description>ある古代技術により作られた突撃銃。グリップが取り付けられており、近～中距離での射撃の命中精度と安定性を向上させている。</AS_AssaultRifle.description>
   <AS_AssaultRifle.tools.0.label>stock</AS_AssaultRifle.tools.0.label>
@@ -16,15 +21,11 @@
   <AS_Shotgun.tools.0.label>stock</AS_Shotgun.tools.0.label>
   <AS_Shotgun.tools.1.label>barrel</AS_Shotgun.tools.1.label>
 
-  <AS_Handgun.label>ASハンドガン</AS_Handgun.label>
-  <AS_Handgun.description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</AS_Handgun.description>
-  <AS_Handgun.tools.0.label>stock</AS_Handgun.tools.0.label>
-  <AS_Handgun.tools.1.label>barrel</AS_Handgun.tools.1.label>
-
   <AS_Grawehr.label>グラヴェーア</AS_Grawehr.label>
-  <AS_Grawehr.description>榴弾を撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</AS_Grawehr.description>
+  <AS_Grawehr.description>榴弾を高速で撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</AS_Grawehr.description>
   <AS_Grawehr.tools.0.label>stock</AS_Grawehr.tools.0.label>
   <AS_Grawehr.tools.1.label>barrel</AS_Grawehr.tools.1.label>
+  <AS_Grawehr.stuffProps.stuffAdjective>グラヴェーア</AS_Grawehr.stuffProps.stuffAdjective>
 
 
 </LanguageData>
