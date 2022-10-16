@@ -8,6 +8,75 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AS_AT_WeaponsMakeableGun">
+		<defName>AS_Handgun</defName>
+		<label>ASハンドガン</label>
+		<description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</description>
+		<graphicData>
+			<texPath>AT/Weapons/HandGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<weaponTags Inherit="false">
+			<li>AS_AT_LowRanged</li>
+			<li>AS_AT_Ranged_LV1</li>
+		</weaponTags>
+		<soundInteract>AS_Sound_Handgun_Interact</soundInteract>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<Mass>1.02</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.76</AccuracyShort>
+			<AccuracyMedium>0.58</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0.715</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>AS_AT_BasicWeaponsTechResearch</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>11</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AS_Bullet_Hundgun</defaultProjectile>
+				<warmupTime>0.28</warmupTime>
+				<range>23.2</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>AS_Sound_Handgun</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AS_AT_WeaponsMakeableGun">
 		<defName>AS_AssaultRifle</defName>
 		<label>ASアサルトライフル</label>
 		<description>ある古代技術により作られた突撃銃。グリップが取り付けられており、近～中距離での射撃の命中精度と安定性を向上させている。</description>
@@ -35,7 +104,7 @@
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>AS_Weapons</researchPrerequisite>
+			<researchPrerequisite>AS_AT_AppliedGunsTechResearch</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -105,7 +174,7 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>AS_Weapons</researchPrerequisite>
+			<researchPrerequisite>AS_AT_AppliedGunsTechResearch</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>9</Crafting>
 			</skillRequirements>
@@ -161,10 +230,10 @@
 		<statBases>
 			<WorkToMake>42000</WorkToMake>
 			<Mass>4.2</Mass>
-			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.80</AccuracyShort>
-			<AccuracyMedium>0.65</AccuracyMedium>
-			<AccuracyLong>0.45</AccuracyLong>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.82</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
@@ -172,7 +241,7 @@
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>AS_Weapons</researchPrerequisite>
+			<researchPrerequisite>AS_AT_AppliedGunsTechResearch</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -213,78 +282,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AS_AT_WeaponsMakeableGun">
-		<defName>AS_Handgun</defName>
-		<label>ASハンドガン</label>
-		<description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</description>
-		<graphicData>
-			<texPath>AT/Weapons/HandGun</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
-		</graphicData>
-		<weaponTags Inherit="false">
-			<li>AS_AT_LowRanged</li>
-			<li>AS_AT_Ranged_LV1</li>
-		</weaponTags>
-		<soundInteract>AS_Sound_Handgun_Interact</soundInteract>
-		<statBases>
-			<WorkToMake>24000</WorkToMake>
-			<Mass>1.02</Mass>
-			<AccuracyTouch>0.86</AccuracyTouch>
-			<AccuracyShort>0.79</AccuracyShort>
-			<AccuracyMedium>0.65</AccuracyMedium>
-			<AccuracyLong>0.35</AccuracyLong>
-			<RangedWeapon_Cooldown>0.715</RangedWeapon_Cooldown>
-		</statBases>
-		<costList>
-			<Steel>60</Steel>
-			<Plasteel>5</Plasteel>
-			<ComponentIndustrial>4</ComponentIndustrial>
-		</costList>
-		<recipeMaker>
-			<researchPrerequisite>AS_Weapons</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>11</Crafting>
-			</skillRequirements>
-		</recipeMaker>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AS_Bullet_Hundgun</defaultProjectile>
-				<warmupTime>0.28</warmupTime>
-				<range>23.2</range>
-				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-				<soundCast>AS_Sound_Handgun</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>8</power>
-				<cooldownTime>1.5</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
-
-	<ThingDef ParentName="AS_AT_WeaponsMakeableGun">
 		<defName>AS_Grawehr</defName>
 		<label>グラヴェーア</label>
-		<description>榴弾を撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</description>
+		<description>榴弾を高速で撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</description>
 		<graphicData>
 			<texPath>AT/Weapons/Grawehr</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -292,7 +292,13 @@
 		<weaponTags Inherit="false">
 			<li>AS_AT_MidRanged</li>
 			<li>AS_AT_Ranged_LV2</li>
+			<!-- <li>GrenadeDestructive</li> -->
 		</weaponTags>
+		<stuffProps>
+			<categories>
+				<li>AS_AT_GrawehrGun</li>
+			</categories>
+		</stuffProps>
 		<soundInteract>AS_Sound_Rebel_Rifle_Interact</soundInteract>
 		<statBases>
 			<WorkToMake>45000</WorkToMake>
@@ -313,7 +319,7 @@
 			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>AS_Weapons</researchPrerequisite>
+			<researchPrerequisite>AS_AT_GrawehrResearch</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>

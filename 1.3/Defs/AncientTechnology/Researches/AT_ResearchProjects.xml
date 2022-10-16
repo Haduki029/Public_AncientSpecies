@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ResearchTabDef>
+		<defName>AS_ResearchTab</defName>
+		<label>Ancient Species</label>
+	</ResearchTabDef>
+
+  <ResearchProjectTagDef>
+    <defName>AS_WHAStart</defName>
+  </ResearchProjectTagDef>
+
+  <!-- <ResearchProjectDef>
+    <defName>AS_AncientTechnology</defName>
+    <label>失われた古代の技術知識</label>
+    <description>失われた古代の技術に関する基礎的な知識を得る。</description>
+    <baseCost>5500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_Weapons</defName>
+    <label>古代種族の基礎的な武具技術</label>
+    <description>ある古代種族が用いていた技術に関する基礎的なもの。いくつかの武具が作成可能になる。</description>
+    <baseCost>5500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_AncientTechnology</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef> -->
+
+  <ResearchProjectDef>
+    <defName>AS_AT_BasicResearch</defName>
+    <label>古代の技術 基礎技術研究</label>
+    <description>ある古代種族が用いていた技術について、文献などからわかる基本的な内容を研究する。</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tags>
+      <li>AS_WHAStart</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_AT_TechAdvanceResearch</defName>
+    <label>古代の技術 技術の改良研究</label>
+    <description>ある古代種族が用いていた技術について、文献などからさらに発展させるための知識や情報、または発展した技術知識そのものを収集、研究する。</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_AT_BasicResearch</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_AT_SpacerTechResearch</defName>
+    <label>古代の技術 高度な技術の研究</label>
+    <description>ある古代種族が用いていた技術について、文献などからさらに発展させるための知識や情報、または発展した技術知識そのものを収集、研究する。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_AT_TechAdvanceResearch</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_AT_BasicWeaponsTechResearch</defName>
+    <label>古代の技術 基礎的な武器研究</label>
+    <description>ある古代種族が用いていた技術について、比較的製造難度の低い近接戦闘武器や銃器、弾薬について研究する。</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BlowbackOperation</li>
+      <li>AS_AT_BasicResearch</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_AT_AppliedGunsTechResearch</defName>
+    <label>古代の技術 応用的な銃器研究</label>
+    <description>ある古代種族が用いていた技術について、基礎的な銃器の技術を応用した、より高度な銃器使用する弾薬について研究する。</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_AT_BasicWeaponsTechResearch</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_AT_GrawehrResearch</defName>
+    <label>古代の技術 グラヴェーア解析</label>
+    <description>ある古代種族が用いていた技術について、高速榴弾射出ライフルの構造、仕組みについて理解し、グラヴェーア本体と、小威力の専用弾の製造を可能とする研究。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+      <li>AS_AT_BasicWeaponsTechResearch</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+</Defs>

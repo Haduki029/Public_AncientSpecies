@@ -3,6 +3,7 @@
   <PawnKindDef ParentName="AS_WHE_CommonBase">
     <defName>AS_WHE_Colonist</defName>
     <label>Harf Elf Colonist</label>
+    <!-- TODO: <defaultFactionType>AS_WHE_PlayerFaction_Industrial</defaultFactionType> -->
     <defaultFactionType>AS_WHE_PlayerFaction_Neolithic</defaultFactionType>
     <isFighter>false</isFighter>
     <backstoryFiltersOverride>

@@ -9,9 +9,10 @@
 
   <ThingDef ParentName="WAE_BaseMeleeWeapon_Sharp_Quality">
     <defName>AS_WHE_WAESword</defName>
-    <label>古代エルフの剣</label>
+    <!-- TODO: <defName>AS_WHE_WAEKnightsSword</defName> -->
+    <label>古代エルフの騎士剣</label>
     <techLevel>Industrial</techLevel>
-    <description>古代エルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。</description>
+    <description>古代エルフの技術で製造された剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。古代エルフの伝承にある、かつて星を救った英雄が使っていたとされる剣を目指して作られたレプリカ。オリジナルには劣るとされるが、軽さ、頑丈さ、切れ味共に高く扱いやすい剣で、使用者の近接戦闘を補助してくれる。</description>
     <generateCommonality>0.05</generateCommonality>
     <graphicData>
       <texPath>WHE/Weapons/Melee/AncientElfSword_Reproduction_Drop</texPath>
@@ -27,7 +28,7 @@
       <li>AS_WAE_MidSword</li>
       <li>AS_WAE_HighMelee</li>
     </weaponTags>
-    <costStuffCount>220</costStuffCount>
+    <costStuffCount>150</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -35,7 +36,7 @@
       <ComponentIndustrial>4</ComponentIndustrial>
       <Hyperweave>5</Hyperweave>
       <Gold>6</Gold>
-      <Plasteel>40</Plasteel>
+      <Plasteel>45</Plasteel>
       <Uranium>40</Uranium>
 	  </costList>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -45,7 +46,7 @@
       <Flammability>0.01</Flammability>
     </statBases>
     <equippedStatOffsets>
-      <MeleeHitChance>0.15</MeleeHitChance>
+      <MeleeHitChance>0.1</MeleeHitChance>
       <MeleeDodgeChance>0.1</MeleeDodgeChance>
     </equippedStatOffsets>
     <equippedAngleOffset>-65</equippedAngleOffset>
@@ -76,7 +77,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>AS_WAE_Weapons</researchPrerequisite>
+      <researchPrerequisite>AS_WAE_RelicKnightsSwordWeaponResearch</researchPrerequisite>
       <skillRequirements>
         <Crafting>14</Crafting>
       </skillRequirements>
@@ -85,7 +86,7 @@
 
   <ThingDef ParentName="WAE_BaseMeleeWeapon_Sharp_Quality">
     <defName>AS_WAE_TwoHandWarAxe</defName>
-    <label>ツーハンドウォーアックス</label>
+    <label>ASツーハンドウォーアックス</label>
     <techLevel>Industrial</techLevel>
     <description>古代エルフの技術で製造された巨大な両手斧。刀身の一部にはウラニウムが用いられているため、非常に丈夫で、高い斬撃力と攻撃範囲を誇るが、とても重く動きが阻害される。</description>
     <generateCommonality>0.2</generateCommonality>
@@ -121,7 +122,7 @@
       <MeleeHitChance>0.2</MeleeHitChance>
       <MeleeDodgeChance>-0.05</MeleeDodgeChance>
     </equippedStatOffsets>
-    <equippedAngleOffset>-25</equippedAngleOffset>
+    <equippedAngleOffset>-45</equippedAngleOffset>
     <tools>
       <li>
         <label>handle</label>
@@ -136,14 +137,78 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>48</power>
+        <power>36</power>
         <cooldownTime>3.8</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>AS_WAE_Weapons</researchPrerequisite>
+      <researchPrerequisite>AS_WAE_MidMeleeWeaponResearch</researchPrerequisite>
       <skillRequirements>
-        <Crafting>10</Crafting>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="WAE_BaseMeleeWeapon_Sharp_Quality">
+    <defName>AS_WAE_ShorBlade</defName>
+    <label>ASショートブレード</label>
+    <techLevel>Industrial</techLevel>
+    <description>古代エルフの技術で製造された少し小ぶりのブレード。軽く、斬撃力が高い。</description>
+    <generateCommonality>0.2</generateCommonality>
+    <graphicData>
+      <texPath>WAE/Weapons/melee/ShorBlade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>-65</onGroundRandomRotateAngle>
+      <drawSize>0.7</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <weaponTags Inherit="false">
+      <li>AS_WAE_Melee</li>
+      <li>AS_WAE_LowMelee</li>
+      <li>AS_WAE_LowWarrior</li>
+      <li>AS_WAE_Sword</li>
+      <li>AS_WAE_LowSword</li>
+    </weaponTags>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>2600</WorkToMake>
+      <Mass>1.2</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>AS_WAE_LowMeleeWeaponResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
   </ThingDef>

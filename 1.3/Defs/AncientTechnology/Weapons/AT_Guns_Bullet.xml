@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AS_Bullet_Hundgun</defName>
+		<label>as handgun bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>0.21</armorPenetrationBase>
+			<stoppingPower>0.65</stoppingPower>
+			<speed>100</speed>
+		</projectile>
+	</ThingDef>
+
     <ThingDef ParentName="BaseBullet">
 		<defName>AS_Bullet_Assault_Rifle</defName>
 		<label>as assault rifle bullet</label>
@@ -24,7 +40,7 @@
 			<damageAmountBase>21</damageAmountBase>
 			<armorPenetrationBase>0.30</armorPenetrationBase>
 			<stoppingPower>1.8</stoppingPower>
-			<speed>140</speed>
+			<speed>120</speed>
 		</projectile>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Big</texPath>
@@ -40,7 +56,7 @@
 			<damageAmountBase>22</damageAmountBase>
 			<armorPenetrationBase>0.20</armorPenetrationBase>
 			<stoppingPower>3.2</stoppingPower>
-			<speed>100</speed>
+			<speed>70</speed>
 		</projectile>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -50,13 +66,14 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>AS_Bullet_Rebel_Rifle</defName>
-		<label>grawehr HE bullet</label>
+		<!-- <defName>AS_Bullet_Grawehr_Rifle</defName> -->
+		<label>grawehr rifle bullet</label>
 		<projectile>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>26</damageAmountBase>
+			<damageAmountBase>18</damageAmountBase>
 			<explosionRadius>0.1</explosionRadius>
-			<stoppingPower>2.0</stoppingPower>
-			<speed>120</speed>
+			<stoppingPower>1.2</stoppingPower>
+			<speed>65</speed>
 		</projectile>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Big</texPath>
@@ -64,21 +81,5 @@
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
-	</ThingDef>
-
-	<ThingDef ParentName="BaseBullet">
-		<defName>AS_Bullet_Hundgun</defName>
-		<label>as handgun bullet</label>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>12</damageAmountBase>
-			<armorPenetrationBase>0.21</armorPenetrationBase>
-			<stoppingPower>0.65</stoppingPower>
-			<speed>100</speed>
-		</projectile>
 	</ThingDef>
 </Defs>

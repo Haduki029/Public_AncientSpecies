@@ -4,37 +4,27 @@
 <!-- キャラクター命名規則 -->
   <RulePackDef>
     <defName>AS_WAE_Name_Rule</defName>
+    <include>
+			<li>AS_NameLibrary</li>
+		</include>
     <rulePack>
       <rulesStrings>
-        <li>name->[AS_Firstname] [AS_Lastname]</li>
+        <li>r_name->[AS_Firstname] [AS_Lastname]</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>AS_Firstname</keyword>
-          <path>NameLibrary/AS_Name_First</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AS_Lastname</keyword>
-          <path>NameLibrary/AS_Name_Last</path>
-        </li>
-      </rulesRaw>
     </rulePack>
   </RulePackDef>
 
 <!-- 村・街命名規則 -->
   <RulePackDef>
     <defName>AS_WAE_KingdomName_Rule</defName>
+    <include>
+			<li>AS_NameLibrary</li>
+		</include>
     <rulePack>
       <rulesStrings>
         <!-- <li>name->エルフ神聖王国</li> -->
-        <li>name->[AS_WAE_Name]</li>
+        <li>r_name->[AS_CountryNameNM]</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>AS_WAE_Name</keyword>
-          <path>NameLibrary/AS_WAE_KingdomName</path>
-        </li>
-      </rulesRaw>
     </rulePack>
   </RulePackDef>
 </Defs>

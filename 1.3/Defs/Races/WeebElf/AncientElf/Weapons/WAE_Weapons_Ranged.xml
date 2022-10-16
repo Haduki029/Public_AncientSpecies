@@ -31,11 +31,14 @@
 
     <ThingDef ParentName="WAE_BaseWeaponNeolithic">
         <defName>WAE_ElvenBow_Origin</defName>
-        <label>エルブンボウ</label>
-        <description>古代エルフが使っている一般的な弓です。一般的な弓より強力で、連射性能が高く、飛距離もあります。</description>
+        <label>ASエルブンボウ</label>
+        <description>古代エルフが使っている複合弓です。古代エルフの特殊な技術で作られており、小型で軽量なことによる近距離での取り回しの良さだけでなく、中、遠距離でも安定した命中精度と、非常に高い命中力を誇る。</description>
         <graphicData>
-            <texPath>WHE/Weapons/bow/ElvenBow</texPath>
+            <texPath>WAE/Weapons/bow/ElvenBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+            <drawSize>1.3</drawSize>
+			<drawOffset>0,-0.3,0</drawOffset>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
         <weaponTags>
@@ -51,12 +54,12 @@
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
         <statBases>
             <WorkToMake>19000</WorkToMake>
-            <Mass>3.0</Mass>
-            <AccuracyTouch>0.75</AccuracyTouch>
+            <Mass>1.2</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.90</AccuracyShort>
-            <AccuracyMedium>0.85</AccuracyMedium>
-            <AccuracyLong>0.70</AccuracyLong>
-            <RangedWeapon_Cooldown>0.76</RangedWeapon_Cooldown>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.80</AccuracyLong>
+            <RangedWeapon_Cooldown>0.86</RangedWeapon_Cooldown>
         </statBases>
         <verbs>
             <li>
@@ -64,7 +67,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>AS_WAE_ElvenArrow</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
-                <range>30.5</range>
+                <range>34.5</range>
                 <soundCast>Bow_Large</soundCast>
             </li>
         </verbs>
@@ -86,7 +89,7 @@
                 <li>ElectricSmithy</li>
                 <li>FueledSmithy</li>
             </recipeUsers>
-            <researchPrerequisite>AS_WAE_Weapons</researchPrerequisite>
+            <researchPrerequisite>AS_WAE_ElvenBowResearch</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>

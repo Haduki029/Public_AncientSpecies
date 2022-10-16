@@ -323,7 +323,7 @@
     <CarryingCapacity>100</CarryingCapacity><!-- 積載限界値 -->
     <MeatAmount>60</MeatAmount><!--採れる肉の量 -->
     <LeatherAmount>30</LeatherAmount><!--採れる皮の量 -->
-    <PainShockThreshold>1.1</PainShockThreshold><!-- 痛み耐性 -->
+    <PainShockThreshold>1.2</PainShockThreshold><!-- 痛み耐性 -->
     
     <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
     <AimingDelayFactor>1.0</AimingDelayFactor> 

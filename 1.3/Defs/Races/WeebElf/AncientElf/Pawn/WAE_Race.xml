@@ -81,6 +81,9 @@
             <li>F_WHE_6</li>
             <li>F_WHE_7</li>
             <li>F_WHE_8</li>
+            <li>F_WHE_9</li>
+            <li>F_WHE_10</li>
+            <li>F_WHE_11</li>
           </aliencrowntypes>
           <alienbodytypes>
             <li>Female</li>
@@ -141,7 +144,6 @@
         <li>AS_WHE_Neeso</li>
         <li>AS_WHE_StripeNeeso</li>
         <li>AS_WHE_GarterBelt</li>
-
         <li>AS_WHE_Parka</li>
         <li>AS_WHE_ElvenPoncho</li>
         <li>AS_WHE_Scarf</li>
@@ -170,6 +172,9 @@
         <li>AS_WAE_HKNationalCostume</li>
         <li>AS_WAE_TighetsSuit</li>
         <li>AS_WAE_HKArcherArmor</li>
+        <li>AS_WHE_ATShieldScarf</li>
+        <li>AS_WHE_NanoSuits</li>
+        <li>AS_WAE_EliteKnightDress</li>
       </apparelList>
 			<whiteApparelList>
 				<li>Apparel_SmokepopBelt</li>
@@ -180,7 +185,7 @@
 	</alienRace>
 
   <statBases>
-    <MarketValue>2000</MarketValue>
+    <MarketValue>2500</MarketValue>
     <MoveSpeed>4.9</MoveSpeed>
 	  <MentalBreakThreshold>0.02</MentalBreakThreshold>
     <ComfyTemperatureMax>34</ComfyTemperatureMax>

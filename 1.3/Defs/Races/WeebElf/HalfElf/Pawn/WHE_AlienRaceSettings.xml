@@ -38,6 +38,7 @@
                 </li>
             </pawnKindEntries>
             <factionDefs>
+                <!-- TODO: <li>AS_WHE_PlayerFaction_Industrial</li> -->
                 <li>AS_WHE_PlayerFaction_Neolithic</li>
             </factionDefs>
         </li>
@@ -54,6 +55,7 @@
                 </li>
             </pawnKindEntries>
             <factionDefs>
+                <!-- TODO: <li>AS_WHE_PlayerFaction_Industrial</li> -->
                 <li>AS_WHE_PlayerFaction_Neolithic</li>
             </factionDefs>
         </li>

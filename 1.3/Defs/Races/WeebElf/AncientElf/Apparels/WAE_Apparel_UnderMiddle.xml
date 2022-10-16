@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_HKNationalCostume</defName>
-    <description>エルフ神聖王国で一般的に出回っている、軽く動きやすい服。</description>
+    <description>古代エルフの間で良く見える衣装。エルフ神聖王国ではこの服装が一般的になっている。軽く動きやすい服。</description>
     <label>エルフの民族衣装</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
@@ -16,23 +16,23 @@
       <li>Fabric</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>70</MaxHitPoints>
+      <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>3500</WorkToMake>
       <Mass>2.5</Mass>
-      <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.14</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
       <Insulation_Cold>2</Insulation_Cold>
       <Insulation_Heat>4</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
-      <Flammability>0.4</Flammability>
+      <Flammability>0.9</Flammability>
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <researchPrerequisite>AS_WHE_Apparel_Intermediate</researchPrerequisite>
+      <researchPrerequisite>AS_WAE_BasicApparelsResearch</researchPrerequisite>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>

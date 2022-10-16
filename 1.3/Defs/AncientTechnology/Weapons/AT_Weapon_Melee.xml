@@ -54,7 +54,7 @@
       </li>
     </tools>
 	  <recipeMaker>
-      <researchPrerequisite>AS_Weapons</researchPrerequisite>
+      <researchPrerequisite>AS_AT_TechAdvanceResearch</researchPrerequisite><!-- TODO: 研究変える-->
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>

@@ -64,4 +64,82 @@
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
+
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
+    <defName>AS_WHE_NanoSuits</defName>
+    <description>ハーフエルフにより、古代の技術を活かして作り出されたタイツスーツ。高い耐衝撃力を誇り、着用者の動きを補助する機能がある。</description>
+    <label>エルフナノスーツ</label>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>WAE/Apparels/onskin/NanoSuits</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <followStuffColor>true</followStuffColor>
+    <costList>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Hyperweave>300</Hyperweave>
+    </costList>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>0.5</Mass>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>30</Insulation_Cold>
+      <Insulation_Heat>30</Insulation_Heat>
+      <Flammability>0.01</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.5</MoveSpeed>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <MeleeHitChance>0.1</MeleeHitChance>
+      <MeleeDodgeChance>0.2</MeleeDodgeChance>
+      <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
+      <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
+      <MentalBreakThreshold>0.05</MentalBreakThreshold>
+      <SocialImpact>0.15</SocialImpact>
+      <CarryingCapacity>10</CarryingCapacity>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>CraftingSpot</li>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_Apparel_Basic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Waist</li>
+		    <li>Legs</li>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>WAE/Apparels/onskin/TighetsSuit</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <!-- <tags>
+        <li>AS_WHE_Colonist</li>
+		    <li>AS_WHE_Villager</li>
+        <li>AS_WHE_Neolithic</li>
+
+        <li>AS_WAE_HK_Colonist</li>
+      </tags> -->
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
 </Defs>

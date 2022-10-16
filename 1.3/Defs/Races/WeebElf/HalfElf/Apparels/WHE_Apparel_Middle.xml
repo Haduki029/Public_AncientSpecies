@@ -20,14 +20,14 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <statBases>
-      <MaxHitPoints>220</MaxHitPoints>
+      <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>9500</WorkToMake>
-      <StuffEffectMultiplierArmor>0.36</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.38</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.22</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.12</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.08</ArmorRating_Heat>
       <Insulation_Cold>13.4</Insulation_Cold>
       <Insulation_Heat>-0.5</Insulation_Heat>
       <Mass>2.5</Mass>
@@ -81,18 +81,18 @@
       <Uranium>15</Uranium>
     </costList>
     <statBases>
-      <MaxHitPoints>360</MaxHitPoints>
+      <MaxHitPoints>220</MaxHitPoints>
       <WorkToMake>65000</WorkToMake>
       <Mass>15</Mass>
       <ArmorRating_Blunt>0.81</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.71</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.06</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.03</StuffEffectMultiplierInsulation_Heat>
       <Insulation_Cold>32</Insulation_Cold>
       <Insulation_Heat>32</Insulation_Heat>
-      <EquipDelay>11</EquipDelay>
+      <EquipDelay>8.5</EquipDelay>
       <Flammability>0.01</Flammability>
     </statBases>
     <tradeTags><li>AS_WHE_HiTechArmor</li></tradeTags>
@@ -156,10 +156,10 @@
 		<generateCommonality>0</generateCommonality>
     <statBases>
       <WorkToMake>74000</WorkToMake>
-      <MaxHitPoints>340</MaxHitPoints>
+      <MaxHitPoints>220</MaxHitPoints>
       <Mass>18</Mass>
-      <ArmorRating_Blunt>0.84</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.79</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.86</ArmorRating_Sharp>
       <ArmorRating_Heat>0.95</ArmorRating_Heat>
       <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.06</StuffEffectMultiplierInsulation_Cold>
@@ -221,13 +221,13 @@
       <li>Metallic</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>320</MaxHitPoints>
+      <MaxHitPoints>160</MaxHitPoints>
       <WorkToMake>40000</WorkToMake>
       <Mass>8.5</Mass>
       <StuffEffectMultiplierArmor>0.82</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>1.05</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>15</EquipDelay>
+      <EquipDelay>7.5</EquipDelay>
       <Flammability>0.2</Flammability>
     </statBases>
     <equippedStatOffsets>
@@ -292,19 +292,19 @@
       <Uranium>25</Uranium>
     </costList>
     <statBases>
-	    <MaxHitPoints>420</MaxHitPoints>
+	    <MaxHitPoints>220</MaxHitPoints>
       <WorkToMake>58000</WorkToMake>
-      <Mass>10</Mass>
-      <ArmorRating_Blunt>0.78</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.04</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.34</ArmorRating_Heat>
+      <Mass>8.5</Mass>
+      <ArmorRating_Sharp>0.82</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.41</ArmorRating_Heat>
       <StuffEffectMultiplierArmor>0.10</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-      <Insulation_Cold>35</Insulation_Cold>
-	    <Insulation_Heat>35</Insulation_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+	    <Insulation_Heat>25</Insulation_Heat>
       <Beauty>0.2</Beauty>
-      <EquipDelay>18</EquipDelay>
+      <EquipDelay>8.5</EquipDelay>
       <Flammability>-1</Flammability>
     </statBases>
     <equippedStatOffsets>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
   <FactionDef>
-    <defName>AS_WHE_PlayerFaction_Neolithic</defName>
     <!-- TODO: <defName>AS_WHE_PlayerFaction_Industrial</defName> -->
+    <defName>AS_WHE_PlayerFaction_Neolithic</defName>
     <label>ハーフエルフのコロニー</label>
     <description>ハーフエルフたちが暮らす集落。</description>
     <isPlayer>true</isPlayer>
@@ -12,6 +12,7 @@
     <techLevel>Industrial</techLevel>
     <startingResearchTags>
 			<li>ClassicStart</li>
+      <li>AS_WHAStart</li>
 		</startingResearchTags>
     <backstoryFilters>
 			<li>

@@ -382,6 +382,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/BabydollWhite</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
       <drawSize>1.8</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
@@ -444,6 +445,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/Blackbabydoll</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
       <drawSize>1.8</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>
@@ -506,6 +508,7 @@
     <graphicData>
       <texPath>WHE/Apparels/onskin/BabydollHighGrade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
       <drawSize>1.8</drawSize>
     </graphicData>
     <followStuffColor>false</followStuffColor>

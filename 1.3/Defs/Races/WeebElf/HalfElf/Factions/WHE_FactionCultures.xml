@@ -4,7 +4,7 @@
     <defName>AS_WHE_Cultures</defName>
     <label>ハーフエルフの文化</label>
     <description>創造主である人間達の文化を基礎に、辺境の惑星で作り上げられてきた文化。</description>
-    <pawnNameMaker>AS_WHE_Name_Rule</pawnNameMaker>
+    <!-- <pawnNameMaker>AS_WHE_Name_Rule</pawnNameMaker> -->
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityCorunan</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>

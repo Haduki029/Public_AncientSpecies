@@ -53,7 +53,7 @@
         <li>WHE_Medieval</li>
         <li>WHE_Industrial</li>
         <li>AS_WHE_Knight</li>
-        <li>AS_WHE_MiddleLevel_Apparel</li>
+        <li>AS_WHE_MidleLevel_Apparel</li>
         <li>AS_WAE_HK_LowArmor</li>
         <li>RoyalTier2</li>
         <li>RoyalTier5</li>
@@ -140,7 +140,7 @@
       <Hyperweave>40</Hyperweave>
       <Gold>2</Gold>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <!-- <MaxHitPoints>160</MaxHitPoints>
@@ -150,9 +150,9 @@
       <!-- <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>1.25</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.24</StuffEffectMultiplierInsulation_Heat> -->
-      <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat>
       <ArmorRating_Sharp>0.22</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
       <ArmorRating_Heat>0.24</ArmorRating_Heat>
@@ -164,8 +164,9 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0.1</MoveSpeed>
-      <AccuracyTouch>0.1</AccuracyTouch>
-      <AimingDelayFactor>-0.20</AimingDelayFactor>
+      <AccuracyTouch>0.05</AccuracyTouch>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
+      <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
       <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
       <RangedWeapon_Cooldown>-0.05</RangedWeapon_Cooldown>
@@ -222,7 +223,7 @@
       <Hyperweave>40</Hyperweave>
       <Gold>2</Gold>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
@@ -233,7 +234,7 @@
       <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
       <ArmorRating_Heat>0.65</ArmorRating_Heat> -->
-      <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
       <ArmorRating_Sharp>0.22</ArmorRating_Sharp>
@@ -249,7 +250,7 @@
       <MoveSpeed>0.2</MoveSpeed>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
       <AccuracyTouch>0.1</AccuracyTouch>
-      <AimingDelayFactor>-0.15</AimingDelayFactor>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
       <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
       <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
@@ -308,6 +309,7 @@
       <Hyperweave>70</Hyperweave>
       <Gold>2</Gold>
       <Plasteel>40</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>

@@ -2,19 +2,20 @@
 <Defs>
   <ScenarioDef>
     <defName>AS_WHE_Scenario</defName>
-    <label>[ハーフエルフ]逃亡の果てに</label>
-	<description>彼らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。開始時点は3人で、逃亡途中に散り散りになった者たちが7人います。</description>
+    <label>[ハーフエルフ]逃亡の果ての地で</label>
+	<description>彼女らは宙族の人狩りに合い、逃げ出したハーフエルフ達です。この辺境の惑星にあるハーフエルフのコロニーから独立しひっそりと暮らしていましたが、ある日宙族の襲撃を受けました。何日にも渡る逃亡の間に仲間と散り散りとなりながらも、なんとか安全な地まで逃げることが出来ました。しかし、宙族やメカノイドの脅威がなくなったわけではありません。彼女達はこの新たな地に拠点を作り、襲撃に備えつつバラバラになった仲間を探すことにしました。</description>
     <scenario>
-      <summary>これはハーフエルフのテスト導入版シナリオです。（テスト版ですが、そのまま遊ぶことは可能です。）</summary>
+      <summary>これはハーフエルフの導入シナリオです。開始時点は3人で、散り散りになった仲間が3人います。</summary>
       <playerFaction>
         <def>PlayerFaction</def>
-        <factionDef>AS_WHE_PlayerFaction_Neolithic</factionDef>
+        <!-- TODO: <factionDef>AS_WHE_PlayerFaction_Industrial</factionDef> -->
+		<factionDef>AS_WHE_PlayerFaction_Neolithic</factionDef>
       </playerFaction>
 		<parts>
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 				<def>ConfigPage_ConfigureStartingPawns</def>
 				<pawnCount>3</pawnCount>
-				<pawnChoiceCount>10</pawnChoiceCount>
+          		<pawnChoiceCount>6</pawnChoiceCount>
 			</li>
 			<li Class="ScenPart_PlayerPawnsArriveMethod">
 				<def>PlayerPawnsArriveMethod</def>
@@ -22,19 +23,19 @@
 			</li>
 			<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>"あなた達は、宙族の人狩りにより、逃亡生活を強いられました。長い逃亡の果てに、たどり着いたこの地で、新たな集落を作ることに決めました。"</text>
+				<text>"辺境の惑星で静かに暮らしていたあなた達は、ある日宙族の人狩りに襲撃されました。何日も逃げ続ける間に、6人だったメンバーは散り散りとなり、3人になってしまいましたが無事逃げ切ることに成功しました。しかし、いつまた宙族や恐ろしいメカノイドに襲われるかわかりません。彼女たちは長い逃亡の果てにたどり着いたこの地で、新たな集落を作ることに決めました。"</text>
 				<textKey>GameStartDialog</textKey>
 				<closeSound>GameStartSting</closeSound>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Silver</thingDef>
-				<count>200</count>
+				<count>500</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Pemmican</thingDef>
-				<count>400</count>
+				<count>500</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -48,18 +49,20 @@
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>MeleeWeapon_Club</thingDef>
-				<stuff>WoodLog</stuff>
+				<thingDef>AS_WHE_TankTop</thingDef>
+				<stuff>Cloth</stuff>
+				<count>1</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>MeleeWeapon_Knife</thingDef>
+				<thingDef>AS_WHE_BulletProofVest</thingDef>
 				<stuff>Steel</stuff>
+				<count>1</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Bow_Short</thingDef>
-				<count>2</count>
+				<thingDef>Bow_Great</thingDef>
+				<count>1</count>
 			</li>
 			<li Class="ScenPart_StartingAnimal">
 				<def>StartingAnimal</def>
@@ -79,7 +82,7 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MedicineIndustrial</thingDef>
-				<count>10</count>
+				<count>15</count>
 			</li>
 		</parts>
     </scenario>

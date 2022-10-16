@@ -20,6 +20,45 @@
                         <li>Apparel_PackBroadshield</li>
                     </value>
                 </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName = "AS_AT_BasicResearch"]</xpath>
+                    <value>
+                        <techprintCount>1</techprintCount>
+                        <techprintCommonality>3</techprintCommonality>
+                        <techprintMarketValue>250</techprintMarketValue>
+                        <heldByFactionCategoryTags>
+                            <!-- TODO: <li>AS_WHE_PlayerFaction_Industrial</li> -->
+                            <li>AS_WHE_PlayerFaction_Neolithic</li>
+                            <li>AS_WHE_Village</li>
+                            <li>AS_WHE_Town</li>
+                            <li>AS_WHE_Settlement</li>
+                        </heldByFactionCategoryTags>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName = "AS_AT_TechAdvanceResearch"]</xpath>
+                    <value>
+                        <techprintCount>1</techprintCount>
+                        <techprintCommonality>1</techprintCommonality>
+                        <techprintMarketValue>2500</techprintMarketValue>
+                        <heldByFactionCategoryTags>
+                            <li>AS_WHE_Town</li>
+                            <li>AS_WHE_Settlement</li>
+                        </heldByFactionCategoryTags>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName = "AS_AT_SpacerTechResearch"]</xpath>
+                    <value>
+                        <techprintCount>1</techprintCount>
+                        <techprintCommonality>0.4</techprintCommonality>
+                        <techprintMarketValue>4000</techprintMarketValue>
+                        <heldByFactionCategoryTags>
+                            <li>AS_WHE_Town</li>
+                            <li>AS_WHE_Settlement</li>
+                        </heldByFactionCategoryTags>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>

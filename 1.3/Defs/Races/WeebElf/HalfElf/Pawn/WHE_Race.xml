@@ -88,6 +88,9 @@
             <li>F_WHE_6</li>
             <li>F_WHE_7</li>
             <li>F_WHE_8</li>
+            <li>F_WHE_9</li>
+            <li>F_WHE_10</li>
+            <li>F_WHE_11</li>
           </aliencrowntypes>
           <alienbodytypes>
             <li>Female</li>
@@ -175,6 +178,9 @@
         <li>AS_WAE_HKNationalCostume</li>
         <li>AS_WAE_TighetsSuit</li>
         <li>AS_WAE_HKArcherArmor</li>
+        <li>AS_WHE_ATShieldScarf</li>
+        <li>AS_WHE_NanoSuits</li>
+        <li>AS_WAE_EliteKnightDress</li>
       </apparelList>
 			<whiteApparelList>
 				<li>Apparel_SmokepopBelt</li>

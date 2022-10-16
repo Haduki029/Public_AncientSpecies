@@ -13,7 +13,7 @@
     <settlementGenerationWeight>0.01</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
-    <earliestRaidDays>250</earliestRaidDays>
+    <earliestRaidDays>200</earliestRaidDays>
 		<canMakeRandomly>true</canMakeRandomly>
     <canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>

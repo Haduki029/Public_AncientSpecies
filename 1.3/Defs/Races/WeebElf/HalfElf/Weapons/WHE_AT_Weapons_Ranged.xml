@@ -14,7 +14,7 @@
 <ThingDef ParentName="AS_WHE_AT_WeaponsMakeableGun">
 	<defName>AS_WHEAT_Penetrator</defName>
 	<label>ペネトレーター</label>
-	<description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改造された、より長距離に特化したスナイパーライフル。全長、重量ともに大きくなり、取り回しが悪くなっているが、ハーフエルフの腕力なら問題ないだろう。</description>
+	<description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改造されたスナイパーライフル。より長距離に特化した半面、全長、重量ともに大きくなり、取り回しが悪くなっているが、ハーフエルフの腕力なら問題ないだろう。</description>
 	<weaponTags Inherit="false">
 		<li>AS_WHE_AT_Ranged_LV1</li>
 		<li>AS_WHE_AT_LowSnipe</li>
@@ -39,7 +39,7 @@
 		<ComponentIndustrial>3</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
-		<researchPrerequisite>AS_WHE_AncientTechnology</researchPrerequisite>
+		<researchPrerequisite>AS_WHE_MidBulletResearch</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>14</Crafting>
 		</skillRequirements>
@@ -103,13 +103,16 @@
 		<AccuracyLong>0.48</AccuracyLong>
 		<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 	</statBases>
+	<costStuffCount>1</costStuffCount>
+    <stuffCategories>
+      <li>AS_AT_GrawehrGun</li>
+    </stuffCategories>
 	<costList>
-        <AS_Grawehr>1</AS_Grawehr>
 		<Plasteel>60</Plasteel>
 		<ComponentSpacer>3</ComponentSpacer>
 	</costList>
 	<recipeMaker>
-		<researchPrerequisite>AS_WHE_AncientTechnology</researchPrerequisite>
+		<researchPrerequisite>AS_WHE_MidBulletResearch</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>14</Crafting>
 		</skillRequirements>

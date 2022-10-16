@@ -5,7 +5,7 @@
     <defName>AS_WDk_BasicCuluture</defName>
     <label>ドレイク基本思想</label>
     <description>Ancient Speciesのドレイク向け基本文化思想。</description>
-    <pawnNameMaker>AS_WDk_Name_Rule</pawnNameMaker>
+    <!-- <pawnNameMaker>AS_WDk_Name_Rule</pawnNameMaker> -->
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
     <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
     <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>

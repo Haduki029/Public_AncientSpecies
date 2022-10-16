@@ -32,21 +32,20 @@
       <Insulation_Cold>10</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat> -->
       <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.37</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.27</StuffEffectMultiplierInsulation_Heat>
-      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.37</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.21</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
       <Insulation_Cold>25</Insulation_Cold>
       <Insulation_Heat>20</Insulation_Heat>
       <Mass>4</Mass>
       <Flammability>-1</Flammability>
-      <EquipDelay>2.5</EquipDelay>
+      <EquipDelay>3.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0.2</MoveSpeed>
       <AccuracyTouch>0.1</AccuracyTouch>
-      <AimingDelayFactor>-0.15</AimingDelayFactor>
       <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
       <MeleeHitChance>0.1</MeleeHitChance>
@@ -62,7 +61,7 @@
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <researchPrerequisite>AS_WAE_Apparels</researchPrerequisite>
+      <researchPrerequisite>AS_WAE_NobleEquipmentResearch</researchPrerequisite>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
@@ -70,10 +69,12 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>WAE/Apparels/coat/NobleCoat</wornGraphicPath>
       <layers>
         <li>AS_Coat</li>
+        <li>AS_Neck</li>
       </layers>
       <tags>
         <li>AS_Apparel</li>

@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 <!-- キャラクター命名規則 -->
   <RulePackDef>
     <defName>AS_WDk_Name_Rule</defName>
+    <include>
+			<li>AS_NameLibrary</li>
+		</include>
     <rulePack>
       <rulesStrings>
-        <li>name->[AS_Firstname] [AS_Lastname]</li>
+        <li>r_name->[AS_Firstname] [AS_Lastname]</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>AS_Firstname</keyword>
-          <path>NameLibrary/AS_Name_First</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AS_Lastname</keyword>
-          <path>NameLibrary/AS_Name_Last</path>
-        </li>
-      </rulesRaw>
     </rulePack>
   </RulePackDef>
 
