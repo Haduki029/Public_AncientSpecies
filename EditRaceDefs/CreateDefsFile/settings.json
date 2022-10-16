@@ -1,6 +1,0 @@
-{
-    "code-runner.executorMap": {
-        "javascript": "clear; node",
-        "typescript": "clear; ts-node"
-      }
-}

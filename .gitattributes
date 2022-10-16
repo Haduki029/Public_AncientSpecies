@@ -72,3 +72,5 @@
 *.sln merge=ours
 *.resx merge=ours
 .gitmodules merge=ours
+/EditRaceDefs merge=ours
+/DevelopmentTools merge=ours
