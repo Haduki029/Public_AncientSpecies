@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
    <name>Ancient Species development</name>
-   <author>Haduki, Heli</author>
+   <author>
+      <li>Haduki</li>
+      <li>Heli</li>
+   </author>
    <supportedVersions>
       <li>1.1</li>
       <li>1.2</li>
@@ -9,44 +12,18 @@
    </supportedVersions>
    <packageId>Haduki.AncientSpecies.development</packageId>
    <description>
-   こちらのModは、いくつかの種族とその派閥を追加するMODです。
-   1.1バージョンのリムワールドでも動作しますが、最新の更新内容は1.2バージョン以降のみに対応しております。
+   こちらのModは、いくつかの種族とその派閥や、専用の装備と研究を追加するMODです。
+   1.1バージョンのリムワールドでも動作しますが、最新の更新内容は1.3バージョンのみに対応しております。
 
    [現在追加される種族]
    ・ハーフエルフ（Weeb Half Elf Race）
    ・エンシェントエルフ（Weeb Ancient Elf Race）
 
-   [装備]
-   ・エンシェントスペシーズに関する装備（全8種）
-      ・銃7種
-      ・格闘1種
-
-   ・ハーフエルフに関する装備（全43種）
-      ・下着11種
-      ・靴下3種
-      ・衣服13種
-      ・アーマー類4種
-      ・被り物7種
-      ・シールドベルト代替のシールドスカーフ1種
-      ・弓3種
-      ・剣1種
-
-   ・エンシェントエルフに関する装備（全4種）
-      ・衣服1種
-      ・アーマー類1種
-      ・被り物1種
-      ・剣1種
-
-   [研究]
-   ・古代技術に関する衣類の研究
-   ・ハーフエルフに関する衣類の研究
-   ・エンシェントエルフに関する衣類の研究
-
    [推奨Mod]
    ・Camera+
      ・キャラクターをドアップで堪能することが出来ます。
    ・Hats Display Selection
-     ・無くても動作はしますが、頭装備をした際に禿げます。
+     ・無くても動作はしますが、頭装備をした際に髪が表示されません。
 
    [Supported language/サポートしている言語]
    Japanese
@@ -85,7 +62,7 @@
    [0.1.0 - 20200705] : Mod release and bug fix.
    [1.0.0 - 20210531] : Add Weeb Ancient Elf.
    [1.0.1 - 20210825] : RimWorld 1.3 compatible Updated.
-   [1.0.2 - 20221006] : RimWorld 1.3 compatible fix, add new equipments, adjust any parameters and etc.
+   [1.1.0 - 20221016] : RimWorld 1.3 compatible fix, add new equipments, add new Ancient Elven faction, adjust any parameters and etc.
 
    (C) 2020, 2022, 2022 Haduki
    </description>
@@ -101,16 +78,16 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
-      <!-- <li>
-			<packageId>velc.HatsDisplaySelection</packageId>
-			<displayName>Hats Display Selection</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/1542291825</steamWorkshopUrl>
-		</li> -->
+      <li>
+			<packageId>Butterfish.HairModdingPlus</packageId>
+			<displayName>Hair Modding Plus</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2114832515</steamWorkshopUrl>
+		</li>
 	</modDependencies>
    <loadAfter>
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 		<li>erdelf.HumanoidAlienRaces</li>
-      <!-- <li>showhair.kv.rw</li> -->
+      <li>Butterfish.HairModdingPlus</li>
 	</loadAfter>
 </ModMetaData>
