@@ -74,7 +74,7 @@
       <wornGraphicPath>WAE/Apparels/coat/NobleCoat</wornGraphicPath>
       <layers>
         <li>AS_Coat</li>
-        <li>AS_Neck</li>
+        <!-- <li>AS_Neck</li> -->
       </layers>
       <tags>
         <li>AS_Apparel</li>
