@@ -74,7 +74,7 @@
           </li>
         </factionRelations>
 		    <alienPartGenerator>
-          <headOffset>(0.00, 0.00)</headOffset>
+          <headOffset>(0.00, -0.03)</headOffset>
           <customDrawSize>(0.95, 0.95)</customDrawSize>
           <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
           <customPortraitDrawSize>(1.05, 1.05)</customPortraitDrawSize>
