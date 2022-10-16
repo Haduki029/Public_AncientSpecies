@@ -24,14 +24,13 @@
                     <xpath>/Defs/ResearchProjectDef[defName = "AS_AT_BasicResearch"]</xpath>
                     <value>
                         <techprintCount>1</techprintCount>
-                        <techprintCommonality>3</techprintCommonality>
+                        <techprintCommonality>4</techprintCommonality>
                         <techprintMarketValue>250</techprintMarketValue>
                         <heldByFactionCategoryTags>
-                            <!-- TODO: <li>AS_WHE_PlayerFaction_Industrial</li> -->
-                            <li>AS_WHE_PlayerFaction_Neolithic</li>
                             <li>AS_WHE_Village</li>
                             <li>AS_WHE_Town</li>
                             <li>AS_WHE_Settlement</li>
+                            <li>Outlander</li>
                         </heldByFactionCategoryTags>
                     </value>
                 </li>
@@ -44,6 +43,7 @@
                         <heldByFactionCategoryTags>
                             <li>AS_WHE_Town</li>
                             <li>AS_WHE_Settlement</li>
+                            <li>Outlander</li>
                         </heldByFactionCategoryTags>
                     </value>
                 </li>
@@ -56,6 +56,7 @@
                         <heldByFactionCategoryTags>
                             <li>AS_WHE_Town</li>
                             <li>AS_WHE_Settlement</li>
+                            <li>Outlander</li>
                         </heldByFactionCategoryTags>
                     </value>
                 </li>

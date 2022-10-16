@@ -138,6 +138,29 @@
 			<li Class="StockGenerator_Category">
 				<categoryDef>Drugs</categoryDef>
 			</li>
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>2</count>
+						<chance>0.6</chance>
+					</li>
+					<li>
+						<count>3</count>
+						<chance>0.4</chance>
+					</li>
+				</countChances>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Artifact</tradeTag>
+				<thingDefCountRange>
+					<min>1</min>
+					<max>6</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>2</max>
+				</countRange>
+			</li>
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
 			<li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
@@ -162,7 +185,7 @@
 				<thingDef>Silver</thingDef>
 				<countRange>
 					<min>600</min>
-					<max>2000</max>
+					<max>3000</max>
 				</countRange>
 			</li>
 			<li Class="AS_WHE.StockGen_WHE_Slaves">
@@ -244,6 +267,18 @@
 			</li>
 			<li Class="StockGenerator_Slaves">
 				<countRange>2~3</countRange>
+			</li>
+			<li Class="StockGenerator_Techprints">
+				<countChances>
+					<li>
+						<count>1</count>
+						<chance>0.6</chance>
+					</li>
+					<li>
+						<count>2</count>
+						<chance>0.4</chance>
+					</li>
+				</countChances>
 			</li>
 			<li Class="StockGenerator_BuyExpensiveSimple" />
 			<li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
