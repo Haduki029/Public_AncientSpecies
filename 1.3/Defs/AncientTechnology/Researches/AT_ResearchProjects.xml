@@ -60,8 +60,8 @@
     <prerequisites>
       <li>AS_AT_BasicResearch</li>
     </prerequisites>
-    <researchViewX>0</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewX>5</researchViewX>
+    <researchViewY>0</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -70,12 +70,12 @@
     <label>古代の技術 高度な技術の研究</label>
     <description>ある古代種族が用いていた技術について、文献などからさらに発展させるための知識や情報、または発展した技術知識そのものを収集、研究する。</description>
     <baseCost>3000</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>AS_AT_TechAdvanceResearch</li>
     </prerequisites>
-    <researchViewX>0</researchViewX>
-    <researchViewY>4</researchViewY>
+    <researchViewX>6</researchViewX>
+    <researchViewY>0</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -89,8 +89,8 @@
       <li>BlowbackOperation</li>
       <li>AS_AT_BasicResearch</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -118,8 +118,8 @@
       <li>MicroelectronicsBasics</li>
       <li>AS_AT_BasicWeaponsTechResearch</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>2</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 

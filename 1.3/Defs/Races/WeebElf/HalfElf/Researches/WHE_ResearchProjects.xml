@@ -10,8 +10,8 @@
     <prerequisites>
       <li>AS_WHE_ATWeaponCustomizationResearch</li>
     </prerequisites>
-    <researchViewX>3</researchViewX>
-    <researchViewY>2</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -35,8 +35,8 @@
     <description>ハーフエルフ達の簡単な衣類を作成するための技術。</description>
     <baseCost>150</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewX>4</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -49,8 +49,8 @@
     <prerequisites>
       <li>AS_WHE_Apparel_Basic</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -63,8 +63,8 @@
     <prerequisites>
       <li>AS_WHE_Apparel_Elementary</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
-    <researchViewY>2</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -79,7 +79,7 @@
 	    <li>Machining</li>
     </prerequisites>
     <researchViewX>4</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewY>4</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -93,7 +93,7 @@
       <li>AS_WHE_Apparel_Spacer</li>
 	    <li>AS_AT_SpacerTechResearch</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
+    <researchViewX>6</researchViewX>
     <researchViewY>3</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
@@ -105,11 +105,11 @@
     <baseCost>3000</baseCost>
     <techLevel>Ultra</techLevel>
     <prerequisites>
-      <li>AS_WHE_Apparel_Intermediate</li>
+      <li>AS_WHE_Apparel_Spacer</li>
 	    <li>AS_AT_SpacerTechResearch</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewX>7</researchViewX>
+    <researchViewY>4</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -117,27 +117,13 @@
     <defName>AS_WHE_Weapons</defName>
     <label>ハーフエルフの武具技術</label>
     <description>ハーフエルフの知識、技術による武器が作成可能になる。</description>
-    <baseCost>3500</baseCost>
+    <baseCost>350</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>0</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>AS_WHE_RelicKnightsSwordReWeaponResearch</defName>
-    <label>エルフの騎士剣解析</label>
-    <description>古代エルフが使用している騎士剣の研究。完了するとレプリカ版が作成できるようになる。</description>
-    <baseCost>1500</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>LongBlades</li>
-    </prerequisites>
-    <researchViewX>7</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -149,9 +135,10 @@
     <techLevel>Neolithic</techLevel>
     <prerequisites>
       <li>Greatbow</li>
+      <li>AS_WHE_Weapons</li>
     </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>4</researchViewY>
+    <researchViewX>3</researchViewX>
+    <researchViewY>5</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
@@ -180,7 +167,22 @@
       <li>AS_WHE_CompoundBowResearch</li>
       <li>AS_WAE_ElvenBowResearch</li>
     </prerequisites>
-    <researchViewX>5</researchViewX>
+    <researchViewX>6</researchViewX>
+    <researchViewY>5</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_RelicKnightsSwordReWeaponResearch</defName>
+    <label>エルフの騎士剣解析</label>
+    <description>古代エルフが使用している騎士剣の研究。完了するとレプリカ版が作成できるようになる。</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>LongBlades</li>
+      <li>AS_WHE_Weapons</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
     <researchViewY>6</researchViewY>
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
