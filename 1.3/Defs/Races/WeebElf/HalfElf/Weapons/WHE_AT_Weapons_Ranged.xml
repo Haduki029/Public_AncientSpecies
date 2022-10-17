@@ -25,7 +25,7 @@
 	</graphicData>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
 	<statBases>
-		<WorkToMake>200000</WorkToMake>
+		<WorkToMake>20000</WorkToMake>
 		<Mass>8.5</Mass>
 		<AccuracyTouch>0.30</AccuracyTouch>
 		<AccuracyShort>0.60</AccuracyShort>
@@ -95,7 +95,7 @@
 	</graphicData>
 	<soundInteract>AS_Sound_Shotgun_Interact</soundInteract>
 	<statBases>
-		<WorkToMake>46000</WorkToMake>
+		<WorkToMake>20000</WorkToMake>
 		<Mass>6.2</Mass>
 		<AccuracyTouch>0.95</AccuracyTouch>
 		<AccuracyShort>0.84</AccuracyShort>

@@ -33,6 +33,9 @@
 
     <ThingDef Name="WHE_BaseWeaponSpacer" Abstract="True" ParentName="WHE_BaseWeapon">
         <techLevel>Spacer</techLevel>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        </recipeMaker>
     </ThingDef>
 
     <ThingDef ParentName="WHE_BaseWeaponNeolithic">
@@ -117,7 +120,7 @@
             <texPath>WHE/Weapons/bow/CompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
-            <drawSize>1.5</drawSize>
+            <drawSize>1.1</drawSize>
 			<drawOffset>0.3,0,0</drawOffset>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
@@ -160,7 +163,7 @@
         </tools>
         <generateCommonality>0</generateCommonality>
         <recipeMaker>
-            <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
+            <researchPrerequisite>AS_WHE_CompoundBowResearch</researchPrerequisite>
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>
@@ -183,7 +186,7 @@
             <texPath>WHE/Weapons/bow/ElvenCompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-            <drawSize>1.5</drawSize>
+            <drawSize>1.1</drawSize>
 			<drawOffset>0.3,0,0</drawOffset>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
@@ -225,7 +228,7 @@
         </tools>
         <generateCommonality>0</generateCommonality>
         <recipeMaker>
-            <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
+            <researchPrerequisite>AS_WHE_ElvenCompoundBowResearch</researchPrerequisite>
             <skillRequirements>
                 <Crafting>16</Crafting>
             </skillRequirements>
