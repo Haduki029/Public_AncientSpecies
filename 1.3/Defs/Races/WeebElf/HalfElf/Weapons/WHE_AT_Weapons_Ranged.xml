@@ -33,11 +33,8 @@
 		<AccuracyLong>0.92</AccuracyLong>
 		<RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
 	</statBases>
-	<costStuffCount>1</costStuffCount>
-    <stuffCategories>
-        <li>AS_AT_SniperRifle_StuffCategory</li>
-    </stuffCategories>
 	<costList>
+        <AS_SniperRifle>1</AS_SniperRifle>
 		<Plasteel>120</Plasteel>
 		<ComponentIndustrial>3</ComponentIndustrial>
 	</costList>

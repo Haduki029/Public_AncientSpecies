@@ -3,25 +3,8 @@
     <StuffCategoryDef>
         <defName>AS_AT_GrawehrGun</defName>
         <label>grawehr type</label>
-    </StuffCategoryDef>
-
-    <StuffCategoryDef>
-        <defName>AS_WHE_CompoundBow_StuffCategory</defName>
-        <label>as compound bow type</label>
-    </StuffCategoryDef>
-
-    <StuffCategoryDef>
-        <defName>AS_WAE_ElvenBow_StuffCategory</defName>
-        <label>as elven bow type</label>
-    </StuffCategoryDef>
-
-    <StuffCategoryDef>
-        <defName>AS_AT_SniperRifle_StuffCategory</defName>
-        <label>as sniper rifle type</label>
-    </StuffCategoryDef>
-
-    <StuffCategoryDef>
-        <defName>AS_AT_AssultRifle_StuffCategory</defName>
-        <label>as assult rifle type</label>
+        <!-- <destroySoundSmall>BuildingDestroyed_Metal_Small</destroySoundSmall>
+        <destroySoundMedium>BuildingDestroyed_Metal_Medium</destroySoundMedium>
+        <destroySoundLarge>BuildingDestroyed_Metal_Big</destroySoundLarge> -->
     </StuffCategoryDef>
 </Defs>

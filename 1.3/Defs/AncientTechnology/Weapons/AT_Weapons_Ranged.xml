@@ -89,11 +89,6 @@
 			<li>AS_AT_Ranged_LV1</li>
 			<li>AS_AT_LowAssault</li>
 		</weaponTags>
-		<stuffProps>
-			<categories>
-				<li>AS_AT_AssultRifle_StuffCategory</li>
-			</categories>
-		</stuffProps>
 		<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
 		<statBases>
 			<WorkToMake>37000</WorkToMake>
@@ -163,20 +158,7 @@
 			<li>AS_AT_Ranged_LV2</li>
 			<li>AS_AT_LowSnipe</li>
 		</weaponTags>
-		<stuffProps>
-			<categories>
-				<li>AS_AT_SniperRifle_StuffCategory</li>
-			</categories>
-		</stuffProps>
 		<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
-		<costStuffCount>1</costStuffCount>
-        <stuffCategories>
-            <li>AS_AT_AssultRifle_StuffCategory</li>
-        </stuffCategories>
-		<costList>
-			<Steel>45</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
-		</costList>
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
 			<Mass>5.1</Mass>
@@ -186,6 +168,11 @@
 			<AccuracyLong>0.90</AccuracyLong>
 			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<AS_AssaultRifle>1</AS_AssaultRifle>
+			<Steel>45</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
 		<recipeMaker>
 			<researchPrerequisite>AS_AT_AppliedGunsTechResearch</researchPrerequisite>
 			<skillRequirements>

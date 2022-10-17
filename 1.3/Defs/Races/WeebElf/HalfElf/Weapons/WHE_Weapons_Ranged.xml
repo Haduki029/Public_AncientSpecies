@@ -113,16 +113,11 @@
             <li>AS_WHE_IndustrialRanged</li>
             <li>AS_WHE_MidRanged</li>
         </weaponTags>
-        <stuffProps>
-			<categories>
-				<li>AS_WHE_CompoundBow_StuffCategory</li>
-			</categories>
-		</stuffProps>
         <graphicData>
             <texPath>WHE/Weapons/bow/CompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
-            <drawSize>1.1</drawSize>
+            <drawSize>1.5</drawSize>
 			<drawOffset>0.3,0,0</drawOffset>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
@@ -165,7 +160,7 @@
         </tools>
         <generateCommonality>0</generateCommonality>
         <recipeMaker>
-            <researchPrerequisite>AS_WHE_CompoundBowResearch</researchPrerequisite>
+            <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>12</Crafting>
             </skillRequirements>
@@ -188,16 +183,13 @@
             <texPath>WHE/Weapons/bow/ElvenCompoundBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-            <drawSize>1.1</drawSize>
+            <drawSize>1.5</drawSize>
 			<drawOffset>0.3,0,0</drawOffset>
         </graphicData>
         <soundInteract>Bow_Large</soundInteract>
-        <costStuffCount>1</costStuffCount>
-        <stuffCategories>
-            <li>AS_WHE_CompoundBow_StuffCategory</li>
-            <li>AS_WAE_ElvenBow_StuffCategory</li>
-        </stuffCategories>
         <costList>
+            <WHE_CompoundBow>1</WHE_CompoundBow>
+            <WAE_ElvenBow_Origin>1</WAE_ElvenBow_Origin>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
@@ -233,7 +225,7 @@
         </tools>
         <generateCommonality>0</generateCommonality>
         <recipeMaker>
-            <researchPrerequisite>AS_WHE_ElvenCompoundBowResearch</researchPrerequisite>
+            <researchPrerequisite>AS_WHE_Weapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>16</Crafting>
             </skillRequirements>

@@ -46,11 +46,6 @@
             <li>AS_WAE_NeolithicRanged</li>
             <li>AS_WAE_LowNeolithicRanged</li>
         </weaponTags>
-        <stuffProps>
-			<categories>
-				<li>AS_WAE_ElvenBow_StuffCategory</li>
-			</categories>
-		</stuffProps>
         <costList>
             <WoodLog>190</WoodLog>
             <Plasteel>10</Plasteel>
