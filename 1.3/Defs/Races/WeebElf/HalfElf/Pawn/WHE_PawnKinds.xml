@@ -29,6 +29,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Villager</defName>
     <label>Half Elf villager</label>
+    <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <weaponMoney>80~180</weaponMoney>
@@ -104,6 +105,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_EliteVillager</defName>
     <label>Half Elf eliet villager</label>
+    <combatPower>80</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -140,6 +142,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Warrior</defName>
     <label>Half Elf warrior</label>
+    <combatPower>100</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -176,6 +179,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Hunter</defName>
     <label>Half Elf hunter</label>
+    <combatPower>100</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -214,6 +218,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_TownsPeople</defName>
     <label>Half Elf townspeople</label>
+    <combatPower>60</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <weaponMoney>150~250</weaponMoney>
@@ -251,6 +256,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_EliteTownsPeople</defName>
     <label>Half Elf eliete townspeople</label>
+    <combatPower>100</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -290,6 +296,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_Fighter</defName>
     <label>Half Elf fighter</label>
+    <combatPower>120</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <weaponMoney>150~1350</weaponMoney>
@@ -328,6 +335,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Medieval">
     <defName>AS_WHE_Shooter</defName>
     <label>Half Elf shooter</label>
+    <combatPower>120</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <weaponMoney>150~1350</weaponMoney>
@@ -368,6 +376,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Citizen</defName>
     <label>Half Elf citizen</label>
+    <combatPower>100</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <weaponMoney>300~1250</weaponMoney>
@@ -410,6 +419,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_EliteCitizen</defName>
     <label>Half Elf elite citizen</label>
+    <combatPower>150</combatPower>
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -456,6 +466,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Knight</defName>
     <label>Half Elf knight</label>
+    <combatPower>150</combatPower>
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -498,6 +509,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Archer</defName>
     <label>Half Elf archer</label>
+    <combatPower>150</combatPower>
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -539,6 +551,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Industrial">
     <defName>AS_WHE_Gunner</defName>
     <label>Half Elf gunner</label>
+    <combatPower>150</combatPower>
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
@@ -579,6 +592,7 @@
   <PawnKindDef ParentName="AS_WHE_NPCBase_Neolithic">
     <defName>AS_WHE_Slave</defName>
     <label>Half Elf Slave</label>
+    <combatPower>40</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
     <weaponMoney>20~120</weaponMoney>

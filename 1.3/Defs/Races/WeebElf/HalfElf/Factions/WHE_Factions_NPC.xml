@@ -20,31 +20,41 @@
 		</caravanTraderKinds>
     <maxPawnCostPerTotalPointsCurve>
       <points>
-        <li>(0,35)</li>
-        <li>(70, 50)</li>
-        <li>(700, 100)</li>
-        <li>(1300, 150)</li>
-        <li>(100000, 10000)</li>
+        <li>(0,40)</li>
+        <li>(70, 80)</li>
+        <li>(700, 120)</li>
+        <li>(1300, 240)</li>
+        <li>(5000, 1200)</li>
+        <li>(30000, 16000)</li>
+        <li>(200000, 160000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
+    <raidLootValueFromPointsCurve>
+			<points>
+			  <li>(35,     10)</li>
+			  <li>(100,   40)</li>
+			  <li>(1000,  400)</li>
+			  <li>(2000, 900)</li>
+			  <li>(4000, 1800)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
     <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
 			<li>AS_WHE_Cultures</li>
 		</allowedCultures>
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
-        <commonality>80</commonality>
-        <maxTotalPoints>5000</maxTotalPoints>
+        <commonality>100</commonality>
+        <!-- <maxTotalPoints>5000</maxTotalPoints> -->
         <options>
-          <AS_WHE_Warrior>5</AS_WHE_Warrior>
-          <AS_WHE_Hunter>12</AS_WHE_Hunter>
-          <AS_WHE_Villager>5</AS_WHE_Villager>
+          <AS_WHE_Warrior>3</AS_WHE_Warrior>
+          <AS_WHE_Hunter>6</AS_WHE_Hunter>
+          <AS_WHE_Villager>2</AS_WHE_Villager>
           <AS_WHE_EliteVillager>2</AS_WHE_EliteVillager>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
-          <maxTotalPoints>10000</maxTotalPoints>
           <options>
             <AS_WHE_Warrior>3</AS_WHE_Warrior>
             <AS_WHE_Hunter>5</AS_WHE_Hunter>
@@ -55,7 +65,6 @@
       </li>
       <li>
         <kindDef>Settlement</kindDef>
-        <maxTotalPoints>5000</maxTotalPoints>
         <options>
           <AS_WHE_Warrior>2</AS_WHE_Warrior>
           <AS_WHE_Hunter>3</AS_WHE_Hunter>
@@ -102,31 +111,40 @@
 		</caravanTraderKinds>
     <maxPawnCostPerTotalPointsCurve>
       <points>
-        <li>(0,25)</li>
-        <li>(80, 40)</li>
-        <li>(800, 100)</li>
-        <li>(1500, 180)</li>
-        <li>(120000, 12000)</li>
+        <li>(0,40)</li>
+        <li>(70, 80)</li>
+        <li>(700, 120)</li>
+        <li>(1300, 240)</li>
+        <li>(5000, 1200)</li>
+        <li>(30000, 16000)</li>
+        <li>(200000, 160000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
+    <raidLootValueFromPointsCurve>
+			<points>
+			  <li>(35,     10)</li>
+			  <li>(100,   40)</li>
+			  <li>(1000,  400)</li>
+			  <li>(2000, 900)</li>
+			  <li>(4000, 1800)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
     <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
 			<li>AS_WHE_Cultures</li>
 		</allowedCultures>
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
-        <commonality>80</commonality>
-        <maxTotalPoints>5000</maxTotalPoints>
+        <!-- <commonality>1000</commonality> -->
         <options>
-          <AS_WHE_Fighter>5</AS_WHE_Fighter>
-          <AS_WHE_Shooter>12</AS_WHE_Shooter>
+          <AS_WHE_Fighter>3</AS_WHE_Fighter>
+          <AS_WHE_Shooter>5</AS_WHE_Shooter>
           <AS_WHE_TownsPeople>1</AS_WHE_TownsPeople>
           <AS_WHE_EliteTownsPeople>1</AS_WHE_EliteTownsPeople>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
-          <maxTotalPoints>10000</maxTotalPoints>
           <options>
             <AS_WHE_Fighter>3</AS_WHE_Fighter>
             <AS_WHE_Shooter>5</AS_WHE_Shooter>
@@ -185,13 +203,24 @@
 		</caravanTraderKinds>
     <maxPawnCostPerTotalPointsCurve>
       <points>
-        <li>(0,25)</li>
-        <li>(100, 40)</li>
-        <li>(1000, 100)</li>
-        <li>(1900, 180)</li>
-        <li>(150000, 15000)</li>
+        <li>(0,40)</li>
+        <li>(70, 80)</li>
+        <li>(700, 120)</li>
+        <li>(1300, 240)</li>
+        <li>(5000, 1200)</li>
+        <li>(30000, 16000)</li>
+        <li>(200000, 160000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
+    <raidLootValueFromPointsCurve>
+			<points>
+			  <li>(35,     10)</li>
+			  <li>(100,   40)</li>
+			  <li>(1000,  400)</li>
+			  <li>(2000, 900)</li>
+			  <li>(4000, 1800)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
     <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
 			<li>AS_WHE_Cultures</li>
 		</allowedCultures>
@@ -199,10 +228,9 @@
       <li>
         <kindDef>Combat</kindDef>
         <commonality>80</commonality>
-        <maxTotalPoints>10000</maxTotalPoints>
         <options>
-          <AS_WHE_Knight>5</AS_WHE_Knight>
-          <AS_WHE_Archer>5</AS_WHE_Archer>
+          <AS_WHE_Knight>3</AS_WHE_Knight>
+          <AS_WHE_Archer>2</AS_WHE_Archer>
           <AS_WHE_Gunner>2</AS_WHE_Gunner>
           <AS_WHE_EliteCitizen>1</AS_WHE_EliteCitizen>
           <AS_WHE_Citizen>3</AS_WHE_Citizen>
@@ -210,22 +238,18 @@
       </li>
       <li>
         <kindDef>Combat</kindDef>
-        <commonality>80</commonality>
-        <maxTotalPoints>2800</maxTotalPoints>
+        <commonality>20</commonality>
 				<disallowedStrategies>
 					<li>Siege</li>
 				</disallowedStrategies>
         <options>
-          <AS_WHE_Knight>5</AS_WHE_Knight>
-          <AS_WHE_Archer>5</AS_WHE_Archer>
-          <AS_WHE_Gunner>2</AS_WHE_Gunner>
+          <AS_WHE_Knight>7</AS_WHE_Knight>
           <AS_WHE_EliteCitizen>1</AS_WHE_EliteCitizen>
           <AS_WHE_Citizen>3</AS_WHE_Citizen>
         </options>
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
-          <maxTotalPoints>1500</maxTotalPoints>
           <options>
             <AS_WHE_Knight>2</AS_WHE_Knight>
             <AS_WHE_Archer>3</AS_WHE_Archer>
@@ -237,7 +261,6 @@
       </li>
       <li>
         <kindDef>Settlement</kindDef>
-        <maxTotalPoints>2000</maxTotalPoints>
         <options>
           <AS_WHE_Knight>2</AS_WHE_Knight>
           <AS_WHE_Archer>2</AS_WHE_Archer>
