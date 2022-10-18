@@ -40,18 +40,21 @@
         <li>(0,40)</li>
         <li>(70, 80)</li>
         <li>(700, 120)</li>
-        <li>(1300, 160)</li>
-        <li>(300000, 10000)</li>
-        <li>(800000, 20000)</li>
+        <li>(1300, 240)</li>
+        <li>(5000, 1200)</li>
+        <li>(30000, 16000)</li>
+        <li>(200000, 160000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
     <raidLootValueFromPointsCurve>
 			<points>
-			  <li>(35,     15)</li>
+			  <li>(35,     40)</li>
 			  <li>(100,   120)</li>
 			  <li>(1000,  500)</li>
-			  <li>(2000,  800)</li>
-			  <li>(4000, 1000)</li>
+			  <li>(2000, 1600)</li>
+			  <li>(4000, 2400)</li>
+        <li>(6000, 4800)</li>
+        <li>(8000, 8000)</li>
 			</points>
 		</raidLootValueFromPointsCurve>
     <!-- <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
@@ -82,7 +85,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
     </disallowedPrecepts>
     <pawnGroupMakers>
-      <li>
+      <!-- <li>
         <kindDef>Combat</kindDef>
         <commonality>80</commonality>
         <maxTotalPoints>3000</maxTotalPoints>
@@ -90,16 +93,15 @@
           <AS_WAE_HK_Warrior>8</AS_WAE_HK_Warrior>
           <AS_WAE_HK_Hunter>9</AS_WAE_HK_Hunter>
         </options>
-      </li>
+      </li> -->
       <li>
         <!-- <kindDef>KnightsLegion</kindDef> -->
         <kindDef>Combat</kindDef>
-        <commonality>20</commonality>
-        <maxTotalPoints>5000</maxTotalPoints>
+        <commonality>50</commonality>
         <options>
-          <AS_WAE_HK_Archer>8</AS_WAE_HK_Archer>
-          <AS_WAE_HK_Warrior>6</AS_WAE_HK_Warrior>
-          <AS_WAE_HK_GuardianKnight>3</AS_WAE_HK_GuardianKnight>
+          <AS_WAE_HK_Archer>1</AS_WAE_HK_Archer>
+          <AS_WAE_HK_Warrior>3</AS_WAE_HK_Warrior>
+          <AS_WAE_HK_GuardianKnight>2</AS_WAE_HK_GuardianKnight>
         </options>
       </li>
     </pawnGroupMakers>

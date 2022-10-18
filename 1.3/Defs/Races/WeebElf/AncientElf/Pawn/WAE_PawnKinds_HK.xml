@@ -2,7 +2,7 @@
 <Defs>
   <PawnKindDef Name="AS_WAE_BasePawnKind_HK" Abstract="True">
     <race>AS_WAE_Race</race>
-    <combatPower>40</combatPower>
+    <combatPower>80</combatPower>
     <canBeSapper>true</canBeSapper>
     <baseRecruitDifficulty>0.8</baseRecruitDifficulty>
     <minGenerationAge>16</minGenerationAge>
@@ -60,7 +60,7 @@
     <defName>AS_WAE_HK_Warrior</defName>
     <label>神聖王国の戦士</label>
     <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType>
-    <combatPower>60</combatPower>
+    <combatPower>180</combatPower>
     <isFighter>true</isFighter>
     <backstoryFiltersOverride>
       <li>
@@ -96,7 +96,7 @@
     <defName>AS_WAE_HK_Hunter</defName>
     <label>神聖王国の狩人</label>
     <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType>
-    <combatPower>50</combatPower>
+    <combatPower>200</combatPower>
     <isFighter>true</isFighter>
     <backstoryFiltersOverride>
       <li>
@@ -132,7 +132,7 @@
     <defName>AS_WAE_HK_GuardianKnight</defName>
     <label>神聖王国の守護騎士</label>
     <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType>
-    <combatPower>80</combatPower>
+    <combatPower>320</combatPower>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
     <backstoryFiltersOverride>

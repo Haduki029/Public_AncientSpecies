@@ -99,7 +99,7 @@
       </defaultOutfitTags>
       <tags>
         <li>AS_Apparel</li>
-        <li>AS_WAE_HK_LowArmor</li>
+        <!-- <li>AS_WAE_HK_LowArmor</li> -->
       </tags>
     </apparel>
   </ThingDef>

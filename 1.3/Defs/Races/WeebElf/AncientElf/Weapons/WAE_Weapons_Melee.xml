@@ -137,8 +137,8 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>36</power>
-        <cooldownTime>3.8</cooldownTime>
+        <power>32</power>
+        <cooldownTime>4.2</cooldownTime>
       </li>
     </tools>
     <recipeMaker>

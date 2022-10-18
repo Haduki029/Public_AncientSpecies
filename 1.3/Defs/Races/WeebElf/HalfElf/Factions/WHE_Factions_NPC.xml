@@ -34,7 +34,7 @@
       <li>
         <kindDef>Combat</kindDef>
         <commonality>80</commonality>
-        <maxTotalPoints>2000</maxTotalPoints>
+        <maxTotalPoints>5000</maxTotalPoints>
         <options>
           <AS_WHE_Warrior>5</AS_WHE_Warrior>
           <AS_WHE_Hunter>12</AS_WHE_Hunter>
@@ -44,7 +44,7 @@
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
-          <maxTotalPoints>1500</maxTotalPoints>
+          <maxTotalPoints>10000</maxTotalPoints>
           <options>
             <AS_WHE_Warrior>3</AS_WHE_Warrior>
             <AS_WHE_Hunter>5</AS_WHE_Hunter>
@@ -55,7 +55,7 @@
       </li>
       <li>
         <kindDef>Settlement</kindDef>
-        <maxTotalPoints>2000</maxTotalPoints>
+        <maxTotalPoints>5000</maxTotalPoints>
         <options>
           <AS_WHE_Warrior>2</AS_WHE_Warrior>
           <AS_WHE_Hunter>3</AS_WHE_Hunter>
@@ -116,7 +116,7 @@
       <li>
         <kindDef>Combat</kindDef>
         <commonality>80</commonality>
-        <maxTotalPoints>2000</maxTotalPoints>
+        <maxTotalPoints>5000</maxTotalPoints>
         <options>
           <AS_WHE_Fighter>5</AS_WHE_Fighter>
           <AS_WHE_Shooter>12</AS_WHE_Shooter>
@@ -126,7 +126,7 @@
       </li>
       <li>
           <kindDef>Peaceful</kindDef>
-          <maxTotalPoints>1500</maxTotalPoints>
+          <maxTotalPoints>10000</maxTotalPoints>
           <options>
             <AS_WHE_Fighter>3</AS_WHE_Fighter>
             <AS_WHE_Shooter>5</AS_WHE_Shooter>
@@ -199,7 +199,7 @@
       <li>
         <kindDef>Combat</kindDef>
         <commonality>80</commonality>
-        <maxTotalPoints>2000</maxTotalPoints>
+        <maxTotalPoints>10000</maxTotalPoints>
         <options>
           <AS_WHE_Knight>5</AS_WHE_Knight>
           <AS_WHE_Archer>5</AS_WHE_Archer>

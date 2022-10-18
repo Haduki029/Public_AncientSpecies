@@ -44,12 +44,12 @@
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
-    <weaponMoney>1800~10000</weaponMoney>
+    <weaponMoney>1800~3000</weaponMoney>
     <weaponTags>
       <li>AS_WAE_NeolithicRanged</li>
       <li>AS_WHE_NeolithicRangedAdvanced</li>
     </weaponTags>
-    <apparelMoney>3000~10000</apparelMoney>
+    <apparelMoney>3000~3000</apparelMoney>
     <apparelTags>
       <li>AS_WHE_Apparel_Villager</li>
       <li>AS_WAE_Hunter</li>
@@ -85,11 +85,11 @@
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
-    <weaponMoney>2800~12500</weaponMoney>
+    <weaponMoney>2800~5500</weaponMoney>
     <weaponTags>
       <li>AS_WHE_NeolithicRangedAdvanced</li>
     </weaponTags>
-    <apparelMoney>5000~15500</apparelMoney>
+    <apparelMoney>5000~5500</apparelMoney>
     <apparelTags>
       <li>AS_WHE_Apparel_Villager</li>
       <li>AS_WAE_Hunter</li>
@@ -124,11 +124,11 @@
     <itemQuality>Good</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
-    <weaponMoney>5000~10000</weaponMoney>
+    <weaponMoney>5000~6000</weaponMoney>
     <weaponTags>
       <li>AS_WAE_Knight</li>
     </weaponTags>
-    <apparelMoney>5000~10000</apparelMoney>
+    <apparelMoney>5000~6000</apparelMoney>
     <apparelTags>
       <li>AS_WAE_Knight</li>
       <li>AS_WHE_Knight</li>
@@ -146,36 +146,35 @@
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
         <li>
-          <choiceChance>100</choiceChance>
+          <choiceChance>80</choiceChance>
           <thingDef>Silver</thingDef>
           <countRange>
-            <min>1150</min>
-            <max>1550</max>
+            <min>115</min>
+            <max>155</max>
           </countRange>
         </li><li>
-          <choiceChance>80</choiceChance>
+          <choiceChance>20</choiceChance>
           <thingDef>Gold</thingDef>
           <countRange>
-            <min>650</min>
-            <max>850</max>
+            <min>250</min>
+            <max>350</max>
           </countRange>
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
 
-  
   <PawnKindDef ParentName="AS_WAE_CommonBase">
     <defName>AS_WAE_PKKnight</defName>
     <label>エルフの守護騎士</label>
     <itemQuality>Excellent</itemQuality>
     <isFighter>true</isFighter>
     <factionLeader>true</factionLeader>
-    <weaponMoney>5000~15500</weaponMoney>
+    <weaponMoney>5000~7500</weaponMoney>
     <weaponTags>
       <li>AS_WAE_Knight</li>
     </weaponTags>
-    <apparelMoney>5000~15500</apparelMoney>
+    <apparelMoney>5000~7500</apparelMoney>
     <apparelTags>
       <li>AS_WAE_Knight</li>
       <li>AS_WHE_Knight</li>
@@ -193,14 +192,14 @@
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>
         <li>
-          <choiceChance>100</choiceChance>
+          <choiceChance>80</choiceChance>
           <thingDef>Silver</thingDef>
           <countRange>
-            <min>1150</min>
-            <max>1550</max>
+            <min>115</min>
+            <max>155</max>
           </countRange>
         </li><li>
-          <choiceChance>80</choiceChance>
+          <choiceChance>20</choiceChance>
           <thingDef>Gold</thingDef>
           <countRange>
             <min>650</min>
