@@ -91,7 +91,7 @@
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
-        <li>TableMachining</li>
+        <li>FabricationBench</li>
       </recipeUsers>
       <researchPrerequisite>AS_WHE_Apparel_Spacer</researchPrerequisite>
       <skillRequirements>
@@ -155,7 +155,7 @@
     </statBases>
     <recipeMaker>
       <recipeUsers Inherit="False">
-        <li>TableMachining</li>
+        <li>FabricationBench</li>
       </recipeUsers>
       <researchPrerequisite>AS_WHE_HyperShieldScarfResearch</researchPrerequisite>
       <skillRequirements>

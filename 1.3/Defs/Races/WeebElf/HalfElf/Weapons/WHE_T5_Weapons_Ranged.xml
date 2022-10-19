@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>Kurin_Gun_Gauss_Rifle</defName>
-        <label>kurin gauss rifle</label>
+        <defName>AS_WHE_CC_Railgun</defName>
+        <label>ASレールガン</label>
         <description>テスト実装。●●社により開発された最新型のレールガン。</description>
 
         <thingCategories>
@@ -29,13 +29,12 @@
         </costList>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
-            <!-- <WorkToMake>52000</WorkToMake> -->
-            <WorkToMake>120</WorkToMake>
+            <WorkToMake>52000</WorkToMake>
             <Mass>10.5</Mass>
             <AccuracyTouch>0.45</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
-            <AccuracyMedium>1.05</AccuracyMedium>
-            <AccuracyLong>1.05</AccuracyLong>
+            <AccuracyMedium>90</AccuracyMedium>
+            <AccuracyLong>1.00</AccuracyLong>
             <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
         </statBases>
 
@@ -44,6 +43,9 @@
             <skillRequirements>
                 <Crafting>15</Crafting>
             </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>FabricationBench</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>AS_WHE_CC_T5_Weapon</li>
@@ -59,9 +61,9 @@
                 <defaultProjectile>AS_WHE_Bullet_Railgun</defaultProjectile>
                 <warmupTime>3.5</warmupTime>
                 <range>52.9</range>
-                <burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-                <soundCast>AS_Sound_Railgun_Interact</soundCast>
+                <!-- <burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots> -->
+                <soundCast>AS_Sound_Railgun_Shot</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -92,16 +94,16 @@
         <label>railgun bullet made by ●● company </label>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>34</damageAmountBase>
+            <damageAmountBase>35</damageAmountBase>
             <armorPenetrationBase>0.85</armorPenetrationBase>
             <stoppingPower>1.5</stoppingPower>
             <speed>130</speed>
         </projectile>
         <graphicData>
             <texPath>WHE/Projectile/Railgun_Bullet</texPath>
+            <!-- <texPath>Things/Projectile/Bullet_small</texPath> -->
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>Graphic_Random</shaderType>
-            <drawSize>0.2</drawSize>
+            <!-- <drawSize>0.2</drawSize> -->
         </graphicData>
     </ThingDef>
 
