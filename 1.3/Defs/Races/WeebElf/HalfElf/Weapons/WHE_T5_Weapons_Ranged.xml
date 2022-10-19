@@ -32,10 +32,10 @@
             <WorkToMake>52000</WorkToMake>
             <Mass>10.5</Mass>
             <AccuracyTouch>0.45</AccuracyTouch>
-            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyShort>0.85</AccuracyShort>
             <AccuracyMedium>90</AccuracyMedium>
             <AccuracyLong>1.00</AccuracyLong>
-            <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
         </statBases>
 
         <recipeMaker>
@@ -94,7 +94,11 @@
         <label>railgun bullet made by ●● company </label>
         <projectile>
             <damageDef>Bullet</damageDef>
+<<<<<<< HEAD
             <damageAmountBase>38</damageAmountBase>
+=======
+            <damageAmountBase>35</damageAmountBase>
+>>>>>>> 721f3ff (テスト用のパラメータをリバート。サウンドがバグってたので修正。)
             <armorPenetrationBase>0.85</armorPenetrationBase>
             <stoppingPower>1.5</stoppingPower>
             <speed>220</speed>
