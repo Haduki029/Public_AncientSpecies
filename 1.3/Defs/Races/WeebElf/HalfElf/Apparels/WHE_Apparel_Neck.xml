@@ -139,7 +139,7 @@
     <tickerType>Normal</tickerType>
     <costList>
       <ComponentSpacer>3</ComponentSpacer>
-      <AS_WHE_ShieldScarf>1</AS_WHE_ShieldScarf>
+      <Plasteel>25</Plasteel>
     </costList>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
