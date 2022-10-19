@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<SoundDef>
+		<defName>AS_Sound_Railgun_Shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/T5/Railgun_Shot</clipFolderPath>
+					</li>
+				</grains>
+			</li>
+	</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>AS_Sound_Railgun_Interact</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapons/T5/Railgun_Interact</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>
