@@ -166,7 +166,7 @@
 			<AccuracyShort>0.70</AccuracyShort>
 			<AccuracyMedium>0.85</AccuracyMedium>
 			<AccuracyLong>0.90</AccuracyLong>
-			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
 			<AS_AssaultRifle>1</AS_AssaultRifle>
