@@ -83,7 +83,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
+      <MaxHitPoints>70</MaxHitPoints>
       <WorkToMake>7000</WorkToMake>
       <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.98</StuffEffectMultiplierInsulation_Cold>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
+
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_KnightDress</defName>
     <description>エンシェントエルフの騎士達が好んで使用する鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</description>
@@ -28,7 +28,7 @@
       <WorkToMake>58000</WorkToMake>
       <Mass>10</Mass>
       <ArmorRating_Blunt>0.82</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.82</ArmorRating_Sharp> 
+      <ArmorRating_Sharp>0.82</ArmorRating_Sharp>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
       <StuffEffectMultiplierArmor>0.16</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
