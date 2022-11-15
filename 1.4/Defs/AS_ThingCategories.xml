@@ -92,6 +92,12 @@
 	</ThingCategoryDef>
 
 	<ThingCategoryDef>
+		<defName>AS_AT_Weapons_MakeableGun</defName>
+		<label>ancient spacies makeable gun weapons</label>
+		<parent>Weapons</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AS_AT_Items</defName>
 		<label>ancient spacies at items</label>
 		<parent>Items</parent>

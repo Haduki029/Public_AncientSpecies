@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+1.ThingDef Guns
+2.ThingDef Bullet
+3.SoundDef
+4.SoundDef Interact
+ -->
+<Defs>
+    <ThingDef ParentName="AS_AT_WeaponsMakeableGun">
+		<defName>AS_AT_AssaultRifle</defName>
+		<label>ASアサルトライフル</label>
+		<description>ある古代技術により作られた突撃銃。グリップが取り付けられており、近～中距離での射撃の命中精度と安定性を向上させている。</description>
+		<graphicData>
+			<texPath>AT/Weapons/AssaultRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags Inherit="false">
+			<li>AS_AT_LowRanged</li>
+			<li>AS_AT_Ranged_LV1</li>
+			<li>AS_AT_LowAssault</li>
+		</weaponTags>
+		<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
+		<statBases>
+			<WorkToMake>48000</WorkToMake>
+			<Mass>3.6</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.82</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
+			<RangedWeapon_Cooldown>1.15</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>100</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>AS_AT_AppliedGunsTechResearch</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AS_AT_Bullet_Assault_Rifle</defaultProjectile>
+				<warmupTime>1.1</warmupTime>
+				<range>32.5</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+				<soundCast>AS_AT_Sound_Assault_Rifle_L</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>AS_AT_Bullet_Assault_Rifle</defName>
+		<label>as assault rifle bullet</label>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>17</damageAmountBase>
+			<armorPenetrationBase>0.26</armorPenetrationBase>
+			<stoppingPower>1.4</stoppingPower>
+			<speed>100</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<SoundDef>
+		<defName>AS_AT_Sound_Assault_Rifle_L</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapons/T1/AS_AT_Assault_Rifle_Light</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>AS_Sound_Assault_Rifle_Interact</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapons/Interact/Assault_Rifle_Interact</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

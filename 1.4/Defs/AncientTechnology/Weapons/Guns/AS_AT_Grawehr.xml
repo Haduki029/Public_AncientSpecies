@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+1.ThingDef Guns
+2.ThingDef Bullet
+3.SoundDef
+4.SoundDef Interact
+ -->
+<Defs>
+    <ThingDef ParentName="AS_AT_WeaponsMakeableGun">
+		<defName>AS_AT_Grawehr</defName>
+		<label>グラヴェーア</label>
+		<description>榴弾を高速で撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</description>
+		<graphicData>
+			<texPath>AT/Weapons/Grawehr</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags Inherit="false">
+			<li>AS_AT_MidRanged</li>
+			<li>AS_AT_Ranged_LV2</li>
+			<!-- <li>GrenadeDestructive</li> -->
+		</weaponTags>
+		<soundInteract>AS_Sound_Rebel_Rifle_Interact</soundInteract>
+		<statBases>
+			<WorkToMake>46000</WorkToMake>
+			<Mass>6.2</Mass>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.80</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>90</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<WoodLog>20</WoodLog>
+		</costList>
+		<recipeMaker>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>AS_AT_GrawehrResearch</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AS_AT_Bullet_Rebel_Rifle</defaultProjectile>
+				<warmupTime>1.4</warmupTime>
+				<range>40.9</range>
+				<forcedMissRadius>0.1</forcedMissRadius>
+				<soundCast>AS_AT_Sound_Rebel_Rifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+		<defName>AS_AT_Bullet_Rebel_Rifle</defName>
+		<!-- <defName>AS_Bullet_Grawehr_Rifle</defName> -->
+		<label>grawehr rifle bullet</label>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+			<explosionRadius>0.1</explosionRadius>
+			<stoppingPower>1.2</stoppingPower>
+			<speed>65</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+	</ThingDef>
+
+    <SoundDef>
+        <defName>AS_AT_Sound_Rebel_Rifle</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/T2/AS_AT_Rebel_Rifle</clipPath>
+                    </li>
+                </grains>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>AS_Sound_Rebel_Rifle_Interact</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/Interact/Rebel_Rifle_Interact</clipPath>
+                    </li>
+                </grains>
+            </li>
+        </subSounds>
+    </SoundDef>
+</Defs>

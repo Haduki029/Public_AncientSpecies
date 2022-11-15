@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+1.ThingDef Guns
+2.ThingDef Bullet
+3.SoundDef
+ -->
+<Defs>
+    <ThingDef ParentName="AS_AT_WeaponsMakeableGun">
+		<defName>AS_AT_SniperRifle</defName>
+		<label>ASスナイパーライフル</label>
+		<description>ASアサルトライフルのノズルを延長し、スコープが取り付け、弾丸をより遠距離に向いたものにした、長距離射撃用のライフル。サイズが大きくなっており、近距離での取り回しは悪くなっている。</description>
+		<graphicData>
+			<texPath>AT/Weapons/AssaultRifleCustom</texPath><!-- TODO -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags Inherit="false">
+			<li>AS_AT_LowRanged</li>
+			<li>AS_AT_Ranged_LV1</li>
+			<li>AS_AT_LowSnipe</li>
+		</weaponTags>
+		<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
+		<statBases>
+			<WorkToMake>46000</WorkToMake>
+			<Mass>4.3</Mass>
+			<AccuracyTouch>0.45</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>110</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>AS_AT_AppliedGunsTechResearch</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AS_AT_Bullet_Sniper_Rifle</defaultProjectile>
+				<warmupTime>1.25</warmupTime>
+				<range>39.5</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>AS_AT_Sound_Assault_Rifle_H</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2.3</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+		<defName>AS_AT_Bullet_Sniper_Rifle</defName>
+		<label>AS狙撃用ライフル弾</label>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationBase>0.29</armorPenetrationBase>
+			<stoppingPower>1.8</stoppingPower>
+			<speed>120</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+    <SoundDef>
+		<defName>AS_AT_Sound_Assault_Rifle_H</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapons/T1/AS_AT_Assault_Rifle_Heavy</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>30</min>
+					<max>30</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.7</min>
+					<max>0.8</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

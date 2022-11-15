@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+1.ThingDef Guns
+2.ThingDef Bullet
+3.SoundDef
+4.SoundDef Interact
+-->
+<Defs>
+	<ThingDef ParentName="AS_AT_WeaponsMakeableGun">
+		<defName>AS_AT_Handgun</defName>
+		<label>ASハンドガン</label>
+		<description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</description>
+		<graphicData>
+			<texPath>AT/Weapons/HandGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<weaponTags Inherit="false">
+			<li>AS_AT_LowRanged</li>
+			<li>AS_AT_Ranged_LV1</li>
+		</weaponTags>
+		<soundInteract>AS_Sound_Handgun_Interact</soundInteract>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<Mass>1.02</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.76</AccuracyShort>
+			<AccuracyMedium>0.58</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0.715</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>AS_AT_BasicWeaponsTechResearch</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>11</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AS_AT_Bullet_Hundgun</defaultProjectile>
+				<warmupTime>0.28</warmupTime>
+				<range>23.2</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>AS_AT_Sound_Handgun</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>AS_AT_Bullet_Hundgun</defName>
+		<label>as handgun bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>0.21</armorPenetrationBase>
+			<stoppingPower>0.65</stoppingPower>
+			<speed>75</speed>
+		</projectile>
+	</ThingDef>
+
+	<SoundDef>
+		<defName>AS_AT_Sound_Handgun</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapons/T1/AS_AT_Handgun</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>AS_Sound_Handgun_Interact</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapons/Interact/Handgun_Interact</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>
