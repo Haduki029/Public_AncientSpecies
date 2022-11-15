@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+    <PawnKindDef Name="AS_WAE_BasePawnKind" Abstract="True">
+    <race>AS_WAE_Race</race>
+    <combatPower>80</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType><!-- TODO: -->
+    <invNutrition>2</invNutrition>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <apparelColor>(255,255,255)</apparelColor>
+    <initialWillRange>10~20</initialWillRange>
+    <initialResistanceRange>60~90</initialResistanceRange>
+    <inventoryOptions>
+      <skipChance>0.4</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="AS_WAE_BasePawnKind">
+    <defName>AS_WAE_Slave</defName>
+    <label>古代エルフの奴隷</label>
+    <minGenerationAge>14</minGenerationAge>
+    <maxGenerationAge>35</maxGenerationAge>
+    <isFighter>false</isFighter>
+    <itemQuality>Poor</itemQuality>
+    <backstoryCryptosleepCommonality>0.50</backstoryCryptosleepCommonality><!-- TODO: -->
+    <apparelTags>
+      <li>AS_Common_Apparel</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>AS_WAE_Slave</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.6</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>35</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <AlienRace.RaceSettings><!-- TODO: -->
+    <defName>AS_WHE_RaceSettings</defName>
+    <pawnKindSettings>
+      <alienslavekinds>
+          <li>
+            <kindDefs>
+              <li>AS_WAE_Slave</li>
+            </kindDefs>
+            <chance>50.0</chance><!-- TODO: -->
+          </li>
+      </alienslavekinds>
+      <alienrefugeekinds>
+          <li>
+            <kindDefs>
+              <li>AS_WAE_Slave</li>
+            </kindDefs>
+            <chance>50.0</chance>
+          </li>
+        </alienrefugeekinds>
+    </pawnKindSettings>
+  </AlienRace.RaceSettings>
+</Defs>

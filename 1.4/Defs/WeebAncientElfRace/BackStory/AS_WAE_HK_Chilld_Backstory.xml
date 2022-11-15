@@ -34,6 +34,9 @@
 		<workDisables>
 			<li>Artistic</li>
 		</workDisables>
+		<spawnCategories>
+			<li>AS_WAE_Slave</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="AS_WAE_HK_Backstory_Child_Base">
@@ -64,6 +67,9 @@
 				<value>-2</value>
 			</li>
 		</skillGains>
+		<spawnCategories>
+			<li>AS_WAE_Slave</li>
+		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef ParentName="AS_WAE_HK_Backstory_Child_Base">

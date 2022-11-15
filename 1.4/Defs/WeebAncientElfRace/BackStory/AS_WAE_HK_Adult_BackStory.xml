@@ -78,6 +78,7 @@
 			</li>
 		</skillGains>
 		<spawnCategories>
+			<li>AS_WAE_Slave</li>
 			<li>AS_WAE_ServiceSlave</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
@@ -134,6 +135,7 @@
 			<li>Artistic</li>
 		</workDisables>
 		<spawnCategories>
+			<li>AS_WAE_Slave</li>
 			<li>AS_WAE_WarriorSlave</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
@@ -177,6 +179,7 @@
 			<li>Artistic</li>
 		</workDisables>
 		<spawnCategories>
+			<li>AS_WAE_Slave</li>
 			<li>AS_WAE_ArcherSlave</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
