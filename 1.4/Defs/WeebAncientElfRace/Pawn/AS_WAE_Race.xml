@@ -8,8 +8,39 @@
     <alienRace>
       <graphicPaths>
         <head>Pawn/Heads/</head>
-        <body>Pawn/Bodies/</body>
-        <skinShader>Cutout</skinShader>
+        <!-- <body>Pawn/Bodies/</body> -->
+        <body>
+          <bodytypeGraphics>
+            <Thin>
+              <path>Pawn/Bodies/Naked_Thin</path>
+            </Thin>
+            <Female>
+              <path>Pawn/Bodies/Naked_Female</path>
+            </Female>
+            <Child>
+              <path>Pawn/Bodies/Naked_Child</path>
+            </Child>
+            <Baby>
+              <drawSize>0.01</drawSize>
+              <path>Pawn/AddonBodies/Baby/no</path>
+              <offsets>
+                <south>
+                  <layerOffset>-10</layerOffset>
+                  <offset>(0, 0)</offset>
+                </south>
+                <north>
+                  <layerOffset>-2</layerOffset>
+                  <offset>(0, 0)</offset>
+                </north>
+                <east>
+                  <layerOffset>2</layerOffset>
+                  <offset>(0, 0)</offset>
+                </east>
+              </offsets>
+            </Baby>
+          </bodytypeGraphics>
+        </body>
+        <!-- <skinShader>Cutout</skinShader> -->
       </graphicPaths>
       <generalSettings>
         <maleGenderProbability>0</maleGenderProbability>
@@ -46,11 +77,11 @@
           <li>
             <defName>Beauty</defName>
             <degree>-1</degree>
-        	</li>
-        	<li>
+          </li>
+          <li>
             <defName>Beauty</defName>
             <degree>-2</degree>
-        	</li>
+          </li>
           <li>
             <defName>Nudist</defName>
             <degree>0</degree>
@@ -68,7 +99,12 @@
               </goodwill>
             </li>
           </factionRelations> -->
+          <!-- <notXenophobistTowards>
+            <li>AS_WHE_Race</li>
+          </notXenophobistTowards> -->
         <alienPartGenerator>
+          <getsGreyAt>300</getsGreyAt>
+          <atlasScale>2</atlasScale>
           <headTypes Inherit="false">
             <li>AS_WAE_Head_A</li>
             <li>AS_WAE_Head_B</li>
@@ -90,154 +126,311 @@
             <south>(0, 0)</south>
             <west>(0, 0)</west>
           </headOffsetDirectional>
+          <bodyTypes>
+            <li>Female</li>
+            <li>Thin</li>
+            <li>Fat</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+          </bodyTypes>
           <customDrawSize>(0.95, 0.95)</customDrawSize>
           <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
           <customPortraitDrawSize>(1.05, 1.05)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1.05, 1.05)</customPortraitHeadDrawSize>
-            <!-- TODO: 1.4では不要？ <useGenderedHeads>false</useGenderedHeads>
-            <useGenderedBodies>false</useGenderedBodies> -->
-            <colorChannels>
-              <li>
-                <name>skin</name>
-                <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
-                  <minMelanin>0</minMelanin>
-                  <maxMelanin>0.01</maxMelanin>
-                </first>
-                <second Class="AlienRace.ColorGenerator_SkinColorMelanin">
-                  <minMelanin>0</minMelanin>
-                  <maxMelanin>0.05</maxMelanin>
-                </second>
-                <!-- <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                  <colorChannel>skin_1</colorChannel>
-                </second> -->
-              </li>
-              <li>
-                <name>hair</name>
-                <first Class="ColorGenerator_Single">
-                  <color>RGBA(1,1,0.82,1)</color>
-                </first>
-                <second Class="ColorGenerator_Single">
-                  <color>RGBA(1,1,0.85,1)</color>
-                </second>
-              </li>
-            </colorChannels>
-            <bodyTypes>
-              <li>Female</li>
-              <li>Thin</li>
-              <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
-              <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
-            </bodyTypes>
-            <bodyAddons>
-              <li><!-- 左耳 -->
-                <path>Pawn/Ears/L/elf_EarL</path>
-                <hediffGraphics></hediffGraphics>
-                <bodyPartLabel>left ear</bodyPartLabel>
-                <inFrontOfBody>true</inFrontOfBody>
-                <colorChannel>skin</colorChannel>
-                <drawSize>1</drawSize>
-                <angle>0</angle>
-                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
-                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
-                <shaderType>Cutout</shaderType>
-                <hiddenUnderApparelTag></hiddenUnderApparelTag><!-- apparelTags,BodyPartGroups をli形式で指定することで非表示ケースを追加可能 -->
-                <offsets><!-- wikiのBody-Addons, offsetを参照  -->
-                  <south>
-                    <!-- <offset>(-0.42,0.56)</offset> -->
-                    <layerOffset>-1.0</layerOffset>
-                  </south>
-                  <north>
-                    <!-- <offset>(0,0.9)</offset> -->
-                    <!-- <layerOffset>0</layerOffset> -->
-                  </north>
-                  <east>
-                    <!-- <offset>(-0.423,0.54)</offset> -->
-                    <!-- <layerOffset>0.5</layerOffset> -->
-                  </east>
-                </offsets>
-              </li>
-              <li><!-- 右耳 -->
-                <path>Pawn/Ears/R/elf_EarR</path>
-                <hediffGraphics></hediffGraphics>
-                <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                <bodyPartLabel>right ear</bodyPartLabel>
-                <inFrontOfBody>true</inFrontOfBody>
-                <colorChannel>skin</colorChannel>
-                <drawSize>1</drawSize>
-                <angle>0</angle>
-                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
-                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
-                <shaderType>Cutout</shaderType>
-                <hiddenUnderApparelTag></hiddenUnderApparelTag><!-- apparelTags,BodyPartGroups をli形式で指定することで非表示ケースを追加可能 -->
-                <offsets><!-- wikiのBody-Addons, offsetを参照  -->
-                  <south>
-                    <!-- <offset>(-0.42,0.56)</offset> -->
-                    <layerOffset>-1.0</layerOffset>
-                  </south>
-                  <north>
-                    <!-- <offset>(0,0.9)</offset> -->
-                    <!-- <layerOffset>0</layerOffset> -->
-                  </north>
-                  <east>
-                    <!-- <offset>(-0.423,0.54)</offset> -->
-                    <!-- <layerOffset>0.5</layerOffset> -->
-                  </east>
-                </offsets>
-              </li>
-              <li><!-- 髪型addon -->
-                <path>Pawn/AddonHairs/AS_CM</path>
-                <bodyPart>Head</bodyPart>
-                <inFrontOfBody>true</inFrontOfBody>
-                <colorChannel>hair</colorChannel>
-                <drawSize>1</drawSize>
-                <angle>0</angle>
-                <shaderType>Cutout</shaderType>
-                <hiddenUnderApparelTag></hiddenUnderApparelTag>
-                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
-                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
-                <offsets>
-                  <south>
-                    <!-- <offset>(-0.42,0.56)</offset> -->
-                    <!-- <layerOffset>5.0</layerOffset> -->
-                  </south>
-                  <north>
-                    <!-- <offset>(0,0.9)</offset> -->
-                    <layerOffset>-1</layerOffset>
-                  </north>
-                  <east>
-                    <!-- <offset>(-0.423,0.54)</offset> -->
-                    <!-- <layerOffset>0.5</layerOffset> -->
-                  </east>
-                </offsets>
-              </li>
-              <li><!-- 後ろ髪Addon -->
-                <path>Pawn/AddonHairs/InHair/AS_CMA</path>
-                <bodyPart>Head</bodyPart>
-                <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-                <inFrontOfBody>false</inFrontOfBody>
-                <colorChannel>hair</colorChannel>
-                <drawSize>1</drawSize>
-                <drawnInBed>false</drawnInBed>
-                <angle>0</angle>
-                <shaderType>Cutout</shaderType>
-                <hiddenUnderApparelTag></hiddenUnderApparelTag>
-                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
-                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
-                <offsets>
-                  <south>
-                    <!-- <offset>(-0.42,0.56)</offset> -->
-                    <layerOffset>1.0</layerOffset>
-                  </south>
-                  <north>
-                    <!-- <offset>(0,0.9)</offset> -->
-                    <layerOffset>-1</layerOffset>
-                  </north>
-                  <east>
-                    <!-- <offset>(-0.423,0.54)</offset> -->
-                    <layerOffset>0.5</layerOffset>
-                  </east>
-                </offsets>
-              </li>
-            </bodyAddons>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                <minMelanin>0</minMelanin>
+                <maxMelanin>0.01</maxMelanin>
+              </first>
+              <second Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                <minMelanin>0</minMelanin>
+                <maxMelanin>0.05</maxMelanin>
+              </second>
+              <!-- <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </second> -->
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>25</weight>
+                    <only>RGBA(0.78,1,0.78,1)</only>  <!-- #dbdbdb -->
+                  </li>
+                  <li>
+                    <weight>25</weight>
+                    <only>RGBA(0.67,1,0.41,1)</only>  <!-- #d88177 -->
+                  </li>
+                  <li>
+                    <weight>25</weight>
+                    <only>RGBA(0.99,0.99,0.55,1)</only>  <!-- #fdfa8b -->
+                  </li>
+                  <li>
+                    <weight>325</weight>
+                    <only>RGBA(0.99,1,0.02,1)</only>  <!-- #fdfa05 -->
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>25</weight>
+                    <only>RGBA(0.78,1,0.78,1)</only>  <!-- #dbdbdb -->
+                  </li>
+                  <li>
+                    <weight>25</weight>
+                    <only>RGBA(0.67,1,0.41,1)</only>  <!-- #d88177 -->
+                  </li>
+                  <li>
+                    <weight>25</weight>
+                    <only>RGBA(0.99,0.99,0.55,1)</only>  <!-- #fdfa8b -->
+                  </li>
+                  <li>
+                    <weight>325</weight>
+                    <only>RGBA(0.99,1,0.02,1)</only>  <!-- #fdfa05 -->
+                  </li>
+                </options>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li><!-- 左耳 -->
+              <path>Pawn/Ears/L/elf_EarL</path>
+              <hediffGraphics></hediffGraphics>
+              <bodyPartLabel>left ear</bodyPartLabel>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <drawSize>1</drawSize>
+              <angle>0</angle>
+              <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+              <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+              <shaderType>Cutout</shaderType>
+              <hiddenUnderApparelTag></hiddenUnderApparelTag><!-- apparelTags,BodyPartGroups をli形式で指定することで非表示ケースを追加可能 -->
+              <bodytypeGraphics>
+                <Baby>
+                  <path>Pawn/Ears/no</path>
+                </Baby>
+                <Child>
+                  <path>Pawn/Ears/L/elf_EarL</path>
+                </Child>
+                <Female>
+                  <path>Pawn/Ears/L/elf_EarL</path>
+                </Female>
+                <Thin>
+                  <path>Pawn/Ears/L/elf_EarL</path>
+                </Thin>
+              </bodytypeGraphics>
+              <offsets><!-- wikiのBody-Addons, offsetを参照  -->
+                <south>
+                  <!-- <offset>(-0.42,0.56)</offset> -->
+                  <layerOffset>-1.0</layerOffset>
+                </south>
+                <north>
+                  <!-- <offset>(0,0.9)</offset> -->
+                  <!-- <layerOffset>0</layerOffset> -->
+                </north>
+                <east>
+                  <!-- <offset>(-0.423,0.54)</offset> -->
+                  <!-- <layerOffset>0.5</layerOffset> -->
+                </east>
+              </offsets>
+              <!-- <hiddenUnderApparelTag>
+                <li>AS_WHE_MarineHelmet</li>
+                <li>AS_WHE_PressureResistantHelmet</li>
+              </hiddenUnderApparelTag> -->
+              <!-- <ageGraphics>
+                <WAELikeBaby>Etc/NullTexture</WAELikeBaby>
+              </ageGraphics> -->
+            </li>
+            <li><!-- 右耳 -->
+              <path>Pawn/Ears/R/elf_EarR</path>
+              <hediffGraphics></hediffGraphics>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <bodyPartLabel>right ear</bodyPartLabel>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <drawSize>1</drawSize>
+              <angle>0</angle>
+              <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+              <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+              <shaderType>Cutout</shaderType>
+              <hiddenUnderApparelTag></hiddenUnderApparelTag><!-- apparelTags,BodyPartGroups をli形式で指定することで非表示ケースを追加可能 -->
+              <bodytypeGraphics>
+                <Baby>
+                  <path>Pawn/Ears/no</path>
+                </Baby>
+                <Child>
+                  <path>Pawn/Ears/R/elf_EarR</path>
+                </Child>
+                <Female>
+                  <path>Pawn/Ears/R/elf_EarR</path>
+                </Female>
+                <Thin>
+                  <path>Pawn/Ears/R/elf_EarR</path>
+                </Thin>
+              </bodytypeGraphics>
+              <offsets><!-- wikiのBody-Addons, offsetを参照  -->
+                <south>
+                  <!-- <offset>(-0.42,0.56)</offset> -->
+                  <layerOffset>-1.0</layerOffset>
+                </south>
+                <north>
+                  <!-- <offset>(0,0.9)</offset> -->
+                  <!-- <layerOffset>0</layerOffset> -->
+                </north>
+                <east>
+                  <!-- <offset>(-0.423,0.54)</offset> -->
+                  <!-- <layerOffset>0.5</layerOffset> -->
+                </east>
+              </offsets>
+              <!-- <hiddenUnderApparelTag>
+                <li>AS_WHE_MarineHelmet</li>
+                <li>AS_WHE_PressureResistantHelmet</li>
+              </hiddenUnderApparelTag> -->
+              <!-- <ageGraphics>
+                <WAELikeBaby>Etc/NullTexture</WAELikeBaby>
+              </ageGraphics> -->
+            </li>
+            <li><!-- 髪型addon -->
+              <path>Pawn/AddonHairs/AS_CM</path>
+              <bodyPart>Head</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>hair</colorChannel>
+              <angle>0</angle>
+              <shaderType>Cutout</shaderType>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <hiddenUnderApparelTag></hiddenUnderApparelTag>
+              <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+              <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+              <bodytypeGraphics>
+                <Baby>
+                  <path>Pawn/AddonHairs/no</path>
+                  <drawSize>1</drawSize>
+                </Baby>
+                <Child>
+                  <path>Pawn/AddonHairs/AS_CMA</path>
+                  <drawSize>1</drawSize>
+                </Child>
+                <Female>
+                  <path>Pawn/AddonHairs/AS_CMA</path>
+                  <drawSize>1</drawSize>
+                </Female>
+                <Thin>
+                  <path>Pawn/AddonHairs/AS_CMA</path>
+                  <drawSize>1</drawSize>
+                </Thin>
+              </bodytypeGraphics>
+              <offsets>
+                <south>
+                  <!-- <offset>(-0.42,0.56)</offset> -->
+                  <!-- <layerOffset>5.0</layerOffset> -->
+                </south>
+                <north>
+                  <!-- <offset>(0,0.9)</offset> -->
+                  <layerOffset>-1</layerOffset>
+                </north>
+                <east>
+                  <!-- <offset>(-0.423,0.54)</offset> -->
+                  <!-- <layerOffset>0.5</layerOffset> -->
+                </east>
+              </offsets>
+            </li>
+            <li><!-- 後ろ髪Addon -->
+              <path>Pawn/AddonHairs/InHair/AS_CMA</path>
+              <bodyPart>Head</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <colorChannel>hair</colorChannel>
+              <drawnInBed>false</drawnInBed>
+              <angle>0</angle>
+              <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+              <shaderType>Cutout</shaderType>
+              <hiddenUnderApparelTag></hiddenUnderApparelTag>
+              <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+              <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+              <bodytypeGraphics>
+                <Baby>
+                  <path>Pawn/AddonHairs/InHair/no</path>
+                  <drawSize>1</drawSize>
+                </Baby>
+                <Child>
+                  <path>Pawn/AddonHairs/InHair/AS_CMA</path>
+                  <drawSize>1</drawSize>
+                </Child>
+                <Female>
+                  <path>Pawn/AddonHairs/InHair/AS_CMA</path>
+                  <drawSize>1</drawSize>
+                </Female>
+                <Thin>
+                  <path>Pawn/AddonHairs/InHair/AS_CMA</path>
+                  <drawSize>1</drawSize>
+                </Thin>
+              </bodytypeGraphics>
+              <offsets>
+                <south>
+                  <!-- <offset>(-0.42,0.56)</offset> -->
+                  <layerOffset>1.0</layerOffset>
+                </south>
+                <north>
+                  <!-- <offset>(0,0.9)</offset> -->
+                  <layerOffset>-1</layerOffset>
+                </north>
+                <east>
+                  <!-- <o>(-0.423,0.54)</o ffset> -->
+                  <layerOffset>0.5</layerOffset>
+                </east>
+              </offsets>
+              <!-- <hiddenUnderApparelTag>
+                <li>AS_WHE_MarineHelmet</li>
+                <li>AS_WHE_PressureResistantHelmet</li>
+              </hiddenUnderApparelTag> -->
+              <!-- <ageGraphics>
+                <WAELikeBaby>Etc/NullTexture</WAELikeBaby>
+              </ageGraphics> -->
+            </li>
+
+            <li><!-- Babyの身体 -->
+              <bodyPart>Torso</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <drawSize>0.75</drawSize>
+              <drawnInBed>true</drawnInBed>
+              <bodytypeGraphics>
+                <Baby>
+                  <path>Pawn/AddonBodies/Baby/Naked_Baby</path>
+                </Baby>
+                <Child>
+                  <path>Pawn/AddonBodies/Baby/no</path>
+                </Child>
+                <Female>
+                  <path>Pawn/AddonBodies/Baby/no</path>
+                </Female>
+                <Thin>
+                  <path>Pawn/AddonBodies/Baby/no</path>
+                </Thin>
+              </bodytypeGraphics>
+              <offsets>
+                <south>
+                  <layerOffset>0</layerOffset>
+                  <offset>(0, 0)</offset>
+                </south>
+                <north>
+                  <layerOffset>0</layerOffset>
+                  <offset>(0, 0)</offset>
+                </north>
+                <east>
+                  <layerOffset>0</layerOffset>
+                  <offset>(0, 0)</offset>
+                </east>
+              </offsets>
+            </li>
+
+          </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
       <styleSettings>
@@ -301,15 +494,21 @@
           <li>AS_WAE_HKNationalCostume</li>
           <!-- <li>AS_WHE_ATShieldScarf</li> -->
           <!-- <li>AS_WHE_NanoSuits</li> -->
+
+          <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_PlainUnderwear_Child</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_TighetsSuit_Child</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_PlainStoking_Child</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">AS_WAE_HKNationalCostume_Child</li>
         </apparelList>
         <whiteApparelList>
           <li>Apparel_SmokepopBelt</li>
         </whiteApparelList>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+        <onlyGetRaceRestrictedTraits>false</onlyGetRaceRestrictedTraits>
         <!-- <traitList></traitList> -->
       </raceRestriction>
-	  </alienRace>
+    </alienRace>
 
     <statBases>
       <MarketValue>1200</MarketValue>
@@ -423,11 +622,11 @@
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
-      <lifeExpectancy>400</lifeExpectancy>
+      <lifeExpectancy>80</lifeExpectancy>
       <leatherDef>Leather_Human</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
 
-	    <body>AS_WAE_Body</body>
+      <body>AS_WAE_Body</body>
       <baseBodySize>1</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
@@ -436,7 +635,7 @@
       <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
       <nameGenerator>AS_WAE_Name_Rule</nameGenerator>
-    	<nameGeneratorFemale>AS_WAE_Name_Rule</nameGeneratorFemale>
+      <nameGeneratorFemale>AS_WAE_Name_Rule</nameGeneratorFemale>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -446,51 +645,53 @@
         </points>
       </litterSizeCurve>
       <lifeStageAges>
-        <li>
-          <def>HumanlikeBaby</def>
+        <li Class="AlienRace.LifeStageAgeAlien">
+          <def>AS_WAE_LikeBaby</def>
           <minAge>0</minAge>
         </li>
-        <li>
-          <def>HumanlikeChild</def>
-          <minAge>6</minAge>
+        <li Class="AlienRace.LifeStageAgeAlien">
+          <def>AS_WAE_LikeChild</def>
+          <minAge>3</minAge>
+          <customHeadDrawSize>(0.62,0.62)</customHeadDrawSize>
         </li>
-        <li MayRequire="Ludeon.RimWorld.Biotech">
-        	<def>HumanlikePreTeenager</def>
-        	<minAge>9</minAge>
+        <li MayRequire="Ludeon.RimWorld.Biotech" Class="AlienRace.LifeStageAgeAlien">
+          <def>AS_WAE_LikePreTeenager</def>
+          <minAge>9</minAge>
+          <customHeadDrawSize>(0.62,0.62)</customHeadDrawSize>
         </li>
-        <li>
-          <def>HumanlikeTeenager</def>
+        <li Class="AlienRace.LifeStageAgeAlien">
+          <def>AS_WAE_LikeTeenager</def>
           <minAge>14</minAge>
         </li>
-        <li>
-          <def>HumanlikeAdult</def>
+        <li Class="AlienRace.LifeStageAgeAlien">
+          <def>AS_WAE_LikeAdult</def>
           <minAge>18</minAge>
         </li>
       </lifeStageAges>
 
       <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
-        <Firefighter>2</Firefighter>
+        <Firefighter>7</Firefighter>
         <Patient>0</Patient>
-        <Doctor>1</Doctor>
+        <Doctor>10</Doctor>
         <PatientBedRest>0</PatientBedRest>
         <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
-        <BasicWorker>4</BasicWorker>
-        <Warden>2</Warden>
-        <Handling>2</Handling>
-        <Cooking>1</Cooking>
-        <Hunting>1</Hunting>
-        <Construction>1</Construction>
-        <Growing>2</Growing>
-        <Mining>0</Mining>
-        <PlantCutting>2</PlantCutting>
-        <Smithing>0</Smithing>
-        <Tailoring>0</Tailoring>
-        <Art>0</Art>
-        <Crafting>0</Crafting>
-        <Hauling>0</Hauling>
-        <Cleaning>0</Cleaning>
-        <Research>1</Research>
-    	</lifeStageWorkSettings>
+        <BasicWorker>7</BasicWorker>
+        <Warden>10</Warden>
+        <Handling>7</Handling>
+        <Cooking>7</Cooking>
+        <Hunting>7</Hunting>
+        <Construction>7</Construction>
+        <Growing>7</Growing>
+        <Mining>7</Mining>
+        <PlantCutting>7</PlantCutting>
+        <Smithing>10</Smithing>
+        <Tailoring>7</Tailoring>
+        <Art>7</Art>
+        <Crafting>7</Crafting>
+        <Hauling>3</Hauling>
+        <Cleaning>3</Cleaning>
+        <Research>6</Research>
+      </lifeStageWorkSettings>
 
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -499,6 +700,55 @@
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>
       </specialShadowData>
+
+      <!-- <ageGenerationCurve>
+        <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,11)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,18)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,64)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16,118)</li>
+          <li>(30, 96)</li>
+          <li>(40, 64)</li>
+          <li>(50,32)</li>
+          <li>(60,24)</li>
+          <li>(70,16)</li>
+          <li>(90,8)</li>
+          <li>(100,4)</li>
+          <li>(200,2)</li>
+          <li>(300,0)</li>
+        </points>
+      </ageGenerationCurve> -->
+
+      <!-- <ageGenerationCurve>
+        <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,1)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,64)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,128)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,128)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14, 0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16, 128)</li>
+          <li>(30, 64)</li>
+          <li>(40, 32)</li>
+          <li>(50, 16)</li>
+          <li>(60, 8)</li>
+          <li>(70, 4)</li>
+          <li>(80, 2)</li>
+          <li>(90, 1)</li>
+          <li>(100, 0)</li>
+        </points>
+      </ageGenerationCurve> -->
 
       <ageGenerationCurve>
         <points>
@@ -512,16 +762,16 @@
           <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
           <li>(14,0)</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
-          <li>(16,30)</li>
+          <li>(16,100)</li>
           <li>(50,100)</li>
-          <li>(60,70)</li>
-          <li>(70,30)</li>
-          <li>(90,15)</li>
-          <li>(100,10)</li>
-          <li>(200,5)</li>
-          <li>(300,0)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
         </points>
       </ageGenerationCurve>
+
       <hediffGiverSets>
         <li>OrganicStandard</li>
         <li>Human</li>
@@ -532,6 +782,24 @@
       <!-- <li>AS_WHE_InstallBionicEar</li> -->
       <li>AS_Install_WAE_BionicEar</li>
       <li>AS_Install_WAE_FakeEar</li>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+      <li>CureScaria</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
     </recipes>
 </AlienRace.ThingDef_AlienRace>
 </Defs>

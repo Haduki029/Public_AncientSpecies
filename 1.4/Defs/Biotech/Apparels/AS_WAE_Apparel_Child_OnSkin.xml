@@ -2,14 +2,14 @@
 <Defs>
 
   <ThingDef ParentName="AS_ApparelBase_Onskin">
-    <defName>AS_WAE_HKNationalCostume</defName>
-    <description>古代エルフの民族衣装。エルフ神聖王国ではこの服装が一般的になっている。軽く動きやすい服。</description>
-    <label>ASエルフの民族衣装</label>
+    <defName>AS_WAE_HKNationalCostume_Child</defName>
+    <description>古代エルフの子供用民族衣装。エルフ神聖王国ではこの服装が一般的になっている。軽く動きやすい服。</description>
+    <label>ASエルフの子供用民族衣装</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/onskin/ColonistDressWare</texPath>
+      <texPath>Apparels/WAE/Child/onskin/ColonistDressWare</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>(0.7, 0.7)</drawSize>
     </graphicData>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>

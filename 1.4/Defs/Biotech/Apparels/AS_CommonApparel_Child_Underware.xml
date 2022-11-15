@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+
+    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_ApparelBase_Child_Underware" ParentName="AS_ChildApparelCommonBase" Abstract="True">
+		<thingCategories>
+            <li>AS_Apparel_Child</li>
+        </thingCategories>
+        <apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Legs</li>
+			</bodyPartGroups>
+            <layers>
+                <li>AS_Underware</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <!-- <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<developmentalStageFilter>Child</developmentalStageFilter> -->
+		</apparel>
+	</ThingDef>
+
+    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_ApparelBase_Child_Underware">
+        <techLevel>Neolithic</techLevel>
+        <defName>AS_Common_PlainUnderwear_Child</defName>
+        <description>皮や布で作られた簡素な子供用の女性下着。「Ancient Species Mod」の全種族が着用可能。</description>
+        <label>AS子供用簡素な下着</label>
+        <tradeTags>
+            <li>BasicClothing</li>
+            <li>AS_BasicClothing</li>
+        </tradeTags>
+        <graphicData>
+            <texPath>Apparels/Common/Children/underware/PlainUnderwear_Child</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.7, 0.7)</drawSize>
+        </graphicData>
+        <costStuffCount>15</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>70</MaxHitPoints>
+            <WorkToMake>800</WorkToMake>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <recipeUsers Inherit="false">
+                <li>CraftingSpot</li>
+                <li>HandTailoringBench</li>
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Apparels/Common/Children/underware/PlainUnderwear_Child</wornGraphicPath>
+            <tags>
+                <li>AS_BasicClothing</li>
+                <li>AS_BasicUnderware</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_ApparelBase_Child_Underware">
+        <defName>AS_Common_TighetsSuit_Child</defName>
+        <description>皮や布で作られた子供用の全身タイツスーツ。</description>
+        <label>AS子供用タイツスーツ</label>
+        <!-- <tradeTags><li>AS_WAE_Apparel</li></tradeTags> -->
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>Apparels/Common/Children/underware/TighetsSuit_Child</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(0.7, 0.7)</drawSize>
+        </graphicData>
+        <costStuffCount>35</costStuffCount>
+        <stuffCategories>
+        <li>Fabric</li>
+        <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+        <MaxHitPoints>70</MaxHitPoints>
+        <WorkToMake>800</WorkToMake>
+        <Mass>0.1</Mass>
+        <StuffEffectMultiplierArmor>0.08</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+        <Insulation_Cold>3</Insulation_Cold>
+        <Insulation_Heat>1</Insulation_Heat>
+        <EquipDelay>1</EquipDelay>
+        </statBases>
+        <recipeMaker>
+        <recipeUsers Inherit="false">
+            <li>CraftingSpot</li>
+            <li>ElectricTailoringBench</li>
+            <li>HandTailoringBench</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Crafting>3</Crafting>
+        </skillRequirements>
+        </recipeMaker>
+        <apparel>
+            <bodyPartGroups Inherit="false">
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Waist</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparels/Common/Children/underware/TighetsSuit_Child</wornGraphicPath>
+            <tags>
+                <li>AS_BasicClothing</li>
+                <li>AS_BasicTighets</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

@@ -10,9 +10,9 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_A</defName>
-		<graphicPath>Pawn/Heads/F_Head_1</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_A</defName>
+        <graphicPath>Pawn/Heads/F_Head_1</graphicPath>
+    </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
         <defName>AS_WAE_Head_B</defName>
@@ -20,14 +20,14 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_C</defName>
-		<graphicPath>Pawn/Heads/F_Head_3</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_C</defName>
+        <graphicPath>Pawn/Heads/F_Head_3</graphicPath>
+    </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_D</defName>
-		<graphicPath>Pawn/Heads/F_Head_4</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_D</defName>
+        <graphicPath>Pawn/Heads/F_Head_4</graphicPath>
+    </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
         <defName>AS_WAE_Head_E</defName>
@@ -35,9 +35,9 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_F</defName>
-		<graphicPath>Pawn/Heads/F_Head_6</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_F</defName>
+        <graphicPath>Pawn/Heads/F_Head_6</graphicPath>
+    </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
         <defName>AS_WAE_Head_G</defName>
@@ -45,14 +45,14 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_H</defName>
-		<graphicPath>Pawn/Heads/F_Head_8</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_H</defName>
+        <graphicPath>Pawn/Heads/F_Head_8</graphicPath>
+    </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_I</defName>
-		<graphicPath>Pawn/Heads/F_Head_9</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_I</defName>
+        <graphicPath>Pawn/Heads/F_Head_9</graphicPath>
+    </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
         <defName>AS_WAE_Head_J</defName>
@@ -60,13 +60,17 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_K</defName>
-		<graphicPath>Pawn/Heads/F_Head_11</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_K</defName>
+        <graphicPath>Pawn/Heads/F_Head_11</graphicPath>
+    </HeadTypeDef>
 
     <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
-		<defName>AS_WAE_Head_L</defName>
-		<graphicPath>Pawn/Heads/F_Head_12</graphicPath>
-	</HeadTypeDef>
+        <defName>AS_WAE_Head_L</defName>
+        <graphicPath>Pawn/Heads/F_Head_12</graphicPath>
+    </HeadTypeDef>
 
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+        <defName>AS_WAE_Baby</defName>
+        <graphicPath>Pawn/AddonHeads/Baby/Naked_Baby</graphicPath>
+    </HeadTypeDef>
 </Defs>

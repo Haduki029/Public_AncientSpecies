@@ -4,8 +4,8 @@
     <race>AS_WAE_Race</race>
     <combatPower>80</combatPower>
     <canBeSapper>true</canBeSapper>
-    <minGenerationAge>16</minGenerationAge>
-    <maxGenerationAge>70</maxGenerationAge>
+    <minGenerationAge>3</minGenerationAge>
+    <maxGenerationAge>45</maxGenerationAge>
     <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType>
     <invNutrition>2</invNutrition>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -42,10 +42,10 @@
     <defName>AS_WAE_HK_Colonist</defName>
     <label>神聖王国民</label>
     <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType>
-    <apparelRequired>
+    <!-- <apparelRequired>
       <li>AS_Common_PlainUnderwear</li>
       <li>AS_Common_PlainStoking</li>
-    </apparelRequired>
+    </apparelRequired> -->
     <apparelMoney>
       <min>300</min>
       <max>600</max>

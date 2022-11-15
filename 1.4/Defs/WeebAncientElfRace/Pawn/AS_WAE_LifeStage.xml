@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <LifeStageDef Name="AS_WAE_LifeStageBase" Abstract="True"></LifeStageDef>
+
+    <LifeStageDef ParentName="AS_WAE_LifeStageBase">
+        <defName>AS_WAE_LikeBaby</defName>
+        <label>古代エルフの赤ちゃん</label>
+        <bodySizeFactor>0.1</bodySizeFactor>
+        <bodyWidth>0.05</bodyWidth>
+        <bodyDrawOffset>(0, 0, 0)</bodyDrawOffset>
+        <voxPitch>1.6</voxPitch>
+        <headSizeFactor>0.01</headSizeFactor>
+        <eyeSizeFactor>0.7</eyeSizeFactor>
+        <foodMaxFactor>0.625</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.125 -->
+        <hungerRateFactor>0.125</hungerRateFactor> <!-- consumes 2x maxFood per day -->
+        <healthScaleFactor>0.2</healthScaleFactor>
+        <marketValueFactor>1.0</marketValueFactor>
+        <meleeDamageFactor>0.3</meleeDamageFactor>
+        <developmentalStage>Baby</developmentalStage>
+        <fallAsleepMaxThresholdOverride>0.60</fallAsleepMaxThresholdOverride>
+        <naturalWakeThresholdOverride>1.0</naturalWakeThresholdOverride>
+        <alwaysDowned>true</alwaysDowned>
+        <claimable>true</claimable>
+        <involuntarySleepIsNegativeEvent>false</involuntarySleepIsNegativeEvent> <!-- Babies just fall asleep randomly and they're cool with it. -->
+        <thinkTreeMainOverride MayRequire="Ludeon.RimWorld.Biotech">HumanlikeBaby</thinkTreeMainOverride>
+        <thinkTreeConstantOverride MayRequire="Ludeon.RimWorld.Biotech">HumanlikeBabyConstant</thinkTreeConstantOverride>
+        <canDoRandomMentalBreaks>false</canDoRandomMentalBreaks> <!-- Babies have crying/giggling fits instead of mental breaks. -->
+        <canSleepWhileHeld>true</canSleepWhileHeld>
+        <canVoluntarilySleep>false</canVoluntarilySleep> <!-- Babies fall asleep randomly when they're tired. -->
+        <canSleepWhenStarving>false</canSleepWhenStarving>
+        <canInitiateSocialInteraction>false</canInitiateSocialInteraction>
+        <customMoodTipString>その人の幸せ度やストレス度を表します。機嫌の悪い赤ちゃんは泣きやすく、機嫌の良い赤ちゃんはグズりやすい。</customMoodTipString>
+        <statFactors>
+            <MoveSpeed>0.2</MoveSpeed>
+        </statFactors>
+        <statOffsets>
+            <ComfyTemperatureMin>15</ComfyTemperatureMin>
+            <ComfyTemperatureMax>-8</ComfyTemperatureMax>
+        </statOffsets>
+        <involuntarySleepMTBDaysFromRest>
+            <points>
+                <li>(.00, 0)</li>
+                <li>(.01, .01)</li>
+                <li>(.15, .166)</li>
+                <li>(.30, 1)</li>
+                <li>(.59, 10)</li>
+                <li>(.60, Infinity)</li>
+            </points>
+        </involuntarySleepMTBDaysFromRest>
+    </LifeStageDef>
+
+    <LifeStageDef Name="AS_WAE_LifeStageLikeChild" ParentName="AS_WAE_LifeStageBase">
+        <defName>AS_WAE_LikeChild</defName>
+        <label>古代エルフの子供</label>
+        <bodySizeFactor>0.45</bodySizeFactor><!-- 増やすと体と頭の距離が離れる？どうやらBodyの位置を調整している？頭単体の調整はlifeStageAges内で。 -->
+        <bodyWidth>1.5</bodyWidth><!-- 身体のx, y共に縮む, 頭も縮む？ -->
+        <!-- <bodyDrawOffset>(0, 0, 0)</bodyDrawOffset> -->
+        <voxPitch>1.2</voxPitch>
+        <headSizeFactor>1.5</headSizeFactor><!-- 頭のAddonに影響する。（多分Bodywidthを同じ値を取り、AddonをPawnDrawsizeに連動するようにしておけばOK。 -->
+        <!-- <eyeSizeFactor>0.75</eyeSizeFactor> -->
+        <healthScaleFactor>0.5</healthScaleFactor>
+        <foodMaxFactor>2.286</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.8 -->
+        <hungerRateFactor>0.8</hungerRateFactor>
+        <marketValueFactor>0.9</marketValueFactor>
+        <meleeDamageFactor>0.7</meleeDamageFactor>
+        <developmentalStage>Child</developmentalStage>
+        <equipmentDrawDistanceFactor>0.55</equipmentDrawDistanceFactor>
+        <sittingOffset>0.3</sittingOffset>
+        <statFactors>
+            <MoveSpeed>0.80</MoveSpeed>
+        </statFactors>
+    </LifeStageDef>
+
+    <LifeStageDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_WAE_LifeStagePreTeenager" ParentName="AS_WAE_LifeStageBase">
+		<defName>AS_WAE_LikePreTeenager</defName>
+		<label>古代エルフの子供</label>
+		<bodySizeFactor>0.55</bodySizeFactor><!-- 増やすと体と頭の距離が離れる？どうやらBodyの位置を調整している？ -->
+        <bodyWidth>1.65</bodyWidth><!-- 身体と頭のサイズ調整 -->
+        <headSizeFactor>1.65</headSizeFactor><!-- 頭のAddonに影響する。（多分Bodywidthを同じ値を取り、AddonをPawnDrawsizeに連動するようにしておけばOK。 -->
+		<healthScaleFactor>0.7</healthScaleFactor>
+		<foodMaxFactor>1.552</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.9 -->
+		<hungerRateFactor>0.9</hungerRateFactor>
+		<marketValueFactor>0.95</marketValueFactor>
+		<meleeDamageFactor>0.725</meleeDamageFactor>
+        <developmentalStage>Child</developmentalStage>
+		<statFactors>
+			<MoveSpeed>0.90</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+    <LifeStageDef Name="AS_WAE_LifeStageLikeTeenager" ParentName="AS_WAE_LifeStageBase">
+        <defName>AS_WAE_LikeTeenager</defName>
+        <label>古代エルフの青年</label>
+        <adjective>10台のエルフ</adjective>
+        <reproductive>false</reproductive>
+        <bodySizeFactor>0.8</bodySizeFactor>
+        <healthScaleFactor>0.90</healthScaleFactor>
+        <foodMaxFactor>1.25</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 1.0 -->
+        <meleeDamageFactor>0.75</meleeDamageFactor>
+        <developmentalStage>Adult</developmentalStage>
+        <equipmentDrawDistanceFactor>0.65</equipmentDrawDistanceFactor>
+        <sittingOffset>0.23</sittingOffset>
+    </LifeStageDef>
+
+    <LifeStageDef>
+        <defName>AS_WAE_LikeAdult</defName>
+        <label>古代エルフ</label>
+        <visible>false</visible>
+        <reproductive>true</reproductive>
+        <sittingOffset>0.18</sittingOffset>
+        <!-- <developmentalStage>Adult</developmentalStage> -->
+    </LifeStageDef>
+
+</Defs>

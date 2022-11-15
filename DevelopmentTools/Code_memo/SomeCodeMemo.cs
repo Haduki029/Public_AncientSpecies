@@ -95,6 +95,54 @@ namespace SampleCode
                 disease.def.minSeverity = diseaseminSeveritybackup;//病気の最低進行度を元の正常な値に戻す。
                 disease.def.lethalSeverity = lethalSeveritybackup; //病気の致死進行度を元の正常な値に戻す。
             }
+
+            /**
+             *null 合体代入演算子 ??= は、左側のオペランドが null と評価された場合にのみ、
+             *右側のオペランドの値を左側のオペランドに代入します。 ??= 演算子では、左側のオペランドが
+             *null 値以外に評価された場合は、その右側のオペランドは評価されません。
+             *
+             */
+            public void LeftOperandCheck(){
+                (numbers ??= new List<int>()).Add(5);
+            }
+
+
+            /// <summary>
+            /// Thing側から自身を所有しているPawnを探し当てるメソッド。見つからなければnullを返すので注意。
+            /// </summary>
+            public static Pawn GetMyOwner<T>(T thing) where T : Thing
+            {
+                if (thing == null)
+                {
+                    return null;
+                }
+                IThingHolder parent = thing.ParentHolder;
+                if (parent == null)
+                {
+                    return null;
+                }
+                else if (parent is Pawn)
+                {
+                    return parent as Pawn;
+                }
+                Pawn owner = GetParent(parent) as Pawn;//一世代上に見つからなかったので二世代以上上はサブメソッドに丸投げ
+                return owner;
+            }
+            /// <summary>
+            /// GetMyOwnerの付録のサブメソッド。Pawnかnullが見つかるまで一つ上の世代を調べ続ける。
+            /// </summary>
+            private static IThingHolder GetParent(IThingHolder holder)
+            {
+                IThingHolder parent = holder.ParentHolder;//親
+                if (parent == null)
+                {
+                    return null;//行き止まりでした
+                }
+                if(parent is Pawn)
+                {
+                    return parent;//Pawnを見つけました
+                }
+                return GetParent(parent);//更に上の世代を探します
+            }
     }
 }
-

@@ -109,4 +109,16 @@
 		<parent>Items</parent>
 	</ThingCategoryDef>
 
+	<ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_Apparel_Child</defName>
+		<label>ancient spacies apparel for child</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_Apparel_Child_Underware</defName>
+		<label>ancient spacies Underware apparel for child</label>
+		<parent>AS_Apparel_Child</parent>
+	</ThingCategoryDef>
+
 </Defs>
