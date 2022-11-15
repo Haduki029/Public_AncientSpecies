@@ -8,7 +8,7 @@
     <thingClass>ShieldBelt</thingClass>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <texPath>Apparels/Common/neck/Scarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>100</costStuffCount>
@@ -45,7 +45,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <wornGraphicPath>Apparels/Common/neck/Scarf</wornGraphicPath>
       <layers>
         <li>Belt</li>
       </layers>

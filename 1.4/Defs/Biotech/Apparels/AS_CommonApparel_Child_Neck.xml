@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_ApparelBase_Child_Neck" ParentName="AS_ChildApparelCommonBase" Abstract="True">
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>AS_Neck</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_ApparelBase_Child_Neck">
+    <defName>AS_Common_PlainScarf_Child</defName>
+    <description>布で編まれた子供用スカーフで、首の防護を上げつつ、寒さへの耐性を得ることが出来る。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</description>
+    <label>AS子供用スカーフ</label>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Apparels/Common/neck/Scarf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>8500</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.14</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparels/Common/neck/Scarf</wornGraphicPath>
+      <layers>
+        <li>AS_Neck</li>
+      </layers>
+      <tags>
+        <li>AS_Common_Apparel_Child</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+</Defs>

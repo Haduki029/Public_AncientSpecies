@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-
-
-    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_ApparelBase_Child_Underware" ParentName="AS_ChildApparelCommonBase" Abstract="True">
-		<thingCategories>
-            <li>AS_Apparel_Child</li>
-        </thingCategories>
-        <apparel>
+    <ThingDef Name="AS_ApparelBase_Underware" ParentName="AS_ApparelCommonBase" Abstract="True">
+		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
                 <li>Legs</li>
@@ -18,34 +13,33 @@
                 <li>Worker</li>
                 <li>Soldier</li>
             </defaultOutfitTags>
-            <!-- <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<developmentalStageFilter>Child</developmentalStageFilter> -->
 		</apparel>
 	</ThingDef>
 
-    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_ApparelBase_Child_Underware">
+    <ThingDef ParentName="AS_ApparelBase_Underware">
         <techLevel>Neolithic</techLevel>
-        <defName>AS_Common_PlainUnderwear_Child</defName>
-        <description>皮や布で作られた簡素な子供用の女性下着。「Ancient Species Mod」の全種族が着用可能。</description>
-        <label>AS子供用簡素な下着</label>
+        <!-- <defName>AS_WHE_UnderwearA</defName> -->
+        <defName>AS_Common_PlainUnderwear</defName>
+        <description>皮や布で作られた簡素な女性用の下着。「Ancient Species Mod」の全種族が着用可能。</description>
+        <label>AS簡素な下着</label>
         <tradeTags>
             <li>BasicClothing</li>
             <li>AS_BasicClothing</li>
         </tradeTags>
         <graphicData>
-            <texPath>Apparels/Common/Children/underware/PlainUnderwear</texPath>
+            <texPath>Apparels/Common/underware/PlainUnderwear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.7, 0.7)</drawSize>
+            <drawSize>1.5</drawSize>
         </graphicData>
-        <costStuffCount>15</costStuffCount>
+        <costStuffCount>30</costStuffCount>
         <stuffCategories>
             <li>Fabric</li>
             <li>Leathery</li>
         </stuffCategories>
         <statBases>
             <MaxHitPoints>70</MaxHitPoints>
-            <WorkToMake>800</WorkToMake>
-            <Mass>0.1</Mass>
+            <WorkToMake>1200</WorkToMake>
+            <Mass>0.2</Mass>
             <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
@@ -64,35 +58,35 @@
             </skillRequirements>
         </recipeMaker>
         <apparel>
-            <wornGraphicPath>Apparels/Common/Children/underware/PlainUnderwear</wornGraphicPath>
+            <wornGraphicPath>Apparels/Common/underware/PlainUnderwear</wornGraphicPath>
             <tags>
-                <li>AS_Common_Apparel_Child</li>
+                <li>AS_Common_Apparel</li>
                 <li>AS_BasicClothing</li>
                 <li>AS_BasicUnderware</li>
             </tags>
         </apparel>
     </ThingDef>
 
-    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_ApparelBase_Child_Underware">
-        <defName>AS_Common_TighetsSuit_Child</defName>
-        <description>皮や布で作られた子供用の全身タイツスーツ。</description>
-        <label>AS子供用タイツスーツ</label>
+    <ThingDef ParentName="AS_ApparelBase_Underware">
+        <defName>AS_Common_TighetsSuit</defName>
+        <description>皮や布で作られた全身タイツスーツ。</description>
+        <label>ASタイツスーツ</label>
         <!-- <tradeTags><li>AS_WAE_Apparel</li></tradeTags> -->
         <techLevel>Medieval</techLevel>
         <graphicData>
-            <texPath>Apparels/Common/Children/underware/TighetsSuit</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.7, 0.7)</drawSize>
+        <texPath>Apparels/Common/underware/TighetsSuit</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.2</drawSize>
         </graphicData>
-        <costStuffCount>35</costStuffCount>
+        <costStuffCount>70</costStuffCount>
         <stuffCategories>
         <li>Fabric</li>
         <li>Leathery</li>
         </stuffCategories>
         <statBases>
         <MaxHitPoints>70</MaxHitPoints>
-        <WorkToMake>800</WorkToMake>
-        <Mass>0.1</Mass>
+        <WorkToMake>1200</WorkToMake>
+        <Mass>0.2</Mass>
         <StuffEffectMultiplierArmor>0.08</StuffEffectMultiplierArmor>
         <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
@@ -119,12 +113,11 @@
                 <li>Legs</li>
                 <li>Feet</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparels/Common/Children/underware/TighetsSuit</wornGraphicPath>
-            <tags>
-                <li>AS_Common_Apparel_Child</li>
-                <li>AS_BasicClothing</li>
-                <li>AS_BasicTighets</li>
-            </tags>
+            <wornGraphicPath>Apparels/Common/underware/TighetsSuit</wornGraphicPath>
+        <tags>
+            <li>AS_BasicClothing</li>
+            <li>AS_BasicTighets</li>
+        </tags>
         </apparel>
     </ThingDef>
 </Defs>

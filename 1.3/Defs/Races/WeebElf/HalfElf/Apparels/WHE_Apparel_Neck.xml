@@ -6,7 +6,7 @@
     <label>スカーフ（ハーフエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <texPath>Apparels/Common/neck/Scarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -42,7 +42,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <wornGraphicPath>Apparels/Common/neck/Scarf</wornGraphicPath>
       <layers>
         <li>AS_Neck</li>
       </layers>
@@ -63,7 +63,7 @@
     <thingClass>ShieldBelt</thingClass>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <texPath>Apparels/Common/neck/Scarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -105,7 +105,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <wornGraphicPath>Apparels/Common/neck/Scarf</wornGraphicPath>
       <layers>
         <li>Belt</li>
         <li>AS_Neck</li>
@@ -131,7 +131,7 @@
     <thingClass>AncientTechnology.AT_ShieldApparel</thingClass>
     <techLevel>Ultra</techLevel>
     <graphicData>
-      <texPath>WHE/Apparels/neck/Scarf</texPath>
+      <texPath>Apparels/Common/neck/Scarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
@@ -169,7 +169,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/neck/Scarf</wornGraphicPath>
+      <wornGraphicPath>Apparels/Common/neck/Scarf</wornGraphicPath>
       <layers>
         <li>Belt</li>
         <li>AS_Neck</li>

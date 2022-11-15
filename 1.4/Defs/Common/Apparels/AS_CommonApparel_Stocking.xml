@@ -1,15 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-
-    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_ApparelBase_Child_Stocking" ParentName="AS_ChildApparelCommonBase" Abstract="True">
-		<thingCategories>
-            <li>AS_Apparel_Child</li>
-        </thingCategories>
+    <ThingDef Name="AS_ApparelBase_Stocking" ParentName="AS_ApparelCommonBase" Abstract="True">
         <apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
+            <bodyPartGroups>
                 <li>Legs</li>
-			</bodyPartGroups>
+                <li>Feet</li>
+            </bodyPartGroups>
             <layers>
                 <li>AS_Stocking</li>
             </layers>
@@ -17,22 +13,23 @@
                 <li>Worker</li>
                 <li>Soldier</li>
             </defaultOutfitTags>
-		</apparel>
-	</ThingDef>
+        </apparel>
+    </ThingDef>
 
-    <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_ApparelBase_Child_Stocking">
+    <ThingDef ParentName="AS_ApparelBase_Stocking">
         <techLevel>Neolithic</techLevel>
-        <defName>AS_Common_PlainStoking_Child</defName>
+        <!-- <defName>AS_WHE_Neeso</defName> -->
+        <defName>AS_Common_PlainStoking</defName>
         <description>皮や布で作られた簡素なニーソックス。「Ancient Species Mod」の全種族が着用可能。</description>
-        <label>AS子供用簡素な靴下</label>
+        <label>AS簡素な靴下</label>
         <tradeTags>
             <li>BasicClothing</li>
             <li>AS_BasicClothing</li>
         </tradeTags>
         <graphicData>
-            <texPath>Apparels/Common/Children/stocking/NeeSo</texPath>
+            <texPath>Apparels/Common/stocking/NeeSo</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(0.7, 0.7)</drawSize>
+            <drawSize>1.5</drawSize>
         </graphicData>
         <costStuffCount>30</costStuffCount>
         <stuffCategories>
@@ -64,13 +61,12 @@
             </skillRequirements>
         </recipeMaker>
         <apparel>
-            <wornGraphicPath>Apparels/Common/Children/stocking/NeeSo</wornGraphicPath>
+            <wornGraphicPath>Apparels/Common/stocking/NeeSo</wornGraphicPath>
             <tags>
-                <li>AS_Common_Apparel_Child</li>
+                <li>AS_Common_Apparel</li>
                 <li>AS_BasicClothing</li>
                 <li>AS_BasicStoking</li>
             </tags>
         </apparel>
     </ThingDef>
-
 </Defs>

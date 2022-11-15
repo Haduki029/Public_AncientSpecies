@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <ThingDef Name="AS_WHE_ApparelBase_Neck" ParentName="AS_ApparelCommonBase" Abstract="True">
+    <apparel>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>AS_Neck</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="AS_WHE_ApparelBase_Neck">
+    <defName>AS_WHE_HyperShieldScarf</defName>
+    <description>シールドスカーフの技術を応用し、ハーフエルフの技術で改良したもの。外敵からの射撃を防ぐとともに、内部から射撃を行うことが可能になっている。</description>
+    <label>ASハイパーシールドスカーフ</label>
+    <thingClass>AncientTechnology.AT_ShieldApparel</thingClass>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Apparels/Common/neck/Scarf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>25</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>28000</WorkToMake>
+      <Mass>3</Mass>
+      <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.15</EnergyShieldEnergyMax>
+      <EquipDelay>1.5</EquipDelay>
+      <Flammability>0.25</Flammability>
+    </statBases>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>AS_WHE_HyperShieldScarfResearch</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparels/Common/neck/Scarf</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+        <li>AS_Neck</li>
+      </layers>
+      <tags>
+        <li>BeltDefense</li>
+        <li>AS_WHE_Knight</li>
+        <li>AS_WHE_HighleLevel_Apparel</li>
+        <li>AS_WAE_HK_HighArmor</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>

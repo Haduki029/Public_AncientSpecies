@@ -1,13 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
+  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_ApparelBase_Child_Onskin" ParentName="AS_ChildApparelCommonBase" Abstract="True">
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Waist</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
 
-  <ThingDef ParentName="AS_ApparelBase_Onskin">
+  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_ApparelBase_Child_Onskin" >
     <defName>AS_WAE_HKNationalCostume_Child</defName>
     <description>古代エルフの子供用民族衣装。エルフ神聖王国ではこの服装が一般的になっている。軽く動きやすい服。</description>
     <label>ASエルフの子供用民族衣装</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/Child/onskin/ColonistDressWare</texPath>
+      <texPath>Apparels/WAE/Children/onskin/ColonistDressWare</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.7, 0.7)</drawSize>
     </graphicData>
@@ -31,12 +49,12 @@
       <researchPrerequisite>AS_WAE_BasicApparelsResearch</researchPrerequisite>
     </recipeMaker>
     <apparel>
-      <wornGraphicPath>Apparels/WAE/onskin/ColonistDressWare</wornGraphicPath>
+      <wornGraphicPath>Apparels/WAE/Children/onskin/ColonistDressWare</wornGraphicPath>
       <defaultOutfitTags Inherit="false">
         <li>Worker</li>
       </defaultOutfitTags>
       <tags><!-- TODO: -->
-        <li>AS_WAE_HK_Colonist</li>
+        <li>AS_WAE_HK_Colonist_Child</li>
         <li>RoyalTier2</li>
       </tags>
     </apparel>
