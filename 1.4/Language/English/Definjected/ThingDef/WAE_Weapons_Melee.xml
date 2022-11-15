@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WHE_WAESword.label>Ancient Elvish Knightsword</AS_WHE_WAESword.label>
+  <AS_WHE_WAESword.description>A sword crafted with ancient Elven technology. Uranium is used for the blade, making it extremely durable and simple to sharpen. A replica made to look like the sword once used by the hero who saved the planet, according to ancient elf lore. Although it is said to be inferior to the original, it is a sword that is light, sturdy, and sharp, and is easy to handle, and assists the user in close combat.</AS_WHE_WAESword.description>
+  <AS_WHE_WAESword.tools.0.label>handle</AS_WHE_WAESword.tools.0.label>
+  <AS_WHE_WAESword.tools.1.label>point</AS_WHE_WAESword.tools.1.label>
+  <AS_WHE_WAESword.tools.2.label>edge</AS_WHE_WAESword.tools.2.label>
+
+  <AS_WAE_TwoHandWarAxe.label>AS Two Hand War Ax</AS_WAE_TwoHandWarAxe.label>
+  <AS_WAE_TwoHandWarAxe.description>A huge two-handed ax crafted with ancient elven technology. Because uranium is used in part of the blade, it is extremely durable and boasts high slashing power and attack range, but it is very heavy and hinders movement.</AS_WAE_TwoHandWarAxe.description>
+  <AS_WAE_TwoHandWarAxe.tools.0.label>handle</AS_WAE_TwoHandWarAxe.tools.0.label>
+  <AS_WAE_TwoHandWarAxe.tools.1.label>edge</AS_WAE_TwoHandWarAxe.tools.1.label>
+
+  <AS_WAE_ShorBlade.label>AS Short Blade</AS_WAE_ShorBlade.label>
+  <AS_WAE_ShorBlade.description>A slightly smaller blade crafted with ancient elven technology. Light weight and high cutting power.</AS_WAE_ShorBlade.description>
+  <AS_WAE_ShorBlade.tools.0.label>handle</AS_WAE_ShorBlade.tools.0.label>
+  <AS_WAE_ShorBlade.tools.1.label>blade</AS_WAE_ShorBlade.tools.1.label>
+  <AS_WAE_ShorBlade.tools.2.label>point</AS_WAE_ShorBlade.tools.2.label>
+
+
+</LanguageData>

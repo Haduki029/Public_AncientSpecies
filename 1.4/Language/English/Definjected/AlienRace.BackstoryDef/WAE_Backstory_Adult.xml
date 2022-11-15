@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Backstory_SlaveAdult.title>Elf Slave</AS_WAE_Backstory_SlaveAdult.title>
+  <AS_WAE_Backstory_SlaveAdult.titleShort>Elven Slave</AS_WAE_Backstory_SlaveAdult.titleShort>
+  <AS_WAE_Backstory_SlaveAdult.baseDescription>[PAWN_nameDef] is [PAWN_pronoun].</AS_WAE_Backstory_SlaveAdult.baseDescription>
+
+  <AS_WAE_Backstory_HunterAdult.title>Elf Hunter</AS_WAE_Backstory_HunterAdult.title>
+  <AS_WAE_Backstory_HunterAdult.titleShort>Elf Hunter</AS_WAE_Backstory_HunterAdult.titleShort>
+  <AS_WAE_Backstory_HunterAdult.baseDescription>[CAPWN_nameDef] lived in the small settlement of Half El. It's [CAPWN_pronoun].</AS_WAE_Backstory_HunterAdult.baseDescription>
+
+  <AS_WAE_Backstory_NormalAdult.title>Elf People</AS_WAE_Backstory_NormalAdult.title>
+  <AS_WAE_Backstory_NormalAdult.titleShort>Elf People</AS_WAE_Backstory_NormalAdult.titleShort>
+  <AS_WAE_Backstory_NormalAdult.baseDescription>[PAWN_nameDef] is [PAWN_pronoun].</AS_WAE_Backstory_NormalAdult.baseDescription>
+
+  <AS_WAE_Backstory_PKHunterAdult.title>Elf Master Hunter</AS_WAE_Backstory_PKHunterAdult.title>
+  <AS_WAE_Backstory_PKHunterAdult.titleShort>Elf Master Hunter</AS_WAE_Backstory_PKHunterAdult.titleShort>
+  <AS_WAE_Backstory_PKHunterAdult.baseDescription>[CAPWN_nameDef] is one of the most skilled hunters in the settlement. It's [CAPWN_pronoun].</AS_WAE_Backstory_PKHunterAdult.baseDescription>
+
+  <AS_WAE_Backstory_KnightAdult.title>Elf Knight</AS_WAE_Backstory_KnightAdult.title>
+  <AS_WAE_Backstory_KnightAdult.titleShort>Elf Knight</AS_WAE_Backstory_KnightAdult.titleShort>
+  <AS_WAE_Backstory_KnightAdult.baseDescription>[CAPWN_nameDef] is a knight who protects the settlement from enemies. It's [CAPWN_pronoun].</AS_WAE_Backstory_KnightAdult.baseDescription>
+
+  <AS_WAE_Backstory_PKKnightAdult.title>Elven Guardian Knight</AS_WAE_Backstory_PKKnightAdult.title>
+  <AS_WAE_Backstory_PKKnightAdult.titleShort>Elven Guardian Knight</AS_WAE_Backstory_PKKnightAdult.titleShort>
+  <AS_WAE_Backstory_PKKnightAdult.baseDescription>[CAPWN_nameDef] is one of the strongest knights who defends a settlement from enemies. It's [CAPWN_pronoun].</AS_WAE_Backstory_PKKnightAdult.baseDescription>
+
+
+</LanguageData>

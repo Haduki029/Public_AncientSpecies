@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Child_BackStory.title>Ancient Elven Child</AS_WAE_Child_BackStory.title>
+  <AS_WAE_Child_BackStory.titleShort>Child</AS_WAE_Child_BackStory.titleShort>
+  <AS_WAE_Child_BackStory.baseDescription>NAME spent his childhood in a small elven settlement as NAME as NAME.</AS_WAE_Child_BackStory.baseDescription>
+
+  <AS_WAE_ChildSlave_BackStory.title>Ancient Elven Child Slave</AS_WAE_ChildSlave_BackStory.title>
+  <AS_WAE_ChildSlave_BackStory.titleShort>Child Slave</AS_WAE_ChildSlave_BackStory.titleShort>
+  <AS_WAE_ChildSlave_BackStory.baseDescription>[CAPWN_nameDef] has a history of being captured and sold as [CAPWN_pronoun].</AS_WAE_ChildSlave_BackStory.baseDescription>
+
+  <AS_WAE_ChildServiceSlave_BackStory.title>Ancient Elven Child Service Slave</AS_WAE_ChildServiceSlave_BackStory.title>
+  <AS_WAE_ChildServiceSlave_BackStory.titleShort>Child Service Slave</AS_WAE_ChildServiceSlave_BackStory.titleShort>
+  <AS_WAE_ChildServiceSlave_BackStory.baseDescription>[PAWN_nameDef] has a history of being captured and sold as [PAWN_pronoun].</AS_WAE_ChildServiceSlave_BackStory.baseDescription>
+
+  <AS_WAE_WarriorApprentice_BackStory.title>Ancient Elven Warrior Apprentice</AS_WAE_WarriorApprentice_BackStory.title>
+  <AS_WAE_WarriorApprentice_BackStory.titleShort>Warrior Apprentice</AS_WAE_WarriorApprentice_BackStory.titleShort>
+  <AS_WAE_WarriorApprentice_BackStory.baseDescription>NAME spent his childhood in a small elf settlement as NAME as NAME.</AS_WAE_WarriorApprentice_BackStory.baseDescription>
+
+  <AS_WAE_HunterApprentice_BackStory.title>Apprentice Ancient Elf Hunter</AS_WAE_HunterApprentice_BackStory.title>
+  <AS_WAE_HunterApprentice_BackStory.titleShort>Hunter Apprentice</AS_WAE_HunterApprentice_BackStory.titleShort>
+  <AS_WAE_HunterApprentice_BackStory.baseDescription>NAME spent his childhood in a small elven settlement as NAME as NAME.</AS_WAE_HunterApprentice_BackStory.baseDescription>
+
+  <AS_WAE_KnightApprentice_BackStory.title>Ancient Elven Knight Apprentice</AS_WAE_KnightApprentice_BackStory.title>
+  <AS_WAE_KnightApprentice_BackStory.titleShort>Knight Apprentice</AS_WAE_KnightApprentice_BackStory.titleShort>
+  <AS_WAE_KnightApprentice_BackStory.baseDescription>NAME spent his childhood as NAME in a small elven settlement as NAME.</AS_WAE_KnightApprentice_BackStory.baseDescription>
+
+  <AS_WAE_HealerApprentice_BackStory.title>Ancient Elven Apothecary Apprentice</AS_WAE_HealerApprentice_BackStory.title>
+  <AS_WAE_HealerApprentice_BackStory.titleShort>Healer Apprentice</AS_WAE_HealerApprentice_BackStory.titleShort>
+  <AS_WAE_HealerApprentice_BackStory.baseDescription>NAME spent his childhood as NAME in a small elven settlement as NAME.</AS_WAE_HealerApprentice_BackStory.baseDescription>
+
+  <AS_WAE_ChildHouseKeeper_BackStory.title>Ancient Elf Housekeeper</AS_WAE_ChildHouseKeeper_BackStory.title>
+  <AS_WAE_ChildHouseKeeper_BackStory.titleShort>Home Help</AS_WAE_ChildHouseKeeper_BackStory.titleShort>
+  <AS_WAE_ChildHouseKeeper_BackStory.baseDescription>NAME spent his childhood as NAME in a small elf settlement as NAME.</AS_WAE_ChildHouseKeeper_BackStory.baseDescription>
+
+  <AS_WAE_ChildCook_BackStory.title>Ancient Elf Cook Apprentice</AS_WAE_ChildCook_BackStory.title>
+  <AS_WAE_ChildCook_BackStory.titleShort>Apprentice Cook</AS_WAE_ChildCook_BackStory.titleShort>
+  <AS_WAE_ChildCook_BackStory.baseDescription>NAME spent his childhood in a small elven settlement as NAME as NAME.</AS_WAE_ChildCook_BackStory.baseDescription>
+
+  <AS_WAE_SmithApprentice_BackStory.title>Ancient Elven Artisan Apprentice</AS_WAE_SmithApprentice_BackStory.title>
+  <AS_WAE_SmithApprentice_BackStory.titleShort>Artisan Apprentice</AS_WAE_SmithApprentice_BackStory.titleShort>
+  <AS_WAE_SmithApprentice_BackStory.baseDescription>NAME spent his childhood in a small elven settlement as NAME as NAME.</AS_WAE_SmithApprentice_BackStory.baseDescription>
+
+
+</LanguageData>

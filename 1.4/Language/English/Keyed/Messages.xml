@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MessageOdLevelUp>{PAWN_labelShort}'s {1} manipulation skills grew and got {2}.</MessageOdLevelUp>
+  <MessageOdEmpty>{PAWN_labelShort} is not available due to an empty {1}.</MessageOdEmpty>
+  <MessageActivatePhysicalBoost>{PAWN_labelShort} activated PhysicalBoost.</MessageActivatePhysicalBoost>
+  <MessageDeActivatePhysicalBoost>{PAWN_labelShort} deactivated PhysicalBoost.</MessageDeActivatePhysicalBoost>
+</LanguageData>

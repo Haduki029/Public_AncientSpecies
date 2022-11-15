@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ResearchProjectDef>
+    <defName>AS_WAE_Weapons</defName>
+    <label>古代エルフの武器技術</label>
+    <description>古代エルフが用いていた技術に関するもの。いくつかの武器が作成可能になる。</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef> -->
+
+  <AS_WAE_ElvenBowResearch.label>Ancient Elven Bow Crafting Research</AS_WAE_ElvenBowResearch.label>
+  <AS_WAE_ElvenBowResearch.description>Technical research on ancient Elven basic bows. Allows you to craft Elven Bows commonly used by Ancient Elves.</AS_WAE_ElvenBowResearch.description>
+
+  <AS_WAE_LowMeleeWeaponResearch.label>Ancient Elven Melee Weapon Research</AS_WAE_LowMeleeWeaponResearch.label>
+  <AS_WAE_LowMeleeWeaponResearch.description>Development of primitive weapons.</AS_WAE_LowMeleeWeaponResearch.description>
+
+  <AS_WAE_MidMeleeWeaponResearch.label>Ancient Elven Melee Weapon Research 2</AS_WAE_MidMeleeWeaponResearch.label>
+  <AS_WAE_MidMeleeWeaponResearch.description>Development of more combat-friendly weapons from primitive weapons.</AS_WAE_MidMeleeWeaponResearch.description>
+
+  <AS_WAE_RelicKnightsSwordWeaponResearch.label>Ancient Elven Knightsword Technology Research</AS_WAE_RelicKnightsSwordWeaponResearch.label>
+  <AS_WAE_RelicKnightsSwordWeaponResearch.description>Research of the sword of ancient elven lore once wielded by the hero who saved the planet. Upon completion, you will be able to craft the Ancient Elven Knight Sword.</AS_WAE_RelicKnightsSwordWeaponResearch.description>
+
+  <AS_WAE_BasicApparelsResearch.label>Ancient Elven Apparel Technology Research</AS_WAE_BasicApparelsResearch.label>
+  <AS_WAE_BasicApparelsResearch.description>Research on clothing commonly used by ancient elves.</AS_WAE_BasicApparelsResearch.description>
+
+  <AS_WAE_BasicArmorResearch.label>Ancient Elven Armor Technology Research</AS_WAE_BasicArmorResearch.label>
+  <AS_WAE_BasicArmorResearch.description>Research on armor commonly used by ancient elves.</AS_WAE_BasicArmorResearch.description>
+
+  <AS_WAE_MidArmorResearch.label>Ancient Elven Advanced Armor Technology Research</AS_WAE_MidArmorResearch.label>
+  <AS_WAE_MidArmorResearch.description>A study of the armor used by the higher ranks of the ancient Elves.</AS_WAE_MidArmorResearch.description>
+
+  <AS_WAE_NobleEquipmentResearch.label>Ancient Elven Noble Equipment Technology Research</AS_WAE_NobleEquipmentResearch.label>
+  <AS_WAE_NobleEquipmentResearch.description>Research on clothing used by ancient Elven nobles and high-level knights.</AS_WAE_NobleEquipmentResearch.description>
+
+  <AS_WAE_HighArmorResearch.label>Ancient Elven High Armor Technology Research</AS_WAE_HighArmorResearch.label>
+  <AS_WAE_HighArmorResearch.description>Research on armor used by the highest elite knights among the ancient elves.</AS_WAE_HighArmorResearch.description>
+</LanguageData>

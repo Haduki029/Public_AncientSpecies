@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<WHE_ElvenBow.label>AS Half Elven Bow</WHE_ElvenBow.label>
+  <WHE_ElvenBow.description>A replica version of the bow used by the ancient Elves. It is inferior to the bow of the ancient elves, but it is more powerful than the common bow and has rapid fire performance.</WHE_ElvenBow.description>
+  <WHE_ElvenBow.tools.0.label>limb</WHE_ElvenBow.tools.0.label>
+
+  <WHE_CompoundBow.label>AS Compound Bow</WHE_CompoundBow.label>
+  <WHE_CompoundBow.description>A large, semi-mechanical bow made using half-elf technology and the principle of pulleys and leverage. Rapid fire performance, flight distance, accuracy, and power are all high, but handling in close combat is poor. It uses carbon arrows and boasts high penetrating power.</WHE_CompoundBow.description>
+  <WHE_CompoundBow.tools.0.label>limb</WHE_CompoundBow.tools.0.label>
+
+  <WHE_ElvenCompoundBow.label>AS Elven Compound Bow</WHE_ElvenCompoundBow.label>
+  <WHE_ElvenCompoundBow.description>A large, semi-mechanical bow made by combining half-elven, elven, and ancient technology. Compared to compound bows, its rapid fire performance and flight distance are further enhanced, and its accuracy is also improved.</WHE_ElvenCompoundBow.description>
+  <WHE_ElvenCompoundBow.tools.0.label>limb</WHE_ElvenCompoundBow.tools.0.label>
+
+  <AS_WHE_HalfElvenArrow.label>Half Elven Arrow</AS_WHE_HalfElvenArrow.label>
+  <AS_WHE_CarbonArrow.label>Carbon Arrow</AS_WHE_CarbonArrow.label>
+  <AS_WHE_ElvenPowerArrow.label>Elven Power Arrow</AS_WHE_ElvenPowerArrow.label>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WHE_Scenario.label>[Half-Elf] At the End of the Fugitive</AS_WHE_Scenario.label>
+  <AS_WHE_Scenario.description>They are escaped half-elves who were hunted by the Space Tribe. He lived quietly and independently from a half-elf colony on this frontier planet, but one day he was attacked by cosmokin. While fleeing for many days, I managed to escape to a safe place, even though I was scattered with my friends. However, the threat of starkins and mechanoids hasn't disappeared. They decided to make a base in this new land and search for their scattered companions while preparing for an attack.</AS_WHE_Scenario.description>
+  <AS_WHE_Scenario.scenario.name>[Half-Elf] On the Edge of Exile</AS_WHE_Scenario.scenario.name>
+  <AS_WHE_Scenario.scenario.summary>This is a half-elf introduction scenario. There are three people at the start, and there are three scattered companions.</AS_WHE_Scenario.scenario.summary>
+  <AS_WHE_Scenario.scenario.description>They are escaped half-elves who were hunted by the Cosmokin. He lived quietly and independently from a half-elf colony on this frontier planet, but one day he was attacked by cosmokin. While fleeing for many days, I managed to escape to a safe place, even though I was scattered with my friends. However, the threat of starkins and mechanoids hasn't disappeared. They decided to make a base in this new land and search for their scattered companions while preparing for an attack.</AS_WHE_Scenario.scenario.description>
+  <AS_WHE_Scenario.scenario.parts.2.text>"You were living quietly on a remote planet, but one day you were attacked by a cosmokin hunter. While you were running away for days, there were six of you. The members were scattered, and they managed to escape safely, but they never knew when they would be attacked again by space tribes and terrifying mechanoids.They arrived at the end of a long escape. We have decided to build a new settlement on the ground."</AS_WHE_Scenario.scenario.parts.2.text>
+
+</LanguageData>

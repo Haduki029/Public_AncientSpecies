@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <AS_Hediff_PhysicalBoostDescriptionShort>Use the od energy in the body to strengthen the physical body. The more proficient one is in the manipulation of od energy, the greater the enhancement, but od energy is consumed during use and is canceled when it is gone.</AS_Hediff_PhysicalBoostDescriptionShort>
+  <AS_Hediff_PhysicalBoostLabel>Physical Boost</AS_Hediff_PhysicalBoostLabel>
+  <AS_Hediff_OdChargeDescriptionShort>It improves the rate of od energy recovery by reducing the flow of od through the body and drastically reducing consumption. During this time, physical capacity is reduced.</AS_Hediff_OdChargeDescriptionShort>
+  <AS_Hediff_OdChargeLabel>Od Charge</AS_Hediff_OdChargeLabel>
+</LanguageData>

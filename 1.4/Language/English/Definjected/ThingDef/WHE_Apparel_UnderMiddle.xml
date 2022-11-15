@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WHE_MaidWare.label>Maid Outfit (Half Elf)</AS_WHE_MaidWare.label>
+  <AS_WHE_MaidWare.description>Light and durable maid outfit. The long skirt has a loose and chic design. When equipped, your movement speed and work speed will increase slightly due to your pride as a maid.</AS_WHE_MaidWare.description>
+
+  <AS_WHE_Tribal.label>One piece of cloth (half-elves)</AS_WHE_Tribal.label>
+  <AS_WHE_Tribal.description>Clothing made with primitive tools. Although it is small, it has a heat insulating effect.</AS_WHE_Tribal.description>
+
+  <AS_WHE_TShirts.label>T-shirt (half elf)</AS_WHE_TShirts.label>
+  <AS_WHE_TShirts.description>A simple T-shirt. The fabric is thin and not very protective. There is no see-through function even if it gets wet in the rain.</AS_WHE_TShirts.description>
+
+  <AS_WHE_ShortPants.label>Short Pants (Half Elf)</AS_WHE_ShortPants.label>
+  <AS_WHE_ShortPants.description>Simple shorts. It has a nice design with less fabric and appeals to what you see, but the defense is low.</AS_WHE_ShortPants.description>
+
+  <AS_WHE_ShirtButton.label>Button Shirt (Half Elf)</AS_WHE_ShirtButton.label>
+  <AS_WHE_ShirtButton.description>Fashionable shirt and skirt with buttons. The chic design enhances the cuteness of the wearer.</AS_WHE_ShirtButton.description>
+
+  <AS_WHE_TankTop.label>Tank Top (Half Elf)</AS_WHE_TankTop.label>
+  <AS_WHE_TankTop.description>Easy-to-move-in tank top and bottoms. Because it is durable, it is suitable for field work. The attached chest ornament is one point.</AS_WHE_TankTop.description>
+
+</LanguageData>
