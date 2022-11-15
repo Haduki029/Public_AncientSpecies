@@ -481,6 +481,7 @@
           <li>AS_Common_TighetsSuit</li>
           <li>AS_Common_PlainStoking</li>
           <li>AS_Common_PlainUnderwear</li>
+          <li>AS_Common_PlainScarf</li>
           <li>AS_WAE_NobleCoat</li>
           <li>AS_WAE_NobleCoatBK</li>
           <li>AS_WAE_EliteKnightDress</li>
@@ -492,13 +493,15 @@
           <li>AS_WAE_FeatherHardHelm</li>
           <!-- <li>AS_WHE_ShoulderBack</li> -->
           <li>AS_WAE_HKNationalCostume</li>
-          <!-- <li>AS_WHE_ATShieldScarf</li> -->
+          <li>AS_AT_ShieldScarf</li>
+          <li>AS_WHE_HyperShieldScarf</li>
           <!-- <li>AS_WHE_NanoSuits</li> -->
 
           <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_PlainUnderwear_Child</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_TighetsSuit_Child</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_PlainStoking_Child</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">AS_WAE_HKNationalCostume_Child</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_PlainScarf_Child</li>
         </apparelList>
         <whiteApparelList>
           <li>Apparel_SmokepopBelt</li>
@@ -653,15 +656,19 @@
           <def>AS_WAE_LikeChild</def>
           <minAge>3</minAge>
           <customHeadDrawSize>(0.62,0.62)</customHeadDrawSize>
+          <customPortraitHeadDrawSize>(0.62,0.62)</customPortraitHeadDrawSize>
         </li>
         <li MayRequire="Ludeon.RimWorld.Biotech" Class="AlienRace.LifeStageAgeAlien">
           <def>AS_WAE_LikePreTeenager</def>
           <minAge>9</minAge>
           <customHeadDrawSize>(0.62,0.62)</customHeadDrawSize>
+          <customPortraitHeadDrawSize>(0.62,0.62)</customPortraitHeadDrawSize>
         </li>
         <li Class="AlienRace.LifeStageAgeAlien">
           <def>AS_WAE_LikeTeenager</def>
           <minAge>14</minAge>
+          <customHeadDrawSize>(0.9,0.9)</customHeadDrawSize>
+          <customPortraitHeadDrawSize>(0.9,0.9)</customPortraitHeadDrawSize>
         </li>
         <li Class="AlienRace.LifeStageAgeAlien">
           <def>AS_WAE_LikeAdult</def>
