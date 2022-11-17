@@ -21,7 +21,7 @@
 
 	<SoundDef>
         <defName>AS_Od_Charging</defName>
-        <context>Any</context>
+        <context>MapOnly</context>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
         <li>
@@ -31,8 +31,12 @@
                 <clipPath>Effect/OdCharge</clipPath>
             </li>
             </grains>
-            <volumeRange>5~29</volumeRange>
-            <distRange>30~50</distRange>
+            <!-- <volumeRange>35~35</volumeRange>
+            <pitchRange>0.9~1.1</pitchRange> -->
+            <volumeRange>25~25</volumeRange>
+            <pitchRange>0.9541176~1.137647</pitchRange>
+            <distRange>0~70</distRange>
+            <sustainLoop>False</sustainLoop>
         </li>
         </subSounds>
     </SoundDef>
