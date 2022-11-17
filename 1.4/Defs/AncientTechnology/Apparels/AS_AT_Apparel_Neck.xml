@@ -61,6 +61,7 @@
     </thingCategories>
     <apparel>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>

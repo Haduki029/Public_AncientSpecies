@@ -383,7 +383,7 @@
       <MeleeHitChance>0.3</MeleeHitChance>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
     </equippedStatOffsets>
-    <equippedAngleOffset>0</equippedAngleOffset>
+    <equippedAngleOffset>15</equippedAngleOffset>
     <tools>
       <li>
         <label>handle</label>
