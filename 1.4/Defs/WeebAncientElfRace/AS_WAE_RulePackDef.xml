@@ -14,6 +14,19 @@
     </rulePack>
   </RulePackDef>
 
+  <!-- キャラクター命名規則 -->
+  <RulePackDef>
+    <defName>AS_WAE_Name_Rule_Male</defName>
+    <include>
+			<li>AS_NameLibrary</li>
+		</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[AS_Firstname_Male] '[AS_Firstname_Male]' [AS_Lastname]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
 <!-- 村・街命名規則 -->
   <RulePackDef>
     <defName>AS_WAE_KingdomName_Rule</defName>
