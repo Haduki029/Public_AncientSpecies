@@ -37,7 +37,7 @@
       <WorkToMake>28000</WorkToMake>
       <Mass>3</Mass>
       <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>1.15</EnergyShieldEnergyMax>
