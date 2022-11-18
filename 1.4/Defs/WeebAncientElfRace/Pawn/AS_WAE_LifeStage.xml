@@ -7,10 +7,10 @@
         <defName>AS_WAE_LikeBaby</defName>
         <label>古代エルフの赤ちゃん</label>
         <bodySizeFactor>0.1</bodySizeFactor>
-        <bodyWidth>0.05</bodyWidth>
+        <bodyWidth>0.95</bodyWidth>
         <bodyDrawOffset>(0, 0, 0)</bodyDrawOffset>
         <voxPitch>1.6</voxPitch>
-        <headSizeFactor>0.01</headSizeFactor>
+        <headSizeFactor>0.95</headSizeFactor>
         <eyeSizeFactor>0.7</eyeSizeFactor>
         <foodMaxFactor>0.625</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.125 -->
         <hungerRateFactor>0.125</hungerRateFactor> <!-- consumes 2x maxFood per day -->
@@ -18,7 +18,7 @@
         <marketValueFactor>1.0</marketValueFactor>
         <meleeDamageFactor>0.3</meleeDamageFactor>
         <developmentalStage>Baby</developmentalStage>
-        <fallAsleepMaxThresholdOverride>0.60</fallAsleepMaxThresholdOverride>
+        <fallAsleepMaxThresholdOverride>0.6</fallAsleepMaxThresholdOverride>
         <naturalWakeThresholdOverride>1.0</naturalWakeThresholdOverride>
         <alwaysDowned>true</alwaysDowned>
         <claimable>true</claimable>
@@ -27,7 +27,7 @@
         <thinkTreeConstantOverride MayRequire="Ludeon.RimWorld.Biotech">HumanlikeBabyConstant</thinkTreeConstantOverride>
         <canDoRandomMentalBreaks>false</canDoRandomMentalBreaks> <!-- Babies have crying/giggling fits instead of mental breaks. -->
         <canSleepWhileHeld>true</canSleepWhileHeld>
-        <canVoluntarilySleep>false</canVoluntarilySleep> <!-- Babies fall asleep randomly when they're tired. -->
+        <canVoluntarilySleep>true</canVoluntarilySleep> <!-- Babies fall asleep randomly when they're tired. -->
         <canSleepWhenStarving>false</canSleepWhenStarving>
         <canInitiateSocialInteraction>false</canInitiateSocialInteraction>
         <customMoodTipString>その人の幸せ度やストレス度を表します。機嫌の悪い赤ちゃんは泣きやすく、機嫌の良い赤ちゃんはグズりやすい。</customMoodTipString>
@@ -35,8 +35,8 @@
             <MoveSpeed>0.2</MoveSpeed>
         </statFactors>
         <statOffsets>
-            <ComfyTemperatureMin>15</ComfyTemperatureMin>
-            <ComfyTemperatureMax>-8</ComfyTemperatureMax>
+            <ComfyTemperatureMin>10</ComfyTemperatureMin>
+            <ComfyTemperatureMax>-2</ComfyTemperatureMax>
         </statOffsets>
         <involuntarySleepMTBDaysFromRest>
             <points>
