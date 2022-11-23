@@ -6,11 +6,12 @@
       <li>1.1</li>
       <li>1.2</li>
       <li>1.3</li>
+      <li>1.4</li>
    </supportedVersions>
    <packageId>Haduki.AncientSpecies</packageId>
    <description>
    こちらのModは、いくつかの種族とその派閥や、専用の装備と研究を追加するMODです。
-   1.1バージョンのリムワールドでも動作しますが、最新の更新内容は1.3バージョンのみに対応しております。
+   1.1バージョンのリムワールドでも動作しますが、最新の更新内容は1.4バージョンのみに対応しております。
 
    [現在追加される種族]
    ・ハーフエルフ（Weeb Half Elf Race）
@@ -19,14 +20,11 @@
    [推奨Mod]
    ・Camera+
      ・キャラクターをドアップで堪能することが出来ます。
-   ・Hats Display Selection
-     ・無くても動作はしますが、頭装備をした際に髪が表示されません。
 
    [Supported language/サポートしている言語]
    Japanese
 
    [注意]
-   ・このModは現在開発中のものです。予告なく内容に変更が加わる場合がございます旨、ご了承下さい。
    ・バニラ体型の服装とは互換性がありません。
 
    [開発者]
@@ -41,6 +39,7 @@
    [Mod Information]
    Ver.1.10(latest)
    Supported Rimworld version is 1.3(.3389)
+   Supported Rimworld version is 1.4(.3542)
 
    [Attention]
    ※Modの互換性については、必ず対応するわけではなく、製作者の判断で行います旨ご了承の上、当Modをご利用ください。
@@ -60,6 +59,7 @@
    [1.0.0 - 20210531] : Add Weeb Ancient Elf.
    [1.0.1 - 20210825] : RimWorld 1.3 compatible Updated.
    [1.1.0 - 20221016] : RimWorld 1.3 compatible fix, add new equipments, add new Ancient Elven faction, adjust any parameters and etc.
+   [2.0.0 - 20221123] : RimWorld 1.4 compatible fix (Ancient Elf only), add a 2 bodytype, add baby image, physical boos and od charge action.
 
    (C) 2020, 2022, 2022 Haduki
    </description>
@@ -75,16 +75,10 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
-      <li>
-			<packageId>Butterfish.HairModdingPlus</packageId>
-			<displayName>Hair Modding Plus</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2114832515</steamWorkshopUrl>
-		</li>
 	</modDependencies>
    <loadAfter>
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 		<li>erdelf.HumanoidAlienRaces</li>
-      <li>Butterfish.HairModdingPlus</li>
 	</loadAfter>
 </ModMetaData>
