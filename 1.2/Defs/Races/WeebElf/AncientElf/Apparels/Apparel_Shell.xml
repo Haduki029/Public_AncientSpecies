@@ -7,7 +7,7 @@
     <label>姫騎士鎧（エンシェントエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>WAE/Apparels/undermiddle/KnightDress</texPath>
+      <texPath>Apparels/WAE/middle/KnightDress</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
@@ -64,7 +64,7 @@
         <li>Arms</li>
 		    <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>WAE/Apparels/undermiddle/KnightDress</wornGraphicPath>
+      <wornGraphicPath>Apparels/WAE/middle/KnightDress</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>

@@ -5,8 +5,8 @@
     <label>古代エルフの集落</label>
     <techLevel>Industrial</techLevel>
     <description>古代エルフ達の集落。</description>
-    <settlementTexturePath>WAE/Factions/WAE_Faction</settlementTexturePath>
-    <factionIconPath>WAE/Factions/WAE_Faction</factionIconPath>
+    <settlementTexturePath>Factions/WAE_Faction</settlementTexturePath>
+    <factionIconPath>Factions/WAE_Faction</factionIconPath>
     <pawnSingular>古代エルフ</pawnSingular>
     <pawnsPlural>古代エルフ達</pawnsPlural>
     <listOrderPriority>20</listOrderPriority>

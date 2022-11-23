@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  
+
   <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_WHE_ApparelColorBase">
     <defName>AS_WAE_FeatherHelm</defName>
     <description>金属の額当てに、羽飾りで装飾されたヘルム。見た目の割にかなり高性能なものになっている。</description>
     <label>フェザーヘルム（エンシェントエルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>WAE/Apparels/overhead/FeatherHelm</texPath>
+      <texPath>Apparels/WAE/overhead/FeatherHelm</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <followStuffColor>false</followStuffColor>
@@ -23,7 +23,7 @@
     <statBases>
       <MaxHitPoints>280</MaxHitPoints>
       <WorkToMake>27500</WorkToMake>
-      <Mass>2</Mass>      
+      <Mass>2</Mass>
       <Flammability>0.01</Flammability>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
@@ -56,7 +56,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>WAE/Apparels/overhead/FeatherHelm</wornGraphicPath>
+      <wornGraphicPath>Apparels/WAE/overhead/FeatherHelm</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

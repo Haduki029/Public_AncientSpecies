@@ -7,7 +7,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE1</texPath>
+		<texPath>Pawn/Hairs_old/WHE1</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -16,7 +16,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE2</texPath>
+		<texPath>Pawn/Hairs_old/WHE2</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -25,7 +25,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE3</texPath>
+		<texPath>Pawn/Hairs_old/WHE3</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -34,7 +34,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE4</texPath>
+		<texPath>Pawn/Hairs_old/WHE4</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -43,7 +43,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE5</texPath>
+		<texPath>Pawn/Hairs_old/WHE5</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -52,7 +52,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE6</texPath>
+		<texPath>Pawn/Hairs_old/WHE6</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -61,7 +61,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE7</texPath>
+		<texPath>Pawn/Hairs_old/WHE7</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -70,7 +70,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE8</texPath>
+		<texPath>Pawn/Hairs_old/WHE8</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -79,7 +79,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE9</texPath>
+		<texPath>Pawn/Hairs_old/WHE9</texPath>
 	</HairDef>
 
 	<HairDef>
@@ -88,43 +88,7 @@
 		<hairTags>
 			<li>AS_WEl_Hairs</li>
 		</hairTags>
-		<texPath>WHE/Hairs/WHE10</texPath>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_11</defName>
-		<label>ASロングヘアー３</label>
-		<hairTags>
-			<li>AS_WEl_Hairs</li>
-		</hairTags>
-		<texPath>WHE/Hairs/WHE11</texPath>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_12</defName>
-		<label>ASロングヘアー４</label>
-		<hairTags>
-			<li>AS_WEl_Hairs</li>
-		</hairTags>
-		<texPath>WHE/Hairs/WHE12</texPath>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_13</defName>
-		<label>ASロングヘアー４</label>
-		<hairTags>
-			<li>AS_WEl_Hairs</li>
-		</hairTags>
-		<texPath>WHE/Hairs/WHE13</texPath>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_14</defName>
-		<label>ASロングヘアー５</label>
-		<hairTags>
-			<li>AS_WEl_Hairs</li>
-		</hairTags>
-		<texPath>WHE/Hairs/WHE14</texPath>
+		<texPath>Pawn/Hairs_old/WHE10</texPath>
 	</HairDef>
 
 </Defs>

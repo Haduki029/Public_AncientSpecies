@@ -11,7 +11,7 @@
       <li>AS_WHE_Knight</li>
     </weaponTags>
     <graphicData>
-      <texPath>WHE/Weapons/Melee/AncientElfSword_Reproduction_Drop</texPath>
+      <texPath>Weapons/melee/T2/KnightSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
       <drawOffset>0.0,0,0</drawOffset>

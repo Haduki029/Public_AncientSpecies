@@ -3,11 +3,8 @@
   <FactionDef Name="WAE_NPC_FactionsBase" Abstract="True">
     <settlementTexturePath>WHE/WHE_Faction</settlementTexturePath>
     <startingResearchTags Inherit="False">
-			<li>ClassicStart</li>
-		</startingResearchTags>
-    <colorSpectrum>
-      <li>(0.82, 0.23, 0.23)</li>
-    </colorSpectrum>
+		<li>ClassicStart</li>
+	</startingResearchTags>
     <permanentEnemy>true</permanentEnemy><!-- 永続的に敵対 -->
     <earliestRaidDays>350</earliestRaidDays><!-- 襲撃までの日数 -->
     <allowedArrivalTemperatureRange>-25~50</allowedArrivalTemperatureRange>

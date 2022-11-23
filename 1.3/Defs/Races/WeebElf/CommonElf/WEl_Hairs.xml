@@ -5,7 +5,7 @@
 		<defName>AS_WHE_Hair_01</defName>
 		<label>ASツインテール１</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE1</texPath>
+		<texPath>Pawn/Hairs_old/WHE1</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -18,7 +18,7 @@
 		<defName>AS_WHE_Hair_02</defName>
 		<label>ASロングヘアー１</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE2</texPath>
+		<texPath>Pawn/Hairs_old/WHE2</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -31,7 +31,7 @@
 		<defName>AS_WHE_Hair_03</defName>
 		<label>ASロングヘアー２</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE3</texPath>
+		<texPath>Pawn/Hairs_old/WHE3</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -44,7 +44,7 @@
 		<defName>AS_WHE_Hair_04</defName>
 		<label>ASポニーテール１</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE4</texPath>
+		<texPath>Pawn/Hairs_old/WHE4</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -57,7 +57,7 @@
 		<defName>AS_WHE_Hair_05</defName>
 		<label>ASショートヘアー１</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE5</texPath>
+		<texPath>Pawn/Hairs_old/WHE5</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -70,7 +70,7 @@
 		<defName>AS_WHE_Hair_06</defName>
 		<label>ASボブカット１</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE6</texPath>
+		<texPath>Pawn/Hairs_old/WHE6</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -83,7 +83,7 @@
 		<defName>AS_WHE_Hair_07</defName>
 		<label>ASミドルショート１</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE7</texPath>
+		<texPath>Pawn/Hairs_old/WHE7</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -96,7 +96,7 @@
 		<defName>AS_WHE_Hair_08</defName>
 		<label>ASショートヘアー２</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE8</texPath>
+		<texPath>Pawn/Hairs_old/WHE8</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -109,7 +109,7 @@
 		<defName>AS_WHE_Hair_09</defName>
 		<label>ASハーフアップ１</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE9</texPath>
+		<texPath>Pawn/Hairs_old/WHE9</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -122,59 +122,7 @@
 		<defName>AS_WHE_Hair_10</defName>
 		<label>ASツインテール２</label>
 		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE10</texPath>
-		<category>AS_WHE_Style</category>
-		<styleTags>
-			<li>AS_Style</li>
-			<li>AS_WEl_Hairs</li>
-			<li>AS_WHE_Style</li>
-		</styleTags>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_11</defName>
-		<label>ASロングヘアー３</label>
-		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE11</texPath>
-		<category>AS_WHE_Style</category>
-		<styleTags>
-			<li>AS_Style</li>
-			<li>AS_WEl_Hairs</li>
-			<li>AS_WHE_Style</li>
-		</styleTags>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_12</defName>
-		<label>ASロングヘアー４</label>
-		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE12</texPath>
-		<category>AS_WHE_Style</category>
-		<styleTags>
-			<li>AS_Style</li>
-			<li>AS_WEl_Hairs</li>
-			<li>AS_WHE_Style</li>
-		</styleTags>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_13</defName>
-		<label>ASロングヘアー４</label>
-		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE13</texPath>
-		<category>AS_WHE_Style</category>
-		<styleTags>
-			<li>AS_Style</li>
-			<li>AS_WEl_Hairs</li>
-			<li>AS_WHE_Style</li>
-		</styleTags>
-	</HairDef>
-
-	<HairDef>
-		<defName>AS_WHE_Hair_14</defName>
-		<label>ASロングヘアー５</label>
-		<styleGender>Female</styleGender>
-		<texPath>WHE/Hairs/WHE14</texPath>
+		<texPath>Pawn/Hairs_old/WHE10</texPath>
 		<category>AS_WHE_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
