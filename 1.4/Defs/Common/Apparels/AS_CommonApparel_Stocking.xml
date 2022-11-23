@@ -18,7 +18,6 @@
 
     <ThingDef ParentName="AS_ApparelBase_Stocking">
         <techLevel>Neolithic</techLevel>
-        <!-- <defName>AS_WHE_Neeso</defName> -->
         <defName>AS_Common_PlainStoking</defName>
         <description>皮や布で作られた簡素なニーソックス。「Ancient Species Mod」の全種族が着用可能。</description>
         <label>AS簡素な靴下</label>
