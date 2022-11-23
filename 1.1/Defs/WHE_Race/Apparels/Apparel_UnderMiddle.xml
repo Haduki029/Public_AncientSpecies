@@ -66,7 +66,7 @@
     <label>一枚布（ハーフエルフ）</label>
     <techLevel>Neolithic</techLevel>
     <graphicData>
-      <texPath>WHE/Apparels/undermiddle/Tribal</texPath>
+      <texPath>Apparels/Common/onskin/Tribal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -97,7 +97,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>WHE/Apparels/undermiddle/Tribal</wornGraphicPath>
+      <wornGraphicPath>Apparels/Common/onskin/Tribal</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
