@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>AS_WHE_InstallBionicEar</defName>
+    <label>バイオニックハーフエルフ耳を付ける</label>
+    <description>バイオニックハーフエルフ耳を付ける。</description>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+    <jobString>バイオニックハーフエルフ耳を付ける。</jobString>
+    <workAmount>2000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AS_WHE_BionicEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>AS_WHE_BionicEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>AS_WHE_BionicEar</addsHediff>
+  </RecipeDef>
+</Defs>

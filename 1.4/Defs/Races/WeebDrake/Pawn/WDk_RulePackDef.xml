@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- キャラクター命名規則 -->
+  <RulePackDef>
+    <defName>AS_WDk_Name_Rule</defName>
+    <include>
+			<li>AS_NameLibrary</li>
+		</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[AS_Firstname] [AS_Lastname]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

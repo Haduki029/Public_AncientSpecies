@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <FactionDef ParentName="WAE_NPC_FactionsBase">
+    <defName>AS_WAE_HolyKingdom</defName>
+    <label>エルフ神聖王国</label>
+    <fixedName>エルフ神聖王国</fixedName>
+    <techLevel>Industrial</techLevel>
+    <description>エルフ絶対主義思想の王権制国家。\n非常に小規模な国家で、エンシェントエルフを頂点とし、その他の構成は他種族の奴隷がほとんどである。\nこの勢力のエンシェントエルフ達は、基本的に他の種族を見下しており、特に人間に対しての嫌悪感情が非常に強い。\n一人の王を頂点とし、その下にはいくつかの貴族が属している。\n非常に強力なエンシェントエルフの騎士達が率いる騎士団を持つ。\n特に力のある者は守護騎士と呼ばれている。\nこの国のエンシェントエルフ達は、剣と弓による戦闘を中心とした戦いを好み、銃器の使用をするものを臆病者としている。</description>
+    <settlementTexturePath>WAE/Factions/WAE_Faction</settlementTexturePath>
+    <factionIconPath>WAE/Factions/WAE_Faction</factionIconPath>
+    <isPlayer>false</isPlayer>
+    <pawnSingular>神聖王国の民</pawnSingular>
+    <pawnsPlural>神聖王国の民達</pawnsPlural>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>0.05</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <earliestRaidDays>300</earliestRaidDays>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>false</canMakeRandomly>
+    <canSiege>false</canSiege><!-- 包囲襲撃 -->
+		<canStageAttacks>true</canStageAttacks><!-- 準備襲撃 -->
+    <autoFlee>false</autoFlee><!-- 撤退可否 -->
+    <leaderTitle>神王</leaderTitle>
+    <fixedLeaderKinds>
+      <li>AS_WAE_HK_GuardianKnight</li>
+    </fixedLeaderKinds><!-- TODO: 変更予定 -->
+    <factionNameMaker>AS_WAE_KingdomName_Rule</factionNameMaker>
+    <settlementNameMaker>AS_WAE_KingdomName_Rule</settlementNameMaker>
+    <geneticVariance>0.5</geneticVariance>
+    <backstoryCategories>
+      <li>AS_WAE_HolyKingdom</li>
+    </backstoryCategories>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li> <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,40)</li>
+        <li>(70, 80)</li>
+        <li>(700, 120)</li>
+        <li>(1300, 240)</li>
+        <li>(5000, 1200)</li>
+        <li>(30000, 16000)</li>
+        <li>(200000, 160000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <raidLootValueFromPointsCurve>
+			<points>
+			  <li>(35,     40)</li>
+			  <li>(100,   120)</li>
+			  <li>(1000,  500)</li>
+			  <li>(2000, 1600)</li>
+			  <li>(4000, 2400)</li>
+        <li>(6000, 4800)</li>
+        <li>(8000, 8000)</li>
+			</points>
+		</raidLootValueFromPointsCurve>
+    <!-- <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
+      <li>AS_WAE_HK_Cultures</li>
+    </allowedCultures> -->
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+    </requiredMemes>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Acceptable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
+    </disallowedPrecepts>
+    <pawnGroupMakers>
+      <!-- <li>
+        <kindDef>Combat</kindDef>
+        <commonality>80</commonality>
+        <maxTotalPoints>3000</maxTotalPoints>
+        <options>
+          <AS_WAE_HK_Warrior>8</AS_WAE_HK_Warrior>
+          <AS_WAE_HK_Hunter>9</AS_WAE_HK_Hunter>
+        </options>
+      </li> -->
+      <li>
+        <!-- <kindDef>KnightsLegion</kindDef> -->
+        <kindDef>Combat</kindDef>
+        <commonality>50</commonality>
+        <options>
+          <AS_WAE_HK_Archer>1</AS_WAE_HK_Archer>
+          <AS_WAE_HK_Warrior>3</AS_WAE_HK_Warrior>
+          <AS_WAE_HK_GuardianKnight>2</AS_WAE_HK_GuardianKnight>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef Name="AS_WDk_Backstory_Base" Abstract="True">
+
+
+	<!--■↓強制的に付与する特性-->
+	<forcedTraits>
+	
+	</forcedTraits>
+	
+	
+	<!--■↓強制的に排除する特性-->
+	<disallowedTraits>
+	
+	</disallowedTraits>
+	
+	
+	<!--■↓強制的に付与するバフ-->
+	<forcedHediffs>
+
+	</forcedHediffs>  
+
+	<!--■↓強制的に変更する体格-->
+	<bodyTypeGlobal>Female</bodyTypeGlobal>
+	<bodyTypeMale>Female</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+
+</AlienRace.BackstoryDef>
+
+</Defs>

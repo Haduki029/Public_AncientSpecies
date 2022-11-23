@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_MidBulletResearch</defName>
+    <label>古代の技術 特殊弾薬研究</label>
+    <description>ある古代種族が用いていた技術について、銃器で使用可能な、より強力な弾薬についての研究。</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_WHE_ATWeaponCustomizationResearch</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_ATWeaponCustomizationResearch</defName>
+    <label>武器の改造技術研究</label>
+    <description>古代の技術を改造し、さらなる強化を行うための技術研究。</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_AT_TechAdvanceResearch</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>3</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_Apparel_Basic</defName>
+    <label>ハーフエルフの簡単な衣類</label>
+    <description>ハーフエルフ達の簡単な衣類を作成するための技術。</description>
+    <baseCost>150</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_Apparel_Elementary</defName>
+    <label>ハーフエルフの初歩的な衣類</label>
+    <description>ハーフエルフ達の初歩的な衣類を作成するための技術。</description>
+    <baseCost>600</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>AS_WHE_Apparel_Basic</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_Apparel_Intermediate</defName>
+    <label>ハーフエルフの複雑な衣類</label>
+    <description>ハーフエルフ達の複雑な衣類を作成するための技術。</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_WHE_Apparel_Elementary</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_Apparel_Spacer</defName>
+    <label>ハーフエルフの高度な衣類</label>
+    <description>ハーフエルフたちの技術を応用した、高度な衣類を作成するための技術。</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AS_WHE_Apparel_Intermediate</li>
+	    <li>Machining</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_HyperShieldScarfResearch</defName>
+    <label>ハイパーシールドスカーフの研究</label>
+    <description>古代の技術を使い、シールドスカーフを改造する技術の研究。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AS_WHE_Apparel_Spacer</li>
+	    <li>AS_AT_SpacerTechResearch</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>3</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_NanoSuitsResearch</defName>
+    <label>ナノスーツの研究</label>
+    <description>古代の技術を応用した、全身を覆うナノスーツの開発研究。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>AS_WHE_Apparel_Spacer</li>
+	    <li>AS_AT_SpacerTechResearch</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>4</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_Weapons</defName>
+    <label>ハーフエルフの武具技術</label>
+    <description>ハーフエルフの知識、技術による武器が作成可能になる。</description>
+    <baseCost>350</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_HalfElvenBowResearch</defName>
+    <label>エルフの弓解析</label>
+    <description>古代エルフの弓について研究する。完了するとレプリカ版が作成できるようになる。</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>Greatbow</li>
+      <li>AS_WHE_Weapons</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>5</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_CompoundBowResearch</defName>
+    <label>ハーフエルフ式のコンパウンドボウ研究</label>
+    <description>古代の技術に関する知識を活かし、新たな機械式弓の研究を行う。</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_WHE_HalfElvenBowResearch</li>
+      <li>AS_AT_TechAdvanceResearch</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>5</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_ElvenCompoundBowResearch</defName>
+    <label>改良型のコンパウンドボウ研究</label>
+    <description>ハーフエルフの知識と古代技術の知識に加え、古代エルフの技術を組み合わせた新たな機械式弓の研究を行う。</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AS_WHE_CompoundBowResearch</li>
+      <li>AS_WAE_ElvenBowResearch</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>5</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WHE_RelicKnightsSwordReWeaponResearch</defName>
+    <label>エルフの騎士剣解析</label>
+    <description>古代エルフが使用している騎士剣の研究。完了するとレプリカ版が作成できるようになる。</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>LongBlades</li>
+      <li>AS_WHE_Weapons</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>6</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <!-- <ResearchProjectDef>
+    <defName>AS_WAE_Weapons</defName>
+    <label>古代エルフの武器技術</label>
+    <description>古代エルフが用いていた技術に関するもの。いくつかの武器が作成可能になる。</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef> -->
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_ElvenBowResearch</defName>
+    <label>古代エルフの弓作成技術研究</label>
+    <description>古代エルフ基礎的な弓に関する技術研究。古代エルフで一般的に使用されているエルブンボウが作成可能になる。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>Greatbow</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>7</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_LowMeleeWeaponResearch</defName>
+    <label>古代エルフの近接武器の研究</label>
+    <description>原始的な武器の開発。</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>8</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_MidMeleeWeaponResearch</defName>
+    <label>古代エルフの近接武器の研究２</label>
+    <description>原始的な武器のからより戦闘に向いた武器の開発。</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>AS_WAE_LowMeleeWeaponResearch</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>8</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_RelicKnightsSwordWeaponResearch</defName>
+    <label>古代エルフの騎士剣技術研究</label>
+    <description>古代エルフの伝承にある、かつて星を救った英雄が使っていたとされる剣についての研究。完了することで古代エルフの騎士剣が作成できるようになる。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_WAE_MidMeleeWeaponResearch</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>8</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_BasicApparelsResearch</defName>
+    <label>古代エルフの衣類技術研究</label>
+    <description>古代エルフが一般的に使用している衣服の研究。</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>9</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_BasicArmorResearch</defName>
+    <label>古代エルフのアーマー技術研究</label>
+    <description>古代エルフが一般的に使用しているアーマーの研究。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>AS_WAE_BasicApparelsResearch</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>9</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_MidArmorResearch</defName>
+    <label>古代エルフの上級アーマー技術研究</label>
+    <description>古代エルフの中でも、階級が高い者たちが使用するアーマーの研究。</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+      <li>AS_WAE_BasicArmorResearch</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>9</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_NobleEquipmentResearch</defName>
+    <label>古代エルフの貴族装備技術研究</label>
+    <description>古代エルフの貴族や高レベルの騎士が使用する衣服の研究。</description>
+    <baseCost>2200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_WAE_MidArmorResearch</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>9</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AS_WAE_HighArmorResearch</defName>
+    <label>古代エルフの最上級アーマー技術研究</label>
+    <description>古代エルフの中でも、最上級の騎士が使用するアーマーの研究。</description>
+    <baseCost>2800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>AS_WAE_NobleEquipmentResearch</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>9</researchViewY>
+	  <tab>AS_ResearchTab</tab>
+  </ResearchProjectDef>
+</Defs>

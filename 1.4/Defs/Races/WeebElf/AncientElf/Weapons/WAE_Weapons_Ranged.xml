@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ThingDef Name="WAE_BaseWeaponNeolithic" Abstract="True" ParentName="BaseWeapon">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_WAE_Weapons</li>
+        </thingCategories>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags Inherit="false">
+            <li>AS_Weapons</li>
+            <li>AS_WAE_Ranged</li>
+            <li>AS_WAE_NeolithicRanged</li>
+        </weaponTags>
+        <burnableByRecipe>true</burnableByRecipe>
+        <comps>
+        <li>
+            <compClass>CompQuality</compClass>
+        </li>
+        </comps>
+        <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <recipeUsers>
+            <li>ElectricSmithy</li>
+            <li>FueledSmithy</li>
+        </recipeUsers>
+        <effectWorking>Smelt</effectWorking>
+        <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="WAE_BaseWeaponNeolithic">
+        <defName>WAE_ElvenBow_Origin</defName>
+        <label>ASエルブンボウ</label>
+        <description>古代エルフが使っている複合弓です。古代エルフの特殊な技術で作られており、小型で軽量なことによる近距離での取り回しの良さだけでなく、中、遠距離でも安定した命中精度と、非常に高い命中力を誇る。</description>
+        <graphicData>
+            <texPath>WAE/Weapons/bow/ElvenBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <onGroundRandomRotateAngle>30</onGroundRandomRotateAngle>
+            <drawSize>1.3</drawSize>
+			<drawOffset>0,-0.3,0</drawOffset>
+        </graphicData>
+        <soundInteract>Bow_Large</soundInteract>
+        <weaponTags>
+            <li>AS_WAE_Bow</li>
+            <li>AS_WAE_NeolithicRanged</li>
+            <li>AS_WAE_LowNeolithicRanged</li>
+        </weaponTags>
+        <costList>
+            <WoodLog>190</WoodLog>
+            <Plasteel>10</Plasteel>
+            <Hyperweave>1</Hyperweave>
+        </costList>
+        <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+        <statBases>
+            <WorkToMake>19000</WorkToMake>
+            <Mass>1.2</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.90</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.80</AccuracyLong>
+            <RangedWeapon_Cooldown>0.86</RangedWeapon_Cooldown>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>AS_WAE_ElvenArrow</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>34.5</range>
+                <soundCast>Bow_Large</soundCast>
+            </li>
+        </verbs>
+        <tools>
+        <li>
+            <label>limb</label>
+            <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        </tools>
+        <generateCommonality>0.2</generateCommonality>
+        <recipeMaker>
+            <recipeUsers>
+                <li>CraftingSpot</li>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <researchPrerequisite>AS_WAE_ElvenBowResearch</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseProjectileNeolithic">
+        <defName>AS_WAE_ElvenArrow</defName>
+        <label>エルフの矢</label>
+        <graphicData>
+        <texPath>Things/Projectile/Arrow_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+        <damageDef>Arrow</damageDef>
+        <damageAmountBase>19</damageAmountBase>
+        <stoppingPower>1.8</stoppingPower>
+        <armorPenetrationBase>0.25</armorPenetrationBase>
+        <speed>69</speed>
+        </projectile>
+    </ThingDef>
+
+</Defs>

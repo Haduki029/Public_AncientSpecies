@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BasePawn" Name="AS_Drake_CommonBasePawn" Abstract="True">
+      <thingClass>Pawn</thingClass>
+      <category>Pawn</category>
+      <selectable>true</selectable>
+      <tickerType>Normal</tickerType>
+      <altitudeLayer>Pawn</altitudeLayer>
+      <useHitPoints>false</useHitPoints>
+      <hasTooltip>true</hasTooltip>
+      <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+      <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+  <AlienRace.ThingDef_AlienRace ParentName="AS_Drake_CommonBasePawn">
+    <defName>AS_WDk_Race</defName>
+    <label>ドレイク</label>
+    <description>ドレイクは遥か昔に別の惑星に存在した、龍種から作られた人造の生物です。非常に賢く、身体能力も高いこの種族は、グリッターワールドの世界から逃げ出すことに成功し、この辺境の惑星にやってきました。他種族との関係性構築には消極的な、比較的温厚な種族です。一度敵対した相手には容赦がなく、その力と能力を駆使し、徹底的に破壊しつくします。格闘・医学に優れている半面、生産的な行為には興味が薄い者が多いですが、決して無能ではありません。ただし、料理は非常に苦手です。</description>
+    <alienRace>
+		<generalSettings>
+			<maleGenderProbability>0.00000001</maleGenderProbability>
+			<immuneToAge>true</immuneToAge><!-- 年齢に関連した問題に対する免疫です。-->
+      <allowHumanBios>true</allowHumanBios><!-- 人間向けパーツ着脱の許可 -->
+      <humanRecipeImport>true</humanRecipeImport>
+      <immuneToXenophobia>false</immuneToXenophobia><!-- この種族が異星人嫌いの対象になるかどうかの設定 -->
+      <canLayDown>true</canLayDown>
+      <minAgeForAdulthood>5</minAgeForAdulthood><!-- 大人の生い立ちが入る年齢 -->
+      <maxDamageForSocialfight>10</maxDamageForSocialfight><!-- 喧嘩時の最大ダメージ -->
+      <forcedRaceTraitEntries><!-- 特性を優先的に付与したい時に使用 -->
+        <li>
+          <defName>AS_Trait_OdCharge</defName>
+          <degree>4</degree>
+          <chance>100</chance>
+        </li>
+        <li>
+          <defName>AS_Trait_ManaConvert</defName>
+          <degree>1</degree>
+          <chance>100</chance>
+        </li>
+      </forcedRaceTraitEntries>
+      <disallowedTraits><!-- 特性を優先的に付与したくない時に使用 -->
+        <li><defName>Nudist</defName></li>
+				<li><defName>AnnoyingVoice</defName></li>
+				<li><defName>CreepyBreathing</defName></li>
+        <li><defName>Pyromaniac</defName></li>
+			</disallowedTraits>
+      <!-- <factionRelations>
+        <li>
+          <factions>
+            <li>AS_WHE_Settlement</li>
+            <li>AS_WHE_Village</li>
+            <li>AS_WHE_Town</li>
+          </factions>
+          <goodwill>
+            <min>100</min>
+            <max>100</max>
+          </goodwill>
+        </li>
+      </factionRelations> -->
+		  <alienPartGenerator>
+        <headOffset>(0.00, 0.00)</headOffset>
+        <customDrawSize>(0.95, 0.95)</customDrawSize>
+        <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
+        <customPortraitDrawSize>(1.05, 1.05)</customPortraitDrawSize>
+        <customPortraitHeadDrawSize>(1.05, 1.05)</customPortraitHeadDrawSize>
+        <aliencrowntypes>
+          <li>F_WDk_001</li>
+          <li>F_WDk_002</li>
+        </aliencrowntypes>
+        <alienbodytypes>
+          <li>Female</li>
+        </alienbodytypes>
+        <useGenderedHeads>false</useGenderedHeads><!-- 頭テクスチャに関する性別ごとの違いの有無 -->
+        <useGenderedBodies>false</useGenderedBodies><!-- 身体テクスチャに関する性別ごとの違いの有無 -->
+        <bodyAddons>
+          <li>
+            <drawSize>1</drawSize>
+            <path>WDk/Body_Parts/Horn/WDk_RightHorn_Red</path><!-- 右角パーツ -->
+            <bodyPart>right horn</bodyPart>
+            <inFrontOfBody>false</inFrontOfBody>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <layerInvert>true</layerInvert>
+            <alignWithHead>true</alignWithHead><!-- 頭の位置に描画する設定 -->
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </south>
+              <north>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </north>
+              <east>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+          <li>
+            <drawSize>1</drawSize>
+            <path>WDk/Body_Parts/Horn/WDk_LeftHorn_Red</path><!-- 左角パーツ -->
+            <bodyPart>left horn</bodyPart>
+            <inFrontOfBody>false</inFrontOfBody>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <layerInvert>true</layerInvert>
+            <alignWithHead>true</alignWithHead><!-- 頭の位置に描画する設定 -->
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </south>
+              <north>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </north>
+              <east>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+          <li>
+            <drawSize>1</drawSize>
+            <path>WDk/Body_Parts/Wing/WDk_RightWing_Red</path><!-- 右羽パーツ -->
+            <bodyPart>right wing</bodyPart>
+            <inFrontOfBody>false</inFrontOfBody>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <layerInvert>false</layerInvert>
+            <drawnInBed>false</drawnInBed>
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </south>
+              <north>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </north>
+              <east>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+          <li>
+            <drawSize>1</drawSize>
+            <path>WDk/Body_Parts/Wing/WDk_LeftWing_Red</path><!-- 左羽パーツ -->
+            <bodyPart>left wing</bodyPart>
+            <inFrontOfBody>false</inFrontOfBody>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <layerInvert>false</layerInvert>
+            <drawnInBed>false</drawnInBed>
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </south>
+              <north>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </north>
+              <east>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+          <li>
+            <drawSize>1</drawSize>
+            <path>WDk/Body_Parts/Tail/WDk_Tail_Red</path><!-- 尻尾パーツ -->
+            <bodyPart>tail</bodyPart>
+            <inFrontOfBody>false</inFrontOfBody>
+            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            <layerInvert>false</layerInvert>
+            <drawnInBed>false</drawnInBed>
+            <offsets>
+              <south>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </south>
+              <north>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </north>
+              <east>
+                <bodyTypes>
+                  <Female>(0,0)</Female>
+                  <Fat>(0,0)</Fat>
+                  <Hulk>(0,0)</Hulk>
+                  <Thin>(0,0)</Thin>
+                </bodyTypes>
+              </east>
+            </offsets>
+          </li>
+        </bodyAddons>
+		  </alienPartGenerator>
+    </generalSettings>
+    <graphicPaths>
+      <li>
+        <head>WDk/Heads/</head>
+        <body>WDk/Bodies/</body>
+      </li>
+    </graphicPaths>
+    <styleSettings>
+      <li>
+        <key>BeardDef</key>
+        <value>
+          <hasStyle>false</hasStyle>
+        </value>
+        <styleTags>
+          <li>NoBeard</li>
+        </styleTags>
+			</li>
+		  <li>
+		    <key>HairDef</key>
+		    <value>
+		      <hasStyle>true</hasStyle>
+		      <styleTagsOverride>
+		        <li>AS_WDk_Hairs</li>
+		      </styleTagsOverride>
+		    </value>
+		  </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology"><!-- TODO -->
+		    <key>TattooDef</key>
+		    <value>
+			    <hasStyle>false</hasStyle>
+          <styleTagsOverride>
+            <li>AS_WDk_Body_Tattoo</li>
+          </styleTagsOverride>
+			  </value>
+			</li>
+		</styleSettings>
+		<raceRestriction>
+      <apparelList>
+        <li>AS_WHE_UnderwearA</li>
+      </apparelList>
+      <weaponList></weaponList><!-- 装備可能な武器 -->
+			<whiteApparelList>
+				<li>Apparel_SmokepopBelt</li>
+			</whiteApparelList>
+      <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+      <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+    </raceRestriction>
+    <relationSettings><!-- 生成時の家族関係 -->
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+		</relationSettings>
+	</alienRace>
+
+  <statBases>
+    <MarketValue>30000</MarketValue>
+    <MoveSpeed>5.6</MoveSpeed>
+    <Mass>80</Mass>
+    <Flammability>0</Flammability>
+	  <MentalBreakThreshold>0.01</MentalBreakThreshold>
+    <ComfyTemperatureMax>34</ComfyTemperatureMax><!-- 快適温度上限 -->
+    <ComfyTemperatureMin>4</ComfyTemperatureMin><!-- 快適温度下限 -->
+    <ImmunityGainSpeed>2.0</ImmunityGainSpeed><!-- 免疫獲得速度 -->
+    <ToxicSensitivity>0.05</ToxicSensitivity><!-- 死の灰影響度 -->
+    <PsychicSensitivity MayRequire="Ludeon.RimWorld.Royalty">1.2</PsychicSensitivity><!-- 感受性 -->
+    <CarryingCapacity>100</CarryingCapacity><!-- 積載限界値 -->
+    <MeatAmount>60</MeatAmount><!--採れる肉の量 -->
+    <LeatherAmount>30</LeatherAmount><!--採れる皮の量 -->
+    <PainShockThreshold>1.2</PainShockThreshold><!-- 痛み耐性 -->
+    
+    <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+    <AimingDelayFactor>1.0</AimingDelayFactor> 
+    <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+    <MeleeDodgeChance>0.2</MeleeDodgeChance>
+    <WorkSpeedGlobal>1.0</WorkSpeedGlobal> 
+    <NegotiationAbility>1.0</NegotiationAbility>
+    <SellPriceFactor>1.0</SellPriceFactor> 
+    <SocialImpact>1.0</SocialImpact> 
+    <TameAnimalChance>1.0</TameAnimalChance> 
+    <TrainAnimalChance>1.0</TrainAnimalChance> 
+    <AnimalGatherSpeed>1.0</AnimalGatherSpeed> 
+    <AnimalGatherYield>1.0</AnimalGatherYield> 
+    <MiningSpeed>1.1</MiningSpeed>
+    <DeepDrillingSpeed>1.0</DeepDrillingSpeed>
+    <HuntingStealth>1.0</HuntingStealth> 
+    <ButcheryMechanoidEfficiency>1.0</ButcheryMechanoidEfficiency> 
+    <ButcheryMechanoidSpeed>1.0</ButcheryMechanoidSpeed> 
+    <ButcheryFleshEfficiency>1.0</ButcheryFleshEfficiency> 
+    <ButcheryFleshSpeed>1.0</ButcheryFleshSpeed> 
+    <FoodPoisonChance>0.7</FoodPoisonChance> 
+    <CookSpeed>0.5</CookSpeed> 
+	  <PlantWorkSpeed>0.8</PlantWorkSpeed> 
+    <PlantHarvestYield>1.0</PlantHarvestYield> 
+    <ResearchSpeed>1.1</ResearchSpeed>
+  </statBases>
+  <tools>
+    <li>
+      <label>left fist</label>
+      <capacities>
+        <li>Blunt</li>
+      </capacities>
+      <power>16</power>
+      <cooldownTime>2.0</cooldownTime>
+      <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.5</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.4</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.4</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.05</chanceFactor>
+      </li>
+    </tools>
+
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>800</lifeExpectancy><!-- 寿命 -->
+      <leatherDef>Leather_Human</leatherDef>
+      <nameGenerator>AS_WHE_Name_Rule</nameGenerator>
+      
+	    <body>AS_WDk_Body</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>2.0</baseHealthScale><!-- 耐久力 -->
+      <foodType>OmnivoreHuman</foodType>
+      <baseHungerRate>1</baseHungerRate><!-- 空腹速度倍率 -->
+      <gestationPeriodDays>90</gestationPeriodDays><!-- 妊娠期間 -->
+      <meatMarketValue>1.5</meatMarketValue>
+      <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>14</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(30,40)</li>
+          <li>(200,50)</li>
+          <li>(300,5)</li>
+          <li>(500,1)</li>
+          <li>(600,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+      </hediffGiverSets>
+    </race>
+
+    <recipes><!-- インストール可能なパーツ -->
+      <li>AS_WHE_InstallBionicEar</li>
+      <li>InstallArchotechEye</li>
+      <li>InstallArchotechArm</li>
+      <li>InstallArchotechLeg</li>
+      <li>InstallPowerClaw</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallBionicSpine</li>
+      <li>InstallBionicHeart</li>
+      <li>InstallBionicStomach</li>
+      <li>InstallBionicEar</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallSimpleProstheticHeart</li>
+      <li>InstallCochlearImplant</li>
+      <li>InstallPegLeg</li>
+      <li>InstallWoodenFoot</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+    </recipes>
+</AlienRace.ThingDef_AlienRace>
+</Defs>

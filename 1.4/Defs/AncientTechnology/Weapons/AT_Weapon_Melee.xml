@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef Class="AS_WHE.CustomThingDef" ParentName="AS_BaseMeleeWeapon_Blunt_Quality">
+		<defName>AS_AT_Impact_Knuckles</defName>
+		<label>インパクトナックル</label>
+    <techLevel>Spacer</techLevel>
+		<description>テスト実装</description>
+    <generateCommonality>0</generateCommonality>
+    <weaponTags Inherit="false">
+      <li>AS_WHE_AT_Melee</li>
+    </weaponTags>
+		<graphicData>
+			<texPath>AT/Weapons/ImpactKnuckles</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Plasteel>35</Plasteel>
+      <Uranium>30</Uranium>
+	  </costList>
+		<statBases>
+			<WorkToMake>21000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<equippedAngleOffset>11</equippedAngleOffset>
+    <tools>
+      <li>
+        <label>knuckles</label>
+		    <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>0.78</cooldownTime>
+      </li>
+      <li>
+        <label>discharger</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>16</amount>
+            <chance>0.8</chance>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>AS_AT_TechAdvanceResearch</researchPrerequisite><!-- TODO: 研究変える-->
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BasePawn" Name="AS_Elf_CommonBasePawn" Abstract="True">
+      <thingClass>Pawn</thingClass>
+      <category>Pawn</category>
+      <selectable>true</selectable>
+      <tickerType>Normal</tickerType>
+      <altitudeLayer>Pawn</altitudeLayer>
+      <useHitPoints>false</useHitPoints>
+      <hasTooltip>true</hasTooltip>
+      <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+      <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+  <!-- <ThingDef Name="AS_Elf_CommonBasePawn" Abstract="True">
+      <thingClass>Pawn</thingClass>
+      <category>Pawn</category>
+      <selectable>true</selectable>
+      <tickerType>Normal</tickerType>
+      <altitudeLayer>Pawn</altitudeLayer>
+      <useHitPoints>false</useHitPoints>
+      <hasTooltip>true</hasTooltip>
+      <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+      <statBases>
+        <Mass>70</Mass>
+        <Flammability>0.7</Flammability>
+      </statBases>
+      <inspectorTabs>
+        <li>AS_WHE.ITab_WHE_Tech</li>
+        <li>ITab_Pawn_Health</li>
+        <li>ITab_Pawn_Needs</li>
+        <li>ITab_Pawn_Character</li>
+        <li>ITab_Pawn_Training</li>
+        <li>ITab_Pawn_Social</li>
+        <li>ITab_Pawn_Guest</li>
+        <li>ITab_Pawn_Prisoner</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">ITab_Pawn_Slave</li>
+        <li>ITab_Pawn_FormingCaravan</li>
+        <li>ITab_Pawn_Gear</li>
+        <li>ITab_Pawn_Log</li>
+      </inspectorTabs>
+      <comps>
+        <li>
+          <compClass>CompAttachBase</compClass>
+        </li>
+      </comps>
+      <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef> -->
+
+</Defs>

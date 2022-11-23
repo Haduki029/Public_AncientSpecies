@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <!-- <ApparelLayerDef>
+        <defName>AS_UnderMiddle</defName>
+        <label>under middle</label>
+        <drawOrder>50</drawOrder>
+    </ApparelLayerDef> -->
+    <ApparelLayerDef>
+        <defName>AS_OverMiddle</defName>
+        <label>over middle</label>
+        <drawOrder>150</drawOrder>
+    </ApparelLayerDef>
+    <ApparelLayerDef>
+        <defName>AS_Coat</defName>
+        <label>coat</label>
+        <drawOrder>340</drawOrder>
+    </ApparelLayerDef>
+    <ApparelLayerDef>
+        <defName>AS_Backpack</defName>
+        <label>back pack</label>
+        <drawOrder>350</drawOrder>
+    </ApparelLayerDef>
+    <ApparelLayerDef>
+        <defName>AS_Neck</defName>
+        <label>neck</label>
+        <drawOrder>360</drawOrder>
+    </ApparelLayerDef>
+    <!--
+        OnSkin 0
+        Middle 100
+        AS_OverMiddle 150
+        Shell 200
+        Belt 300
+        AS_Coat 340
+        AS_Backpack 350
+        AS_Neck 360
+        Overhead 400
+        EyeCover 500
+    -->
+</Defs>

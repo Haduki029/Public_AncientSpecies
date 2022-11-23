@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <!-- <TattooDef>
+    <defName>STechTat_Face_BlackCircuit</defName>
+    <label>Circuitry Black</label>
+    <texPath></texPath>
+    <tattooType>Face</tattooType>
+    <category>Tech</category>
+    <visibleNorth>true</visibleNorth>
+    <styleTags>
+      <li>AS_Face_Tattoo</li>
+    </styleTags>
+  </TattooDef> -->
+
+  <TattooDef>
+    <defName>AS_Body_Engraving_Red</defName>
+    <label>赤龍の刻印</label>
+    <texPath>ASTattoo/WDk/WDk_Engraving</texPath>
+    <tattooType>Body</tattooType>
+    <category>AS_WDk_Style</category>
+    <visibleNorth>true</visibleNorth>
+    <styleTags>
+      <li>AS_WDk_Style</li>
+      <li>AS_Body_Tattoo</li>
+      <li>AS_WDk_Body_Tattoo</li>
+    </styleTags>
+  </TattooDef>
+</Defs>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_NormalChild</defName>
+		<title>エルフ村の子供</title>
+		<titleShort>エルフ村の子供</titleShort>
+		<baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</baseDescription>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>AS_WAE_Village_Story</li>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_Villager</li>
+			<li>AS_WAE_PKHunter</li>
+			<li>AS_WAE_BSPKHunter</li>
+			<li>AS_WAE_PKKnight</li>
+			<li>AS_WAE_BSKnight</li>
+			<li>AS_WAE_BSPKKnight</li>
+			<li>AS_WAE_Hunter</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Backstory_SlaveChild</defName>
+		<title>エルフの子供奴隷</title>
+		<titleShort>エルフの子供奴隷</titleShort>
+		<baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</baseDescription>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>AS_WAE_Colonist</li>
+			<li>AS_WAE_Slave</li>
+			<li>AS_WAE_Villager</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+</Defs>
