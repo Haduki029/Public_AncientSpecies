@@ -33,7 +33,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
-    <followStuffColor>true</followStuffColor>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
