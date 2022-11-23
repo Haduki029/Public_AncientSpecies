@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <!-- Ancient Technology -->
+    <ThingDef Name="AS_AT_MeleeWeapon_Sharp" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags Inherit="false">
+            <li>AS_AT_MeleeWeapon</li>
+            <li>AS_AT_MeleeWeapon_Sharp</li>
+        </weaponTags>
+    </ThingDef>
+
+    <ThingDef Name="AS_AT_MeleeWeapon_Blunt" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags Inherit="false">
+            <li>AS_AT_MeleeWeapon</li>
+            <li>AS_AT_MeleeWeapon_Blunt</li>
+        </weaponTags>
+    </ThingDef>
+
+    <!-- Weeb Half Elf -->
+    <ThingDef Name="AS_WHE_MeleeWeapon_Sharp" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_WHE_Items</li>
+        </thingCategories>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags Inherit="false">
+            <li>AS_WHE_MeleeWeapon</li>
+            <li>AS_WHE_MeleeWeapon_Sharp</li>
+        </weaponTags>
+    </ThingDef>
+
+    <ThingDef Name="AS_WHE_MeleeWeapon_Blunt" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_WHE_Items</li>
+        </thingCategories>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags Inherit="false">
+            <li>AS_WHE_MeleeWeapon</li>
+            <li>AS_WHE_MeleeWeapon_Blunt</li>
+        </weaponTags>
+    </ThingDef>
+
+    <!-- Weeb Ancient Elf -->
+    <ThingDef Name="AS_WAE_MeleeWeapon_Sharp" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_WAE_Items</li>
+        </thingCategories>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags Inherit="false">
+            <li>AS_WAE_MeleeWeapon</li>
+            <li>AS_WAE_MeleeWeapon_Sharp</li>
+        </weaponTags>
+    </ThingDef>
+
+    <ThingDef Name="AS_WAE_MeleeWeapon_Blunt" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_WAE_Items</li>
+        </thingCategories>
+        <techLevel>Neolithic</techLevel>
+        <weaponTags Inherit="false">
+            <li>AS_WAE_MeleeWeapon</li>
+            <li>AS_WAE_MeleeWeapon_Blunt</li>
+        </weaponTags>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <ThingDef ParentName="AS_ApparelBase_OverHead">
+    <defName>AS_WAE_FeatherHelm</defName>
+    <description>金属の額当てに、羽飾りで装飾されたヘルム。特殊な力で見た目以上にカバー範囲は広く、防御力も高い。</description>
+    <label>ASフェザーヘルム</label>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparels/WAE/overhead/FeatherHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Hyperweave>10</Hyperweave>
+      <Gold>1</Gold>
+      <Plasteel>50</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>1.5</Mass>
+      <Flammability>0.01</Flammability>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.11</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.64</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+		</equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>AS_WAE_MidArmorResearch</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups Inherit="false">
+        <li>UpperHead</li>
+        <li>Eyes</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparels/WAE/overhead/FeatherHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags Inherit="false">
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags><!-- TODO: -->
+        <li>AS_Apparel</li>
+        <li>AS_WAE_Armor</li>
+        <li>AS_WAE_MidArmor</li>
+        <li>AS_WAE_HK_MidArmor</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+    </apparel>
+    <tradeTags><li>AS_WAE_Apparel_Tradable</li></tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="AS_ApparelBase_OverHead">
+    <defName>AS_WAE_FeatherHardHelm</defName>
+    <description>フェザーヘルムの素材にウランを混ぜることで、より強度を高めた物。</description>
+    <label>ASハードフェザーヘルム</label>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparels/WAE/overhead/FeatherHardHelm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Hyperweave>10</Hyperweave>
+      <Gold>1</Gold>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+    </costList>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>1.5</Mass>
+      <Flammability>0.01</Flammability>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.14</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.64</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+		</equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>AS_WAE_MidArmorResearch</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparels/WAE/overhead/FeatherHardHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags Inherit="false">
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags><!-- TODO: -->
+        <li>AS_Apparel</li>
+        <li>AS_WAE_Armor</li>
+        <li>AS_WAE_MidArmor</li>
+        <li>AS_WAE_HK_MidArmor</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+    </apparel>
+    <tradeTags><li>AS_WAE_Apparel_Tradable</li></tradeTags>
+  </ThingDef>
+</Defs>

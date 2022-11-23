@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <TraitDef>
+    <defName>AS_SpeciesType</defName>
+    <commonality>0.001</commonality>
+    <!-- <conflictingTraits>
+      <li>AS_WeebAncientElf</li>
+      <li>AS_WeebDrake</li>
+      <li>AS_WeebWolfen</li>
+    </conflictingTraits> -->
+    <degreeDatas>
+      <li>
+        <label>ハーフエルフ</label>
+        <description>人類の手により、エンシェントエルフと人間の遺伝子を用いて作られた人工種族。</description>
+        <degree>1</degree>
+				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+        <statOffsets>
+          <MoveSpeed>1.0</MoveSpeed>
+          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
+          <ToxicResistance>0.15</ToxicResistance>
+          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+          <CarryingCapacity>35</CarryingCapacity>
+          <PainShockThreshold>0.3</PainShockThreshold>
+          <MeleeDodgeChance>1</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+      <li>
+        <label>古代エルフ</label>
+        <description>遥か昔、偉大な技術を持った古代の種族により生み出されたと言われる種族。</description>
+        <degree>2</degree>
+				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+        <statOffsets>
+          <MoveSpeed>1.0</MoveSpeed>
+          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
+          <ToxicResistance>0.15</ToxicResistance>
+          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+          <CarryingCapacity>35</CarryingCapacity>
+          <PainShockThreshold>0.3</PainShockThreshold>
+          <MeleeDodgeChance>1</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+      <li>
+        <label>ドレイク</label>
+        <description>遥か昔、偉大な技術を持った古代の種族により生み出されたと言われる種族。</description>
+        <degree>3</degree>
+				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+        <statOffsets>
+          <MoveSpeed>1.0</MoveSpeed>
+          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
+          <ToxicResistance>0.15</ToxicResistance>
+          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+          <CarryingCapacity>35</CarryingCapacity>
+          <PainShockThreshold>0.3</PainShockThreshold>
+          <MeleeDodgeChance>1</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+      <li>
+        <label>ウルフェン</label>
+        <description>人類の手により、古代に存在した狼種と人間の遺伝子を用いて作られた人工種族。</description>
+        <degree>4</degree>
+				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+        <statOffsets>
+          <MoveSpeed>1.0</MoveSpeed>
+          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
+          <ToxicResistance>0.15</ToxicResistance>
+          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
+          <CarryingCapacity>35</CarryingCapacity>
+          <PainShockThreshold>0.3</PainShockThreshold>
+          <MeleeDodgeChance>1</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+        </statOffsets>
+			</li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

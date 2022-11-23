@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <ThingDef Name="AS_WAE_BasePawn" ParentName="BasePawn" Abstract="True">
+      <thingClass>Pawn</thingClass>
+      <category>Pawn</category>
+      <selectable>true</selectable>
+      <tickerType>Normal</tickerType>
+      <altitudeLayer>Pawn</altitudeLayer>
+      <useHitPoints>false</useHitPoints>
+      <hasTooltip>true</hasTooltip>
+      <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <statBases>
+        <Mass>70</Mass>
+        <Flammability>0.8</Flammability>
+      </statBases>
+  </ThingDef>
+
+  <AlienRace.ThingDef_AlienRace ParentName="AS_WAE_BasePawn">
+    <defName>AS_WAE_Race</defName>
+    <label>古代エルフ</label>
+    <description>古代エルフは、一部の辺境の惑星に住んでいる種族です。\n人間の4倍ほどの寿命があり、ある特殊な器官の働きにより、身体能力もかなり優れています。\n非常に数が少なく、高額で取引されていますが、基本敵対的な場合が多い種族です。\nハーフエルフはこの古代エルフを基にして造られた種族と言われていますが、一部ではこの古代エルフ自体も、古代の技術で造られたのではないかという説があります。</description>
+    <alienRace>
+      <graphicPaths>
+        <head>Pawn/Heads/</head>
+        <body>Pawn/Bodies/</body>
+        <skinShader>Cutout</skinShader>
+      </graphicPaths>
+      <generalSettings>
+        <maleGenderProbability>0</maleGenderProbability>
+        <immuneToXenophobia>true</immuneToXenophobia><!-- この種族が異星人嫌いの対象になるかどうかの設定 -->
+        <maxDamageForSocialfight>8</maxDamageForSocialfight><!--喧嘩時の最大ダメージ-->
+        <immuneToAge>true</immuneToAge>
+        <canLayDown>true</canLayDown>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>AS_SpeciesType</defName>
+            <degree>2</degree>
+            <chance>100</chance>
+          </li>
+          <li>
+            <defName>Beauty</defName>
+            <degree>1</degree>
+            <chance>40</chance>
+          </li>
+          <li>
+            <defName>Beauty</defName>
+            <degree>2</degree>
+            <chance>60</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <disallowedTraits>
+          <li>
+						<defName>AnnoyingVoice</defName>
+						<degree>0</degree>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+						<degree>0</degree>
+					</li>
+          <li>
+						<defName>Beauty</defName>
+						<degree>-1</degree>
+					</li>
+					<li>
+						<defName>Beauty</defName>
+						<degree>-2</degree>
+					</li>
+          <li>
+            <defName>Nudist</defName>
+            <degree>0</degree>
+          </li>
+        </disallowedTraits>
+        <humanRecipeImport>true</humanRecipeImport>
+          <!-- <factionRelations>
+            <li>
+              <factions>
+                <li>AS_WAE_Settlement</li>
+              </factions>
+              <goodwill>
+                <min>100</min>
+                <max>100</max>
+              </goodwill>
+            </li>
+          </factionRelations> -->
+        <alienPartGenerator>
+          <headTypes Inherit="false">
+            <li>AS_WAE_Head_A</li>
+            <li>AS_WAE_Head_B</li>
+            <li>AS_WAE_Head_C</li>
+            <li>AS_WAE_Head_D</li>
+            <li>AS_WAE_Head_E</li>
+            <li>AS_WAE_Head_F</li>
+            <li>AS_WAE_Head_G</li>
+            <li>AS_WAE_Head_H</li>
+            <li>AS_WAE_Head_I</li>
+            <li>AS_WAE_Head_J</li>
+            <li>AS_WAE_Head_K</li>
+            <li>AS_WAE_Head_L</li>
+          </headTypes>
+          <headOffset>(0.00, -0.03)</headOffset>
+          <headOffsetDirectional>
+            <north>(0, 0)</north>
+            <east>(0, 0)</east>
+            <south>(0, 0)</south>
+            <west>(0, 0)</west>
+          </headOffsetDirectional>
+          <customDrawSize>(0.95, 0.95)</customDrawSize>
+          <customHeadDrawSize>(0.95, 0.95)</customHeadDrawSize>
+          <customPortraitDrawSize>(1.05, 1.05)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1.05, 1.05)</customPortraitHeadDrawSize>
+            <!-- TODO: 1.4では不要？ <useGenderedHeads>false</useGenderedHeads>
+            <useGenderedBodies>false</useGenderedBodies> -->
+            <colorChannels>
+              <li>
+                <name>skin</name>
+                <first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                  <minMelanin>0</minMelanin>
+                  <maxMelanin>0.01</maxMelanin>
+                </first>
+                <second Class="AlienRace.ColorGenerator_SkinColorMelanin">
+                  <minMelanin>0</minMelanin>
+                  <maxMelanin>0.05</maxMelanin>
+                </second>
+                <!-- <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                  <colorChannel>skin_1</colorChannel>
+                </second> -->
+              </li>
+              <li>
+                <name>hair</name>
+                <first Class="ColorGenerator_Single">
+                  <color>RGBA(1,1,0.82,1)</color>
+                </first>
+                <second Class="ColorGenerator_Single">
+                  <color>RGBA(1,1,0.85,1)</color>
+                </second>
+              </li>
+            </colorChannels>
+            <bodyTypes>
+              <li>Female</li>
+              <li>Thin</li>
+              <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+              <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+            </bodyTypes>
+            <bodyAddons>
+              <li><!-- 左耳 -->
+                <path>Pawn/Ears/L/elf_EarL</path>
+                <hediffGraphics></hediffGraphics>
+                <bodyPartLabel>left ear</bodyPartLabel>
+                <inFrontOfBody>true</inFrontOfBody>
+                <colorChannel>skin</colorChannel>
+                <drawSize>1</drawSize>
+                <angle>0</angle>
+                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+                <shaderType>Cutout</shaderType>
+                <hiddenUnderApparelTag></hiddenUnderApparelTag><!-- apparelTags,BodyPartGroups をli形式で指定することで非表示ケースを追加可能 -->
+                <offsets><!-- wikiのBody-Addons, offsetを参照  -->
+                  <south>
+                    <!-- <offset>(-0.42,0.56)</offset> -->
+                    <layerOffset>-1.0</layerOffset>
+                  </south>
+                  <north>
+                    <!-- <offset>(0,0.9)</offset> -->
+                    <!-- <layerOffset>0</layerOffset> -->
+                  </north>
+                  <east>
+                    <!-- <offset>(-0.423,0.54)</offset> -->
+                    <!-- <layerOffset>0.5</layerOffset> -->
+                  </east>
+                </offsets>
+              </li>
+              <li><!-- 右耳 -->
+                <path>Pawn/Ears/R/elf_EarR</path>
+                <hediffGraphics></hediffGraphics>
+                <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                <bodyPartLabel>right ear</bodyPartLabel>
+                <inFrontOfBody>true</inFrontOfBody>
+                <colorChannel>skin</colorChannel>
+                <drawSize>1</drawSize>
+                <angle>0</angle>
+                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+                <shaderType>Cutout</shaderType>
+                <hiddenUnderApparelTag></hiddenUnderApparelTag><!-- apparelTags,BodyPartGroups をli形式で指定することで非表示ケースを追加可能 -->
+                <offsets><!-- wikiのBody-Addons, offsetを参照  -->
+                  <south>
+                    <!-- <offset>(-0.42,0.56)</offset> -->
+                    <layerOffset>-1.0</layerOffset>
+                  </south>
+                  <north>
+                    <!-- <offset>(0,0.9)</offset> -->
+                    <!-- <layerOffset>0</layerOffset> -->
+                  </north>
+                  <east>
+                    <!-- <offset>(-0.423,0.54)</offset> -->
+                    <!-- <layerOffset>0.5</layerOffset> -->
+                  </east>
+                </offsets>
+              </li>
+              <li><!-- 髪型addon -->
+                <path>Pawn/AddonHairs/AS_CM</path>
+                <bodyPart>Head</bodyPart>
+                <inFrontOfBody>true</inFrontOfBody>
+                <colorChannel>hair</colorChannel>
+                <drawSize>1</drawSize>
+                <angle>0</angle>
+                <shaderType>Cutout</shaderType>
+                <hiddenUnderApparelTag></hiddenUnderApparelTag>
+                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+                <offsets>
+                  <south>
+                    <!-- <offset>(-0.42,0.56)</offset> -->
+                    <!-- <layerOffset>5.0</layerOffset> -->
+                  </south>
+                  <north>
+                    <!-- <offset>(0,0.9)</offset> -->
+                    <layerOffset>-1</layerOffset>
+                  </north>
+                  <east>
+                    <!-- <offset>(-0.423,0.54)</offset> -->
+                    <!-- <layerOffset>0.5</layerOffset> -->
+                  </east>
+                </offsets>
+              </li>
+              <li><!-- 後ろ髪Addon -->
+                <path>Pawn/AddonHairs/InHair/AS_CMA</path>
+                <bodyPart>Head</bodyPart>
+                <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+                <inFrontOfBody>false</inFrontOfBody>
+                <colorChannel>hair</colorChannel>
+                <drawSize>1</drawSize>
+                <drawnInBed>false</drawnInBed>
+                <angle>0</angle>
+                <shaderType>Cutout</shaderType>
+                <hiddenUnderApparelTag></hiddenUnderApparelTag>
+                <alignWithHead>true</alignWithHead><!-- BodyAddon の描画位置に頭の位置オフセットが参照される -->
+                <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
+                <offsets>
+                  <south>
+                    <!-- <offset>(-0.42,0.56)</offset> -->
+                    <layerOffset>1.0</layerOffset>
+                  </south>
+                  <north>
+                    <!-- <offset>(0,0.9)</offset> -->
+                    <layerOffset>-1</layerOffset>
+                  </north>
+                  <east>
+                    <!-- <offset>(-0.423,0.54)</offset> -->
+                    <layerOffset>0.5</layerOffset>
+                  </east>
+                </offsets>
+              </li>
+            </bodyAddons>
+        </alienPartGenerator>
+      </generalSettings>
+      <styleSettings>
+          <li>
+            <key>HairDef</key>
+            <value>
+              <hasStyle>false</hasStyle>
+              <!-- <styleTagsOverride>
+                <li>AS_WAE_Style</li>
+              </styleTagsOverride> -->
+            </value>
+          </li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">
+            <key>TattooDef</key>
+            <value>
+              <hasStyle>false</hasStyle>
+              <!-- <styleTags>
+                <li>NoTattoo</li>
+              </styleTags> -->
+            </value>
+          </li>
+          <li>
+            <key>BeardDef</key>
+            <value>
+              <hasStyle>false</hasStyle>
+            </value>
+          </li>
+      </styleSettings>
+      <relationSettings>
+        <relationChanceModifierLover>0</relationChanceModifierLover>
+        <relationChanceModifierExLover>0</relationChanceModifierExLover>
+        <relationChanceModifierFiance>0</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+        <relationChanceModifierParent>0</relationChanceModifierParent>
+        <relationChanceModifierChild>0</relationChanceModifierChild>
+        <relationChanceModifierSibling>0</relationChanceModifierSibling>
+        <renamer>
+          <li>
+            <relation>Parent</relation>
+            <label>AlienFather</label>
+            <femaleLabel>AlienMother</femaleLabel>
+          </li>
+        </renamer>
+      </relationSettings>
+      <raceRestriction>
+        <apparelList>
+          <li>AS_Common_TighetsSuit</li>
+          <li>AS_Common_PlainStoking</li>
+          <li>AS_Common_PlainUnderwear</li>
+          <li>AS_WAE_NobleCoat</li>
+          <li>AS_WAE_NobleCoatBK</li>
+          <li>AS_WAE_EliteKnightDress</li>
+          <li>AS_WAE_EliteKnightDressBK</li>
+          <li>AS_WAE_KnightDress</li>
+          <li>AS_WAE_HKArcherArmor</li>
+          <li>AS_WAE_RengerArmor</li>
+          <li>AS_WAE_FeatherHelm</li>
+          <li>AS_WAE_FeatherHardHelm</li>
+          <!-- <li>AS_WHE_ShoulderBack</li> -->
+          <li>AS_WAE_HKNationalCostume</li>
+          <!-- <li>AS_WHE_ATShieldScarf</li> -->
+          <!-- <li>AS_WHE_NanoSuits</li> -->
+        </apparelList>
+        <whiteApparelList>
+          <li>Apparel_SmokepopBelt</li>
+        </whiteApparelList>
+        <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+        <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
+        <!-- <traitList></traitList> -->
+      </raceRestriction>
+	  </alienRace>
+
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <MoveSpeed>4.9</MoveSpeed>
+      <MentalBreakThreshold>0.05</MentalBreakThreshold>
+      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+      <ComfyTemperatureMin>10</ComfyTemperatureMin>
+      <ImmunityGainSpeed>1.2</ImmunityGainSpeed><!-- 病気回復速度 -->
+      <ToxicResistance>0.65</ToxicResistance><!-- 毒抵抗値 0f~1f toxEnvResiへ50%相乗？-->
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance><!-- 環境による毒抵抗値 0f~1f toxResiへ50％相乗？ -->
+      <CarryingCapacity>75</CarryingCapacity>
+      <MeatAmount>60</MeatAmount>
+      <LeatherAmount>60</LeatherAmount>
+      <PainShockThreshold>1.0</PainShockThreshold>
+
+      <ShootingAccuracyPawn>1.3</ShootingAccuracyPawn>
+      <AimingDelayFactor>0.85</AimingDelayFactor>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <MeleeDodgeChance>0.25</MeleeDodgeChance>
+      <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
+      <NegotiationAbility>0.7</NegotiationAbility>
+      <SellPriceFactor>0.8</SellPriceFactor>
+      <SocialImpact>1.0</SocialImpact>
+      <TameAnimalChance>1.2</TameAnimalChance>
+      <TrainAnimalChance>1.2</TrainAnimalChance>
+      <AnimalGatherSpeed>1.2</AnimalGatherSpeed>
+      <AnimalGatherYield>1.2</AnimalGatherYield>
+
+      <MiningSpeed>1.0</MiningSpeed>
+      <DeepDrillingSpeed>0.45</DeepDrillingSpeed>
+
+      <HuntingStealth>1.2</HuntingStealth>
+
+      <ButcheryMechanoidEfficiency>0.2</ButcheryMechanoidEfficiency>
+      <ButcheryMechanoidSpeed>0.3</ButcheryMechanoidSpeed>
+
+      <ButcheryFleshEfficiency>1.0</ButcheryFleshEfficiency>
+      <ButcheryFleshSpeed>1.0</ButcheryFleshSpeed>
+      <FoodPoisonChance>0.9</FoodPoisonChance>
+      <CookSpeed>1.0</CookSpeed>
+
+      <PlantWorkSpeed>1.2</PlantWorkSpeed>
+      <PlantHarvestYield>1.2</PlantHarvestYield>
+
+      <ResearchSpeed>0.4</ResearchSpeed>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.3</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.3</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.7</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.4</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>25</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>400</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+
+	    <body>AS_WAE_Body</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <meatMarketValue>1.2</meatMarketValue>
+      <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
+      <nameGenerator>AS_WAE_Name_Rule</nameGenerator>
+			<nameGeneratorFemale>AS_WAE_Name_Rule</nameGeneratorFemale>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>6</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+					<def>HumanlikePreTeenager</def>
+					<minAge>9</minAge>
+				</li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>14</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>2</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>1</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>4</BasicWorker>
+				<Warden>2</Warden>
+				<Handling>2</Handling>
+				<Cooking>1</Cooking>
+				<Hunting>1</Hunting>
+				<Construction>1</Construction>
+				<Growing>2</Growing>
+				<Mining>0</Mining>
+				<PlantCutting>2</PlantCutting>
+				<Smithing>0</Smithing>
+				<Tailoring>0</Tailoring>
+				<Art>0</Art>
+				<Crafting>0</Crafting>
+				<Hauling>0</Hauling>
+				<Cleaning>0</Cleaning>
+				<Research>1</Research>
+			</lifeStageWorkSettings>
+
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+
+      <ageGenerationCurve>
+        <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16,30)</li>
+          <li>(50,100)</li>
+          <li>(60,70)</li>
+          <li>(70,30)</li>
+          <li>(90,15)</li>
+          <li>(100,10)</li>
+          <li>(200,5)</li>
+          <li>(300,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+      </hediffGiverSets>
+    </race>
+
+    <recipes>
+      <!-- <li>AS_WHE_InstallBionicEar</li> -->
+      <li>AS_Install_WAE_BionicEar</li>
+      <li>AS_Install_WAE_FakeEar</li>
+    </recipes>
+</AlienRace.ThingDef_AlienRace>
+</Defs>

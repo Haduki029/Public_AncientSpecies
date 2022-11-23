@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ApparelLayerDef>
+        <defName>AS_Underware</defName>
+        <label>AS下着</label>
+        <drawOrder>-4</drawOrder>
+    </ApparelLayerDef>
+
+    <ApparelLayerDef>
+        <defName>AS_Stocking</defName>
+        <label>ASストッキング</label>
+        <drawOrder>-3</drawOrder>
+    </ApparelLayerDef>
+
+    <ApparelLayerDef>
+        <defName>AS_Legs</defName>
+        <label>AS脚部</label>
+        <drawOrder>-2</drawOrder>
+    </ApparelLayerDef>
+
+    <!-- <ApparelLayerDef>
+        <defName>AS_OverMiddle</defName>
+        <label>over middle</label>
+        <drawOrder>150</drawOrder>
+    </ApparelLayerDef> -->
+
+    <ApparelLayerDef>
+        <defName>AS_Coat</defName>
+        <label>ASコート</label>
+        <drawOrder>340</drawOrder>
+    </ApparelLayerDef>
+
+    <ApparelLayerDef>
+        <defName>AS_Backpack</defName>
+        <label>ASバックパック</label>
+        <drawOrder>350</drawOrder>
+    </ApparelLayerDef>
+
+    <ApparelLayerDef>
+        <defName>AS_Neck</defName>
+        <label>AS首周り</label>
+        <drawOrder>360</drawOrder>
+    </ApparelLayerDef>
+    <!--
+        AS_Underware -4
+        AS_Stocking -3
+        AS_Legs -2
+        OnSkin 0
+        Middle 100
+        # AS_OverMiddle 150
+        Shell 200
+        Belt 300
+        AS_Coat 340
+        AS_Backpack 350
+        AS_Neck 360
+        Overhead 400
+        EyeCover 500
+    -->
+</Defs>

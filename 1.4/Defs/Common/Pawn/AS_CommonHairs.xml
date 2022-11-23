@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<HairDef>
+		<defName>AS_Pawn_Hair_1</defName>
+		<label>ASウェーブロング１</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM1</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_2</defName>
+		<label>ASウェーブロング２</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM2</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_3</defName>
+		<label>ASストレートロング１</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM3</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_4</defName>
+		<label>ASロングヘア１</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM4</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_5</defName>
+		<label>ASウェーブロング３</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM5</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_6</defName>
+		<label>ASツインテール１</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM6</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_7</defName>
+		<label>ASツインテール２</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM7</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_8</defName>
+		<label>ASツインテール３</label>
+		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM8</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+</Defs>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ThingDef Name="AS_ApparelBase_Underware" ParentName="AS_ApparelCommonBase" Abstract="True">
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+                <li>Legs</li>
+			</bodyPartGroups>
+            <layers>
+                <li>AS_Underware</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+    <ThingDef ParentName="AS_ApparelBase_Underware">
+        <techLevel>Neolithic</techLevel>
+        <!-- <defName>AS_WHE_UnderwearA</defName> -->
+        <defName>AS_Common_PlainUnderwear</defName>
+        <description>皮や布で作られた簡素な女性用の下着。「Ancient Species Mod」の全種族が着用可能。</description>
+        <label>AS簡素な下着</label>
+        <tradeTags>
+            <li>BasicClothing</li>
+            <li>AS_BasicClothing</li>
+        </tradeTags>
+        <graphicData>
+            <texPath>Apparels/Common/underware/PlainUnderwear</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <costStuffCount>30</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>70</MaxHitPoints>
+            <WorkToMake>1200</WorkToMake>
+            <Mass>0.2</Mass>
+            <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <recipeUsers Inherit="false">
+                <li>CraftingSpot</li>
+                <li>HandTailoringBench</li>
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Apparels/Common/underware/PlainUnderwear</wornGraphicPath>
+            <tags>
+                <li>AS_BasicClothing</li>
+                <li>AS_BasicUnderware</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="AS_ApparelBase_Underware">
+        <defName>AS_Common_TighetsSuit</defName>
+        <description>皮や布で作られた全身タイツスーツ。</description>
+        <label>ASタイツスーツ</label>
+        <!-- <tradeTags><li>AS_WAE_Apparel</li></tradeTags> -->
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+        <texPath>Apparels/Common/underware/TighetsSuit</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.2</drawSize>
+        </graphicData>
+        <costStuffCount>70</costStuffCount>
+        <stuffCategories>
+        <li>Fabric</li>
+        <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+        <MaxHitPoints>70</MaxHitPoints>
+        <WorkToMake>1200</WorkToMake>
+        <Mass>0.2</Mass>
+        <StuffEffectMultiplierArmor>0.08</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+        <Insulation_Cold>3</Insulation_Cold>
+        <Insulation_Heat>1</Insulation_Heat>
+        <EquipDelay>1</EquipDelay>
+        </statBases>
+        <recipeMaker>
+        <recipeUsers Inherit="false">
+            <li>CraftingSpot</li>
+            <li>ElectricTailoringBench</li>
+            <li>HandTailoringBench</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Crafting>3</Crafting>
+        </skillRequirements>
+        </recipeMaker>
+        <apparel>
+            <bodyPartGroups Inherit="false">
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Waist</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparels/Common/underware/TighetsSuit</wornGraphicPath>
+        <tags>
+            <li>AS_BasicClothing</li>
+            <li>AS_BasicTighets</li>
+        </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ThingDef Name="AS_ApparelBase_Stocking" ParentName="AS_ApparelCommonBase" Abstract="True">
+        <apparel>
+            <bodyPartGroups>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AS_Stocking</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="AS_ApparelBase_Stocking">
+        <techLevel>Neolithic</techLevel>
+        <!-- <defName>AS_WHE_Neeso</defName> -->
+        <defName>AS_Common_PlainStoking</defName>
+        <description>皮や布で作られた簡素なニーソックス。「Ancient Species Mod」の全種族が着用可能。</description>
+        <label>AS簡素な下着</label>
+        <tradeTags>
+            <li>BasicClothing</li>
+            <li>AS_BasicClothing</li>
+        </tradeTags>
+        <graphicData>
+            <texPath>Apparels/Common/stocking/NeeSo</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <costStuffCount>30</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>70</MaxHitPoints>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.32</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>2</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <recipeUsers Inherit="false">
+                <li>CraftingSpot</li>
+                <li>HandTailoringBench</li>
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Apparels/Common/stocking/NeeSo</wornGraphicPath>
+            <tags>
+                <li>AS_BasicClothing</li>
+                <li>AS_BasicStoking</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<AlienRace.AlienBackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_HK_Knight_BackStory</defName>
+		<slot>Adulthood</slot>
+		<title>神聖王国の騎士</title>
+		<titleShort>王国騎士</titleShort>
+		<baseDesc>[PAWN_nameDef]は鍛え上げられた [PAWN_pronoun]だ。遠距離戦、接近戦共に優れた技術を持っており、戦いにおいて大いに活躍できるだろう。料理はとても苦手だが…。</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Tough</defName>
+				<chance>40</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>40</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>AS_WAE_HolyKingdom</li>
+			<li>AS_WAE_HK_Soldier</li>
+			<li>AS_WAE_HK_Knight</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

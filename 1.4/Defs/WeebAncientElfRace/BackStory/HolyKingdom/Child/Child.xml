@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<AlienRace.AlienBackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_Child_BackStory</defName>
+		<title>古代エルフの子供</title>
+		<titleShort>子供</titleShort>
+		<baseDesc>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</baseDesc>
+		<slot>Childhood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>AS_WAE_HolyKingdom</li>
+			<li>AS_WAE_HK_GuardianKnight</li>
+			<li>AS_WAE_HK_Archer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

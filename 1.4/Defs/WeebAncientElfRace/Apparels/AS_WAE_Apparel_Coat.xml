@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <ThingDef Name="AS_WHA_NobleCoat_Base" ParentName="AS_ApparelBase_Coat" Abstract="True">
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparels/WAE/coat/NobleCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.3</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>120</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <Hyperweave>50</Hyperweave>
+      <Gold>5</Gold>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>39000</WorkToMake>
+      <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.27</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.21</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>20</Insulation_Heat>
+      <Mass>4</Mass>
+      <Flammability>-1</Flammability>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>0.2</MoveSpeed>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <MeleeHitChance>0.1</MeleeHitChance>
+      <MeleeDodgeChance>0.2</MeleeDodgeChance>
+      <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
+      <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
+      <MentalBreakThreshold>0.05</MentalBreakThreshold>
+      <SocialImpact>0.25</SocialImpact>
+      <CarryingCapacity>10</CarryingCapacity>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>AS_WAE_NobleEquipmentResearch</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups Inherit="false">
+        <li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Waist</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparels/WAE/coat/NobleCoat</wornGraphicPath>
+      <tags><!-- TODO: -->
+        <li>AS_HighCoat</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+      <defaultOutfitTags Inherit="false">
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>RGBA(1,1,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="AS_WHA_NobleCoat_Base">
+    <defName>AS_WAE_NobleCoat</defName>
+    <description>神聖王国の古代エルフ貴族階級者が愛用している、戦闘用のコート。非常に丈夫なだけでなく、装備者の戦闘能力に補正がかかる。</description>
+    <label>ASエルフ貴族のコート</label>
+    <graphicData>
+      <texPath>Apparels/WAE/coat/NobleCoat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparels/WAE/coat/NobleCoat</wornGraphicPath>
+      <tags><!-- TODO: -->
+        <li>AS_HighCoat</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="AS_WHA_NobleCoat_Base">
+    <defName>AS_WAE_NobleCoatBK</defName>
+    <description>神聖王国のエルフ貴族のコートを真似た黒いコート。性能は同等である。</description>
+    <label>ASエルフ貴族のコート（黒）</label>
+    <graphicData>
+      <texPath>Apparels/WAE/coat/NobleCoatBK</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Apparels/WAE/coat/NobleCoatBK</wornGraphicPath>
+      <tags><!-- TODO: -->
+        <li>AS_HighCoat</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>

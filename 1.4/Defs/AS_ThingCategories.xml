@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel</defName>
+		<label>ancient spacies apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Underware</defName>
+		<label>ancient spacies Underware apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Stocking</defName>
+		<label>ancient spacies stocking apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Legs</defName>
+		<label>ancient spacies legs apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_OnSkin</defName>
+		<label>ancient spacies onskin apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Middle</defName>
+		<label>ancient spacies middle apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<!-- <ThingCategoryDef>
+		<defName>AS_Apparel_OverMiddle</defName>
+		<label>ancient spacies over apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef> -->
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Shell</defName>
+		<label>ancient spacies shell apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Belt</defName>
+		<label>ancient spacies belt apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Coat</defName>
+		<label>ancient spacies coat apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Backpack</defName>
+		<label>ancient spacies backpack apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_Neck</defName>
+		<label>ancient spacies neck apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_OverHead</defName>
+		<label>ancient spacies overhead apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Apparel_EyeCover</defName>
+		<label>ancient spacies eye cover apparel</label>
+		<parent>AS_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_Weapons</defName>
+		<label>ancient spacies weapons</label>
+		<parent>Weapons</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_AT_Items</defName>
+		<label>ancient spacies at items</label>
+		<parent>Items</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_WHE_Items</defName>
+		<label>ancient spacies whe items</label>
+		<parent>Items</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AS_WAE_Items</defName>
+		<label>ancient spacies wae weapons</label>
+		<parent>Items</parent>
+	</ThingCategoryDef>
+
+</Defs>

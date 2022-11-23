@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HeadTypeDef ParentName="AverageBase" Name="AS_WAE_MaleHeadtypeBase" Abstract="True">
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase" Name="AS_WAE_FemaleHeadtypeBase" Abstract="True">
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_A</defName>
+		<graphicPath>Pawn/Heads/F_Head_1</graphicPath>
+	</HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+        <defName>AS_WAE_Head_B</defName>
+        <graphicPath>Pawn/Heads/F_Head_2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_C</defName>
+		<graphicPath>Pawn/Heads/F_Head_3</graphicPath>
+	</HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_D</defName>
+		<graphicPath>Pawn/Heads/F_Head_4</graphicPath>
+	</HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+        <defName>AS_WAE_Head_E</defName>
+        <graphicPath>Pawn/Heads/F_Head_5</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_F</defName>
+		<graphicPath>Pawn/Heads/F_Head_6</graphicPath>
+	</HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+        <defName>AS_WAE_Head_G</defName>
+        <graphicPath>Pawn/Heads/F_Head_7</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_H</defName>
+		<graphicPath>Pawn/Heads/F_Head_8</graphicPath>
+	</HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_I</defName>
+		<graphicPath>Pawn/Heads/F_Head_9</graphicPath>
+	</HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+        <defName>AS_WAE_Head_J</defName>
+        <graphicPath>Pawn/Heads/F_Head_10</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_K</defName>
+		<graphicPath>Pawn/Heads/F_Head_11</graphicPath>
+	</HeadTypeDef>
+
+    <HeadTypeDef ParentName="AS_WAE_FemaleHeadtypeBase">
+		<defName>AS_WAE_Head_L</defName>
+		<graphicPath>Pawn/Heads/F_Head_12</graphicPath>
+	</HeadTypeDef>
+
+</Defs>

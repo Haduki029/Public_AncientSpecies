@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StyleItemCategoryDef>
+    <defName>AS_Style</defName>
+    <label>Ancient Species Style</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>AS_WAE_Style</defName>
+    <label>古代エルフスタイル</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>AS_WHE_Style</defName>
+    <label>ハーフエルフスタイル</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>AS_WDk_Style</defName>
+    <label>ドレイクスタイル</label>
+  </StyleItemCategoryDef>
+
+  <!-- 髪型 -->
+  <StyleItemCategoryDef>
+    <defName>AS_Hair_Style</defName>
+    <label>AS髪型</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+		<defName>AS_WEl_Hairs</defName>
+		<label>ASエルフ髪型</label>
+	</StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>AS_WDk_Hairs</defName>
+    <label>ASドレイク髪型</label>
+  </StyleItemCategoryDef>
+
+  <!-- タトゥー -->
+  <StyleItemCategoryDef>
+    <defName>AS_Face_Tattoo</defName>
+    <label>ASフェイスタトゥー</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>AS_Body_Tattoo</defName>
+    <label>ASボディタトゥー</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>AS_WDk_Body_Tattoo</defName>
+    <label>ASドレイクボディタトゥー</label>
+  </StyleItemCategoryDef>
+</Defs>

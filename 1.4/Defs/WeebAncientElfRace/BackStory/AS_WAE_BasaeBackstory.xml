@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<AlienRace.AlienBackstoryDef Name="AS_WAE_Backstory_Base" Abstract="True">
+		<forcedHediffs>
+			<li>AS_WAE_OdEnergy_StorageCapacity</li>
+		</forcedHediffs>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

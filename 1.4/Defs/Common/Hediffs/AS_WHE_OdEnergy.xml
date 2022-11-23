@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef ParentName="DiseaseBase">
+		<defName>AS_WHE_OdEnergy_StorageCapacity</defName>
+        <hediffClass>AncientSpecies.Hediff_OdEnergy</hediffClass>
+		<label>オドエネルギー</label>
+		<defaultLabelColor>(0.65,1,0.65)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <description>オドエネルギーを体内に貯蔵、留める能力。オドエネルギーにより平時から身体能力が向上するだけでなく、貯蔵したオドを使うことでさらに強化することが出来る。貯蔵できる容量と身体能力の強化度合いは、どれだけオドエネルギーの操作に習熟しているかによって決まる。未熟な者でも年月により延びていく。</description>
+		<isBad>false</isBad><!-- バッドステータスか -->
+		<everCurableByItem>false</everCurableByItem><!-- 治癒可能か -->
+		<maxSeverity>5.0</maxSeverity>
+		<comps>
+            <li Class="AncientSpecies.HediffCompProperties_OdSeverityManager">
+                <severityPerDay>0.017</severityPerDay><!-- 1日に増えるseverity -->
+            </li>
+        </comps>
+		<stages>
+			<li>
+				<label>Lv1</label>
+				<becomeVisible>true</becomeVisible>
+                <painFactor>0.98</painFactor><!-- 痛み倍率 -->
+				<capMods>
+                    <li>
+                        <capacity>Consciousness</capacity><!-- 意識 -->
+                        <offset>0.02</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity><!-- 運動能力 -->
+                        <offset>0.05</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity><!-- 視覚 -->
+                        <offset>0.02</offset>
+                    </li>
+                    <li>
+                        <capacity>Hearing</capacity><!-- 聴覚 -->
+                        <offset>0.05</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodFiltration</capacity><!-- 腎機能 -->
+                        <offset>0.02</offset>
+                    </li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>-0.02</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+					<PsychicSensitivity>-0.02</PsychicSensitivity><!-- 精神異常に対する感受性 -->
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>Lv2</label>
+				<becomeVisible>true</becomeVisible>
+                <painFactor>0.96</painFactor><!-- 痛み倍率 -->
+				<capMods>
+                    <li>
+                        <capacity>Consciousness</capacity><!-- 意識 -->
+                        <offset>0.04</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity><!-- 運動能力 -->
+                        <offset>0.07</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity><!-- 視覚 -->
+                        <offset>0.04</offset>
+                    </li>
+                    <li>
+                        <capacity>Hearing</capacity><!-- 聴覚 -->
+                        <offset>0.07</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity><!-- 指の機能 -->
+                        <offset>0.04</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodFiltration</capacity><!-- 腎機能 -->
+                        <offset>0.04</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodPumping</capacity><!-- 心機能 -->
+                        <offset>0.02</offset>
+                    </li>
+					<li>
+						<capacity>Breathing</capacity><!-- 肺機能 -->
+						<offset>0.02</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>-0.03</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+					<PsychicSensitivity>-0.03</PsychicSensitivity><!-- 精神異常に対する感受性 -->
+				</statOffsets>
+			</li>
+			<li>
+                <minSeverity>2</minSeverity>
+				<label>Lv3</label>
+				<becomeVisible>true</becomeVisible>
+                <painFactor>0.94</painFactor><!-- 痛み倍率 -->
+				<capMods>
+                    <li>
+                        <capacity>Consciousness</capacity><!-- 意識 -->
+                        <offset>0.06</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity><!-- 運動能力 -->
+                        <offset>0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity><!-- 視覚 -->
+                        <offset>0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Hearing</capacity><!-- 聴覚 -->
+                        <offset>0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity><!-- 指の機能 -->
+                        <offset>0.04</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodFiltration</capacity><!-- 腎機能 -->
+                        <offset>0.06</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodPumping</capacity><!-- 心機能 -->
+                        <offset>0.04</offset>
+                    </li>
+					<li>
+						<capacity>Breathing</capacity><!-- 肺機能 -->
+						<offset>0.04</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>-0.04</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+					<PsychicSensitivity>-0.04</PsychicSensitivity><!-- 精神異常に対する感受性 -->
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>3</minSeverity>
+				<label>Lv4</label>
+				<becomeVisible>true</becomeVisible>
+				<painFactor>0.92</painFactor><!-- 痛み倍率 -->
+				<capMods>
+                    <li>
+                        <capacity>Consciousness</capacity><!-- 意識 -->
+                        <offset>0.08</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity><!-- 運動能力 -->
+                        <offset>0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity><!-- 視覚 -->
+                        <offset>0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Hearing</capacity><!-- 聴覚 -->
+                        <offset>0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity><!-- 指の機能 -->
+                        <offset>0.07</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodFiltration</capacity><!-- 腎機能 -->
+                        <offset>0.07</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodPumping</capacity><!-- 心機能 -->
+                        <offset>0.05</offset>
+                    </li>
+					<li>
+						<capacity>Breathing</capacity><!-- 肺機能 -->
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>-0.04</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+					<PsychicSensitivity>-0.04</PsychicSensitivity><!-- 精神異常に対する感受性 -->
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>4</minSeverity>
+				<label>MAX</label>
+				<becomeVisible>true</becomeVisible>
+				<painFactor>0.90</painFactor><!-- 痛み倍率 -->
+				<capMods>
+                    <li>
+                        <capacity>Consciousness</capacity><!-- 意識 -->
+                        <offset>0.1</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity><!-- 運動能力 -->
+                        <offset>0.15</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity><!-- 視覚 -->
+                        <offset>0.12</offset>
+                    </li>
+                    <li>
+                        <capacity>Hearing</capacity><!-- 聴覚 -->
+                        <offset>0.12</offset>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity><!-- 指の機能 -->
+                        <offset>0.08</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodFiltration</capacity><!-- 腎機能 -->
+                        <offset>0.08</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodPumping</capacity><!-- 心機能 -->
+                        <offset>0.07</offset>
+                    </li>
+					<li>
+						<capacity>Breathing</capacity><!-- 肺機能 -->
+						<offset>0.07</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+					<PsychicSensitivity>-0.05</PsychicSensitivity><!-- 精神異常に対する感受性 -->
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

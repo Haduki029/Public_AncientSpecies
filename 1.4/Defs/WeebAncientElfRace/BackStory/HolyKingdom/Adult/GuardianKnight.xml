@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<AlienRace.AlienBackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_HK_GuardianKnight_BackStory</defName>
+		<title>神聖王国の守護騎士</title>
+		<titleShort>王国守護騎士</titleShort>
+		<baseDesc>[PAWN_nameDef]は [PAWN_pronoun]だ。その役割は国を、王を守ることであり、そのために選ばれた特別な騎士だ。戦場にその姿を現すだけで、敵は恐れ慄くだろう。ただし、その厳しい訓練のために料理の腕は犠牲になってしまったが…。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Tough</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>75</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>AS_WAE_HK_EliteSoldier</li>
+			<li>AS_WAE_HK_GuardianKnight</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

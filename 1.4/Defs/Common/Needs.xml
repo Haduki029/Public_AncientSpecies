@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <NeedDef>
+    <defName>AS_Needo_Od</defName>
+    <needClass>AncientSpecies.Need_Od</needClass>
+    <label>オド</label>
+    <description>体内に貯蔵されているオドエネルギー。</description>
+    <listPriority>19</listPriority>
+    <major>true</major>
+    <minIntelligence>Humanlike</minIntelligence>
+    <showForCaravanMembers>true</showForCaravanMembers>
+    <scaleBar>true</scaleBar>
+  </NeedDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<AlienRace.AlienBackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_HK_Hunter_BackStory</defName>
+		<title>神聖王国の狩人</title>
+		<titleShort>王国狩人</titleShort>
+		<baseDesc>[PAWN_nameDef]は[PAWN_pronoun]だ。獲物の追跡や仕留める技術が高く、サバイバル能力に優れており、どのような場所でも生き延びることが出来るだろう。 </baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>70</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>AS_WAE_HolyKingdom</li>
+			<li>AS_WAE_HK_Soldier</li>
+			<li>AS_WAE_HK_Hunter</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

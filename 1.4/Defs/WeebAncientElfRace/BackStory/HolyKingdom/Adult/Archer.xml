@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<AlienRace.AlienBackstoryDef ParentName="AS_WAE_Backstory_Base">
+		<defName>AS_WAE_HK_Archer_BackStory</defName>
+		<title>神聖王国の弓兵</title>
+		<titleShort>王国弓兵</titleShort>
+		<baseDesc>[PAWN_nameDef]は [PAWN_pronoun]だ。戦いのために鍛え上げたその弓の腕で、敵対する者たちをたちまち射貫き殺すだろう。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>90</chance>
+			</li>
+		</forcedTraitsChance>
+		<spawnCategories>
+			<li>AS_WAE_HolyKingdom</li>
+			<li>AS_WAE_HK_EliteSoldier</li>
+			<li>AS_WAE_HK_Archer</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

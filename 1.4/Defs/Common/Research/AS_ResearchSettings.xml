@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ResearchTabDef>
+		<defName>AS_ResearchTab</defName>
+		<label>Ancient Species</label>
+	</ResearchTabDef>
+
+    <ResearchProjectTagDef>
+        <defName>AS_WHAStart</defName>
+    </ResearchProjectTagDef>
+</Defs>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <!-- Ancient Technology -->
+    <ThingDef Name="AS_AT_MakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <weaponTags Inherit="false">
+            <li>AS_AT_MakeableGun</li>
+        </weaponTags>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name="AS_AT_MakeableBow" ParentName="BaseWeapon" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <weaponTags Inherit="false">
+            <li>AS_AT_MakeableBow</li>
+        </weaponTags>
+        <burnableByRecipe>true</burnableByRecipe>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+        <relicChance>1</relicChance>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <effectWorking>Smelt</effectWorking>
+            <soundWorking>Recipe_MakeBow</soundWorking>
+            <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Weeb Half Elf -->
+    <ThingDef Name="AS_WHE_MakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <weaponTags Inherit="false">
+            <li>AS_WHE_MakeableGun</li>
+        </weaponTags>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name="AS_WHE_MakeableBow" ParentName="BaseWeapon" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <weaponTags Inherit="false">
+            <li>AS_WHE_MakeableBow</li>
+        </weaponTags>
+        <burnableByRecipe>true</burnableByRecipe>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+        <relicChance>1</relicChance>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <effectWorking>Smelt</effectWorking>
+            <soundWorking>Recipe_MakeBow</soundWorking>
+            <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Weeb Ancient Elf -->
+    <ThingDef Name="AS_WAE_MakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <weaponTags Inherit="false">
+            <li>AS_WAE_MakeableGun</li>
+        </weaponTags>
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name="AS_WAE_MakeableBow" ParentName="BaseWeapon" Abstract="True">
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_AT_Items</li>
+        </thingCategories>
+        <weaponTags Inherit="false">
+            <li>AS_WAE_MakeableBow</li>
+        </weaponTags>
+        <burnableByRecipe>true</burnableByRecipe>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+        <relicChance>1</relicChance>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <effectWorking>Smelt</effectWorking>
+            <soundWorking>Recipe_MakeBow</soundWorking>
+            <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

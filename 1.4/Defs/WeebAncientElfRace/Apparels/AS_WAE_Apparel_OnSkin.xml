@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <ThingDef ParentName="AS_ApparelBase_Onskin">
+    <defName>AS_WAE_HKNationalCostume</defName>
+    <description>古代エルフの間で良く見える衣装。エルフ神聖王国ではこの服装が一般的になっている。軽く動きやすい服。</description>
+    <label>ASエルフの民族衣装</label>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Apparels/WAE/onskin/ColonistDressWare</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>0.14</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>AS_WAE_BasicApparelsResearch</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <wornGraphicPath>Apparels/WAE/onskin/ColonistDressWare</wornGraphicPath>
+      <defaultOutfitTags Inherit="false">
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <tags><!-- TODO: -->
+        <li>AS_WAE_HK_Colonist</li>
+        <li>RoyalTier2</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+</Defs>
