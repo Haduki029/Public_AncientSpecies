@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <AS_WAE_Antibody_Gene.label>ancient elves antibody gene</AS_WAE_Antibody_Gene.label>
+    <AS_WAE_Antibody_Gene.labelShortAdj>AE antibody gene</AS_WAE_Antibody_Gene.labelShortAdj>
+    <AS_WAE_Antibody_Gene.description>Ancient elves have strong antibodies which intelligently destroy invaders.The body's ability to protect itself from toxins and diseases becomes stronger.</AS_WAE_Antibody_Gene.description>
+
+    <AS_WAE_Species_Gene.label>ancient elves species gene</AS_WAE_Species_Gene.label>
+    <AS_WAE_Species_Gene.labelShortAdj>AE species gene</AS_WAE_Species_Gene.labelShortAdj>
+    <AS_WAE_Species_Gene.description>Ancient Elven genes. Can inherit superior abilities, increased move speed, anti-toxicity, and faster recovery from illness.</AS_WAE_Species_Gene.description>
+
+    <AS_OdControlFactor_Gene.label>od control factor gene</AS_OdControlFactor_Gene.label>
+    <AS_OdControlFactor_Gene.description>Ancient Elven genes. Can inherit superior abilities, increased move speed, anti-toxicity, and faster recovery from illness.</AS_OdControlFactor_Gene.description>
+
+    <AS_WAE_Gene_Hair_fcff8c.label>lime light</AS_WAE_Gene_Hair_fcff8c.label>
+    <AS_WAE_Gene_Hair_fcff8c.description>This gene relates to the hair color of ancient elves. Ancient elves are genetically predisposed to light blonde or green hair color and these gene set that colors.</AS_WAE_Gene_Hair_fcff8c.description>
+
+    <AS_WAE_Gene_Hair_fcff05.label>light chrome yellow</AS_WAE_Gene_Hair_fcff05.label>
+    <AS_WAE_Gene_Hair_fcff05.description>This gene relates to the hair color of ancient elves. Ancient elves are genetically predisposed to light blonde or green hair color and these gene set that colors.</AS_WAE_Gene_Hair_fcff05.description>
+
+    <AS_WAE_Gene_Hair_abff69.label>light spring green</AS_WAE_Gene_Hair_abff69.label>
+    <AS_WAE_Gene_Hair_abff69.description>This gene relates to the hair color of ancient elves. Ancient elves are genetically predisposed to light blonde or green hair color and these gene set that colors.</AS_WAE_Gene_Hair_abff69.description>
+
+    <AS_WAE_Gene_Hair_c7ffc7.label>parl green</AS_WAE_Gene_Hair_c7ffc7.label>
+    <AS_WAE_Gene_Hair_c7ffc7.description>This gene relates to the hair color of ancient elves. Ancient elves are genetically predisposed to light blonde or green hair color and these gene set that colors.</AS_WAE_Gene_Hair_c7ffc7.description>
+
+</LanguageData>

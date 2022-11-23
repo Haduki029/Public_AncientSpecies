@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<XenotypeDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_WeebAncienElf</defName>
+		<label>古代エルフ</label>
+		<description>古代エルフはある辺境の惑星で発見された原住民の内の一種である。身体的な頑強さ、俊敏性、器用さ、五感など、あらゆる方面で人間種より優れており、見た目も美しい。</description>
+		<descriptionShort>古代エルフは身体面が優れ、見目麗しいこともあり、非常に価値の高い種族だ。</descriptionShort>
+		<iconPath>UI/Icon/Xenotype/AncientElf</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>AS_WAE_Name_Rule_Male</nameMaker>
+		<nameMakerFemale>AS_WAE_Name_Rule</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>Body_Standard</li>
+			<!-- <li>Body_Fat</li> -->
+			<li>Body_Thin</li>
+			<li>Robust</li>
+			<li>AptitudeRemarkable_Social</li>
+			<li>AptitudeStrong_Intellectual</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AptitudePoor_Mining</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Skin_Melanin1</li>
+			<li>Skin_Melanin2</li>
+			<li>Skin_Melanin3</li>
+			<li>Skin_Melanin4</li>
+
+			<!-- <li>AS_WAE_Species_Gene</li> -->
+			<li>AS_WAE_Antibody_Gene</li>
+			<li>AS_WAE_Gene_Hair_fcff8c</li>
+			<li>AS_WAE_Gene_Hair_fcff05</li>
+			<li>AS_WAE_Gene_Hair_abff69</li>
+			<li>AS_WAE_Gene_Hair_c7ffc7</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

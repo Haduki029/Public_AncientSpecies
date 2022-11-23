@@ -3,6 +3,9 @@
   <TraitDef>
     <defName>AS_SpeciesType</defName>
     <commonality>0</commonality>
+    <conflictingTraits>
+      <li>AS_OdControlFactor</li>
+    </conflictingTraits>
     <degreeDatas>
       <li>
         <label>ハーフエルフ</label>
@@ -74,6 +77,30 @@
           <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
           <ArmorRating_Heat>0.05</ArmorRating_Heat>
           <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+        </statOffsets>
+			</li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>AS_OdControlFactor</defName>
+    <commonality>0</commonality>
+    <conflictingTraits>
+      <li>AS_SpeciesType</li>
+    </conflictingTraits>
+    <degreeDatas>
+      <li>
+        <label>オド制御因子</label>
+        <description></description>
+        <degree>1</degree>
+				<marketValueFactorOffset>1.2</marketValueFactorOffset>
+        <statOffsets>
+          <MoveSpeed>0.3</MoveSpeed>
+          <ToxicResistance>0.05</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.05</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+          <PainShockThreshold>0.05</PainShockThreshold>
+          <MeleeDodgeChance>0.5</MeleeDodgeChance>
         </statOffsets>
 			</li>
     </degreeDatas>

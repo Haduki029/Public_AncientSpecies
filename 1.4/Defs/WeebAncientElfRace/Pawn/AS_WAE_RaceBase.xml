@@ -14,14 +14,6 @@
         <li>
           <compClass>CompAttachBase</compClass>
         </li>
-        <li Class="AncientSpecies.AS_CompProperties_PhysicalBoost">
-          <CommandName>AS_ActivatePhysicalBoost</CommandName>
-          <CommandLabel>フィジカルブースト</CommandLabel>
-          <CommandDesc>フィジカルブーストを起動します。</CommandDesc>
-          <CommandIconPath>UI/Icon/OdBoost/Boost</CommandIconPath>
-          <!-- <OdGaugeDownRate>1.0</OdGaugeDownRate> -->
-          <!-- <PhysicalBoostEffect>AS_PhysicalBoostEffect</PhysicalBoostEffect> -->
-        </li>
       </comps>
       <drawGUIOverlay>true</drawGUIOverlay>
       <statBases>

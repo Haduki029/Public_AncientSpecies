@@ -13,6 +13,27 @@
     <apparelColor>(255,255,255)</apparelColor>
     <initialWillRange>10~20</initialWillRange>
     <initialResistanceRange>60~90</initialResistanceRange>
+    <xenotypeSet>
+        <xenotypeChances>
+          <AS_WeebAncienElf MayRequire="Ludeon.RimWorld.Biotech">1</AS_WeebAncienElf>
+          <Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+          <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+          <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+          <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+          <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+          <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+          <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+          <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+        </xenotypeChances>
+        <warnIfTotalAbove1>true</warnIfTotalAbove1>
+      </xenotypeSet>
+    <!-- <styleItemTags>
+        <li>
+          <tag>AS_Style</tag>
+          <baseWeight>1</baseWeight>
+          <weightFactor>1</weightFactor>
+        </li>
+    </styleItemTags> -->
     <inventoryOptions>
       <skipChance>0.4</skipChance>
       <subOptionsChooseOne>

@@ -7,10 +7,10 @@
         <defName>AS_WAE_LikeBaby</defName>
         <label>古代エルフの赤ちゃん</label>
         <bodySizeFactor>0.1</bodySizeFactor>
-        <bodyWidth>0.95</bodyWidth>
+        <bodyWidth>0.45</bodyWidth>
         <bodyDrawOffset>(0, 0, 0)</bodyDrawOffset>
         <voxPitch>1.6</voxPitch>
-        <headSizeFactor>0.95</headSizeFactor>
+        <headSizeFactor>0.45</headSizeFactor>
         <eyeSizeFactor>0.7</eyeSizeFactor>
         <foodMaxFactor>0.625</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.125 -->
         <hungerRateFactor>0.125</hungerRateFactor> <!-- consumes 2x maxFood per day -->

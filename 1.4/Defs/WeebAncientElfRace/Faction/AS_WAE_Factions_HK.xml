@@ -5,8 +5,6 @@
     <!-- <startingResearchTags Inherit="False">
       <li>ClassicStart</li>
     </startingResearchTags> -->
-
-
     <label>エルフ神聖王国</label>
     <fixedName>エルフ神聖王国</fixedName>
     <techLevel>Industrial</techLevel>
@@ -17,13 +15,15 @@
     <pawnSingular>神聖王国の民</pawnSingular>
     <pawnsPlural>神聖王国の民達</pawnsPlural>
     <listOrderPriority>20</listOrderPriority>
-    <settlementGenerationWeight>0.05</settlementGenerationWeight>
+    <settlementGenerationWeight>0.1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
+    <maxConfigurableAtWorldCreation>100</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>10</configurationListOrderPriority>
     <permanentEnemy>true</permanentEnemy><!-- 永続的に敵対 -->
     <earliestRaidDays>180</earliestRaidDays><!-- 襲撃までの日数 -->
     <allowedArrivalTemperatureRange>-25~45</allowedArrivalTemperatureRange>
-		<canMakeRandomly>false</canMakeRandomly>
+		<canMakeRandomly>true</canMakeRandomly>
     <canSiege>false</canSiege><!-- 包囲襲撃 -->
 		<canStageAttacks>true</canStageAttacks><!-- 準備襲撃 -->
     <autoFlee>false</autoFlee><!-- 撤退可否 -->
@@ -33,15 +33,30 @@
     </fixedLeaderKinds><!-- TODO: 変更予定 -->
     <factionNameMaker>AS_WAE_KingdomName_Rule</factionNameMaker>
     <settlementNameMaker>AS_WAE_KingdomName_Rule</settlementNameMaker>
+    <categoryTag>AS_WAE_HolyKingdom</categoryTag><!-- 1.4以降 -->
     <melaninRange>0</melaninRange>
     <backstoryFilters>
-		<li>
-			<categories>
-				<li>AS_WAE_HolyKingdom</li>
-			</categories>
-			<commonality>1</commonality>
-		</li>
-	</backstoryFilters>
+      <li>
+        <categories>
+          <li>AS_WAE_HolyKingdom</li>
+        </categories>
+        <commonality>1</commonality>
+      </li>
+    </backstoryFilters>
+    <xenotypeSet>
+			<xenotypeChances>
+				<AS_WeebAncienElf MayRequire="Ludeon.RimWorld.Biotech">1</AS_WeebAncienElf>
+				<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+				<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
     <raidCommonalityFromPointsCurve>
       <points>
         <li>(0, 1)</li> <!--Constant 1 at all points levels-->
@@ -69,9 +84,9 @@
         <li>(8000, 8000)</li>
 			</points>
 		</raidLootValueFromPointsCurve>
-    <!-- <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
+    <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
       <li>AS_WAE_HK_Cultures</li>
-    </allowedCultures> -->
+    </allowedCultures>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
@@ -82,9 +97,6 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
     </requiredMemes>
-    <allowedCultures MayRequire="Ludeon.RimWorld.Ideology">
-      <li>Astropolitan</li>
-    </allowedCultures>
     <disallowedPrecepts>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
@@ -97,7 +109,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Acceptable</li>
     </disallowedPrecepts>
     <pawnGroupMakers>
-      <!-- <li>
+      <li>
         <kindDef>Combat</kindDef>
         <commonality>80</commonality>
         <maxTotalPoints>3000</maxTotalPoints>
@@ -105,7 +117,7 @@
           <AS_WAE_HK_Warrior>8</AS_WAE_HK_Warrior>
           <AS_WAE_HK_Hunter>9</AS_WAE_HK_Hunter>
         </options>
-      </li> -->
+      </li>
       <li>
         <!-- <kindDef>KnightsLegion</kindDef> -->
         <kindDef>Combat</kindDef>
@@ -116,6 +128,15 @@
           <AS_WAE_HK_GuardianKnight>2</AS_WAE_HK_GuardianKnight>
         </options>
       </li>
+      <li>
+				<kindDef>Settlement</kindDef>
+				<options>
+          <AS_WAE_HK_Archer>3</AS_WAE_HK_Archer>
+          <AS_WAE_HK_Warrior>5</AS_WAE_HK_Warrior>
+          <AS_WAE_HK_GuardianKnight>2</AS_WAE_HK_GuardianKnight>
+        </options>
+			</li>
     </pawnGroupMakers>
   </FactionDef>
+
 </Defs>

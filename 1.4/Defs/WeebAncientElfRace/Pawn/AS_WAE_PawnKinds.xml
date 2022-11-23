@@ -2,35 +2,56 @@
 <Defs>
 
     <PawnKindDef Name="AS_WAE_BasePawnKind" Abstract="True">
-    <race>AS_WAE_Race</race>
-    <combatPower>80</combatPower>
-    <canBeSapper>true</canBeSapper>
-    <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType><!-- TODO: -->
-    <invNutrition>2</invNutrition>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <apparelColor>(255,255,255)</apparelColor>
-    <initialWillRange>10~20</initialWillRange>
-    <initialResistanceRange>60~90</initialResistanceRange>
-    <inventoryOptions>
-      <skipChance>0.4</skipChance>
-      <subOptionsChooseOne>
+      <race>AS_WAE_Race</race>
+      <combatPower>80</combatPower>
+      <canBeSapper>true</canBeSapper>
+      <defaultFactionType>AS_WAE_HolyKingdom</defaultFactionType><!-- TODO: -->
+      <invNutrition>2</invNutrition>
+      <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+      <apparelColor>(255,255,255)</apparelColor>
+      <initialWillRange>10~20</initialWillRange>
+      <initialResistanceRange>60~90</initialResistanceRange>
+      <xenotypeSet>
+        <xenotypeChances>
+          <AS_WeebAncienElf MayRequire="Ludeon.RimWorld.Biotech">1</AS_WeebAncienElf>
+          <Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+          <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+          <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+          <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+          <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+          <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+          <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+          <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+        </xenotypeChances>
+        <warnIfTotalAbove1>true</warnIfTotalAbove1>
+      </xenotypeSet>
+      <!-- <styleItemTags>
         <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>50</min>
-            <max>200</max>
-          </countRange>
+          <tag>AS_Style</tag>
+          <baseWeight>1</baseWeight>
+          <weightFactor>1</weightFactor>
         </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
-  </PawnKindDef>
+      </styleItemTags> -->
+      <inventoryOptions>
+        <skipChance>0.4</skipChance>
+        <subOptionsChooseOne>
+          <li>
+            <choiceChance>100</choiceChance>
+            <thingDef>Silver</thingDef>
+            <countRange>
+              <min>50</min>
+              <max>200</max>
+            </countRange>
+          </li>
+        </subOptionsChooseOne>
+      </inventoryOptions>
+    </PawnKindDef>
 
 
   <PawnKindDef ParentName="AS_WAE_BasePawnKind">
     <defName>AS_WAE_Slave</defName>
     <label>古代エルフの奴隷</label>
+    <defaultFactionType>PlayerColony</defaultFactionType><!-- TODO: -->
     <minGenerationAge>14</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
     <isFighter>false</isFighter>
@@ -62,8 +83,37 @@
     </inventoryOptions>
   </PawnKindDef>
 
+  <PawnKindDef ParentName="AS_WAE_BasePawnKind_Normal_HK">
+    <defName>AS_WAE_HK_ExWarrior</defName>
+    <label>神聖王国の元戦士</label>
+    <defaultFactionType>PlayerColony</defaultFactionType><!-- TODO: -->
+    <combatPower>180</combatPower>
+    <isFighter>true</isFighter>
+    <itemQuality>Good</itemQuality>
+    <apparelRequired>
+      <li>AS_Common_TighetsSuit</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>1000</min>
+      <max>3000</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>1200</min>
+      <max>3500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>AS_WAE_MidAxe</li>
+    </weaponTags>
+    <apparelTags>
+      <li>AS_WAE_HK_LowArmor</li>
+      <li>AS_WAE_Apparel</li>
+      <li>AS_WHE_Apparel</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+  </PawnKindDef>
+
   <AlienRace.RaceSettings><!-- TODO: -->
-    <defName>AS_WHE_RaceSettings</defName>
+    <defName>AS_WAE_RaceSettings</defName>
     <pawnKindSettings>
       <alienslavekinds>
           <li>
@@ -79,6 +129,12 @@
               <li>AS_WAE_Slave</li>
             </kindDefs>
             <chance>50.0</chance>
+          </li>
+          <li>
+            <kindDefs>
+              <li>AS_WAE_HK_ExWarrior</li>
+            </kindDefs>
+            <chance>5.0</chance>
           </li>
         </alienrefugeekinds>
     </pawnKindSettings>

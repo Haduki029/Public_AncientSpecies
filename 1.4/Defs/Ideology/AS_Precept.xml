@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Precepts -->
+
+  <!-- <PreceptDef>
+    <defName>Bonding_Disapproved</defName>
+    <issue>Bonding</issue>
+    <label>disapproved</label>
+    <label>不承認</label>
+    <description>To emotionally bond with a lower being is a shameful act.</description>
+    <description>下等な存在と感情的に結びつくことは、恥ずべき行為である。</description>
+    <impact>Low</impact>
+    <requiredMemes>
+      <li>AS_Meme_AncientElfPrimacy</li>
+    </requiredMemes>
+    <comps>
+      <li Class="PreceptComp_UnwillingToDo">
+        <eventDef>Bonded</eventDef>
+      </li>
+    </comps>
+  </PreceptDef> -->
+
+</Defs>

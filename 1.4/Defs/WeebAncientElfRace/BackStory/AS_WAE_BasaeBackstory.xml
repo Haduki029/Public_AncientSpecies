@@ -2,9 +2,9 @@
 <Defs>
 
 	<AlienRace.AlienBackstoryDef Name="AS_WAE_Backstory_Base" Abstract="True">
-		<forcedHediffs>
+		<!-- <forcedHediffs>
 			<li>AS_Hediff_OdEnergy</li>
-		</forcedHediffs>
+		</forcedHediffs> -->
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Female</bodyTypeMale>
 	</AlienRace.AlienBackstoryDef>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_WAE_Antibody_Gene</defName>
+		<label>古代エルフの抗体遺伝子</label>
+		<labelShortAdj>AE抗体遺伝子</labelShortAdj>
+		<description>古代のエルフは、病原体や毒素に対する強力な抗体を持っています。毒物や病気から体を守る力が強くなります。</description>
+		<iconPath>UI/Icons/Genes/Gene_StrongImmunity</iconPath>
+		<displayCategory>AS_WAE_Genes</displayCategory>
+        <statOffsets>
+			<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+			<ToxicResistance>0.3</ToxicResistance>
+            <ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
+        </statOffsets>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<exclusionTags>
+			<li>Immunity</li>
+			<li>ToxResistance</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<!-- <GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_WAE_Species_Gene</defName>
+		<label>古代エルフの種族遺伝子</label>
+		<description>古代エルフの遺伝子。優れた能力を受け継ぐことが出来、移動速度、抗毒性、病気の回復速度が向上する。</description>
+		<iconPath>UI/Icon/Genes/WAE_Gene</iconPath>
+		<displayCategory>AS_WAE_Genes</displayCategory>
+		<forcedTraits>
+			<li>
+				<def>AS_SpeciesType</def>
+				<degree>2</degree>
+			</li>
+		</forcedTraits>
+		<biostatCpx>6</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<exclusionTags>
+			<li>SpeciesGene</li>
+		</exclusionTags>
+	</GeneDef> -->
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_OdControlFactor_Gene</defName>
+		<label>オド制御因子</label>
+		<description>この因子を持つものは、オドを制御することが可能となる。</description>
+		<iconPath>UI/Icon/Genes/WAE_Gene</iconPath>
+		<displayCategory>AS_WAE_Genes</displayCategory>
+		<forcedTraits>
+			<li>
+				<def>AS_OdControlFactor</def>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<biostatCpx>6</biostatCpx>
+		<biostatMet>-2</biostatMet>
+		<exclusionTags>
+			<li>OdAbility</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<!-- Hair Color -->
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_WAE_HairColorBase" Abstract="True">
+		<description>古代エルフの髪の色に関する遺伝子です。古代エルフは遺伝的に明るいブロンド系や緑の髪色が多いですが、その性質を付与します。</description>
+		<biostatCpx>0</biostatCpx>
+		<endogeneCategory>HairColor</endogeneCategory>
+		<canGenerateInGeneSet>false</canGenerateInGeneSet>
+		<displayCategory>AS_WAE_Genes_Colors</displayCategory>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+		<exclusionTags>
+			<li>HairColor</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_WAE_HairColorBase">
+		<defName>AS_WAE_Gene_Hair_fcff8c</defName>
+		<label>ASライムライト</label>
+		<hairColorOverride>(252,255,140)</hairColorOverride>
+		<iconPath>UI/Icon/Genes/HairColorIcon_fcff8c</iconPath>
+		<selectionWeight>0.25</selectionWeight>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_WAE_HairColorBase">
+		<defName>AS_WAE_Gene_Hair_fcff05</defName>
+		<label>ASライトクロムイエロー</label>
+		<hairColorOverride>(252,255,5)</hairColorOverride>
+		<iconPath>UI/Icon/Genes/HairColorIcon_fcff05</iconPath>
+		<selectionWeight>0.25</selectionWeight>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_WAE_HairColorBase">
+		<defName>AS_WAE_Gene_Hair_abff69</defName>
+		<label>ASライトスプリンググリーン</label>
+		<hairColorOverride>(171,255,105)</hairColorOverride>
+		<iconPath>UI/Icon/Genes/HairColorIcon_abff69</iconPath>
+		<selectionWeight>0.25</selectionWeight>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="AS_WAE_HairColorBase">
+		<defName>AS_WAE_Gene_Hair_c7ffc7</defName>
+		<label>ASパールグリーン</label>
+		<hairColorOverride>(199,255,199)</hairColorOverride>
+		<iconPath>UI/Icon/Genes/HairColorIcon_c7ffc7</iconPath>
+		<selectionWeight>0.25</selectionWeight>
+	</GeneDef>
+
+	<!-- skin color -->
+	<!-- <GeneDef ParentName="GeneSkinColorMelanin">
+		<defName>Skin_Melanin1</defName>
+		<skinColorBase>(242, 237, 224)</skinColorBase>
+		<minMelanin>0</minMelanin>
+		<selectionWeight>0.2</selectionWeight>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneSkinColorMelanin">
+		<defName>Skin_Melanin2</defName>
+		<skinColorBase>(255, 239, 213)</skinColorBase>
+		<minMelanin>0.1</minMelanin>
+		<selectionWeight>0.5</selectionWeight>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneSkinColorMelanin">
+		<defName>Skin_Melanin3</defName>
+		<skinColorBase>(255, 239, 201)</skinColorBase>
+		<minMelanin>0.25</minMelanin>
+		<selectionWeight>0.5</selectionWeight>
+	</GeneDef>
+
+	<GeneDef ParentName="GeneSkinColorMelanin">
+		<defName>Skin_Melanin4</defName>
+		<skinColorBase>(255, 239, 189)</skinColorBase>
+		<minMelanin>0.45</minMelanin>
+		<selectionWeight>0.5</selectionWeight>
+	</GeneDef> -->
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- <IdeoStoryPatternDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>AS_WAE_IdeoStoryPattern</defName>
+		<segments>
+			<li>story</li>
+		</segments>
+		<rules>
+			<include>
+				<li>IdeoDescriptionGlobal</li>
+			</include>
+			<rulesStrings>
+				<li>story(priority=-999)->At first there was nothing, then Ninigi appeared. Ninigi gave us life and was the first kurin, even if we don't know what she really was, we honor her as our Goddess who gave us birth. We are all brothers and sisters, so let us be one for all, and all for one - striving together for harmony and prosperity.</li>
+			</rulesStrings>
+		</rules>
+	</IdeoStoryPatternDef> -->
+
+</Defs>

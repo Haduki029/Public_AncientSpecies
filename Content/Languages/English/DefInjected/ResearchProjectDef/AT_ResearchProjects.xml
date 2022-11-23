@@ -29,21 +29,21 @@
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef> -->
 <AS_AT_BasicResearch.label>Ancient Technology Basic Technology Research</AS_AT_BasicResearch.label>
-  <AS_AT_BasicResearch.description>Research the basics of the technology used by certain ancient races from documents. </AS_AT_BasicResearch.description>
+  <AS_AT_BasicResearch.description>Research the basics of the technology used by certain ancient races from documents.</AS_AT_BasicResearch.description>
 
   <AS_AT_TechAdvanceResearch.label>Ancient Tech Tech Advance Research</AS_AT_TechAdvanceResearch.label>
-  <AS_AT_TechAdvanceResearch.description>Collecting and researching knowledge and information about the technology used by certain ancient races to further develop it from documents, or advanced technical knowledge itself. </AS_AT_TechAdvanceResearch.description>
+  <AS_AT_TechAdvanceResearch.description>Collecting and researching knowledge and information about the technology used by certain ancient races to further develop it from documents, or advanced technical knowledge itself.</AS_AT_TechAdvanceResearch.description>
 
   <AS_AT_SpacerTechResearch.label>Ancient Technology Advanced Technology Research</AS_AT_SpacerTechResearch.label>
-  <AS_AT_SpacerTechResearch.description>Collects and researches knowledge and information about technologies used by certain ancient races to further develop them from documents, or the advanced technical knowledge itself. </AS_AT_SpacerTechResearch.description>
+  <AS_AT_SpacerTechResearch.description>Collects and researches knowledge and information about technologies used by certain ancient races to further develop them from documents, or the advanced technical knowledge itself.</AS_AT_SpacerTechResearch.description>
 
   <AS_AT_BasicWeaponsTechResearch.label>Ancient Tech Basic Weapons Research</AS_AT_BasicWeaponsTechResearch.label>
-  <AS_AT_BasicWeaponsTechResearch.description>Research the technology used by an ancient race to create relatively inexpensive melee combat weapons, firearms, and ammunition. </AS_AT_BasicWeaponsTechResearch.description>
+  <AS_AT_BasicWeaponsTechResearch.description>Research the technology used by an ancient race to create relatively inexpensive melee combat weapons, firearms, and ammunition.</AS_AT_BasicWeaponsTechResearch.description>
 
   <AS_AT_AppliedGunsTechResearch.label>Ancient Technology Applied GunsTechResearch</AS_AT_AppliedGunsTechResearch.label>
-  <AS_AT_AppliedGunsTechResearch.description>Research the technology used by an ancient race to apply basic firearm technology to more advanced firearm ammunition. </AS_AT_AppliedGunsTechResearch.description>
+  <AS_AT_AppliedGunsTechResearch.description>Research the technology used by an ancient race to apply basic firearm technology to more advanced firearm ammunition.</AS_AT_AppliedGunsTechResearch.description>
 
   <AS_AT_GrawehrResearch.label>Ancient Technology Grawehr Analysis</AS_AT_GrawehrResearch.label>
-  <AS_AT_GrawehrResearch.description>Research to understand the structure and mechanics of high-speed high-explosive projectile rifles, the technology used by certain ancient races, and to make it possible to manufacture Grawehr itself and special low-power bullets. </AS_AT_GrawehrResearch.description>
+  <AS_AT_GrawehrResearch.description>Research to understand the structure and mechanics of high-speed high-explosive projectile rifles, the technology used by certain ancient races, and to make it possible to manufacture Grawehr itself and special low-power bullets.</AS_AT_GrawehrResearch.description>
 
 </LanguageData>

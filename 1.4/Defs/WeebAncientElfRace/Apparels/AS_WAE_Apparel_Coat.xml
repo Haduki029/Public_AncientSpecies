@@ -98,7 +98,7 @@
     </apparel>
   </ThingDef>
 
-  <ThingDef ParentName="AS_WHA_NobleCoat_Base">
+  <!-- <ThingDef ParentName="AS_WHA_NobleCoat_Base">
     <defName>AS_WAE_NobleCoatBK</defName>
     <description>神聖王国のエルフ貴族のコートを真似た黒いコート。性能は同等である。</description>
     <label>ASエルフ貴族のコート（黒）</label>
@@ -109,9 +109,9 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Apparels/WAE/coat/NobleCoatBK</wornGraphicPath>
-      <tags><!-- TODO: -->
+      <tags>
         <li>AS_HighCoat</li>
       </tags>
     </apparel>
-  </ThingDef>
+  </ThingDef> -->
 </Defs>

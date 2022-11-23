@@ -2,7 +2,7 @@
 <LanguageData>
 
 <WAE_ElvenBow_Origin.label>AS ElvenBow</WAE_ElvenBow_Origin.label>
-   <WAE_ElvenBow_Origin.description>A compound bow used by the ancient elves. Made with special ancient elf technology, it boasts not only good maneuverability at close range due to its small size and light weight, but also stable accuracy and extremely high accuracy at medium and long distances. </WAE_ElvenBow_Origin.description>
+   <WAE_ElvenBow_Origin.description>A compound bow used by the ancient elves. Made with special ancient elf technology, it boasts not only good maneuverability at close range due to its small size and light weight, but also stable accuracy and extremely high accuracy at medium and long distances.</WAE_ElvenBow_Origin.description>
    <WAE_ElvenBow_Origin.tools.0.label>limb</WAE_ElvenBow_Origin.tools.0.label>
 
    <AS_WAE_ElvenArrow.label>Elven Arrow</AS_WAE_ElvenArrow.label>

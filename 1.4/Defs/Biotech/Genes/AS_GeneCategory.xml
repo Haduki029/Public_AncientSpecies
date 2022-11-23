@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GeneCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_WAE_Genes</defName>
+		<label>古代エルフの遺伝子</label>
+		<displayPriorityInXenotype>1131</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>AS_WAE_Genes_Colors</defName>
+		<label>古代エルフの色彩遺伝子</label>
+		<displayPriorityInXenotype>1132</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+</Defs>

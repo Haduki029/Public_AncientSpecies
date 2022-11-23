@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Primacy -->
+
+  <!-- <MemeGroupDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>AS_WAE_MemesGroup</defName>
+    <drawOffset>(0.37, 0.23)</drawOffset>
+    <maxRows>1</maxRows>
+    <renderOrder>1900</renderOrder>
+  </MemeGroupDef>
+
+  <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>AS_Meme_AncientElfPrimacy</defName>
+    <label>古代エルフ至上主義</label>
+    <description>古代エルフを至上とする考え。</description>
+    <iconPath>UI/Memes/PrimacyHuman</iconPath>
+    <groupDef>AS_WAE_MemesGroup</groupDef>
+    <impact>2</impact>
+    <renderOrder>50</renderOrder>
+    <veneratedAnimalsCountOverride>0</veneratedAnimalsCountOverride>
+    <requireOne>
+      <li>
+        <li>Bonding_Disapproved</li>
+      </li>
+    </requireOne>
+    <consumableBuildings>
+		<li>SacrificialFlag</li>
+	</consumableBuildings>
+    <exclusionTags>
+      <li>Primacy</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->elf</li>
+        <li>memeAdjective->mortal</li>
+        <li>memeAdjective->hominid</li>
+        <li>memeHyphenPrefix->anthro</li>
+        <li>memeConcept->mankind</li>
+        <li>memeConcept->humanity</li>
+        <li>memeLeaderNoun->elf</li>
+        <li>memeLeaderNoun->hominid</li>
+        <li>memeLeaderNoun->mortal</li>
+        <li>memeLeaderNoun->person</li>
+        <li>memeLeaderNoun->sapient</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+			<patterns>
+				<li>
+					<def>AS_WAE_IdeoStoryPattern</def>
+				</li>
+			</patterns>
+			<constants>
+				<li><key>structure_ideological</key><value>true</value></li>
+			</constants>
+		</descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>エルヴニズム</ideoName>
+        <theme>エルフィニティ</theme>
+        <adjective>エルフィニティスト</adjective>
+        <member>エルフィニティスタ－</member>
+
+        <ideoName>Elvenism</ideoName>
+        <theme>elfinity</theme>
+        <adjective>elfinitist</adjective>
+        <member>elfinitistor</member>
+
+      </li>
+      <li>
+        <ideoName>エルフ種主義</ideoName>
+        <theme>エルフ種</theme>
+        <adjective>親エルフ</adjective>
+        <member>エルフ主義者</member>
+
+        <ideoName>Elfkindism</ideoName>
+        <theme>elfkind</theme>
+        <adjective>pro-elf</adjective>
+        <member>elfkindist</member>
+
+      </li>
+    </symbolPacks>
+    <ritualsToMake>1</ritualsToMake>
+    <replaceRitualsWithTags><li>CelebratedDate</li></replaceRitualsWithTags>
+    <replacementPatterns><li>SacrificeAnimal</li></replacementPatterns>
+  </MemeDef> -->
+
+</Defs>
