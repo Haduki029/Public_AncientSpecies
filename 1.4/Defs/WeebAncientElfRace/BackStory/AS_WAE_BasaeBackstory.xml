@@ -3,7 +3,7 @@
 
 	<AlienRace.AlienBackstoryDef Name="AS_WAE_Backstory_Base" Abstract="True">
 		<forcedHediffs>
-			<li>AS_WAE_OdEnergy_StorageCapacity</li>
+			<li>AS_Hediff_OdEnergy</li>
 		</forcedHediffs>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		<bodyTypeMale>Female</bodyTypeMale>

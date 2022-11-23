@@ -1,22 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-  <ThingDef Name="AS_WAE_BasePawn" ParentName="BasePawn" Abstract="True">
-      <thingClass>Pawn</thingClass>
-      <category>Pawn</category>
-      <selectable>true</selectable>
-      <tickerType>Normal</tickerType>
-      <altitudeLayer>Pawn</altitudeLayer>
-      <useHitPoints>false</useHitPoints>
-      <hasTooltip>true</hasTooltip>
-      <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-      <drawGUIOverlay>true</drawGUIOverlay>
-      <statBases>
-        <Mass>70</Mass>
-        <Flammability>0.8</Flammability>
-      </statBases>
-  </ThingDef>
-
   <AlienRace.ThingDef_AlienRace ParentName="AS_WAE_BasePawn">
     <defName>AS_WAE_Race</defName>
     <label>古代エルフ</label>
@@ -52,21 +36,21 @@
         </forcedRaceTraitEntries>
         <disallowedTraits>
           <li>
-						<defName>AnnoyingVoice</defName>
-						<degree>0</degree>
-					</li>
-					<li>
-						<defName>CreepyBreathing</defName>
-						<degree>0</degree>
-					</li>
+            <defName>AnnoyingVoice</defName>
+            <degree>0</degree>
+          </li>
           <li>
-						<defName>Beauty</defName>
-						<degree>-1</degree>
-					</li>
-					<li>
-						<defName>Beauty</defName>
-						<degree>-2</degree>
-					</li>
+            <defName>CreepyBreathing</defName>
+            <degree>0</degree>
+            </li>
+          <li>
+            <defName>Beauty</defName>
+            <degree>-1</degree>
+        	</li>
+        	<li>
+            <defName>Beauty</defName>
+            <degree>-2</degree>
+        	</li>
           <li>
             <defName>Nudist</defName>
             <degree>0</degree>
@@ -328,35 +312,28 @@
 	  </alienRace>
 
     <statBases>
-      <MarketValue>2800</MarketValue>
-      <MoveSpeed>4.9</MoveSpeed>
-      <MentalBreakThreshold>0.05</MentalBreakThreshold>
-      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+      <MarketValue>1200</MarketValue>
+      <MoveSpeed>4.7</MoveSpeed>
+      <ComfyTemperatureMax>24</ComfyTemperatureMax>
       <ComfyTemperatureMin>10</ComfyTemperatureMin>
-      <ImmunityGainSpeed>1.2</ImmunityGainSpeed><!-- 病気回復速度 -->
-      <ToxicResistance>0.65</ToxicResistance><!-- 毒抵抗値 0f~1f toxEnvResiへ50%相乗？-->
+      <ImmunityGainSpeed>1.0</ImmunityGainSpeed><!-- 病気回復速度 -->
+      <ToxicResistance>0.50</ToxicResistance><!-- 毒抵抗値 0f~1f toxEnvResiへ50%相乗？-->
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance><!-- 環境による毒抵抗値 0f~1f toxResiへ50％相乗？ -->
       <CarryingCapacity>75</CarryingCapacity>
       <MeatAmount>60</MeatAmount>
       <LeatherAmount>60</LeatherAmount>
       <PainShockThreshold>1.0</PainShockThreshold>
 
-      <ShootingAccuracyPawn>1.3</ShootingAccuracyPawn>
-      <AimingDelayFactor>0.85</AimingDelayFactor>
-      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-      <MeleeDodgeChance>0.25</MeleeDodgeChance>
-      <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
-      <NegotiationAbility>0.7</NegotiationAbility>
-      <SellPriceFactor>0.8</SellPriceFactor>
-      <SocialImpact>1.0</SocialImpact>
+      <NegotiationAbility>0.6</NegotiationAbility>
+      <TradePriceImprovement>0.6</TradePriceImprovement>
+      <SocialImpact>0.8</SocialImpact>
       <TameAnimalChance>1.2</TameAnimalChance>
       <TrainAnimalChance>1.2</TrainAnimalChance>
       <AnimalGatherSpeed>1.2</AnimalGatherSpeed>
       <AnimalGatherYield>1.2</AnimalGatherYield>
-
+      <ConstructionSpeed>0.9</ConstructionSpeed>
       <MiningSpeed>1.0</MiningSpeed>
-      <DeepDrillingSpeed>0.45</DeepDrillingSpeed>
-
+      <DeepDrillingSpeed>0.40</DeepDrillingSpeed>
       <HuntingStealth>1.2</HuntingStealth>
 
       <ButcheryMechanoidEfficiency>0.2</ButcheryMechanoidEfficiency>
@@ -364,13 +341,15 @@
 
       <ButcheryFleshEfficiency>1.0</ButcheryFleshEfficiency>
       <ButcheryFleshSpeed>1.0</ButcheryFleshSpeed>
-      <FoodPoisonChance>0.9</FoodPoisonChance>
-      <CookSpeed>1.0</CookSpeed>
+      <FoodPoisonChance>0.85</FoodPoisonChance>
+      <CookSpeed>0.85</CookSpeed>
 
-      <PlantWorkSpeed>1.2</PlantWorkSpeed>
-      <PlantHarvestYield>1.2</PlantHarvestYield>
-
-      <ResearchSpeed>0.4</ResearchSpeed>
+      <PlantWorkSpeed>0.9</PlantWorkSpeed>
+      <PlantHarvestYield>1.1</PlantHarvestYield>
+      <SuppressionPower>1.5</SuppressionPower>
+      <ResearchSpeed>0.35</ResearchSpeed>
+      <HackingSpeed>0.30</HackingSpeed>
+      <WorkSpeedGlobalOffsetMech>0.30</WorkSpeedGlobalOffsetMech>
     </statBases>
 
     <tools>
@@ -457,7 +436,7 @@
       <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
       <nameGenerator>AS_WAE_Name_Rule</nameGenerator>
-			<nameGeneratorFemale>AS_WAE_Name_Rule</nameGeneratorFemale>
+    	<nameGeneratorFemale>AS_WAE_Name_Rule</nameGeneratorFemale>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -476,9 +455,9 @@
           <minAge>6</minAge>
         </li>
         <li MayRequire="Ludeon.RimWorld.Biotech">
-					<def>HumanlikePreTeenager</def>
-					<minAge>9</minAge>
-				</li>
+        	<def>HumanlikePreTeenager</def>
+        	<minAge>9</minAge>
+        </li>
         <li>
           <def>HumanlikeTeenager</def>
           <minAge>14</minAge>
@@ -490,28 +469,28 @@
       </lifeStageAges>
 
       <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
-				<Firefighter>2</Firefighter>
-				<Patient>0</Patient>
-				<Doctor>1</Doctor>
-				<PatientBedRest>0</PatientBedRest>
-				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
-				<BasicWorker>4</BasicWorker>
-				<Warden>2</Warden>
-				<Handling>2</Handling>
-				<Cooking>1</Cooking>
-				<Hunting>1</Hunting>
-				<Construction>1</Construction>
-				<Growing>2</Growing>
-				<Mining>0</Mining>
-				<PlantCutting>2</PlantCutting>
-				<Smithing>0</Smithing>
-				<Tailoring>0</Tailoring>
-				<Art>0</Art>
-				<Crafting>0</Crafting>
-				<Hauling>0</Hauling>
-				<Cleaning>0</Cleaning>
-				<Research>1</Research>
-			</lifeStageWorkSettings>
+        <Firefighter>2</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>1</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>4</BasicWorker>
+        <Warden>2</Warden>
+        <Handling>2</Handling>
+        <Cooking>1</Cooking>
+        <Hunting>1</Hunting>
+        <Construction>1</Construction>
+        <Growing>2</Growing>
+        <Mining>0</Mining>
+        <PlantCutting>2</PlantCutting>
+        <Smithing>0</Smithing>
+        <Tailoring>0</Tailoring>
+        <Art>0</Art>
+        <Crafting>0</Crafting>
+        <Hauling>0</Hauling>
+        <Cleaning>0</Cleaning>
+        <Research>1</Research>
+    	</lifeStageWorkSettings>
 
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>

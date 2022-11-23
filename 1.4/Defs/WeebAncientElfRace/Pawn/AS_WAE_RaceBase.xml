@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <ThingDef Name="AS_WAE_BasePawn" ParentName="BasePawn" Abstract="True">
+      <thingClass>Pawn</thingClass>
+      <category>Pawn</category>
+      <selectable>true</selectable>
+      <tickerType>Normal</tickerType>
+      <altitudeLayer>Pawn</altitudeLayer>
+      <useHitPoints>false</useHitPoints>
+      <hasTooltip>true</hasTooltip>
+      <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+      <comps>
+        <li>
+          <compClass>CompAttachBase</compClass>
+        </li>
+        <li Class="AncientSpecies.AS_CompProperties_PhysicalBoost">
+          <CommandName>AS_ActivatePhysicalBoost</CommandName>
+          <CommandLabel>フィジカルブースト</CommandLabel>
+          <CommandDesc>フィジカルブーストを起動します。</CommandDesc>
+          <CommandIconPath>UI/Icon/OdBoost/Boost</CommandIconPath>
+          <!-- <OdGaugeDownRate>1.0</OdGaugeDownRate> -->
+          <!-- <PhysicalBoostEffect>AS_PhysicalBoostEffect</PhysicalBoostEffect> -->
+        </li>
+      </comps>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <statBases>
+        <Mass>70</Mass>
+        <Flammability>1.0</Flammability>
+      </statBases>
+  </ThingDef>
+</Defs>

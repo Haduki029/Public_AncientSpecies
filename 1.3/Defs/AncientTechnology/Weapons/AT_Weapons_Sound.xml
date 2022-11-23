@@ -7,8 +7,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Assault_Rifle_Light</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Assault_Rifle_Light</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -22,8 +22,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Assault_Rifle_Light</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Assault_Rifle_Light</clipPath>
 				</li>
 			</grains>
 			<volumeRange>
@@ -49,8 +49,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>WHESniperRifle</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>WHESniperRifle</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -64,8 +64,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>WHEShotgun</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>WHEShotgun</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -79,8 +79,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>WHEShotgun</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>WHEShotgun</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -94,8 +94,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Assault_Rifle_Interact</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Assault_Rifle_Interact</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -109,8 +109,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Shotgun_Interact</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Shotgun_Interact</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -124,8 +124,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Rebel_Rifle</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Rebel_Rifle</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -139,8 +139,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Rebel_Rifle_Interact</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Rebel_Rifle_Interact</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -154,8 +154,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Handgun</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Handgun</clipPath>
 				</li>
 			</grains>
 		</li>
@@ -169,8 +169,8 @@
 	<subSounds>
 		<li>
 			<grains>
-				<li Class="AudioGrain_Folder">
-					<clipFolderPath>Handgun_Interact</clipFolderPath>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Handgun_Interact</clipPath>
 				</li>
 			</grains>
 		</li>

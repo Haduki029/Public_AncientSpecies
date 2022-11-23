@@ -2,91 +2,78 @@
 <Defs>
   <TraitDef>
     <defName>AS_SpeciesType</defName>
-    <commonality>0.001</commonality>
-    <!-- <conflictingTraits>
-      <li>AS_WeebAncientElf</li>
-      <li>AS_WeebDrake</li>
-      <li>AS_WeebWolfen</li>
-    </conflictingTraits> -->
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>ハーフエルフ</label>
         <description>人類の手により、エンシェントエルフと人間の遺伝子を用いて作られた人工種族。</description>
         <degree>1</degree>
-				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+				<marketValueFactorOffset>1.2</marketValueFactorOffset>
         <statOffsets>
-          <MoveSpeed>1.0</MoveSpeed>
-          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
-				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
-          <ToxicResistance>0.15</ToxicResistance>
-          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
-          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
-          <CarryingCapacity>35</CarryingCapacity>
-          <PainShockThreshold>0.3</PainShockThreshold>
-          <MeleeDodgeChance>1</MeleeDodgeChance>
-          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+          <MoveSpeed>0.3</MoveSpeed>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <RangedWeapon_Cooldown>-0.1</RangedWeapon_Cooldown>
+          <ToxicResistance>0.05</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.05</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+          <PainShockThreshold>0.05</PainShockThreshold>
+          <MeleeDodgeChance>0.5</MeleeDodgeChance>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
         </statOffsets>
 			</li>
       <li>
         <label>古代エルフ</label>
         <description>遥か昔、偉大な技術を持った古代の種族により生み出されたと言われる種族。</description>
         <degree>2</degree>
-				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+				<marketValueFactorOffset>1.5</marketValueFactorOffset>
         <statOffsets>
-          <MoveSpeed>1.0</MoveSpeed>
-          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
-				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
-          <ToxicResistance>0.15</ToxicResistance>
-          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
-          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
-          <CarryingCapacity>35</CarryingCapacity>
-          <PainShockThreshold>0.3</PainShockThreshold>
-          <MeleeDodgeChance>1</MeleeDodgeChance>
-          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+          <MoveSpeed>0.5</MoveSpeed>
+          <AimingDelayFactor>-0.1</AimingDelayFactor>
+          <RangedWeapon_Cooldown>-0.1</RangedWeapon_Cooldown>
+          <ToxicResistance>0.10</ToxicResistance>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.10</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+          <PainShockThreshold>0.07</PainShockThreshold>
+          <MeleeDodgeChance>0.7</MeleeDodgeChance>
+          <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
         </statOffsets>
 			</li>
       <li>
         <label>ドレイク</label>
         <description>遥か昔、偉大な技術を持った古代の種族により生み出されたと言われる種族。</description>
         <degree>3</degree>
-				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+				<marketValueFactorOffset>8.0</marketValueFactorOffset>
         <statOffsets>
           <MoveSpeed>1.0</MoveSpeed>
-          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
-				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+				  <ComfyTemperatureMax>+15</ComfyTemperatureMax>
           <ToxicResistance>0.15</ToxicResistance>
-          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
-          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
-          <CarryingCapacity>35</CarryingCapacity>
-          <PainShockThreshold>0.3</PainShockThreshold>
-          <MeleeDodgeChance>1</MeleeDodgeChance>
-          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>0.20</ImmunityGainSpeed>
+          <PainShockThreshold>0.2</PainShockThreshold>
+          <MeleeDodgeChance>0.5</MeleeDodgeChance>
+          <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.5</ArmorRating_Heat>
+          <WorkSpeedGlobal>-0.65</WorkSpeedGlobal>
         </statOffsets>
 			</li>
       <li>
         <label>ウルフェン</label>
         <description>人類の手により、古代に存在した狼種と人間の遺伝子を用いて作られた人工種族。</description>
         <degree>4</degree>
-				<!-- <marketValueFactorOffset>2.0</marketValueFactorOffset> -->
+				<marketValueFactorOffset>1.3</marketValueFactorOffset>
         <statOffsets>
           <MoveSpeed>1.0</MoveSpeed>
-          <ComfyTemperatureMin>-12</ComfyTemperatureMin>
-				  <ComfyTemperatureMax>+12</ComfyTemperatureMax>
-          <ToxicResistance>0.15</ToxicResistance>
-          <ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
-          <ImmunityGainSpeed>1.0</ImmunityGainSpeed>
-          <CarryingCapacity>35</CarryingCapacity>
-          <PainShockThreshold>0.3</PainShockThreshold>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.1</ToxicEnvironmentResistance>
+          <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
+          <PainShockThreshold>0.2</PainShockThreshold>
           <MeleeDodgeChance>1</MeleeDodgeChance>
-          <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-          <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-          <ArmorRating_Heat>0.2</ArmorRating_Heat>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.05</ArmorRating_Heat>
+          <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
         </statOffsets>
 			</li>
     </degreeDatas>

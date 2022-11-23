@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase" Class="AncientSpecies.AS_ThingDef_PhysicalBoostEffect">
+        <defName>AS_PhysicalBoostEffect</defName>
+        <label>フィジカルブーストエフェクト</label>
+        <description>フィジカルブースト使用時のエフェクト。</description>
+        <thingClass>AncientSpecies.AS_Building_OdBoostEffect</thingClass>
+        <graphicData>
+            <texPath>Effect/PhysicalBoost/PhysicalBoost_Activate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <graphicA>
+            <texPath>Effect/PhysicalBoost/PhysicalBoost_Activate_a</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicA>
+        <graphicB>
+            <texPath>Effect/PhysicalBoost/PhysicalBoost_Activate_b</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicB>
+        <graphicC>
+            <texPath>Effect/PhysicalBoost/PhysicalBoost_Activate_c</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicC>
+        <graphicD>
+            <texPath>Effect/PhysicalBoost/PhysicalBoost_Activate_d</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicD>
+        <selectable>false</selectable>
+        <building>
+            <isInert>true</isInert>
+            <isEdifice>false</isEdifice>
+            <deconstructible>false</deconstructible>
+        </building>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <overlightRadius>0.8</overlightRadius>
+                <glowRadius>3</glowRadius>
+                <glowColor>(155,255,155,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Lifespan">
+                <lifespanTicks>20</lifespanTicks>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>

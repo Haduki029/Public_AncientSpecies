@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+    <SoundDef>
+        <defName>AS_PhysicalBoost_Activate</defName>
+        <context>Any</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+        <li>
+            <onCamera>true</onCamera>
+            <grains>
+            <li Class="AudioGrain_Clip">
+                <clipPath>Effect/PhysicalBoostStart</clipPath>
+            </li>
+            </grains>
+            <volumeRange>100~105</volumeRange>
+            <distRange>70~70</distRange>
+        </li>
+        </subSounds>
+    </SoundDef>
+
+	<SoundDef>
+        <defName>AS_Od_Charging</defName>
+        <context>Any</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+        <li>
+            <onCamera>true</onCamera>
+            <grains>
+            <li Class="AudioGrain_Clip">
+                <clipPath>Effect/OdCharge</clipPath>
+            </li>
+            </grains>
+            <volumeRange>5~29</volumeRange>
+            <distRange>30~50</distRange>
+        </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

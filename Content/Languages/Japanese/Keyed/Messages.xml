@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MessageOdLevelUp>{PAWN_labelShort}は{1}を操る技術が成長し、{2}になった。</MessageOdLevelUp>
+  <MessageOdEmpty>{PAWN_labelShort}は{1}が無いため発動できません。</MessageOdEmpty>
+  <MessageActivatePhysicalBoost>{PAWN_labelShort}はフィジカルブーストをONにしました。</MessageActivatePhysicalBoost>
+  <MessageDeActivatePhysicalBoost>{PAWN_labelShort}はフィジカルブーストをOFFにしました。</MessageDeActivatePhysicalBoost>
+</LanguageData>
