@@ -1,6 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  <ThingDef Name="AS_ChildApparelCommonBase" ParentName="ChildApparelMakeableBase" Abstract="True">
+  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" Abstract="True" Name="AS_ChildApparelMakeableBase" ParentName="ApparelMakeableBase">
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <apparel>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <developmentalStageFilter>Child</developmentalStageFilter>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_ChildApparelCommonBase" ParentName="AS_ChildApparelMakeableBase" Abstract="True">
     <thingClass>Apparel</thingClass>
     <category>Item</category>
     <selectable>True</selectable>

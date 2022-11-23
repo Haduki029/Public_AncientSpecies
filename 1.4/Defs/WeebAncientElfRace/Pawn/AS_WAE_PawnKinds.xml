@@ -55,8 +55,8 @@
     <minGenerationAge>14</minGenerationAge>
     <maxGenerationAge>35</maxGenerationAge>
     <isFighter>false</isFighter>
-    <itemQuality>Poor</itemQuality>
     <backstoryCryptosleepCommonality>0.50</backstoryCryptosleepCommonality><!-- TODO: -->
+    <itemQuality>Poor</itemQuality>
     <apparelTags>
       <li>AS_Common_Apparel</li>
     </apparelTags>
@@ -68,6 +68,13 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
+    <apparelRequired>
+      <li>AS_Common_Tribal</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>100</min>
+      <max>300</max>
+    </apparelMoney>
     <inventoryOptions>
       <skipChance>0.6</skipChance>
       <subOptionsChooseOne>

@@ -21,10 +21,10 @@
             <Female>
               <path>Pawn/Bodies/Naked_Female</path>
             </Female>
-            <Child>
+            <Child MayRequire="Ludeon.RimWorld.Biotech">
               <path>Pawn/Bodies/Naked_Child</path>
             </Child>
-            <Baby>
+            <Baby MayRequire="Ludeon.RimWorld.Biotech">
               <drawSize>0.01</drawSize>
               <path>Pawn/AddonBodies/Baby/no</path>
               <offsets>
@@ -215,10 +215,10 @@
               <shaderType>Cutout</shaderType>
               <hiddenUnderApparelTag></hiddenUnderApparelTag><!-- apparelTags,BodyPartGroups をli形式で指定することで非表示ケースを追加可能 -->
               <bodytypeGraphics>
-                <Baby>
+                <Baby MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/Ears/no</path>
                 </Baby>
-                <Child>
+                <Child MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/Ears/L/elf_EarL</path>
                 </Child>
                 <Female>
@@ -267,10 +267,10 @@
               <defaultOffset>Center</defaultOffset><!-- alignWithHeadがtrueならCenter(デフォルト)が良い -->
               <shaderType>Cutout</shaderType>
               <bodytypeGraphics>
-                <Baby>
+                <Baby MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/Ears/no</path>
                 </Baby>
-                <Child>
+                <Child MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/Ears/R/elf_EarR</path>
                 </Child>
                 <Female>
@@ -316,11 +316,11 @@
               <alignWithHead>true</alignWithHead>
               <defaultOffset>Center</defaultOffset>
               <bodytypeGraphics>
-                <Baby>
+                <Baby MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/AddonHairs/no</path>
                   <drawSize>1</drawSize>
                 </Baby>
-                <Child>
+                <Child MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/AddonHairs/AS_CMA</path>
                   <drawSize>1</drawSize>
                 </Child>
@@ -372,11 +372,11 @@
                 <li>AS_WAE_FeatherHardHelm</li>
               </hiddenUnderApparelTag> -->
               <bodytypeGraphics>
-                <Baby>
+                <Baby MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/AddonHairs/InHair/no</path>
                   <drawSize>1</drawSize>
                 </Baby>
-                <Child>
+                <Child MayRequire="Ludeon.RimWorld.Biotech">
                   <path>Pawn/AddonHairs/InHair/AS_CMA</path>
                   <drawSize>1</drawSize>
                 </Child>
@@ -419,7 +419,7 @@
               </ageGraphics> -->
             </li>
 
-            <li><!-- Babyの身体 -->
+            <li MayRequire="Ludeon.RimWorld.Biotech"><!-- Babyの身体 -->
               <bodyPart>Torso</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>skin</colorChannel>
@@ -600,7 +600,7 @@
       <SuppressionPower>1.5</SuppressionPower>
       <ResearchSpeed>0.35</ResearchSpeed>
       <HackingSpeed>0.30</HackingSpeed>
-      <WorkSpeedGlobalOffsetMech>0.30</WorkSpeedGlobalOffsetMech>
+      <WorkSpeedGlobalOffsetMech MayRequire="Ludeon.RimWorld.Biotech">0.30</WorkSpeedGlobalOffsetMech>
     </statBases>
 
     <tools>
