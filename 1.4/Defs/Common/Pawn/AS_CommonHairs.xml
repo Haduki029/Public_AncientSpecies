@@ -90,11 +90,11 @@
 		</styleTags>
 	</HairDef>
 
-	<!-- <HairDef>
+	<HairDef>
 		<defName>AS_Pawn_Hair_7</defName>
 		<label>ASツインテール１</label>
 		<styleGender>Female</styleGender>
-		<texPath>Pawn/AddonHairs/AS_CM6</texPath>
+		<texPath>Pawn/AddonHairs/AS_CM7</texPath>
 		<category>AS_Hair_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -109,7 +109,7 @@
 		<defName>AS_Pawn_Hair_8</defName>
 		<label>ASツインテール２</label>
 		<styleGender>Female</styleGender>
-		<texPath>Pawn/AddonHairs/AS_CM7</texPath>
+		<texPath>Pawn/AddonHairs/AS_CM8</texPath>
 		<category>AS_Hair_Style</category>
 		<styleTags>
 			<li>AS_Style</li>
@@ -124,6 +124,21 @@
 		<defName>AS_Pawn_Hair_9</defName>
 		<label>ASツインテール３</label>
 		<styleGender>Female</styleGender>
+		<texPath>Pawn/AddonHairs/AS_CM9</texPath>
+		<category>AS_Hair_Style</category>
+		<styleTags>
+			<li>AS_Style</li>
+			<li>AS_Hair_Style</li>
+			<li>AS_WAE_Hairs</li>
+			<li>AS_WHE_Hairs</li>
+			<li>AS_WDk_Hairs</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>AS_Pawn_Hair_10</defName>
+		<label>ASウェーブロング４</label>
+		<styleGender>Female</styleGender>
 		<texPath>Pawn/AddonHairs/AS_CM8</texPath>
 		<category>AS_Hair_Style</category>
 		<styleTags>
@@ -133,6 +148,6 @@
 			<li>AS_WHE_Hairs</li>
 			<li>AS_WDk_Hairs</li>
 		</styleTags>
-	</HairDef> -->
+	</HairDef>
 
 </Defs>
