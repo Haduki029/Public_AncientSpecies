@@ -12,6 +12,7 @@
     <AS_OdControlFactor_Gene.label>od control factor gene</AS_OdControlFactor_Gene.label>
     <AS_OdControlFactor_Gene.description>Ancient Elven genes. Can inherit superior abilities, increased move speed, anti-toxicity, and faster recovery from illness.</AS_OdControlFactor_Gene.description>
 
+    <!-- Hair Color -->
     <AS_WAE_Gene_Hair_fcff8c.label>lime light</AS_WAE_Gene_Hair_fcff8c.label>
     <AS_WAE_Gene_Hair_fcff8c.description>This gene relates to the hair color of ancient elves. Ancient elves are genetically predisposed to light blonde or green hair color and these gene set that colors.</AS_WAE_Gene_Hair_fcff8c.description>
 
@@ -24,4 +25,16 @@
     <AS_WAE_Gene_Hair_c7ffc7.label>parl green</AS_WAE_Gene_Hair_c7ffc7.label>
     <AS_WAE_Gene_Hair_c7ffc7.description>This gene relates to the hair color of ancient elves. Ancient elves are genetically predisposed to light blonde or green hair color and these gene set that colors.</AS_WAE_Gene_Hair_c7ffc7.description>
 
+    <!-- Skin Color -->
+    <AS_Gene_Skin_Melanin00_fff1ec.label>light pink beige</AS_Gene_Skin_Melanin00_fff1ec.label>
+    <AS_Gene_Skin_Melanin00_fff1ec.description>Carriers of this gene have a particular skin color. With multiple skin color genes, one is randomly selected.</AS_Gene_Skin_Melanin00_fff1ec.description>
+
+    <AS_Gene_Skin_Melanin00_ffefdc.label>light beige</AS_Gene_Skin_Melanin00_ffefdc.label>
+    <AS_Gene_Skin_Melanin00_ffefdc.description>Carriers of this gene have a particular skin color. With multiple skin color genes, one is randomly selected.</AS_Gene_Skin_Melanin00_ffefdc.description>
+
+    <AS_Gene_Skin_Melanin01_fff1ec.label>pink beige</AS_Gene_Skin_Melanin01_fff1ec.label>
+    <AS_Gene_Skin_Melanin01_fff1ec.description>Carriers of this gene have a particular skin color. With multiple skin color genes, one is randomly selected.</AS_Gene_Skin_Melanin01_fff1ec.description>
+
+    <AS_Gene_Skin_Melanin01_ffefdc.label>beige</AS_Gene_Skin_Melanin01_ffefdc.label>
+    <AS_Gene_Skin_Melanin01_ffefdc.description>Carriers of this gene have a particular skin color. With multiple skin color genes, one is randomly selected.</AS_Gene_Skin_Melanin01_ffefdc.description>
 </LanguageData>

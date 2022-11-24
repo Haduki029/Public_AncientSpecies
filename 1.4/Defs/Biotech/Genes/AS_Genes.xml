@@ -64,7 +64,7 @@
 		<description>古代エルフの髪の色に関する遺伝子です。古代エルフは遺伝的に明るいブロンド系や緑の髪色が多いですが、その性質を付与します。</description>
 		<biostatCpx>0</biostatCpx>
 		<endogeneCategory>HairColor</endogeneCategory>
-		<canGenerateInGeneSet>false</canGenerateInGeneSet>
+		<canGenerateInGeneSet>true</canGenerateInGeneSet>
 		<displayCategory>AS_WAE_Genes_Colors</displayCategory>
 		<randomBrightnessFactor>0</randomBrightnessFactor>
 		<exclusionTags>
@@ -105,31 +105,46 @@
 	</GeneDef>
 
 	<!-- skin color -->
-	<!-- <GeneDef ParentName="GeneSkinColorMelanin">
-		<defName>Skin_Melanin1</defName>
-		<skinColorBase>(242, 237, 224)</skinColorBase>
+	<GeneDef Name="AS_GeneSkinColorMelanin" Abstract="True">
+		<label>AS 肌の色</label>
+		<description>この遺伝子の保有者は、特定の肌の色を持っています。複数の肌色遺伝子がある場合、1つがランダムに選択されます。</description>
+		<selectionWeight>0</selectionWeight>
+		<biostatCpx>0</biostatCpx>
+		<endogeneCategory>Melanin</endogeneCategory>
+		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+		<canGenerateInGeneSet>true</canGenerateInGeneSet>
+		<displayCategory>AS_Cosmetic_Skin</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<exclusionTags>
+			<li>SkinColor</li>
+		</exclusionTags>
+	</GeneDef>
+
+	<GeneDef ParentName="AS_GeneSkinColorMelanin">
+		<defName>AS_Gene_Skin_Melanin00_fff1ec</defName>
+		<skinColorBase>(255,241,236)</skinColorBase>
 		<minMelanin>0</minMelanin>
-		<selectionWeight>0.2</selectionWeight>
+		<selectionWeight>0.35</selectionWeight>
 	</GeneDef>
 
-	<GeneDef ParentName="GeneSkinColorMelanin">
-		<defName>Skin_Melanin2</defName>
-		<skinColorBase>(255, 239, 213)</skinColorBase>
+	<GeneDef ParentName="AS_GeneSkinColorMelanin">
+		<defName>AS_Gene_Skin_Melanin00_ffefdc</defName>
+		<skinColorBase>(255,239,220)</skinColorBase>
+		<minMelanin>0</minMelanin>
+		<selectionWeight>0.35</selectionWeight>
+	</GeneDef>
+
+	<GeneDef ParentName="AS_GeneSkinColorMelanin">
+		<defName>AS_Gene_Skin_Melanin01_fff1ec</defName>
+		<skinColorBase>(255,241,236)</skinColorBase>
 		<minMelanin>0.1</minMelanin>
-		<selectionWeight>0.5</selectionWeight>
+		<selectionWeight>0.15</selectionWeight>
 	</GeneDef>
 
-	<GeneDef ParentName="GeneSkinColorMelanin">
-		<defName>Skin_Melanin3</defName>
-		<skinColorBase>(255, 239, 201)</skinColorBase>
-		<minMelanin>0.25</minMelanin>
-		<selectionWeight>0.5</selectionWeight>
+	<GeneDef ParentName="AS_GeneSkinColorMelanin">
+		<defName>AS_Gene_Skin_Melanin01_ffefdc</defName>
+		<skinColorBase>(255,239,220)</skinColorBase>
+		<minMelanin>0.1</minMelanin>
+		<selectionWeight>0.15</selectionWeight>
 	</GeneDef>
-
-	<GeneDef ParentName="GeneSkinColorMelanin">
-		<defName>Skin_Melanin4</defName>
-		<skinColorBase>(255, 239, 189)</skinColorBase>
-		<minMelanin>0.45</minMelanin>
-		<selectionWeight>0.5</selectionWeight>
-	</GeneDef> -->
 </Defs>
