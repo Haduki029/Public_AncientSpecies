@@ -248,7 +248,7 @@
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>AS_WAE_HighArmorResearch</researchPrerequisite>
+      <researchPrerequisite>AS_WAE_MidArmorResearch</researchPrerequisite>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
