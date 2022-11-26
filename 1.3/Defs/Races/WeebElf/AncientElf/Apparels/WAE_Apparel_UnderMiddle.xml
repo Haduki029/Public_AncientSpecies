@@ -6,7 +6,7 @@
     <label>エルフの民族衣装</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/onskin/ColonistDressWare</texPath>
+      <texPath>Apparels_old/WAE/onskin/ColonistDressWare</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.5</drawSize>
     </graphicData>
@@ -42,7 +42,7 @@
         <li>Waist</li>
 		    <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/onskin/ColonistDressWare</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/onskin/ColonistDressWare</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <!-- <li>AS_UnderMiddle</li> -->

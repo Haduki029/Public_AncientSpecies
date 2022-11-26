@@ -7,7 +7,7 @@
     <label>貴族のコート（エンシェントエルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/coat/NobleCoat</texPath>
+      <texPath>Apparels_old/WAE/coat/NobleCoat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <followStuffColor>false</followStuffColor>
@@ -64,7 +64,7 @@
         <li>Shoulders</li>
         <li>Arms</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/coat/NobleCoat</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/coat/NobleCoat</wornGraphicPath>
       <layers>
         <li>AS_Coat</li>
       </layers>

@@ -95,7 +95,7 @@
     <graphicPaths>
       <li>
         <head>WHE/Heads/</head>
-        <body>WHE/Bodies/</body>
+        <body>Pawn/Bodies_old/</body>
       </li>
     </graphicPaths>
     <styleSettings>

@@ -6,7 +6,7 @@
     <label>フェザーヘルム（古代エルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/overhead/FeatherHelm</texPath>
+      <texPath>Apparels_old/WAE/overhead/FeatherHelm</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <followStuffColor>false</followStuffColor>
@@ -54,7 +54,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/overhead/FeatherHelm</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/overhead/FeatherHelm</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>

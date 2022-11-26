@@ -6,7 +6,7 @@
     <label>貴族のコート（古代エルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/coat/NobleCoat</texPath>
+      <texPath>Apparels_old/WAE/coat/NobleCoat</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <followStuffColor>false</followStuffColor>
@@ -71,7 +71,7 @@
         <li>Arms</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/coat/NobleCoat</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/coat/NobleCoat</wornGraphicPath>
       <layers>
         <li>AS_Coat</li>
         <!-- <li>AS_Neck</li> -->

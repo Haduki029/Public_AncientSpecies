@@ -6,7 +6,7 @@
     <label>エリート姫騎士鎧（古代エルフ）</label>
     <techLevel>Industrial</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/middle/EliteKnightDress</texPath>
+      <texPath>Apparels_old/WAE/middle/EliteKnightDress</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
@@ -65,7 +65,7 @@
 		    <li>Legs</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/middle/EliteKnightDress</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/middle/EliteKnightDress</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -91,7 +91,7 @@
     <label>姫騎士鎧（古代エルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/middle/KnightDress</texPath>
+      <texPath>Apparels_old/WAE/middle/KnightDress</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
@@ -148,7 +148,7 @@
         <li>Arms</li>
         <li>Waist</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/middle/KnightDress</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/middle/KnightDress</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -174,7 +174,7 @@
     <label>エルフの軽装鎧</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/middle/HKArcherArmor</texPath>
+      <texPath>Apparels_old/WAE/middle/HKArcherArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.3</drawSize>
     </graphicData>
@@ -230,7 +230,7 @@
 		    <li>Legs</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/middle/HKArcherArmor</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/middle/HKArcherArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -254,7 +254,7 @@
     <label>レンジャーアーマー（古代エルフ）</label>
     <techLevel>Medieval</techLevel>
     <graphicData>
-      <texPath>Apparels/WAE/middle/RengerArmor</texPath>
+      <texPath>Apparels_old/WAE/middle/RengerArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.4</drawSize>
     </graphicData>
@@ -309,7 +309,7 @@
 		    <li>Legs</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <wornGraphicPath>Apparels/WAE/middle/RengerArmor</wornGraphicPath>
+      <wornGraphicPath>Apparels_old/WAE/middle/RengerArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
