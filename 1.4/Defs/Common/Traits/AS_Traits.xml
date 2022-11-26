@@ -43,7 +43,7 @@
 			</li>
       <li>
         <label>ドレイク</label>
-        <description>遥か昔、偉大な技術を持った古代の種族により生み出されたと言われる種族。</description>
+        <description>その出自など、全く判明していない強大な力を持つ種族。古代エルフと同様、偉大な技術を持った古代の種族により生み出されたのではないかと考えられている。</description>
         <degree>3</degree>
 				<marketValueFactorOffset>8.0</marketValueFactorOffset>
         <statOffsets>
@@ -91,7 +91,7 @@
     <degreeDatas>
       <li>
         <label>オド制御因子</label>
-        <description></description>
+        <description>オドエネルギーを制御するための因子。フィジカルブーストなど、オドエネルギーによる様々なスキルを使用するために必要となる。</description>
         <degree>1</degree>
 				<marketValueFactorOffset>1.2</marketValueFactorOffset>
         <statOffsets>

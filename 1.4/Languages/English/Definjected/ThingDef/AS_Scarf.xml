@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_Common_PlainScarf.label>AS Scarf</AS_Common_PlainScarf.label>
+  <AS_Common_PlainScarf.description>A scarf woven from cloth that provides protection against the cold while increasing neck protection. Although it has a simple design, the sight of it fluttering in the wind and moving gallantly may light a small fire in the hearts of those who see it.</AS_Common_PlainScarf.description>
+
+  <AS_AT_ShieldScarf.label>AS Shield Scarf</AS_AT_ShieldScarf.label>
+  <AS_AT_ShieldScarf.description>A scarf woven using cloth, hyperweave, with a shield function using half-elf technology. Very good protection around the neck.</AS_AT_ShieldScarf.description>
+
+  <AS_WHE_HyperShieldScarf.label>AS Hyper Shield Scarf</AS_WHE_HyperShieldScarf.label>
+  <AS_WHE_HyperShieldScarf.description>A shield scarf crafted with half-elf technology, modified with ancient technology. It is possible to prevent shooting from external enemies and shoot from the inside.</AS_WHE_HyperShieldScarf.description>
+
+  <AS_Common_PlainLongScarf.label>AS Long Scarf</AS_Common_PlainLongScarf.label>
+  <AS_Common_PlainLongScarf.description>A long scarf woven from cloth that provides protection against the cold while increasing neck protection. Although it has a simple design, the sight of it fluttering in the wind and moving gallantly may light a small fire in the hearts of those who see it.</AS_Common_PlainLongScarf.description>
+
+  <AS_AT_ShieldLongScarf.label>AS Shield Long Scarf</AS_AT_ShieldLongScarf.label>
+  <AS_AT_ShieldLongScarf.description>A long scarf woven using cloth, hyperweave, with a shield function using half-elf technology. Very good protection around the neck.</AS_AT_ShieldLongScarf.description>
+
+  <AS_WHE_HyperShieldLongScarf.label>AS Hyper Shield Long Scarf</AS_WHE_HyperShieldLongScarf.label>
+  <AS_WHE_HyperShieldLongScarf.description>A shield long scarf crafted with half-elf technology, modified with ancient technology. It is possible to prevent shooting from external enemies and shoot from the inside.</AS_WHE_HyperShieldLongScarf.description>
+</LanguageData>

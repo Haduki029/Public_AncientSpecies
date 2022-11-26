@@ -13,42 +13,51 @@
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_AS_Handgun.label>make AS handgun</Make_AS_Handgun.label>
-  <Make_AS_Handgun.description>Make AS handgun.</Make_AS_Handgun.description>
-  <Make_AS_Handgun.jobString>Making AS handgun.</Make_AS_Handgun.jobString>
+  <Make_AS_AT_Handgun.label>make AS handgun</Make_AS_AT_Handgun.label>
+  <Make_AS_AT_Handgun.description>Make AS handgun.</Make_AS_AT_Handgun.description>
+  <Make_AS_AT_Handgun.jobString>Making AS handgun.</Make_AS_AT_Handgun.jobString>
 
-  <Make_AS_AssaultRifle.label>make AS Assault Rifle</Make_AS_AssaultRifle.label>
-  <Make_AS_AssaultRifle.description>Make AS assault rifle.</Make_AS_AssaultRifle.description>
-  <Make_AS_AssaultRifle.jobString>Making AS assault rifle.</Make_AS_AssaultRifle.jobString>
+  <Make_AS_AT_AssaultRifle.label>make AS Assault Rifle</Make_AS_AT_AssaultRifle.label>
+  <Make_AS_AT_AssaultRifle.description>Make AS assault rifle.</Make_AS_AT_AssaultRifle.description>
+  <Make_AS_AT_AssaultRifle.jobString>Making AS assault rifle.</Make_AS_AT_AssaultRifle.jobString>
 
-  <Make_AS_SniperRifle.label>make AS Sniper Rifle</Make_AS_SniperRifle.label>
-  <Make_AS_SniperRifle.description>Make AS Sniper Rifle.</Make_AS_SniperRifle.description>
-  <Make_AS_SniperRifle.jobString>Making AS Sniper Rifle.</Make_AS_SniperRifle.jobString>
+  <Make_AS_AT_SniperRifle.label>make AS Sniper Rifle</Make_AS_AT_SniperRifle.label>
+  <Make_AS_AT_SniperRifle.description>Make AS Sniper Rifle.</Make_AS_AT_SniperRifle.description>
+  <Make_AS_AT_SniperRifle.jobString>Making AS Sniper Rifle.</Make_AS_AT_SniperRifle.jobString>
 
-  <Make_AS_Shotgun.label>make AS Shotgun</Make_AS_Shotgun.label>
-  <Make_AS_Shotgun.description>Make AS Shotgun.</Make_AS_Shotgun.description>
-  <Make_AS_Shotgun.jobString>Making AS Shotgun.</Make_AS_Shotgun.jobString>
+  <Make_AS_AT_Shotgun.label>make AS Shotgun</Make_AS_AT_Shotgun.label>
+  <Make_AS_AT_Shotgun.description>Make AS Shotgun.</Make_AS_AT_Shotgun.description>
+  <Make_AS_AT_Shotgun.jobString>Making AS Shotgun.</Make_AS_AT_Shotgun.jobString>
 
 
   <!-- Recipe Users: TableMachining, FabricationBench -->
 
-  <Make_AS_Grawehr.label>make Grawehr</Make_AS_Grawehr.label>
-  <Make_AS_Grawehr.description>Make Grawehr.</Make_AS_Grawehr.description>
-  <Make_AS_Grawehr.jobString>Making Grawehr.</Make_AS_Grawehr.jobString>
+  <Make_AS_AT_Grawehr.label>make Grawehr</Make_AS_AT_Grawehr.label>
+  <Make_AS_AT_Grawehr.description>Make Grawehr.</Make_AS_AT_Grawehr.description>
+  <Make_AS_AT_Grawehr.jobString>Making Grawehr.</Make_AS_AT_Grawehr.jobString>
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
 
-  <Make_AS_WAE_NobleCoat.label>make Noble Coat (Ancient Elves)</Make_AS_WAE_NobleCoat.label>
-  <Make_AS_WAE_NobleCoat.description>Make noble coat (ancient elf).</Make_AS_WAE_NobleCoat.description>
-  <Make_AS_WAE_NobleCoat.jobString>Making Noble Coat (Ancient Elf).</Make_AS_WAE_NobleCoat.jobString>
+  <Make_AS_WAE_NobleCoat.label>make AS Noble Coat</Make_AS_WAE_NobleCoat.label>
+  <Make_AS_WAE_NobleCoat.description>Make as noble coat.</Make_AS_WAE_NobleCoat.description>
+  <Make_AS_WAE_NobleCoat.jobString>Making AS Noble Coat.</Make_AS_WAE_NobleCoat.jobString>
+
+  <Make_AS_WAE_NobleCoatBK.label>make AS Noble Coat BK</Make_AS_WAE_NobleCoatBK.label>
+  <Make_AS_WAE_NobleCoatBK.description>Make as noble coat BK.</Make_AS_WAE_NobleCoatBK.description>
+  <Make_AS_WAE_NobleCoatBK.jobString>Making AS Noble Coat BK.</Make_AS_WAE_NobleCoatBK.jobString>
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WAE_EliteKnightDress.label>make Elite Princess Knight Armor (Ancient Elf)</Make_AS_WAE_EliteKnightDress.label>
-  <Make_AS_WAE_EliteKnightDress.description>Make Elite Princess Knight Armor (Ancient Elf).</Make_AS_WAE_EliteKnightDress.description>
-  <Make_AS_WAE_EliteKnightDress.jobString>Making Elite Princess Knight Armor (Ancient Elf).</Make_AS_WAE_EliteKnightDress.jobString>
+  <Make_AS_WAE_EliteKnightDress.label>make Elite Princess Knight Armor</Make_AS_WAE_EliteKnightDress.label>
+  <Make_AS_WAE_EliteKnightDress.description>Make Elite Princess Knight Armor.</Make_AS_WAE_EliteKnightDress.description>
+  <Make_AS_WAE_EliteKnightDress.jobString>Making Elite Princess Knight Armor.</Make_AS_WAE_EliteKnightDress.jobString>
+
+  <Make_AS_WAE_EliteKnightDressBK.label>make Elite Princess Knight Armor BK</Make_AS_WAE_EliteKnightDressBK.label>
+  <Make_AS_WAE_EliteKnightDressBK.description>Make Elite Princess Knight Armor BK.</Make_AS_WAE_EliteKnightDressBK.description>
+  <Make_AS_WAE_EliteKnightDressBK.jobString>Making Elite Princess Knight Armor BK.</Make_AS_WAE_EliteKnightDressBK.jobString>
+
 
   <Make_AS_WAE_KnightDress.label>make Princess Knight Armor (Ancient Elf)</Make_AS_WAE_KnightDress.label>
   <Make_AS_WAE_KnightDress.description>Make Princess Knight Armor (Ancient Elf).</Make_AS_WAE_KnightDress.description>
@@ -64,9 +73,9 @@
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WAE_TighetsSuit.label>make Elf Tights Suit</Make_AS_WAE_TighetsSuit.label>
-  <Make_AS_WAE_TighetsSuit.description>Make Elf Tights Suit.</Make_AS_WAE_TighetsSuit.description>
-  <Make_AS_WAE_TighetsSuit.jobString>Making elf tights suit.</Make_AS_WAE_TighetsSuit.jobString>
+  <Make_AS_Common_TighetsSuit.label>make Elf Tights Suit</Make_AS_Common_TighetsSuit.label>
+  <Make_AS_Common_TighetsSuit.description>Make Elf Tights Suit.</Make_AS_Common_TighetsSuit.description>
+  <Make_AS_Common_TighetsSuit.jobString>Making elf tights suit.</Make_AS_Common_TighetsSuit.jobString>
 
   <Make_AS_WHE_NanoSuits.label>make Elf Nanosuit</Make_AS_WHE_NanoSuits.label>
   <Make_AS_WHE_NanoSuits.description>Make Elven Nanosuits.</Make_AS_WHE_NanoSuits.description>
@@ -79,6 +88,10 @@
   <Make_AS_WAE_FeatherHelm.description>Make Featherhelm (ancient elf).</Make_AS_WAE_FeatherHelm.description>
   <Make_AS_WAE_FeatherHelm.jobString>Making Feather Helm (Ancient Elf).</Make_AS_WAE_FeatherHelm.jobString>
 
+  <Make_AS_WAE_FeatherHardHelm.label>make Feather Hard Helm</Make_AS_WAE_FeatherHardHelm.label>
+  <Make_AS_WAE_FeatherHardHelm.description>Make Feather Hard Helm.</Make_AS_WAE_FeatherHardHelm.description>
+  <Make_AS_WAE_FeatherHardHelm.jobString>Making Feather Hard Helm.</Make_AS_WAE_FeatherHardHelm.jobString>
+
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
 
@@ -89,18 +102,29 @@
 
   <!-- Recipe Users: Electric Smithy, Fueled Smithy -->
 
-  <Make_AS_WHE_WAESword.label>make Ancient Elven Knight Sword</Make_AS_WHE_WAESword.label>
-  <Make_AS_WHE_WAESword.description>Make an ancient elf knight sword.</Make_AS_WHE_WAESword.description>
-  <Make_AS_WHE_WAESword.jobString>Making Ancient Elven Knight Sword.</Make_AS_WHE_WAESword.jobString>
+  <Make_AS_WAE_ShorBlade.label>make AS Short Blade</Make_AS_WAE_ShorBlade.label>
+  <Make_AS_WAE_ShorBlade.description>Make AS Short Blade.</Make_AS_WAE_ShorBlade.description>
+  <Make_AS_WAE_ShorBlade.jobString>Making AS Short Blade.</Make_AS_WAE_ShorBlade.jobString>
+
+  <AS_WAE_KnightSword.label>make Ancient Elven Knight Sword</AS_WAE_KnightSword.label>
+  <AS_WAE_KnightSword.description>Make an ancient elf knight sword.</AS_WAE_KnightSword.description>
+  <AS_WAE_KnightSword.jobString>Making Ancient Elven Knight Sword.</AS_WAE_KnightSword.jobString>
 
   <Make_AS_WAE_TwoHandWarAxe.label>make AS Two Hand War Ax</Make_AS_WAE_TwoHandWarAxe.label>
   <Make_AS_WAE_TwoHandWarAxe.description>Make AS Two Hand War Axe.</Make_AS_WAE_TwoHandWarAxe.description>
   <Make_AS_WAE_TwoHandWarAxe.jobString>Making AS Two Hand War Axe.</Make_AS_WAE_TwoHandWarAxe.jobString>
 
-  <Make_AS_WAE_ShorBlade.label>make AS Short Blade</Make_AS_WAE_ShorBlade.label>
-  <Make_AS_WAE_ShorBlade.description>Make AS Short Blade.</Make_AS_WAE_ShorBlade.description>
-  <Make_AS_WAE_ShorBlade.jobString>Making AS Short Blade.</Make_AS_WAE_ShorBlade.jobString>
+  <AS_WAE_StarKnightSwordRe.label>make Ancient Elven Knight Sword Replica</AS_WAE_StarKnightSwordRe.label>
+  <AS_WAE_StarKnightSwordRe.description>Make an replica ancient elf knight sword.</AS_WAE_StarKnightSwordRe.description>
+  <AS_WAE_StarKnightSwordRe.jobString>Making Replica Ancient Elven Knight Sword.</AS_WAE_StarKnightSwordRe.jobString>
 
+  <AS_WAE_StarKnightSword.label>make Ancient Elven Knight Sword</AS_WAE_StarKnightSword.label>
+  <AS_WAE_StarKnightSword.description>Make an ancient elf knight sword.</AS_WAE_StarKnightSword.description>
+  <AS_WAE_StarKnightSword.jobString>Making Ancient Elven Knight Sword.</AS_WAE_StarKnightSword.jobString>
+
+  <AS_WAE_StarKnightTwoHandSword.label>make Ancient Elven Knight TwoHand Sword</AS_WAE_StarKnightTwoHandSword.label>
+  <AS_WAE_StarKnightTwoHandSword.description>Make an ancient elf knight two hand sword.</AS_WAE_StarKnightTwoHandSword.description>
+  <AS_WAE_StarKnightTwoHandSword.jobString>Making Ancient Elven Knight TwoHand Sword.</AS_WAE_StarKnightTwoHandSword.jobString>
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot, ElectricSmithy, FueledSmithy -->
 
@@ -184,27 +208,37 @@
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
 
-  <Make_AS_WHE_Scarf.label>make scarf (half elf)</Make_AS_WHE_Scarf.label>
-  <Make_AS_WHE_Scarf.description>Make scarf (half elf).</Make_AS_WHE_Scarf.description>
-  <Make_AS_WHE_Scarf.jobString>Making scarf (half elf).</Make_AS_WHE_Scarf.jobString>
+  <Make_AS_Common_PlainScarf.label>make as scarf</Make_AS_Common_PlainScarf.label>
+  <Make_AS_Common_PlainScarf.description>Make as scarf.</Make_AS_Common_PlainScarf.description>
+  <Make_AS_Common_PlainScarf.jobString>Making as scarf.</Make_AS_Common_PlainScarf.jobString>
 
+  <Make_AS_Common_PlainLongScarf.label>make as long scarf</Make_AS_Common_PlainLongScarf.label>
+  <Make_AS_Common_PlainLongScarf.description>Make as long scarf.</Make_AS_Common_PlainLongScarf.description>
+  <Make_AS_Common_PlainLongScarf.jobString>Making as long scarf.</Make_AS_Common_PlainLongScarf.jobString>
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, TableMachining -->
 
-  <Make_AS_WHE_ShieldScarf.label>make AS ShieldScarf</Make_AS_WHE_ShieldScarf.label>
-  <Make_AS_WHE_ShieldScarf.description>Make AS ShieldScarf.</Make_AS_WHE_ShieldScarf.description>
-  <Make_AS_WHE_ShieldScarf.jobString>Making AS ShieldScarf.</Make_AS_WHE_ShieldScarf.jobString>
+  <Make_AS_AT_ShieldScarf.label>make as shield scarf</Make_AS_AT_ShieldScarf.label>
+  <Make_AS_AT_ShieldScarf.description>Make as shield scarf.</Make_AS_AT_ShieldScarf.description>
+  <Make_AS_AT_ShieldScarf.jobString>Making as shield scarf.</Make_AS_AT_ShieldScarf.jobString>
 
-  <Make_AS_WHE_ATShieldScarf.label>make AS Hyper Shield Scarf</Make_AS_WHE_ATShieldScarf.label>
-  <Make_AS_WHE_ATShieldScarf.description>Make AS hyper shield scarf.</Make_AS_WHE_ATShieldScarf.description>
-  <Make_AS_WHE_ATShieldScarf.jobString>Making AS Hyper Shield Scarf.</Make_AS_WHE_ATShieldScarf.jobString>
+  <Make_AS_AT_ShieldLongScarf.label>make as shield long scarf</Make_AS_AT_ShieldLongScarf.label>
+  <Make_AS_AT_ShieldLongScarf.description>Make as shield long scarf.</Make_AS_AT_ShieldLongScarf.description>
+  <Make_AS_AT_ShieldLongScarf.jobString>Making as shield long scarf.</Make_AS_AT_ShieldLongScarf.jobString>
 
+  <Make_AS_WHE_HyperShieldScarf.label>make as hyper shield scarf</Make_AS_WHE_HyperShieldScarf.label>
+  <Make_AS_WHE_HyperShieldScarf.description>Make as hyper shield scarf.</Make_AS_WHE_HyperShieldScarf.description>
+  <Make_AS_WHE_HyperShieldScarf.jobString>Making as hyper shield scarf.</Make_AS_WHE_HyperShieldScarf.jobString>
+
+  <Make_AS_WHE_HyperShieldLongScarf.label>make as hyper shield long scarf</Make_AS_WHE_HyperShieldLongScarf.label>
+  <Make_AS_WHE_HyperShieldLongScarf.description>Make as hyper shield long scarf.</Make_AS_WHE_HyperShieldLongScarf.description>
+  <Make_AS_WHE_HyperShieldLongScarf.jobString>Making as hyper shield long scarf.</Make_AS_WHE_HyperShieldLongScarf.jobString>
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_UnderwearA.label>make underwear (half elf)</Make_AS_WHE_UnderwearA.label>
-  <Make_AS_WHE_UnderwearA.description>Make underwear (half elf).</Make_AS_WHE_UnderwearA.description>
-  <Make_AS_WHE_UnderwearA.jobString>Making underwear (half elf).</Make_AS_WHE_UnderwearA.jobString>
+  <Make_AS_Common_PlainUnderwear.label>make as plain underwear</Make_AS_Common_PlainUnderwear.label>
+  <Make_AS_Common_PlainUnderwear.description>Make as plain underwear.</Make_AS_Common_PlainUnderwear.description>
+  <Make_AS_Common_PlainUnderwear.jobString>Making as plain underwear.</Make_AS_Common_PlainUnderwear.jobString>
 
   <Make_AS_WHE_UnderwearB.label>make pink frilly underwear (half elf)</Make_AS_WHE_UnderwearB.label>
   <Make_AS_WHE_UnderwearB.description>Make pink frilly underwear (half elf).</Make_AS_WHE_UnderwearB.description>
@@ -244,9 +278,9 @@
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_Neeso.label>make knee socks (half elf)</Make_AS_WHE_Neeso.label>
-  <Make_AS_WHE_Neeso.description>Make knee socks (half elf).</Make_AS_WHE_Neeso.description>
-  <Make_AS_WHE_Neeso.jobString>Making knee socks (half elf).</Make_AS_WHE_Neeso.jobString>
+  <Make_AS_Common_PlainStoking.label>make plain socks</Make_AS_Common_PlainStoking.label>
+  <Make_AS_Common_PlainStoking.description>Make plain socks.</Make_AS_Common_PlainStoking.description>
+  <Make_AS_Common_PlainStoking.jobString>Making plain socks.</Make_AS_Common_PlainStoking.jobString>
 
   <Make_AS_WHE_StripeNeeso.label>make Stripe Knee Socks (Half Elf)</Make_AS_WHE_StripeNeeso.label>
   <Make_AS_WHE_StripeNeeso.description>Make Stripe Knee Socks (Half Elf).</Make_AS_WHE_StripeNeeso.description>
@@ -305,9 +339,9 @@
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_Tribal.label>make Tribal Cloth (Half Elf)</Make_AS_WHE_Tribal.label>
-  <Make_AS_WHE_Tribal.description>Make a Tribal Cloth (half elf).</Make_AS_WHE_Tribal.description>
-  <Make_AS_WHE_Tribal.jobString>Making Tribal Cloth (Half Elf).</Make_AS_WHE_Tribal.jobString>
+  <Make_AS_Common_Tribal.label>make AS One Piece Cloth</Make_AS_Common_Tribal.label>
+  <Make_AS_Common_Tribal.description>Make a AS One Piece Cloth.</Make_AS_Common_Tribal.description>
+  <Make_AS_Common_Tribal.jobString>Making AS One Piece Cloth.</Make_AS_Common_Tribal.jobString>
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->

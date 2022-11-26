@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WHE_UnderwearA.label>Underwear (half elf)</AS_WHE_UnderwearA.label>
-  <AS_WHE_UnderwearA.description>Normal underwear made of leather or cloth.</AS_WHE_UnderwearA.description>
-
   <AS_WHE_UnderwearB.label>Pink frilly underwear (half elf)</AS_WHE_UnderwearB.label>
   <AS_WHE_UnderwearB.description>Underwear made of leather or cloth. It has frills and a cute finish. Rumor has it that wearing it on an important day brings good luck to the wearer.</AS_WHE_UnderwearB.description>
 
@@ -27,9 +24,6 @@
 
   <AS_WHE_UnderwearI.label>Luxury Baby Doll (Half Elf)</AS_WHE_UnderwearI.label>
   <AS_WHE_UnderwearI.description>A luxury baby doll. Not only is it an elegant design, but it is also a first-class product that is studded with sexiness to highlight the charm of women.</AS_WHE_UnderwearI.description>
-
-  <AS_WHE_Neeso.label>Knee Socks (Half Elf)</AS_WHE_Neeso.label>
-  <AS_WHE_Neeso.description>Knee socks made of leather or cloth.</AS_WHE_Neeso.description>
 
   <AS_WHE_StripeNeeso.label>Stripe Knee Socks (Half Elf)</AS_WHE_StripeNeeso.label>
   <AS_WHE_StripeNeeso.description>High quality striped knee socks made of leather or cloth.</AS_WHE_StripeNeeso.description>

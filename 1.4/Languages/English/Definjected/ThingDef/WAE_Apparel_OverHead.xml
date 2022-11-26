@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<AS_WAE_FeatherHelm.label>Feather Helm (Ancient Elves)</AS_WAE_FeatherHelm.label>
+   <AS_WAE_FeatherHelm.label>AS Feather Helm</AS_WAE_FeatherHelm.label>
    <AS_WAE_FeatherHelm.description>A feathered helm with a metal forehead. It looks pretty high performance.</AS_WAE_FeatherHelm.description>
+
+   <AS_WAE_FeatherHardHelm.label>AS Feather Hard Helm</AS_WAE_FeatherHardHelm.label>
+   <AS_WAE_FeatherHardHelm.description>A feathered hard helm with a metal forehead. It looks pretty high performance.</AS_WAE_FeatherHardHelm.description>
 
 </LanguageData>

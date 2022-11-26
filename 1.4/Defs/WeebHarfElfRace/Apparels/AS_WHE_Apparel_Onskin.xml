@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ThingDef Name="AS_WHE_ApparelBase_Onskin" ParentName="AS_ApparelCommonBase" Abstract="True">
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Waist</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+    </ThingDef>
+
+</Defs>

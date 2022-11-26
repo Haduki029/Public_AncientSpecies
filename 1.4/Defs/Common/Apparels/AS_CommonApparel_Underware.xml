@@ -18,7 +18,6 @@
 
     <ThingDef ParentName="AS_ApparelBase_Underware">
         <techLevel>Neolithic</techLevel>
-        <!-- <defName>AS_WHE_UnderwearA</defName> -->
         <defName>AS_Common_PlainUnderwear</defName>
         <description>皮や布で作られた簡素な女性用の下着。「Ancient Species Mod」の全種族が着用可能。</description>
         <label>AS簡素な下着</label>

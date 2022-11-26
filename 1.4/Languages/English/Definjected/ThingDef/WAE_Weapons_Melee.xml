@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<AS_WHE_WAESword.label>Ancient Elvish Knightsword</AS_WHE_WAESword.label>
-  <AS_WHE_WAESword.description>A sword crafted with ancient Elven technology. Uranium is used for the blade, making it extremely durable and simple to sharpen. A replica made to look like the sword once used by the hero who saved the planet, according to ancient elf lore. Although it is said to be inferior to the original, it is a sword that is light, sturdy, and sharp, and is easy to handle, and assists the user in close combat.</AS_WHE_WAESword.description>
-  <AS_WHE_WAESword.tools.0.label>handle</AS_WHE_WAESword.tools.0.label>
-  <AS_WHE_WAESword.tools.1.label>point</AS_WHE_WAESword.tools.1.label>
-  <AS_WHE_WAESword.tools.2.label>edge</AS_WHE_WAESword.tools.2.label>
+  <AS_WAE_KnightSword.label>Ancient Elvish Knight Sword</AS_WAE_KnightSword.label>
+  <AS_WAE_KnightSword.description>A sword crafted with ancient Elven technology. Uranium is used for the blade, making it extremely durable and simple to sharpen. A replica made to look like the sword once used by the hero who saved the planet, according to ancient elf lore. Although it is said to be inferior to the original, it is a sword that is light, sturdy, and sharp, and is easy to handle, and assists the user in close combat.</AS_WAE_KnightSword.description>
+  <AS_WAE_KnightSword.tools.0.label>handle</AS_WAE_KnightSword.tools.0.label>
+  <AS_WAE_KnightSword.tools.1.label>point</AS_WAE_KnightSword.tools.1.label>
+  <AS_WAE_KnightSword.tools.2.label>edge</AS_WAE_KnightSword.tools.2.label>
 
   <AS_WAE_TwoHandWarAxe.label>AS Two Hand War Ax</AS_WAE_TwoHandWarAxe.label>
   <AS_WAE_TwoHandWarAxe.description>A huge two-handed ax crafted with ancient elven technology. Because uranium is used in part of the blade, it is extremely durable and boasts high slashing power and attack range, but it is very heavy and hinders movement.</AS_WAE_TwoHandWarAxe.description>
@@ -18,5 +18,21 @@
   <AS_WAE_ShorBlade.tools.1.label>blade</AS_WAE_ShorBlade.tools.1.label>
   <AS_WAE_ShorBlade.tools.2.label>point</AS_WAE_ShorBlade.tools.2.label>
 
+  <AS_WAE_StarKnightSwordRe.label>Ancient Elvish Star Knight Sword Replica</AS_WAE_StarKnightSwordRe.label>
+  <AS_WAE_StarKnightSwordRe.description>A replica made with the aim of becoming the sword that was once used by the hero who saved the stars in ancient Elvish lore. Uranium is used for the blade, which is extremely strong and has a high simple cutting ability. Both sturdy and sharp, the sword is easy to handle and has the ability to slightly assist the user in melee combat.</AS_WAE_StarKnightSwordRe.description>
+  <AS_WAE_StarKnightSwordRe.tools.0.label>handle</AS_WAE_StarKnightSwordRe.tools.0.label>
+  <AS_WAE_StarKnightSwordRe.tools.1.label>point</AS_WAE_StarKnightSwordRe.tools.1.label>
+  <AS_WAE_StarKnightSwordRe.tools.2.label>edge</AS_WAE_StarKnightSwordRe.tools.2.label>
 
+  <AS_WAE_StarKnightSword.label>Ancient Elvish Star Knight Sword</AS_WAE_StarKnightSword.label>
+  <AS_WAE_StarKnightSword.description>This sword is a reproduction using ancient Elvish technology of a sword said to have been used by a hero who once saved the stars, according to ancient Elvish lore. Uranium is used for the blade, which is extremely strong and has a high simple cutting ability. Both sturdy and sharp, the sword is easy to handle and has the ability to assist the user in melee combat.</AS_WAE_StarKnightSword.description>
+  <AS_WAE_StarKnightSword.tools.0.label>handle</AS_WAE_StarKnightSword.tools.0.label>
+  <AS_WAE_StarKnightSword.tools.1.label>point</AS_WAE_StarKnightSword.tools.1.label>
+  <AS_WAE_StarKnightSword.tools.2.label>edge</AS_WAE_StarKnightSword.tools.2.label>
+
+  <AS_WAE_StarKnightTwoHandSword.label>Ancient Elvish Star Knight TwoHand Sword</AS_WAE_StarKnightTwoHandSword.label>
+  <AS_WAE_StarKnightTwoHandSword.description>This is a two-handed sword created by applying the manufacturing technology of the Star Knight's sword. Although the sword has become larger and less maneuverable, it is more powerful, and has improved the performance and auxiliary functions for the user.</AS_WAE_StarKnightTwoHandSword.description>
+  <AS_WAE_StarKnightTwoHandSword.tools.0.label>handle</AS_WAE_StarKnightTwoHandSword.tools.0.label>
+  <AS_WAE_StarKnightTwoHandSword.tools.1.label>point</AS_WAE_StarKnightTwoHandSword.tools.1.label>
+  <AS_WAE_StarKnightTwoHandSword.tools.2.label>edge</AS_WAE_StarKnightTwoHandSword.tools.2.label>
 </LanguageData>

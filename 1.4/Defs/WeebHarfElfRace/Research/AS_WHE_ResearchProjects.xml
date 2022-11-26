@@ -98,20 +98,20 @@
 	  <tab>AS_ResearchTab</tab>
   </ResearchProjectDef>
 
-  <!-- <ResearchProjectDef>
+  <ResearchProjectDef>
     <defName>AS_WHE_NanoSuitsResearch</defName>
     <label>ナノスーツの研究</label>
     <description>古代の技術を応用した、全身を覆うナノスーツの開発研究。</description>
     <baseCost>3000</baseCost>
     <techLevel>Ultra</techLevel>
     <prerequisites>
-      <li>AS_WHE_Apparel_Spacer</li>
+      <!-- <li>AS_WHE_Apparel_Spacer</li> -->
 	    <li>AS_AT_SpacerTechResearch</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
     <researchViewY>4</researchViewY>
 	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef> -->
+  </ResearchProjectDef>
 
   <!-- <ResearchProjectDef>
     <defName>AS_WHE_Weapons</defName>
