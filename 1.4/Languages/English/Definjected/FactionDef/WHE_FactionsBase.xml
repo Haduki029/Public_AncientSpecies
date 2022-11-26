@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WHE_BaseFaction.label>WHE_FactionBase</AS_WHE_BaseFaction.label>
+   <AS_WHE_BaseFaction.description>Half Elf FactionBase</AS_WHE_BaseFaction.description>
+   <AS_WHE_BaseFaction.pawnsPlural>Half Elves</AS_WHE_BaseFaction.pawnsPlural>
+   <AS_WHE_BaseFaction.leaderTitle>Leader</AS_WHE_BaseFaction.leaderTitle>
+
+
+</LanguageData>

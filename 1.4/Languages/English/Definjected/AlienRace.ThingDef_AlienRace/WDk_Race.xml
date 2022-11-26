@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WDk_Race.label>ドレイク</AS_WDk_Race.label>
+  <AS_WDk_Race.description>ドレイクは遥か昔に別の惑星に存在した、龍種から作られた人造の生物です。非常に賢く、身体能力も高いこの種族は、グリッターワールドの世界から逃げ出すことに成功し、この辺境の惑星にやってきました。他種族との関係性構築には消極的な、比較的温厚な種族です。一度敵対した相手には容赦がなく、その力と能力を駆使し、徹底的に破壊しつくします。格闘・医学に優れている半面、生産的な行為には興味が薄い者が多いですが、決して無能ではありません。ただし、料理は非常に苦手です。</AS_WDk_Race.description>
+  <AS_WDk_Race.tools.0.label>left fist</AS_WDk_Race.tools.0.label>
+  <AS_WDk_Race.tools.1.label>right fist</AS_WDk_Race.tools.1.label>
+  <AS_WDk_Race.tools.2.label>teeth</AS_WDk_Race.tools.2.label>
+  <AS_WDk_Race.tools.3.label>head</AS_WDk_Race.tools.3.label>
+
+
+</LanguageData>

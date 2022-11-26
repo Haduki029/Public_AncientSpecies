@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WHE_Helmet.label>Helmet (half-elf)</AS_WHE_Helmet.label>
+  <AS_WHE_Helmet.description>A helmet that protects the top of the head made of metal. Simple yet durable. </AS_WHE_Helmet.description>
+
+  <AS_WHE_AdvancedHelmet.label>Half Elf Advanced Helmet</AS_WHE_AdvancedHelmet.label>
+  <AS_WHE_AdvancedHelmet.description>A metal upper-head helmet made with more advanced half-elf technology. The screen on the front also protects your eyes. </AS_WHE_AdvancedHelmet.description>
+
+  <AS_WHE_MarineHelmet.label>Half Elven Marine Helmet</AS_WHE_MarineHelmet.label>
+  <AS_WHE_MarineHelmet.description>A marine helmet made with half-elf technology. Both strength and lightness are put together at a high level, making it easy for half-elves with long ears to put on and take off. </AS_WHE_MarineHelmet.description>
+
+  <AS_WHE_MaidHairBand.label>Maid Headband (Half Elf)</AS_WHE_MaidHairBand.label>
+  <AS_WHE_MaidHairBand.description>A headband worn by maids. If you wear it with a maid outfit, you will become a perfect and elegant maid. </AS_WHE_MaidHairBand.description>
+
+  <AS_WHE_Horn.label>Horn (Half Elf)</AS_WHE_Horn.label>
+  <AS_WHE_Horn.description>A horn attached to the head. It doesn't do anything special, but it does make it look a little cooler. Cool and cute! It is easy to put on and take off. </AS_WHE_Horn.description>
+
+ <AS_WHE_PressureResistantHelmet.label>Half Elf Pressure Resistant Helmet</AS_WHE_PressureResistantHelmet.label>
+   <AS_WHE_PressureResistantHelmet.description>A helmet crafted with advanced technology to allow you to operate in outer space. It's slightly weaker than Marine equipment, but has high heat and cold resistance. </AS_WHE_PressureResistantHelmet.description>
+
+</LanguageData>

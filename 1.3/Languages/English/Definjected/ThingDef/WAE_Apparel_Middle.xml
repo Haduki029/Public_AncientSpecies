@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <AS_WAE_EliteKnightDress.label>Elite Princess Knight Armor (Ancient Elf)</AS_WAE_EliteKnightDress.label>
+  <AS_WAE_EliteKnightDress.description>Armor provided only to elites selected from among the knights who protect the new king of the ancient elves. While maintaining the function of protecting the entire body with special power and the function of assisting the wearer's movement, the armor itself has been improved. For Ancient Elves only. </AS_WAE_EliteKnightDress.description>
+
+  <AS_WAE_KnightDress.label>Princess Knight Armor (Ancient Elf)</AS_WAE_KnightDress.label>
+  <AS_WAE_KnightDress.description>Armor only allowed to be worn by the Guardian Knights of the Ancient Elves. At first glance, it looks like it has few defenses, but it protects its entire body with a special power. It also has the effect of assisting the wearer in combat. </AS_WAE_KnightDress.description>
+
+  <AS_WAE_HKArcherArmor.label>Light Elven Armor</AS_WAE_HKArcherArmor.label>
+  <AS_WAE_HKArcherArmor.description>Moveable light armor made for archers of the Holy Kingdom. Although the front torso appears to have little defensive surface, it protects the entire body with a special power, and has the effect of assisting the wearer in battle. </AS_WAE_HKArcherArmor.description>
+
+  <AS_WAE_RangerArmor.label>Ranger Armor (Ancient Elves)</AS_WAE_RangerArmor.label>
+  <AS_WAE_RangerArmor.description>Armor for exploration and combat in forests and mountains. It's light and easy to move, but it doesn't provide enough protection, so it's better to consider it when using it. </AS_WAE_RangerArmor.description>
+
+</LanguageData>

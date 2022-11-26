@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <TattooDef>
+    <defName>STechTat_Face_BlackCircuit</defName>
+    <label>Circuitry Black</label>
+    <texPath></texPath>
+    <tattooType>Face</tattooType>
+    <category>Tech</category>
+    <visibleNorth>true</visibleNorth>
+    <styleTags>
+      <li>AS_Face_Tattoo</li>
+    </styleTags>
+  </TattooDef> -->
+
+  <AS_Body_Engraving_Red.label>Red Dragon Engraving</AS_Body_Engraving_Red.label>
+
+
+</LanguageData>

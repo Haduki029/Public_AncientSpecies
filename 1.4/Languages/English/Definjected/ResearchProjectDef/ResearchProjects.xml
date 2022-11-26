@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_AncientTechnology.label>失われた古代の技術</AS_AncientTechnology.label>
+  <AS_AncientTechnology.description>失われた古代の技術に関する知識を得る。</AS_AncientTechnology.description>
+
+  <AS_Weapons.label>古代種族の基礎的な武具技術</AS_Weapons.label>
+  <AS_Weapons.description>ある古代種族が用いていた技術に関する基礎的なもの。いくつかの武具が作成可能になる。</AS_Weapons.description>
+
+  <AS_WAE_Weapons.label>古代エルフの武器技術</AS_WAE_Weapons.label>
+  <AS_WAE_Weapons.description>古代エルフが用いていた技術に関するもの。いくつかの武器が作成可能になる。</AS_WAE_Weapons.description>
+
+  <AS_WAE_Apparels.label>古代エルフの衣類製造技術</AS_WAE_Apparels.label>
+  <AS_WAE_Apparels.description>古代エルフが用いていた技術に関するもの。いくつかの衣服が作成可能になる。</AS_WAE_Apparels.description>
+
+  <AS_WHE_Apparel_Basic.label>ハーフエルフの簡単な衣類</AS_WHE_Apparel_Basic.label>
+  <AS_WHE_Apparel_Basic.description>ハーフエルフ達の簡単な衣類を作成するための技術。</AS_WHE_Apparel_Basic.description>
+
+  <AS_WHE_Apparel_Elementary.label>ハーフエルフの初歩的な衣類</AS_WHE_Apparel_Elementary.label>
+  <AS_WHE_Apparel_Elementary.description>ハーフエルフ達の初歩的な衣類を作成するための技術。</AS_WHE_Apparel_Elementary.description>
+
+  <AS_WHE_Apparel_Intermediate.label>ハーフエルフの複雑な衣類</AS_WHE_Apparel_Intermediate.label>
+  <AS_WHE_Apparel_Intermediate.description>ハーフエルフ達の複雑な衣類を作成するための技術。</AS_WHE_Apparel_Intermediate.description>
+
+  <AS_WHE_Apparel_Spacer.label>ハーフエルフの高度な衣類</AS_WHE_Apparel_Spacer.label>
+  <AS_WHE_Apparel_Spacer.description>ハーフエルフたちの技術を応用した、高度な衣類を作成するための技術。</AS_WHE_Apparel_Spacer.description>
+
+  <AS_WHE_Weapons.label>ハーフエルフの武具技術</AS_WHE_Weapons.label>
+  <AS_WHE_Weapons.description>ハーフエルフの知識、技術による武器が作成可能になる。</AS_WHE_Weapons.description>
+
+  <AS_WHE_AncientTechnology.label>ハーフエルフの古代武具技術</AS_WHE_AncientTechnology.label>
+  <AS_WHE_AncientTechnology.description>ハーフエルフにより解析、改良された、古代種族の技術を用いた武具やアイテムが作成可能になる。</AS_WHE_AncientTechnology.description>
+
+
+</LanguageData>

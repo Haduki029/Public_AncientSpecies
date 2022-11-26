@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AS_WHE_WAESword_Re.label>Ancient Elven Knight Sword (Replica)</AS_WHE_WAESword_Re.label>
+   <AS_WHE_WAESword_Re.description>A replica of an ancient elf knight sword, recreated with half-elf technology. Uranium is used for the blade, giving it a black finish. The sharpness is as good as the original, but the ability to assist the user in close combat has not been reproduced. </AS_WHE_WAESword_Re.description>
+   <AS_WHE_WAESword_Re.tools.0.label>handle</AS_WHE_WAESword_Re.tools.0.label>
+   <AS_WHE_WAESword_Re.tools.1.label>point</AS_WHE_WAESword_Re.tools.1.label>
+   <AS_WHE_WAESword_Re.tools.2.label>edge</AS_WHE_WAESword_Re.tools.2.label>
+
+</LanguageData>

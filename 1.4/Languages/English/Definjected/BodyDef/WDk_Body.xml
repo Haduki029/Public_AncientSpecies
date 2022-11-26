@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WDk_Body.label>ドレイク</AS_WDk_Body.label>
+  <AS_WDk_Body.corePart.parts.3.customLabel>tail</AS_WDk_Body.corePart.parts.3.customLabel>
+  <AS_WDk_Body.corePart.parts.7.customLabel>left lung</AS_WDk_Body.corePart.parts.7.customLabel>
+  <AS_WDk_Body.corePart.parts.8.customLabel>right lung</AS_WDk_Body.corePart.parts.8.customLabel>
+  <AS_WDk_Body.corePart.parts.9.customLabel>left kidney</AS_WDk_Body.corePart.parts.9.customLabel>
+  <AS_WDk_Body.corePart.parts.10.customLabel>right kidney</AS_WDk_Body.corePart.parts.10.customLabel>
+  <AS_WDk_Body.corePart.parts.12.parts.0.parts.1.customLabel>left eye</AS_WDk_Body.corePart.parts.12.parts.0.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.12.parts.0.parts.2.customLabel>right eye</AS_WDk_Body.corePart.parts.12.parts.0.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.12.parts.0.parts.3.customLabel>left ear</AS_WDk_Body.corePart.parts.12.parts.0.parts.3.customLabel>
+  <AS_WDk_Body.corePart.parts.12.parts.0.parts.4.customLabel>right ear</AS_WDk_Body.corePart.parts.12.parts.0.parts.4.customLabel>
+  <AS_WDk_Body.corePart.parts.12.parts.0.parts.5.customLabel>right horn</AS_WDk_Body.corePart.parts.12.parts.0.parts.5.customLabel>
+  <AS_WDk_Body.corePart.parts.12.parts.0.parts.6.customLabel>left horn</AS_WDk_Body.corePart.parts.12.parts.0.parts.6.customLabel>
+  <AS_WDk_Body.corePart.parts.13.customLabel>left shoulder</AS_WDk_Body.corePart.parts.13.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.0.customLabel>left wing</AS_WDk_Body.corePart.parts.13.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.1.customLabel>left clavicle</AS_WDk_Body.corePart.parts.13.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.customLabel>left arm</AS_WDk_Body.corePart.parts.13.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.0.customLabel>left humerus</AS_WDk_Body.corePart.parts.13.parts.2.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.1.customLabel>left radius</AS_WDk_Body.corePart.parts.13.parts.2.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.2.customLabel>left hand</AS_WDk_Body.corePart.parts.13.parts.2.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.0.customLabel>left pinky</AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.1.customLabel>left ring finger</AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.2.customLabel>left middle finger</AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.3.customLabel>left index finger</AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.3.customLabel>
+  <AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.4.customLabel>left thumb</AS_WDk_Body.corePart.parts.13.parts.2.parts.2.parts.4.customLabel>
+  <AS_WDk_Body.corePart.parts.14.customLabel>right shoulder</AS_WDk_Body.corePart.parts.14.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.0.customLabel>right wing</AS_WDk_Body.corePart.parts.14.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.1.customLabel>right clavicle</AS_WDk_Body.corePart.parts.14.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.customLabel>right arm</AS_WDk_Body.corePart.parts.14.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.0.customLabel>right humerus</AS_WDk_Body.corePart.parts.14.parts.2.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.1.customLabel>right radius</AS_WDk_Body.corePart.parts.14.parts.2.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.2.customLabel>right hand</AS_WDk_Body.corePart.parts.14.parts.2.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.0.customLabel>right pinky</AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.1.customLabel>right ring finger</AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.2.customLabel>right middle finger</AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.3.customLabel>right index finger</AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.3.customLabel>
+  <AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.4.customLabel>right thumb</AS_WDk_Body.corePart.parts.14.parts.2.parts.2.parts.4.customLabel>
+  <AS_WDk_Body.corePart.parts.16.customLabel>left leg</AS_WDk_Body.corePart.parts.16.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.0.customLabel>left femur</AS_WDk_Body.corePart.parts.16.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.1.customLabel>left tibia</AS_WDk_Body.corePart.parts.16.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.2.customLabel>left foot</AS_WDk_Body.corePart.parts.16.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.2.parts.0.customLabel>left little toe</AS_WDk_Body.corePart.parts.16.parts.2.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.2.parts.1.customLabel>left fourth toe</AS_WDk_Body.corePart.parts.16.parts.2.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.2.parts.2.customLabel>left middle toe</AS_WDk_Body.corePart.parts.16.parts.2.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.2.parts.3.customLabel>left second toe</AS_WDk_Body.corePart.parts.16.parts.2.parts.3.customLabel>
+  <AS_WDk_Body.corePart.parts.16.parts.2.parts.4.customLabel>left big toe</AS_WDk_Body.corePart.parts.16.parts.2.parts.4.customLabel>
+  <AS_WDk_Body.corePart.parts.17.customLabel>right leg</AS_WDk_Body.corePart.parts.17.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.0.customLabel>right femur</AS_WDk_Body.corePart.parts.17.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.1.customLabel>right tibia</AS_WDk_Body.corePart.parts.17.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.2.customLabel>right foot</AS_WDk_Body.corePart.parts.17.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.2.parts.0.customLabel>right little toe</AS_WDk_Body.corePart.parts.17.parts.2.parts.0.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.2.parts.1.customLabel>right fourth toe</AS_WDk_Body.corePart.parts.17.parts.2.parts.1.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.2.parts.2.customLabel>right middle toe</AS_WDk_Body.corePart.parts.17.parts.2.parts.2.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.2.parts.3.customLabel>right second toe</AS_WDk_Body.corePart.parts.17.parts.2.parts.3.customLabel>
+  <AS_WDk_Body.corePart.parts.17.parts.2.parts.4.customLabel>right big toe</AS_WDk_Body.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>
