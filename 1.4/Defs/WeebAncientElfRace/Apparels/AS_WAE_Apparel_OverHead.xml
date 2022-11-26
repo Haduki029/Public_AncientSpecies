@@ -52,6 +52,7 @@
         <li>Eyes</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparels/WAE/overhead/FeatherHelm</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -123,6 +124,7 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparels/WAE/overhead/FeatherHardHelm</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
       </layers>

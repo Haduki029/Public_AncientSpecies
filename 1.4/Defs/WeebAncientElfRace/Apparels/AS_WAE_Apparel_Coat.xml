@@ -60,6 +60,7 @@
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparels/WAE/coat/NobleCoat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <tags><!-- TODO: -->
         <li>AS_HighCoat</li>
         <li>RoyalTier2</li>
@@ -92,13 +93,14 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Apparels/WAE/coat/NobleCoat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <tags><!-- TODO: -->
         <li>AS_HighCoat</li>
       </tags>
     </apparel>
   </ThingDef>
 
-  <!-- <ThingDef ParentName="AS_WHA_NobleCoat_Base">
+  <ThingDef ParentName="AS_WHA_NobleCoat_Base">
     <defName>AS_WAE_NobleCoatBK</defName>
     <description>神聖王国のエルフ貴族のコートを真似た黒いコート。性能は同等である。</description>
     <label>ASエルフ貴族のコート（黒）</label>
@@ -109,9 +111,10 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Apparels/WAE/coat/NobleCoatBK</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <tags>
         <li>AS_HighCoat</li>
       </tags>
     </apparel>
-  </ThingDef> -->
+  </ThingDef>
 </Defs>

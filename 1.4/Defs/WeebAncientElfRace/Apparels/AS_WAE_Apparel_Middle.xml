@@ -94,6 +94,7 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Apparels/WAE/middle/EliteKnightDress</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <!-- TODO: <tags></tags> -->
     </apparel>
   </ThingDef>
@@ -107,6 +108,7 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>Apparels/WAE/middle/EliteKnightDressBK</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <!-- TODO: <tags></tags> -->
     </apparel>
   </ThingDef>
@@ -169,6 +171,7 @@
     </recipeMaker>
     <apparel>
       <wornGraphicPath>Apparels/WAE/middle/KnightDress</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <!-- <layers>
         <li>Middle</li>
       </layers> -->
@@ -259,6 +262,7 @@
         <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparels/WAE/middle/HKArcherArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
       </layers>
@@ -346,6 +350,7 @@
         <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparels/WAE/middle/RengerArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
       </layers>
