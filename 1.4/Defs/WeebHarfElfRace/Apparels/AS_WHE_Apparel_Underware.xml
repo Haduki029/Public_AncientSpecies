@@ -27,7 +27,6 @@
             <shaderType>CutoutComplex</shaderType>
             <drawSize>1.2</drawSize>
         </graphicData>
-        <followStuffColor>true</followStuffColor>
         <costList>
         <ComponentSpacer>5</ComponentSpacer>
         <Hyperweave>150</Hyperweave>

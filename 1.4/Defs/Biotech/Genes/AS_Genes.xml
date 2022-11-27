@@ -60,12 +60,18 @@
 	</GeneDef>
 
 	<!-- Hair Color -->
+	<!-- <GeneCategoryDef>
+		<defName>AS_Cosmetic_Hair</defName>
+		<label>as cosmetic - hair</label>
+		<displayPriorityInXenotype>410</displayPriorityInXenotype>
+	</GeneCategoryDef> -->
+
 	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_WAE_HairColorBase" Abstract="True">
 		<description>古代エルフの髪の色に関する遺伝子です。古代エルフは遺伝的に明るいブロンド系や緑の髪色が多いですが、その性質を付与します。</description>
 		<biostatCpx>0</biostatCpx>
 		<endogeneCategory>HairColor</endogeneCategory>
 		<canGenerateInGeneSet>true</canGenerateInGeneSet>
-		<displayCategory>AS_WAE_Genes_Colors</displayCategory>
+		<displayCategory>Cosmetic_Hair</displayCategory>
 		<randomBrightnessFactor>0</randomBrightnessFactor>
 		<exclusionTags>
 			<li>HairColor</li>
@@ -105,6 +111,13 @@
 	</GeneDef>
 
 	<!-- skin color -->
+	<!-- <GeneCategoryDef>
+		<defName>AS_Cosmetic_Skin</defName>
+		<label>as cosmetic - skin</label>
+		<displayPriorityInXenotype>310</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-150</displayPriorityInGenepack>
+	</GeneCategoryDef> -->
+
 	<GeneDef Name="AS_GeneSkinColorMelanin" Abstract="True">
 		<label>AS 肌の色</label>
 		<description>この遺伝子の保有者は、特定の肌の色を持っています。複数の肌色遺伝子がある場合、1つがランダムに選択されます。</description>
@@ -113,7 +126,7 @@
 		<endogeneCategory>Melanin</endogeneCategory>
 		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
 		<canGenerateInGeneSet>true</canGenerateInGeneSet>
-		<displayCategory>AS_Cosmetic_Skin</displayCategory>
+		<displayCategory>Cosmetic_Skin</displayCategory>
 		<displayOrderInCategory>20</displayOrderInCategory>
 		<exclusionTags>
 			<li>SkinColor</li>
