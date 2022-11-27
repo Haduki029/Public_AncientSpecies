@@ -155,7 +155,7 @@
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
-
+<!-- 
   <Make_AS_WHE_Cape.label>make cape (half-elf)</Make_AS_WHE_Cape.label>
   <Make_AS_WHE_Cape.description>Make cape (half elf).</Make_AS_WHE_Cape.description>
   <Make_AS_WHE_Cape.jobString>Making cape (half elf).</Make_AS_WHE_Cape.jobString>
@@ -174,36 +174,36 @@
 
   <Make_AS_WHE_ElvenMantle.label>make Elven Mantle (Half Elf)</Make_AS_WHE_ElvenMantle.label>
   <Make_AS_WHE_ElvenMantle.description>Make Elven Mantle (Half Elf).</Make_AS_WHE_ElvenMantle.description>
-  <Make_AS_WHE_ElvenMantle.jobString>Making Elven Mantle (Half Elf).</Make_AS_WHE_ElvenMantle.jobString>
+  <Make_AS_WHE_ElvenMantle.jobString>Making Elven Mantle (Half Elf).</Make_AS_WHE_ElvenMantle.jobString> -->
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_BulletProofVest.label>make Bulletproof Vest (Half Elf)</Make_AS_WHE_BulletProofVest.label>
+  <!-- <Make_AS_WHE_BulletProofVest.label>make Bulletproof Vest (Half Elf)</Make_AS_WHE_BulletProofVest.label>
   <Make_AS_WHE_BulletProofVest.description>Make bulletproof vest (half elf).</Make_AS_WHE_BulletProofVest.description>
   <Make_AS_WHE_BulletProofVest.jobString>Making Bulletproof Vest (Half Elf).</Make_AS_WHE_BulletProofVest.jobString>
-
+ -->
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, FabricationBench -->
 
-  <Make_AS_WHE_MarineArmor.label>make Half Elven Marine Armor</Make_AS_WHE_MarineArmor.label>
+  <!-- <Make_AS_WHE_MarineArmor.label>make Half Elven Marine Armor</Make_AS_WHE_MarineArmor.label>
   <Make_AS_WHE_MarineArmor.description>Make half-elf marine armor.</Make_AS_WHE_MarineArmor.description>
   <Make_AS_WHE_MarineArmor.jobString>Making Half Elven Marine Armor.</Make_AS_WHE_MarineArmor.jobString>
 
   <Make_AS_WHE_PressureResistantSuits.label>make PressureResistantSuits</Make_AS_WHE_PressureResistantSuits.label>
   <Make_AS_WHE_PressureResistantSuits.description>Make PressureResistantSuits.</Make_AS_WHE_PressureResistantSuits.description>
   <Make_AS_WHE_PressureResistantSuits.jobString>Making PressureResistantSuits.</Make_AS_WHE_PressureResistantSuits.jobString>
-
+ -->
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_PlateArmor.label>make Half Elven Plate Armor</Make_AS_WHE_PlateArmor.label>
+  <!-- <Make_AS_WHE_PlateArmor.label>make Half Elven Plate Armor</Make_AS_WHE_PlateArmor.label>
   <Make_AS_WHE_PlateArmor.description>Make half-elf plate armor.</Make_AS_WHE_PlateArmor.description>
   <Make_AS_WHE_PlateArmor.jobString>Making half-elf plate armor.</Make_AS_WHE_PlateArmor.jobString>
 
   <Make_AS_WHE_WAEArmor_Re.label>make Ancient Elven Plate Armor</Make_AS_WHE_WAEArmor_Re.label>
   <Make_AS_WHE_WAEArmor_Re.description>Make ancient elf plate armor.</Make_AS_WHE_WAEArmor_Re.description>
-  <Make_AS_WHE_WAEArmor_Re.jobString>Making Ancient Elven Plate Armor.</Make_AS_WHE_WAEArmor_Re.jobString>
+  <Make_AS_WHE_WAEArmor_Re.jobString>Making Ancient Elven Plate Armor.</Make_AS_WHE_WAEArmor_Re.jobString> -->
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
@@ -240,7 +240,7 @@
   <Make_AS_Common_PlainUnderwear.description>Make as plain underwear.</Make_AS_Common_PlainUnderwear.description>
   <Make_AS_Common_PlainUnderwear.jobString>Making as plain underwear.</Make_AS_Common_PlainUnderwear.jobString>
 
-  <Make_AS_WHE_UnderwearB.label>make pink frilly underwear (half elf)</Make_AS_WHE_UnderwearB.label>
+  <!-- <Make_AS_WHE_UnderwearB.label>make pink frilly underwear (half elf)</Make_AS_WHE_UnderwearB.label>
   <Make_AS_WHE_UnderwearB.description>Make pink frilly underwear (half elf).</Make_AS_WHE_UnderwearB.description>
   <Make_AS_WHE_UnderwearB.jobString>Making pink frilly underwear (half elf).</Make_AS_WHE_UnderwearB.jobString>
 
@@ -266,14 +266,14 @@
 
   <Make_AS_WHE_UnderwearH.label>make black baby doll (half elf)</Make_AS_WHE_UnderwearH.label>
   <Make_AS_WHE_UnderwearH.description>Make black baby doll (half elf).</Make_AS_WHE_UnderwearH.description>
-  <Make_AS_WHE_UnderwearH.jobString>Making black baby doll (half elf).</Make_AS_WHE_UnderwearH.jobString>
+  <Make_AS_WHE_UnderwearH.jobString>Making black baby doll (half elf).</Make_AS_WHE_UnderwearH.jobString> -->
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
 
-  <Make_AS_WHE_UnderwearI.label>make luxury baby doll (half elf)</Make_AS_WHE_UnderwearI.label>
+  <!-- <Make_AS_WHE_UnderwearI.label>make luxury baby doll (half elf)</Make_AS_WHE_UnderwearI.label>
   <Make_AS_WHE_UnderwearI.description>Make luxury baby doll (half elf).</Make_AS_WHE_UnderwearI.description>
-  <Make_AS_WHE_UnderwearI.jobString>Making Luxury Baby Doll (Half Elf).</Make_AS_WHE_UnderwearI.jobString>
+  <Make_AS_WHE_UnderwearI.jobString>Making Luxury Baby Doll (Half Elf).</Make_AS_WHE_UnderwearI.jobString> -->
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
@@ -282,59 +282,59 @@
   <Make_AS_Common_PlainStoking.description>Make plain socks.</Make_AS_Common_PlainStoking.description>
   <Make_AS_Common_PlainStoking.jobString>Making plain socks.</Make_AS_Common_PlainStoking.jobString>
 
-  <Make_AS_WHE_StripeNeeso.label>make Stripe Knee Socks (Half Elf)</Make_AS_WHE_StripeNeeso.label>
+  <!-- <Make_AS_WHE_StripeNeeso.label>make Stripe Knee Socks (Half Elf)</Make_AS_WHE_StripeNeeso.label>
   <Make_AS_WHE_StripeNeeso.description>Make Stripe Knee Socks (Half Elf).</Make_AS_WHE_StripeNeeso.description>
   <Make_AS_WHE_StripeNeeso.jobString>Making Stripe Knee Socks (Half Elf).</Make_AS_WHE_StripeNeeso.jobString>
 
   <Make_AS_WHE_GarterBelt.label>make Garter Belt (Half Elf)</Make_AS_WHE_GarterBelt.label>
   <Make_AS_WHE_GarterBelt.description>Make Garterbelt (half elf).</Make_AS_WHE_GarterBelt.description>
-  <Make_AS_WHE_GarterBelt.jobString>Making Garterbelt (Half Elf).</Make_AS_WHE_GarterBelt.jobString>
+  <Make_AS_WHE_GarterBelt.jobString>Making Garterbelt (Half Elf).</Make_AS_WHE_GarterBelt.jobString> -->
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_Helmet.label>make Helmet (Half Elf)</Make_AS_WHE_Helmet.label>
+  <!-- <Make_AS_WHE_Helmet.label>make Helmet (Half Elf)</Make_AS_WHE_Helmet.label>
   <Make_AS_WHE_Helmet.description>Make helmet (half elf).</Make_AS_WHE_Helmet.description>
   <Make_AS_WHE_Helmet.jobString>Making Helmet (Half Elf).</Make_AS_WHE_Helmet.jobString>
 
   <Make_AS_WHE_AdvancedHelmet.label>make half-elf advanced helmet</Make_AS_WHE_AdvancedHelmet.label>
   <Make_AS_WHE_AdvancedHelmet.description>Make half-elf advanced helmet.</Make_AS_WHE_AdvancedHelmet.description>
-  <Make_AS_WHE_AdvancedHelmet.jobString>Making half-elf advanced helmet.</Make_AS_WHE_AdvancedHelmet.jobString>
+  <Make_AS_WHE_AdvancedHelmet.jobString>Making half-elf advanced helmet.</Make_AS_WHE_AdvancedHelmet.jobString> -->
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, FabricationBench -->
 
-  <Make_AS_WHE_MarineHelmet.label>make Half Elven Marine Helmet</Make_AS_WHE_MarineHelmet.label>
+  <!-- <Make_AS_WHE_MarineHelmet.label>make Half Elven Marine Helmet</Make_AS_WHE_MarineHelmet.label>
   <Make_AS_WHE_MarineHelmet.description>Make half-elf marine helmet.</Make_AS_WHE_MarineHelmet.description>
-  <Make_AS_WHE_MarineHelmet.jobString>Making Half Elven Marine Helmet.</Make_AS_WHE_MarineHelmet.jobString>
+  <Make_AS_WHE_MarineHelmet.jobString>Making Half Elven Marine Helmet.</Make_AS_WHE_MarineHelmet.jobString> -->
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
 
-  <Make_AS_WHE_MaidHairBand.label>make Maid Headband (Half Elf)</Make_AS_WHE_MaidHairBand.label>
+  <!-- <Make_AS_WHE_MaidHairBand.label>make Maid Headband (Half Elf)</Make_AS_WHE_MaidHairBand.label>
   <Make_AS_WHE_MaidHairBand.description>Make maid headband (half elf).</Make_AS_WHE_MaidHairBand.description>
-  <Make_AS_WHE_MaidHairBand.jobString>Making maid headband (half elf).</Make_AS_WHE_MaidHairBand.jobString>
+  <Make_AS_WHE_MaidHairBand.jobString>Making maid headband (half elf).</Make_AS_WHE_MaidHairBand.jobString> -->
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricSmithy, FueledSmithy -->
 
-  <Make_AS_WHE_Horn.label>make horn (half elf)</Make_AS_WHE_Horn.label>
+  <!-- <Make_AS_WHE_Horn.label>make horn (half elf)</Make_AS_WHE_Horn.label>
   <Make_AS_WHE_Horn.description>Make horn (half elf).</Make_AS_WHE_Horn.description>
-  <Make_AS_WHE_Horn.jobString>Making horn (half elf).</Make_AS_WHE_Horn.jobString>
+  <Make_AS_WHE_Horn.jobString>Making horn (half elf).</Make_AS_WHE_Horn.jobString> -->
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, FabricationBench -->
 
-  <Make_AS_WHE_PressureResistantHelmet.label>make Half Elf Pressure Resistant Helmet</Make_AS_WHE_PressureResistantHelmet.label>
+  <!-- <Make_AS_WHE_PressureResistantHelmet.label>make Half Elf Pressure Resistant Helmet</Make_AS_WHE_PressureResistantHelmet.label>
   <Make_AS_WHE_PressureResistantHelmet.description>Make Half Elf Pressure Resistant Helmet.</Make_AS_WHE_PressureResistantHelmet.description>
-  <Make_AS_WHE_PressureResistantHelmet.jobString>Making Half Elf Pressure Resistant Helmet.</Make_AS_WHE_PressureResistantHelmet.jobString>
+  <Make_AS_WHE_PressureResistantHelmet.jobString>Making Half Elf Pressure Resistant Helmet.</Make_AS_WHE_PressureResistantHelmet.jobString> -->
 
 
   <!-- Recipe Users: Electric TailoringBench, Hand TailoringBench, Electric TailoringBench, Hand TailoringBench -->
 
-  <Make_AS_WHE_MaidWare.label>make Maid Outfit (Half Elf)</Make_AS_WHE_MaidWare.label>
+  <!-- <Make_AS_WHE_MaidWare.label>make Maid Outfit (Half Elf)</Make_AS_WHE_MaidWare.label>
   <Make_AS_WHE_MaidWare.description>Make maid outfit (half elf).</Make_AS_WHE_MaidWare.description>
-  <Make_AS_WHE_MaidWare.jobString>Making maid outfit (half elf).</Make_AS_WHE_MaidWare.jobString>
+  <Make_AS_WHE_MaidWare.jobString>Making maid outfit (half elf).</Make_AS_WHE_MaidWare.jobString> -->
 
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, CraftingSpot, ElectricTailoringBench, HandTailoringBench -->
@@ -346,7 +346,7 @@
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench -->
 
-  <Make_AS_WHE_TShirts.label>make T-shirt (half elf)</Make_AS_WHE_TShirts.label>
+  <!-- <Make_AS_WHE_TShirts.label>make T-shirt (half elf)</Make_AS_WHE_TShirts.label>
   <Make_AS_WHE_TShirts.description>Make T-shirt (half elf).</Make_AS_WHE_TShirts.description>
   <Make_AS_WHE_TShirts.jobString>Making T-shirt (half elf).</Make_AS_WHE_TShirts.jobString>
 
@@ -360,7 +360,7 @@
 
   <Make_AS_WHE_TankTop.label>make Tank Top (Half Elf)</Make_AS_WHE_TankTop.label>
   <Make_AS_WHE_TankTop.description>Make tank top (half elf).</Make_AS_WHE_TankTop.description>
-  <Make_AS_WHE_TankTop.jobString>Making Tank Top (Half Elf).</Make_AS_WHE_TankTop.jobString>
+  <Make_AS_WHE_TankTop.jobString>Making Tank Top (Half Elf).</Make_AS_WHE_TankTop.jobString> -->
 
 
   <!-- Recipe Users: TableMachining -->

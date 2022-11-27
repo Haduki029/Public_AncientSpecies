@@ -531,8 +531,9 @@
           <li>AS_Common_PlainStoking</li>
           <li>AS_Common_PlainUnderwear</li>
           <li>AS_Common_PlainScarf</li>
+          <li>AS_Common_PlainLongScarf</li>
           <li>AS_WAE_NobleCoat</li>
-          <!-- <li>AS_WAE_NobleCoatBK</li> -->
+          <li>AS_WAE_NobleCoatBK</li>
           <li>AS_WAE_EliteKnightDress</li>
           <li>AS_WAE_EliteKnightDressBK</li>
           <li>AS_WAE_KnightDress</li>
@@ -544,7 +545,9 @@
           <li>AS_WAE_HKNationalCostume</li>
           <li>AS_AT_ShieldScarf</li>
           <li>AS_WHE_HyperShieldScarf</li>
-          <!-- <li>AS_WHE_NanoSuits</li> -->
+          <li>AS_AT_ShieldLongScarf</li>
+          <li>AS_WHE_HyperShieldLongScarf</li>
+          <li>AS_WHE_NanoSuits</li>
 
           <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_PlainUnderwear_Child</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">AS_Common_TighetsSuit_Child</li>
