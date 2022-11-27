@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_NobleCoat.description>神聖王国の古代エルフ貴族階級者が愛用している、戦闘用のコート。非常に丈夫なだけでなく、装備者の戦闘能力に補正がかかる。</AS_WAE_NobleCoat.description>
+  <AS_WAE_NobleCoat.label>ASエルフ貴族のコート</AS_WAE_NobleCoat.label>
+
+  <AS_WAE_NobleCoatBK.description>神聖王国のエルフ貴族のコートを真似た黒いコート。性能は同等である。</AS_WAE_NobleCoatBK.description>
+  <AS_WAE_NobleCoatBK.label>ASエルフ貴族のコート(黒)</AS_WAE_NobleCoatBK.label>
+
+
+</LanguageData>

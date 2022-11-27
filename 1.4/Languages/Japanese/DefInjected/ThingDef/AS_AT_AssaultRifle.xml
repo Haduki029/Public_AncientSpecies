@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_AT_AssaultRifle.label>ASアサルトライフル</AS_AT_AssaultRifle.label>
+  <AS_AT_AssaultRifle.description>ある古代技術により作られた突撃銃。グリップが取り付けられており、近～中距離での射撃の命中精度と安定性を向上させている。</AS_AT_AssaultRifle.description>
+  <AS_AT_AssaultRifle.tools.0.label>銃床</AS_AT_AssaultRifle.tools.0.label>
+  <AS_AT_AssaultRifle.tools.1.label>銃身</AS_AT_AssaultRifle.tools.1.label>
+  <AS_AT_AssaultRifle.verbs.Verb_Shoot.label>ASアサルトライフル</AS_AT_AssaultRifle.verbs.Verb_Shoot.label>
+
+  <AS_AT_Bullet_Assault_Rifle.label>アサルトライフル弾</AS_AT_Bullet_Assault_Rifle.label>
+
+
+</LanguageData>

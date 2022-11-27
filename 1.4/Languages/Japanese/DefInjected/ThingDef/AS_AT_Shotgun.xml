@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_AT_Shotgun.label>ASショットガン</AS_AT_Shotgun.label>
+  <AS_AT_Shotgun.description>ある古代技術により作られたショットガン。銃身が長いが、その割に重量は軽く近接での取り回しにも優れる。命中精度も全体的に高くまとまっており、接近戦～近距離では非常に頼りになる。</AS_AT_Shotgun.description>
+  <AS_AT_Shotgun.tools.0.label>銃床</AS_AT_Shotgun.tools.0.label>
+  <AS_AT_Shotgun.tools.1.label>銃身</AS_AT_Shotgun.tools.1.label>
+  <AS_AT_Shotgun.verbs.Verb_Shoot.label>ASショットガン</AS_AT_Shotgun.verbs.Verb_Shoot.label>
+
+  <AS_AT_Bullet_Shotgun.label>ASショットガンバレット</AS_AT_Bullet_Shotgun.label>
+
+
+</LanguageData>

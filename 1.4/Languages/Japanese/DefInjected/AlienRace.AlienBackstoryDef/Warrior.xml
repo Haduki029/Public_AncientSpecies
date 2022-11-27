@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_HK_Warrior_BackStory.title>神聖王国の戦士</AS_WAE_HK_Warrior_BackStory.title>
+  <AS_WAE_HK_Warrior_BackStory.titleShort>王国戦士</AS_WAE_HK_Warrior_BackStory.titleShort>
+  <AS_WAE_HK_Warrior_BackStory.baseDesc>[PAWN_nameDef]は実戦経験が豊富な[PAWN_alienRace]だ。拠点の構築や資材調達の訓練を受けており、どのような戦場でも活躍できるだろう。ただし、料理はとても苦手だ。</AS_WAE_HK_Warrior_BackStory.baseDesc>
+
+
+</LanguageData>

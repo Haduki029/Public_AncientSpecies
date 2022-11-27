@@ -1,27 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- <ResearchProjectDef>
-    <defName>AS_WAE_Weapons</defName>
-    <label>古代エルフの武器技術</label>
-    <description>古代エルフが用いていた技術に関するもの。いくつかの武器が作成可能になる。</description>
-    <baseCost>5000</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>MicroelectronicsBasics</li>
-    </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>0</researchViewY>
-	  <tab>AS_ResearchTab</tab>
-  </ResearchProjectDef> -->
-
   <AS_WAE_ElvenBowResearch.label>古代エルフの弓作成技術研究</AS_WAE_ElvenBowResearch.label>
   <AS_WAE_ElvenBowResearch.description>古代エルフ基礎的な弓に関する技術研究。古代エルフで一般的に使用されているエルブンボウが作成可能になる。</AS_WAE_ElvenBowResearch.description>
 
-  <AS_WAE_LowMeleeWeaponResearch.label>古代エルフの近接武器の研究</AS_WAE_LowMeleeWeaponResearch.label>
+  <AS_WAE_LowMeleeWeaponResearch.label>古代エルフの近接武器の研究 I</AS_WAE_LowMeleeWeaponResearch.label>
   <AS_WAE_LowMeleeWeaponResearch.description>原始的な武器の開発。</AS_WAE_LowMeleeWeaponResearch.description>
 
-  <AS_WAE_MidMeleeWeaponResearch.label>古代エルフの近接武器の研究２</AS_WAE_MidMeleeWeaponResearch.label>
+  <AS_WAE_MidMeleeWeaponResearch.label>古代エルフの近接武器の研究 II</AS_WAE_MidMeleeWeaponResearch.label>
   <AS_WAE_MidMeleeWeaponResearch.description>原始的な武器のからより戦闘に向いた武器の開発。</AS_WAE_MidMeleeWeaponResearch.description>
 
   <AS_WAE_RelicKnightsSwordWeaponResearch.label>古代エルフの騎士剣技術研究</AS_WAE_RelicKnightsSwordWeaponResearch.label>

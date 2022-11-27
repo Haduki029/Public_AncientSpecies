@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WHE_WAESword_Re.label>古代エルフの騎士剣（レプリカ）</AS_WHE_WAESword_Re.label>
+  <AS_WHE_WAESword_Re.label>古代エルフの騎士剣(レプリカ)</AS_WHE_WAESword_Re.label>
   <AS_WHE_WAESword_Re.description>ハーフエルフの技術で再現された、古代エルフの騎士剣のレプリカ。刀身にはウラニウムが用いられており、黒い仕上がりになっている。切れ味はオリジナルに劣らないが、使用者の近接戦闘を補助する力は再現出来ていない。</AS_WHE_WAESword_Re.description>
-  <AS_WHE_WAESword_Re.tools.0.label>handle</AS_WHE_WAESword_Re.tools.0.label>
-  <AS_WHE_WAESword_Re.tools.1.label>point</AS_WHE_WAESword_Re.tools.1.label>
-  <AS_WHE_WAESword_Re.tools.2.label>edge</AS_WHE_WAESword_Re.tools.2.label>
+  <AS_WHE_WAESword_Re.tools.0.label>柄</AS_WHE_WAESword_Re.tools.0.label>
+  <AS_WHE_WAESword_Re.tools.1.label>先</AS_WHE_WAESword_Re.tools.1.label>
+  <AS_WHE_WAESword_Re.tools.2.label>刃</AS_WHE_WAESword_Re.tools.2.label>
 
 
 </LanguageData>

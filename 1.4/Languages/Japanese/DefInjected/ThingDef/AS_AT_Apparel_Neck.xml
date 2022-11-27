@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_AT_ShieldScarf.description>布、ハイパーウィーブを使い編まれたスカーフに、シールド機能を付けたもの。首周りの防護能力が非常に高い。</AS_AT_ShieldScarf.description>
+  <AS_AT_ShieldScarf.label>ASシールドスカーフ</AS_AT_ShieldScarf.label>
+
+  <AS_AT_ShieldLongScarf.description>布、ハイパーウィーブを使い編まれたロングスカーフに、シールド機能を付けたもの。首周りの防護能力が非常に高い。</AS_AT_ShieldLongScarf.description>
+  <AS_AT_ShieldLongScarf.label>ASシールドロングスカーフ</AS_AT_ShieldLongScarf.label>
+
+
+</LanguageData>

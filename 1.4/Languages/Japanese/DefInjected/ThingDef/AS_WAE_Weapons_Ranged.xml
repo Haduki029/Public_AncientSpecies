@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WAE_ElvenBow_Origin.label>ASエルブンボウ</WAE_ElvenBow_Origin.label>
+  <WAE_ElvenBow_Origin.description>古代エルフが使っている複合弓です。古代エルフの技術で作られており、小型で軽量なことによる近距離での取り回しの良さだけでなく、中、遠距離でも安定した命中精度と、非常に高い命中力を誇る。</WAE_ElvenBow_Origin.description>
+  <WAE_ElvenBow_Origin.tools.0.label>リム</WAE_ElvenBow_Origin.tools.0.label>
+  <WAE_ElvenBow_Origin.verbs.Verb_Shoot.label>ASエルブンボウ</WAE_ElvenBow_Origin.verbs.Verb_Shoot.label>
+
+  <AS_WAE_ElvenArrow.label>エルフの矢</AS_WAE_ElvenArrow.label>
+
+
+</LanguageData>

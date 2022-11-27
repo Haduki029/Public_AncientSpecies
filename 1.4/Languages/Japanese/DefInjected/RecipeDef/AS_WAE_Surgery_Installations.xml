@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_Install_WAE_FakeEar.label>人工古代エルフの耳 移植</AS_Install_WAE_FakeEar.label>
+  <AS_Install_WAE_FakeEar.description>人工古代エルフの耳を移植します。</AS_Install_WAE_FakeEar.description>
+  <AS_Install_WAE_FakeEar.jobString>人工古代エルフの耳を移植中。</AS_Install_WAE_FakeEar.jobString>
+
+  <AS_Install_WAE_BionicEar.label>バイオニック古代エルフの耳 移植</AS_Install_WAE_BionicEar.label>
+  <AS_Install_WAE_BionicEar.description>バイオニック古代エルフの耳を移植します。</AS_Install_WAE_BionicEar.description>
+  <AS_Install_WAE_BionicEar.jobString>バイオニック古代エルフの耳を移植中。</AS_Install_WAE_BionicEar.jobString>
+
+
+</LanguageData>

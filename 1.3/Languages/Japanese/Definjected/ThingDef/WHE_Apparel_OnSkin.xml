@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WHE_UnderwearA.label>下着（ハーフエルフ）</AS_WHE_UnderwearA.label>
   <AS_WHE_UnderwearA.description>皮や布で作られたノーマルな下着。</AS_WHE_UnderwearA.description>
+  <AS_WHE_UnderwearA.label>下着(ハーフエルフ)</AS_WHE_UnderwearA.label>
 
-  <AS_WHE_UnderwearB.label>ピンクのフリル下着（ハーフエルフ）</AS_WHE_UnderwearB.label>
   <AS_WHE_UnderwearB.description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</AS_WHE_UnderwearB.description>
+  <AS_WHE_UnderwearB.label>ピンクのフリル下着(ハーフエルフ)</AS_WHE_UnderwearB.label>
 
-  <AS_WHE_UnderwearC.label>青いフリル下着（ハーフエルフ）</AS_WHE_UnderwearC.label>
   <AS_WHE_UnderwearC.description>皮や布で作られた下着。フリルが施されており、可愛い仕上がりになっている。大切な日に着用すると、着用者に幸運が訪れるという噂があるとかないとか。</AS_WHE_UnderwearC.description>
+  <AS_WHE_UnderwearC.label>青いフリル下着(ハーフエルフ)</AS_WHE_UnderwearC.label>
 
-  <AS_WHE_UnderwearD.label>セクシーな下着（ハーフエルフ）</AS_WHE_UnderwearD.label>
   <AS_WHE_UnderwearD.description>皮や布で作られたセクシーな下着。そのデザインは相手の心をはやらせ、初心な相手であるほど平静さを忘れさせます。きっと互いに幸福感で満たされることでしょう。</AS_WHE_UnderwearD.description>
+  <AS_WHE_UnderwearD.label>セクシーな下着(ハーフエルフ)</AS_WHE_UnderwearD.label>
 
-  <AS_WHE_UnderwearE.label>スマートインナー（ハーフエルフ）</AS_WHE_UnderwearE.label>
   <AS_WHE_UnderwearE.description>皮や布で作られた下着？そのデザインは最早言葉で語ることすら憚られる、業の深い代物である。その魅力にパートナーは心が満たされ、より強い絆で結ばれることだろう。</AS_WHE_UnderwearE.description>
+  <AS_WHE_UnderwearE.label>スマートインナー(ハーフエルフ)</AS_WHE_UnderwearE.label>
 
-  <AS_WHE_UnderwearF.label>ベイビードール（ハーフエルフ）</AS_WHE_UnderwearF.label>
   <AS_WHE_UnderwearF.description>セクシーなベイビードールです。大切な部分をしっかり保護しつつも、諸所が透けて見えるそのデザインは夜戦に最適でしょう。</AS_WHE_UnderwearF.description>
+  <AS_WHE_UnderwearF.label>ベイビードール(ハーフエルフ)</AS_WHE_UnderwearF.label>
 
-  <AS_WHE_UnderwearG.label>白のベイビードール（ハーフエルフ）</AS_WHE_UnderwearG.label>
   <AS_WHE_UnderwearG.description>白を基調にした、高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</AS_WHE_UnderwearG.description>
+  <AS_WHE_UnderwearG.label>白のベイビードール(ハーフエルフ)</AS_WHE_UnderwearG.label>
 
-  <AS_WHE_UnderwearH.label>黒のベイビードール（ハーフエルフ）</AS_WHE_UnderwearH.label>
   <AS_WHE_UnderwearH.description>黒を基調にした、高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</AS_WHE_UnderwearH.description>
+  <AS_WHE_UnderwearH.label>黒のベイビードール(ハーフエルフ)</AS_WHE_UnderwearH.label>
 
-  <AS_WHE_UnderwearI.label>高級ベイビードール（ハーフエルフ）</AS_WHE_UnderwearI.label>
   <AS_WHE_UnderwearI.description>高級なベイビードールです。上品なデザインなだけでなく、女性の魅力を際立たせるよう、セクシーさをちりばめた一級品です。</AS_WHE_UnderwearI.description>
+  <AS_WHE_UnderwearI.label>高級ベイビードール(ハーフエルフ)</AS_WHE_UnderwearI.label>
 
-  <AS_WHE_Neeso.label>ニーソックス（ハーフエルフ）</AS_WHE_Neeso.label>
   <AS_WHE_Neeso.description>皮や布で作られたニーソックス。</AS_WHE_Neeso.description>
+  <AS_WHE_Neeso.label>ニーソックス(ハーフエルフ)</AS_WHE_Neeso.label>
 
-  <AS_WHE_StripeNeeso.label>ストライプニーソックス（ハーフエルフ）</AS_WHE_StripeNeeso.label>
   <AS_WHE_StripeNeeso.description>皮や布で作られた、縞模様入りの高品質ニーソックス。</AS_WHE_StripeNeeso.description>
+  <AS_WHE_StripeNeeso.label>ストライプニーソックス(ハーフエルフ)</AS_WHE_StripeNeeso.label>
 
-  <AS_WHE_GarterBelt.label>ガーターベルト（ハーフエルフ）</AS_WHE_GarterBelt.label>
   <AS_WHE_GarterBelt.description>ガーターベルトです。美しい体の上を走る一本のベルトは、着用者の魅力を最大限に引き出すでしょう。</AS_WHE_GarterBelt.description>
+  <AS_WHE_GarterBelt.label>ガーターベルト(ハーフエルフ)</AS_WHE_GarterBelt.label>
 
 
 </LanguageData>

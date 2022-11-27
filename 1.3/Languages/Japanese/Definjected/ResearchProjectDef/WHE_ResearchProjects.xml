@@ -28,9 +28,6 @@
   <AS_WHE_Weapons.label>ハーフエルフの武具技術</AS_WHE_Weapons.label>
   <AS_WHE_Weapons.description>ハーフエルフの知識、技術による武器が作成可能になる。</AS_WHE_Weapons.description>
 
-  <AS_WHE_RelicKnightsSwordReWeaponResearch.label>エルフの騎士剣解析</AS_WHE_RelicKnightsSwordReWeaponResearch.label>
-  <AS_WHE_RelicKnightsSwordReWeaponResearch.description>古代エルフが使用している騎士剣の研究。完了するとレプリカ版が作成できるようになる。</AS_WHE_RelicKnightsSwordReWeaponResearch.description>
-
   <AS_WHE_HalfElvenBowResearch.label>エルフの弓解析</AS_WHE_HalfElvenBowResearch.label>
   <AS_WHE_HalfElvenBowResearch.description>古代エルフの弓について研究する。完了するとレプリカ版が作成できるようになる。</AS_WHE_HalfElvenBowResearch.description>
 
@@ -39,6 +36,9 @@
 
   <AS_WHE_ElvenCompoundBowResearch.label>改良型のコンパウンドボウ研究</AS_WHE_ElvenCompoundBowResearch.label>
   <AS_WHE_ElvenCompoundBowResearch.description>ハーフエルフの知識と古代技術の知識に加え、古代エルフの技術を組み合わせた新たな機械式弓の研究を行う。</AS_WHE_ElvenCompoundBowResearch.description>
+
+  <AS_WHE_RelicKnightsSwordReWeaponResearch.label>エルフの騎士剣解析</AS_WHE_RelicKnightsSwordReWeaponResearch.label>
+  <AS_WHE_RelicKnightsSwordReWeaponResearch.description>古代エルフが使用している騎士剣の研究。完了するとレプリカ版が作成できるようになる。</AS_WHE_RelicKnightsSwordReWeaponResearch.description>
 
 
 </LanguageData>

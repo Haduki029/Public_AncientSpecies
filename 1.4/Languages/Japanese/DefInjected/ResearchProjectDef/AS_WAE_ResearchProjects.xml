@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_ElvenBowResearch.label>古代エルフの弓作成技術研究</AS_WAE_ElvenBowResearch.label>
+  <AS_WAE_ElvenBowResearch.description>古代エルフ基礎的な弓に関する技術研究。古代エルフで一般的に使用されているエルブンボウが作成可能になる。</AS_WAE_ElvenBowResearch.description>
+
+  <AS_WAE_LowMeleeWeaponResearch.label>古代エルフの近接武器の研究 I</AS_WAE_LowMeleeWeaponResearch.label>
+  <AS_WAE_LowMeleeWeaponResearch.description>原始的な武器の開発。</AS_WAE_LowMeleeWeaponResearch.description>
+
+  <AS_WAE_MidMeleeWeaponResearch.label>古代エルフの近接武器の研究 II</AS_WAE_MidMeleeWeaponResearch.label>
+  <AS_WAE_MidMeleeWeaponResearch.description>原始的な武器からより戦闘に向いた武器の開発。</AS_WAE_MidMeleeWeaponResearch.description>
+
+  <AS_WAE_StarKnightsSwordWeaponReResearch.label>古代エルフの星騎士剣の研究</AS_WAE_StarKnightsSwordWeaponReResearch.label>
+  <AS_WAE_StarKnightsSwordWeaponReResearch.description>古代エルフの伝承にある、かつて星を救った英雄が使っていたとされる剣についての研究。完了することでレプリカ版星騎士剣が作成できるようになる。</AS_WAE_StarKnightsSwordWeaponReResearch.description>
+
+  <AS_WAE_StarKnightsSwordWeaponResearch.label>古代エルフの星騎士剣の解析</AS_WAE_StarKnightsSwordWeaponResearch.label>
+  <AS_WAE_StarKnightsSwordWeaponResearch.description>古代エルフの伝承にある、かつて星を救った英雄が使っていたとされる剣の特殊機能を解析する研究。完了することで星騎士の剣が作成できるようになる。</AS_WAE_StarKnightsSwordWeaponResearch.description>
+
+  <AS_WAE_StarKnightsTwoHandSwordWeaponResearch.label>古代エルフの星騎士の両手剣究</AS_WAE_StarKnightsTwoHandSwordWeaponResearch.label>
+  <AS_WAE_StarKnightsTwoHandSwordWeaponResearch.description>完了することで星騎士の両手剣が作成できるようになる。</AS_WAE_StarKnightsTwoHandSwordWeaponResearch.description>
+
+  <AS_WAE_BasicApparelsResearch.label>古代エルフの衣類技術研究</AS_WAE_BasicApparelsResearch.label>
+  <AS_WAE_BasicApparelsResearch.description>古代エルフが一般的に使用している衣服の研究。</AS_WAE_BasicApparelsResearch.description>
+
+  <AS_WAE_BasicArmorResearch.label>古代エルフのアーマー技術研究</AS_WAE_BasicArmorResearch.label>
+  <AS_WAE_BasicArmorResearch.description>古代エルフが一般的に使用しているアーマーの研究。</AS_WAE_BasicArmorResearch.description>
+
+  <AS_WAE_MidArmorResearch.label>古代エルフの上級アーマー技術研究</AS_WAE_MidArmorResearch.label>
+  <AS_WAE_MidArmorResearch.description>古代エルフの中でも、階級が高い者たちが使用するアーマーの研究。</AS_WAE_MidArmorResearch.description>
+
+  <AS_WAE_NobleEquipmentResearch.label>古代エルフの貴族装備技術研究</AS_WAE_NobleEquipmentResearch.label>
+  <AS_WAE_NobleEquipmentResearch.description>古代エルフの貴族や高レベルの騎士が使用する衣服の研究。</AS_WAE_NobleEquipmentResearch.description>
+
+  <AS_WAE_HighArmorResearch.label>古代エルフの最上級アーマー技術研究</AS_WAE_HighArmorResearch.label>
+  <AS_WAE_HighArmorResearch.description>古代エルフの中でも、最上級の騎士が使用するアーマーの研究。</AS_WAE_HighArmorResearch.description>
+
+
+</LanguageData>

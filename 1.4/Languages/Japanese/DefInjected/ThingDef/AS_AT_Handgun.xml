@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_AT_Handgun.label>ASハンドガン</AS_AT_Handgun.label>
+  <AS_AT_Handgun.description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</AS_AT_Handgun.description>
+  <AS_AT_Handgun.tools.0.label>銃床</AS_AT_Handgun.tools.0.label>
+  <AS_AT_Handgun.tools.1.label>銃身</AS_AT_Handgun.tools.1.label>
+  <AS_AT_Handgun.verbs.Verb_Shoot.label>ASハンドガン</AS_AT_Handgun.verbs.Verb_Shoot.label>
+
+  <AS_AT_Bullet_Hundgun.label>ハンドガン弾</AS_AT_Bullet_Hundgun.label>
+
+
+</LanguageData>

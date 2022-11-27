@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_AT_SniperRifle.label>ASスナイパーライフル</AS_AT_SniperRifle.label>
+  <AS_AT_SniperRifle.description>ASアサルトライフルのノズルを延長し、スコープが取り付け、弾丸をより遠距離に向いたものにした、長距離射撃用のライフル。サイズが大きくなっており、近距離での取り回しは悪くなっている。</AS_AT_SniperRifle.description>
+  <AS_AT_SniperRifle.tools.0.label>銃床</AS_AT_SniperRifle.tools.0.label>
+  <AS_AT_SniperRifle.tools.1.label>銃身</AS_AT_SniperRifle.tools.1.label>
+  <AS_AT_SniperRifle.verbs.Verb_Shoot.label>ASスナイパーライフル</AS_AT_SniperRifle.verbs.Verb_Shoot.label>
+
+  <AS_AT_Bullet_Sniper_Rifle.label>AS狙撃用ライフル弾</AS_AT_Bullet_Sniper_Rifle.label>
+
+
+</LanguageData>

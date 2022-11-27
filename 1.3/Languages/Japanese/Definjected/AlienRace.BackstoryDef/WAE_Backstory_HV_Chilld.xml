@@ -3,7 +3,7 @@
 
   <AS_WAE_HV_Child_BackStory.title>古代エルフの子供</AS_WAE_HV_Child_BackStory.title>
   <AS_WAE_HV_Child_BackStory.titleShort>子供</AS_WAE_HV_Child_BackStory.titleShort>
-  <AS_WAE_HV_Child_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_HV_Child_BackStory.baseDescription>
+  <AS_WAE_HV_Child_BackStory.baseDescription>[PAWN_nameDef]は[PAWN_alienRace]として、エルフの小さな集落で幼少期を過ごしました。</AS_WAE_HV_Child_BackStory.baseDescription>
 
 
 </LanguageData>

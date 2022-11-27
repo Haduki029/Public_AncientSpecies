@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Slave_BackStory.title>古代エルフの奴隷</AS_WAE_Slave_BackStory.title>
+  <AS_WAE_Slave_BackStory.titleShort>奴隷</AS_WAE_Slave_BackStory.titleShort>
+  <AS_WAE_Slave_BackStory.baseDesc>[PAWN_nameDef]は、[PAWN_alienRace]の奴隷だ。</AS_WAE_Slave_BackStory.baseDesc>
+
+  <AS_WAE_ServiceSlave_BackStory.title>古代エルフの奉仕奴隷</AS_WAE_ServiceSlave_BackStory.title>
+  <AS_WAE_ServiceSlave_BackStory.titleShort>奉仕奴隷</AS_WAE_ServiceSlave_BackStory.titleShort>
+  <AS_WAE_ServiceSlave_BackStory.baseDesc>[PAWN_nameDef]は、[PAWN_alienRace]の奉仕奴隷だ。</AS_WAE_ServiceSlave_BackStory.baseDesc>
+
+  <AS_WAE_WarriorSlave_BackStory.title>古代エルフの戦士奴隷</AS_WAE_WarriorSlave_BackStory.title>
+  <AS_WAE_WarriorSlave_BackStory.titleShort>戦士奴隷</AS_WAE_WarriorSlave_BackStory.titleShort>
+  <AS_WAE_WarriorSlave_BackStory.baseDesc>[PAWN_nameDef]は、[PAWN_alienRace]の戦士奴隷だ。</AS_WAE_WarriorSlave_BackStory.baseDesc>
+
+  <AS_WAE_ArcherSlave_BackStory.title>弓兵奴隷</AS_WAE_ArcherSlave_BackStory.title>
+  <AS_WAE_ArcherSlave_BackStory.titleShort>弓兵奴隷</AS_WAE_ArcherSlave_BackStory.titleShort>
+  <AS_WAE_ArcherSlave_BackStory.baseDesc>[PAWN_nameDef]は、[PAWN_alienRace]の弓兵奴隷だ。</AS_WAE_ArcherSlave_BackStory.baseDesc>
+
+  <AS_WAE_Healer_BackStory.title>古代エルフの薬師</AS_WAE_Healer_BackStory.title>
+  <AS_WAE_Healer_BackStory.titleShort>薬師</AS_WAE_Healer_BackStory.titleShort>
+  <AS_WAE_Healer_BackStory.baseDesc>[PAWN_nameDef]は集落に住む[PAWN_alienRace]の薬師だ。</AS_WAE_Healer_BackStory.baseDesc>
+
+  <AS_WAE_HouseKeeper_BackStory.title>古代エルフの家政婦</AS_WAE_HouseKeeper_BackStory.title>
+  <AS_WAE_HouseKeeper_BackStory.titleShort>家政婦</AS_WAE_HouseKeeper_BackStory.titleShort>
+  <AS_WAE_HouseKeeper_BackStory.baseDesc>[PAWN_nameDef]は集落に住む[PAWN_alienRace]の家政婦だ。</AS_WAE_HouseKeeper_BackStory.baseDesc>
+
+  <AS_WAE_Cook_BackStory.title>古代エルフの調理師</AS_WAE_Cook_BackStory.title>
+  <AS_WAE_Cook_BackStory.titleShort>調理師</AS_WAE_Cook_BackStory.titleShort>
+  <AS_WAE_Cook_BackStory.baseDesc>[PAWN_nameDef]は集落に住む[PAWN_alienRace]の調理師だ。</AS_WAE_Cook_BackStory.baseDesc>
+
+  <AS_WAE_Smith_BackStory.title>古代エルフの職人</AS_WAE_Smith_BackStory.title>
+  <AS_WAE_Smith_BackStory.titleShort>職人</AS_WAE_Smith_BackStory.titleShort>
+  <AS_WAE_Smith_BackStory.baseDesc>[PAWN_nameDef]は集落に住む[PAWN_alienRace]の職人だ。</AS_WAE_Smith_BackStory.baseDesc>
+
+
+</LanguageData>

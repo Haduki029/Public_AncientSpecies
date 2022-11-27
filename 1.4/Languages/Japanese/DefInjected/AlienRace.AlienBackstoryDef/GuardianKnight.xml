@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_HK_GuardianKnight_BackStory.title>神聖王国の守護騎士</AS_WAE_HK_GuardianKnight_BackStory.title>
+  <AS_WAE_HK_GuardianKnight_BackStory.titleShort>王国守護騎士</AS_WAE_HK_GuardianKnight_BackStory.titleShort>
+  <AS_WAE_HK_GuardianKnight_BackStory.baseDesc>[PAWN_nameDef]は[PAWN_alienRace]だ。その役割は国を、王を守ることであり、そのために選ばれた特別な騎士だ。戦場にその姿を現すだけで、敵は恐れ慄くだろう。ただし、その厳しい訓練のために料理の腕は犠牲になってしまったが…。</AS_WAE_HK_GuardianKnight_BackStory.baseDesc>
+
+
+</LanguageData>

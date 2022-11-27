@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_SpeciesType.degreeDatas.0.label>ハーフエルフ</AS_SpeciesType.degreeDatas.0.label>
+  <AS_SpeciesType.degreeDatas.0.description>人類の手により、エンシェントエルフと人間の遺伝子を用いて作られた人工種族。</AS_SpeciesType.degreeDatas.0.description>
+  <AS_SpeciesType.degreeDatas.1.label>古代エルフ</AS_SpeciesType.degreeDatas.1.label>
+  <AS_SpeciesType.degreeDatas.1.description>遥か昔、偉大な技術を持った古代の種族により生み出されたと言われる種族。</AS_SpeciesType.degreeDatas.1.description>
+  <AS_SpeciesType.degreeDatas.2.label>ドレイク</AS_SpeciesType.degreeDatas.2.label>
+  <AS_SpeciesType.degreeDatas.2.description>遥か昔、偉大な技術を持った古代の種族により生み出されたと言われる種族。</AS_SpeciesType.degreeDatas.2.description>
+  <AS_SpeciesType.degreeDatas.3.label>ウルフェン</AS_SpeciesType.degreeDatas.3.label>
+  <AS_SpeciesType.degreeDatas.3.description>人類の手により、古代に存在した狼種と人間の遺伝子を用いて作られた人工種族。</AS_SpeciesType.degreeDatas.3.description>
+
+  <AS_OdControlFactor.degreeDatas.0.label>オド制御因子</AS_OdControlFactor.degreeDatas.0.label>
+  <AS_OdControlFactor.degreeDatas.0.description></AS_OdControlFactor.degreeDatas.0.description>
+
+
+</LanguageData>

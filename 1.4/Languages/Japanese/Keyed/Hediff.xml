@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_Hediff_PhysicalBoostDescriptionShort>体内のオドエネルギーを使用し、肉体を強化する。オドエネルギーの操作に習熟しているほど大きく強化されるが、使用中はオドエネルギーが消費され、無くなると解除されます。</AS_Hediff_PhysicalBoostDescriptionShort>
+  <AS_Hediff_PhysicalBoostLabel>フィジカルブースト</AS_Hediff_PhysicalBoostLabel>
+  <AS_Hediff_OdChargeDescriptionShort>体内を巡るオドの流れを抑え、消費を極端に抑えることでオドエネルギーの回復速度を向上する。その間、身体能力が下がる。</AS_Hediff_OdChargeDescriptionShort>
+  <AS_Hediff_OdChargeLabel>オドチャージ</AS_Hediff_OdChargeLabel>
+
+
+</LanguageData>

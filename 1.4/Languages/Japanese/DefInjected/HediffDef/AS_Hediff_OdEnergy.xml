@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_Hediff_OdEnergy.label>オドエネルギー</AS_Hediff_OdEnergy.label>
+  <AS_Hediff_OdEnergy.description>オドエネルギーを体内に貯蔵、留める能力。オドエネルギーにより平時から身体能力が向上するだけでなく、貯蔵したオドを使うことでさらに強化することが出来る。貯蔵できる容量と身体能力の強化度合いは、どれだけオドエネルギーの操作に習熟しているかによって決まる。未熟な者でも年月により延びていく。</AS_Hediff_OdEnergy.description>
+  <AS_Hediff_OdEnergy.stages.0.label>Lv1</AS_Hediff_OdEnergy.stages.0.label>
+  <AS_Hediff_OdEnergy.stages.1.label>Lv2</AS_Hediff_OdEnergy.stages.1.label>
+  <AS_Hediff_OdEnergy.stages.2.label>Lv3</AS_Hediff_OdEnergy.stages.2.label>
+  <AS_Hediff_OdEnergy.stages.3.label>Lv4</AS_Hediff_OdEnergy.stages.3.label>
+  <AS_Hediff_OdEnergy.stages.4.label>Lv5</AS_Hediff_OdEnergy.stages.4.label>
+  <AS_Hediff_OdEnergy.stages.5.label>Lv6</AS_Hediff_OdEnergy.stages.5.label>
+  <AS_Hediff_OdEnergy.stages.6.label>Lv7</AS_Hediff_OdEnergy.stages.6.label>
+  <AS_Hediff_OdEnergy.stages.7.label>Lv8</AS_Hediff_OdEnergy.stages.7.label>
+  <AS_Hediff_OdEnergy.stages.8.label>Lv9</AS_Hediff_OdEnergy.stages.8.label>
+  <AS_Hediff_OdEnergy.stages.9.label>Lv10</AS_Hediff_OdEnergy.stages.9.label>
+
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.0.descriptionExtra>ハーフ種族である。</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.0.descriptionExtra>
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.0.labelPrefix>ハーフ種族</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.0.labelPrefix>
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.1.descriptionExtra>古代種である。</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.1.descriptionExtra>
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.1.labelPrefix>古代種</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.1.labelPrefix>
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.2.descriptionExtra>原始種である。</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.2.descriptionExtra>
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.2.labelPrefix>原始種</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.2.labelPrefix>
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.3.descriptionExtra>基本的な薬や治療法がなければ、生命を脅かすことになるかもしれません。</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.3.descriptionExtra>
+  <AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.3.labelPrefix>制御因子</AS_Hediff_OdEnergy.comps.AS_HediffComp_OdSystem.odTypes.3.labelPrefix>
+
+
+</LanguageData>

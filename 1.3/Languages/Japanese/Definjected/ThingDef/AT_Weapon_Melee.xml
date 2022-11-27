@@ -3,8 +3,8 @@
 
   <AS_AT_Impact_Knuckles.label>インパクトナックル</AS_AT_Impact_Knuckles.label>
   <AS_AT_Impact_Knuckles.description>テスト実装</AS_AT_Impact_Knuckles.description>
-  <AS_AT_Impact_Knuckles.tools.0.label>knuckles</AS_AT_Impact_Knuckles.tools.0.label>
-  <AS_AT_Impact_Knuckles.tools.1.label>discharger</AS_AT_Impact_Knuckles.tools.1.label>
+  <AS_AT_Impact_Knuckles.tools.0.label>ナックル</AS_AT_Impact_Knuckles.tools.0.label>
+  <AS_AT_Impact_Knuckles.tools.1.label>放射器</AS_AT_Impact_Knuckles.tools.1.label>
 
 
 </LanguageData>

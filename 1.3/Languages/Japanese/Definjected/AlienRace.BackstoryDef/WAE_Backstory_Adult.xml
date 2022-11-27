@@ -3,27 +3,27 @@
 
   <AS_WAE_Backstory_SlaveAdult.title>エルフの奴隷</AS_WAE_Backstory_SlaveAdult.title>
   <AS_WAE_Backstory_SlaveAdult.titleShort>エルフの奴隷</AS_WAE_Backstory_SlaveAdult.titleShort>
-  <AS_WAE_Backstory_SlaveAdult.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WAE_Backstory_SlaveAdult.baseDescription>
+  <AS_WAE_Backstory_SlaveAdult.baseDescription>[PAWN_nameDef]は[PAWN_alienRace]の奴隷だ。</AS_WAE_Backstory_SlaveAdult.baseDescription>
 
   <AS_WAE_Backstory_HunterAdult.title>エルフの狩人</AS_WAE_Backstory_HunterAdult.title>
   <AS_WAE_Backstory_HunterAdult.titleShort>エルフの狩人</AS_WAE_Backstory_HunterAdult.titleShort>
-  <AS_WAE_Backstory_HunterAdult.baseDescription>[PAWN_nameDef]は小さなハーフエルの集落に暮らしていた。 [PAWN_pronoun]だ。</AS_WAE_Backstory_HunterAdult.baseDescription>
+  <AS_WAE_Backstory_HunterAdult.baseDescription>[PAWN_nameDef]は小さなハーフエルフの集落に暮らしていた。[PAWN_alienRace]だ。</AS_WAE_Backstory_HunterAdult.baseDescription>
 
   <AS_WAE_Backstory_NormalAdult.title>エルフの民</AS_WAE_Backstory_NormalAdult.title>
   <AS_WAE_Backstory_NormalAdult.titleShort>エルフの民</AS_WAE_Backstory_NormalAdult.titleShort>
-  <AS_WAE_Backstory_NormalAdult.baseDescription>[PAWN_nameDef]は、[PAWN_pronoun]だ。</AS_WAE_Backstory_NormalAdult.baseDescription>
+  <AS_WAE_Backstory_NormalAdult.baseDescription>[PAWN_nameDef]は、[PAWN_alienRace]だ。</AS_WAE_Backstory_NormalAdult.baseDescription>
 
   <AS_WAE_Backstory_PKHunterAdult.title>エルフの凄腕狩人</AS_WAE_Backstory_PKHunterAdult.title>
   <AS_WAE_Backstory_PKHunterAdult.titleShort>エルフの凄腕狩人</AS_WAE_Backstory_PKHunterAdult.titleShort>
-  <AS_WAE_Backstory_PKHunterAdult.baseDescription>[PAWN_nameDef]は集落の中でもとびきり腕の立つ狩人だ。 [PAWN_pronoun]だ。</AS_WAE_Backstory_PKHunterAdult.baseDescription>
+  <AS_WAE_Backstory_PKHunterAdult.baseDescription>[PAWN_nameDef]は集落の中でもとびきり腕の立つ狩人だ。[PAWN_alienRace]だ。</AS_WAE_Backstory_PKHunterAdult.baseDescription>
 
   <AS_WAE_Backstory_KnightAdult.title>エルフの騎士</AS_WAE_Backstory_KnightAdult.title>
   <AS_WAE_Backstory_KnightAdult.titleShort>エルフの騎士</AS_WAE_Backstory_KnightAdult.titleShort>
-  <AS_WAE_Backstory_KnightAdult.baseDescription>[PAWN_nameDef]は集落を敵から守る騎士だ。 [PAWN_pronoun]だ。</AS_WAE_Backstory_KnightAdult.baseDescription>
+  <AS_WAE_Backstory_KnightAdult.baseDescription>[PAWN_nameDef]は集落を敵から守る騎士だ。[PAWN_alienRace]だ。</AS_WAE_Backstory_KnightAdult.baseDescription>
 
   <AS_WAE_Backstory_PKKnightAdult.title>エルフの守護騎士</AS_WAE_Backstory_PKKnightAdult.title>
   <AS_WAE_Backstory_PKKnightAdult.titleShort>エルフの守護騎士</AS_WAE_Backstory_PKKnightAdult.titleShort>
-  <AS_WAE_Backstory_PKKnightAdult.baseDescription>[PAWN_nameDef]は集落を敵から守る騎士の中でも、特に強い。 [PAWN_pronoun]だ。</AS_WAE_Backstory_PKKnightAdult.baseDescription>
+  <AS_WAE_Backstory_PKKnightAdult.baseDescription>[PAWN_nameDef]は集落を敵から守る騎士の中でも、特に強い[PAWN_alienRace]だ。</AS_WAE_Backstory_PKKnightAdult.baseDescription>
 
 
 </LanguageData>

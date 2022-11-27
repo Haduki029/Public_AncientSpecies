@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_EliteKnightDress.description>古代エルフの新王を守護する騎士の中から、選抜されたエリートにのみ支給される鎧。特殊な力で体全体を保護する機能、着用者の動きを補助する機能はそのままに、鎧そのものの装甲を改善している。また、肩部分と足部分の鎧具も追加されている。</AS_WAE_EliteKnightDress.description>
+  <AS_WAE_EliteKnightDress.label>ASエリート姫騎士鎧</AS_WAE_EliteKnightDress.label>
+
+  <AS_WAE_EliteKnightDressBK.description>エルフのエリート姫騎士鎧を模倣した色違いの鎧。性能は同等。</AS_WAE_EliteKnightDressBK.description>
+  <AS_WAE_EliteKnightDressBK.label>ASエリート姫騎士鎧(黒)</AS_WAE_EliteKnightDressBK.label>
+
+  <AS_WAE_KnightDress.description>古代エルフの守護騎士のみに装着が許された鎧。一見防御箇所が少ないように見えるが、特殊な力で体全体を保護している。また、着用者の戦闘を補助する効果がある。</AS_WAE_KnightDress.description>
+  <AS_WAE_KnightDress.label>AS姫騎士鎧</AS_WAE_KnightDress.label>
+
+  <AS_WAE_HKArcherArmor.description>神聖王国の弓師向けに作成された動きやすい軽鎧。正面胴体の防御面が少なく見えるが、特殊な力で体全体を保護しており、着用者の戦闘を補助する効果もある。</AS_WAE_HKArcherArmor.description>
+  <AS_WAE_HKArcherArmor.label>エルフの軽装鎧</AS_WAE_HKArcherArmor.label>
+
+  <AS_WAE_RengerArmor.description>森や山地での探索、戦闘を考慮したアーマー。軽く動きやすく、防御面は十分</AS_WAE_RengerArmor.description>
+  <AS_WAE_RengerArmor.label>スカウトアーマー(古代エルフ)</AS_WAE_RengerArmor.label>
+
+
+</LanguageData>

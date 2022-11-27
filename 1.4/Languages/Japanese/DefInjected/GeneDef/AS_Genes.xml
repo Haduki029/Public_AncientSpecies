@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Antibody_Gene.label>古代エルフの抗体遺伝子</AS_WAE_Antibody_Gene.label>
+  <AS_WAE_Antibody_Gene.description>古代のエルフは、病原体や毒素に対する強力な抗体を持っています。毒物や病気から体を守る力が強くなります。</AS_WAE_Antibody_Gene.description>
+  <AS_WAE_Antibody_Gene.labelShortAdj>AE抗体遺伝子</AS_WAE_Antibody_Gene.labelShortAdj>
+
+  <AS_OdControlFactor_Gene.label>オド制御因子</AS_OdControlFactor_Gene.label>
+  <AS_OdControlFactor_Gene.description>この因子を持つものは、オドを制御することが可能となる。</AS_OdControlFactor_Gene.description>
+
+  <!-- Hair Color -->
+
+  <AS_WAE_Gene_Hair_fcff8c.label>ASライムライト</AS_WAE_Gene_Hair_fcff8c.label>
+  <AS_WAE_Gene_Hair_fcff8c.description>古代エルフの髪の色に関する遺伝子です。古代エルフは遺伝的に明るいブロンド系や緑の髪色が多いですが、その性質を付与します。</AS_WAE_Gene_Hair_fcff8c.description>
+
+  <AS_WAE_Gene_Hair_fcff05.label>ASライトクロムイエロー</AS_WAE_Gene_Hair_fcff05.label>
+  <AS_WAE_Gene_Hair_fcff05.description>古代エルフの髪の色に関する遺伝子です。古代エルフは遺伝的に明るいブロンド系や緑の髪色が多いですが、その性質を付与します。</AS_WAE_Gene_Hair_fcff05.description>
+
+  <AS_WAE_Gene_Hair_abff69.label>ASライトスプリンググリーン</AS_WAE_Gene_Hair_abff69.label>
+  <AS_WAE_Gene_Hair_abff69.description>古代エルフの髪の色に関する遺伝子です。古代エルフは遺伝的に明るいブロンド系や緑の髪色が多いですが、その性質を付与します。</AS_WAE_Gene_Hair_abff69.description>
+
+  <AS_WAE_Gene_Hair_c7ffc7.label>ASパールグリーン</AS_WAE_Gene_Hair_c7ffc7.label>
+  <AS_WAE_Gene_Hair_c7ffc7.description>古代エルフの髪の色に関する遺伝子です。古代エルフは遺伝的に明るいブロンド系や緑の髪色が多いですが、その性質を付与します。</AS_WAE_Gene_Hair_c7ffc7.description>
+
+  <AS_Gene_Skin_Melanin00_fff1ec.label>AS 肌の色</AS_Gene_Skin_Melanin00_fff1ec.label>
+  <AS_Gene_Skin_Melanin00_fff1ec.description>この遺伝子の保有者は、特定の肌の色を持っています。複数の肌色遺伝子がある場合、1つがランダムに選択されます。</AS_Gene_Skin_Melanin00_fff1ec.description>
+
+  <AS_Gene_Skin_Melanin00_ffefdc.label>AS 肌の色</AS_Gene_Skin_Melanin00_ffefdc.label>
+  <AS_Gene_Skin_Melanin00_ffefdc.description>この遺伝子の保有者は、特定の肌の色を持っています。複数の肌色遺伝子がある場合、1つがランダムに選択されます。</AS_Gene_Skin_Melanin00_ffefdc.description>
+
+  <AS_Gene_Skin_Melanin01_fff1ec.label>AS 肌の色</AS_Gene_Skin_Melanin01_fff1ec.label>
+  <AS_Gene_Skin_Melanin01_fff1ec.description>この遺伝子の保有者は、特定の肌の色を持っています。複数の肌色遺伝子がある場合、1つがランダムに選択されます。</AS_Gene_Skin_Melanin01_fff1ec.description>
+
+  <AS_Gene_Skin_Melanin01_ffefdc.label>AS 肌の色</AS_Gene_Skin_Melanin01_ffefdc.label>
+  <AS_Gene_Skin_Melanin01_ffefdc.description>この遺伝子の保有者は、特定の肌の色を持っています。複数の肌色遺伝子がある場合、1つがランダムに選択されます。</AS_Gene_Skin_Melanin01_ffefdc.description>
+
+
+</LanguageData>

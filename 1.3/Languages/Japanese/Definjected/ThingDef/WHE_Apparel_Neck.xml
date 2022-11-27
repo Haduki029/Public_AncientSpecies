@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_WHE_Scarf.label>スカーフ（ハーフエルフ）</AS_WHE_Scarf.label>
   <AS_WHE_Scarf.description>布で編まれたスカーフで、首の防護を上げつつ、寒さへの耐性を得ることが出来る。シンプルなデザインではあるが、風になびかせ颯爽と移動するその姿は、見る者の胸に小さな火を灯すかもしれない。</AS_WHE_Scarf.description>
+  <AS_WHE_Scarf.label>スカーフ(ハーフエルフ)</AS_WHE_Scarf.label>
 
-  <AS_WHE_ShieldScarf.label>ASシールドスカーフ</AS_WHE_ShieldScarf.label>
   <AS_WHE_ShieldScarf.description>布、ハイパーウィーブを使い編まれたスカーフに、ハーフエルフの技術を用いてシールド機能を付けたもの。首周りの防護能力が非常に高い。</AS_WHE_ShieldScarf.description>
+  <AS_WHE_ShieldScarf.label>ASシールドスカーフ</AS_WHE_ShieldScarf.label>
 
-  <AS_WHE_ATShieldScarf.label>ASハイパーシールドスカーフ</AS_WHE_ATShieldScarf.label>
   <AS_WHE_ATShieldScarf.description>ハーフエルフの技術で作られたシールドスカーフを、古代の技術で改修したもの。外敵からの射撃を防ぐとともに、内部から射撃を行うことが可能になっている。</AS_WHE_ATShieldScarf.description>
+  <AS_WHE_ATShieldScarf.label>ASハイパーシールドスカーフ</AS_WHE_ATShieldScarf.label>
 
 
 </LanguageData>

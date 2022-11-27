@@ -2,53 +2,67 @@
 <LanguageData>
 
   <AS_WAE_HK_Colonist.label>神聖王国民</AS_WAE_HK_Colonist.label>
-  <AS_WAE_HK_Colonist.labelPlural>神聖王国民達</AS_WAE_HK_Colonist.labelPlural>
-  <AS_WAE_HK_Colonist.labelMale>男性神聖王国民</AS_WAE_HK_Colonist.labelMale>
-  <AS_WAE_HK_Colonist.labelMalePlural>男性神聖王国民達</AS_WAE_HK_Colonist.labelMalePlural>
-  <AS_WAE_HK_Colonist.labelFemale>女性神聖王国民</AS_WAE_HK_Colonist.labelFemale>
-  <AS_WAE_HK_Colonist.labelFemalePlural>女性神聖王国民</AS_WAE_HK_Colonist.labelFemalePlural>
+  <AS_WAE_HK_Colonist.labelPlural>神聖王国民たち</AS_WAE_HK_Colonist.labelPlural>
+  <AS_WAE_HK_Colonist.labelMale>男性 神聖王国民</AS_WAE_HK_Colonist.labelMale>
+  <AS_WAE_HK_Colonist.labelMalePlural>男性 神聖王国民たち</AS_WAE_HK_Colonist.labelMalePlural>
+  <AS_WAE_HK_Colonist.labelFemale>女性 神聖王国民</AS_WAE_HK_Colonist.labelFemale>
+  <AS_WAE_HK_Colonist.labelFemalePlural>女性 神聖王国民たち</AS_WAE_HK_Colonist.labelFemalePlural>
 
   <AS_WAE_HK_Warrior.label>神聖王国の戦士</AS_WAE_HK_Warrior.label>
-  <AS_WAE_HK_Warrior.labelPlural>神聖王国の戦士達</AS_WAE_HK_Warrior.labelPlural>
-  <AS_WAE_HK_Warrior.labelMale>男性神聖王国の戦士</AS_WAE_HK_Warrior.labelMale>
-  <AS_WAE_HK_Warrior.labelMalePlural>男性神聖王国の戦士達</AS_WAE_HK_Warrior.labelMalePlural>
-  <AS_WAE_HK_Warrior.labelFemale>女性神聖王国の戦士</AS_WAE_HK_Warrior.labelFemale>
-  <AS_WAE_HK_Warrior.labelFemalePlural>女性神聖王国の戦士達</AS_WAE_HK_Warrior.labelFemalePlural>
+  <AS_WAE_HK_Warrior.labelPlural>神聖王国の戦士たち</AS_WAE_HK_Warrior.labelPlural>
+  <AS_WAE_HK_Warrior.labelMale>男性 神聖王国の戦士</AS_WAE_HK_Warrior.labelMale>
+  <AS_WAE_HK_Warrior.labelMalePlural>男性 神聖王国の戦士たち</AS_WAE_HK_Warrior.labelMalePlural>
+  <AS_WAE_HK_Warrior.labelFemale>女性 神聖王国の戦士</AS_WAE_HK_Warrior.labelFemale>
+  <AS_WAE_HK_Warrior.labelFemalePlural>女性 神聖王国の戦士たち</AS_WAE_HK_Warrior.labelFemalePlural>
+
+  <AS_WAE_HK_Hunter.label>神聖王国の狩人</AS_WAE_HK_Hunter.label>
+  <AS_WAE_HK_Hunter.labelPlural>神聖王国の狩人たち</AS_WAE_HK_Hunter.labelPlural>
+  <AS_WAE_HK_Hunter.labelMale>男性 神聖王国の狩人</AS_WAE_HK_Hunter.labelMale>
+  <AS_WAE_HK_Hunter.labelMalePlural>男性 神聖王国の狩人たち</AS_WAE_HK_Hunter.labelMalePlural>
+  <AS_WAE_HK_Hunter.labelFemale>女性 神聖王国の狩人</AS_WAE_HK_Hunter.labelFemale>
+  <AS_WAE_HK_Hunter.labelFemalePlural>女性 神聖王国の狩人たち</AS_WAE_HK_Hunter.labelFemalePlural>
 
   <AS_WAE_HK_GuardianKnight.label>神聖王国の守護騎士</AS_WAE_HK_GuardianKnight.label>
-  <AS_WAE_HK_GuardianKnight.labelPlural>神聖王国の守護騎士達</AS_WAE_HK_GuardianKnight.labelPlural>
-  <AS_WAE_HK_GuardianKnight.labelMale>男性神聖王国の守護騎士</AS_WAE_HK_GuardianKnight.labelMale>
-  <AS_WAE_HK_GuardianKnight.labelMalePlural>男性神聖王国の守護騎士達</AS_WAE_HK_GuardianKnight.labelMalePlural>
-  <AS_WAE_HK_GuardianKnight.labelFemale>女性神聖王国の守護騎士</AS_WAE_HK_GuardianKnight.labelFemale>
-  <AS_WAE_HK_GuardianKnight.labelFemalePlural>女性神聖王国の守護騎士達</AS_WAE_HK_GuardianKnight.labelFemalePlural>
+  <AS_WAE_HK_GuardianKnight.labelPlural>神聖王国の守護騎士たち</AS_WAE_HK_GuardianKnight.labelPlural>
+  <AS_WAE_HK_GuardianKnight.labelMale>男性 神聖王国の守護騎士</AS_WAE_HK_GuardianKnight.labelMale>
+  <AS_WAE_HK_GuardianKnight.labelMalePlural>男性 神聖王国の守護騎士たち</AS_WAE_HK_GuardianKnight.labelMalePlural>
+  <AS_WAE_HK_GuardianKnight.labelFemale>女性 神聖王国の守護騎士</AS_WAE_HK_GuardianKnight.labelFemale>
+  <AS_WAE_HK_GuardianKnight.labelFemalePlural>女性 神聖王国の守護騎士たち</AS_WAE_HK_GuardianKnight.labelFemalePlural>
+
+  <AS_WAE_HK_Archer.label>神聖王国の弓兵</AS_WAE_HK_Archer.label>
+  <AS_WAE_HK_Archer.labelPlural>神聖王国の弓兵たち</AS_WAE_HK_Archer.labelPlural>
+  <AS_WAE_HK_Archer.labelMale>男性 神聖王国の弓兵</AS_WAE_HK_Archer.labelMale>
+  <AS_WAE_HK_Archer.labelMalePlural>男性 神聖王国の弓兵たち</AS_WAE_HK_Archer.labelMalePlural>
+  <AS_WAE_HK_Archer.labelFemale>女性 神聖王国の弓兵</AS_WAE_HK_Archer.labelFemale>
+  <AS_WAE_HK_Archer.labelFemalePlural>女性 神聖王国の弓兵たち</AS_WAE_HK_Archer.labelFemalePlural>
 
   <AS_WAE_HK_Healer.label>神聖王国の薬師</AS_WAE_HK_Healer.label>
-  <AS_WAE_HK_Healer.labelPlural>神聖王国の薬師達</AS_WAE_HK_Healer.labelPlural>
-  <AS_WAE_HK_Healer.labelMale>男性神聖王国の薬師</AS_WAE_HK_Healer.labelMale>
-  <AS_WAE_HK_Healer.labelMalePlural>男性神聖王国の薬師達</AS_WAE_HK_Healer.labelMalePlural>
-  <AS_WAE_HK_Healer.labelFemale>女性神聖王国の薬師</AS_WAE_HK_Healer.labelFemale>
-  <AS_WAE_HK_Healer.labelFemalePlural>女性神聖王国の薬師達</AS_WAE_HK_Healer.labelFemalePlural>
+  <AS_WAE_HK_Healer.labelPlural>神聖王国の薬師たち</AS_WAE_HK_Healer.labelPlural>
+  <AS_WAE_HK_Healer.labelMale>男性 神聖王国の薬師</AS_WAE_HK_Healer.labelMale>
+  <AS_WAE_HK_Healer.labelMalePlural>男性 神聖王国の薬師たち</AS_WAE_HK_Healer.labelMalePlural>
+  <AS_WAE_HK_Healer.labelFemale>女性 神聖王国の薬師</AS_WAE_HK_Healer.labelFemale>
+  <AS_WAE_HK_Healer.labelFemalePlural>女性 神聖王国の薬師たち</AS_WAE_HK_Healer.labelFemalePlural>
 
-  <AS_WAE_HK_Houskeeper.label>神聖王国の家政婦</AS_WAE_HK_Houskeeper.label>
-  <AS_WAE_HK_Houskeeper.labelPlural>神聖王国の家政婦達</AS_WAE_HK_Houskeeper.labelPlural>
-  <AS_WAE_HK_Houskeeper.labelMale>男性神聖王国の家政婦</AS_WAE_HK_Houskeeper.labelMale>
-  <AS_WAE_HK_Houskeeper.labelMalePlural>男性神聖王国の家政婦達</AS_WAE_HK_Houskeeper.labelMalePlural>
-  <AS_WAE_HK_Houskeeper.labelFemale>女性神聖王国の家政婦</AS_WAE_HK_Houskeeper.labelFemale>
-  <AS_WAE_HK_Houskeeper.labelFemalePlural>女性神聖王国の家政婦達</AS_WAE_HK_Houskeeper.labelFemalePlural>
+  <AS_WAE_HK_HouseKeeper.label>神聖王国の家政婦</AS_WAE_HK_HouseKeeper.label>
+  <AS_WAE_HK_HouseKeeper.labelPlural>神聖王国の家政婦たち</AS_WAE_HK_HouseKeeper.labelPlural>
+  <AS_WAE_HK_HouseKeeper.labelMale>男性 神聖王国の家政婦</AS_WAE_HK_HouseKeeper.labelMale>
+  <AS_WAE_HK_HouseKeeper.labelMalePlural>男性 神聖王国の家政婦たち</AS_WAE_HK_HouseKeeper.labelMalePlural>
+  <AS_WAE_HK_HouseKeeper.labelFemale>女性 神聖王国の家政婦</AS_WAE_HK_HouseKeeper.labelFemale>
+  <AS_WAE_HK_HouseKeeper.labelFemalePlural>女性 神聖王国の家政婦たち</AS_WAE_HK_HouseKeeper.labelFemalePlural>
 
   <AS_WAE_HK_Cook.label>神聖王国の料理人</AS_WAE_HK_Cook.label>
-  <AS_WAE_HK_Cook.labelPlural>神聖王国の料理人達</AS_WAE_HK_Cook.labelPlural>
-  <AS_WAE_HK_Cook.labelMale>男性神聖王国の料理人</AS_WAE_HK_Cook.labelMale>
-  <AS_WAE_HK_Cook.labelMalePlural>男性神聖王国の料理人達</AS_WAE_HK_Cook.labelMalePlural>
-  <AS_WAE_HK_Cook.labelFemale>女性神聖王国の料理人</AS_WAE_HK_Cook.labelFemale>
-  <AS_WAE_HK_Cook.labelFemalePlural>女性神聖王国の料理人達</AS_WAE_HK_Cook.labelFemalePlural>
+  <AS_WAE_HK_Cook.labelPlural>神聖王国の料理人たち</AS_WAE_HK_Cook.labelPlural>
+  <AS_WAE_HK_Cook.labelMale>男性 神聖王国の料理人</AS_WAE_HK_Cook.labelMale>
+  <AS_WAE_HK_Cook.labelMalePlural>男性 神聖王国の料理人たち</AS_WAE_HK_Cook.labelMalePlural>
+  <AS_WAE_HK_Cook.labelFemale>女性 神聖王国の料理人</AS_WAE_HK_Cook.labelFemale>
+  <AS_WAE_HK_Cook.labelFemalePlural>女性 神聖王国の料理人たち</AS_WAE_HK_Cook.labelFemalePlural>
 
   <AS_WAE_HK_Smith.label>神聖王国の職人</AS_WAE_HK_Smith.label>
-  <AS_WAE_HK_Smith.labelPlural>神聖王国の職人達</AS_WAE_HK_Smith.labelPlural>
-  <AS_WAE_HK_Smith.labelMale>男性神聖王国の職人</AS_WAE_HK_Smith.labelMale>
-  <AS_WAE_HK_Smith.labelMalePlural>男性神聖王国の職人達</AS_WAE_HK_Smith.labelMalePlural>
-  <AS_WAE_HK_Smith.labelFemale>女性神聖王国の職人</AS_WAE_HK_Smith.labelFemale>
-  <AS_WAE_HK_Smith.labelFemalePlural>女性神聖王国の職人達</AS_WAE_HK_Smith.labelFemalePlural>
+  <AS_WAE_HK_Smith.labelPlural>神聖王国の職人たち</AS_WAE_HK_Smith.labelPlural>
+  <AS_WAE_HK_Smith.labelMale>男性 神聖王国の職人</AS_WAE_HK_Smith.labelMale>
+  <AS_WAE_HK_Smith.labelMalePlural>男性 神聖王国の職人たち</AS_WAE_HK_Smith.labelMalePlural>
+  <AS_WAE_HK_Smith.labelFemale>女性 神聖王国の職人</AS_WAE_HK_Smith.labelFemale>
+  <AS_WAE_HK_Smith.labelFemalePlural>女性 神聖王国の職人たち</AS_WAE_HK_Smith.labelFemalePlural>
 
 
 </LanguageData>

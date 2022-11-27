@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_Slave.label>古代エルフの奴隷</AS_WAE_Slave.label>
+  <AS_WAE_Slave.labelPlural>古代エルフの奴隷たち</AS_WAE_Slave.labelPlural>
+  <AS_WAE_Slave.labelMale>男性 古代エルフの奴隷</AS_WAE_Slave.labelMale>
+  <AS_WAE_Slave.labelMalePlural>男性 古代エルフの奴隷たち</AS_WAE_Slave.labelMalePlural>
+  <AS_WAE_Slave.labelFemale>女性 古代エルフの奴隷</AS_WAE_Slave.labelFemale>
+  <AS_WAE_Slave.labelFemalePlural>女性 古代エルフの奴隷たち</AS_WAE_Slave.labelFemalePlural>
+
+  <AS_WAE_HK_ExWarrior.label>神聖王国の元戦士</AS_WAE_HK_ExWarrior.label>
+  <AS_WAE_HK_ExWarrior.labelPlural>神聖王国の元戦士たち</AS_WAE_HK_ExWarrior.labelPlural>
+  <AS_WAE_HK_ExWarrior.labelMale>男性 神聖王国の元戦士</AS_WAE_HK_ExWarrior.labelMale>
+  <AS_WAE_HK_ExWarrior.labelMalePlural>男性 神聖王国の元戦士たち</AS_WAE_HK_ExWarrior.labelMalePlural>
+  <AS_WAE_HK_ExWarrior.labelFemale>女性 神聖王国の元戦士</AS_WAE_HK_ExWarrior.labelFemale>
+  <AS_WAE_HK_ExWarrior.labelFemalePlural>女性 神聖王国の元戦士たち</AS_WAE_HK_ExWarrior.labelFemalePlural>
+
+
+</LanguageData>

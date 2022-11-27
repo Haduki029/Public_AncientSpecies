@@ -3,9 +3,10 @@
 
   <AS_WAE_Settlement.label>古代エルフの集落</AS_WAE_Settlement.label>
   <AS_WAE_Settlement.description>古代エルフ達の集落。</AS_WAE_Settlement.description>
-  <AS_WAE_Settlement.fixedName>古代エルフ</AS_WAE_Settlement.fixedName>
-  <AS_WAE_Settlement.pawnsPlural>古代エルフ達</AS_WAE_Settlement.pawnsPlural>
+  <AS_WAE_Settlement.pawnSingular>古代エルフ</AS_WAE_Settlement.pawnSingular>
+  <AS_WAE_Settlement.pawnsPlural>古代エルフたち</AS_WAE_Settlement.pawnsPlural>
   <AS_WAE_Settlement.leaderTitle>リーダー</AS_WAE_Settlement.leaderTitle>
+  <AS_WAE_Settlement.fixedName>古代エルフ</AS_WAE_Settlement.fixedName>
 
 
 </LanguageData>

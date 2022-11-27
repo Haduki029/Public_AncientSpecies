@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_AT_Grawehr.label>グラヴェーア</AS_AT_Grawehr.label>
+  <AS_AT_Grawehr.description>榴弾を高速で撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</AS_AT_Grawehr.description>
+  <AS_AT_Grawehr.tools.0.label>銃床</AS_AT_Grawehr.tools.0.label>
+  <AS_AT_Grawehr.tools.1.label>銃身</AS_AT_Grawehr.tools.1.label>
+  <AS_AT_Grawehr.verbs.Verb_Shoot.label>グラヴェーア</AS_AT_Grawehr.verbs.Verb_Shoot.label>
+
+  <AS_AT_Bullet_Rebel_Rifle.label>グラヴェーア弾</AS_AT_Bullet_Rebel_Rifle.label>
+
+
+</LanguageData>

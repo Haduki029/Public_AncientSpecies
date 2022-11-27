@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_LikeBaby.label>古代エルフの赤ちゃん</AS_WAE_LikeBaby.label>
+  <AS_WAE_LikeBaby.customMoodTipString>心情は,その人物がどれだけ幸せか,ストレスを感じているのかを表します.機嫌の悪い赤ちゃんは泣きやすいですが,機嫌の良い赤ちゃんはくすくす笑いやすいです.</AS_WAE_LikeBaby.customMoodTipString>
+  <AS_WAE_LikeChild.label>古代エルフの子供</AS_WAE_LikeChild.label>
+  <AS_WAE_LikePreTeenager.label>古代エルフの子供</AS_WAE_LikePreTeenager.label>
+
+  <AS_WAE_LikeTeenager.label>古代エルフの青年</AS_WAE_LikeTeenager.label>
+  <AS_WAE_LikeTeenager.adjective>10台のエルフ</AS_WAE_LikeTeenager.adjective>
+
+  <AS_WAE_LikeAdult.label>古代エルフ</AS_WAE_LikeAdult.label>
+
+
+</LanguageData>

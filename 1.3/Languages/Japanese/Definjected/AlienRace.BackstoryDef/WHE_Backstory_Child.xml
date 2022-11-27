@@ -3,11 +3,11 @@
 
   <AS_WHE_BackstoryChild_a.title>ハーフエルフ村の子供</AS_WHE_BackstoryChild_a.title>
   <AS_WHE_BackstoryChild_a.titleShort>ハーフエルフ村の子供</AS_WHE_BackstoryChild_a.titleShort>
-  <AS_WHE_BackstoryChild_a.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として、ハーフエルフの小さな集落で幼少期を過ごしました。</AS_WHE_BackstoryChild_a.baseDescription>
+  <AS_WHE_BackstoryChild_a.baseDescription>[PAWN_nameDef]は[PAWN_alienRace]として、ハーフエルフの小さな集落で幼少期を過ごしました。</AS_WHE_BackstoryChild_a.baseDescription>
 
   <AS_WHE_BackstoryChild_b.title>ハーフエルフの子供奴隷</AS_WHE_BackstoryChild_b.title>
   <AS_WHE_BackstoryChild_b.titleShort>子供奴隷</AS_WHE_BackstoryChild_b.titleShort>
-  <AS_WHE_BackstoryChild_b.baseDescription>[PAWN_nameDef]は[PAWN_pronoun]として捕らえられ、売買された過去があります。</AS_WHE_BackstoryChild_b.baseDescription>
+  <AS_WHE_BackstoryChild_b.baseDescription>[PAWN_nameDef]は幼い頃、[PAWN_alienRace]の奴隷として捕らえられ、売買された過去があります。</AS_WHE_BackstoryChild_b.baseDescription>
 
   <AS_WHE_BackstoryChild_c.title>ハーフエルフの子供調教師</AS_WHE_BackstoryChild_c.title>
   <AS_WHE_BackstoryChild_c.titleShort>子供調教師</AS_WHE_BackstoryChild_c.titleShort>

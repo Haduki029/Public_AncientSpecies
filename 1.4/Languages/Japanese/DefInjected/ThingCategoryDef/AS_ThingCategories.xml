@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_Apparel.label>古代エルフの衣服</AS_Apparel.label>
+  <AS_Apparel_Underware.label>肌着</AS_Apparel_Underware.label>
+  <AS_Apparel_Stocking.label>ストッキング</AS_Apparel_Stocking.label>
+  <AS_Apparel_Legs.label>脚</AS_Apparel_Legs.label>
+  <AS_Apparel_OnSkin.label>下着</AS_Apparel_OnSkin.label>
+  <AS_Apparel_Middle.label>着物</AS_Apparel_Middle.label>
+  <AS_Apparel_Shell.label>上着</AS_Apparel_Shell.label>
+  <AS_Apparel_Belt.label>腰</AS_Apparel_Belt.label>
+  <AS_Apparel_Coat.label>外套</AS_Apparel_Coat.label>
+  <AS_Apparel_Backpack.label>バックパック</AS_Apparel_Backpack.label>
+  <AS_Apparel_Neck.label>首</AS_Apparel_Neck.label>
+  <AS_Apparel_OverHead.label>帽子</AS_Apparel_OverHead.label>
+  <AS_Apparel_EyeCover.label>眼</AS_Apparel_EyeCover.label>
+  <AS_Weapons.label>古代エルフの武器</AS_Weapons.label>
+  <AS_AT_Weapons_MakeableGun.label>銃器</AS_AT_Weapons_MakeableGun.label>
+  <AS_AT_Items.label>特殊アイテム</AS_AT_Items.label>
+  <AS_WHE_Items.label>ハーフエルフのアイテム</AS_WHE_Items.label>
+  <AS_WAE_Items.label>古代エルフのアイテム</AS_WAE_Items.label>
+  <AS_Apparel_Child.label>子供用衣服</AS_Apparel_Child.label>
+  <AS_Apparel_Child_Underware.label>子供用下着</AS_Apparel_Child_Underware.label>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WHE_CC_Railgun.label>ASレールガン</AS_WHE_CC_Railgun.label>
+  <AS_WHE_CC_Railgun.verbs.Verb_Shoot.label>ASレールガン</AS_WHE_CC_Railgun.verbs.Verb_Shoot.label>
+  <AS_WHE_CC_Railgun.description>テスト実装。●●社により開発された最新型のレールガン。</AS_WHE_CC_Railgun.description>
+  <AS_WHE_CC_Railgun.tools.0.label>銃床</AS_WHE_CC_Railgun.tools.0.label>
+  <AS_WHE_CC_Railgun.tools.1.label>銃身</AS_WHE_CC_Railgun.tools.1.label>
+
+  <AS_WHE_Bullet_Railgun.label>レールガン弾</AS_WHE_Bullet_Railgun.label>
+
+
+</LanguageData>

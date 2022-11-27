@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AS_WAE_ShorBlade.label>ASショートブレード</AS_WAE_ShorBlade.label>
+  <AS_WAE_ShorBlade.description>古代エルフの技術で製造された少し小ぶりのブレード。軽く、斬撃力が高い。</AS_WAE_ShorBlade.description>
+  <AS_WAE_ShorBlade.tools.0.label>柄</AS_WAE_ShorBlade.tools.0.label>
+  <AS_WAE_ShorBlade.tools.1.label>刃</AS_WAE_ShorBlade.tools.1.label>
+  <AS_WAE_ShorBlade.tools.2.label>先</AS_WAE_ShorBlade.tools.2.label>
+
+  <AS_WAE_KnightSword.label>AS騎士剣</AS_WAE_KnightSword.label>
+  <AS_WAE_KnightSword.description>古代エルフの技術で製造された騎士用のロングソード。ハンドガードが付いており、片手でも扱いやすく近接戦闘で動きやすい造りになっている。</AS_WAE_KnightSword.description>
+  <AS_WAE_KnightSword.tools.0.label>柄</AS_WAE_KnightSword.tools.0.label>
+  <AS_WAE_KnightSword.tools.1.label>刃</AS_WAE_KnightSword.tools.1.label>
+  <AS_WAE_KnightSword.tools.2.label>先</AS_WAE_KnightSword.tools.2.label>
+
+  <AS_WAE_TwoHandWarAxe.label>ASツーハンドウォーアックス</AS_WAE_TwoHandWarAxe.label>
+  <AS_WAE_TwoHandWarAxe.description>古代エルフの技術で製造された巨大な両手斧。固く鍛え上げられた本体は非常に丈夫で、高い斬撃力と攻撃範囲を誇るが、動きが阻害される程にとても重い。</AS_WAE_TwoHandWarAxe.description>
+  <AS_WAE_TwoHandWarAxe.tools.0.label>柄</AS_WAE_TwoHandWarAxe.tools.0.label>
+  <AS_WAE_TwoHandWarAxe.tools.1.label>刃</AS_WAE_TwoHandWarAxe.tools.1.label>
+
+  <AS_WAE_StarKnightSwordRe.label>AS星騎士の剣(レプリカ)</AS_WAE_StarKnightSwordRe.label>
+  <AS_WAE_StarKnightSwordRe.description>古代エルフの伝承にある、かつて星を救った英雄が使っていたとされる剣を目指して作られたレプリカ。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。頑丈さ、切れ味共に高く扱いやすい剣で、使用者の近接戦闘を僅かに補助してくれる機能がある。</AS_WAE_StarKnightSwordRe.description>
+  <AS_WAE_StarKnightSwordRe.tools.0.label>柄</AS_WAE_StarKnightSwordRe.tools.0.label>
+  <AS_WAE_StarKnightSwordRe.tools.1.label>先</AS_WAE_StarKnightSwordRe.tools.1.label>
+  <AS_WAE_StarKnightSwordRe.tools.2.label>刃</AS_WAE_StarKnightSwordRe.tools.2.label>
+
+  <AS_WAE_StarKnightSword.label>AS星騎士の剣</AS_WAE_StarKnightSword.label>
+  <AS_WAE_StarKnightSword.description>古代エルフの伝承にある、かつて星を救った英雄が使っていたとされる剣を、古代エルフの技術で再現した剣。刀身にはウラニウムが用いられており、非常に丈夫で、単純な切れ味も高い。頑丈さ、切れ味共に高く扱いやすい剣で、使用者の近接戦闘を補助してくれる機能がある。</AS_WAE_StarKnightSword.description>
+  <AS_WAE_StarKnightSword.tools.0.label>柄</AS_WAE_StarKnightSword.tools.0.label>
+  <AS_WAE_StarKnightSword.tools.1.label>先</AS_WAE_StarKnightSword.tools.1.label>
+  <AS_WAE_StarKnightSword.tools.2.label>刃</AS_WAE_StarKnightSword.tools.2.label>
+
+  <AS_WAE_StarKnightTwoHandSword.label>AS星騎士の両手剣</AS_WAE_StarKnightTwoHandSword.label>
+  <AS_WAE_StarKnightTwoHandSword.description>星騎士の剣の製造技術を応用し、両手剣として作り上げた剣。巨大化し取り回しは悪くなったが、高い威力を実現するとともに、使用者への補助機能も性能もより向上させている。</AS_WAE_StarKnightTwoHandSword.description>
+  <AS_WAE_StarKnightTwoHandSword.tools.0.label>柄</AS_WAE_StarKnightTwoHandSword.tools.0.label>
+  <AS_WAE_StarKnightTwoHandSword.tools.1.label>先</AS_WAE_StarKnightTwoHandSword.tools.1.label>
+  <AS_WAE_StarKnightTwoHandSword.tools.2.label>刃</AS_WAE_StarKnightTwoHandSword.tools.2.label>
+
+
+</LanguageData>

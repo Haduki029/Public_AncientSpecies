@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_Apparel.label>ancient spacies apparel</AS_Apparel.label>
-  <AS_Apparel_Legs.label>ancient spacies legs apparel</AS_Apparel_Legs.label>
-  <AS_Apparel_Middle.label>ancient spacies middle apparel</AS_Apparel_Middle.label>
-  <AS_Apparel_Neck.label>ancient spacies neck apparel</AS_Apparel_Neck.label>
-  <AS_Apparel_OnSkin.label>ancient spacies onskin apparel</AS_Apparel_OnSkin.label>
-  <AS_Apparel_OverHead.label>ancient spacies overhead apparel</AS_Apparel_OverHead.label>
-  <AS_Apparel_Shell.label>ancient spacies shell apparel</AS_Apparel_Shell.label>
-  <AS_Apparel_UnderMiddle.label>ancient spacies under middle apparel</AS_Apparel_UnderMiddle.label>
-  <AS_Weapons.label>ancient spacies weapons</AS_Weapons.label>
-  <AS_AT_Weapons_MakeableGun.label>ancient spacies makeable gun weapons</AS_AT_Weapons_MakeableGun.label>
-  <AS_WHE_Apparel.label>half elven apparel</AS_WHE_Apparel.label>
-  <AS_WHE_Apparel_Legs.label>half elven legs apparel</AS_WHE_Apparel_Legs.label>
-  <AS_WHE_Apparel_Middle.label>half elven middle apparel</AS_WHE_Apparel_Middle.label>
-  <AS_WHE_Apparel_Neck.label>half elven neck apparel</AS_WHE_Apparel_Neck.label>
-  <AS_WHE_Apparel_OnSkin.label>half elven onskin apparel</AS_WHE_Apparel_OnSkin.label>
-  <AS_WHE_Apparel_OverHead.label>half elven overhead apparel</AS_WHE_Apparel_OverHead.label>
-  <AS_WHE_Apparel_Shell.label>half elven shell apparel</AS_WHE_Apparel_Shell.label>
-  <AS_WHE_Apparel_UnderMiddle.label>half elven under middle apparel</AS_WHE_Apparel_UnderMiddle.label>
-  <AS_WHE_Weapons.label>half elven weapons</AS_WHE_Weapons.label>
-  <AS_WHE_AT_Weapons.label>half elven's ancient technology weapons</AS_WHE_AT_Weapons.label>
-  <AS_WAE_Weapons.label>ancient elven weapons</AS_WAE_Weapons.label>
+  <AS_Apparel.label>古代エルフの衣服</AS_Apparel.label>
+  <AS_Apparel_Legs.label>脚</AS_Apparel_Legs.label>
+  <AS_Apparel_Middle.label>着物</AS_Apparel_Middle.label>
+  <AS_Apparel_Neck.label>首</AS_Apparel_Neck.label>
+  <AS_Apparel_OnSkin.label>下着</AS_Apparel_OnSkin.label>
+  <AS_Apparel_OverHead.label>帽子</AS_Apparel_OverHead.label>
+  <AS_Apparel_Shell.label>上着</AS_Apparel_Shell.label>
+  <AS_Apparel_UnderMiddle.label>下着</AS_Apparel_UnderMiddle.label>
+  <AS_Weapons.label>古代種の武器</AS_Weapons.label>
+  <AS_AT_Weapons_MakeableGun.label>作成武器</AS_AT_Weapons_MakeableGun.label>
+  <AS_WHE_Apparel.label>ハーフエルフの衣服</AS_WHE_Apparel.label>
+  <AS_WHE_Apparel_Legs.label>脚</AS_WHE_Apparel_Legs.label>
+  <AS_WHE_Apparel_Middle.label>着物</AS_WHE_Apparel_Middle.label>
+  <AS_WHE_Apparel_Neck.label>首</AS_WHE_Apparel_Neck.label>
+  <AS_WHE_Apparel_OnSkin.label>下着</AS_WHE_Apparel_OnSkin.label>
+  <AS_WHE_Apparel_OverHead.label>帽子</AS_WHE_Apparel_OverHead.label>
+  <AS_WHE_Apparel_Shell.label>上着</AS_WHE_Apparel_Shell.label>
+  <AS_WHE_Apparel_UnderMiddle.label>下着</AS_WHE_Apparel_UnderMiddle.label>
+  <AS_WHE_Weapons.label>ハーフエルフの武器</AS_WHE_Weapons.label>
+  <AS_WHE_AT_Weapons.label>ハーフエルフの古代技術武器</AS_WHE_AT_Weapons.label>
+  <AS_WAE_Weapons.label>古代エルフの武器</AS_WAE_Weapons.label>
 
 
 </LanguageData>

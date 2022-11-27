@@ -2,11 +2,11 @@
 <LanguageData>
 
   <AS_WHE_Race.label>ハーフエルフ</AS_WHE_Race.label>
-  <AS_WHE_Race.description>ハーフエルフはグリッターワールドの技術を駆使し、人間とエルフの特徴を組み合わせ造られた種族です。\n本来存在し得ない辺境の惑星に住んでいるこの種族は、宙族の間で違法に売買されていた個体が、宇宙船のトラブルにより辺境の惑星に不時着し、定住したものだと思われています。\n射撃・狩猟・栽培・調理など、全般的に優れた能力を持ち、サバイバル能力は高いですが、閉鎖的で、かなりの機械音痴です。</AS_WHE_Race.description>
-  <AS_WAE_Race.tools.0.label>左拳</AS_WAE_Race.tools.0.label>
-  <AS_WAE_Race.tools.1.label>右拳</AS_WAE_Race.tools.1.label>
-  <AS_WAE_Race.tools.2.label>歯</AS_WAE_Race.tools.2.label>
-  <AS_WAE_Race.tools.3.label>頭</AS_WAE_Race.tools.3.label>
+  <AS_WHE_Race.description>ハーフエルフはGlitterworldの技術を駆使し、人間とエルフの特徴を組み合わせ造られた種族です。\n本来存在し得ない辺境の惑星に住んでいるこの種族は、宙族の間で違法に売買されていた個体が、宇宙船のトラブルにより辺境の惑星に不時着し、定住したものだと思われています。\n射撃・狩猟・栽培・調理など、全般的に優れた能力を持ち、サバイバル能力は高いですが、閉鎖的で、かなりの機械音痴です。</AS_WHE_Race.description>
+  <AS_WHE_Race.tools.left_fist.label>左拳</AS_WHE_Race.tools.left_fist.label>
+  <AS_WHE_Race.tools.right_fist.label>右拳</AS_WHE_Race.tools.right_fist.label>
+  <AS_WHE_Race.tools.teeth.label>歯</AS_WHE_Race.tools.teeth.label>
+  <AS_WHE_Race.tools.head.label>頭部</AS_WHE_Race.tools.head.label>
 
 
 </LanguageData>

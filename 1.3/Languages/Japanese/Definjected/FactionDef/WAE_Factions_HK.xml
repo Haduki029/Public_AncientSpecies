@@ -2,9 +2,10 @@
 <LanguageData>
 
   <AS_WAE_HolyKingdom.label>エルフ神聖王国</AS_WAE_HolyKingdom.label>
-  <AS_WAE_HolyKingdom.description>エルフ絶対主義思想の王権制国家。\n非常に小規模な国家で、エンシェントエルフを頂点とし、その他の構成は他種族の奴隷がほとんどである。\nこの勢力のエンシェントエルフ達は、基本的に他の種族を見下しており、特に人間に対しての嫌悪感情が非常に強い。\n一人の王を頂点とし、その下にはいくつかの貴族が属している。\n非常に強力なエンシェントエルフの騎士達が率いる騎士団を持つ。\n特に力のある者は守護騎士と呼ばれている。\nこの国のエンシェントエルフ達は、剣と弓による戦闘を中心とした戦いを好み、銃器の使用をするものを臆病者としている。</AS_WAE_HolyKingdom.description>
   <AS_WAE_HolyKingdom.fixedName>エルフ神聖王国</AS_WAE_HolyKingdom.fixedName>
-  <AS_WAE_HolyKingdom.pawnsPlural>神聖王国の民達</AS_WAE_HolyKingdom.pawnsPlural>
+  <AS_WAE_HolyKingdom.description>エルフ絶対主義思想の王権制国家。\n非常に小規模な国家で、古代エルフを頂点とし、その他の構成は他種族の奴隷がほとんどである。\nこの勢力の古代エルフ達は、基本的に他の種族を見下しており、特に人間に対しての嫌悪感情が非常に強い。\n一人の王を頂点とし、その下にはいくつかの貴族が属している。\n非常に強力な古代エルフの騎士達が率いる騎士団を持つ。\n特に力のある者は守護騎士と呼ばれている。\nこの国の古代エルフ達は、剣と弓による戦闘を中心とした戦いを好み、銃器の使用をするものを臆病者としている。</AS_WAE_HolyKingdom.description>
+  <AS_WAE_HolyKingdom.pawnSingular>神聖王国の民</AS_WAE_HolyKingdom.pawnSingular>
+  <AS_WAE_HolyKingdom.pawnsPlural>神聖王国の民たち</AS_WAE_HolyKingdom.pawnsPlural>
   <AS_WAE_HolyKingdom.leaderTitle>神王</AS_WAE_HolyKingdom.leaderTitle>
 
 

@@ -3,7 +3,7 @@
 
   <!-- キャラクター命名規則 -->
 
-  <AS_WDk_Name_Rule.rulePack.rulesStrings.0>name->[AS_Firstname] [AS_Lastname]</AS_WDk_Name_Rule.rulePack.rulesStrings.0>
+  <!--<AS_WDk_Name_Rule.rulePack.rulesStrings.0>name->[AS_Firstname] [AS_Lastname]</AS_WDk_Name_Rule.rulePack.rulesStrings.0>-->
 
 
 </LanguageData>

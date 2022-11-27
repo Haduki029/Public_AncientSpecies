@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <AS_Trait_OdCharge.degreeDatas.0.label>オドエネルギー蓄積（小）</AS_Trait_OdCharge.degreeDatas.0.label>
+  <AS_Trait_OdCharge.degreeDatas.0.label>オドエネルギー蓄積(小)</AS_Trait_OdCharge.degreeDatas.0.label>
   <AS_Trait_OdCharge.degreeDatas.0.description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官がわずかに発達しており、体内にため込む性質を持っている。</AS_Trait_OdCharge.degreeDatas.0.description>
-  <AS_Trait_OdCharge.degreeDatas.1.label>オドエネルギー蓄積（中）</AS_Trait_OdCharge.degreeDatas.1.label>
+  <AS_Trait_OdCharge.degreeDatas.1.label>オドエネルギー蓄積(中)</AS_Trait_OdCharge.degreeDatas.1.label>
   <AS_Trait_OdCharge.degreeDatas.1.description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官が発達しており、体内にため込む性質を持っている。</AS_Trait_OdCharge.degreeDatas.1.description>
-  <AS_Trait_OdCharge.degreeDatas.2.label>オドエネルギー蓄積（大）</AS_Trait_OdCharge.degreeDatas.2.label>
+  <AS_Trait_OdCharge.degreeDatas.2.label>オドエネルギー蓄積(大)</AS_Trait_OdCharge.degreeDatas.2.label>
   <AS_Trait_OdCharge.degreeDatas.2.description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官がかなり発達しており、体内にため込む性質を持っている。</AS_Trait_OdCharge.degreeDatas.2.description>
-  <AS_Trait_OdCharge.degreeDatas.3.label>オドエネルギー蓄積（極大）</AS_Trait_OdCharge.degreeDatas.3.label>
+  <AS_Trait_OdCharge.degreeDatas.3.label>オドエネルギー蓄積(極大)</AS_Trait_OdCharge.degreeDatas.3.label>
   <AS_Trait_OdCharge.degreeDatas.3.description>空気中に存在するマナエネルギーを取り込み、オドというエネルギーに変換する器官が非常に発達しており、体内にため込む性質を持っている。</AS_Trait_OdCharge.degreeDatas.3.description>
 
   <AS_Trait_ManaConvert.degreeDatas.0.label>マナエネルギー変換炉</AS_Trait_ManaConvert.degreeDatas.0.label>
