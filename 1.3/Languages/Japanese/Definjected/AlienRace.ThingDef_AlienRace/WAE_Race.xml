@@ -3,8 +3,6 @@
 
   <AS_WAE_Race.label>古代エルフ</AS_WAE_Race.label>
   <AS_WAE_Race.description>古代エルフは、一部の辺境の惑星に住んでいる種族です。\n人間の4倍ほどの寿命があり、ある特殊な器官の働きにより、身体能力もかなり優れています。\n非常に数が少なく、高額で取引されていますが、基本敵対的な場合が多い種族です。\nハーフエルフはこの古代エルフを基にして造られた種族と言われていますが、一部ではこの古代エルフ自体も、古代の技術で造られたのではないかという説があります。</AS_WAE_Race.description>
-  <AS_WAE_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>肌</AS_WAE_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-  <AS_WAE_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>髪</AS_WAE_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
   <AS_WAE_Race.tools.0.label>左拳</AS_WAE_Race.tools.0.label>
   <AS_WAE_Race.tools.1.label>右拳</AS_WAE_Race.tools.1.label>
   <AS_WAE_Race.tools.2.label>歯</AS_WAE_Race.tools.2.label>
