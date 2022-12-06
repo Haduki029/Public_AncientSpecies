@@ -16,7 +16,7 @@
         </weaponTags>
 
         <graphicData>
-            <texPath>WHE/Weapons/T5/Railgun</texPath>
+            <texPath>Weapons/WHE/guns/T5/Railgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
 
@@ -32,10 +32,10 @@
             <WorkToMake>52000</WorkToMake>
             <Mass>10.5</Mass>
             <AccuracyTouch>0.45</AccuracyTouch>
-            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>90</AccuracyMedium>
             <AccuracyLong>1.00</AccuracyLong>
-            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
         </statBases>
 
         <recipeMaker>
@@ -62,7 +62,7 @@
                 <warmupTime>4.0</warmupTime>
                 <range>52.9</range>
                 <burstShotCount>2</burstShotCount>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>0.01</ticksBetweenBurstShots>
                 <soundCast>AS_Sound_Railgun_Shot</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -94,13 +94,13 @@
         <label>railgun bullet made by ●● company </label>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>38</damageAmountBase>
+            <damageAmountBase>30</damageAmountBase>
             <armorPenetrationBase>0.85</armorPenetrationBase>
             <stoppingPower>1.5</stoppingPower>
             <speed>220</speed>
         </projectile>
         <graphicData>
-            <texPath>WHE/Projectile/Railgun_Bullet</texPath>
+            <texPath>Projectile/Railgun_Bullet</texPath>
             <!-- <texPath>Things/Projectile/Bullet_small</texPath> -->
             <graphicClass>Graphic_Single</graphicClass>
             <!-- <drawSize>0.2</drawSize> -->

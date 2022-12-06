@@ -39,7 +39,7 @@
 		<appliedOnFixedBodyParts>
 			<li>Ear</li>
 		</appliedOnFixedBodyParts>
-		<!-- <addsHediff>AS_WAE_FakeEar</addsHediff> -->
+		<addsHediff>AS_WAE_FakeEar</addsHediff>
 	</RecipeDef>
 
     <RecipeDef ParentName="SurgeryFlesh">

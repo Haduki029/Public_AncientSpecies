@@ -11,7 +11,7 @@
 		<label>ASハンドガン</label>
 		<description>ある古代技術により作られた拳銃。バレルが長く、射撃時に安定感があり、取り回しも良いデザインになっている。</description>
 		<graphicData>
-			<texPath>AT/Weapons/HandGun</texPath>
+			<texPath>Weapons/AT/guns/T1/HandGun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>0.8</drawSize>
 		</graphicData>

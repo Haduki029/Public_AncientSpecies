@@ -101,7 +101,7 @@
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
       <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
       <ForagedNutritionPerDay>0.10</ForagedNutritionPerDay>
-      <MentalBreakThreshold>0.05</MentalBreakThreshold>
+      <MentalBreakThreshold>-0.02</MentalBreakThreshold>
       <SocialImpact>0.15</SocialImpact>
       <CarryingCapacity>10</CarryingCapacity>
     </equippedStatOffsets>

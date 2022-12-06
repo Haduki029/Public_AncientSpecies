@@ -14,9 +14,6 @@
     <apparel>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <developmentalStageFilter>Child</developmentalStageFilter>
-      <layers>
-        <li>OnSkin</li>
-      </layers>
       <tags>
         <li>IndustrialBasic</li>
       </tags>

@@ -156,7 +156,6 @@
   <statBases>
     <MarketValue>1500</MarketValue>
     <MoveSpeed>4.9</MoveSpeed>
-	  <MentalBreakThreshold>0.02</MentalBreakThreshold>
     <ComfyTemperatureMax>34</ComfyTemperatureMax>
     <ComfyTemperatureMin>4</ComfyTemperatureMin>
     <ImmunityGainSpeed>1.1</ImmunityGainSpeed>

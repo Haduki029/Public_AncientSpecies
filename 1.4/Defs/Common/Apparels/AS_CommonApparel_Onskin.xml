@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-    <ThingDef Name="AS_ApparelBase_Onskin" ParentName="AS_ApparelCommonBase" Abstract="True">
+    <ThingDef Name="AS_CommonApparelBase_Onskin" ParentName="AS_ApparelCommonBase" Abstract="True">
         <apparel>
             <bodyPartGroups>
                 <li>Torso</li>
@@ -17,19 +17,19 @@
                 <li>Soldier</li>
             </defaultOutfitTags>
         </apparel>
+        <tradeability>All</tradeability>
+        <tradeTags>
+          <li>AS_BasicClothing</li>
+        </tradeTags>
     </ThingDef>
 
-    <ThingDef ParentName="AS_ApparelBase_Onskin">
+    <ThingDef ParentName="AS_CommonApparelBase_Onskin">
       <defName>AS_Common_Tribal</defName>
       <description>原始的なツールを使って作られた衣服です。僅かですが断熱効果があります。</description>
       <label>一枚布（ハーフエルフ）</label>
-      <tradeTags>
-          <li>BasicClothing</li>
-          <li>AS_BasicClothing</li>
-      </tradeTags>
       <techLevel>Neolithic</techLevel>
       <graphicData>
-        <texPath>Apparels/Common/onskin/Tribal</texPath>
+        <texPath>Apparels/Common/onskin/RagCloth</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <drawSize>1.2</drawSize>
       </graphicData>
@@ -55,7 +55,7 @@
         </recipeUsers>
       </recipeMaker>
       <apparel>
-        <wornGraphicPath>Apparels/Common/onskin/Tribal</wornGraphicPath>
+        <wornGraphicPath>Apparels/Common/onskin/RagCloth</wornGraphicPath>
         <tags>
           <li>AS_Common_Apparel</li>
           <li>AS_BasicClothing</li>

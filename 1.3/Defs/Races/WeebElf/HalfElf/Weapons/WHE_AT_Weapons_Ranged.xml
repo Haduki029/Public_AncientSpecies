@@ -20,7 +20,7 @@
 		<li>AS_WHE_AT_LowSnipe</li>
 	</weaponTags>
 	<graphicData>
-		<texPath>AT/Weapons/SniperRifle_WHETech</texPath>
+		<texPath>Weapons/WHE/guns/T2/WHE_SniperRifle</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
@@ -90,7 +90,7 @@
         <li>AS_WHEAT_Weapon</li>
 	</weaponTags>
 	<graphicData>
-		<texPath>AT/Weapons/WHEShotgun</texPath>
+		<texPath>Weapons/WHE/guns/T2/WHE_Shotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Shotgun_Interact</soundInteract>

@@ -21,7 +21,7 @@
     </apparelRequired>
     <apparelMoney>
 			<min>120</min>
-			<max>380</max>
+			<max>120</max>
 		</apparelMoney>
     <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
   </PawnKindDef>

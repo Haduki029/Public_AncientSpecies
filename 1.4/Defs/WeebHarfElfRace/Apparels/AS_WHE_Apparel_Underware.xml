@@ -51,7 +51,7 @@
         <MeleeHitChance>0.1</MeleeHitChance>
         <MeleeDodgeChance>0.2</MeleeDodgeChance>
         <PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
-        <MentalBreakThreshold>0.05</MentalBreakThreshold>
+        <MentalBreakThreshold>-0.02</MentalBreakThreshold>
         <CarryingCapacity>10</CarryingCapacity>
         </equippedStatOffsets>
         <recipeMaker>
@@ -75,7 +75,7 @@
             <li>Legs</li>
             <li>Feet</li>
         </bodyPartGroups>
-        <wornGraphicPath>WAE/Apparels/onskin/NanoSuits</wornGraphicPath>
+        <wornGraphicPath>Apparels/WHE/onskin/NanoSuits</wornGraphicPath>
         <useWornGraphicMask>true</useWornGraphicMask>
         <layers>
             <li>OnSkin</li>

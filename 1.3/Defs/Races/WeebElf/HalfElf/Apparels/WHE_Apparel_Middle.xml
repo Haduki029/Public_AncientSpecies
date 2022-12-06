@@ -314,7 +314,7 @@
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
       <Flammability>-1</Flammability>
       <ForagedNutritionPerDay>0.05</ForagedNutritionPerDay>
-      <MentalBreakThreshold>0.01</MentalBreakThreshold>
+      <MentalBreakThreshold>-0.01</MentalBreakThreshold>
       <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
      <recipeMaker>

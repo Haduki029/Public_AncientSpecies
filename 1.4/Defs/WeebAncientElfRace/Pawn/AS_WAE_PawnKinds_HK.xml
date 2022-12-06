@@ -51,8 +51,8 @@
 
   <PawnKindDef Name="AS_WAE_BasePawnKind_Child_HK" ParentName="AS_WAE_BasePawnKind_HK" Abstract="True">
     <combatPower>60</combatPower>
-    <minGenerationAge>3</minGenerationAge>
-    <maxGenerationAge>13</maxGenerationAge>
+    <minGenerationAge>4</minGenerationAge>
+    <maxGenerationAge>12</maxGenerationAge>
   </PawnKindDef>
 
   <PawnKindDef Name="AS_WAE_BasePawnKind_Normal_HK" ParentName="AS_WAE_BasePawnKind_HK" Abstract="True">

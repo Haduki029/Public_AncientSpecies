@@ -86,7 +86,7 @@
                     <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.02</ArmorRating_Heat>
                     <MeleeDodgeChance>0.05</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.02</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.02</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.02</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.05</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.05</ToxicEnvironmentResistance>
@@ -140,7 +140,7 @@
                     <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.02</ArmorRating_Heat>
                     <MeleeDodgeChance>0.05</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.02</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.02</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.02</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.05</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.05</ToxicEnvironmentResistance>
@@ -194,7 +194,7 @@
                     <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.03</ArmorRating_Heat>
                     <MeleeDodgeChance>0.08</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.03</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.03</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.03</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.08</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.08</ToxicEnvironmentResistance>
@@ -248,7 +248,7 @@
                     <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.04</ArmorRating_Heat>
                     <MeleeDodgeChance>0.11</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.04</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.04</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.04</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.09</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.09</ToxicEnvironmentResistance>
@@ -302,7 +302,7 @@
                     <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.05</ArmorRating_Heat>
                     <MeleeDodgeChance>0.14</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.05</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.05</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.05</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.10</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.10</ToxicEnvironmentResistance>
@@ -356,7 +356,7 @@
                     <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.06</ArmorRating_Heat>
                     <MeleeDodgeChance>0.17</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.06</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.06</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.06</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.11</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.11</ToxicEnvironmentResistance>
@@ -410,7 +410,7 @@
                     <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.07</ArmorRating_Heat>
                     <MeleeDodgeChance>0.20</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.07</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.12</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.12</ToxicEnvironmentResistance>
@@ -464,7 +464,7 @@
                     <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.07</ArmorRating_Heat>
                     <MeleeDodgeChance>0.20</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.07</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.12</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.12</ToxicEnvironmentResistance>
@@ -518,7 +518,7 @@
                     <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.07</ArmorRating_Heat>
                     <MeleeDodgeChance>0.20</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.07</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.12</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.12</ToxicEnvironmentResistance>
@@ -572,7 +572,7 @@
                     <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
                     <ArmorRating_Heat>0.07</ArmorRating_Heat>
                     <MeleeDodgeChance>0.20</MeleeDodgeChance>
-                    <MentalBreakThreshold>0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
+                    <MentalBreakThreshold>-0.07</MentalBreakThreshold><!-- メンタルブレイクしやすさ -->
                     <PsychicSensitivity>0.07</PsychicSensitivity><!-- 精神異常に対する感受性 -->
                     <ToxicResistance>0.12</ToxicResistance>
                     <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.12</ToxicEnvironmentResistance>

@@ -11,7 +11,7 @@
 		<label>グラヴェーア</label>
 		<description>榴弾を高速で撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</description>
 		<graphicData>
-			<texPath>AT/Weapons/Grawehr</texPath>
+			<texPath>Weapons/AT/guns/T2/Grawehr</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags Inherit="false">

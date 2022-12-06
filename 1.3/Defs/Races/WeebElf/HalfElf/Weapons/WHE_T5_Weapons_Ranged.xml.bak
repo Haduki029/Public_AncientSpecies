@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>AS_WHE_CC_Railgun</defName>
+        <label>ASレールガン</label>
+        <description>テスト実装。●●社により開発された最新型のレールガン。</description>
+
+        <thingCategories>
+            <li>AS_Weapons</li>
+            <li>AS_WHE_Weapons</li>
+        </thingCategories>
+
+        <weaponTags Inherit="false">
+            <li>AS_WHE_Ranged</li>
+            <li>AS_WHE_T5Ranged</li>
+        </weaponTags>
+
+        <graphicData>
+            <texPath>Weapons/WHE/guns/T5/Railgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+
+        <equippedAngleOffset>0</equippedAngleOffset>
+        <soundInteract>AS_Sound_Railgun_Interact</soundInteract>
+        <costList>
+            <Plasteel>120</Plasteel>
+            <Steel>250</Steel>
+            <ComponentSpacer>8</ComponentSpacer>
+        </costList>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>52000</WorkToMake>
+            <Mass>10.5</Mass>
+            <AccuracyTouch>0.45</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>90</AccuracyMedium>
+            <AccuracyLong>1.00</AccuracyLong>
+            <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+        </statBases>
+
+        <recipeMaker>
+            <researchPrerequisite>AS_WHE_ATWeaponCustomizationResearch</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>15</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>FabricationBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>AS_WHE_CC_T5_Weapon</li>
+        </thingSetMakerTags>
+        <weaponClasses>
+            <li>LongShots</li>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>AS_WHE_Bullet_Railgun</defaultProjectile>
+                <warmupTime>4.0</warmupTime>
+                <range>52.9</range>
+                <burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>0.01</ticksBetweenBurstShots>
+                <soundCast>AS_Sound_Railgun_Shot</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>3</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>AS_WHE_Bullet_Railgun</defName>
+        <label>railgun bullet made by ●● company </label>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>38</damageAmountBase>
+            <armorPenetrationBase>0.85</armorPenetrationBase>
+            <stoppingPower>1.5</stoppingPower>
+            <speed>220</speed>
+        </projectile>
+        <graphicData>
+            <texPath>Projectile/Railgun_Bullet</texPath>
+            <!-- <texPath>Things/Projectile/Bullet_small</texPath> -->
+            <graphicClass>Graphic_Single</graphicClass>
+            <!-- <drawSize>0.2</drawSize> -->
+        </graphicData>
+    </ThingDef>
+
+</Defs>

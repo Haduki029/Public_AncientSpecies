@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-  <ThingDef ParentName="AS_ApparelBase_Onskin">
+  <ThingDef ParentName="AS_CommonApparelBase_Onskin">
     <defName>AS_WAE_HKNationalCostume</defName>
     <description>古代エルフの民族衣装。エルフ神聖王国ではこの服装が一般的になっている。軽く動きやすい服。</description>
     <label>ASエルフの民族衣装</label>

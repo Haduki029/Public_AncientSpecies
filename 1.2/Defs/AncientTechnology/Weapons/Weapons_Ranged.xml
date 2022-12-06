@@ -6,7 +6,7 @@
 	<label>ASアサルトライフル</label>
 	<description>ある古代技術により作られた突撃銃。グリップが取り付けられており、射撃の命中精度と安定性を向上させている。</description>
 	<graphicData>
-		<texPath>AT/Weapons/AssaultRifle</texPath>
+		<texPath>Weapons/AT/guns/T1/AssaultRifle</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
@@ -77,7 +77,7 @@
 	<label>ASスナイパーライフル</label>
 	<description>ASアサルトライフルのカスタム版。スコープが取り付けられており、より遠距離を射撃することに特化させている。</description>
 	<graphicData>
-		<texPath>AT/Weapons/AssaultRifleCustom</texPath>
+		<texPath>Weapons/AT/guns/T2/AssaultRifleCustom</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
@@ -149,7 +149,7 @@
 	<label>ASショットガン</label>
 	<description>ある古代技術により作られたショットガン。</description>
 	<graphicData>
-		<texPath>AT/Weapons/Shotgun</texPath>
+		<texPath>Weapons/AT/guns/T1/Shotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Shotgun_Interact</soundInteract>
@@ -220,7 +220,7 @@
 	<label>ASハンドガン</label>
 	<description>ある古代技術により作られた拳銃。バレルが長く、安定感があり、取り回しも良いデザイン、重量になっている。</description>
 	<graphicData>
-		<texPath>AT/Weapons/HandGun</texPath>
+		<texPath>Weapons/AT/guns/T1/HandGun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<drawSize>0.8</drawSize>
 	</graphicData>
@@ -293,7 +293,7 @@
 	<label>グラヴェーア</label>
 	<description>榴弾を撃ち出すライフル。着弾地点に小さな爆発を発生させ、相手にダメージを与える。</description>
 	<graphicData>
-		<texPath>AT/Weapons/Grawehr</texPath>
+		<texPath>Weapons/AT/guns/T2/Grawehr</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Rebel_Rifle_Interact</soundInteract>

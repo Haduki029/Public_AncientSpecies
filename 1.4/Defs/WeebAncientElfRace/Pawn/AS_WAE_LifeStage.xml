@@ -53,6 +53,7 @@
     <LifeStageDef Name="AS_WAE_LifeStageLikeChild" ParentName="AS_WAE_LifeStageBase">
         <defName>AS_WAE_LikeChild</defName>
         <label>古代エルフの子供</label>
+        <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
         <bodySizeFactor>0.45</bodySizeFactor><!-- 増やすと体と頭の距離が離れる？どうやらBodyの位置を調整している？頭単体の調整はlifeStageAges内で。 -->
         <bodyWidth>1.5</bodyWidth><!-- 身体のx, y共に縮む, 頭も縮む？ -->
         <!-- <bodyDrawOffset>(0, 0, 0)</bodyDrawOffset> -->
@@ -75,6 +76,7 @@
     <LifeStageDef MayRequire="Ludeon.RimWorld.Biotech" Name="AS_WAE_LifeStagePreTeenager" ParentName="AS_WAE_LifeStageBase">
 		<defName>AS_WAE_LikePreTeenager</defName>
 		<label>古代エルフの子供</label>
+        <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
 		<bodySizeFactor>0.55</bodySizeFactor><!-- 増やすと体と頭の距離が離れる？どうやらBodyの位置を調整している？ -->
         <bodyWidth>1.65</bodyWidth><!-- 身体と頭のサイズ調整 -->
         <headSizeFactor>1.65</headSizeFactor><!-- 頭のAddonに影響する。（多分Bodywidthを同じ値を取り、AddonをPawnDrawsizeに連動するようにしておけばOK。 -->
@@ -92,6 +94,7 @@
     <LifeStageDef Name="AS_WAE_LifeStageLikeTeenager" ParentName="AS_WAE_LifeStageBase">
         <defName>AS_WAE_LikeTeenager</defName>
         <label>古代エルフの青年</label>
+        <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
         <adjective>10台のエルフ</adjective>
         <reproductive>false</reproductive>
         <bodySizeFactor>0.8</bodySizeFactor>
@@ -106,6 +109,7 @@
     <LifeStageDef>
         <defName>AS_WAE_LikeAdult</defName>
         <label>古代エルフ</label>
+        <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
         <visible>false</visible>
         <reproductive>true</reproductive>
         <sittingOffset>0.18</sittingOffset>

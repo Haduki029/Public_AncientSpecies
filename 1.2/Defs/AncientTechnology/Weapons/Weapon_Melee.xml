@@ -10,7 +10,7 @@
       <li>AS_AT_MeleeWeapon</li>
     </weaponTags>
 		<graphicData>
-			<texPath>AT/Weapons/ImpactKnuckles</texPath>
+			<texPath>Weapons/AT/melee/T2/ImpactKnuckles</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
     

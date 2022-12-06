@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+   <AS_WHE_FakeEar.label>Fake Half Elf Ears</AS_WHE_FakeEar.label>
+   <AS_WHE_FakeEar.description>Fake half-elf ears.</AS_WHE_FakeEar.description>
+   <AS_WHE_FakeEar.labelNoun>Fake half-elf ears</AS_WHE_FakeEar.labelNoun>
+
    <AS_WHE_BionicEar.label>Bionic Half Elf Ears</AS_WHE_BionicEar.label>
    <AS_WHE_BionicEar.description>Bionic half-elf ears.</AS_WHE_BionicEar.description>
    <AS_WHE_BionicEar.labelNoun>Bionic half-elf ears</AS_WHE_BionicEar.labelNoun>

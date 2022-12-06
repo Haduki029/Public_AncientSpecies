@@ -6,7 +6,7 @@
 	<label>ペネトレーター</label>
 	<description>ハーフエルフによって解析された古代技術を応用し、ASスナイパーライフルを元に改良、製造されたスナイパーライフル。</description>
 	<graphicData>
-		<texPath>AT/Weapons/SniperRifle_WHETech</texPath>
+		<texPath>Weapons/WHE/guns/T2/WHE_SniperRifle</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Assault_Rifle_Interact</soundInteract>
@@ -79,7 +79,7 @@
 	<label>グラヴェス</label>
 	<description>ハーフエルフによって解析された古代技術を応用し、グラヴェールを改造したショットガン。</description>
 	<graphicData>
-		<texPath>AT/Weapons/WHEShotgun</texPath>
+		<texPath>Weapons/WHE/guns/T2/WHE_Shotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<soundInteract>AS_Sound_Shotgun_Interact</soundInteract>

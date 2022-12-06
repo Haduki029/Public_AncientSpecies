@@ -11,7 +11,7 @@
 		<label>ASショットガン</label>
 		<description>ある古代技術により作られたショットガン。銃身が長いが、その割に重量は軽く近接での取り回しにも優れる。命中精度も全体的に高くまとまっており、接近戦～近距離では非常に頼りになる。</description>
 		<graphicData>
-			<texPath>AT/Weapons/Shotgun</texPath>
+			<texPath>Weapons/AT/guns/T1/Shotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags Inherit="false">
